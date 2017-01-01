@@ -1,0 +1,9 @@
+[submodule "themes/themes/pure"]
+	path = themes/themes/pure
+	url = https://github.com/PurePelicanTheme/pure.git
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = git://github.com/danielfrg/pelican-ipynb.git
+[submodule "themes/pure"]
+	path = themes/pure
+	url = https://github.com/PurePelicanTheme/pure.git
