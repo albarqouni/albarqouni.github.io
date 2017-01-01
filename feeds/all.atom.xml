@@ -1266,4 +1266,4 @@ yDiCAQAAMu7/A7D9sHS8L8BAAAAAAElFTkSuQmCC
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="python first"></category></entry><entry><title>first post</title><link href="/my-first-blog/" rel="alternate"></link><published>2017-01-01T00:00:00+01:00</published><updated>2017-01-01T00:00:00+01:00</updated><author><name>Shadi Albarqouni</name></author><id>tag:None,2017-01-01:/my-first-blog/</id><summary type="html">&lt;p&gt;This is my first blog today, i'm doing some tests ;) &lt;/p&gt;</summary><content type="html">&lt;p&gt;This is my first blog today, i'm doing some tests ;) &lt;/p&gt;</content></entry></feed>
+</content><category term="python first"></category></entry></feed>
