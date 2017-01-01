@@ -27,7 +27,7 @@ STATIC_PATHS = ['images', 'pdfs', 'widgets']
 PAGE_EXCLUDES = ['widgets', '.ipynb_checkpoints']
 ARTICLE_EXCLUDES = ['widgets', '.ipynb_checkpoints']
 EXTRA_PATH_METADATA = {
-    'images/favicon.ico': {'path': 'favicon.ico'},
+    'images/favicon.png': {'path': 'favicon.png'},
 }
 
 #THEME = './pelican-themes/blue-penguin'
@@ -105,6 +105,6 @@ RELATIVE_URLS = True
 
 # pure theme
 COVER_IMG_URL = 'images/shadi_cover.jpg'
-PROFILE_IMAGE_URL = 'images/faviconOld.png'
+PROFILE_IMAGE_URL = 'images/favicon.png'
 DISQUS_SITENAME = 'shadialbarqouni'
 TAGLINE = 'Deep Learning | Medical Informatics | Entrepreneurship'
