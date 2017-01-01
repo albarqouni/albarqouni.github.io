@@ -1266,17 +1266,6 @@ yDiCAQAAMu7/A7D9sHS8L8BAAAAAAElFTkSuQmCC
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="python first"></category></entry><entry><title>Our recent paper X-ray PoseNet got accepted at WACV Conference, Santa Rose, CA, USA</title><link href="/template/" rel="alternate"></link><published>2017-01-01T00:00:00+01:00</published><updated>2017-01-01T00:00:00+01:00</updated><author><name>Shadi Albarqouni</name></author><id>tag:None,2017-01-01:/template/</id><summary type="html">&lt;p&gt;Our recent paper, X-ray PoseNet, got accepted at &lt;a href="http://pamitc.org/wacv2017/"&gt;IEEE Winter Application in Computer Vision Conference&lt;/a&gt;. In this paper, we introduce the reconstruction loss in addition to the pose loss to further improve the reconstruction quality &lt;a href="http://campar.in.tum.de/Main/ShadiAlbarqouni"&gt;details&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Framework" src="/images/6DoFposeEstimation.png"&gt;&lt;/p&gt;
-&lt;p&gt;Slug: python
-Date: 2017-01-01 01:32
-Category: posts
-Tags: Deep Learning, Python
-Author: Shadi …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Our recent paper, X-ray PoseNet, got accepted at &lt;a href="http://pamitc.org/wacv2017/"&gt;IEEE Winter Application in Computer Vision Conference&lt;/a&gt;. In this paper, we introduce the reconstruction loss in addition to the pose loss to further improve the reconstruction quality &lt;a href="http://campar.in.tum.de/Main/ShadiAlbarqouni"&gt;details&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Framework" src="/images/6DoFposeEstimation.png"&gt;&lt;/p&gt;
-&lt;p&gt;Slug: python
-Date: 2017-01-01 01:32
-Category: posts
-Tags: Deep Learning, Python
-Author: Shadi Albarqouni
-Summary: WACV Paper&lt;/p&gt;</content><category term="ComputerVision"></category><category term="DeepLearning"></category><category term="X-ray"></category></entry></feed>
+</content><category term="python first"></category></entry><entry><title>Our recent paper X-ray PoseNet got accepted at WACV Conference, Santa Rose, CA, USA</title><link href="/python/" rel="alternate"></link><published>2017-01-01T01:32:00+01:00</published><updated>2017-01-01T01:32:00+01:00</updated><author><name>Shadi Albarqouni</name></author><id>tag:None,2017-01-01:/python/</id><summary type="html">&lt;p&gt;Our recent paper, X-ray PoseNet, got accepted at &lt;a href="http://pamitc.org/wacv2017/"&gt;IEEE Winter Application in Computer Vision Conference&lt;/a&gt;. In this paper, we introduce the reconstruction loss in addition to the pose loss to further improve the reconstruction quality &lt;a href="http://campar.in.tum.de/Main/ShadiAlbarqouni"&gt;details&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Framework" src="/images/6DoFposeEstimation.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Our recent paper, X-ray PoseNet, got accepted at &lt;a href="http://pamitc.org/wacv2017/"&gt;IEEE Winter Application in Computer Vision Conference&lt;/a&gt;. In this paper, we introduce the reconstruction loss in addition to the pose loss to further improve the reconstruction quality &lt;a href="http://campar.in.tum.de/Main/ShadiAlbarqouni"&gt;details&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Framework" src="/images/6DoFposeEstimation.png"&gt;&lt;/p&gt;</content><category term="ComputerVision"></category><category term="DeepLearning"></category><category term="X-ray"></category></entry></feed>
