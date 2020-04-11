@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sergey Zakharov | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/sergey-zakharov/</link>
+      <atom:link href="https://albarqouni.github.io/authors/sergey-zakharov/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sergey Zakharov</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Sergey Zakharov</title>
+      <link>https://albarqouni.github.io/authors/sergey-zakharov/</link>
+    </image>
+    
+    <item>
+      <title>Method for determining a pose of an object in an environment of the object using multi task learning and control device</title>
+      <link>https://albarqouni.github.io/publication/bui-2019-method/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2019-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When regression meets manifold learning for object recognition and pose estimation</title>
+      <link>https://albarqouni.github.io/publication/bui-2018-regression/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2018-regression/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

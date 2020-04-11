@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hematology | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/hematology/</link>
+      <atom:link href="https://albarqouni.github.io/tags/hematology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hematology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Hematology</title>
+      <link>https://albarqouni.github.io/tags/hematology/</link>
+    </image>
+    
+    <item>
+      <title>Learn to Recognize</title>
+      <link>https://albarqouni.github.io/project/learn-to-recognize/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/learn-to-recognize/</guid>
+      <description>&lt;p&gt;We started investigating Convolutional Neural Networks for Object Recognition in a supervised fashion, for example, mitotic figure detection in histology imaging (Albarqouni &lt;em&gt;et al.&lt;/em&gt; 2016), Catheter electrodes detection and depth estimation in Interventional Imaging (Baur &lt;em&gt;et al.&lt;/em&gt; 2016), femur fracture detection in radiology (Kazi &lt;em&gt;et al.&lt;/em&gt; 2017), in-depth layer X-ray synthesis (Albarqouni &lt;em&gt;et al.&lt;/em&gt; 2017), and pose estimation of mobile X-rays (Bui &lt;em&gt;et al.&lt;/em&gt; 2017). One of the first work which has been highly recognized and featured in the media is AggNet (Albarqouni &lt;em&gt;et al.&lt;/em&gt; 2016) for Mitotic figure detection in Histology Images. Although the network architecture was shallow, it was trained using millions of multi-scale RGB patches of histology images, achieving outstanding performance (ranked 3rd among 15 participants in AMIDA13 challenge).&lt;/p&gt;
+&lt;p&gt;During our work, we found out such data-driven models demand a massive amount of annotated data, which might not be available in medical imaging and can not be mitigated by simple data augmentation. Besides, we found out such models are so sensitive to domain shift, i.e., different scanner, and methods such as domain adaptation is required. Therefore, we have focused our research directions to develop fully-automated, high accurate solutions that save export labor and efforts, and mitigate the challenges in medical imaging. For example,  i) the availability of a few annotated data, ii) low inter-/intra-observers agreement, iii) high-class imbalance, iv) inter-/intra-scanners variability and v) domain shift.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Shadi_Web_Images.016.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To mitigate the problem of limited annotated data, we developed models that &lt;em&gt;Learn from a Few Examples&lt;/em&gt; by i) leveraging the massive amount of unlabeled data via semi-supervised techniques (Baur and Albarqouni &lt;em&gt;et al.&lt;/em&gt; 2017), ii) utilizing weakly labeled data, which is way cheaper than densely one (Kazi &lt;em&gt;et al.&lt;/em&gt; 2017), iii) generating more examples through modeling the data distribution (Baur &lt;em&gt;et al.&lt;/em&gt; 2018), and finally by iv) investigating unsupervised approaches (Baur &lt;em&gt;et al.&lt;/em&gt; 2018, Baur &lt;em&gt;et al.&lt;/em&gt; 2019).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Shadi_Web_Images.017.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;https://www.med.upenn.edu/apps/faculty/index.php/g275/p9161623&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter Nöel&lt;/a&gt;, Department of Radiology, 
+&lt;a href=&#34;https://www.med.upenn.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Pennsylvania&lt;/a&gt;, USA&lt;/li&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;https://www.med.physik.uni-muenchen.de/personen/guests/dr_guillaume_landry/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guillaume Landry&lt;/a&gt;, Department of Radiation Oncology, Medical Center of the University of Munich, Germany&lt;/li&gt;
+&lt;li&gt;Dr. 
+&lt;a href=&#34;https://www.neurokopfzentrum.med.tum.de/neuroradiologie/forschung_projekt_computational_imaging.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedikt Wiestler&lt;/a&gt;, TUM Neuroradiologie, 
+&lt;a href=&#34;https://www.mri.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Klinikum rechts der Isar&lt;/a&gt;, Germany&lt;/li&gt;
+&lt;li&gt;Prof. Dr. med. 
+&lt;a href=&#34;https://www.kernspin-maximilianstrasse.de/prof-dr-med-sonja-kirchhoff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonja Kirchhoff&lt;/a&gt;, 
+&lt;a href=&#34;https://www.mri.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Klinikum rechts der Isar&lt;/a&gt;, Germany&lt;/li&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;[https://www.ls2n.fr/annuaire/Diana%20MATEUS/&#34;&gt;Diana Mateus&lt;/a&gt;, 
+&lt;a href=&#34;https://www.ec-nantes.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ecole Centrale Nantes&lt;/a&gt;, France&lt;/li&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;https://www5.cs.fau.de/en/our-team/maier-andreas/projects/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andreas Maier&lt;/a&gt;, 
+&lt;a href=&#34;https://www.fau.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Friedrich-Alexander-Universität Erlangen-Nürnberg&lt;/a&gt;, Germany&lt;/li&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;https://health.uottawa.ca/people/fallavollita-pascal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pascal Fallavollita&lt;/a&gt;, 
+&lt;a href=&#34;https://www.uottawa.ca/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ottawa University&lt;/a&gt;, Canada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Siemens Healthineers&lt;/li&gt;
+&lt;li&gt;Siemens AG&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

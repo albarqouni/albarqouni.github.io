@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8 | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/publication_types/8/</link>
+      <atom:link href="https://albarqouni.github.io/publication_types/8/index.xml" rel="self" type="application/rss+xml" />
+    <description>8</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>8</title>
+      <link>https://albarqouni.github.io/publication_types/8/</link>
+    </image>
+    
+    <item>
+      <title>Method for determining a pose of an object in an environment of the object using multi task learning and control device</title>
+      <link>https://albarqouni.github.io/publication/bui-2019-method/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2019-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determination of the pose of an x-ray unit relative to an object using a digital model of the object</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2018-determination/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2018-determination/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

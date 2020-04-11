@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Granger | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/eric-granger/</link>
+      <atom:link href="https://albarqouni.github.io/authors/eric-granger/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eric Granger</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Eric Granger</title>
+      <link>https://albarqouni.github.io/authors/eric-granger/</link>
+    </image>
+    
+    <item>
+      <title>LABELS 2018 Preface</title>
+      <link>https://albarqouni.github.io/publication/sznitman-2018-labels/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sznitman-2018-labels/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

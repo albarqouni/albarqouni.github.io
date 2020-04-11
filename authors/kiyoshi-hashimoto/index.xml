@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kiyoshi Hashimoto | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/kiyoshi-hashimoto/</link>
+      <atom:link href="https://albarqouni.github.io/authors/kiyoshi-hashimoto/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kiyoshi Hashimoto</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Kiyoshi Hashimoto</title>
+      <link>https://albarqouni.github.io/authors/kiyoshi-hashimoto/</link>
+    </image>
+    
+    <item>
+      <title>Parsing human skeletons in an operating room</title>
+      <link>https://albarqouni.github.io/publication/belagiannis-2016-parsing/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/belagiannis-2016-parsing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

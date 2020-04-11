@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anees Kazi | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/anees-kazi/</link>
+      <atom:link href="https://albarqouni.github.io/authors/anees-kazi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anees Kazi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Anees Kazi</title>
+      <link>https://albarqouni.github.io/authors/anees-kazi/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
+      <link>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-graph/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-attention equipped graph convolutions for disease prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-self/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2019-towards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly-supervised localization and classification of proximal femur fractures</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2018-weakly/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2018-weakly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic classification of proximal femur fractures based on attention models</title>
+      <link>https://albarqouni.github.io/publication/kazi-2017-automatic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2017-automatic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pose Estimation | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/pose-estimation/</link>
+      <atom:link href="https://albarqouni.github.io/tags/pose-estimation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pose Estimation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Pose Estimation</title>
+      <link>https://albarqouni.github.io/tags/pose-estimation/</link>
+    </image>
+    
+    <item>
+      <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
+      <link>https://albarqouni.github.io/publication/bui-2019-adversarial/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2019-adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scene coordinate and correspondence learning for image-based localization</title>
+      <link>https://albarqouni.github.io/publication/bui-2018-scene/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2018-scene/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When regression meets manifold learning for object recognition and pose estimation</title>
+      <link>https://albarqouni.github.io/publication/bui-2018-regression/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2018-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-Ray PoseNet: 6 DoF pose estimation for mobile X-Ray devices</title>
+      <link>https://albarqouni.github.io/publication/bui-2017-x/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2017-x/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

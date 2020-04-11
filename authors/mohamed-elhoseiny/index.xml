@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mohamed Elhoseiny | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/mohamed-elhoseiny/</link>
+      <atom:link href="https://albarqouni.github.io/authors/mohamed-elhoseiny/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mohamed Elhoseiny</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Mohamed Elhoseiny</title>
+      <link>https://albarqouni.github.io/authors/mohamed-elhoseiny/</link>
+    </image>
+    
+    <item>
+      <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
+      <link>https://albarqouni.github.io/sites.google.com/view/mtlrl</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/sites.google.com/view/mtlrl</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandra Sträter | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/alexandra-strater/</link>
+      <atom:link href="https://albarqouni.github.io/authors/alexandra-strater/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexandra Sträter</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Alexandra Sträter</title>
+      <link>https://albarqouni.github.io/authors/alexandra-strater/</link>
+    </image>
+    
+    <item>
+      <title>Weakly-supervised localization and classification of proximal femur fractures</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2018-weakly/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2018-weakly/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

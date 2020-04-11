@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Federated Learning | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/federated-learning/</link>
+      <atom:link href="https://albarqouni.github.io/tags/federated-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Federated Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Federated Learning</title>
+      <link>https://albarqouni.github.io/tags/federated-learning/</link>
+    </image>
+    
+    <item>
+      <title>Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/project/federated-learning/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/federated-learning/</guid>
+      <description>&lt;p&gt;Deep Learning (DL) has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of computer vision and medical applications. However, this success comes at the cost of collecting and processing a massive amount of data, which often are not accessible, in Healthcare, due to privacy issues. Federated Learning (FL) has been recently introduced to allow training DL models without sharing the data. Instead, DL models at local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, share only the trained parameters with a centralized DL model, which is, in return, responsible for updating the local DL models as well.&lt;/p&gt;
+&lt;p&gt;Our golas in this project is to develop novel models and algorithms for a ground-breaking new generation of deep FL, which can distill the knowledge from local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, and edges, &lt;em&gt;i.e.&lt;/em&gt; wearable devices, to provide personalized healthcare services.&lt;/p&gt;
+&lt;p&gt;The principal &lt;strong&gt;challenges&lt;/strong&gt;, to overcome, concern the nature of medical data, namely data heterogeneity; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), inter-/intra-observer variability (noisy annotations), system heterogeneity, and privacy issues (see the example below).&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Soon&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Future of Digital Health with Federated Learning</title>
+      <link>https://albarqouni.github.io/publication/rieke-2020-future/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/rieke-2020-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/ulm2019/</link>
+      <pubDate>Fri, 17 Jan 2020 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/ulm2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/haicu2019/</link>
+      <pubDate>Mon, 16 Dec 2019 09:30:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/haicu2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/guc2019/</link>
+      <pubDate>Wed, 27 Nov 2019 11:15:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/guc2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/icann2019/</link>
+      <pubDate>Thu, 19 Sep 2019 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/icann2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

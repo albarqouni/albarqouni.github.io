@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tobias Würfl | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/tobias-wurfl/</link>
+      <atom:link href="https://albarqouni.github.io/authors/tobias-wurfl/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tobias Würfl</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Tobias Würfl</title>
+      <link>https://albarqouni.github.io/authors/tobias-wurfl/</link>
+    </image>
+    
+    <item>
+      <title>Multiple device segmentation for fluoroscopic imaging using multi-task learning</title>
+      <link>https://albarqouni.github.io/publication/breininger-2018-multiple/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/breininger-2018-multiple/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rebecca Fahrig | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/rebecca-fahrig/</link>
+      <atom:link href="https://albarqouni.github.io/authors/rebecca-fahrig/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rebecca Fahrig</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Rebecca Fahrig</title>
+      <link>https://albarqouni.github.io/authors/rebecca-fahrig/</link>
+    </image>
+    
+    <item>
+      <title>Learning-based x-ray image denoising utilizing model-based image simulations</title>
+      <link>https://albarqouni.github.io/publication/hariharan-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/hariharan-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preliminary results of DSA denoising based on a weighted low-rank approach using an advanced neurovascular replication system</title>
+      <link>https://albarqouni.github.io/publication/hariharan-2019-preliminary/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/hariharan-2019-preliminary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
+      <link>https://albarqouni.github.io/publication/hariharan-2018-photon/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/hariharan-2018-photon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

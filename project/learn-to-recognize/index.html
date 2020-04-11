@@ -1,0 +1,6440 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shadi Albarqouni">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Detection, Classification, Segmentation, Anomaly Detection, Semi-/Weakly-Supervised Learning">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://albarqouni.github.io/project/learn-to-recognize/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://albarqouni.github.io/project/learn-to-recognize/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ShadiAlbarqouni">
+  <meta property="twitter:creator" content="@ShadiAlbarqouni">
+  
+  <meta property="og:site_name" content="Shadi Albarqouni">
+  <meta property="og:url" content="https://albarqouni.github.io/project/learn-to-recognize/">
+  <meta property="og:title" content="Learn to Recognize | Shadi Albarqouni">
+  <meta property="og:description" content="Detection, Classification, Segmentation, Anomaly Detection, Semi-/Weakly-Supervised Learning"><meta property="og:image" content="https://albarqouni.github.io/project/learn-to-recognize/featured.png">
+  <meta property="twitter:image" content="https://albarqouni.github.io/project/learn-to-recognize/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-04-06T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-04-06T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://albarqouni.github.io/project/learn-to-recognize/"
+  },
+  "headline": "Learn to Recognize",
+  
+  "image": [
+    "https://albarqouni.github.io/project/learn-to-recognize/featured.png"
+  ],
+  
+  "datePublished": "2020-04-06T00:00:00Z",
+  "dateModified": "2020-04-06T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shadi Albarqouni"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shadi Albarqouni",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://albarqouni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Detection, Classification, Segmentation, Anomaly Detection, Semi-/Weakly-Supervised Learning"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Learn to Recognize | Shadi Albarqouni</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Shadi Albarqouni</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Shadi Albarqouni</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Resume</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Community</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/students/"><span>Students</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/codes/"><span>Codes</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/team/"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/collaborations/"><span>Collaborations</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Learn to Recognize</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 6, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/#contact" >
+    <i class="fab fa-code mr-1"></i>
+    Contribute
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 675px; max-height: 608px;">
+  <div style="position: relative">
+    <img src="/project/learn-to-recognize/featured.png" alt="" class="featured-image">
+    <span class="article-header-caption">Illustrative figure by Shadi Albarqouni</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>We started investigating Convolutional Neural Networks for Object Recognition in a supervised fashion, for example, mitotic figure detection in histology imaging (Albarqouni <em>et al.</em> 2016), Catheter electrodes detection and depth estimation in Interventional Imaging (Baur <em>et al.</em> 2016), femur fracture detection in radiology (Kazi <em>et al.</em> 2017), in-depth layer X-ray synthesis (Albarqouni <em>et al.</em> 2017), and pose estimation of mobile X-rays (Bui <em>et al.</em> 2017). One of the first work which has been highly recognized and featured in the media is AggNet (Albarqouni <em>et al.</em> 2016) for Mitotic figure detection in Histology Images. Although the network architecture was shallow, it was trained using millions of multi-scale RGB patches of histology images, achieving outstanding performance (ranked 3rd among 15 participants in AMIDA13 challenge).</p>
+<p>During our work, we found out such data-driven models demand a massive amount of annotated data, which might not be available in medical imaging and can not be mitigated by simple data augmentation. Besides, we found out such models are so sensitive to domain shift, i.e., different scanner, and methods such as domain adaptation is required. Therefore, we have focused our research directions to develop fully-automated, high accurate solutions that save export labor and efforts, and mitigate the challenges in medical imaging. For example,  i) the availability of a few annotated data, ii) low inter-/intra-observers agreement, iii) high-class imbalance, iv) inter-/intra-scanners variability and v) domain shift.</p>
+<p><img src="Shadi_Web_Images.016.jpeg" alt=""></p>
+<p>To mitigate the problem of limited annotated data, we developed models that <em>Learn from a Few Examples</em> by i) leveraging the massive amount of unlabeled data via semi-supervised techniques (Baur and Albarqouni <em>et al.</em> 2017), ii) utilizing weakly labeled data, which is way cheaper than densely one (Kazi <em>et al.</em> 2017), iii) generating more examples through modeling the data distribution (Baur <em>et al.</em> 2018), and finally by iv) investigating unsupervised approaches (Baur <em>et al.</em> 2018, Baur <em>et al.</em> 2019).</p>
+<p><img src="Shadi_Web_Images.017.jpeg" alt=""></p>
+<h3 id="collaboration">Collaboration:</h3>
+<ul>
+<li>Prof. 
+<a href="https://www.med.upenn.edu/apps/faculty/index.php/g275/p9161623" target="_blank" rel="noopener">Peter Nöel</a>, Department of Radiology, 
+<a href="https://www.med.upenn.edu/" target="_blank" rel="noopener">University of Pennsylvania</a>, USA</li>
+<li>Prof. 
+<a href="https://www.med.physik.uni-muenchen.de/personen/guests/dr_guillaume_landry/index.html" target="_blank" rel="noopener">Guillaume Landry</a>, Department of Radiation Oncology, Medical Center of the University of Munich, Germany</li>
+<li>Dr. 
+<a href="https://www.neurokopfzentrum.med.tum.de/neuroradiologie/forschung_projekt_computational_imaging.html" target="_blank" rel="noopener">Benedikt Wiestler</a>, TUM Neuroradiologie, 
+<a href="https://www.mri.tum.de/" target="_blank" rel="noopener">Klinikum rechts der Isar</a>, Germany</li>
+<li>Prof. Dr. med. 
+<a href="https://www.kernspin-maximilianstrasse.de/prof-dr-med-sonja-kirchhoff/" target="_blank" rel="noopener">Sonja Kirchhoff</a>, 
+<a href="https://www.mri.tum.de/" target="_blank" rel="noopener">Klinikum rechts der Isar</a>, Germany</li>
+<li>Prof. 
+<a href="[https://www.ls2n.fr/annuaire/Diana%20MATEUS/">Diana Mateus</a>, 
+<a href="https://www.ec-nantes.fr/" target="_blank" rel="noopener">Ecole Centrale Nantes</a>, France</li>
+<li>Prof. 
+<a href="https://www5.cs.fau.de/en/our-team/maier-andreas/projects/index.html" target="_blank" rel="noopener">Andreas Maier</a>, 
+<a href="https://www.fau.de/" target="_blank" rel="noopener">Friedrich-Alexander-Universität Erlangen-Nürnberg</a>, Germany</li>
+<li>Prof. 
+<a href="https://health.uottawa.ca/people/fallavollita-pascal" target="_blank" rel="noopener">Pascal Fallavollita</a>, 
+<a href="https://www.uottawa.ca/en" target="_blank" rel="noopener">Ottawa University</a>, Canada</li>
+</ul>
+<h3 id="funding">Funding:</h3>
+<ul>
+<li>Siemens Healthineers</li>
+<li>Siemens AG</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/deep-learning/">Deep Learning</a>
+  
+  <a class="badge badge-light" href="/tags/histology/">Histology</a>
+  
+  <a class="badge badge-light" href="/tags/hematology/">Hematology</a>
+  
+  <a class="badge badge-light" href="/tags/radiology/">Radiology</a>
+  
+  <a class="badge badge-light" href="/tags/anomaly-detection/">Anomaly Detection</a>
+  
+  <a class="badge badge-light" href="/tags/weakly-supervised-learning/">Weakly-Supervised Learning</a>
+  
+  <a class="badge badge-light" href="/tags/semi-supervised-learning/">Semi-Supervised Learning</a>
+  
+  <a class="badge badge-light" href="/tags/medical-imaging/">Medical Imaging</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://albarqouni.github.io/project/learn-to-recognize/&amp;text=Learn%20to%20Recognize" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://albarqouni.github.io/project/learn-to-recognize/&amp;t=Learn%20to%20Recognize" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Learn%20to%20Recognize&amp;body=https://albarqouni.github.io/project/learn-to-recognize/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://albarqouni.github.io/project/learn-to-recognize/&amp;title=Learn%20to%20Recognize" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Learn%20to%20Recognize%20https://albarqouni.github.io/project/learn-to-recognize/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://albarqouni.github.io/project/learn-to-recognize/&amp;title=Learn%20to%20Recognize" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu756ae419dca872ecfcac293f58082c63_29617_270x270_fill_q90_lanczos_center.jpg" alt="Shadi Albarqouni">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://albarqouni.github.io/">Shadi Albarqouni</a></h5>
+      <h6 class="card-subtitle">Visiting Scientist @ ETH Zürich | Senior Research Scientist and Team Lead @ TU Munich</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.de/citations?user=CPuApzoAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/albarqouni" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/shadialbarqouni/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-2157-2211" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/bdair-2020-roam/">ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</a></li>
+      
+      <li><a href="/publication/shapira-2020-benefit/">Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</a></li>
+      
+      <li><a href="/publication/shapira-2020-liver/">Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</a></li>
+      
+      <li><a href="/publication/parida-2019-learn/">Learn to Segment Organs with a Few Bounding Boxes</a></li>
+      
+      <li><a href="/publication/baur-2019-fusing/">Fusing unsupervised and supervised deep learning for white matter lesion segmentation</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/roger-d-soberanis-mukul/">Roger D Soberanis-Mukul</a></span>, <span><a href="/authors/maxime-kayser/">Maxime Kayser</a></span>, <span><a href="/authors/anna-maria-zvereva/">Anna-Maria Zvereva</a></span>, <span><a href="/authors/peter-klare/">Peter Klare</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>arXiv preprint arXiv:2002.02883</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/soberanis-2020-learning/">
+      <img src="/publication/soberanis-2020-learning/featured_hu8797dcd4f840cd56360495de717af43b_1372828_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/soberanis-2020-learning/">A learning without forgetting approach to incorporate artifact knowledge in polyp localization tasks</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Colorectal polyps are abnormalities in the colon tissue that can develop into colorectal cancer. The survival rate for patients is higher when the disease is detected at an early stage and polyps can be removed before they develop into malignant tumors. Deep learning methods have become the state of art in automatic polyp detection. However, the performance of current models heavily relies on the size and quality of the training datasets. Endoscopic video sequences tend to be corrupted by different artifacts affecting visibility and hence, the detection rates. In this work, we analyze the effects that artifacts have in the polyp localization problem. For this, we evaluate the RetinaNet architecture, originally defined for object localization. We also define a model inspired by the learning without forgetting framework, which allows us to employ artifact detection knowledge in the polyp localization problem. Finally, we perform several experiments to analyze the influence of the artifacts in the performance of these models. To our best knowledge, this is the first extensive analysis of the influence of artifact in polyp localization and the first work incorporating learning without forgetting ideas for simultaneous artifact and polyp localization tasks.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/soberanis-2020-learning/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/rodsom22/lwf_polyps" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/sharib-ali/">Sharib Ali</a></span>, <span><a href="/authors/felix-zhou/">Felix Zhou</a></span>, <span><a href="/authors/barbara-braden/">Barbara Braden</a></span>, <span><a href="/authors/adam-bailey/">Adam Bailey</a></span>, <span><a href="/authors/suhui-yang/">Suhui Yang</a></span>, <span><a href="/authors/guanju-cheng/">Guanju Cheng</a></span>, <span><a href="/authors/pengyi-zhang/">Pengyi Zhang</a></span>, <span><a href="/authors/xiaoqiong-li/">Xiaoqiong Li</a></span>, <span><a href="/authors/maxime-kayser/">Maxime Kayser</a></span>, <span><a href="/authors/roger-d-soberanis-mukul/">Roger D Soberanis-Mukul</a></span>, <span><a href="/authors/others/">others</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Scientific reports</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/ali-2020-objective/">An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>We present a comprehensive analysis of the submissions to the first edition of the Endoscopy Artefact Detection challenge (EAD). Using crowd-sourcing, this initiative is a step towards understanding the limitations of existing state-of-the-art computer vision methods applied to endoscopy and promoting the development of new approaches suitable for clinical translation. Endoscopy is a routine imaging technique for the detection, diagnosis and treatment of diseases in hollow-organs; the esophagus, stomach, colon, uterus and the bladder. However the nature of these organs prevent imaged tissues to be free of imaging artefacts such as bubbles, pixel saturation, organ specularity and debris, all of which pose substantial challenges for any quantitative analysis. Consequently, the potential for improved clinical outcomes through quantitative assessment of abnormal mucosal surface observed in endoscopy videos is presently not realized accurately. The EAD challenge promotes awareness of and addresses this key bottleneck problem by investigating methods that can accurately classify, localize and segment artefacts in endoscopy frames as critical prerequisite tasks. Using a diverse curated multi-institutional, multi-modality, multi-organ dataset of video frames, the accuracy and performance of 23 algorithms were objectively ranked for artefact detection and segmentation. The ability of methods to generalize to unseen datasets was also evaluated. The best performing methods (top 15%) propose deep learning strategies to reconcile variabilities in artefact appearance with respect to size, modality, occurrence and organ type. However, no single method outperformed across all tasks. Detailed analyses reveal the shortcomings of current training strategies and highlight the need for developing new optimal metrics to accurately quantify the clinical applicability of methods.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41598-020-59413-5" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/ali-2020-objective/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/nadav-shapira/">Nadav Shapira</a></span>, <span><a href="/authors/julia-fokuhl/">Julia Fokuhl</a></span>, <span>Manuel Schultheiß</span>, <span><a href="/authors/stefanie-beck/">Stefanie Beck</a></span>, <span><a href="/authors/felix-k-kopp/">Felix K Kopp</a></span>, <span><a href="/authors/daniela-pfeiffer/">Daniela Pfeiffer</a></span>, <span><a href="/authors/julia-dangelmaier/">Julia Dangelmaier</a></span>, <span><a href="/authors/gregor-pahn/">Gregor Pahn</a></span>, <span><a href="/authors/andreas-p-sauter/">Andreas P Sauter</a></span>, <span><a href="/authors/bernhard-renger/">Bernhard Renger</a></span>, <span><a href="/authors/others/">others</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Medical Imaging 2020: Physics of Medical Imaging</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/shapira-2020-benefit/">
+      <img src="/publication/shapira-2020-benefit/featured_hu89aab3109e73e79fa4aed4282ff8900b_335908_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/shapira-2020-benefit/">Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Dual Energy CT is a modern imaging technique that is utilized in clinical practice to acquire spectral information for various diagnostic purposes including the identification, classification, and characterization of different liver lesions. It provides additional information that, when compared to the information available from conventional CT datasets, has the potential to benefit existing computer vision techniques by improving their accuracy and reliability. In order to evaluate the additional value of spectral versus conventional datasets when being used as input for machine learning algorithms, we implemented a weakly-supervised Convolutional Neural Network (CNN) that learns liver lesion localization and classification without pixel-level ground truth annotations. We evaluated the lesion classification (healthy, cyst, hypodense metastasis) and localization performance of the network for various conventional and spectral input datasets obtained from the same CT scan. The best results for lesion localization were found for the spectral datasets with distances of 8.22 ± 10.72 mm, 8.78 ± 15.21 mm and 8.29 ± 12.97 mm for iodine maps, 40 keV and 70 keV virtual mono-energetic images, respectively, while lesion localization distances of 10.58 ± 17.65 mm were measured for the conventional dataset. In addition, the 40 keV virtual mono-energetic datasets achieved the highest overall lesion classification accuracy of 0.899 compared to 0.854 measured for the conventional datasets. The enhanced localization and classification results that we observed for spectral CT data demonstrates that combining machine-learning technology with spectral CT information may improve the clinical workflow as well as the diagnostic accuracy.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11312/113121Q/Benefit-of-dual-energy-CT-for-lesion-localization-and-classification/10.1117/12.2549291.short?webSyncID=46e9e6ec-7a49-dab6-a0cb-ad059329ad88&amp;sessionGUID=3c9d902b-c999-3ced-268b-ead49a28531a&amp;SSO=1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/shapira-2020-benefit/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/mohammad-eslami/">Mohammad Eslami</a></span>, <span><a href="/authors/solale-tabarestani/">Solale Tabarestani</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/ehsan-adeli/">Ehsan Adeli</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/malek-adjouadi/">Malek Adjouadi</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>IEEE Transactions on Medical Imaging</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/eslami-2020-image/">Image-to-Images Translation for Multi-Task Organ Segmentation and Bone Suppression in Chest X-Ray Radiography</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Chest X-ray radiography is one of the earliest medical imaging technologies and remains one of the most widely-used for diagnosis, screening, and treatment follow up of diseases related to lungs and heart. The literature in this field of research reports many interesting studies dealing with the challenging tasks of bone suppression and organ segmentation but performed separately, limiting any learning that comes with the consolidation of parameters that could optimize both processes. This study, and for the first time, introduces a multitask deep learning model that generates simultaneously the bone-suppressed image and the organ-segmented image, enhancing the accuracy of tasks, minimizing the number of parameters needed by the model and optimizing the processing time, all by exploiting the interplay between the network parameters to benefit the performance of both tasks. The architectural design of this model, which relies on a conditional generative adversarial network, reveals the process on how the well-established pix2pix network (image-to-image network) is modified to fit the need for multitasking and extending it to the new image-to-images architecture. The developed source code of this multitask model is shared publicly on Github as the first attempt for providing the two-task pix2pix extension, a supervised/paired/aligned/registered image-to-images translation which would be useful in many multitask applications. Dilated convolutions are also used to improve the results through a more effective receptive field assessment. The comparison with state-of-the-art algorithms along with ablation study and a demonstration video are provided to evaluate efficacy and gauge the merits of the proposed approach.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1906.10089" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/eslami-2020-image/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/nadav-shapira/">Nadav Shapira</a></span>, <span><a href="/authors/julia-fokuhl/">Julia Fokuhl</a></span>, <span>Manuel Schultheiß</span>, <span><a href="/authors/stefanie-beck/">Stefanie Beck</a></span>, <span><a href="/authors/felix-k-kopp/">Felix K Kopp</a></span>, <span><a href="/authors/daniela-pfeiffer/">Daniela Pfeiffer</a></span>, <span><a href="/authors/julia-dangelmaier/">Julia Dangelmaier</a></span>, <span><a href="/authors/gregor-pahn/">Gregor Pahn</a></span>, <span><a href="/authors/andreas-p-sauter/">Andreas P Sauter</a></span>, <span><a href="/authors/bernhard-renger/">Bernhard Renger</a></span>, <span><a href="/authors/others/">others</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Biomedical Physics &amp; Engineering Express</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/shapira-2020-liver/">Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://iopscience.iop.org/article/10.1088/2057-1976/ab6e18" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/shapira-2020-liver/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/tariq-bdair/">Tariq Bdair</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2020
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>arXiv preprint arXiv:2003.09439</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/bdair-2020-roam/">
+      <img src="/publication/bdair-2020-roam/featured_hu4c5f1c1754639d38ce94d9230e2df680_580073_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/bdair-2020-roam/">ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Medical image segmentation is one of the major challenges addressed by machine learning methods. Yet, deep learning methods profoundly depend on a huge amount of annotated data which is time-consuming and costly. Though semi-supervised learning methods approach this problem by leveraging an abundant amount of unlabeled data along with a small amount of labeled data in the training process. Recently, MixUp regularizer [32] has been successfully introduced to semi-supervised learning methods showing superior performance [3]. MixUp augments the model with new data points through linear interpolation of the data at the input space. In this paper, we argue that this option is limited, instead, we propose ROAM, a random layer mixup, which encourages the network to be less confident for interpolated data points at randomly selected space. Hence, avoids over-fitting and enhances the generalization ability. We validate our method on publicly available datasets on whole-brain image segmentation (MALC) achieving state-of-the-art results in fully supervised (89.8%) and semi-supervised (87.2%) settings with relative improvement up to 2.75% and 16.73%, respectively.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2003.09439" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/bdair-2020-roam/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-adapt/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/mai-bui/">Mai Bui</a></span>, <span><a href="/authors/christoph-baur/">Christoph Baur</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/slobodan-ilic/">Slobodan Ilic</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Proceedings of the IEEE International Conference on Computer Vision Workshops</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/bui-2019-adversarial/">
+      <img src="/publication/bui-2019-adversarial/featured_hu92319a2acc581c9307ec7f54aa67d3d8_486733_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/bui-2019-adversarial/">Adversarial Networks for Camera Pose Regression and Refinement</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Despite recent advances on the topic of direct camera pose regression using neural networks, accurately estimating the camera pose of a single RGB image still remains a challenging task. To address this problem, we introduce a novel framework based, in its core, on the idea of implicitly learning the joint distribution of RGB images and their corresponding camera poses using a discriminator network and adversarial learning. Our method allows not only to regress the camera pose from a single image, however, also offers a solely RGB-based solution for camera pose refinement using the discriminator network. Further, we show that our method can effectively be used to optimize the predicted camera poses and thus improve the localization accuracy. To this end, we validate our proposed method on the publicly available 7-Scenes dataset improving upon the results of direct camera pose regression methods.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://openaccess.thecvf.com/content_ICCVW_2019/papers/DL4VSLAM/Bui_Adversarial_Networks_for_Camera_Pose_Regression_and_Refinement_ICCVW_2019_paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/bui-2019-adversarial/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-reason-and-explain/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/christoph-baur/">Christoph Baur</a></span>, <span><a href="/authors/benedikt-wiestler/">Benedikt Wiestler</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International Conference on Medical Imaging with Deep Learning</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/baur-2019-fusing/">Fusing unsupervised and supervised deep learning for white matter lesion segmentation</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Unsupervised Deep Learning for Medical Image Analysis is increasingly gaining attention, since it relieves from the need for annotating training data. Recently, deep generative models and representation learning have lead to new, exciting ways for unsupervised detection and delineation of biomarkers in medical images, such as lesions in brain MR. Yet, Supervised Deep Learning methods usually still perform better in these tasks, due to an optimization for explicit objectives. We aim to combine the advantages of both worlds into a novel framework for learning from both labeled &amp; unlabeled data, and validate our method on the challenging task of White Matter lesion segmentation in brain MR images. The proposed framework relies on modeling normality with deep representation learning for Unsupervised Anomaly Detection, which in turn provides optimization targets for training a supervised segmentation model from unlabeled data. In our experiments we successfully use the method in a Semi-supervised setting for tackling domain shift, a well known problem in MR image analysis, showing dramatically improved generalization. Additionally, our experiments reveal that in a completely Unsupervised setting, the proposed pipeline even outperforms the Deep Learning driven anomaly detection that provides the optimization targets.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://proceedings.mlr.press/v102/baur19a/baur19a.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/baur-2019-fusing/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/mhd-hasan-sarhan/">Mhd Hasan Sarhan</a></span>, <span><a href="/authors/abouzar-eslami/">Abouzar Eslami</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Domain Adaptation and Representation Transfer and Medical Image Learning with Less Labels and Imperfect Data</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/sarhan-2019-learning/">
+      <img src="/publication/sarhan-2019-learning/featured_hu738edd39973279ed68cf5d5620df749d_818122_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/sarhan-2019-learning/">Learning interpretable disentangled representations using adversarial vaes</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Learning Interpretable representation in medical applications is becoming essential for adopting data-driven models into clinical practice. It has been recently shown that learning a disentangled feature representation is important for a more compact and explainable representation of the data. In this paper, we introduce a novel adversarial variational autoencoder with a total correlation constraint to enforce independence on the latent representation while preserving the reconstruction fidelity. Our proposed method is validated on a publicly available dataset showing that the learned disentangled representation is not only interpretable, but also superior to the state-of-the-art methods. We report a relative improvement of 81.50% in terms of disentanglement, 11.60% in clustering, and 2% in supervised classification with a few amounts of labeled data.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1904.08491" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/sarhan-2019-learning/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-reason-and-explain/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/ashkan-khakzar/">Ashkan Khakzar</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International Conference on Medical Image Computing and Computer-Assisted Intervention</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/khakzar-2019-learning/">
+      <img src="/publication/khakzar-2019-learning/featured_hu04634dd3c52c9829be886a163e52a6b4_506568_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/khakzar-2019-learning/">Learning Interpretable Features via Adversarially Robust Optimization</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Neural networks are proven to be remarkably successful for classification and diagnosis in medical applications. However, the ambiguity in the decision-making process and the interpretability of the learned features is a matter of concern. In this work, we propose a method for improving the feature interpretability of neural network classifiers. Initially, we propose a baseline convolutional neural network with state of the art performance in terms of accuracy and weakly supervised localization. Subsequently, the loss is modified to integrate robustness to adversarial examples into the training process. In this work, feature interpretability is quantified via evaluating the weakly supervised localization using the ground truth bounding boxes. Interpretability is also visually assessed using class activation maps and saliency maps. The method is applied to NIH ChestX-ray14, the largest publicly available chest x-rays dataset. We demonstrate that the adversarially robust optimization paradigm improves feature interpretability both quantitatively and visually.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1905.03767" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/khakzar-2019-learning/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-reason-and-explain/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/sai-gokul-hariharan/">Sai Gokul Hariharan</a></span>, <span><a href="/authors/christian-kaethner/">Christian Kaethner</a></span>, <span><a href="/authors/norbert-strobel/">Norbert Strobel</a></span>, <span><a href="/authors/markus-kowarschik/">Markus Kowarschik</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/rebecca-fahrig/">Rebecca Fahrig</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International Conference on Medical Image Computing and Computer-Assisted Intervention</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/hariharan-2019-learning/">Learning-based x-ray image denoising utilizing model-based image simulations</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/hariharan-2019-learning/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/mhd-hasan-sarhan/">Mhd Hasan Sarhan</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/mehmet-yigitsoy/">Mehmet Yigitsoy</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/abouzar-eslami/">Abouzar Eslami</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International Conference on Medical Image Computing and Computer-Assisted Intervention</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/sarhan-2019-multi/">
+      <img src="/publication/sarhan-2019-multi/featured_hu6475b771f2a64bdde0536af0030a9fe9_1079067_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/sarhan-2019-multi/">Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Deep learning techniques are recently being used in fundus image analysis and diabetic retinopathy detection. Microaneurysms are an important indicator of diabetic retinopathy progression. We introduce a two-stage deep learning approach for microaneurysms segmentation using multiple scales of the input with selective sampling and embedding triplet loss. The model first segments on two scales and then the segmentations are refined with a classification model. To enhance the discriminative power of the classification model, we incorporate triplet embedding loss with a selective sampling routine. The model is evaluated quantitatively to assess the segmentation performance and qualitatively to analyze the model predictions. This approach introduces a 30.29% relative improvement over the fully convolutional neural network.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.springerprofessional.de/en/multi-scale-microaneurysms-segmentation-using-embedding-triplet-/17254860" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/sarhan-2019-multi/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-from-graph/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/sai-gokul-hariharan/">Sai Gokul Hariharan</a></span>, <span><a href="/authors/christian-kaethner/">Christian Kaethner</a></span>, <span><a href="/authors/norbert-strobel/">Norbert Strobel</a></span>, <span><a href="/authors/markus-kowarschik/">Markus Kowarschik</a></span>, <span><a href="/authors/julie-dinitto/">Julie DiNitto</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/rebecca-fahrig/">Rebecca Fahrig</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International journal of computer assisted radiology and surgery</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/hariharan-2019-preliminary/">Preliminary results of DSA denoising based on a weighted low-rank approach using an advanced neurovascular replication system</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/hariharan-2019-preliminary/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/amelia-jimenez-sanchez/">Amelia Jiménez-Sánchez</a></span>, <span><a href="/authors/anees-kazi/">Anees Kazi</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/chlodwig-kirchhoff/">Chlodwig Kirchhoff</a></span>, <span><a href="/authors/peter-biberthaler/">Peter Biberthaler</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/diana-mateus/">Diana Mateus</a></span>, <span><a href="/authors/sonja-kirchhoff/">Sonja Kirchhoff</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>arXiv preprint arXiv:1902.01338</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/jimenez-2019-towards/">
+      <img src="/publication/jimenez-2019-towards/featured_hu6c5fdd2bd42ed01c661e86efb7363b5a_401965_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/jimenez-2019-towards/">Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>We demonstrate the feasibility of a fully automatic computer-aided diagnosis (CAD) tool, based on deep learning, that localizes and classifies proximal femur fractures on X-ray images according to the AO classification. The proposed framework aims to improve patient treatment planning and provide support for the training of trauma surgeon residents. A database of 1347 clinical radiographic studies was collected. Radiologists and trauma surgeons annotated all fractures with bounding boxes, and provided a classification according to the AO standard. The proposed CAD tool for the classification of radiographs into types &lsquo;A&rsquo;, &lsquo;B&rsquo; and &lsquo;not-fractured&rsquo;, reaches a F1-score of 87% and AUC of 0.95, when classifying fractures versus not-fractured cases it improves up to 94% and 0.98. Prior localization of the fracture results in an improvement with respect to full image classification. 100% of the predicted centers of the region of interest are contained in the manually provided bounding boxes. The system retrieves on average 9 relevant images (from the same class) out of 10 cases. Our CAD scheme localizes, detects and further classifies proximal femur fractures achieving results comparable to expert-level and state-of-the-art performance. Our auxiliary localization model was highly accurate predicting the region of interest in the radiograph. We further investigated several strategies of verification for its adoption into the daily clinical routine. A sensitivity analysis of the size of the ROI and image retrieval as a clinical use case were presented.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1902.01338" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/jimenez-2019-towards/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/sai-gokul-hariharan/">Sai Gokul Hariharan</a></span>, <span><a href="/authors/norbert-strobel/">Norbert Strobel</a></span>, <span><a href="/authors/christian-kaethner/">Christian Kaethner</a></span>, <span><a href="/authors/markus-kowarschik/">Markus Kowarschik</a></span>, <span><a href="/authors/stefanie-demirci/">Stefanie Demirci</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/rebecca-fahrig/">Rebecca Fahrig</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International journal of computer assisted radiology and surgery</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/hariharan-2018-photon/">A photon recycling approach to the denoising of ultra-low dose X-ray sequences</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/hariharan-2018-photon/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/amelia-jimenez-sanchez/">Amelia Jiménez-Sánchez</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/diana-mateus/">Diana Mateus</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Intravascular Imaging and Computer Assisted Stenting and Large-Scale Annotation of Biomedical Data and Expert Label Synthesis</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/jimenez-2018-capsule/">Capsule networks against medical imaging data challenges</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>A key component to the success of deep learning is the availability of massive amounts of training data. Building and annotating large datasets for solving medical image classification problems is today a bottleneck for many applications. Recently, capsule networks were proposed to deal with shortcomings of Convolutional Neural Networks (ConvNets). In this work, we compare the behavior of capsule networks against ConvNets under typical datasets constraints of medical image analysis, namely, small amounts of annotated data and class-imbalance. We evaluate our experiments on MNIST, Fashion-MNIST and medical (histological and retina images) publicly available datasets. Our results suggest that capsule networks can be trained with less amount of data for the same or better performance and are more robust to an imbalanced class distribution, which makes our approach very promising for the medical imaging community.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-030-01364-6_17" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/jimenez-2018-capsule/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ameliajimenez/capsule-networks-medical-data-challenges" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/christoph-baur/">Christoph Baur</a></span>, <span><a href="/authors/benedikt-wiestler/">Benedikt Wiestler</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International MICCAI Brainlesion Workshop</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/baur-2018-deep/">
+      <img src="/publication/baur-2018-deep/featured_huc772424319abd4b4ad4784b92322adec_264771_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/baur-2018-deep/">Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Reliably modeling normality and differentiating abnormal appearances from normal cases is a very appealing approach for detecting pathologies in medical images. A plethora of such unsupervised anomaly detection approaches has been made in the medical domain, based on statistical methods, content-based retrieval, clustering and recently also deep learning. Previous approaches towards deep unsupervised anomaly detection model patches of normal anatomy with variants of Autoencoders or GANs, and detect anomalies either as outliers in the learned feature space or from large reconstruction errors. In contrast to these patch-based approaches, we show that deep spatial autoencoding models can be efficiently used to capture normal anatomical variability of entire 2D brain MR images. A variety of experiments on real MR data containing MS lesions corroborates our hypothesis that we can detect and even delineate anomalies in brain MR images by simply comparing input images to their reconstruction. Results show that constraints on the latent space and adversarial training can further improve the segmentation performance over standard deep representation learning.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1804.04488" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/baur-2018-deep/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/christoph-baur/">Christoph Baur</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>OR 2.0 Context-Aware Operating Theaters, Computer Assisted Robotic Endoscopy, Clinical Image-Based Procedures, and Skin Image Analysis</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/baur-2018-generating/">Generating highly realistic images of skin lesions with GANs</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>As many other machine learning driven medical image analysis tasks, skin image analysis suffers from a chronic lack of labeled data and skewed class distributions, which poses problems for the training of robust and well-generalizing models. The ability to synthesize realistic looking images of skin lesions could act as a reliever for the aforementioned problems. Generative Adversarial Networks (GANs) have been successfully used to synthesize realistically looking medical images, however limited to low resolution, whereas machine learning models for challenging tasks such as skin lesion segmentation or classification benefit from much higher resolution data. In this work, we successfully synthesize realistically looking images of skin lesions with GANs at such high resolution. Therefore, we utilize the concept of progressive growing, which we both quantitatively and qualitatively compare to other GAN architectures such as the DCGAN and the LAPGAN. Our results show that with the help of progressive growing, we can synthesize highly realistic dermoscopic images of skin lesions that even expert dermatologists find hard to distinguish from real ones.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-030-01201-4_28" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/baur-2018-generating/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/katharina-breininger/">Katharina Breininger</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/tanja-kurzendorfer/">Tanja Kurzendorfer</a></span>, <span><a href="/authors/marcus-pfister/">Marcus Pfister</a></span>, <span><a href="/authors/markus-kowarschik/">Markus Kowarschik</a></span>, <span><a href="/authors/andreas-maier/">Andreas Maier</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International journal of computer assisted radiology and surgery</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/breininger-2018-intraoperative/">Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.ncbi.nlm.nih.gov/pubmed/29779153" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/breininger-2018-intraoperative/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/katharina-breininger/">Katharina Breininger</a></span>, <span><a href="/authors/tobias-wurfl/">Tobias Würfl</a></span>, <span><a href="/authors/tanja-kurzendorfer/">Tanja Kurzendorfer</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/marcus-pfister/">Marcus Pfister</a></span>, <span><a href="/authors/markus-kowarschik/">Markus Kowarschik</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/andreas-maier/">Andreas Maier</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Intravascular Imaging and Computer Assisted Stenting and Large-Scale Annotation of Biomedical Data and Expert Label Synthesis</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/breininger-2018-multiple/">Multiple device segmentation for fluoroscopic imaging using multi-task learning</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-030-01364-6_3" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/breininger-2018-multiple/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/mai-bui/">Mai Bui</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/slobodan-ilic/">Slobodan Ilic</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>arXiv preprint arXiv:1805.08443</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/bui-2018-scene/">Scene coordinate and correspondence learning for image-based localization</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Scene coordinate regression has become an essential part of current camera re-localization methods. Different versions, such as regression forests and deep learning methods, have been successfully applied to estimate the corresponding camera pose given a single input image. In this work, we propose to regress the scene coordinates pixel-wise for a given RGB image by using deep learning. Compared to the recent methods, which usually employ RANSAC to obtain a robust pose estimate from the established point correspondences, we propose to regress confidences of these correspondences, which allows us to immediately discard erroneous predictions and improve the initial pose estimates. Finally, the resulting confidences can be used to score initial pose hypothesis and aid in pose refinement, offering a generalized solution to solve this task.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1805.08443" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/bui-2018-scene/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-reason-and-explain/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/amelia-jimenez-sanchez/">Amelia Jiménez-Sánchez</a></span>, <span><a href="/authors/anees-kazi/">Anees Kazi</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/sonja-kirchhoff/">Sonja Kirchhoff</a></span>, <span><a href="/authors/alexandra-strater/">Alexandra Sträter</a></span>, <span><a href="/authors/peter-biberthaler/">Peter Biberthaler</a></span>, <span><a href="/authors/diana-mateus/">Diana Mateus</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>arXiv preprint arXiv:1809.10692</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/jimenez-2018-weakly/">Weakly-supervised localization and classification of proximal femur fractures</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/jimenez-2018-weakly/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/mai-bui/">Mai Bui</a></span>, <span><a href="/authors/sergey-zakharov/">Sergey Zakharov</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/slobodan-ilic/">Slobodan Ilic</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2018
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>2018 IEEE International Conference on Robotics and Automation (ICRA)</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/bui-2018-regression/">
+      <img src="/publication/bui-2018-regression/featured_hu9475e40123017607cf3e014e405fbc8c_136639_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/bui-2018-regression/">When regression meets manifold learning for object recognition and pose estimation</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>In this work, we propose a method for object recognition and pose estimation from depth images using convolutional neural networks. Previous methods addressing this problem rely on manifold learning to learn low dimensional viewpoint descriptors and employ them in a nearest neighbor search on an estimated descriptor space. In comparison we create an efficient multi-task learning framework combining manifold descriptor learning and pose regression. By combining the strengths of manifold learning using triplet loss and pose regression, we could either estimate the pose directly reducing the complexity compared to NN search, or use learned descriptor for the NN descriptor matching. By in depth experimental evaluation of the novel loss function we observed that the view descriptors learned by the network are much more discriminative resulting in almost 30% increase regarding relative pose accuracy compared to related works. On the other hand, regarding directly regressed poses we obtained important improvement compared to simple pose regression. By leveraging the advantages of both manifold learning and regression tasks, we are able to improve the current state-of-the-art for object recognition and pose retrieval that we demonstrate through in depth experimental evaluation.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/8460654/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/bui-2018-regression/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-from-graph/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/babak-ehteshami-bejnordi/">Babak Ehteshami Bejnordi</a></span>, <span><a href="/authors/mitko-veta/">Mitko Veta</a></span>, <span><a href="/authors/paul-johannes-van-diest/">Paul Johannes Van Diest</a></span>, <span><a href="/authors/bram-van-ginneken/">Bram Van Ginneken</a></span>, <span><a href="/authors/nico-karssemeijer/">Nico Karssemeijer</a></span>, <span><a href="/authors/geert-litjens/">Geert Litjens</a></span>, <span><a href="/authors/jeroen-awm-van-der-laak/">Jeroen AWM Van Der Laak</a></span>, <span><a href="/authors/meyke-hermsen/">Meyke Hermsen</a></span>, <span><a href="/authors/quirine-f-manson/">Quirine F Manson</a></span>, <span><a href="/authors/maschenka-balkenhol/">Maschenka Balkenhol</a></span>, <span><a href="/authors/others/">others</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2017
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Jama</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/bejnordi-2017-diagnostic/">Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</a>
+  </h3>
+
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2003.09439" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/bejnordi-2017-diagnostic/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/christoph-baur/">Christoph Baur</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2017
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International Conference on Medical Image Computing and Computer-Assisted Intervention</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/baur-2017-semi/">
+      <img src="/publication/baur-2017-semi/featured_hu22ee437d8f73003d235f78f5a8291da7_257728_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/baur-2017-semi/">Semi-supervised deep learning for fully convolutional networks</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Deep learning usually requires large amounts of labeled training data, but annotating data is costly and tedious. The framework of semi-supervised learning provides the means to use both labeled data and arbitrary amounts of unlabeled data for training. Recently, semi-supervised deep learning has been intensively studied for standard CNN architectures. However, Fully Convolutional Networks (FCNs) set the state-of-the-art for many image segmentation tasks. To the best of our knowledge, there is no existing semi-supervised learning method for such FCNs yet. We lift the concept of auxiliary manifold embedding for semi-supervised learning to FCNs with the help of Random Feature Embedding. In our experiments on the challenging task of MS Lesion Segmentation, we leverage the proposed framework for the purpose of domain adaptation and report substantial improvements over the baseline model.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1703.06000.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/baur-2017-semi/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/bumuckl/SemiSupervisedDLForFCNs" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-adapt/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/javad-fotouhi/">Javad Fotouhi</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2017
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International Conference on Medical Image Computing and Computer-Assisted Intervention</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/albarqouni-2017-x/">
+      <img src="/publication/albarqouni-2017-x/featured_hu80cf05af6f80a183c557c17dbd53603d_188834_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/albarqouni-2017-x/">X-ray in-depth decomposition: Revealing the latent structures</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>X-ray is the most readily available imaging modality and has a broad range of applications that spans from diagnosis to intra-operative guidance in cardiac, orthopedics, and trauma procedures. Proper interpretation of the hidden and obscured anatomy in X-ray images remains a challenge and often requires high radiation dose and imaging from several perspectives. In this work, we aim at decomposing the conventional X-ray image into d X-ray components of independent, non-overlapped, clipped sub-volume, that separate rigid structures into distinct layers, leaving all deformable organs in one layer, such that the sum resembles the original input. Our proposed model is validaed on 6 clinical datasets (∼7200 X-ray images) in addition to 615 real chest X-ray images. Despite the challenging aspects of modeling such a highly ill-posed problem, exciting and encouraging results are obtained paving the path for further contributions in this direction.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/albarqouni-2017-x/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/mai-bui/">Mai Bui</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/michael-schrapp/">Michael Schrapp</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/slobodan-ilic/">Slobodan Ilic</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2017
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>2017 IEEE Winter Conference on Applications of Computer Vision (WACV)</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/bui-2017-x/">X-Ray PoseNet: 6 DoF pose estimation for mobile X-Ray devices</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Precise reconstruction of 3D volumes from X-ray projections requires precisely pre-calibrated systems where accurate knowledge of the systems geometric parameters is known ahead. However, when dealing with mobile X-ray devices such calibration parameters are unknown. Joint estimation of the systems calibration parameters and 3d reconstruction is a heavily unconstrained problem, especially when the projections are arbitrary. In industrial applications, that we target here, nominal CAD models of the object to be reconstructed are usually available. We rely on this prior information and employ Deep Learning to learn the mapping between simulated X-ray projections and its pose. Moreover, we introduce the reconstruction loss in addition to the pose loss to further improve the reconstruction quality. Finally, we demonstrate the generalization capabilities of our method in case where poses can be learned on instances of the objects belonging to the same class, allowing pose estimation of unseen objects from the same category, thus eliminating the need for the actual CAD model. We performed exhaustive evaluation demonstrating the quality of our results on both synthetic and real data.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/7926703/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/bui-2017-x/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/christoph-baur/">Christoph Baur</a></span>, <span><a href="/authors/felix-achilles/">Felix Achilles</a></span>, <span><a href="/authors/vasileios-belagiannis/">Vasileios Belagiannis</a></span>, <span><a href="/authors/stefanie-demirci/">Stefanie Demirci</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2016
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>IEEE transactions on medical imaging</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/albarqouni-2016-aggnet/">
+      <img src="/publication/albarqouni-2016-aggnet/featured_huc66c96ba4418788aab96851ced196182_127917_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/albarqouni-2016-aggnet/">Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>The lack of publicly available ground-truth data has been identified as the major challenge for transferring recent developments in deep learning to the biomedical imaging domain. Though crowdsourcing has enabled annotation of large scale databases for real world images, its application for biomedical purposes requires a deeper understanding and hence, more precise definition of the actual annotation task. The fact that expert tasks are being outsourced to non-expert users may lead to noisy annotations introducing disagreement between users. Despite being a valuable resource for learning annotation models from crowdsourcing, conventional machine-learning methods may have difficulties dealing with noisy annotations during training. In this manuscript, we present a new concept for learning from crowds that handle data aggregation directly as part of the learning process of the convolutional neural network (CNN) via additional crowdsourcing layer (AggNet). Besides, we present an experimental study on learning from crowds designed to answer the following questions. 1) Can deep CNN be trained with data collected from crowdsourcing? 2) How to adapt the CNN to train on multiple types of annotation datasets (ground truth and crowd-based)? 3) How does the choice of annotation and aggregation affect the accuracy? Our experimental setup involved Annot8, a self-implemented web-platform based on Crowdflower API realizing image annotation tasks for a publicly available biomedical image database. Our results give valuable insights into the functionality of deep CNN learning from crowd annotations and prove the necessity of data aggregation integration.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7405343" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/albarqouni-2016-aggnet/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-from-crowds/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/christoph-baur/">Christoph Baur</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/stefanie-demirci/">Stefanie Demirci</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/pascal-fallavollita/">Pascal Fallavollita</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2016
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International Conference on Medical Imaging and Augmented Reality</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/baur-2016-cathnets/">
+      <img src="/publication/baur-2016-cathnets/featured_hua0d4d4b24f4da3a102e4452ac738b95f_87647_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/baur-2016-cathnets/">CathNets: detection and single-view depth prediction of catheter electrodes</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>The recent success of convolutional neural networks in many computer vision tasks implies that their application could also be beneficial for vision tasks in cardiac electrophysiology procedures which are commonly carried out under guidance of C-arm fluoroscopy. Many efforts for catheter detection and reconstruction have been made, but especially robust detection of catheters in X-ray images in realtime is still not entirely solved. We propose two novel methods for (i) fully automatic electrophysiology catheter electrode detection in interventional X-ray images and (ii) single-view depth estimation of such electrodes based on convolutional neural networks. For (i), experiments on 24 different fluoroscopy sequences (1650 X-ray images) yielded a detection rate &gt; 99 %. Our experiments on (ii) depth prediction using 20 images with depth information available revealed that we are able to estimate the depth of catheter tips in the lateral view with a remarkable mean error of   6.08±4.66mm.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-319-43775-0_4" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/baur-2016-cathnets/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/baur-2016-cathnets/baur-2016-cathnets.mp4" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/ulrich-konrad/">Ulrich Konrad</a></span>, <span><a href="/authors/lichao-wang/">Lichao Wang</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>, <span><a href="/authors/stefanie-demirci/">Stefanie Demirci</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2016
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>International journal of computer assisted radiology and surgery</em>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/albarqouni-2016-single/">Single-view X-ray depth recovery: toward a novel concept for image-guided interventions</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>PURPOSE: X-ray imaging is widely used for guiding minimally invasive surgeries. Despite ongoing efforts in particular toward advanced visualization incorporating mixed reality concepts, correct depth perception from X-ray imaging is still hampered due to its projective nature. METHODS: In this paper, we introduce a new concept for predicting depth information from single-view X-ray images. Patient-specific training data for depth and corresponding X-ray attenuation information are constructed using readily available preoperative 3D image information. The corresponding depth model is learned employing a novel label-consistent dictionary learning method incorporating atlas and spatial prior constraints to allow for efficient reconstruction performance. RESULTS: We have validated our algorithm on patient data acquired for different anatomy focus (abdomen and thorax). Of 100 image pairs per each of 6 experimental instances, 80 images have been used for training and 20 for testing. Depth estimation results have been compared to ground truth depth values. CONCLUSION: We have achieved around [Formula: see text] and [Formula: see text] mean squared error on abdomen and thorax datasets, respectively, and visual results of our proposed method are very promising. We have therefore presented a new concept for enhancing depth perception for image-guided interventions.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.ncbi.nlm.nih.gov/pubmed/26984555" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/albarqouni-2016-single/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/max-baust/">Max Baust</a></span>, <span><a href="/authors/sailesh-conjeti/">Sailesh Conjeti</a></span>, <span><a href="/authors/asharaf-al-amoudi/">Asharaf Al-Amoudi</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2015
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Proceedings of the British Machine Vision Conference (BMVC)
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/albarqouni-2015-multi/">
+      <img src="/publication/albarqouni-2015-multi/featured_hu7eb670b47027e56ff926c6b030d4ca06_358237_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/albarqouni-2015-multi/">Multi-scale Graph-based Guided Filter for De-noising Cryo-Electron Tomographic Data</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Cryo-Electron Tomography is a leading imaging technique in structural biology, which is capable of acquiring two-dimensional projections of cellular structures at high resolution and close-to-native state. Due to the limited electron dose the resulting projections exhibit extremely low SNR and contrast. The 3D structure is then reconstructed and passed through a number of post-processing steps including de-noising and sub-tomogram averaging to provide a better understanding and interpretation. As CET is mainly used for imaging fine scale structures, any denoising method applied to CET images should be scale selective and in particular be able to preserve such fine scale structures. In this context, we propose a new denoising framework based on regularized graph spectral filtering with a full control of scale-space and global consistency. Using the gold-standard metrics, we show that our denoising algorithm significantly outperforms the state-of-the-art methods such as NAD, NLM and RGF in terms of noise removal and structure preservation.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dx.doi.org/10.5244/C.29.17" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/albarqouni-2015-multi/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-from-graph/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+          
+        
+      
+
+      
+      
+      
+        <h2>Talks</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/dart2020/" >Organizing Committee Member at MICCAI DART 2020</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Apr 1, 2020 &mdash;
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>MICCAI 2020, Lima, Peru</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-adapt/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/dart2020/" >
+      <img src="/talk/dart2020/featured_hu32d956bc8e50306ede2f4c6bd5595ac7_60420_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/dcl2020/" >Organizing Committee Member at MICCAI DCL 2020</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Apr 1, 2020 &mdash;
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>MICCAI 2020, Lima, Peru</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/federated-learning/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/dcl2020/" >
+      <img src="/talk/dcl2020/featured_hu32d956bc8e50306ede2f4c6bd5595ac7_60420_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/ulm2019/" >Invited Talk: Towards Deep Federated Learning in Healthcare</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Jan 17, 2020 &mdash;
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Ulm University, Ulm, Germany</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/federated-learning/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/ulm2019/" >
+      <img src="/talk/ulm2019/featured_hudfe6824d9af672b9d853a9e880d5afae_45646_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/ai4h/" >Keynote Speaker: AI in Healthcare</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Jan 8, 2020 &mdash; Jan 9, 2020
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Fraunhofer HHI, Berlin, Germany</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/ai4h/" >
+      <img src="/talk/ai4h/featured_hua07b9c0ce22648d54baed9c8cde499d5_697564_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/dart2019/" >Organizing Committee Member at MICCAI DART 2019</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Oct 13, 2019 16:00
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>MICCAI 2019, Shenzhen, China</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-adapt/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/dart2019/" >
+      <img src="/talk/dart2019/featured_huffb50573c9fb28cd932a2f7ea1069117_139109_150x0_resize_q90_lanczos.jpeg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/compay2019/" >Organizing Committee Member at MICCAI COMPAY 2019</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Oct 13, 2019
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>MICCAI 2019, Shenzhen, China</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-adapt/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-from-crowds/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/compay2019/" >
+      <img src="/talk/compay2019/featured_hu045c8a8c53dac57fd738878d9f4bc6c0_140710_150x0_resize_q90_lanczos.jpeg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+      
+    </div>
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    ©Shadi Albarqouni 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

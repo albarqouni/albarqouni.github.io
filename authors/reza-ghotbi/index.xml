@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reza Ghotbi | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/reza-ghotbi/</link>
+      <atom:link href="https://albarqouni.github.io/authors/reza-ghotbi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reza Ghotbi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Reza Ghotbi</title>
+      <link>https://albarqouni.github.io/authors/reza-ghotbi/</link>
+    </image>
+    
+    <item>
+      <title>X-ray Depthmaps: Revealing the Hidden Structures</title>
+      <link>https://albarqouni.github.io/publication/demirci-2018-x/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/demirci-2018-x/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

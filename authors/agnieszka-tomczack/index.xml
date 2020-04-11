@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agnieszka Tomczack | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/agnieszka-tomczack/</link>
+      <atom:link href="https://albarqouni.github.io/authors/agnieszka-tomczack/index.xml" rel="self" type="application/rss+xml" />
+    <description>Agnieszka Tomczack</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Agnieszka Tomczack</title>
+      <link>https://albarqouni.github.io/authors/agnieszka-tomczack/</link>
+    </image>
+    
+    <item>
+      <title>Learn to estimate labels uncertainty for quality assurance</title>
+      <link>https://albarqouni.github.io/publication/tomczack-2019-learn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tomczack-2019-learn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

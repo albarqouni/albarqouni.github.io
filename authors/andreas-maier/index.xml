@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andreas Maier | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/andreas-maier/</link>
+      <atom:link href="https://albarqouni.github.io/authors/andreas-maier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andreas Maier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Andreas Maier</title>
+      <link>https://albarqouni.github.io/authors/andreas-maier/</link>
+    </image>
+    
+    <item>
+      <title>Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair</title>
+      <link>https://albarqouni.github.io/publication/breininger-2018-intraoperative/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/breininger-2018-intraoperative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple device segmentation for fluoroscopic imaging using multi-task learning</title>
+      <link>https://albarqouni.github.io/publication/breininger-2018-multiple/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/breininger-2018-multiple/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative Adversarial Networks | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/generative-adversarial-networks/</link>
+      <atom:link href="https://albarqouni.github.io/tags/generative-adversarial-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Generative Adversarial Networks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Generative Adversarial Networks</title>
+      <link>https://albarqouni.github.io/tags/generative-adversarial-networks/</link>
+    </image>
+    
+    <item>
+      <title>Learn to Adapt</title>
+      <link>https://albarqouni.github.io/project/learn-to-adapt/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/learn-to-adapt/</guid>
+      <description>&lt;p&gt;To build domain-agnostic models that are generalizable to a different domain, i.e., scanners, we have investigated three directions; First, &lt;em&gt;Style Transfer&lt;/em&gt;, where the style/color of the source domain is transferred to match the target one.  Such style transfer is performed in the high-dimensional image space using adversarial learning, as shown in our papers on Histology Imaging (Lahiani &lt;em&gt;et al.&lt;/em&gt; 2019a, Lahiani &lt;em&gt;et al.&lt;/em&gt; 2019b, Shaban &lt;em&gt;et al.&lt;/em&gt; 2019). Second, &lt;em&gt;Domain Adaptation&lt;/em&gt;, where the distance between the features of the source and target domains are minimized. Such distance can be optimized in a supervised fashion, i.e., class aware, using angular cosine distance as shown in our paper on MS Lesion Segmentation in MR Imaging (Baur &lt;em&gt;et al.&lt;/em&gt; 2017), or in an unsupervised way, i.e., class agnostic, using adversarial learning as explained in our article on Left atrium Segmentation in Ultrasound Imaging (Degel &lt;em&gt;et al.&lt;/em&gt; 2018). Yet, another exciting direction that has been recently investigated in our paper (Lahiani &lt;em&gt;et al.&lt;/em&gt; 2019c) is to disentangle the feature that is responsible for the style and color from the one responsible for the semantics.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Baur_Degel_Shaban.jpeg&#34; alt=&#34;Baur et al. 2017, Degel et al. 2018, and Shaban et al. 2019&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;lahiani2019c.jpeg&#34; alt=&#34;Lahiani et al. 2019c&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Eldad Klaiman, Roche Diagnostics GmbH&lt;/li&gt;
+&lt;li&gt;Georg Schummers and Matthias Friedrichs, TOMTEC Imaging Systems GmbH&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image-to-Images Translation for Multi-Task Organ Segmentation and Bone Suppression in Chest X-Ray Radiography</title>
+      <link>https://albarqouni.github.io/publication/eslami-2020-image/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/eslami-2020-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
+      <link>https://albarqouni.github.io/publication/bui-2019-adversarial/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2019-adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
+      <link>https://albarqouni.github.io/publication/baur-2019-fusing/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2019-fusing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning interpretable disentangled representations using adversarial vaes</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Interpretable Features via Adversarially Robust Optimization</title>
+      <link>https://albarqouni.github.io/publication/khakzar-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/khakzar-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Staingan: Stain style transfer for digital histological images</title>
+      <link>https://albarqouni.github.io/xtarx.github.io/staingan/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/xtarx.github.io/staingan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
+      <link>https://albarqouni.github.io/publication/baur-2018-deep/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2018-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GANs for medical image analysis</title>
+      <link>https://albarqouni.github.io/publication/kazeminia-2018-gans/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazeminia-2018-gans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating highly realistic images of skin lesions with GANs</title>
+      <link>https://albarqouni.github.io/publication/baur-2018-generating/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2018-generating/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> others | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/others/</link>
+      <atom:link href="https://albarqouni.github.io/authors/others/index.xml" rel="self" type="application/rss+xml" />
+    <description> others</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title> others</title>
+      <link>https://albarqouni.github.io/authors/others/</link>
+    </image>
+    
+    <item>
+      <title>The Future of Digital Health with Federated Learning</title>
+      <link>https://albarqouni.github.io/publication/rieke-2020-future/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/rieke-2020-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy</title>
+      <link>https://albarqouni.github.io/publication/ali-2020-objective/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/ali-2020-objective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
+      <link>https://albarqouni.github.io/publication/shapira-2020-benefit/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/shapira-2020-benefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
+      <link>https://albarqouni.github.io/publication/shapira-2020-liver/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/shapira-2020-liver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation and Representation Transfer and Medical Image Learning with Less Labels and Imperfect Data: First MICCAI Workshop, DART 2019, and First International Workshop, MIL3ID 2019, Shenzhen, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13 and 17, 2019, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/wang-2019-domain/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/wang-2019-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning and Medical Engineering for Cardiovascular Health and Intravascular Imaging and Computer Assisted Stenting: First International Workshop, MLMECH 2019, and 8th Joint International Workshop, CVII-STENT 2019, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13, 2019, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/liao-2019-machine/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/liao-2019-machine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-attention equipped graph convolutions for disease prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-self/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intravascular Imaging and Computer Assisted Stenting and Large-scale Annotation of Biomedical Data and Expert Label Synthesis: 7th Joint International Workshop, CVII-STENT 2018 and Third International Workshop, LABELS 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/stoyanov-2018-intravascular/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/stoyanov-2018-intravascular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reviewers with more than 1 review in 2017</title>
+      <link>https://albarqouni.github.io/publication/abdel-2018-reviewers/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/abdel-2018-reviewers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</title>
+      <link>https://albarqouni.github.io/publication/bejnordi-2017-diagnostic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bejnordi-2017-diagnostic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intravascular Imaging and Computer Assisted Stenting, and Large-Scale Annotation of Biomedical Data and Expert Label Synthesis</title>
+      <link>https://albarqouni.github.io/publication/cardoso-2017-intravascular/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/cardoso-2017-intravascular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning and Data Labeling for Medical Applications: First International Workshop, LABELS 2016, and Second International Workshop, DLMIA 2016, Held in Conjunction with MICCAI 2016, Athens, Greece, October 21, 2016, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/carneiro-2016-deep/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/carneiro-2016-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parsing human skeletons in an operating room</title>
+      <link>https://albarqouni.github.io/publication/belagiannis-2016-parsing/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/belagiannis-2016-parsing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

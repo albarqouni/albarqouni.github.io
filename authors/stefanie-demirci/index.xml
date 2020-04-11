@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stefanie Demirci | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/stefanie-demirci/</link>
+      <atom:link href="https://albarqouni.github.io/authors/stefanie-demirci/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stefanie Demirci</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Stefanie Demirci</title>
+      <link>https://albarqouni.github.io/authors/stefanie-demirci/</link>
+    </image>
+    
+    <item>
+      <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
+      <link>https://albarqouni.github.io/publication/hariharan-2018-photon/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/hariharan-2018-photon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intravascular Imaging and Computer Assisted Stenting and Large-scale Annotation of Biomedical Data and Expert Label Synthesis: 7th Joint International Workshop, CVII-STENT 2018 and Third International Workshop, LABELS 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/stoyanov-2018-intravascular/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/stoyanov-2018-intravascular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-ray Depthmaps: Revealing the Hidden Structures</title>
+      <link>https://albarqouni.github.io/publication/demirci-2018-x/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/demirci-2018-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
+      <link>https://albarqouni.github.io/publication/baur-2016-cathnets/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2016-cathnets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Playsourcing: a novel concept for knowledge creation in biomedical research</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2016-playsourcing/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2016-playsourcing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single-view X-ray depth recovery: toward a novel concept for image-guided interventions</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2016-single/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2016-single/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arianne Tran | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/arianne-tran/</link>
+      <atom:link href="https://albarqouni.github.io/authors/arianne-tran/index.xml" rel="self" type="application/rss+xml" />
+    <description>Arianne Tran</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Arianne Tran</title>
+      <link>https://albarqouni.github.io/authors/arianne-tran/</link>
+    </image>
+    
+    <item>
+      <title>Learn to Segment Organs with a Few Bounding Boxes</title>
+      <link>https://albarqouni.github.io/publication/parida-2019-learn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/parida-2019-learn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

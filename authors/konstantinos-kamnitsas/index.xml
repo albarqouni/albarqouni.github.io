@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konstantinos Kamnitsas | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/konstantinos-kamnitsas/</link>
+      <atom:link href="https://albarqouni.github.io/authors/konstantinos-kamnitsas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Konstantinos Kamnitsas</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Konstantinos Kamnitsas</title>
+      <link>https://albarqouni.github.io/authors/konstantinos-kamnitsas/</link>
+    </image>
+    
+    <item>
+      <title>Domain Adaptation and Representation Transfer and Medical Image Learning with Less Labels and Imperfect Data: First MICCAI Workshop, DART 2019, and First International Workshop, MIL3ID 2019, Shenzhen, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13 and 17, 2019, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/wang-2019-domain/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/wang-2019-domain/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

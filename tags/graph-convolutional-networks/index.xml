@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graph Convolutional Networks | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/graph-convolutional-networks/</link>
+      <atom:link href="https://albarqouni.github.io/tags/graph-convolutional-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Graph Convolutional Networks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Graph Convolutional Networks</title>
+      <link>https://albarqouni.github.io/tags/graph-convolutional-networks/</link>
+    </image>
+    
+    <item>
+      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-graph/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-attention equipped graph convolutions for disease prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-self/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-self/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

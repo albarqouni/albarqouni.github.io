@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feng Zhang | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/feng-zhang/</link>
+      <atom:link href="https://albarqouni.github.io/authors/feng-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Feng Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Feng Zhang</title>
+      <link>https://albarqouni.github.io/authors/feng-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning and Medical Engineering for Cardiovascular Health and Intravascular Imaging and Computer Assisted Stenting: First International Workshop, MLMECH 2019, and 8th Joint International Workshop, CVII-STENT 2019, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13, 2019, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/liao-2019-machine/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/liao-2019-machine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

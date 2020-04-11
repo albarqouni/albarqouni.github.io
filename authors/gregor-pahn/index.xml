@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gregor Pahn | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/gregor-pahn/</link>
+      <atom:link href="https://albarqouni.github.io/authors/gregor-pahn/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gregor Pahn</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Gregor Pahn</title>
+      <link>https://albarqouni.github.io/authors/gregor-pahn/</link>
+    </image>
+    
+    <item>
+      <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
+      <link>https://albarqouni.github.io/publication/shapira-2020-benefit/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/shapira-2020-benefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
+      <link>https://albarqouni.github.io/publication/shapira-2020-liver/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/shapira-2020-liver/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

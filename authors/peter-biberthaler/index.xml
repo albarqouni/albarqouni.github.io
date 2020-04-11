@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peter Biberthaler | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/peter-biberthaler/</link>
+      <atom:link href="https://albarqouni.github.io/authors/peter-biberthaler/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peter Biberthaler</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Peter Biberthaler</title>
+      <link>https://albarqouni.github.io/authors/peter-biberthaler/</link>
+    </image>
+    
+    <item>
+      <title>Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2019-towards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly-supervised localization and classification of proximal femur fractures</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2018-weakly/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2018-weakly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic classification of proximal femur fractures based on attention models</title>
+      <link>https://albarqouni.github.io/publication/kazi-2017-automatic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2017-automatic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

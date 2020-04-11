@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ophthalmology | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/ophthalmology/</link>
+      <atom:link href="https://albarqouni.github.io/tags/ophthalmology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ophthalmology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Ophthalmology</title>
+      <link>https://albarqouni.github.io/tags/ophthalmology/</link>
+    </image>
+    
+    <item>
+      <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2019-multi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2019-multi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

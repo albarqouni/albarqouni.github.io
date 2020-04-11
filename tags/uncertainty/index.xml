@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncertainty | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/uncertainty/</link>
+      <atom:link href="https://albarqouni.github.io/tags/uncertainty/index.xml" rel="self" type="application/rss+xml" />
+    <description>Uncertainty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Uncertainty</title>
+      <link>https://albarqouni.github.io/tags/uncertainty/</link>
+    </image>
+    
+    <item>
+      <title>Modelling Uncertainty in Deep Learning for Medical Applications</title>
+      <link>https://albarqouni.github.io/project/uncertainty/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/uncertainty/</guid>
+      <description>&lt;p&gt;Deep Learning has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of applications in computer vision and medical applications. Despite its success and merit in recent state-of-the-art methods, DL tools still lack in robustness hindering its adoption in medical applications. Modeling uncertainty, through Bayesian Inference and Monte-Carlo dropout, has been successfully introduced to computer vision for better understanding the underlying deep learning models. In this proposal, we investigate modeling the uncertainty for medical applications given the well-known challenges in medical image analysis, namely severe class-imbalance, few amounts of labeled data, domain shift, and noisy annotations.&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;p&gt;Prof. 
+&lt;a href=&#34;http://people.ee.ethz.ch/~kender/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ender Konukoglu&lt;/a&gt;, 
+&lt;a href=&#34;https://ee.ethz.ch/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Information Technology and Electrical Engineerng&lt;/a&gt;, 
+&lt;a href=&#34;https://ethz.ch/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETH Zurich&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Prof. 
+&lt;a href=&#34;http://wp.doc.ic.ac.uk/dr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Rueckert&lt;/a&gt;, 
+&lt;a href=&#34;http://www.imperial.ac.uk/computing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Computing&lt;/a&gt;, 
+&lt;a href=&#34;http://www.imperial.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imperial College London&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Prof. 
+&lt;a href=&#34;http://campar.in.tum.de/Main/NassirNavab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nassir Navab&lt;/a&gt;, 
+&lt;a href=&#34;http://campar.in.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Faculty of Informatics&lt;/a&gt;, 
+&lt;a href=&#34;www.tum.de&#34;&gt;Technical University of Munich&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;p&gt;This project is supported by the 
+&lt;a href=&#34;https://www.daad.de/de/studieren-und-forschen-in-deutschland/stipendien-finden/prime/prime-fellows-201819/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PRIME programme&lt;/a&gt; of the 
+&lt;a href=&#34;www.daad.de&#34;&gt;German Academic Exchange Service (DAAD)&lt;/a&gt; with funds from the 
+&lt;a href=&#34;www.bmbf.de&#34;&gt;German Federal Ministry of Education and Research (BMBF)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Uncertainty Aware Methods for Camera Pose Estimation and Relocalization</title>
+      <link>https://albarqouni.github.io/project/bacatec/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/bacatec/</guid>
+      <description>&lt;p&gt;Camera pose estimation is the term for determining the 6-DoF rotation and translation parameters of a camera. It is now a key technology in enabling multitudes of applications such as augmented reality, autonomous driving, human computer interaction and robot guidance. For decades, vision scholars have worked on finding the unique solution of this problem. Yet, this trend is witnessing a fundamental change. The recent school of thought has begun to admit that for our highly complex and ambiguous real environments, obtaining a single solution is not sufficient. This has led to a paradigm shift towards estimating rather a range of solutions in the form of full probability or at least explaining the uncertainty of camera pose estimates. Thanks to the advances in Artificial Intelligence, this important problem can now be tackled via machine learning algorithms that can discover rich and powerful representations for the data at hand. In collaboration, TU Munich and Stanford University plan to devise and implement generative methods that can explain uncertainty and ambiguity in pose predictions. In particular, our aim is to bridge the gap between 6DoF pose estimation either from 2D images/3D point sets and uncertainty quantification through multimodal variational deep methods.&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://tbirdal.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Tolga Birdal&lt;/a&gt;, 
+&lt;a href=&#34;https://profiles.stanford.edu/leonidas-guibas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Leonidas Guibas&lt;/a&gt;, Stanford University&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://campar.in.tum.de/Main/MaiBui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mai Bui&lt;/a&gt;, 
+&lt;a href=&#34;%22#about%22&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt;, 
+&lt;a href=&#34;http://campar.in.tum.de/WebHome&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nassir Navab&lt;/a&gt;, Technical University of Munich&lt;/p&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;p&gt;This project is funded by the Bavaria California Technology Center (
+&lt;a href=&#34;https://www.bacatec.de/en/gefoerderte_projekte.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BaCaTeC&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling Labels Uncertainty in Medical Imaging</title>
+      <link>https://albarqouni.github.io/talk/eth2020/</link>
+      <pubDate>Wed, 15 Jan 2020 11:15:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/eth2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
+      <link>https://albarqouni.github.io/publication/bui-2019-adversarial/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2019-adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scene coordinate and correspondence learning for image-based localization</title>
+      <link>https://albarqouni.github.io/publication/bui-2018-scene/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2018-scene/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

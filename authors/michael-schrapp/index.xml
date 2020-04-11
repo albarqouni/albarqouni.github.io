@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Schrapp | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/michael-schrapp/</link>
+      <atom:link href="https://albarqouni.github.io/authors/michael-schrapp/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael Schrapp</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Michael Schrapp</title>
+      <link>https://albarqouni.github.io/authors/michael-schrapp/</link>
+    </image>
+    
+    <item>
+      <title>Determination of the pose of an x-ray unit relative to an object using a digital model of the object</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2018-determination/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2018-determination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-Ray PoseNet: 6 DoF pose estimation for mobile X-Ray devices</title>
+      <link>https://albarqouni.github.io/publication/bui-2017-x/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2017-x/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

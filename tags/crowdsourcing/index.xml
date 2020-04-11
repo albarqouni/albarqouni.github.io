@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crowdsourcing | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/crowdsourcing/</link>
+      <atom:link href="https://albarqouni.github.io/tags/crowdsourcing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Crowdsourcing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Sun, 09 Sep 2018 16:05:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Crowdsourcing</title>
+      <link>https://albarqouni.github.io/tags/crowdsourcing/</link>
+    </image>
+    
+    <item>
+      <title>Invited Talk: Can Deep Learning Models be Trained with Annotations Collected via Crowdsourcing?</title>
+      <link>https://albarqouni.github.io/talk/ecp2018/</link>
+      <pubDate>Sun, 09 Sep 2018 16:05:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/ecp2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Tuning Deep Learning by Crowd Participation</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2018-fine/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2018-fine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Playsourcing: a novel concept for knowledge creation in biomedical research</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2016-playsourcing/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2016-playsourcing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

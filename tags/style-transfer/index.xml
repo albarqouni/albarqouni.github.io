@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Style Transfer | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/style-transfer/</link>
+      <atom:link href="https://albarqouni.github.io/tags/style-transfer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Style Transfer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Style Transfer</title>
+      <link>https://albarqouni.github.io/tags/style-transfer/</link>
+    </image>
+    
+    <item>
+      <title>Learn to Adapt</title>
+      <link>https://albarqouni.github.io/project/learn-to-adapt/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/learn-to-adapt/</guid>
+      <description>&lt;p&gt;To build domain-agnostic models that are generalizable to a different domain, i.e., scanners, we have investigated three directions; First, &lt;em&gt;Style Transfer&lt;/em&gt;, where the style/color of the source domain is transferred to match the target one.  Such style transfer is performed in the high-dimensional image space using adversarial learning, as shown in our papers on Histology Imaging (Lahiani &lt;em&gt;et al.&lt;/em&gt; 2019a, Lahiani &lt;em&gt;et al.&lt;/em&gt; 2019b, Shaban &lt;em&gt;et al.&lt;/em&gt; 2019). Second, &lt;em&gt;Domain Adaptation&lt;/em&gt;, where the distance between the features of the source and target domains are minimized. Such distance can be optimized in a supervised fashion, i.e., class aware, using angular cosine distance as shown in our paper on MS Lesion Segmentation in MR Imaging (Baur &lt;em&gt;et al.&lt;/em&gt; 2017), or in an unsupervised way, i.e., class agnostic, using adversarial learning as explained in our article on Left atrium Segmentation in Ultrasound Imaging (Degel &lt;em&gt;et al.&lt;/em&gt; 2018). Yet, another exciting direction that has been recently investigated in our paper (Lahiani &lt;em&gt;et al.&lt;/em&gt; 2019c) is to disentangle the feature that is responsible for the style and color from the one responsible for the semantics.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Baur_Degel_Shaban.jpeg&#34; alt=&#34;Baur et al. 2017, Degel et al. 2018, and Shaban et al. 2019&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;lahiani2019c.jpeg&#34; alt=&#34;Lahiani et al. 2019c&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Eldad Klaiman, Roche Diagnostics GmbH&lt;/li&gt;
+&lt;li&gt;Georg Schummers and Matthias Friedrichs, TOMTEC Imaging Systems GmbH&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
+      <link>https://albarqouni.github.io/publication/lahiani-2020-seamless/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/lahiani-2020-seamless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer</title>
+      <link>https://albarqouni.github.io/publication/lahiani-2019-perceptual/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/lahiani-2019-perceptual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Staingan: Stain style transfer for digital histological images</title>
+      <link>https://albarqouni.github.io/xtarx.github.io/staingan/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/xtarx.github.io/staingan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach</title>
+      <link>https://albarqouni.github.io/publication/lahiani-2019-virtualization/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/lahiani-2019-virtualization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

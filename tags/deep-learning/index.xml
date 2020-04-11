@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/tags/deep-learning/</link>
+      <atom:link href="https://albarqouni.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Deep Learning</title>
+      <link>https://albarqouni.github.io/tags/deep-learning/</link>
+    </image>
+    
+    <item>
+      <title>Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/project/federated-learning/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/federated-learning/</guid>
+      <description>&lt;p&gt;Deep Learning (DL) has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of computer vision and medical applications. However, this success comes at the cost of collecting and processing a massive amount of data, which often are not accessible, in Healthcare, due to privacy issues. Federated Learning (FL) has been recently introduced to allow training DL models without sharing the data. Instead, DL models at local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, share only the trained parameters with a centralized DL model, which is, in return, responsible for updating the local DL models as well.&lt;/p&gt;
+&lt;p&gt;Our golas in this project is to develop novel models and algorithms for a ground-breaking new generation of deep FL, which can distill the knowledge from local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, and edges, &lt;em&gt;i.e.&lt;/em&gt; wearable devices, to provide personalized healthcare services.&lt;/p&gt;
+&lt;p&gt;The principal &lt;strong&gt;challenges&lt;/strong&gt;, to overcome, concern the nature of medical data, namely data heterogeneity; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), inter-/intra-observer variability (noisy annotations), system heterogeneity, and privacy issues (see the example below).&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Soon&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn from Crowds</title>
+      <link>https://albarqouni.github.io/project/learn-from-crowds/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/learn-from-crowds/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s clinical procedures often generate a large amount of digital images requiring close inspection. Manual examination by physicians is time-consuming and machine learning in computer vision and pattern recognition is playing an increasing role in medical applications. In contrast to pure machine learning methods, crowdsourcing can be used for processing big data sets, utilising the collective brainpower of huge crowds. Since individuals in the crowd are usually no medical experts, preparation of medical data as well as an appropriate visualization to the user becomes indispensable. The concept of gamification typically allows for embedding non-game elements in a serious game environment, providing an incentive for persistent engagement to the crowd. Medical image analysis empowered by the masses is still rare and only a few applications successfully use the crowd for solving medical problems. The goal of this project is to bring the gamification and crowdsourcing to the Medical Imaging community.&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn from Prior Knowledge</title>
+      <link>https://albarqouni.github.io/project/learn-from-graph/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/learn-from-graph/</guid>
+      <description>&lt;p&gt;Together with our clinical and industry partners, we realized that there is a need to incorporate domain-specific knowledge and let the model &lt;em&gt;Learn from a Prior Knowledge&lt;/em&gt;. We first investigated modeling general priors, i.e., manifold assumptions, to learn powerful representations. Such representations achieved state-of-the-art on benchmark datasets, such as e IDRiD for Diabetic Retinopathy Early Detection (Sarhan &lt;em&gt;et al.&lt;/em&gt; 2019), and 7 Scenes for Camera Relocalization (Bui &lt;em&gt;et al.&lt;/em&gt; 2017). Then, we started looking into the laplacian graph, where prior knowledge can be modeled as a soft constraint, i.e., regularization, to learn feature representation that follows such manifold defined by graphs. We have shown in our ISBI (Kazi &lt;em&gt;et al.&lt;/em&gt; 2019a), MICCAI (Kazi &lt;em&gt;et al.&lt;/em&gt; 2019b), and IPMI (Kazi &lt;em&gt;et al.&lt;/em&gt; 2019) papers that leveraging prior knowledge such as proximity of ages, gender, and a few lab results, are of high importance in Alzheimer classification.&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Siemens AG&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn to Adapt</title>
+      <link>https://albarqouni.github.io/project/learn-to-adapt/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/learn-to-adapt/</guid>
+      <description>&lt;p&gt;To build domain-agnostic models that are generalizable to a different domain, i.e., scanners, we have investigated three directions; First, &lt;em&gt;Style Transfer&lt;/em&gt;, where the style/color of the source domain is transferred to match the target one.  Such style transfer is performed in the high-dimensional image space using adversarial learning, as shown in our papers on Histology Imaging (Lahiani &lt;em&gt;et al.&lt;/em&gt; 2019a, Lahiani &lt;em&gt;et al.&lt;/em&gt; 2019b, Shaban &lt;em&gt;et al.&lt;/em&gt; 2019). Second, &lt;em&gt;Domain Adaptation&lt;/em&gt;, where the distance between the features of the source and target domains are minimized. Such distance can be optimized in a supervised fashion, i.e., class aware, using angular cosine distance as shown in our paper on MS Lesion Segmentation in MR Imaging (Baur &lt;em&gt;et al.&lt;/em&gt; 2017), or in an unsupervised way, i.e., class agnostic, using adversarial learning as explained in our article on Left atrium Segmentation in Ultrasound Imaging (Degel &lt;em&gt;et al.&lt;/em&gt; 2018). Yet, another exciting direction that has been recently investigated in our paper (Lahiani &lt;em&gt;et al.&lt;/em&gt; 2019c) is to disentangle the feature that is responsible for the style and color from the one responsible for the semantics.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Baur_Degel_Shaban.jpeg&#34; alt=&#34;Baur et al. 2017, Degel et al. 2018, and Shaban et al. 2019&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;lahiani2019c.jpeg&#34; alt=&#34;Lahiani et al. 2019c&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Eldad Klaiman, Roche Diagnostics GmbH&lt;/li&gt;
+&lt;li&gt;Georg Schummers and Matthias Friedrichs, TOMTEC Imaging Systems GmbH&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn to Learn</title>
+      <link>https://albarqouni.github.io/project/learn-to-learn/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/learn-to-learn/</guid>
+      <description>&lt;p&gt;To build models that are transferable to different tasks or different data distributions, i.e., non i.i.d., we have investigated meta-learning approaches such as prototypical networks (PN) (Snell &lt;em&gt;et al.&lt;/em&gt; 2017). PN learns a class prototype from very few amounts of labeled data, e.g., 1-5 shots, and use the learned prototypes to perform the classification tasks. In the context of medical imaging, we were first to introduce Few-Shot Learning into the MIC community. We have shown in our recent ICML Workshop paper (Ayyad &lt;em&gt;et al.&lt;/em&gt; 2019) that our novel Semi-Supervised Few-Shot Learning achieves the state-of-the-art on benchmark datasets; Omniglot, miniImageNet, and TieredImageNet. Further, we have demonstrated in our recent paper (Parida &lt;em&gt;et al.&lt;/em&gt; 2019) that such concepts can be utilized in medical imaging segmentation with an extremely low budget of annotated data, e.g., bounding boxes, and better generalization capability, i.e., to new organs or anomalies, however, at the cost of less accurate segmentation. Yet, our proposed models have great potential in clinical practice where a novel application could come in, and only a very few annotations are required, to perform segmentation tasks. Further, such a learning paradigm has a great potential in Federated Learning, where the data acquired at different hospitals capture heterogeneous and non i.i.d data, i.e., various tasks, making proposed models suitable for such a problem.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Parida2019.jpeg&#34; alt=&#34;Parida et al. 2019&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;https://www.kaust.edu.sa/en/study/faculty/mohamed-elhoseiny&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mohamed Elhoseiny&lt;/a&gt;, 
+&lt;a href=&#34;https://ai.facebook.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Facebook AI Research&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn to Reason and Explain</title>
+      <link>https://albarqouni.github.io/project/learn-to-reason-and-explain/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/learn-to-reason-and-explain/</guid>
+      <description>&lt;p&gt;To build explainable AI models that are interpretable for our end-users, i.e., clinicians, we have investigated two research directions. First, we have utilized some visualization techniques to explain and interpret &amp;ldquo;black box&amp;rdquo; models by propagating back the gradient of the class of interest to the image space where you can see the relevant semantics, so-called Gradient Class Activation Maps (GradCAM). Sooner, we found out such techniques do not produce meaningful results. In other words, irrelevant semantics could be highly activated in GradCAM, yielding unreliable explanation tools. To overcome such a problem, we have introduced a robust optimization loss in our MICCAI paper (Khakzar &lt;em&gt;et al.&lt;/em&gt; 2019), which generated adversarial examples enforcing the network to only focus on relevant features and probably correlated with other examples belonging to the same class.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Khakzar2019.jpeg&#34; alt=&#34;Khakzar2019&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Second, we have investigated designing and building explainable models by i) uncertainty quantification and ii) disentangled feature representation. In the first category, we started understanding the uncertainty estimates generated by Monte-Carlo Dropout, the approximate of Bayesian Neural Networks, and other techniques, e.g. PointNet, in Camera Relocalization problem (Bui &lt;em&gt;et al.&lt;/em&gt; 2018), to shed light on the ambiguity present in the dataset. We took a step further, and use such uncertainty estimates to refine the segmentation in an unsupervised fashion (Soberanis-Mukul &lt;em&gt;et al.&lt;/em&gt; 2019, Bui &lt;em&gt;et al.&lt;/em&gt; 2019).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Sarhan2019.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Recently, we have investigated modeling the labels uncertainty, which is related to the inter-/intra-observer variability, and produced a metric to quantify such uncertainty. We have shown in our paper (Tomczack &lt;em&gt;et al.&lt;/em&gt; 2019) that such uncertainty can be rather disentangled from the model and data uncertainties, so-called, epistemic, and aleatoric uncertainties, respectively. We believe such uncertainty is of high importance to the referral systems. In the second category, we have studied the variational methods, and disentangled representations, where the assumption here that some generative factors, &lt;em&gt;e.g.&lt;/em&gt;, color, shape, and pathology, will be captured in the lower-dimensional latent space, and one can easily go through the manifold and generate tons of example by sampling from the posterior distribution. We were among the firsts who introduce such concepts in medical imaging by investigating the influence of residual blocks and adversarial learning on disentangled representation (Sarhan &lt;em&gt;et al.&lt;/em&gt; 2019). Our hypothesis that better reconstruction fidelity would force the network to model high resolution, which might have a positive influence on the disentangled representation, in particular, some pathologies.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Roger_Tomczack2019.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dr. 
+&lt;a href=&#34;https://scholar.google.de/citations?user=PmHOyT0AAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Abouzar Eslami&lt;/a&gt;, Carl Zeiss Meditec AG&lt;/li&gt;
+&lt;li&gt;PD. Dr. 
+&lt;a href=&#34;https://scholar.google.de/citations?user=ELOVd8sAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slobodan Ilic&lt;/a&gt;, Siemens AG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Siemens AG&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn to Recognize</title>
+      <link>https://albarqouni.github.io/project/learn-to-recognize/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/learn-to-recognize/</guid>
+      <description>&lt;p&gt;We started investigating Convolutional Neural Networks for Object Recognition in a supervised fashion, for example, mitotic figure detection in histology imaging (Albarqouni &lt;em&gt;et al.&lt;/em&gt; 2016), Catheter electrodes detection and depth estimation in Interventional Imaging (Baur &lt;em&gt;et al.&lt;/em&gt; 2016), femur fracture detection in radiology (Kazi &lt;em&gt;et al.&lt;/em&gt; 2017), in-depth layer X-ray synthesis (Albarqouni &lt;em&gt;et al.&lt;/em&gt; 2017), and pose estimation of mobile X-rays (Bui &lt;em&gt;et al.&lt;/em&gt; 2017). One of the first work which has been highly recognized and featured in the media is AggNet (Albarqouni &lt;em&gt;et al.&lt;/em&gt; 2016) for Mitotic figure detection in Histology Images. Although the network architecture was shallow, it was trained using millions of multi-scale RGB patches of histology images, achieving outstanding performance (ranked 3rd among 15 participants in AMIDA13 challenge).&lt;/p&gt;
+&lt;p&gt;During our work, we found out such data-driven models demand a massive amount of annotated data, which might not be available in medical imaging and can not be mitigated by simple data augmentation. Besides, we found out such models are so sensitive to domain shift, i.e., different scanner, and methods such as domain adaptation is required. Therefore, we have focused our research directions to develop fully-automated, high accurate solutions that save export labor and efforts, and mitigate the challenges in medical imaging. For example,  i) the availability of a few annotated data, ii) low inter-/intra-observers agreement, iii) high-class imbalance, iv) inter-/intra-scanners variability and v) domain shift.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Shadi_Web_Images.016.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To mitigate the problem of limited annotated data, we developed models that &lt;em&gt;Learn from a Few Examples&lt;/em&gt; by i) leveraging the massive amount of unlabeled data via semi-supervised techniques (Baur and Albarqouni &lt;em&gt;et al.&lt;/em&gt; 2017), ii) utilizing weakly labeled data, which is way cheaper than densely one (Kazi &lt;em&gt;et al.&lt;/em&gt; 2017), iii) generating more examples through modeling the data distribution (Baur &lt;em&gt;et al.&lt;/em&gt; 2018), and finally by iv) investigating unsupervised approaches (Baur &lt;em&gt;et al.&lt;/em&gt; 2018, Baur &lt;em&gt;et al.&lt;/em&gt; 2019).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Shadi_Web_Images.017.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;https://www.med.upenn.edu/apps/faculty/index.php/g275/p9161623&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter Nöel&lt;/a&gt;, Department of Radiology, 
+&lt;a href=&#34;https://www.med.upenn.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Pennsylvania&lt;/a&gt;, USA&lt;/li&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;https://www.med.physik.uni-muenchen.de/personen/guests/dr_guillaume_landry/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guillaume Landry&lt;/a&gt;, Department of Radiation Oncology, Medical Center of the University of Munich, Germany&lt;/li&gt;
+&lt;li&gt;Dr. 
+&lt;a href=&#34;https://www.neurokopfzentrum.med.tum.de/neuroradiologie/forschung_projekt_computational_imaging.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedikt Wiestler&lt;/a&gt;, TUM Neuroradiologie, 
+&lt;a href=&#34;https://www.mri.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Klinikum rechts der Isar&lt;/a&gt;, Germany&lt;/li&gt;
+&lt;li&gt;Prof. Dr. med. 
+&lt;a href=&#34;https://www.kernspin-maximilianstrasse.de/prof-dr-med-sonja-kirchhoff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonja Kirchhoff&lt;/a&gt;, 
+&lt;a href=&#34;https://www.mri.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Klinikum rechts der Isar&lt;/a&gt;, Germany&lt;/li&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;[https://www.ls2n.fr/annuaire/Diana%20MATEUS/&#34;&gt;Diana Mateus&lt;/a&gt;, 
+&lt;a href=&#34;https://www.ec-nantes.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ecole Centrale Nantes&lt;/a&gt;, France&lt;/li&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;https://www5.cs.fau.de/en/our-team/maier-andreas/projects/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andreas Maier&lt;/a&gt;, 
+&lt;a href=&#34;https://www.fau.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Friedrich-Alexander-Universität Erlangen-Nürnberg&lt;/a&gt;, Germany&lt;/li&gt;
+&lt;li&gt;Prof. 
+&lt;a href=&#34;https://health.uottawa.ca/people/fallavollita-pascal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pascal Fallavollita&lt;/a&gt;, 
+&lt;a href=&#34;https://www.uottawa.ca/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ottawa University&lt;/a&gt;, Canada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Siemens Healthineers&lt;/li&gt;
+&lt;li&gt;Siemens AG&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modelling Uncertainty in Deep Learning for Medical Applications</title>
+      <link>https://albarqouni.github.io/project/uncertainty/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/uncertainty/</guid>
+      <description>&lt;p&gt;Deep Learning has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of applications in computer vision and medical applications. Despite its success and merit in recent state-of-the-art methods, DL tools still lack in robustness hindering its adoption in medical applications. Modeling uncertainty, through Bayesian Inference and Monte-Carlo dropout, has been successfully introduced to computer vision for better understanding the underlying deep learning models. In this proposal, we investigate modeling the uncertainty for medical applications given the well-known challenges in medical image analysis, namely severe class-imbalance, few amounts of labeled data, domain shift, and noisy annotations.&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;p&gt;Prof. 
+&lt;a href=&#34;http://people.ee.ethz.ch/~kender/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ender Konukoglu&lt;/a&gt;, 
+&lt;a href=&#34;https://ee.ethz.ch/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Information Technology and Electrical Engineerng&lt;/a&gt;, 
+&lt;a href=&#34;https://ethz.ch/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETH Zurich&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Prof. 
+&lt;a href=&#34;http://wp.doc.ic.ac.uk/dr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Rueckert&lt;/a&gt;, 
+&lt;a href=&#34;http://www.imperial.ac.uk/computing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Computing&lt;/a&gt;, 
+&lt;a href=&#34;http://www.imperial.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imperial College London&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Prof. 
+&lt;a href=&#34;http://campar.in.tum.de/Main/NassirNavab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nassir Navab&lt;/a&gt;, 
+&lt;a href=&#34;http://campar.in.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Faculty of Informatics&lt;/a&gt;, 
+&lt;a href=&#34;www.tum.de&#34;&gt;Technical University of Munich&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;p&gt;This project is supported by the 
+&lt;a href=&#34;https://www.daad.de/de/studieren-und-forschen-in-deutschland/stipendien-finden/prime/prime-fellows-201819/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PRIME programme&lt;/a&gt; of the 
+&lt;a href=&#34;www.daad.de&#34;&gt;German Academic Exchange Service (DAAD)&lt;/a&gt; with funds from the 
+&lt;a href=&#34;www.bmbf.de&#34;&gt;German Federal Ministry of Education and Research (BMBF)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Uncertainty Aware Methods for Camera Pose Estimation and Relocalization</title>
+      <link>https://albarqouni.github.io/project/bacatec/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/bacatec/</guid>
+      <description>&lt;p&gt;Camera pose estimation is the term for determining the 6-DoF rotation and translation parameters of a camera. It is now a key technology in enabling multitudes of applications such as augmented reality, autonomous driving, human computer interaction and robot guidance. For decades, vision scholars have worked on finding the unique solution of this problem. Yet, this trend is witnessing a fundamental change. The recent school of thought has begun to admit that for our highly complex and ambiguous real environments, obtaining a single solution is not sufficient. This has led to a paradigm shift towards estimating rather a range of solutions in the form of full probability or at least explaining the uncertainty of camera pose estimates. Thanks to the advances in Artificial Intelligence, this important problem can now be tackled via machine learning algorithms that can discover rich and powerful representations for the data at hand. In collaboration, TU Munich and Stanford University plan to devise and implement generative methods that can explain uncertainty and ambiguity in pose predictions. In particular, our aim is to bridge the gap between 6DoF pose estimation either from 2D images/3D point sets and uncertainty quantification through multimodal variational deep methods.&lt;/p&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://tbirdal.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Tolga Birdal&lt;/a&gt;, 
+&lt;a href=&#34;https://profiles.stanford.edu/leonidas-guibas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Leonidas Guibas&lt;/a&gt;, Stanford University&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://campar.in.tum.de/Main/MaiBui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mai Bui&lt;/a&gt;, 
+&lt;a href=&#34;%22#about%22&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt;, 
+&lt;a href=&#34;http://campar.in.tum.de/WebHome&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nassir Navab&lt;/a&gt;, Technical University of Munich&lt;/p&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;p&gt;This project is funded by the Bavaria California Technology Center (
+&lt;a href=&#34;https://www.bacatec.de/en/gefoerderte_projekte.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BaCaTeC&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Organizing Committee Member at MICCAI DART 2020</title>
+      <link>https://albarqouni.github.io/talk/dart2020/</link>
+      <pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/dart2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organizing Committee Member at MICCAI DCL 2020</title>
+      <link>https://albarqouni.github.io/talk/dcl2020/</link>
+      <pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/dcl2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/ulm2019/</link>
+      <pubDate>Fri, 17 Jan 2020 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/ulm2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling Labels Uncertainty in Medical Imaging</title>
+      <link>https://albarqouni.github.io/talk/eth2020/</link>
+      <pubDate>Wed, 15 Jan 2020 11:15:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/eth2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: AI in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/ai4h/</link>
+      <pubDate>Wed, 08 Jan 2020 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/ai4h/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A learning without forgetting approach to incorporate artifact knowledge in polyp localization tasks</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-learning/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy</title>
+      <link>https://albarqouni.github.io/publication/ali-2020-objective/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/ali-2020-objective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
+      <link>https://albarqouni.github.io/publication/shapira-2020-benefit/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/shapira-2020-benefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image-to-Images Translation for Multi-Task Organ Segmentation and Bone Suppression in Chest X-Ray Radiography</title>
+      <link>https://albarqouni.github.io/publication/eslami-2020-image/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/eslami-2020-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
+      <link>https://albarqouni.github.io/publication/shapira-2020-liver/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/shapira-2020-liver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</title>
+      <link>https://albarqouni.github.io/publication/bdair-2020-roam/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bdair-2020-roam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/haicu2019/</link>
+      <pubDate>Mon, 16 Dec 2019 09:30:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/haicu2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/guc2019/</link>
+      <pubDate>Wed, 27 Nov 2019 11:15:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/guc2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organizing Committee Member at MICCAI DART 2019</title>
+      <link>https://albarqouni.github.io/talk/dart2019/</link>
+      <pubDate>Sun, 13 Oct 2019 16:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/dart2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organizing Committee Member at MICCAI COMPAY 2019</title>
+      <link>https://albarqouni.github.io/talk/compay2019/</link>
+      <pubDate>Sun, 13 Oct 2019 13:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/compay2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/icann2019/</link>
+      <pubDate>Thu, 19 Sep 2019 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/icann2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Deep Learning in Medical Imaging</title>
+      <link>https://albarqouni.github.io/talk/zeiss2019/</link>
+      <pubDate>Sun, 16 Jun 2019 13:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/zeiss2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Artificial Intelligence. Just Math?</title>
+      <link>https://albarqouni.github.io/talk/neocolam2019/</link>
+      <pubDate>Sat, 26 Jan 2019 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/neocolam2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
+      <link>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
+      <link>https://albarqouni.github.io/publication/baur-2019-fusing/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2019-fusing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-graph/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn to Segment Organs with a Few Bounding Boxes</title>
+      <link>https://albarqouni.github.io/publication/parida-2019-learn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/parida-2019-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning interpretable disentangled representations using adversarial vaes</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Interpretable Features via Adversarially Robust Optimization</title>
+      <link>https://albarqouni.github.io/publication/khakzar-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/khakzar-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2019-multi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2019-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-attention equipped graph convolutions for disease prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-self/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
+      <link>https://albarqouni.github.io/sites.google.com/view/mtlrl</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/sites.google.com/view/mtlrl</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2019-towards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited Talk: Can Deep Learning Models be Trained with Annotations Collected via Crowdsourcing?</title>
+      <link>https://albarqouni.github.io/talk/ecp2018/</link>
+      <pubDate>Sun, 09 Sep 2018 16:05:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/ecp2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capsule networks against medical imaging data challenges</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2018-capsule/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2018-capsule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
+      <link>https://albarqouni.github.io/publication/baur-2018-deep/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2018-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GANs for medical image analysis</title>
+      <link>https://albarqouni.github.io/publication/kazeminia-2018-gans/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazeminia-2018-gans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating highly realistic images of skin lesions with GANs</title>
+      <link>https://albarqouni.github.io/publication/baur-2018-generating/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2018-generating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair</title>
+      <link>https://albarqouni.github.io/publication/breininger-2018-intraoperative/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/breininger-2018-intraoperative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple device segmentation for fluoroscopic imaging using multi-task learning</title>
+      <link>https://albarqouni.github.io/publication/breininger-2018-multiple/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/breininger-2018-multiple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scene coordinate and correspondence learning for image-based localization</title>
+      <link>https://albarqouni.github.io/publication/bui-2018-scene/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2018-scene/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly-supervised localization and classification of proximal femur fractures</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2018-weakly/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2018-weakly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When regression meets manifold learning for object recognition and pose estimation</title>
+      <link>https://albarqouni.github.io/publication/bui-2018-regression/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2018-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</title>
+      <link>https://albarqouni.github.io/publication/bejnordi-2017-diagnostic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bejnordi-2017-diagnostic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-supervised deep learning for fully convolutional networks</title>
+      <link>https://albarqouni.github.io/publication/baur-2017-semi/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2017-semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-ray in-depth decomposition: Revealing the latent structures</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2017-x/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2017-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-Ray PoseNet: 6 DoF pose estimation for mobile X-Ray devices</title>
+      <link>https://albarqouni.github.io/publication/bui-2017-x/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-2017-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
+      <link>https://albarqouni.github.io/publication/baur-2016-cathnets/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2016-cathnets/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

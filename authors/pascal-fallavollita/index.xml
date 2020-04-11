@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pascal Fallavollita | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/pascal-fallavollita/</link>
+      <atom:link href="https://albarqouni.github.io/authors/pascal-fallavollita/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pascal Fallavollita</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Pascal Fallavollita</title>
+      <link>https://albarqouni.github.io/authors/pascal-fallavollita/</link>
+    </image>
+    
+    <item>
+      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
+      <link>https://albarqouni.github.io/publication/baur-2016-cathnets/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2016-cathnets/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

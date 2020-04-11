@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community Engagement | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/talk/</link>
+      <atom:link href="https://albarqouni.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Community Engagement</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Apr 2020 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Community Engagement</title>
+      <link>https://albarqouni.github.io/talk/</link>
+    </image>
+    
+    <item>
+      <title>Organizing Committee Member at MICCAI DART 2020</title>
+      <link>https://albarqouni.github.io/talk/dart2020/</link>
+      <pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/dart2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organizing Committee Member at MICCAI DCL 2020</title>
+      <link>https://albarqouni.github.io/talk/dcl2020/</link>
+      <pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/dcl2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/ulm2019/</link>
+      <pubDate>Fri, 17 Jan 2020 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/ulm2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling Labels Uncertainty in Medical Imaging</title>
+      <link>https://albarqouni.github.io/talk/eth2020/</link>
+      <pubDate>Wed, 15 Jan 2020 11:15:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/eth2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: AI in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/ai4h/</link>
+      <pubDate>Wed, 08 Jan 2020 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/ai4h/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/haicu2019/</link>
+      <pubDate>Mon, 16 Dec 2019 09:30:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/haicu2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/guc2019/</link>
+      <pubDate>Wed, 27 Nov 2019 11:15:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/guc2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organizing Committee Member at MICCAI DART 2019</title>
+      <link>https://albarqouni.github.io/talk/dart2019/</link>
+      <pubDate>Sun, 13 Oct 2019 16:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/dart2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organizing Committee Member at MICCAI COMPAY 2019</title>
+      <link>https://albarqouni.github.io/talk/compay2019/</link>
+      <pubDate>Sun, 13 Oct 2019 13:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/compay2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/talk/icann2019/</link>
+      <pubDate>Thu, 19 Sep 2019 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/icann2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Deep Learning in Medical Imaging</title>
+      <link>https://albarqouni.github.io/talk/zeiss2019/</link>
+      <pubDate>Sun, 16 Jun 2019 13:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/zeiss2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote Speaker: Artificial Intelligence. Just Math?</title>
+      <link>https://albarqouni.github.io/talk/neocolam2019/</link>
+      <pubDate>Sat, 26 Jan 2019 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/neocolam2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invited Talk: Can Deep Learning Models be Trained with Annotations Collected via Crowdsourcing?</title>
+      <link>https://albarqouni.github.io/talk/ecp2018/</link>
+      <pubDate>Sun, 09 Sep 2018 16:05:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/ecp2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

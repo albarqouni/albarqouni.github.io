@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seyed-Ahmad Ahmadi | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/seyed-ahmad-ahmadi/</link>
+      <atom:link href="https://albarqouni.github.io/authors/seyed-ahmad-ahmadi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Seyed-Ahmad Ahmadi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Seyed-Ahmad Ahmadi</title>
+      <link>https://albarqouni.github.io/authors/seyed-ahmad-ahmadi/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
+      <link>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-graph/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
+      <link>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

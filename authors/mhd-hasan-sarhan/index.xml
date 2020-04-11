@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mhd Hasan Sarhan | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/mhd-hasan-sarhan/</link>
+      <atom:link href="https://albarqouni.github.io/authors/mhd-hasan-sarhan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mhd Hasan Sarhan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Mhd Hasan Sarhan</title>
+      <link>https://albarqouni.github.io/authors/mhd-hasan-sarhan/</link>
+    </image>
+    
+    <item>
+      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning interpretable disentangled representations using adversarial vaes</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2019-multi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2019-multi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
