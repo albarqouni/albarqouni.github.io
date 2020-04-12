@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -217,8 +255,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://albarqouni.github.io/publication_types/2/">
 
@@ -676,6 +714,16 @@
     
     
     <div>
+      <h2><a href="/publication/tomczack-2019-learn/" >Learn to estimate labels uncertainty for quality assurance</a></h2>
+      <div class="article-style">
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
       <h2><a href="/publication/parida-2019-learn/" >Learn to Segment Organs with a Few Bounding Boxes</a></h2>
       <div class="article-style">
         
@@ -708,7 +756,7 @@
     
     
     <div>
-      <h2><a href="/sites.google.com/view/mtlrl" >Semi-Supervised Few-Shot Learning with Prototypical Random Walks</a></h2>
+      <h2><a href="/publication/ayyad-2019-semi/" >Semi-Supervised Few-Shot Learning with Prototypical Random Walks</a></h2>
       <div class="article-style">
         
           Recent progress has shown that few-shot learning can be improved with access to unlabelled data, known as semi-supervised few-shot learning(SS-FSL). We introduce an SS-FSL approach, dubbed as Prototypical Random Walk Networks(PRWN), built on top of …
@@ -765,16 +813,6 @@
     
     <div>
       <h2><a href="/publication/lahiani-2018-generalizing/" >Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/breininger-2018-intraoperative/" >Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair</a></h2>
       <div class="article-style">
         
       </div>

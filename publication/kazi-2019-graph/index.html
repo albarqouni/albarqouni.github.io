@@ -209,14 +209,52 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://albarqouni.github.io/publication/kazi-2019-graph/">
 
@@ -282,7 +320,7 @@
     "name": "Shadi Albarqouni",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://albarqouni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Clinicians implicitly incorporate the complementarity of multi-modal data for disease diagnosis. Often a varied order of importance for this heterogeneous data is considered for personalized decisions. Current learning-based methods have achieved better performance with uniform attention to individual information, but a very few have focused on patient-specific attention learning schemes for each modality. Towards this, we introduce a model which not only improves the disease prediction but also focuses on learning patient-specific order of importance for multi-modal data elements. In order to achieve this, we take advantage of LSTM-based attention mechanism and graph convolutional networks (GCNs) to design our model. GCNs learn multi-modal but class-specific features from the entire population of patients, whereas the attention mechanism optimally fuses these multi-modal features into a final decision, separately for each patient. In this paper, we apply the proposed approach for disease prediction task for Parkinson’s and Alzheimer’s using two public medical datasets."

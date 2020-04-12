@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -217,8 +255,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://albarqouni.github.io/tags/deep-learning/">
 
@@ -676,6 +714,18 @@
     
     
     <div>
+      <h2><a href="/publication/jimenez-2019-towards/" >Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</a></h2>
+      <div class="article-style">
+        
+          We demonstrate the feasibility of a fully automatic computer-aided diagnosis (CAD) tool, based on deep learning, that localizes and classifies proximal femur fractures on X-ray images according to the AO classification. The proposed framework aims to …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
       <h2><a href="/talk/ecp2018/" >Invited Talk: Can Deep Learning Models be Trained with Annotations Collected via Crowdsourcing?</a></h2>
       <div class="article-style">
         
@@ -768,18 +818,6 @@
     <div>
       <h2><a href="/publication/jimenez-2018-weakly/" >Weakly-supervised localization and classification of proximal femur fractures</a></h2>
       <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/bui-2018-regression/" >When regression meets manifold learning for object recognition and pose estimation</a></h2>
-      <div class="article-style">
-        
-          In this work, we propose a method for object recognition and pose estimation from depth images using convolutional neural networks. Previous methods addressing this problem rely on manifold learning to learn low dimensional viewpoint descriptors and …
         
       </div>
     </div>

@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -217,8 +255,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://albarqouni.github.io/publication/">
 
@@ -674,6 +712,9 @@
       
 
       
+      
+        
+        
       
         
         
@@ -1981,6 +2022,126 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/baur-2020-autoencoders/" >Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span><a href="/authors/christoph-baur/">Christoph Baur</a></span>, <span><a href="/authors/stefan-denner/">Stefan Denner</a></span>, <span><a href="/authors/benedikt-wiestler/">Benedikt Wiestler</a></span>, <span><a href="/authors/shadi-albarqouni/">Shadi Albarqouni</a></span>, <span><a href="/authors/nassir-navab/">Nassir Navab</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2004.03271" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/baur-2020-autoencoders/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/baur-2020-autoencoders/" >
+      <img src="/publication/baur-2020-autoencoders/featured_hu09c5c0be591e24d015a5cd67b30da33e_411987_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2020">
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
       <a href="/publication/ali-2020-objective/" >An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy</a>
     </h3>
 
@@ -2676,7 +2837,7 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/sites.google.com/view/mtlrl" >Semi-Supervised Few-Shot Learning with Prototypical Random Walks</a>
+      <a href="/publication/ayyad-2019-semi/" >Semi-Supervised Few-Shot Learning with Prototypical Random Walks</a>
     </h3>
 
     
@@ -2723,10 +2884,18 @@
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/sites.google.com/view/cite.bib">
+        data-filename="/publication/ayyad-2019-semi/cite.bib">
   Cite
 </button>
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/sites.google.com/view/mtlrl" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -2761,8 +2930,8 @@
     
     
     
-    <a href="/sites.google.com/view/mtlrl" >
-      <img src="/sites.google.com/view/featured_huf5b6bf5f81a93bf71c98cba26cbf4beb_371302_150x0_resize_lanczos_2.png" alt="">
+    <a href="/publication/ayyad-2019-semi/" >
+      <img src="/publication/ayyad-2019-semi/featured_huf5b6bf5f81a93bf71c98cba26cbf4beb_371302_150x0_resize_lanczos_2.png" alt="">
     </a>
     
   </div>

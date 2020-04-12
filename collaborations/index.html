@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -217,8 +255,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://albarqouni.github.io/collaborations/">
 
@@ -672,40 +710,40 @@
 <div class="universal-wrapper">
   
   <div class="article-style"><p>From my point of view, the multi-disciplinary collaboration is essential to i) learn how to model a real-life problem mathematically, ii ) design and develop an innovative solution, and finally to iii) work closely with the experts in the field; clinicians, scientists, or engineers, to evaluate and validate the proposed solutions aiming to translate such knowledge into clinical practice, or products, respectively. In this regard, I have utilized almost every single connection to collaborate with Academia, Industry, and Clinical partners. Such fruitful collaborations are translated into research outcomes, i.e., 
-<a href="publication/#1">journal articles</a> or 
-<a href="publication/#1">conference proceedings</a>, or 
-<a href="publication/#8">patents</a>.</p>
+<a href="../publication/#1">journal articles</a> or 
+<a href="../publication/#1">conference proceedings</a>, or 
+<a href="../publication/#8">patents</a>.</p>
 <h2 id="academia">Academia</h2>
 <ul>
 <li>Dr. 
 <a href="http://tbirdal.me/" target="_blank" rel="noopener">Tolga Birdal</a>, Prof. 
 <a href="https://profiles.stanford.edu/leonidas-guibas" target="_blank" rel="noopener">Leonidas Guibas</a>, Stanford University, on 
-<a href="project/bacatec/">Camera Pose Estimation</a></li>
+<a href="../project/bacatec/">Camera Pose Estimation</a></li>
 <li>Prof. 
 <a href="[https://www.ls2n.fr/annuaire/Diana%20MATEUS/">Diana Mateus</a>, 
 <a href="https://www.ec-nantes.fr/" target="_blank" rel="noopener">Ecole Centrale Nantes</a>, France, on 
-<a href="publication/jimenez-2019-towards/">Femur fracture detection and classification</a></li>
+<a href="../publication/jimenez-2019-towards/">Femur fracture detection and classification</a></li>
 <li>Prof. 
 <a href="https://www5.cs.fau.de/en/our-team/maier-andreas/projects/index.html" target="_blank" rel="noopener">Andreas Maier</a>, 
 <a href="https://www.fau.de/" target="_blank" rel="noopener">Friedrich-Alexander-Universität Erlangen-Nürnberg</a>, Germany, on 
-<a href="publication/breininger-2018-intraoperative/">Stent Segmentation in Interventional Imaging</a></li>
+<a href="../publication/breininger-2018-intraoperative/">Stent Segmentation in Interventional Imaging</a></li>
 </ul>
 <h2 id="clinical-partners">Clinical Partners</h2>
 <ul>
 <li>Prof. 
 <a href="https://www.med.upenn.edu/apps/faculty/index.php/g275/p9161623" target="_blank" rel="noopener">Peter Nöel</a>, Department of Radiology, 
 <a href="https://www.med.upenn.edu/" target="_blank" rel="noopener">University of Pennsylvania</a>, USA, on 
-<a href="publication/shapira-2020-benefit/">Liver Pathology Classification</a></li>
+<a href="../publication/shapira-2020-benefit/">Liver Pathology Classification</a></li>
 <li>Prof. 
 <a href="https://www.med.physik.uni-muenchen.de/personen/guests/dr_guillaume_landry/index.html" target="_blank" rel="noopener">Guillaume Landry</a>, Department of Radiation Oncology, Medical Center of the University of Munich, Germany, on Temporal CT Segmentation</li>
 <li>Dr. 
 <a href="https://www.neurokopfzentrum.med.tum.de/neuroradiologie/forschung_projekt_computational_imaging.html" target="_blank" rel="noopener">Benedikt Wiestler</a>, TUM Neuroradiologie, 
 <a href="https://www.mri.tum.de/" target="_blank" rel="noopener">Klinikum rechts der Isar</a>, Germany, on 
-<a href="publication/baur-2018-deep/">Multiple Sclerosis Segmentation</a></li>
+<a href="../publication/baur-2018-deep/">Multiple Sclerosis Segmentation</a></li>
 <li>Prof. Dr. med. 
 <a href="https://www.kernspin-maximilianstrasse.de/prof-dr-med-sonja-kirchhoff/" target="_blank" rel="noopener">Sonja Kirchhoff</a>, 
 <a href="https://www.mri.tum.de/" target="_blank" rel="noopener">Klinikum rechts der Isar</a>, Germany, on 
-<a href="publication/jimenez-2019-towards/">Femur fracture detection and classification</a></li>
+<a href="../publication/jimenez-2019-towards/">Femur fracture detection and classification</a></li>
 <li>Dr. med. 
 <a href="https://kortuem.de/team-3/karsten-kortuem/" target="_blank" rel="noopener">Karsten Korteum</a> at Augenklinikum on Opthalmology Imaging</li>
 </ul>
@@ -713,23 +751,23 @@
 <ul>
 <li>Dr. 
 <a href="https://scholar.google.de/citations?user=4wvRrK4AAAAJ&amp;hl=en" target="_blank" rel="noopener">Nicola Rieke</a>, NVIDIA GmbH, on 
-<a href="publication/rieke-2020-future/">Federated Learning</a></li>
+<a href="../publication/rieke-2020-future/">Federated Learning</a></li>
 <li>Dr. 
 <a href="https://scholar.google.de/citations?user=PmHOyT0AAAAJ&amp;hl=en" target="_blank" rel="noopener">Abouzar Eslami</a>, Carl Zeiss Meditec AG on 
-<a href="publication/sarhan-2019-multi/">Retionapthy Detection</a> and Surgical Phase Recognition</li>
+<a href="../publication/sarhan-2019-multi/">Retionapthy Detection</a> and Surgical Phase Recognition</li>
 <li>PD. Dr. 
 <a href="https://scholar.google.de/citations?user=ELOVd8sAAAAJ&amp;hl=en" target="_blank" rel="noopener">Slobodan Ilic</a>, Siemens AG on 
-<a href="tags/pose-estimation/">Camera Pose Estimation</a>, and White Blood Cell Imaging</li>
+<a href="../tags/pose-estimation/">Camera Pose Estimation</a>, and White Blood Cell Imaging</li>
 <li>Prof. 
 <a href="https://www.kaust.edu.sa/en/study/faculty/mohamed-elhoseiny" target="_blank" rel="noopener">Mohamed Elhoseiny</a>, 
 <a href="https://ai.facebook.com/" target="_blank" rel="noopener">Facebook AI Research</a> on 
-<a href="">Semi-Supervised Meta-Learning</a>.</li>
+<a href="../publication/ayyad-2019-semi/">Semi-Supervised Meta-Learning</a>.</li>
 <li>
 <a href="https://scholar.google.com/citations?hl=en&amp;user=SGiDPmsAAAAJ" target="_blank" rel="noopener">Eldad Klaiman</a>, Roche Diagnostics GmbH on 
-<a href="publication/lahiani-2020-seamless/">Digital Pathology</a></li>
+<a href="../publication/lahiani-2020-seamless/">Digital Pathology</a></li>
 <li>
 <a href="https://www.linkedin.com/in/georg-schummers-82bab44?originalSubdomain=de" target="_blank" rel="noopener">Georg Schummers</a> and Matthias Friedrichs, TOMTEC Imaging Systems GmbH on 
-<a href="publication/degel-2018-domain/">Left Atrium Segmentation in 3D Ultrasound</a></li>
+<a href="../publication/degel-2018-domain/">Left Atrium Segmentation in 3D Ultrasound</a></li>
 </ul>
 </div>
   

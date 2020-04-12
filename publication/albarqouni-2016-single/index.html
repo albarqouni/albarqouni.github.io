@@ -209,14 +209,52 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://albarqouni.github.io/publication/albarqouni-2016-single/">
 
@@ -282,7 +320,7 @@
     "name": "Shadi Albarqouni",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://albarqouni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "PURPOSE: X-ray imaging is widely used for guiding minimally invasive surgeries. Despite ongoing efforts in particular toward advanced visualization incorporating mixed reality concepts, correct depth perception from X-ray imaging is still hampered due to its projective nature. METHODS: In this paper, we introduce a new concept for predicting depth information from single-view X-ray images. Patient-specific training data for depth and corresponding X-ray attenuation information are constructed using readily available preoperative 3D image information. The corresponding depth model is learned employing a novel label-consistent dictionary learning method incorporating atlas and spatial prior constraints to allow for efficient reconstruction performance. RESULTS: We have validated our algorithm on patient data acquired for different anatomy focus (abdomen and thorax). Of 100 image pairs per each of 6 experimental instances, 80 images have been used for training and 20 for testing. Depth estimation results have been compared to ground truth depth values. CONCLUSION: We have achieved around [Formula: see text] and [Formula: see text] mean squared error on abdomen and thorax datasets, respectively, and visual results of our proposed method are very promising. We have therefore presented a new concept for enhancing depth perception for image-guided interventions."

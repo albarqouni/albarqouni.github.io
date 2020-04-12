@@ -209,14 +209,52 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://albarqouni.github.io/publication/albarqouni-2015-multi/">
 
@@ -285,7 +323,7 @@
     "name": "Shadi Albarqouni",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://albarqouni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Cryo-Electron Tomography is a leading imaging technique in structural biology, which is capable of acquiring two-dimensional projections of cellular structures at high resolution and close-to-native state. Due to the limited electron dose the resulting projections exhibit extremely low SNR and contrast. The 3D structure is then reconstructed and passed through a number of post-processing steps including de-noising and sub-tomogram averaging to provide a better understanding and interpretation. As CET is mainly used for imaging fine scale structures, any denoising method applied to CET images should be scale selective and in particular be able to preserve such fine scale structures. In this context, we propose a new denoising framework based on regularized graph spectral filtering with a full control of scale-space and global consistency. Using the gold-standard metrics, we show that our denoising algorithm significantly outperforms the state-of-the-art methods such as NAD, NLM and RGF in terms of noise removal and structure preservation."

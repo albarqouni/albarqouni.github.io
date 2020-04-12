@@ -209,14 +209,52 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://albarqouni.github.io/publication/lahiani-2020-seamless/">
 
@@ -282,7 +320,7 @@
     "name": "Shadi Albarqouni",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://albarqouni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Stain virtualization is an application with growing interest in digital pathology allowing simulation of stained tissue images thus saving lab and tissue resources. Thanks to the success of Generative Adversarial Networks (GANs) and the progress of unsupervised learning, unsupervised style transfer GANs have been successfully used to generate realistic, clinically meaningful and interpretable images. The large size of high resolution Whole Slide Images (WSIs) presents an additional computational challenge. This makes tilewise processing necessary during training and inference of deep learning networks. Instance normalization has a substantial positive effect in style transfer GAN applications but with tilewise inference, it has the tendency to cause a tiling artifact in reconstructed WSIs. In this paper we propose a novel perceptual embedding consistency (PEC) loss forcing the network to learn color, contrast and brightness invariant features in the latent space and hence substantially reducing the aforementioned tiling artifact. Our approach results in more seamless reconstruction of the virtual WSIs. We validate our method quantitatively by comparing the virtually generated images to their corresponding consecutive real stained images.We compare our results to state-of-the-art unsupervised style transfer methods and to the measures obtained from consecutive real stained tissue slide images. We demonstrate our hypothesis about the effect of the PEC loss by comparing model robustness to color, contrast and brightness perturbations and visualizing bottleneck embeddings. We validate the robustness of the bottleneck feature maps by measuring their sensitivity to the different perturbations and using them in a tumor segmentation task. Additionally, we propose a preliminary validation of the virtual staining application by comparing interpretation of 2 pathologists on real and virtual tiles and inter-pathologist agreement."
