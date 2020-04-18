@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tolga Birdal | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/tolga-birdal/</link>
+      <atom:link href="https://albarqouni.github.io/authors/tolga-birdal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tolga Birdal</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Tolga Birdal</title>
+      <link>https://albarqouni.github.io/authors/tolga-birdal/</link>
+    </image>
+    
+    <item>
+      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
+      <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

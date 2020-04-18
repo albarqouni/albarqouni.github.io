@@ -339,6 +339,11 @@
   </url>
   
   <url>
+    <loc>https://albarqouni.github.io/publication/bui-20206-d/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://albarqouni.github.io/publication/soberanis-2020-learning/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -449,6 +454,11 @@
   </url>
   
   <url>
+    <loc>https://albarqouni.github.io/authors/haowen-deng/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://albarqouni.github.io/publication/eslami-2020-image/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -474,7 +484,17 @@
   </url>
   
   <url>
+    <loc>https://albarqouni.github.io/authors/leonidas-guibas/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://albarqouni.github.io/publication/shapira-2020-liver/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://albarqouni.github.io/authors/mai-bui/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -519,6 +539,11 @@
   </url>
   
   <url>
+    <loc>https://albarqouni.github.io/tags/pose-estimation/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://albarqouni.github.io/publication/bdair-2020-roam/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -530,6 +555,11 @@
   
   <url>
     <loc>https://albarqouni.github.io/authors/sharib-ali/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://albarqouni.github.io/authors/slobodan-ilic/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -555,6 +585,11 @@
   
   <url>
     <loc>https://albarqouni.github.io/authors/tariq-bdair/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://albarqouni.github.io/authors/tolga-birdal/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -604,22 +639,12 @@
   </url>
   
   <url>
-    <loc>https://albarqouni.github.io/authors/mai-bui/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://albarqouni.github.io/publication/bui-2019-method/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://albarqouni.github.io/authors/sergey-zakharov/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://albarqouni.github.io/authors/slobodan-ilic/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -644,17 +669,27 @@
   </url>
   
   <url>
+    <loc>https://albarqouni.github.io/slides/covid19/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://albarqouni.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://albarqouni.github.io/tags/covid-19/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://albarqouni.github.io/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://albarqouni.github.io/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://albarqouni.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -930,11 +965,6 @@
   
   <url>
     <loc>https://albarqouni.github.io/authors/peter-biberthaler/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://albarqouni.github.io/tags/pose-estimation/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1509,6 +1539,11 @@
   </url>
   
   <url>
+    <loc>https://albarqouni.github.io/codes/roam/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://albarqouni.github.io/codes/stain-normalization/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -1801,10 +1836,6 @@
   <url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2009-steps/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://albarqouni.github.io/authors/hasan/</loc>
   </url>
   
   <url>

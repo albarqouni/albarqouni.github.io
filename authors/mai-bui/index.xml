@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/authors/mai-bui/</link>
       <atom:link href="https://albarqouni.github.io/authors/mai-bui/index.xml" rel="self" type="application/rss+xml" />
     <description>Mai Bui</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Mai Bui</title>
       <link>https://albarqouni.github.io/authors/mai-bui/</link>
     </image>
+    
+    <item>
+      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
+      <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Method for determining a pose of an object in an environment of the object using multi task learning and control device</title>
