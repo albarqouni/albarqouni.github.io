@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shadi Albarqouni">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Disclaimer: I am neither a radiologist nor a clinician. I am a computer scientist who have been working on medical image computing for a while. I tried to summairze the key findings reported in almost 15 papers published in the Radiology Society in North America (RSNA) in the last two months.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://albarqouni.github.io/talk/covid19/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://albarqouni.github.io/talk/covid19/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ShadiAlbarqouni">
+  <meta property="twitter:creator" content="@ShadiAlbarqouni">
+  
+  <meta property="og:site_name" content="Shadi Albarqouni">
+  <meta property="og:url" content="https://albarqouni.github.io/talk/covid19/">
+  <meta property="og:title" content="Medium Blog: Journey through COVID-19 RSNA Papers | Shadi Albarqouni">
+  <meta property="og:description" content="Disclaimer: I am neither a radiologist nor a clinician. I am a computer scientist who have been working on medical image computing for a while. I tried to summairze the key findings reported in almost 15 papers published in the Radiology Society in North America (RSNA) in the last two months."><meta property="og:image" content="https://albarqouni.github.io/talk/covid19/featured.png">
+  <meta property="twitter:image" content="https://albarqouni.github.io/talk/covid19/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-04-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-04-20T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://albarqouni.github.io/talk/covid19/"
+  },
+  "name": "Medium Blog: Journey through COVID-19 RSNA Papers",
+  
+  
+  "image": [
+    "https://albarqouni.github.io/talk/covid19/featured.png"
+  ],
+  
+  "startDate": "2020-04-20T00:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Shadi Albarqouni"
+  },
+  
+  "description": "Disclaimer: I am neither a radiologist nor a clinician. I am a computer scientist who have been working on medical image computing for a while. I tried to summairze the key findings reported in almost 15 papers published in the Radiology Society in North America (RSNA) in the last two months."
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Medium Blog: Journey through COVID-19 RSNA Papers | Shadi Albarqouni</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Shadi Albarqouni</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Shadi Albarqouni</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Resume</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Community</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/students/"><span>Students</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/codes/"><span>Codes</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/team/"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/collaborations/"><span>Collaborations</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Medium Blog: Journey through COVID-19 RSNA Papers</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/admin/">Shadi Albarqouni</a></span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/learn-to-recognize/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 343px;">
+  <div style="position: relative">
+    <img src="/talk/covid19/featured_hue5eb53c6c0fc5dcbc5ec7daa70aa1f92_453497_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://pubs.rsna.org/doi/10.1148/radiol.2020201160">Adapted from Wong et al.</a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <br>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Apr 20, 2020 00:00
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <p><em>Disclaimer: I am neither a radiologist nor a clinician. I am a computer scientist who have been working on medical image computing for a while. I tried to summairze the key findings reported in almost 15 papers published in the Radiology Society in North America (RSNA) in the last two months.</em></p>
+<p>
+<a href="http://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/novel-coronavirus-2019-ncov" target="_blank" rel="noopener"><strong>Intro about COVID-19</strong> </a></p>
+<h3 id="ct-imaging-features"><strong>CT Imaging features</strong></h3>
+<p>Key CT findings have been studied and investigated by Guan et al. [10] in a large cohort of 1099 patients with confirmed COVID-19, and Chung et al. [1] in a group of 21 patients infected with COVID-19 in China. Their key results that majority of RT-PCR confirmed patients (some are asymptomatic) show typical CT findings such as the presence of bilateral ground-glass opacities (GGO) and/or consolidation, with a rounded morphology and a peripheral lung distribution (cf. Fig.1). In another cohort of 104 patients, from the cruise ship “Diamond Princess”, Inui et al. [4] have reported similar findings of lung opacities and airway abnormalities in both asymptomatic and symptomatic cases. In addition to the key characteristics of peripheral GGO, Caruso et al. [7] have also observed an association with sub-segmental vessel enlargement (&gt; 3 mm) in his cohort of 158 participants from Italy (cf Fig.2).</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*j4iktyLv3cqyIh5LEcwf0A.png" alt="img">Fig.1: Image adopted from Chung et al. [1]</p>
+<blockquote>
+<p>Of 21 patients with the 2019 novel coronavirus, 15 (71%) had involvement of more than two lobes at chest CT, 12 (57%) had ground-glass opacities, seven (33%) had opacities with a rounded morphology, seven (33%) had a peripheral distribution of disease, six (29%) had consolidation with ground-glass opacities, and four (19%) had crazy-paving pattern. [1]</p>
+</blockquote>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*fnIOZsThw7AR_XrVaiIyXA.png" alt="img">Fig.2: Image adopted from Caruso et al. [7]</p>
+<p>Surprisingly, 14% of the patients (3 out of 21), studied by Chang et al. [1], show negative CT findings in their initial chest CT scan. Follow-up scans, however, show rounded peripheral ground-glass opacity (cf. Fig.3). Xie et al. [3] and Caruso et al. [7] have also reported similar percentages of 4% (7 out of 167), and 3% (2 out of 62), respectively, of their cohorts who show no findings in their CT scans.</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*fq3JovfT6QlwCdCg9iaDhA.png" alt="img">Fig.3: Image adopted from Chung et al. [1]</p>
+<p>Contrary, Xie et al. [3] found out that 3% of their cohort (5 out of 167), who had initially negative RT-PCR, show positive Chest CT with similar findings of viral pneumonia reported by Chung et al. [1] (cf Fig.4). A few days later, and after repeated swap tests, the RT-PCR had become positive. This has been. also confirmed in another cohort, reported by Fang et al. [8], where the percentage was around 29% (15 out of 51).</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*TUkEdff20eeO6JBAmY7lfA.png" alt="img">Fig.4: Adopted from Xie et al. [3]</p>
+<h3 id="chest-ct-vs-rt-pcr"><strong>Chest CT vs. RT-PCR</strong></h3>
+<p>Given the aforementioned key characteristics of COVID-19, the low sensitivity of the RT-PCR test (42–71%) [6], and the long mean interval time between the initial negative to positive RT-PCR (5.1 +/- 1.5 days), clinicians and researchers have investigated <strong>whether diagnostic imaging features could be used an alternative to RT-PCR in screening</strong>.</p>
+<blockquote>
+<p>In patients at high risk for 2019-nCoV infection, chest CT evidence of viral pneumonia may precede positive negative RT-PCR test results. [3]</p>
+</blockquote>
+<p>A few recent studies (Ai et al. [6], Caruso et al. [7], Fang et al. [8]) have investigated the correlation of Chest CT findings and RT-PCR test reporting high sensitivity of 97–98% for Chest CT in diagnosing COVID-19. Detailed evaluation metrics against the RT-PCR are reported below. Interestingly, 98% of the patients (56 out of 57), reported by Ai et al. [6], who had initially positive CT findings show positive RT-PCR within 6 days (cf Fig.5). <strong>Such interesting results suggest chest CT could be considered for screening.</strong></p>
+<blockquote>
+<p>In a series of 51 patients with chest CT and RT-PCR assay performed within 3 days, the sensitivity of CT for COVID-19 infection was 98% compared to RT-PCR sensitivity of 71% (p&lt;.001) [2]</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Papers</th>
+<th>Sample Size</th>
+<th>Country</th>
+<th>Sensitivity</th>
+<th>Specificity</th>
+<th>Accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Caruso et al. [7]</td>
+<td>58</td>
+<td>Rome, Italy</td>
+<td>97%</td>
+<td>56%</td>
+<td>72%</td>
+</tr>
+<tr>
+<td>Ai et al. [6]</td>
+<td>1014</td>
+<td>Wuhan, China</td>
+<td>97%</td>
+<td>25%</td>
+<td>68%</td>
+</tr>
+<tr>
+<td>Fang et al. [8]</td>
+<td>51</td>
+<td>Shanghai, China</td>
+<td>98%</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*c9DxSwH8gO2Wey-Ml6HfSQ.png" alt="img">Fig.5: Adopted from Ai et al. [6]</p>
+<p>Discrepancy between CT findings and RT-PCR motivated clinicians and researchers to analyze the serial CT findings over time (Wang and Dong et al. [9], Pan et al. [12]) and study the relationship to duration of infection (Bernheim et al. [11]). As reported in their analysis (Fig. 6, 7,8), the appearance of GGO and Consolidations varies over time explaining the discrepancy in the sensitivity. <strong>Both studies suggest, however, pathology quantification might help in the prognosis.</strong></p>
+<blockquote>
+<p>The extent of CT abnormalities progressed rapidly after the onset of symptoms, peaked around 6–11 days, and followed by persistence of high levels in lung abnormalities. The temporal changes of the diverse CT manifestations followed a specific pattern, which might indicate the progression and recovery of the illness. [7]</p>
+</blockquote>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*s5erFY4_5HdFSxC5sSI9BQ.png" alt="img">Fig. 6: Adopted from Wang and Dong et al. [9]</p>
+<blockquote>
+<p>Recognizing imaging patterns based on infection time course is paramount for not only understanding the pathophysiology and natural history of infection, but also for helping to predict patient progression and potential complication development. [11]</p>
+</blockquote>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*kp-Ce1GSU9YDuS14igqnAQ.png" alt="img">Fig. 7: Adopted from Bernheim et al. [11]</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*GlNXjNXv7oAsm2MBJ1ivCA.png" alt="img">Fig.8: Adopted from Pan et al. [12]</p>
+<h3 id="chest-x-ray-vs-rt-pcr"><strong>Chest X-ray vs. RT-PCR</strong></h3>
+<p>Given the limited resources, and to minimize the risk of cross-infection [14], and contamination, clinicians and researchers have investigated <strong>whether a readily available diagnostic imaging, namely X-ray, could be used as a first-line triage tool</strong>, and help in detecting abnormalities associated with COVID-19 in Chest X-rays, in particular, for asymptomatic patients.</p>
+<p>One of the interesting studies reported by Wong et al. [13] who have studied the appearance of COVID-19 in Chest X-ray, and its correlation with the key findings in the CT scans. Besides, they have investigated  the correlation of Chest X-ray and RT-PCR test.</p>
+<p>In their cohort of 64 patients from Hong Kong, they observed similar key characteristics, appeared in CT scans, such as bilateral, peripheral ground-glass opacity, and/or consolidations (cf. Fig. 9).</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*uJ-h7jvo2RNUD8A-IqO86w.png" alt="img">Fig. 9: Adapted from Wong et al. [13]</p>
+<p>In contrast to the high sensitivity reported for the CT scans, Wong et al. [13] reported a sensitivity of 69% for Chest X-ray, compared to 91% for the initial RT-PCR. The Chest X-ray abnormalities preceded the positive RT-PCR only in 9% (6 out of 64 patients). Examples on the latter scenario are demonstrated in Fig. 10 (A, and B).</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*FuB_zAuHcVmnYEmUJkoNdw.png" alt="img">Fig. 10: Adapted from Wong et al. [13]</p>
+<p>The remarkable low sensitivity indicates a high number of False Negative suggesting further investigation of the abnormalities change over time. Fig.11 shows the changes of severity score in Chest X-ray, where the peak score was reported in 10–12 days since symptoms onset.</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*8Y0vR85Wue5QMiaEaSz6JQ.png" alt="img">Fig.11: Adopted from Wong et al. [13]</p>
+<p>Surprisingly, 86% of the patients (24 out of 28) who had initial positive Chest X-ray, show positive findings on the CT as well. Whereas only one patient of the rest shows no findings in the Chest X-ray, the CT shows peripheral GOO (cf. Fig.12). <strong>These results suggest Chest X-ray might be helpful in monitoring and prognosis, but not recommended for screening.</strong></p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*iPWLY7G9dtwRfhrct4NHQw.png" alt="img">Fig. 12: Adapted from Wong et al. [13]</p>
+<blockquote>
+<p>At this time, CT screening for the detection of COVID-19 is not recommended by most radiological societies. However, we anticipate that the use of CT in clinical management as well as incidental findings potentially attributable to COVID-19 will evolve. [15]</p>
+</blockquote>
+<h3 id="community-acquired-pneumonia-cap-vs-covid-19"><strong>Community Acquired Pneumonia (CAP) vs. COVID-19</strong></h3>
+<p>So far, previous studies report high sensitivity in diagnosing COVID-19 from CT scans, however, with remarkable low specificity, e.g. 25%, and 56% in Ai et al. [6], and Caruso et al. [7], respectively. In other words, radiologists might misinterpret the CT scan and diagnose the patient with COVID-19.</p>
+<blockquote>
+<p>These studies have shown that COVID-19 often produces a CT pattern resembling organizing pneumonia, notably peripheral ground-glass opacities (GGO) and nodular or mass-like GGO that are often bilateral and multilobar (
+<a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152#r11" target="_blank" rel="noopener">11</a>). However, additional imaging findings have also been reported including linear, curvilinear or perilobular opacities, consolidation, and diffuse GGO, which can mimic several disease processes including other infections, inhalational exposures, and drug toxicities (
+<a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152#r12" target="_blank" rel="noopener">12</a>
+<a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152#r15" target="_blank" rel="noopener">–15</a>). [15]</p>
+</blockquote>
+<p>To assess the performance of radiologists in differentiating COVID-19 from other viral infections, Bai and Hsieh et al. [16] collected a cohort of 424 chest CT scans; 52% with positive COVID-19 by RT-PCR test, and 48% with positive Respiratory Pathogen Panel for viral pneumonia. The cohort was blindly reviewed by three radiologists from China, and a subset of 58 patients were reviewed by four radiologists from the US. Overall, their results demonstrate that <strong>radiologists can distinguish COVID-19 from other viral pneumonia with moderate to high sensitivity 67–93%, and high specificity 93–100%.</strong> Misinterpreted cases show either subtle or atypical findings in their CT scans (cf. Fig. 13). Key differences have been also reported by the radiologists.</p>
+<blockquote>
+<p>Compared to non-COVID-19 pneumonia, COVID-19 pneumonia was more likely to have a peripheral distribution (80% vs. 57%, p&lt;0.001), ground-glass opacity (91% vs. 68%, p&lt;0.001), fine reticular opacity (56% vs. 22%, p&lt;0.001), and vascular thickening (59% vs. 22%, p&lt;0.001), but less likely to have a central+peripheral distribution (14.% vs. 35%, p&lt;0.001), pleural effusion (4.1 vs. 39%, p&lt;0.001) and lymphadenopathy (2.7% vs. 10.2%, p&lt;0.001).</p>
+</blockquote>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*WWHZpIe7G8OnWhuHjaGIgw.png" alt="img">Fig.13:  Adapted from Bai and Hsieh et al. [16]</p>
+<p>To reduce the reporting variability and uncertainty which might arise due to incidental findings with other viral infections, e.g. influenza-A, Simpson and Kay et al. [15] put together a nice piece of work and suggestions on <strong>standardized CT reporting language of COVID-19, which could be considered as a good reference for structured reporting</strong>. Examples of suggested reporting languages along with a few chest CT images are demonstrated in Fig. 14–16.</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*0oVLldjnqtvz00RHcBHKHw.jpeg" alt="img">Fig.14: Adopted from Simpson and Kay et al. [15]</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*uhQ09ognFQ3QjGRf8BSoLg.png" alt="img">Fig. 15: Adapted from Simpson and Kay et al. [15]</p>
+<p><img src="https://cdn-images-1.medium.com/max/1440/1*M5oT2KtuUWOX49RcO45kqg.png" alt="img">Fig. 16: Adapted from Simpson and Kay et al. [15]</p>
+<blockquote>
+<p>Future direction includes development of an artificial intelligence classifier that can further augment radiologist performance in combination with clinical information. [16]</p>
+</blockquote>
+<h3 id="from-my-point-of-view-ai-has-the-potential-to">From my point of view, AI has the potential to:</h3>
+<ul>
+<li>identify the asymptomatic carriers of COVID-19</li>
+<li>detect and quantify the abnormalities in serial Chest CT/X-rays scans for prognosis purpose</li>
+<li>distinguish CAP from COVID-19 using Chest CT scans, and additional clinical information; age, gender, previous disorders, …etc.</li>
+</ul>
+<h3 id="references">References:</h3>
+<p>[1] Chung, M., Bernheim, A., Mei, X., Zhang, N., Huang, M., Zeng, X., Cui, J., Xu, W., Yang, Y., Fayad, Z.A. and Jacobi, A., 2020. CT imaging features of 2019 novel coronavirus (2019-nCoV). <em>Radiology</em>, <em>295</em>(1), pp.202–207. (
+<a href="https://pubs.rsna.org/doi/pdf/10.1148/radiol.2020200230" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[2] Fang, Y., Zhang, H., Xie, J., Lin, M., Ying, L., Pang, P. and Ji, W., 2020. Sensitivity of chest CT for COVID-19: comparison to RT-PCR. <em>Radiology</em>, p.200432. (
+<a href="https://pubs.rsna.org/doi/10.1148/radiol.2020200432?fbclid=IwAR2EyI4QVRos1SzZvFCl4oMIY0Da06XMbFW1TRmr4P7g3lLyO634O6tBgFs" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[3] Xie, X., Zhong, Z., Zhao, W., Zheng, C., Wang, F. and Liu, J., 2020. Chest CT for typical 2019-nCoV pneumonia: relationship to negative RT-PCR testing. <em>Radiology</em>, p.200343. (
+<a href="https://pubs.rsna.org/doi/abs/10.1148/radiol.2020200343" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[4] Inui S, Fujikawa A, Jitsu M, Kunishima N, Watanabe S, Suzuki Y, Umeda S, Uwabe Y. Chest CT findings in cases from the cruise ship “Diamond Princess” with coronavirus disease 2019 (COVID-19). Radiology: Cardiothoracic Imaging. 2020 Mar 17;2(2):e200110. (
+<a href="https://pubs.rsna.org/doi/full/10.1148/ryct.2020200110" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[5] Simpson, S., Kay, F.U., Abbara, S., Bhalla, S., Chung, J.H., Chung, M., Henry, T.S., Kanne, J.P., Kligerman, S., Ko, J.P. and Litt, H., 2020. Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Endorsed by the Society of Thoracic Radiology, the American College of Radiology, and RSNA. <em>Radiology: Cardiothoracic Imaging</em>, <em>2</em>(2), p.e200152. (
+<a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[6] Ai, T., Yang, Z., Hou, H., Zhan, C., Chen, C., Lv, W., Tao, Q., Sun, Z. and Xia, L., 2020. Correlation of chest CT and RT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases. <em>Radiology</em>, p.200642. (
+<a href="https://pubs.rsna.org/doi/abs/10.1148/radiol.2020200642" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[7] Caruso, D., Zerunian, M., Polici, M., Pucciarelli, F., Polidori, T., Rucci, C., Guido, G., Bracci, B., de Dominicis, C. and Laghi, A., 2020. Chest CT features of COVID-19 in Rome, Italy. <em>Radiology</em>, p.201237. (
+<a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020201237" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[8] Fang, Y., Zhang, H., Xie, J., Lin, M., Ying, L., Pang, P. and Ji, W., 2020. Sensitivity of chest CT for COVID-19: comparison to RT-PCR. <em>Radiology</em>, p.200432. (
+<a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020200432" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[9] Wang, Y., Dong, C., Hu, Y., Li, C., Ren, Q., Zhang, X., Shi, H. and Zhou, M., 2020. Temporal changes of CT findings in 90 patients with COVID-19 pneumonia: a longitudinal study. <em>Radiology</em>, p.200843. (
+<a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020200843" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[10] Guan, W.J., Ni, Z.Y., Hu, Y., Liang, W.H., Ou, C.Q., He, J.X., Liu, L., Shan, H., Lei, C.L., Hui, D.S. and Du, B., 2020. Clinical characteristics of coronavirus disease 2019 in China. <em>New England Journal of Medicine</em>. (
+<a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2002032" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[11] Bernheim, A., Mei, X., Huang, M., Yang, Y., Fayad, Z.A., Zhang, N., Diao, K., Lin, B., Zhu, X., Li, K. and Li, S., 2020. Chest CT findings in coronavirus disease-19 (COVID-19): relationship to duration of infection. <em>Radiology</em>, p.200463. (
+<a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020200463" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[12] Pan, F., Ye, T., Sun, P., Gui, S., Liang, B., Li, L., Zheng, D., Wang, J., Hesketh, R.L., Yang, L. and Zheng, C., 2020. Time course of lung changes on chest CT during recovery from 2019 novel coronavirus (COVID-19) pneumonia. <em>Radiology</em>, p.200370. (
+<a href="https://pubs.rsna.org/doi/pdf/10.1148/radiol.2020200370" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[13] Wong, H.Y.F., Lam, H.Y.S., Fong, A.H.T., Leung, S.T., Chin, T.W.Y., Lo, C.S.Y., Lui, M.M.S., Lee, J.C.Y., Chiu, K.W.H., Chung, T. and Lee, E.Y.P., 2020. Frequency and distribution of chest radiographic findings in COVID-19 positive patients. <em>Radiology</em>, p.201160. (
+<a href="https://pubs.rsna.org/doi/10.1148/radiol.2020201160" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[14] American College of Radiology, 2020. ACR recommendations for the use of chest radiography and computed tomography (CT) for suspected COVID-19 infection. 
+<a href="https://www.acr.org/Advocacy-and-Economics/ACR-Position-Statements/Recommendations-for-Chest-Radiography-and-CT-for-Suspected-COVID19-Infection" target="_blank" rel="noopener"><em>ACR website</em></a><em>.</em></p>
+<p>[15] Simpson, S., Kay, F.U., Abbara, S., Bhalla, S., Chung, J.H., Chung, M., Henry, T.S., Kanne, J.P., Kligerman, S., Ko, J.P. and Litt, H., 2020. Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Endorsed by the Society of Thoracic Radiology, the American College of Radiology, and RSNA. <em>Radiology: Cardiothoracic Imaging</em>, <em>2</em>(2), p.e200152. (
+<a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152" target="_blank" rel="noopener">PDF</a>)</p>
+<p>[16] Bai, H.X., Hsieh, B., Xiong, Z., Halsey, K., Choi, J.W., Tran, T.M.L., Pan, I., Shi, L.B., Wang, D.C., Mei, J. and Jiang, X.L., 2020. Performance of radiologists in differentiating COVID-19 from viral pneumonia on chest CT. <em>Radiology</em>, p.200823. (
+<a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020200823" target="_blank" rel="noopener">PDF</a>)</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://albarqouni.github.io/talk/covid19/&amp;text=Medium%20Blog:%20Journey%20through%20COVID-19%20RSNA%20Papers" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://albarqouni.github.io/talk/covid19/&amp;t=Medium%20Blog:%20Journey%20through%20COVID-19%20RSNA%20Papers" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Medium%20Blog:%20Journey%20through%20COVID-19%20RSNA%20Papers&amp;body=https://albarqouni.github.io/talk/covid19/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://albarqouni.github.io/talk/covid19/&amp;title=Medium%20Blog:%20Journey%20through%20COVID-19%20RSNA%20Papers" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Medium%20Blog:%20Journey%20through%20COVID-19%20RSNA%20Papers%20https://albarqouni.github.io/talk/covid19/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://albarqouni.github.io/talk/covid19/&amp;title=Medium%20Blog:%20Journey%20through%20COVID-19%20RSNA%20Papers" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu756ae419dca872ecfcac293f58082c63_29617_270x270_fill_q90_lanczos_center.jpg" alt="Shadi Albarqouni">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/admin/">Shadi Albarqouni</a></h5>
+      <h6 class="card-subtitle">Visiting Scientist @ ETH Zürich | Senior Research Scientist and Team Lead @ TU Munich</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.de/citations?user=CPuApzoAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/albarqouni" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/shadialbarqouni/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-2157-2211" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    ©Shadi Albarqouni 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
