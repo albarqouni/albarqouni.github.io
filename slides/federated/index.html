@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://albarqouni.github.io/slides/federated/">
+
+  <title>Preliminary Meeting for the seminar on Federated Learning in Healthcare | Shadi Albarqouni</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/black.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous">
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+
+  
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/pdf.css' : 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <p>Seminar on</p>
+<h2 id="span-stylecolororangefederated-learningspan-in-span-stylecolorgreenhealthcarespan"><span style="color:orange">Federated Learning</span> in <span style="color:green">Healthcare</span></h2>
+<p>
+<a href="https://albarqouni.github.io" target="_blank" rel="noopener">Shadi Albarqouni</a></p>
+<p>Visiting Scientist at 
+<a href="https://people.ee.ethz.ch/~salbarqouni/" target="_blank" rel="noopener">ETH Zurich</a> | Senior Research Scientist and Team Lead at 
+<a href="http://campar.in.tum.de/Main/ShadiAlbarqouni" target="_blank" rel="noopener">TU Munich</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="content">Content</h2>
+<ul>
+<li>Brief introduction about Federated Learning</li>
+<li>It is the right thing at the right time!</li>
+<li>Course regulations</li>
+<li>Registration</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="a-brief--introdcutionhttpsfederatedwithgooglecomabout">
+<a href="https://federated.withgoogle.com/#about" target="_blank" rel="noopener">A brief  introdcution</a></h2>
+<p><img src="FL_overview.png" alt="https://federated.withgoogle.com/#about"></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><span style="color:orange"><strong>Deep Learning</strong> </span> success comes at the cost of collecting and processing a <span style="color:orange"><strong>massive amount of data</strong> </span> , which often are not accessible due to <span style="color:orange"><strong>privacy issues</strong> </span>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><span style="color:orange"><strong>Federated Learning</strong> </span> has been recently introduced to allow training DL models <span style="color:orange"><strong>without sharing the data</strong> </span>.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><img src="FL.png" alt="https://federated.withgoogle.com/#about">
+<sub>Taken from Rieke et al. &ldquo;The future of digital health with federated learning.&rdquo; arXiv preprint arXiv:2003.08119 (2020).</sub></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>The principal <span style="color:orange"><strong>challenges</strong> </span>, to overcome, concern the nature of medical data, namely</p>
+<ul>
+<li><span class="fragment " >
+<span style="color:orange"><strong>Data heterogeneity</strong></span>; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), and inter-/intra-observer variability (noisy annotations)
+</span></li>
+<li><span class="fragment " >
+<span style="color:orange"><strong>System Heterogeneity</strong> </span>
+</span></li>
+<li><span class="fragment " >
+<span style="color:orange"><strong>Privacy-Issues</strong> </span>
+</span></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="right-thing-at-the-right-time">Right thing at the right time</h2>
+<p><img src="Google.png" alt="https://federated.withgoogle.com/#about"></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><img src="SE1.png" alt="https://federated.withgoogle.com/#about">
+<img src="SE3.png" alt="https://federated.withgoogle.com/#about"></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><img src="FL_Paper.png" alt="https://federated.withgoogle.com/#about"></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><img src="DCL_MICCAI.png" alt="https://federated.withgoogle.com/#about"></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="course-regulationshttpcamparintumdeviewchairteachingws20flhrequirements">
+<a href="http://campar.in.tum.de/view/Chair/TeachingWs20FLH#Requirements" target="_blank" rel="noopener">Course Regulations</a></h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><strong>Basic Info.</strong></p>
+<ul>
+<li><strong>Type:</strong>  Master Seminar (IN2107)</li>
+<li><strong>Language:</strong> English</li>
+<li><strong>SWS:</strong> 2</li>
+<li><strong>ECTS:</strong> 5</li>
+<li><strong>Webpage:</strong> <a href="http://campar.in.tum.de/Chair/TeachingWs20FLH">http://campar.in.tum.de/Chair/TeachingWs20FLH</a></li>
+<li><strong>Time:</strong> Mondays (bi-weekly), 10 - 12</li>
+<li><strong>Location:</strong> TBA (Zoom OR MI 03.13.010)</li>
+<li><strong>Requirements:</strong> Solid Background in Machine/Deep Learning</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><strong>Tutors</strong></p>
+<p>Hasan Sarhan &amp;
+Agnieszka Tomczak</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><strong>Objectives:</strong>
+Learn through <span style="color:orange"><em>read</em>, <em>understand</em>, <em>present</em>, and <em>discuss</em></span> many scientific papers<sup>1</sup> tackling the challenges present in Federated Learning.</p>
+<p><sub><sup>1</sup>Our pool of papers includes the ones published in NeurIPS, ICML, ICLR, IEEE TMI, MedIA, MICCAI, MIDL, and ISBI.</sub></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h4 id="schedule">Schedule:</h4>
+<table>
+<thead>
+<tr>
+<th><em>Date</em></th>
+<th><em>Session</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12.10.2020</td>
+<td>Intro. to Federated Learning</td>
+</tr>
+<tr>
+<td>26.10.2020</td>
+<td>Challenges</td>
+</tr>
+<tr>
+<td>09.11.2020</td>
+<td>Data Heterogeneity I</td>
+</tr>
+<tr>
+<td>23.11.2020</td>
+<td>Data Heterogeneity II</td>
+</tr>
+<tr>
+<td>07.12.2020</td>
+<td>Data Heterogeneity III</td>
+</tr>
+<tr>
+<td>21.12.2020</td>
+<td>System Heterogeneity</td>
+</tr>
+<tr>
+<td>18.01.2021</td>
+<td>Privacy-Issues</td>
+</tr>
+<tr>
+<td>01.02.2021</td>
+<td>Explainability</td>
+</tr>
+</tbody>
+</table>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="evaluation">Evaluation:</h3>
+<ul>
+<li><span class="fragment " >
+<span style="color:orange"><strong>Presentation (60%)</strong>:</span> The selected paper is presented to the other participants (30 minutes presentation plus 10 minutes Q&amp;A)
+</span></li>
+<li><span class="fragment " >
+<span style="color:orange"><strong>Blog | Poster (30%)</strong>:</span> A blog post of 1000-1500 words excluding references should be submitted before the deadline
+</span></li>
+<li><span class="fragment " >
+<span style="color:orange"><strong>Attendance (10%)</strong>:</span> Students are expected  to participate actively in all seminar sessions
+</span></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>If you are still interested in this seminsr course, please write a brief motivation paragraph (few lines) showing your interest and your background in Machine/Deep Learning and send it with a subject “FLH_Motivation”, to Dr. Shadi Albarqouni (<a href="mailto:shadi.albarqouni@tum.de">shadi.albarqouni@tum.de</a>). Deadline is 27.07.2020.</p>
+<p><span class="fragment " >
+<span style="color:orange">Don’t forget to register at TUM matching system 22.07 to 27.07.2020: register via 
+<a href="matching.in.tum.de">matching.in.tum.de</a></span>
+</span></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="questions">Questions?</h1>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+
+  <script>
+    window.revealPlugins = { dependencies: [
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/zoom-js/zoom.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/math/math.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/print-pdf/print-pdf.js', async: true },
+      
+      { src: '\/js\/vendor\/reveal.js\/plugin\/notes\/notes.js', async: true }
+    ]};
+
+    let revealDefaults = { center: true, controls: true, history: true, progress: true, transition: 'slide', mouseWheel: true };
+    let revealOptions = Object.assign({}, revealDefaults, revealPlugins);
+    Reveal.initialize(revealOptions);
+  </script>
+
+</body>
+</html>
