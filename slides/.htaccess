@@ -1,0 +1,5 @@
+AuthUserFile /.htpasswd
+AuthGroupFile /dev/null
+AuthName "FLH Slides, password was via mail."
+AuthType Basic
+require valid-user

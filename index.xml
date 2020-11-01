@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/</link>
       <atom:link href="https://albarqouni.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shadi Albarqouni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Shadi Albarqouni</title>
@@ -13,44 +13,722 @@
     </image>
     
     <item>
-      <title>Example Page 1</title>
-      <link>https://albarqouni.github.io/courses/example/example1/</link>
+      <title>Administrative</title>
+      <link>https://albarqouni.github.io/team/admin/internal/admin/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://albarqouni.github.io/courses/example/example1/</guid>
-      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>https://albarqouni.github.io/team/admin/internal/admin/</guid>
+      <description>&lt;h2 id=&#34;onboarding-tbd&#34;&gt;Onboarding (TBD)&lt;/h2&gt;
+&lt;h3 id=&#34;mail&#34;&gt;Mail&lt;/h3&gt;
+&lt;h3 id=&#34;card-access&#34;&gt;Card Access&lt;/h3&gt;
+&lt;h3 id=&#34;storage&#34;&gt;Storage&lt;/h3&gt;
+&lt;h3 id=&#34;computing-resources&#34;&gt;Computing Resources&lt;/h3&gt;
+&lt;h3 id=&#34;setup-your-computer&#34;&gt;Setup your Computer&lt;/h3&gt;
+&lt;h2 id=&#34;ongoing-tbd&#34;&gt;Ongoing (TBD)&lt;/h2&gt;
+&lt;h3 id=&#34;enroll-at-tu-munich-and-graduate-schools&#34;&gt;Enroll at TU Munich and Graduate Schools&lt;/h3&gt;
+&lt;h3 id=&#34;reserve-a-desk&#34;&gt;Reserve a desk&lt;/h3&gt;
+&lt;h3 id=&#34;reserve-a-conference-room&#34;&gt;Reserve a conference room&lt;/h3&gt;
+&lt;h3 id=&#34;print-a-poster&#34;&gt;Print a Poster&lt;/h3&gt;
+&lt;h3 id=&#34;book-your-business-trip-and-reimburse-the-costs&#34;&gt;Book your business trip and reimburse the costs&lt;/h3&gt;
+&lt;h3 id=&#34;book-your-vacation&#34;&gt;Book your vacation&lt;/h3&gt;
+&lt;h3 id=&#34;hire-a-hiwi&#34;&gt;Hire a HiWi&lt;/h3&gt;
+&lt;h3 id=&#34;social-activities&#34;&gt;Social Activities&lt;/h3&gt;
+&lt;h3 id=&#34;submit-a-research-proposal&#34;&gt;Submit a research proposal&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Please visit the 
+&lt;a href=&#34;../research&#34;&gt;Research&lt;/a&gt; section&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;offboarding-tbd&#34;&gt;Offboarding (TBD)&lt;/h2&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;h3 id=&#34;documents--templates&#34;&gt;Documents &amp;amp; Templates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1GuPlJWi_OwRN4G71P4ZJRY9SKQ-0V-QgGkclCeBJdcs/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MA Thesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Guided Reearch Project (GRP)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Interdiscplinary Project (IDP)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Messaging and Communication: Skype, 
+&lt;a href=&#34;&#34;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Video Conferencing: 
+&lt;a href=&#34;&#34;&gt;BlueJeans&lt;/a&gt;, 
+&lt;a href=&#34;https://tum-conf.zoom.us/meeting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zoom TUM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Project Management: 
+&lt;a href=&#34;https://icb-global.monday.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Monday&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reference Management: 
+&lt;a href=&#34;https://paperpile.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paperpile&lt;/a&gt;, 
+&lt;a href=&#34;https://www.mendeley.com/?interaction_required=true&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mendeley&lt;/a&gt;, 
+&lt;a href=&#34;https://bibdesk.sourceforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BibDesk&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;LaTeX Editors: 
+&lt;a href=&#34;https://www.texstudio.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TeXstudio&lt;/a&gt;, 
+&lt;a href=&#34;https://www.overleaf.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Overleaf&lt;/a&gt;, and 
+&lt;a href=&#34;https://sharelatex.tum.de&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ShareLaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Code Management: 
+&lt;a href=&#34;&#34;&gt;Git&lt;/a&gt;, 
+&lt;a href=&#34;&#34;&gt;PyCharm&lt;/a&gt;, 
+&lt;a href=&#34;https://jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupyter Notebook&lt;/a&gt;, 
+&lt;a href=&#34;https://colab.research.google.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Colab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Deign illustrative figures: 
+&lt;a href=&#34;&#34;&gt;Adobe Illustrator&lt;/a&gt;, 
+&lt;a href=&#34;&#34;&gt;Microsoft Visio&lt;/a&gt;, 
+&lt;a href=&#34;&#34;&gt;MS SmartArt Graphics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Specific Purposes: 
+&lt;a href=&#34;https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ConvNets&lt;/a&gt;, 
+&lt;a href=&#34;https://biorender.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Medical Imaging&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;Data Visualization: 
+&lt;a href=&#34;https://plotly.com/python/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;calendars&#34;&gt;Calendars&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feel free to subscribe to 
+&lt;a href=&#34;https://calendar.google.com/calendar/u/1?cid=YWxiYXJxb3VuaS5sYWJAZ21haWwuY29t&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Albarqouni Lab&amp;rsquo;s calendar&lt;/a&gt;. Most of the conferences and deadlines are available here.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Example Page 2</title>
-      <link>https://albarqouni.github.io/courses/example/example2/</link>
+      <title>Datasets</title>
+      <link>https://albarqouni.github.io/team/admin/internal/data/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://albarqouni.github.io/courses/example/example2/</guid>
-      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>https://albarqouni.github.io/team/admin/internal/data/</guid>
+      <description>&lt;h2 id=&#34;guidelines&#34;&gt;Guidelines&lt;/h2&gt;
+&lt;p&gt;You came up with a nice idea and would like to validate it as a Proof-of-Concept (PoC), then you should validate it first on one of the benchmarking datasets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/FedML-AI/FedML&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedML: A Research Library and Benchmark for Federated Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/TalwalkarLab/leaf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEAF: Benchmark for FL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/jhcknzzm/SSFL-Benchmarking-Semi-supervised-Federated-Learning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benchmarking SSFL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/jiahuanluo/Federated-Benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Real World Image Benchmark FL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.jmir.org/2020/10/e20891/pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benchmarking FL on Clinical Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once you have a valid PoC, then you could investigate one of the below use-cases. If you are interested to create your own use-case, then please do the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Find the database that meets your requirements&lt;/li&gt;
+&lt;li&gt;Get Shadi&amp;rsquo;s signature on the corresponding forms, if necessary.&lt;/li&gt;
+&lt;li&gt;Download the dataset, save it in a secure folder, and add it to the list below&lt;/li&gt;
+&lt;li&gt;Write the data loader. Please follow the data split (Train/Val/Test) or K-fold CV that appeared in the STOA papers. Please add whatever available meta-information, e.g. Age, Gender, Scanner, Location, &amp;hellip;etc.&lt;/li&gt;
+&lt;li&gt;Store the signed forms, datasets, readme, dataloader, and the Hdf5 in this folder 
+&lt;a href=&#34;&#34;&gt;TBD&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Once you design your use-case, append it to the table below.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;use-cases&#34;&gt;Use-Cases&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Use-Cases&lt;/th&gt;
+&lt;th&gt;Datasets&lt;/th&gt;
+&lt;th&gt;# of Clients&lt;/th&gt;
+&lt;th&gt;Task&lt;/th&gt;
+&lt;th&gt;Related Works&lt;/th&gt;
+&lt;th&gt;Hdf5&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Breast Cancer&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;#histology-imaging&#34;&gt;Histology Imaging&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;WSI Classification&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;http://link-springer-com-443.webvpn.fjmu.edu.cn/chapter/10.1007%2F978-3-030-60548-3_13&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI-DCL Paper&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ml-datasets&#34;&gt;ML Datasets:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.mldata.io/datasets/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MLData&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://archive.ics.uci.edu/ml/datasets.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UCI ML Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.visualdata.io/discovery&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VisualData&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://guides.library.cmu.edu/machine-learning/datasets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CMU Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cv-datasets&#34;&gt;CV Datasets:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/jiahuanluo/Federated-Benchmark/blob/master/Dataset_description.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federated Street&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/mit-fast/Blackbird-Dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blackbirds dataset?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;clinical-datasets&#34;&gt;Clinical Datasets:&lt;/h2&gt;
+&lt;h3 id=&#34;tabular-datasets&#34;&gt;Tabular Datasets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://mimic.physionet.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Medical Information Matry for Intensive Care&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://physionet.org/about/database/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PhysioNet ECG Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;histology-imaging&#34;&gt;Histology Imaging&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://camelyon16.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAMELYON&amp;rsquo;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://camelyon17.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAMELYON&amp;rsquo;17&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;breast-mammography&#34;&gt;Breast Mammography&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.synapse.org/#!Synapse:syn4224222/wiki/401743&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DREAM’17&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;whole-body-mr&#34;&gt;Whole-Body MR&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.visceral.eu/closed-benchmarks/anatomy3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VISCERAL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://nako.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;German National Cohort (NAKO)&lt;/a&gt; &amp;ndash;&amp;gt; contact Shadi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;brain-mr-for-anomaly-detection&#34;&gt;Brain MR for Anomaly Detection&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://fastmri.med.nyu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fast MRI&lt;/a&gt; — 7000 Scans&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://mrbrains18.isi.uu.nl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MSBrain’18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.isles-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISLES ’15-’18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.med.upenn.edu/cbica/brats2020/data.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrATS’20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://wmh.isi.uu.nl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WMH ’17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/overview?utm_medium=email&amp;amp;utm_source=intercom&amp;amp;utm_campaign=competition-recaps-rsna-2019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSNA Haemorrhage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;brain-mr-with-meta-data-scanner-race-age&#34;&gt;Brain MR with meta-data (Scanner, Race, Age):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://adni.loni.usc.edu/data-samples/access-data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ABIDE-1/2/3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://aibl.csiro.au/adni/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AIBL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://fcon_1000.projects.nitrc.org/indi/abide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ABIDE-1/2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;brain-mr-structures&#34;&gt;Brain MR Structures&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.neuromorphometrics.com/2012_MICCAI_Challenge_Data.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MALC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;ADNI-29&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.cma.mgh.harvard.edu/ibsr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBSR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.nitrc.org/projects/candi_share/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CANDI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.oasis-brains.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OASIS-3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.nitrc.org/projects/bstp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BSTP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://mrbrains18.isi.uu.nl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MRBrainS18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://brain-development.org/ixi-dataset/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IXI Dataset&lt;/a&gt;  - no annotation&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/andrewmvd/hippocampus-segmentation-in-mri-images&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hippocampus Segmentation HFH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;knee-mr&#34;&gt;Knee MR&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://stanfordmlgroup.github.io/competitions/mrnet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MRNet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://fastmri.med.nyu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FastMRI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;fractures-trauma&#34;&gt;Fractures (Trauma)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://stanfordmlgroup.github.io/competitions/mura/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MURA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Private Data from our clinical partners for Distal radius and Proximal femur fractues &amp;ndash;&amp;gt; contact Shadi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;prostate-mr&#34;&gt;Prostate MR&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://wiki.cancerimagingarchive.net/display/Public/NCI-ISBI&amp;#43;2013&amp;#43;Challenge&amp;#43;-&amp;#43;Automated&amp;#43;Segmentation&amp;#43;of&amp;#43;Prostate&amp;#43;Structures&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NCI-ISBI’13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://promise12.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PROMISE’12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://prostatemrimagedatabase.com/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prostate MR Image Database&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;diabetic-retinopathy-segmentation-task&#34;&gt;Diabetic Retinopathy (Segmentation Task)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.idiap.ch/software/bob/docs/bob/bob.db.chasedb1/master/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CHASE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://box2072.temp.domains/~damianjj/?page_id=276&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ARIA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DRIVE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www5.cs.fau.de/research/data/fundus-images/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HRF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cecas.clemson.edu/~ahoover/stare/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STARE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://idrid.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iDRID&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;diabetic-retinopathy-detection-and-scoring&#34;&gt;Diabetic Retinopathy (Detection and Scoring)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/c/aptos2019-blindness-detection/data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APTOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.it.lut.fi/project/imageret/diaretdb0/#DATA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DIARETDB0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www2.it.lut.fi/project/imageret/diaretdb1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DIARETDB1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/c/diabetic-retinopathy-detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kaggle EyePACS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.adcis.net/en/third-party/messidor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Messidor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.adcis.net/en/third-party/messidor2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Messidor 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://idrid.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iDRID&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/linchundan/fundusimage1000&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joint Shantou International Eye Centre (JSIEC)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;oct-imaging&#34;&gt;OCT Imaging&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.openicpsr.org/openicpsr/project/108503/version/V1/view&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenICPSR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/kmader/eye-oct-datasets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eye OCT Dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/paultimothymooney/kermany2018&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Retinal OCT Images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;skin-lesion&#34;&gt;Skin Lesion&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HAM10000&lt;/a&gt; —10K Images&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://challenge2018.isic-archive.com/task3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISIC 2018 —same as before&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://challenge2020.isic-archive.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISIC 2020&lt;/a&gt; &amp;ndash;33K Images&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/c/siim-isic-melanoma-classification/data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kaggle ISIC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.cs.rug.nl/~imaging/databases/melanoma_naevi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MED-NODE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/c/ima205challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IMA205 Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://challenge.kitware.com/#phase/5667455bcad3a56fac786791&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISIC 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://challenge.kitware.com/#challenge/n/ISIC_2017%3A_Skin_Lesion_Analysis_Towards_Melanoma_Detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISCI 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sites.google.com/site/robustmelanomascreening/dataset?authuser=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDRA&lt;/a&gt;, 
+&lt;a href=&#34;http://derm.cs.sfu.ca/Welcome.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EDRA-2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;References:
+&lt;a href=&#34;https://cs.stanford.edu/people/esteva/nature&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nature Paper&lt;/a&gt;, 
+&lt;a href=&#34;https://openaccess.thecvf.com/content_CVPRW_2019/papers/ISIC/Bissoto_DeConstructing_Bias_on_Skin_Lesion_Datasets_CVPRW_2019_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVPR Paper&lt;/a&gt;, 
+&lt;a href=&#34;https://moles-melanoma-tool.cancer.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Moles Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;chest-x-ray&#34;&gt;Chest X-ray&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://stanfordmlgroup.github.io/competitions/chexpert/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CheXpert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/c/rsna-pneumonia-detection-challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RSNA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/nih-chest-xrays/data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Chest X-ray&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://jfhealthcare.github.io/object-CXR/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Object CXR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tuberculosis-datasets&#34;&gt;Tuberculosis Datasets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/raddar/chest-xrays-tuberculosis-from-india&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TB CXR India&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://openi.nlm.nih.gov/imgs/collections/ChinaSet_AllFiles.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TB CXR Shenzhen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://openi.nlm.nih.gov/imgs/collections/NLM-MontgomeryCXRSet.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TB CXR Montgomery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reference: 
+&lt;a href=&#34;https://lhncbc.nlm.nih.gov/publication/pub9931&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-databases&#34;&gt;Other databases:&lt;/h2&gt;
+&lt;p&gt;If you couldn&amp;rsquo;t find the right dataset, have a look at these repos.:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Cancer Genome Atlas (TCGA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.cancerimagingarchive.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Cancer Imaging Archive (TCIA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.ukbiobank.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UK BioBank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grand-Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://datasetsearch.research.google.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Dataset Search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://albarqouni.github.io/team/admin/internal/research/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://albarqouni.github.io/team/admin/internal/research/</guid>
+      <description>&lt;p&gt;Here are some more tips for getting started with your PhD:&lt;/p&gt;
+&lt;h2 id=&#34;seminars-reading-groups-and-meetups-8&#34;&gt;Seminars, Reading Groups, and Meetups (8%)&lt;/h2&gt;
+&lt;p&gt;Apart from our group meeting and the internal journal club, it is highly recommended that you join one of these seminars:&lt;/p&gt;
+&lt;h3 id=&#34;deep-learning&#34;&gt;Deep Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://mlcollective.org/dlct/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Learning: Classics and Trends&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://mltheory.org/#talks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harvard Machine Learning Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.meetup.com/ComputerVision/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Munich Computer Vision &amp;amp; Medical Image Analysis Meetup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ICB/H.AI Seminars &amp;ndash; TBA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;federated-learning&#34;&gt;Federated Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sites.google.com/view/one-world-seminar-series-flow/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federated Learning Seminar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://campar.in.tum.de/Chair/TeachingWs20FLH&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federated Learning in Healthcare&lt;/a&gt; &amp;ndash;Internal one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;courses-tutorials-and-workshops-5&#34;&gt;Courses, Tutorials and Workshops (5%)&lt;/h2&gt;
+&lt;p&gt;It is part of your work to cultivate yourself with the foundation of Deep Learning. This would help you in contributing to the Teaching and Training activities.&lt;/p&gt;
+&lt;h3 id=&#34;courses-and-tutorials-in-deep-learning&#34;&gt;Courses and Tutorials in Deep Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://atcold.github.io/pytorch-Deep-Learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Learning with Pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://deeplearning.mit.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT Deep Learning and AI Lectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://cs231n.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CNNs for Visual Recognition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://web.stanford.edu/class/cs224n/index.html#schedule&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLP with Deep Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sites.google.com/view/berkeley-cs294-158-sp20/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Unsupervised Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://bayesiandeeplearning.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bayesian Deep Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bayesian Deep Learning 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://cs330.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Multi-Task and Meta-Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://geometricdeeplearning.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Geometric Deep Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://interpretablevision.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Interpretable ML for CV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;workshops-in-federated-learning&#34;&gt;Workshops in Federated Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://pdfl.iais.fraunhofer.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ECMLPKDD Workshop&amp;rsquo;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://federated-learning.org/fl-icml-2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICML Workshop&amp;rsquo;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://federated-learning.org/fl-neurips-2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeurIP Workshop&amp;rsquo;19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://dcl-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI DCL&amp;rsquo;20 Workshop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;summer-schools-2&#34;&gt;Summer Schools (2%)&lt;/h2&gt;
+&lt;p&gt;You are highly recommended to attend one of the summer schools at the first few years of your PhD. Please discuss this with Shadi.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://mlss.cc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Machine Learning Summer Schools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://iplab.dmi.unict.it/miss/index.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Medical Imaging Summer School&lt;/a&gt; &amp;ndash; Biennial&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://iplab.dmi.unict.it/icvss2020/Home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Computer Vision Summer School&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Schools endorsed by MICCAI and BMVA are welcome.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mentorship-3&#34;&gt;Mentorship (3%)&lt;/h2&gt;
+&lt;p&gt;You are strongly encouraged to mentor Bachelor and Master students.  If you have a nice idea, please discuss it with Shadi, and write it down on this 
+&lt;a href=&#34;../admin/#documents--templates&#34;&gt;template&lt;/a&gt;,  before you announce it on our 
+&lt;a href=&#34;../../../../students&#34;&gt;student&lt;/a&gt; webpage. Alternatively, you can participate in grand-challenges as well.&lt;/p&gt;
+&lt;h2 id=&#34;grand-challenges-3&#34;&gt;Grand-Challenges (3%)&lt;/h2&gt;
+&lt;p&gt;You are also recommended to participate in Grand-Challenges with your students. 
+&lt;a href=&#34;https://www.in.tum.de/en/current-students/masters-programs/informatics/interdisciplinary-project/fpo-2012-and-2016-and-2018/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Interdisciplinary Projects&lt;/a&gt; offered at TU Munich is the perfect fit here. Most of the time, a publication with +30 co-authors ends up in a highly-impacted journal with a lot of citations. You only need to be on the top 10 on the leaderboard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/FETS-AI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federated Tumor Segmentation (FeTS) Initiative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://grand-challenge.org/challenges&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grand-Challenges in Medical Imaging&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reading-lists-30&#34;&gt;Reading Lists (30%)&lt;/h2&gt;
+&lt;h3 id=&#34;reading-lists-on-federated-learning&#34;&gt;Reading lists on Federated Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/chaoyanghe/Awesome-Federated-Learning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Awesome FL Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.federated-ml.org/workshops/icassp2020/readinglist.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE ICASSP Special Session&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Semi-Supervised FL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Fully Supervised FL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Unsupervised FL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;reading-lists-on-deep-learning&#34;&gt;Reading lists on Deep Learning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;reading-lists-on-deep-learning-with-medical-imaging&#34;&gt;Reading lists on Deep Learning with Medical Imaging&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TBD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;coding-30coding&#34;&gt;
+&lt;a href=&#34;../coding&#34;&gt;Coding (30%)&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;resources-and-guidelines-for-reading-writing-and-submitting-papers&#34;&gt;Resources and Guidelines for reading, writing and submitting Papers&lt;/h2&gt;
+&lt;p&gt;One of the first steps in conducting your research is reading literature. However, &lt;em&gt;how to read, quickly, efficiently, and seriously, a scientific paper?&lt;/em&gt;. The questions is addressed in the following resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Read a Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Read a Research Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://medium.com/@drewdennis/how-to-read-scientific-papers-quickly-efficiently-e7030c4018fa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Read Scientific Papers Quickly &amp;amp; Efficiently&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to (seriously) read a scientific paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;paper-10&#34;&gt;Paper (10%)&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Read the following resourses:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.nature.com/articles/nj7317-873a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Publish like a pro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.nature.com/articles/d41586-018-02404-4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to write a first class paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://approximatelycorrect.com/2018/01/29/heuristics-technical-scientific-writing-machine-learning-perspective/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Heuristics for Scientific Writing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://nips.cc/Conferences/2015/PaperInformation/EvaluationCriteria&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guidelines for Wirting a Good NIPS Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Read carefully the &amp;ldquo;Authors Guidelines&amp;rdquo; appaared in the corresponding conference&amp;rsquo;s or journal&amp;rsquo;s website. For example, pay attention on the format, page limit, anonymity, reference style, and special requirements.&lt;/li&gt;
+&lt;li&gt;TBC&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;blog-2&#34;&gt;Blog (2%)&lt;/h3&gt;
+&lt;p&gt;TBD &amp;ndash;Biweekly/Monthly&lt;/p&gt;
+&lt;h3 id=&#34;review-5&#34;&gt;Review (5%)&lt;/h3&gt;
+&lt;p&gt;TBD&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sites.google.com/view/making-reviews-great-again/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to write a good review&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Writing reviews for systems conferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rebuttal&#34;&gt;Rebuttal&lt;/h3&gt;
+&lt;p&gt;TBD&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://blogs.nature.com/methagora/2013/09/how-to-write-a-rebuttal-letter.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to write a rebuttal letter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;proposal-5&#34;&gt;Proposal (5%)&lt;/h3&gt;
+&lt;p&gt;TBD&lt;/p&gt;
+&lt;h2 id=&#34;poetntial-journals-and-conferences&#34;&gt;Poetntial Journals and Conferences&lt;/h2&gt;
+&lt;p&gt;It is highly recommended that you submit your novel work to one of the top-tier conferences, and then extend the work to a journal article. Here you can see a few potential journals and confereces. Please let Shadi knows if you have other suggestions.&lt;/p&gt;
+&lt;h3 id=&#34;journals&#34;&gt;Journals&lt;/h3&gt;
+&lt;p&gt;Ordered by the Impact Factor (2019)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.computer.org/csdl/journal/tp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE&lt;/a&gt; 17.861&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.journals.elsevier.com/medical-image-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MEDICAL IMAGE ANALYSIS&lt;/a&gt; 11.148&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE TRANSACTIONS ON IMAGE PROCESSING&lt;/a&gt;, 9.340&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://cis.ieee.org/publications/t-neural-networks-and-learning-systems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Transactions on Neural Networks and Learning Systems&lt;/a&gt;, 8.793&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.embs.org/tmi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE TRANSACTIONS ON MEDICAL IMAGING&lt;/a&gt; 6.685&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.embs.org/jbhi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Journal of Biomedical and Health Informatics&lt;/a&gt; 5.223&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.embs.org/tbme/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING&lt;/a&gt; 4.424&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine#:~:text=Artificial%20intelligence%20in%20medicine%20may,improve%20the%20performance%20of%20a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ARTIFICIAL INTELLIGENCE IN MEDICINE&lt;/a&gt; 4.383&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.journals.elsevier.com/computerized-medical-imaging-and-graphics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMPUTERIZED MEDICAL IMAGING AND GRAPHICS&lt;/a&gt; 3.750&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.journals.elsevier.com/computer-vision-and-image-understanding&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMPUTER VISION AND IMAGE UNDERSTANDING&lt;/a&gt; 3.121&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.computer.org/csdl/journal/td&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE TRANSACTIONS ON PARALLEL AND DISTRIBUTED SYSTEMS&lt;/a&gt; 2.600&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://digital-library.theiet.org/content/journals/iet-ipr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IET Image Processing&lt;/a&gt; 1.995&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.nature.com/natmachintell/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nature Machine Intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;conferences&#34;&gt;Conferences&lt;/h3&gt;
+&lt;p&gt;Conferences ordered by top-tier ranking.&lt;/p&gt;
+&lt;h4 id=&#34;machine-learning&#34;&gt;Machine Learning&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://nips.cc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeurIPS&lt;/a&gt;,  
+&lt;a href=&#34;https://iclr.cc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICLR&lt;/a&gt;,  
+&lt;a href=&#34;https://icml.cc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICML&lt;/a&gt;, 
+&lt;a href=&#34;https://2021.ecmlpkdd.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ECML-PkDD&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;computer-vision&#34;&gt;Computer Vision&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://openaccess.thecvf.com/menu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVPR&lt;/a&gt;,  
+&lt;a href=&#34;https://openaccess.thecvf.com/menu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICCV&lt;/a&gt;, 
+&lt;a href=&#34;https://www.ecva.net/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ECCV&lt;/a&gt;&amp;ndash; Biennial,  
+&lt;a href=&#34;https://britishmachinevisionassociation.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BMVC&lt;/a&gt;, 
+&lt;a href=&#34;https://openaccess.thecvf.com/menu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WACV&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;medical-imaging&#34;&gt;Medical Imaging&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://miccai.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI&lt;/a&gt;, 
+&lt;a href=&#34;https://ipmi2021.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPMI&lt;/a&gt; &amp;ndash; Biennial, 
+&lt;a href=&#34;https://midl.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIDL&lt;/a&gt;, 
+&lt;a href=&#34;https://biomedicalimaging.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISBI&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;workshops&#34;&gt;Workshops&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pdfl.iais.fraunhofer.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ECMLPKDD Workshop&amp;rsquo;20&lt;/a&gt;, 
+&lt;a href=&#34;https://ml4health.github.io/2020/pages/call-for-participation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ml4H&lt;/a&gt;, 
+&lt;a href=&#34;https://vanyacohen.github.io/NewInML/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeurIPS NewInML Workshop&lt;/a&gt;
+&lt;a href=&#34;https://mltheory.org/#talks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI DCL Workshop&lt;/a&gt; 
+&lt;a href=&#34;https://www.dagm.de/the-german-association-for-pattern-recognition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DAGM&lt;/a&gt;, 
+&lt;a href=&#34;https://www.bvm-workshop.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BVM&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;where-you-are&#34;&gt;Where you are&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./WhereYouAre.jpg&#34; alt=&#34;WhereYouAre&#34;&gt;&lt;/p&gt;
+&lt;p&gt;For more PhD Comics, you can cisit this 
+&lt;a href=&#34;http://phdcomics.com/comics.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coding</title>
+      <link>https://albarqouni.github.io/team/admin/internal/coding/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://albarqouni.github.io/team/admin/internal/coding/</guid>
+      <description>&lt;h2 id=&#34;guidelines&#34;&gt;Guidelines&lt;/h2&gt;
+&lt;p&gt;You came up with a nice idea and would like to code a Proof-of-Concept (PoC), please follow this guidelines:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a private repository with detailed &lt;code&gt;readme.md&lt;/code&gt; file at 
+&lt;a href=&#34;&#34;&gt;Albarqouni Lab. Git&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Make sure you list all dependencies in &lt;code&gt;requirements.yaml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Write all your configurations, e.g. where you retrieve/store the logs and data, in a single JSON file &lt;code&gt;config.json&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Caution&lt;/strong&gt;: Avoid hard-coding paths or hyper-parameters. Make sure you have a configuration file for every single experiment.&lt;/li&gt;
+&lt;li&gt;Try to structure your code similar to the example below; dataloader, mains, trainers/optimizers, logs, and utils.&lt;/li&gt;
+&lt;li&gt;Make sure you have a well-written documentation for your code.&lt;/li&gt;
+&lt;li&gt;Provide CLI scripts as well as Python Notebooks, if possible.&lt;/li&gt;
+&lt;li&gt;In case you want to make the repo. publicly available, get Shadi&amp;rsquo;s approval first in case he wants to file a patent.&lt;/li&gt;
+&lt;li&gt;Make sure you acknowledge any code your borrowed, and make it clear in the &lt;code&gt;Disclaimer&lt;/code&gt; section.&lt;/li&gt;
+&lt;li&gt;Add the right  &lt;code&gt;license&lt;/code&gt;, e.g. 
+&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC-SA 4.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Push the paper on arXiv and add it to the &lt;code&gt;citation&lt;/code&gt; section.&lt;/li&gt;
+&lt;li&gt;Make sure you adhere to the 
+&lt;a href=&#34;https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ML Code Completeness Checklist&lt;/a&gt; before you appned your work to the 
+&lt;a href=&#34;../../../../codes&#34;&gt;Codes&lt;/a&gt; section.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/StefanDenn3r/Unsupervised_Anomaly_Detection_Brain_MRI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Here&lt;/a&gt; is a good example from our recent work on Unsupervised Anomaly Detection.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;  .
+  Framework/
+  │
+  ├── readme.md 
+  ├── Notebooks.ipynb - Jupyter notebook to work on Google Colab
+  ├── run.py - execute to run in commandline
+  ├── config.json - holds configuration where to store and retrieve data and logs
+  ├── requirements.yaml - list the dependencies required to run the model
+  │
+  ├── data_loaders/ - Definition of dataloaders
+  │   ├── Brain.py
+  │   ├── ChestXray.py
+  │   └── ...
+  │
+  ├── logs/ - default directory for storing tensorboard logs
+  │
+  ├── mains/ - Main files to train each architecture
+  │   ├── main_cnn.py
+  │   └── ...
+  │
+  ├── model/ - Architecture definitions
+  │   ├── cnn.py
+  │   └── ...
+  │
+  ├── trainers/ - trainers including definition of loss functions, and metrics
+  │   ├── cnn.py
+  │   └── ...
+  │  
+  └── utils/ - utility functions
+      ├── util.py
+      └── ...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;benchmarking-fl&#34;&gt;Benchmarking FL&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/FedML-AI/FedML&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedML: A Research Library and Benchmark for Federated Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/TalwalkarLab/leaf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEAF: Benchmark for FL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/jhcknzzm/SSFL-Benchmarking-Semi-supervised-Federated-Learning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benchmarking SSFL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/jiahuanluo/Federated-Benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Real World Image Benchmark FL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.jmir.org/2020/10/e20891/pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benchmarking FL on Clinical Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;frameworks&#34;&gt;Frameworks&lt;/h2&gt;
+&lt;p&gt;It is highly recommended that you code in 
+&lt;a href=&#34;https://pytorch.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyTorch&lt;/a&gt; along with the 
+&lt;a href=&#34;https://monai.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Medical Open Network for AI&lt;/a&gt; (MONAI), if possible. Most of the available FL frameworks are listed below with a comparison of their features and functionalities.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/FedML-AI/FedML&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedML&lt;/a&gt; &amp;ndash;promising!&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://gitlab.inria.fr/fedbiomed&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedBioMed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/TalwalkarLab/leaf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEAF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/OpenMined/PySyft&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PySyft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.tensorflow.org/federated&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TenorFlow Federated (TFF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/FederatedAI/FATE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FATE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://developer.nvidia.com/clara&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA Clara&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://ibmfl.mybluemix.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBM Federated Learning Framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./FL_Comparison.png&#34; alt=&#34;FL_Comparisons&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;code-tutorial&#34;&gt;Code Tutorial&lt;/h2&gt;
+&lt;p&gt;You can find here a few coding examples on different datasets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/FedML-AI/FedML&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedML Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.tensorflow.org/federated&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TensorFlow Federated Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://colab.research.google.com/drive/1dRG3yNAlDar3tll4VOkmoU-aLslhUS8d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FL on MNIST with PyTorch &amp;amp; PySyft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://fedbiomed.gitlabpages.inria.fr/tutorials/01-model-design-with-MedNIST/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FL on MedNIST with MONAI, PyTorch, and FedBioMed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/Project-MONAI/tutorials/tree/master/federated_learning/substra&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FL on 3D Segmentation with MONAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/IBM/federated-learning-lib&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBM Federated Learning Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.nvidia.com/clara/tlt-mi/clara-train-sdk-v2.0/nvmidl/additional_features/federated_learning.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA Clara Train Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;playgrounds&#34;&gt;Playgrounds&lt;/h2&gt;
+&lt;p&gt;Interested to get more insights on DL, Optimization, Interpretability and Visualization! Have a look at these amazing playgrounds:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/Machine-Learning-Tokyo/Interactive_Tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Interactive Tools for ML, DL, and Math&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://distill.pub/2016/misread-tsne/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to use t-SNE Effectively&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://distill.pub/2020/bayesian-optimization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exploring Bayesian Optimization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://distill.pub/2020/communicating-with-interactive-articles/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Communicating with Interactive Articles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
