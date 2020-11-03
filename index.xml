@@ -7,7 +7,7 @@
     <description>Shadi Albarqouni</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Shadi Albarqouni</title>
       <link>https://albarqouni.github.io/</link>
     </image>
@@ -188,9 +188,15 @@
 &lt;h3 id=&#34;histology-imaging&#34;&gt;Histology Imaging&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
+<<<<<<< HEAD
 &lt;a href=&#34;https://camelyon16.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAMELYON&amp;rsquo;16&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://camelyon17.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAMELYON&amp;rsquo;17&lt;/a&gt;&lt;/li&gt;
+=======
+&lt;a href=&#34;https://camelyon16.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAMELYON&#39;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://camelyon17.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAMELYON&#39;17&lt;/a&gt;&lt;/li&gt;
+>>>>>>> 4c50658... updates
 &lt;/ul&gt;
 &lt;h3 id=&#34;breast-mammography&#34;&gt;Breast Mammography&lt;/h3&gt;
 &lt;ul&gt;
@@ -432,6 +438,7 @@
 &lt;h3 id=&#34;workshops-in-federated-learning&#34;&gt;Workshops in Federated Learning&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
+<<<<<<< HEAD
 &lt;a href=&#34;https://pdfl.iais.fraunhofer.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ECMLPKDD Workshop&amp;rsquo;20&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;http://federated-learning.org/fl-icml-2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICML Workshop&amp;rsquo;20&lt;/a&gt;&lt;/li&gt;
@@ -439,6 +446,15 @@
 &lt;a href=&#34;http://federated-learning.org/fl-neurips-2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeurIP Workshop&amp;rsquo;19&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://dcl-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI DCL&amp;rsquo;20 Workshop&lt;/a&gt;&lt;/li&gt;
+=======
+&lt;a href=&#34;https://pdfl.iais.fraunhofer.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ECMLPKDD Workshop&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://federated-learning.org/fl-icml-2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICML Workshop&#39;20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://federated-learning.org/fl-neurips-2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeurIP Workshop&#39;19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://dcl-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI DCL&#39;20 Workshop&lt;/a&gt;&lt;/li&gt;
+>>>>>>> 4c50658... updates
 &lt;/ul&gt;
 &lt;h2 id=&#34;summer-schools-2&#34;&gt;Summer Schools (2%)&lt;/h2&gt;
 &lt;p&gt;You are highly recommended to attend one of the summer schools at the first few years of your PhD. Please discuss this with Shadi.&lt;/p&gt;
@@ -590,7 +606,11 @@
 &lt;a href=&#34;https://biomedicalimaging.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISBI&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;workshops&#34;&gt;Workshops&lt;/h3&gt;
 &lt;p&gt;
+<<<<<<< HEAD
 &lt;a href=&#34;https://pdfl.iais.fraunhofer.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ECMLPKDD Workshop&amp;rsquo;20&lt;/a&gt;, 
+=======
+&lt;a href=&#34;https://pdfl.iais.fraunhofer.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ECMLPKDD Workshop&#39;20&lt;/a&gt;, 
+>>>>>>> 4c50658... updates
 &lt;a href=&#34;https://ml4health.github.io/2020/pages/call-for-participation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ml4H&lt;/a&gt;, 
 &lt;a href=&#34;https://vanyacohen.github.io/NewInML/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeurIPS NewInML Workshop&lt;/a&gt;
 &lt;a href=&#34;https://mltheory.org/#talks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI DCL Workshop&lt;/a&gt; 
@@ -1313,7 +1333,7 @@ data.head()
 1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \&lt;br&gt;
+&lt;p&gt;$$f(k;p_0^&lt;em&gt;) = \begin{cases} p_0^&lt;/em&gt; &amp;amp; \text{if }k=1, \&lt;br&gt;
 1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
 &lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
 &lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
@@ -1612,6 +1632,7 @@ Three
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
 &lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;/aside&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
@@ -1751,6 +1772,7 @@ Three
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
 &lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;/aside&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
@@ -2419,7 +2441,7 @@ Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;
 &lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
 &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
+&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
 &lt;ul&gt;
 &lt;li&gt;☕️ 
 &lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
