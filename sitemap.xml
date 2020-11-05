@@ -646,12 +646,12 @@
   </url>
   
   <url>
-    <loc>https://albarqouni.github.io/slides/covid19/</loc>
-    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
+    <loc>https://albarqouni.github.io/slides/_example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://albarqouni.github.io/slides/example/</loc>
+    <loc>https://albarqouni.github.io/slides/covid19/</loc>
     <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url>
   
@@ -668,6 +668,11 @@
   <url>
     <loc>https://albarqouni.github.io/slides/federated/</loc>
     <lastmod>2020-11-03T17:34:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://albarqouni.github.io/slides/pres/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>

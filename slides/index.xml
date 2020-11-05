@@ -8,39 +8,40 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <item>
       <title>AI meets COVID-19</title>
-      <link>https://albarqouni.github.io/slides/covid19/</link>
+      <link>https://albarqouni.github.io/slides/_example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/slides/covid19/</guid>
+      <guid>https://albarqouni.github.io/slides/_example/</guid>
       <description>&lt;h1 id=&#34;brief-progress-of&#34;&gt;Brief Progress of&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
 &lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
 &lt;li&gt;Supports speaker notes&lt;/li&gt;
 &lt;li&gt;Mobile friendly slides&lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;* Reporting on current results (CAMP, IBBM):  (1) data availability, (2) segmentation, (3) classification, (4) algorithmic integration.
-* Next steps and modus operandi for the next weeks or months: (1) data from Radiologie and elsewhere, (2) data products and interface to Radiologie infrastructure, (3) integration of CAMP &amp;amp; IBBM algorithms.
-* Transition to &amp;ldquo;funded research&amp;rdquo;. (At IBBM the means for continuing this in an unfunded mode are essentially gone. Continuation will require a coordinated program.)&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;h2 id=&#34;pathology-quantification&#34;&gt;Pathology Quantification:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;To be able to quantify the pathologies in thorax CT scans, one needs to segment the pathologies, and probably classify them into common ones characterizing the COVID-19, &lt;em&gt;e.g.&lt;/em&gt;,
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Ground Glass Opacity (GGO)
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Consolidations
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Scarr
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Pleueral Effusion
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
@@ -147,40 +148,39 @@ Three
     
     <item>
       <title>AI meets COVID-19</title>
-      <link>https://albarqouni.github.io/slides/example/</link>
+      <link>https://albarqouni.github.io/slides/covid19/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/slides/example/</guid>
+      <guid>https://albarqouni.github.io/slides/covid19/</guid>
       <description>&lt;h1 id=&#34;brief-progress-of&#34;&gt;Brief Progress of&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
 &lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
 &lt;li&gt;Supports speaker notes&lt;/li&gt;
 &lt;li&gt;Mobile friendly slides&lt;/li&gt;
 &lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;* Reporting on current results (CAMP, IBBM):  (1) data availability, (2) segmentation, (3) classification, (4) algorithmic integration.
+* Next steps and modus operandi for the next weeks or months: (1) data from Radiologie and elsewhere, (2) data products and interface to Radiologie infrastructure, (3) integration of CAMP &amp;amp; IBBM algorithms.
+* Transition to &amp;ldquo;funded research&amp;rdquo;. (At IBBM the means for continuing this in an unfunded mode are essentially gone. Continuation will require a coordinated program.)&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;pathology-quantification&#34;&gt;Pathology Quantification:&lt;/h2&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;To be able to quantify the pathologies in thorax CT scans, one needs to segment the pathologies, and probably classify them into common ones characterizing the COVID-19, &lt;em&gt;e.g.&lt;/em&gt;,
-&lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-Ground Glass Opacity (GGO)
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-Consolidations
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-Scarr
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-Pleueral Effusion
-&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
@@ -424,6 +424,38 @@ Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;
 &lt;/span&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preliminary Meeting for the seminar on Federated Learning in Healthcare</title>
+      <link>https://albarqouni.github.io/slides/pres/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/slides/pres/</guid>
+      <description>&lt;p&gt;Seminar on&lt;/p&gt;
+&lt;h2 id=&#34;span-stylecolororangefederated-learningspan-in-span-stylecolorgreenhealthcarespan&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Federated Learning&lt;/span&gt; in &lt;span style=&#34;color:green&#34;&gt;Healthcare&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://albarqouni.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AI Young Investigator Group Leader at 
+&lt;a href=&#34;https://www.helmholtz.ai/themenmenue/our-research/research-groups/albarqounis-group/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz AI&lt;/a&gt; | TUM Junior Fellow at 
+&lt;a href=&#34;http://campar.in.tum.de/Main/ShadiAlbarqouni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU Munich&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;presentation-and-blog-post-guidelines&#34;&gt;Presentation and Blog Post Guidelines&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Presentation Structure&lt;/li&gt;
+&lt;li&gt;Blog Post Structure&lt;/li&gt;
+&lt;li&gt;Usuful resourses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;presentation-structure&#34;&gt;Presentation Structure&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;:&lt;/span&gt; In the first few slides, you need to introduce the subject to the audience. A brief background (big picture) and a few related works (more concise) would help you to position your paper in the big picture. &lt;em&gt;It is quite important to talk about the key conclusions at the very beginning&lt;/em&gt;.  The rationale for the paper (why you did the work?) has to be addressed by the end of the Intro. slides.
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 </description>
     </item>
     
