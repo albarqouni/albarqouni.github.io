@@ -439,7 +439,7 @@ Presenter: Firstname Surname
 &lt;/ol&gt;
 &lt;/span&gt;
 &lt;hr&gt;
-&lt;ol start=&#34;5&#34;&gt;
+&lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
 &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Needless to Say&lt;/strong&gt;:&lt;/span&gt;
 &lt;ul&gt;
@@ -491,6 +491,10 @@ Presenter: Firstname Surname
 &lt;li&gt;
 &lt;a href=&#34;https://www.fast.ai/2019/05/13/blogging-advice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Advice for Better Blog Posts&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;PhDComics.png&#34; alt=&#34;PhDComics&#34;&gt;
+Image source: 
+&lt;a href=&#34;http://phdcomics.com/comics/archive.php?comicid=719&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;phdcomics.com&lt;/a&gt;. @Jorge Cham&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Should you have any questions, please drop me an email at &lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
