@@ -432,30 +432,123 @@ Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;
       <link>https://albarqouni.github.io/slides/pres/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/slides/pres/</guid>
-      <description>&lt;p&gt;Seminar on&lt;/p&gt;
-&lt;h2 id=&#34;span-stylecolororangefederated-learningspan-in-span-stylecolorgreenhealthcarespan&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Federated Learning&lt;/span&gt; in &lt;span style=&#34;color:green&#34;&gt;Healthcare&lt;/span&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;span-stylecolororangepresentationspan-and-span-stylecolorgreenblog-post-spanguidelines&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Presentation&lt;/span&gt; and &lt;span style=&#34;color:green&#34;&gt;Blog Post &lt;/span&gt;Guidelines&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://albarqouni.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;AI Young Investigator Group Leader at 
 &lt;a href=&#34;https://www.helmholtz.ai/themenmenue/our-research/research-groups/albarqounis-group/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz AI&lt;/a&gt; | TUM Junior Fellow at 
 &lt;a href=&#34;http://campar.in.tum.de/Main/ShadiAlbarqouni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU Munich&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;05.11.2020&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;presentation-and-blog-post-guidelines&#34;&gt;Presentation and Blog Post Guidelines&lt;/h2&gt;
+&lt;h2 id=&#34;span-stylecolororangepresentationspan-guidelines&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Presentation&lt;/span&gt; Guidelines&lt;/h2&gt;
 &lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;Presentation Structure&lt;/li&gt;
-&lt;li&gt;Blog Post Structure&lt;/li&gt;
-&lt;li&gt;Usuful resourses&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;presentation-structure&#34;&gt;Presentation Structure&lt;/h2&gt;
-&lt;hr&gt;
-&lt;ul&gt;
+&lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;:&lt;/span&gt; In the first few slides, you need to introduce the subject to the audience. A brief background (big picture) and a few related works (more concise) would help you to position your paper in the big picture. &lt;em&gt;It is quite important to talk about the key conclusions at the very beginning&lt;/em&gt;.  The rationale for the paper (why you did the work?) has to be addressed by the end of the Intro. slides.
+&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;First Slide&lt;/strong&gt;:&lt;/span&gt; Please have the title of the paper, authors (&amp;lt;3), conference proceedings, or journal, and the name of the presenter.
 &lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;Example: 
+
+The Future of Digital Health with Federated Learning
+
+Rieke et al., Nature Digital Medicine, 2020
+
+Presenter: Firstname Surname  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;:&lt;/span&gt; In the first few slides, you need to introduce the subject to the audience. A brief &lt;strong&gt;background&lt;/strong&gt; (big picture) and a few &lt;strong&gt;related works&lt;/strong&gt; (more concise) would help you to position your paper in the big picture. &lt;em&gt;It is quite important to talk about the key conclusions at the very beginning&lt;/em&gt;.  The &lt;strong&gt;rationale&lt;/strong&gt; for the paper, i.e. &lt;em&gt;why you did the work?&lt;/em&gt;, has to be addressed by the end of the Intro. slides.
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Methodology&lt;/strong&gt;:&lt;/span&gt; You need to explain the method in details, if possible. Start with an overview of the &lt;strong&gt;framework&lt;/strong&gt; (e.g. flow chart); input, output, and core components, before you dive deeper into the &lt;strong&gt;key contributions&lt;/strong&gt;; e.g. design architecture, objective functions, &amp;hellip;etc. Details that might distract the audience can be moved to the backup slides. In short, explain &lt;em&gt;how did you do it?&lt;/em&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Experiments and Results&lt;/strong&gt;:&lt;/span&gt; You need to explain the &lt;strong&gt;experimental designs&lt;/strong&gt;; datasets, evaluation metrics, and training setup, and the &lt;strong&gt;rationale behind them&lt;/strong&gt;, before you show the &lt;strong&gt;key results&lt;/strong&gt;.  The figures should be clearly labeled, e.g. explain the figures axes before you describe the results addressing the question &lt;em&gt;what did you find?&lt;/em&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Conclusion &amp;amp; Future Work&lt;/strong&gt;:&lt;/span&gt; Discuss the results (your interpretation), before you list the concluding reamrks, learned lessons, and future research directions.
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Group Discussion&lt;/strong&gt;:&lt;/span&gt; This is the most important part where you need to list a few major things that you need to discuss with the group, for example:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;How the paper could be improved?&lt;/em&gt; e.g. critique on the proposed method, design choices, missing experiments, or inappropriate evaluation metrics.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;How the paper could be applied in medical domain?&lt;/em&gt; e.g. challenges in healthcare.&lt;/li&gt;
+&lt;li&gt;Have a look at the reviewers feedback, if available, e.g. 
+&lt;a href=&#34;https://openreview.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openreview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Needless to Say&lt;/strong&gt;:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;Read the paper carefully, and look for complementary materials; blog posts, videos, or code repo. to better understand the paper.&lt;/li&gt;
+&lt;li&gt;Be mindful of time.  You have 30 mins for points 1-4, and 15 mins for point 5. As a rule of thumb, # slides &amp;lt; given time slot in mins.&lt;/li&gt;
+&lt;li&gt;Build a compelling story and try to engage your audience.&lt;/li&gt;
+&lt;li&gt;List the References in the footer of the corresponding slide&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;color:orange&#34;&gt;Practice, practice, practice&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;span-stylecolorgreenblog-post-span-guidelines&#34;&gt;&lt;span style=&#34;color:green&#34;&gt;Blog Post &lt;/span&gt; Guidelines&lt;/h2&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The secret to getting into the deep learning community is high quality blogging. Read 5 different blog posts about the same subject and then try to synthesize your own view. Don’t just write something ok, either — take 3 or 4 full days on a post and try to make it as short and simple (yet complete) as possible.
+&amp;ndash; 
+&lt;a href=&#34;https://hackernoon.com/interview-with-deep-learning-researcher-and-leader-of-openmined-andrew-trask-77cd33570a8c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andrew Trask&lt;/a&gt;, DeepMind&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;This is a free-style blog post! One can hardly enforce guidelines. However, I personally liked the &lt;em&gt;Dos and Don&amp;rsquo;ts&lt;/em&gt; appeared in this 
+&lt;a href=&#34;https://www.fast.ai/2019/05/13/blogging-advice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt;.  Here some examples&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://medium.com/@ODSC/what-is-federated-learning-99c7fc9bc4f5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What is Federated Learning?
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.inovex.de/blog/federated-learning-collaborative-training-part-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federated Learning: A Guide to Collaborative Training with Decentralized Sensitive Data – Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://towardsdatascience.com/do-we-need-deep-graph-neural-networks-be62d3ec5c59&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Do we need deep graph neural networks?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://blog.ml.cmu.edu/2020/10/12/fact-diagnostic-how-to-better-understand-trade-offs-involving-group-fairness/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FACT Diagnostic: How to Better Understand Trade-offs Involving Group Fairness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Other blog sites: 
+&lt;a href=&#34;https://blog.ml.cmu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CMU ML Blog&lt;/a&gt;, 
+&lt;a href=&#34;https://bair.berkeley.edu/blog/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BAIR Blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;helpful-resourses&#34;&gt;Helpful resourses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to read a paper?&lt;/a&gt; &amp;ndash;Three-pass method&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to read a research paper?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://medium.com/@drewdennis/how-to-read-scientific-papers-quickly-efficiently-e7030c4018fa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Read Scientific Papers Quickly &amp;amp; Efficiently&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-to-write-a-blogpost-from-your-journal-article-6511a3837caa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to write a blog post from your journal article?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.fast.ai/2019/05/13/blogging-advice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Advice for Better Blog Posts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Should you have any questions, please drop me an email at &lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://twitter.com/ShadiAlbarqouni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@ShadiAlbarqouni&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
