@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://albarqouni.github.io/flh/speakers/shadi/</loc>
+    <loc>https://albarqouni.github.io/courses/flh/speakers/shadi/</loc>
   </url>
   
   <url>
-    <loc>https://albarqouni.github.io/flh/</loc>
+    <loc>https://albarqouni.github.io/courses/flh/</loc>
   </url>
   
   <url>
@@ -1823,6 +1823,10 @@
   <url>
     <loc>https://albarqouni.github.io/talk/</loc>
     <lastmod>2020-04-12T00:45:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://albarqouni.github.io/courses/</loc>
   </url>
   
   <url>
