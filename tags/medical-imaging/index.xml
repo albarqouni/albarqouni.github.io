@@ -198,9 +198,25 @@
     
     <item>
       <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
+      <link>https://albarqouni.github.io/oldpublication/soberanis-2019-uncertainty/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/soberanis-2019-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
       <link>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A learning without forgetting approach to incorporate artifact knowledge in polyp localization tasks</title>
+      <link>https://albarqouni.github.io/oldpublication/soberanis-2020-learning/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/soberanis-2020-learning/</guid>
       <description></description>
     </item>
     
@@ -214,9 +230,25 @@
     
     <item>
       <title>An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy</title>
+      <link>https://albarqouni.github.io/oldpublication/ali-2020-objective/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/ali-2020-objective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy</title>
       <link>https://albarqouni.github.io/publication/ali-2020-objective/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/ali-2020-objective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2020-autoencoders/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2020-autoencoders/</guid>
       <description></description>
     </item>
     
@@ -230,9 +262,25 @@
     
     <item>
       <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
+      <link>https://albarqouni.github.io/oldpublication/shapira-2020-benefit/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/shapira-2020-benefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
       <link>https://albarqouni.github.io/publication/shapira-2020-benefit/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/shapira-2020-benefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image-to-Images Translation for Multi-Task Organ Segmentation and Bone Suppression in Chest X-Ray Radiography</title>
+      <link>https://albarqouni.github.io/oldpublication/eslami-2020-image/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/eslami-2020-image/</guid>
       <description></description>
     </item>
     
@@ -246,9 +294,25 @@
     
     <item>
       <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
+      <link>https://albarqouni.github.io/oldpublication/shapira-2020-liver/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/shapira-2020-liver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
       <link>https://albarqouni.github.io/publication/shapira-2020-liver/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/shapira-2020-liver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</title>
+      <link>https://albarqouni.github.io/oldpublication/bdair-2020-roam/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/bdair-2020-roam/</guid>
       <description></description>
     </item>
     
@@ -812,9 +876,25 @@ Image source:
     
     <item>
       <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
+      <link>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
       <link>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</guid>
       <description></description>
     </item>
     
@@ -828,9 +908,25 @@ Image source:
     
     <item>
       <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
+      <link>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-graph/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
+      <link>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</guid>
       <description></description>
     </item>
     
@@ -844,9 +940,25 @@ Image source:
     
     <item>
       <title>Learn to Segment Organs with a Few Bounding Boxes</title>
+      <link>https://albarqouni.github.io/oldpublication/parida-2019-learn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/parida-2019-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn to Segment Organs with a Few Bounding Boxes</title>
       <link>https://albarqouni.github.io/publication/parida-2019-learn/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/parida-2019-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning interpretable disentangled representations using adversarial vaes</title>
+      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</guid>
       <description></description>
     </item>
     
@@ -860,6 +972,14 @@ Image source:
     
     <item>
       <title>Learning Interpretable Features via Adversarially Robust Optimization</title>
+      <link>https://albarqouni.github.io/oldpublication/khakzar-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/khakzar-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Interpretable Features via Adversarially Robust Optimization</title>
       <link>https://albarqouni.github.io/publication/khakzar-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/khakzar-2019-learning/</guid>
@@ -868,9 +988,25 @@ Image source:
     
     <item>
       <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
+      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
       <link>https://albarqouni.github.io/publication/sarhan-2019-multi/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sarhan-2019-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-attention equipped graph convolutions for disease prediction</title>
+      <link>https://albarqouni.github.io/oldpublication/kazi-2019-self/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-self/</guid>
       <description></description>
     </item>
     
@@ -891,10 +1027,34 @@ Image source:
     </item>
     
     <item>
+      <title>Staingan: Stain style transfer for digital histological images</title>
+      <link>https://albarqouni.github.io/xtarx.github.io/staingan/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/xtarx.github.io/staingan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</title>
+      <link>https://albarqouni.github.io/oldpublication/jimenez-2019-towards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/jimenez-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</title>
       <link>https://albarqouni.github.io/publication/jimenez-2019-towards/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/jimenez-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capsule networks against medical imaging data challenges</title>
+      <link>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</guid>
       <description></description>
     </item>
     
@@ -908,9 +1068,25 @@ Image source:
     
     <item>
       <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2018-deep/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2018-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
       <link>https://albarqouni.github.io/publication/baur-2018-deep/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2018-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GANs for medical image analysis</title>
+      <link>https://albarqouni.github.io/oldpublication/kazeminia-2018-gans/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/kazeminia-2018-gans/</guid>
       <description></description>
     </item>
     
@@ -924,9 +1100,25 @@ Image source:
     
     <item>
       <title>Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks</title>
+      <link>https://albarqouni.github.io/oldpublication/lahiani-2018-generalizing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/lahiani-2018-generalizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks</title>
       <link>https://albarqouni.github.io/publication/lahiani-2018-generalizing/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lahiani-2018-generalizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating highly realistic images of skin lesions with GANs</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2018-generating/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2018-generating/</guid>
       <description></description>
     </item>
     
@@ -940,9 +1132,25 @@ Image source:
     
     <item>
       <title>Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair</title>
+      <link>https://albarqouni.github.io/oldpublication/breininger-2018-intraoperative/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/breininger-2018-intraoperative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair</title>
       <link>https://albarqouni.github.io/publication/breininger-2018-intraoperative/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/breininger-2018-intraoperative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple device segmentation for fluoroscopic imaging using multi-task learning</title>
+      <link>https://albarqouni.github.io/oldpublication/breininger-2018-multiple/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/breininger-2018-multiple/</guid>
       <description></description>
     </item>
     
@@ -956,9 +1164,25 @@ Image source:
     
     <item>
       <title>Weakly-supervised localization and classification of proximal femur fractures</title>
+      <link>https://albarqouni.github.io/oldpublication/jimenez-2018-weakly/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/jimenez-2018-weakly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly-supervised localization and classification of proximal femur fractures</title>
       <link>https://albarqouni.github.io/publication/jimenez-2018-weakly/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/jimenez-2018-weakly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</title>
+      <link>https://albarqouni.github.io/oldpublication/bejnordi-2017-diagnostic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/bejnordi-2017-diagnostic/</guid>
       <description></description>
     </item>
     
@@ -972,9 +1196,25 @@ Image source:
     
     <item>
       <title>Semi-supervised deep learning for fully convolutional networks</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2017-semi/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2017-semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-supervised deep learning for fully convolutional networks</title>
       <link>https://albarqouni.github.io/publication/baur-2017-semi/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2017-semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-ray in-depth decomposition: Revealing the latent structures</title>
+      <link>https://albarqouni.github.io/oldpublication/albarqouni-2017-x/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2017-x/</guid>
       <description></description>
     </item>
     
@@ -988,9 +1228,25 @@ Image source:
     
     <item>
       <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
+      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</guid>
       <description></description>
     </item>
     
@@ -1004,6 +1260,14 @@ Image source:
     
     <item>
       <title>Structure-preserving color normalization and sparse stain separation for histological images</title>
+      <link>https://albarqouni.github.io/oldpublication/vahadane-2016-structure/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/vahadane-2016-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structure-preserving color normalization and sparse stain separation for histological images</title>
       <link>https://albarqouni.github.io/publication/vahadane-2016-structure/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/vahadane-2016-structure/</guid>
@@ -1012,9 +1276,25 @@ Image source:
     
     <item>
       <title>Structure-preserved color normalization for histological images</title>
+      <link>https://albarqouni.github.io/oldpublication/vahadane-2015-structure/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/vahadane-2015-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structure-preserved color normalization for histological images</title>
       <link>https://albarqouni.github.io/publication/vahadane-2015-structure/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/vahadane-2015-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Steps towards Establishing Telemedicine Center in Palestine</title>
+      <link>https://albarqouni.github.io/oldpublication/albarqouni-2009-steps/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2009-steps/</guid>
       <description></description>
     </item>
     

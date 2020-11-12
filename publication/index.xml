@@ -53,10 +53,26 @@
     </item>
     
     <item>
+      <title>Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2020-attention/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2020-attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
       <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Skip-Autoencoders for Unsupervised Hyperintense Anomaly Detection in High Resolution Brain Mri</title>
+      <link>https://albarqouni.github.io/publication/baur-2020-bayesian/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-bayesian/</guid>
       <description></description>
     </item>
     
@@ -69,10 +85,26 @@
     </item>
     
     <item>
+      <title>Domain Adaptation and Representation Transfer, and Distributed and Collaborative Learning</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2020-domain/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2020-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fairness by Learning Orthogonal Disentangled Representations</title>
       <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GANs for medical image analysis</title>
+      <link>https://albarqouni.github.io/publication/kazeminia-2020-gans/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazeminia-2020-gans/</guid>
       <description></description>
     </item>
     
@@ -85,10 +117,42 @@
     </item>
     
     <item>
+      <title>Inverse Distance Aggregation for Federated Learning with Non-IID Data</title>
+      <link>https://albarqouni.github.io/publication/yeganeh-2020-inverse/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/yeganeh-2020-inverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
       <link>https://albarqouni.github.io/publication/shapira-2020-liver/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/shapira-2020-liver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polyp-artifact relationship analysis using graph inductive learned representations</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-polyp/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-polyp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise proximal femur fracture classification for interactive training and surgical planning.</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2020-precise/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2020-precise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retinal Layer Segmentation Reformulated as OCT Language Processing</title>
+      <link>https://albarqouni.github.io/publication/tran-2020-retinal/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tran-2020-retinal/</guid>
       <description></description>
     </item>
     
@@ -101,10 +165,42 @@
     </item>
     
     <item>
+      <title>Scale-Space Autoencoders for Unsupervised Anomaly Segmentation in Brain MRI</title>
+      <link>https://albarqouni.github.io/publication/baur-2020-scale/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-scale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
       <link>https://albarqouni.github.io/publication/lahiani-2020-seamless/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lahiani-2020-seamless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SteGANomaly: Inhibiting CycleGAN Steganography for Unsupervised Anomaly Detection in Brain MRI</title>
+      <link>https://albarqouni.github.io/publication/baur-2020-steganomaly/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-steganomaly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding the effects of artifacts on automated polyp detection and incorporating that knowledge via learning without forgetting</title>
+      <link>https://albarqouni.github.io/publication/kayser-2020-understanding/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kayser-2020-understanding/</guid>
       <description></description>
     </item>
     
@@ -137,6 +233,14 @@
       <link>https://albarqouni.github.io/publication/wang-2019-domain/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/wang-2019-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Focal loss for artefact detection in medical endoscopy</title>
+      <link>https://albarqouni.github.io/publication/kayser-2019-focal/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kayser-2019-focal/</guid>
       <description></description>
     </item>
     
@@ -297,6 +401,14 @@
       <link>https://albarqouni.github.io/publication/albarqouni-2018-determination/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2018-determination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>7th Joint International Workshop, CVII-STENT (Intravascular Imaging and Computer Assisted Stenting) 2018 and Third International Workshop, LABELS (Large-Scale Annotation of Biomedical Data and Expert Label Synthesis) 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/stoyanov-20187-th/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/stoyanov-20187-th/</guid>
       <description></description>
     </item>
     
@@ -577,6 +689,14 @@
       <link>https://albarqouni.github.io/publication/vahadane-2015-structure/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/vahadane-2015-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing MATLAB software for PV and battery sizing for lighting projects in Gaza Strip, Palestine</title>
+      <link>https://albarqouni.github.io/publication/hussein-2013-developing/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/hussein-2013-developing/</guid>
       <description></description>
     </item>
     

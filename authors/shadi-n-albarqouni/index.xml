@@ -5,12 +5,28 @@
     <link>https://albarqouni.github.io/authors/shadi-n-albarqouni/</link>
       <atom:link href="https://albarqouni.github.io/authors/shadi-n-albarqouni/index.xml" rel="self" type="application/rss+xml" />
     <description>Shadi N AlBarqouni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Shadi N AlBarqouni</title>
       <link>https://albarqouni.github.io/authors/shadi-n-albarqouni/</link>
     </image>
+    
+    <item>
+      <title>Developing MATLAB software for PV and battery sizing for lighting projects in Gaza Strip, Palestine</title>
+      <link>https://albarqouni.github.io/publication/hussein-2013-developing/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/hussein-2013-developing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing MATLAB software for PV and battery sizing for lighting projects in Gaza Strip, Palestine</title>
+      <link>https://albarqouni.github.io/oldpublication/hussein-2012-developing/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/hussein-2012-developing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Developing MATLAB software for PV and battery sizing for lighting projects in Gaza Strip, Palestine</title>
@@ -22,9 +38,25 @@
     
     <item>
       <title>Re-Evaluation and Re-Design Stand-Alone PV Solar Lighting Projects in Gaza</title>
+      <link>https://albarqouni.github.io/oldpublication/albarqouni-2010-re/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2010-re/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-Evaluation and Re-Design Stand-Alone PV Solar Lighting Projects in Gaza</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2010-re/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2010-re/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-evaluation and re-design stand-alone PV solar lighting projects in Gaza Strip, Palestine</title>
+      <link>https://albarqouni.github.io/oldpublication/hussein-2010-re/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/hussein-2010-re/</guid>
       <description></description>
     </item>
     

@@ -13,10 +13,74 @@
     </image>
     
     <item>
+      <title>Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2020-attention/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2020-attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Skip-Autoencoders for Unsupervised Hyperintense Anomaly Detection in High Resolution Brain Mri</title>
+      <link>https://albarqouni.github.io/publication/baur-2020-bayesian/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
+      <link>https://albarqouni.github.io/oldpublication/shapira-2020-benefit/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/shapira-2020-benefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
       <link>https://albarqouni.github.io/publication/shapira-2020-benefit/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/shapira-2020-benefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retinal Layer Segmentation Reformulated as OCT Language Processing</title>
+      <link>https://albarqouni.github.io/publication/tran-2020-retinal/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tran-2020-retinal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scale-Space Autoencoders for Unsupervised Anomaly Segmentation in Brain MRI</title>
+      <link>https://albarqouni.github.io/publication/baur-2020-scale/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-scale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SteGANomaly: Inhibiting CycleGAN Steganography for Unsupervised Anomaly Detection in Brain MRI</title>
+      <link>https://albarqouni.github.io/publication/baur-2020-steganomaly/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-steganomaly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
+      <link>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</guid>
       <description></description>
     </item>
     
@@ -30,9 +94,25 @@
     
     <item>
       <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
+      <link>https://albarqouni.github.io/oldpublication/bui-2019-adversarial/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/bui-2019-adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
       <link>https://albarqouni.github.io/publication/bui-2019-adversarial/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/bui-2019-adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</guid>
       <description></description>
     </item>
     
@@ -46,9 +126,25 @@
     
     <item>
       <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
+      <link>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-graph/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
+      <link>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</guid>
       <description></description>
     </item>
     
@@ -62,9 +158,25 @@
     
     <item>
       <title>Investigation of Focal Loss in Deep Learning Models For Femur Fractures Classification</title>
+      <link>https://albarqouni.github.io/oldpublication/lotfy-2019-investigation/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/lotfy-2019-investigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigation of Focal Loss in Deep Learning Models For Femur Fractures Classification</title>
       <link>https://albarqouni.github.io/publication/lotfy-2019-investigation/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lotfy-2019-investigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Interpretable Features via Adversarially Robust Optimization</title>
+      <link>https://albarqouni.github.io/oldpublication/khakzar-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/khakzar-2019-learning/</guid>
       <description></description>
     </item>
     
@@ -78,9 +190,25 @@
     
     <item>
       <title>Learning-based x-ray image denoising utilizing model-based image simulations</title>
+      <link>https://albarqouni.github.io/oldpublication/hariharan-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/hariharan-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning-based x-ray image denoising utilizing model-based image simulations</title>
       <link>https://albarqouni.github.io/publication/hariharan-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/hariharan-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
+      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</guid>
       <description></description>
     </item>
     
@@ -94,9 +222,25 @@
     
     <item>
       <title>Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer</title>
+      <link>https://albarqouni.github.io/oldpublication/lahiani-2019-perceptual/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/lahiani-2019-perceptual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer</title>
       <link>https://albarqouni.github.io/publication/lahiani-2019-perceptual/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lahiani-2019-perceptual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-attention equipped graph convolutions for disease prediction</title>
+      <link>https://albarqouni.github.io/oldpublication/kazi-2019-self/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-self/</guid>
       <description></description>
     </item>
     
@@ -117,10 +261,34 @@
     </item>
     
     <item>
+      <title>Staingan: Stain style transfer for digital histological images</title>
+      <link>https://albarqouni.github.io/xtarx.github.io/staingan/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/xtarx.github.io/staingan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach</title>
+      <link>https://albarqouni.github.io/oldpublication/lahiani-2019-virtualization/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/lahiani-2019-virtualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach</title>
       <link>https://albarqouni.github.io/publication/lahiani-2019-virtualization/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lahiani-2019-virtualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2018-deep/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2018-deep/</guid>
       <description></description>
     </item>
     
@@ -134,9 +302,25 @@
     
     <item>
       <title>Deep learning with synthetic data for free water elimination in diffusion MRI</title>
+      <link>https://albarqouni.github.io/oldpublication/molina-2018-deep/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/molina-2018-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep learning with synthetic data for free water elimination in diffusion MRI</title>
       <link>https://albarqouni.github.io/publication/molina-2018-deep/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/molina-2018-deep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain and geometry agnostic CNNs for left atrium segmentation in 3D ultrasound</title>
+      <link>https://albarqouni.github.io/oldpublication/degel-2018-domain/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/degel-2018-domain/</guid>
       <description></description>
     </item>
     
@@ -150,9 +334,25 @@
     
     <item>
       <title>LABELS 2018 Preface</title>
+      <link>https://albarqouni.github.io/oldpublication/sznitman-2018-labels/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/sznitman-2018-labels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LABELS 2018 Preface</title>
       <link>https://albarqouni.github.io/publication/sznitman-2018-labels/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sznitman-2018-labels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When regression meets manifold learning for object recognition and pose estimation</title>
+      <link>https://albarqouni.github.io/oldpublication/bui-2018-regression/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/bui-2018-regression/</guid>
       <description></description>
     </item>
     
@@ -166,9 +366,25 @@
     
     <item>
       <title>Automatic classification of proximal femur fractures based on attention models</title>
+      <link>https://albarqouni.github.io/oldpublication/kazi-2017-automatic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/kazi-2017-automatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic classification of proximal femur fractures based on attention models</title>
       <link>https://albarqouni.github.io/publication/kazi-2017-automatic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2017-automatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intravascular Imaging and Computer Assisted Stenting, and Large-Scale Annotation of Biomedical Data and Expert Label Synthesis</title>
+      <link>https://albarqouni.github.io/oldpublication/cardoso-2017-intravascular/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/cardoso-2017-intravascular/</guid>
       <description></description>
     </item>
     
@@ -182,9 +398,25 @@
     
     <item>
       <title>Semi-supervised deep learning for fully convolutional networks</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2017-semi/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2017-semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-supervised deep learning for fully convolutional networks</title>
       <link>https://albarqouni.github.io/publication/baur-2017-semi/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2017-semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-ray in-depth decomposition: Revealing the latent structures</title>
+      <link>https://albarqouni.github.io/oldpublication/albarqouni-2017-x/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2017-x/</guid>
       <description></description>
     </item>
     
@@ -198,9 +430,25 @@
     
     <item>
       <title>X-Ray PoseNet: 6 DoF pose estimation for mobile X-Ray devices</title>
+      <link>https://albarqouni.github.io/oldpublication/bui-2017-x/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/bui-2017-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-Ray PoseNet: 6 DoF pose estimation for mobile X-Ray devices</title>
       <link>https://albarqouni.github.io/publication/bui-2017-x/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/bui-2017-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
+      <link>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</guid>
       <description></description>
     </item>
     
@@ -214,9 +462,25 @@
     
     <item>
       <title>Structure-preserved color normalization for histological images</title>
+      <link>https://albarqouni.github.io/oldpublication/vahadane-2015-structure/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/vahadane-2015-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structure-preserved color normalization for histological images</title>
       <link>https://albarqouni.github.io/publication/vahadane-2015-structure/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/vahadane-2015-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Steps towards Establishing Telemedicine Center in Palestine</title>
+      <link>https://albarqouni.github.io/oldpublication/albarqouni-2009-steps/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2009-steps/</guid>
       <description></description>
     </item>
     

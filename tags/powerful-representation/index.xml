@@ -72,9 +72,25 @@
     
     <item>
       <title>Fairness by Learning Orthogonal Disentangled Representations</title>
+      <link>https://albarqouni.github.io/oldpublication/sarhan-2020-fairness/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/sarhan-2020-fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
       <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
+      <link>https://albarqouni.github.io/oldpublication/lahiani-2020-seamless/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/lahiani-2020-seamless/</guid>
       <description></description>
     </item>
     
@@ -88,9 +104,25 @@
     
     <item>
       <title>Learn to Segment Organs with a Few Bounding Boxes</title>
+      <link>https://albarqouni.github.io/oldpublication/parida-2019-learn/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/parida-2019-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn to Segment Organs with a Few Bounding Boxes</title>
       <link>https://albarqouni.github.io/publication/parida-2019-learn/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/parida-2019-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning interpretable disentangled representations using adversarial vaes</title>
+      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</guid>
       <description></description>
     </item>
     
@@ -104,9 +136,25 @@
     
     <item>
       <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
+      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
       <link>https://albarqouni.github.io/publication/sarhan-2019-multi/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sarhan-2019-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer</title>
+      <link>https://albarqouni.github.io/oldpublication/lahiani-2019-perceptual/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/lahiani-2019-perceptual/</guid>
       <description></description>
     </item>
     
@@ -120,9 +168,25 @@
     
     <item>
       <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
+      <link>https://albarqouni.github.io/oldpublication/ayyad-2019-semi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/ayyad-2019-semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
       <link>https://albarqouni.github.io/publication/ayyad-2019-semi/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/ayyad-2019-semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach</title>
+      <link>https://albarqouni.github.io/oldpublication/lahiani-2019-virtualization/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/lahiani-2019-virtualization/</guid>
       <description></description>
     </item>
     
@@ -136,9 +200,25 @@
     
     <item>
       <title>Capsule networks against medical imaging data challenges</title>
+      <link>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capsule networks against medical imaging data challenges</title>
       <link>https://albarqouni.github.io/publication/jimenez-2018-capsule/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/jimenez-2018-capsule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When regression meets manifold learning for object recognition and pose estimation</title>
+      <link>https://albarqouni.github.io/oldpublication/bui-2018-regression/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/oldpublication/bui-2018-regression/</guid>
       <description></description>
     </item>
     
