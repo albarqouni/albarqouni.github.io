@@ -13,34 +13,10 @@
     </image>
     
     <item>
-      <title>7th Joint International Workshop, CVII-STENT (Intravascular Imaging and Computer Assisted Stenting) 2018 and Third International Workshop, LABELS (Large-Scale Annotation of Biomedical Data and Expert Label Synthesis) 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings</title>
-      <link>https://albarqouni.github.io/publication/stoyanov-20187-th/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/stoyanov-20187-th/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2018-photon/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2018-photon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
       <link>https://albarqouni.github.io/publication/hariharan-2018-photon/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/hariharan-2018-photon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intravascular Imaging and Computer Assisted Stenting and Large-scale Annotation of Biomedical Data and Expert Label Synthesis: 7th Joint International Workshop, CVII-STENT 2018 and Third International Workshop, LABELS 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings</title>
-      <link>https://albarqouni.github.io/oldpublication/stoyanov-2018-intravascular/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/stoyanov-2018-intravascular/</guid>
       <description></description>
     </item>
     
@@ -54,25 +30,9 @@
     
     <item>
       <title>X-ray Depthmaps: Revealing the Hidden Structures</title>
-      <link>https://albarqouni.github.io/oldpublication/demirci-2018-x/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/demirci-2018-x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>X-ray Depthmaps: Revealing the Hidden Structures</title>
       <link>https://albarqouni.github.io/publication/demirci-2018-x/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/demirci-2018-x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</guid>
       <description></description>
     </item>
     
@@ -86,14 +46,6 @@
     
     <item>
       <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
       <link>https://albarqouni.github.io/publication/baur-2016-cathnets/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2016-cathnets/</guid>
@@ -102,25 +54,9 @@
     
     <item>
       <title>Playsourcing: a novel concept for knowledge creation in biomedical research</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-playsourcing/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-playsourcing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playsourcing: a novel concept for knowledge creation in biomedical research</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2016-playsourcing/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2016-playsourcing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Single-view X-ray depth recovery: toward a novel concept for image-guided interventions</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-single/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-single/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/publication_types/6/</link>
       <atom:link href="https://albarqouni.github.io/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
     <description>6</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>6</title>
@@ -13,34 +13,10 @@
     </image>
     
     <item>
-      <title>Inverse Distance Aggregation for Federated Learning with Non-IID Data</title>
-      <link>https://albarqouni.github.io/publication/yeganeh-2020-inverse/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/yeganeh-2020-inverse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning interpretable disentangled representations using adversarial vaes</title>
-      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Learning interpretable disentangled representations using adversarial vaes</title>
       <link>https://albarqouni.github.io/publication/sarhan-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sarhan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Capsule networks against medical imaging data challenges</title>
-      <link>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</guid>
       <description></description>
     </item>
     
@@ -54,25 +30,9 @@
     
     <item>
       <title>Generating highly realistic images of skin lesions with GANs</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2018-generating/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2018-generating/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generating highly realistic images of skin lesions with GANs</title>
       <link>https://albarqouni.github.io/publication/baur-2018-generating/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2018-generating/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiple device segmentation for fluoroscopic imaging using multi-task learning</title>
-      <link>https://albarqouni.github.io/oldpublication/breininger-2018-multiple/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/breininger-2018-multiple/</guid>
       <description></description>
     </item>
     
@@ -86,25 +46,9 @@
     
     <item>
       <title>Playsourcing: a novel concept for knowledge creation in biomedical research</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-playsourcing/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-playsourcing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playsourcing: a novel concept for knowledge creation in biomedical research</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2016-playsourcing/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2016-playsourcing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gradient projection for regularized cryo-electron tomographic reconstruction</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2015-gradient/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2015-gradient/</guid>
       <description></description>
     </item>
     

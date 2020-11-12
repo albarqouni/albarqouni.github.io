@@ -14,14 +14,6 @@
     
     <item>
       <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
-      <link>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
       <link>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</guid>
@@ -30,25 +22,9 @@
     
     <item>
       <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-graph/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</guid>
       <description></description>
     </item>
     

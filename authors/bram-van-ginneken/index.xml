@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/authors/bram-van-ginneken/</link>
       <atom:link href="https://albarqouni.github.io/authors/bram-van-ginneken/index.xml" rel="self" type="application/rss+xml" />
     <description>Bram Van Ginneken</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Bram Van Ginneken</title>
@@ -14,33 +14,9 @@
     
     <item>
       <title>GANs for medical image analysis</title>
-      <link>https://albarqouni.github.io/publication/kazeminia-2020-gans/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/kazeminia-2020-gans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GANs for medical image analysis</title>
-      <link>https://albarqouni.github.io/oldpublication/kazeminia-2018-gans/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazeminia-2018-gans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GANs for medical image analysis</title>
       <link>https://albarqouni.github.io/publication/kazeminia-2018-gans/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazeminia-2018-gans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</title>
-      <link>https://albarqouni.github.io/oldpublication/bejnordi-2017-diagnostic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bejnordi-2017-diagnostic/</guid>
       <description></description>
     </item>
     

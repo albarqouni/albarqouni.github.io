@@ -31,25 +31,9 @@
     
     <item>
       <title>Image-to-Images Translation for Multi-Task Organ Segmentation and Bone Suppression in Chest X-Ray Radiography</title>
-      <link>https://albarqouni.github.io/oldpublication/eslami-2020-image/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/eslami-2020-image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image-to-Images Translation for Multi-Task Organ Segmentation and Bone Suppression in Chest X-Ray Radiography</title>
       <link>https://albarqouni.github.io/publication/eslami-2020-image/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/eslami-2020-image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2019-adversarial/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2019-adversarial/</guid>
       <description></description>
     </item>
     
@@ -63,14 +47,6 @@
     
     <item>
       <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
       <link>https://albarqouni.github.io/publication/baur-2019-fusing/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2019-fusing/</guid>
@@ -79,25 +55,9 @@
     
     <item>
       <title>Learning interpretable disentangled representations using adversarial vaes</title>
-      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning interpretable disentangled representations using adversarial vaes</title>
       <link>https://albarqouni.github.io/publication/sarhan-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sarhan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Interpretable Features via Adversarially Robust Optimization</title>
-      <link>https://albarqouni.github.io/oldpublication/khakzar-2019-learning/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/khakzar-2019-learning/</guid>
       <description></description>
     </item>
     
@@ -118,22 +78,6 @@
     </item>
     
     <item>
-      <title>Staingan: Stain style transfer for digital histological images</title>
-      <link>https://albarqouni.github.io/xtarx.github.io/staingan/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/xtarx.github.io/staingan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2018-deep/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2018-deep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
       <link>https://albarqouni.github.io/publication/baur-2018-deep/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -143,25 +87,9 @@
     
     <item>
       <title>GANs for medical image analysis</title>
-      <link>https://albarqouni.github.io/oldpublication/kazeminia-2018-gans/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazeminia-2018-gans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GANs for medical image analysis</title>
       <link>https://albarqouni.github.io/publication/kazeminia-2018-gans/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazeminia-2018-gans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generating highly realistic images of skin lesions with GANs</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2018-generating/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2018-generating/</guid>
       <description></description>
     </item>
     

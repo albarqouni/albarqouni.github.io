@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/authors/diana-mateus/</link>
       <atom:link href="https://albarqouni.github.io/authors/diana-mateus/index.xml" rel="self" type="application/rss+xml" />
     <description>Diana Mateus</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Diana Mateus</title>
@@ -13,34 +13,10 @@
     </image>
     
     <item>
-      <title>Precise proximal femur fracture classification for interactive training and surgical planning.</title>
-      <link>https://albarqouni.github.io/publication/jimenez-2020-precise/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/jimenez-2020-precise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</title>
-      <link>https://albarqouni.github.io/oldpublication/jimenez-2019-towards/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/jimenez-2019-towards/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</title>
       <link>https://albarqouni.github.io/publication/jimenez-2019-towards/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/jimenez-2019-towards/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Capsule networks against medical imaging data challenges</title>
-      <link>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</guid>
       <description></description>
     </item>
     
@@ -54,25 +30,9 @@
     
     <item>
       <title>LABELS 2018 Preface</title>
-      <link>https://albarqouni.github.io/oldpublication/sznitman-2018-labels/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/sznitman-2018-labels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LABELS 2018 Preface</title>
       <link>https://albarqouni.github.io/publication/sznitman-2018-labels/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sznitman-2018-labels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Weakly-supervised localization and classification of proximal femur fractures</title>
-      <link>https://albarqouni.github.io/oldpublication/jimenez-2018-weakly/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/jimenez-2018-weakly/</guid>
       <description></description>
     </item>
     
@@ -86,25 +46,9 @@
     
     <item>
       <title>Automatic classification of proximal femur fractures based on attention models</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2017-automatic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2017-automatic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatic classification of proximal femur fractures based on attention models</title>
       <link>https://albarqouni.github.io/publication/kazi-2017-automatic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2017-automatic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning and Data Labeling for Medical Applications: First International Workshop, LABELS 2016, and Second International Workshop, DLMIA 2016, Held in Conjunction with MICCAI 2016, Athens, Greece, October 21, 2016, Proceedings</title>
-      <link>https://albarqouni.github.io/oldpublication/carneiro-2016-deep/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/carneiro-2016-deep/</guid>
       <description></description>
     </item>
     
