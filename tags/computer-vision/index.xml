@@ -5,12 +5,28 @@
     <link>https://albarqouni.github.io/tags/computer-vision/</link>
       <atom:link href="https://albarqouni.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Vision</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Computer Vision</title>
       <link>https://albarqouni.github.io/tags/computer-vision/</link>
     </image>
+    
+    <item>
+      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
+      <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Uncertainty Aware Methods for Camera Pose Estimation and Relocalization</title>
@@ -31,14 +47,6 @@
 &lt;a href=&#34;https://www.bacatec.de/en/gefoerderte_projekte.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BaCaTeC&lt;/a&gt;)&lt;/p&gt;
 &lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
-      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
-      <description></description>
     </item>
     
     <item>

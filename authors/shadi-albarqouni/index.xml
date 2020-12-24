@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/authors/shadi-albarqouni/</link>
       <atom:link href="https://albarqouni.github.io/authors/shadi-albarqouni/index.xml" rel="self" type="application/rss+xml" />
     <description>Shadi Albarqouni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Shadi Albarqouni</title>
@@ -13,10 +13,66 @@
     </image>
     
     <item>
+      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
+      <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-task multi-domain learning for digital staining and classification of leukocytes</title>
+      <link>https://albarqouni.github.io/publication/tomczak-2020-multi/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tomczak-2020-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ascertaining the Pose of an X-Ray Unit Relative to an Object on the Basis of a Digital Model of the Object</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2020-ascertaining/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2020-ascertaining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determining a Pose of an Object in the Surroundings of the Object by Means of Multi-Task Learning</title>
+      <link>https://albarqouni.github.io/publication/zakharov-2020-determining/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/zakharov-2020-determining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Future of Digital Health with Federated Learning</title>
       <link>https://albarqouni.github.io/publication/rieke-2020-future/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/rieke-2020-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
+      <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
       <description></description>
     </item>
     
@@ -29,10 +85,10 @@
     </item>
     
     <item>
-      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
-      <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
+      <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
+      <link>https://albarqouni.github.io/publication/lahiani-2020-seamless/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/lahiani-2020-seamless/</guid>
       <description></description>
     </item>
     
@@ -45,10 +101,18 @@
     </item>
     
     <item>
-      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
-      <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
+      <title>An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation</title>
+      <link>https://albarqouni.github.io/publication/mukul-2020-uncertainty/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
+      <guid>https://albarqouni.github.io/publication/mukul-2020-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2020-attention/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2020-attention/</guid>
       <description></description>
     </item>
     
@@ -69,10 +133,10 @@
     </item>
     
     <item>
-      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
-      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
+      <title>GANs for medical image analysis</title>
+      <link>https://albarqouni.github.io/publication/kazeminia-2020-gans/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
+      <guid>https://albarqouni.github.io/publication/kazeminia-2020-gans/</guid>
       <description></description>
     </item>
     
@@ -81,6 +145,38 @@
       <link>https://albarqouni.github.io/publication/eslami-2020-image/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/eslami-2020-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inverse Distance Aggregation for Federated Learning with Non-IID Data</title>
+      <link>https://albarqouni.github.io/publication/yeganeh-2020-inverse/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/yeganeh-2020-inverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polyp-artifact relationship analysis using graph inductive learned representations</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-polyp/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-polyp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise proximal femur fracture classification for interactive training and surgical planning.</title>
+      <link>https://albarqouni.github.io/publication/jimenez-2020-precise/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jimenez-2020-precise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retinal Layer Segmentation Reformulated as OCT Language Processing</title>
+      <link>https://albarqouni.github.io/publication/tran-2020-retinal/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tran-2020-retinal/</guid>
       <description></description>
     </item>
     
@@ -101,18 +197,18 @@
     </item>
     
     <item>
-      <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
-      <link>https://albarqouni.github.io/publication/lahiani-2020-seamless/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/lahiani-2020-seamless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>SteGANomaly: Inhibiting CycleGAN Steganography for Unsupervised Anomaly Detection in Brain MRI</title>
       <link>https://albarqouni.github.io/publication/baur-2020-steganomaly/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2020-steganomaly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding the effects of artifacts on automated polyp detection and incorporating that knowledge via learning without forgetting</title>
+      <link>https://albarqouni.github.io/publication/kayser-2020-understanding/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kayser-2020-understanding/</guid>
       <description></description>
     </item>
     
@@ -420,6 +516,14 @@ Image source:
     </item>
     
     <item>
+      <title>Focal loss for artefact detection in medical endoscopy</title>
+      <link>https://albarqouni.github.io/publication/kayser-2019-focal/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kayser-2019-focal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
       <link>https://albarqouni.github.io/publication/baur-2019-fusing/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -572,6 +676,14 @@ Image source:
     </item>
     
     <item>
+      <title>7th Joint International Workshop, CVII-STENT (Intravascular Imaging and Computer Assisted Stenting) 2018 and Third International Workshop, LABELS (Large-Scale Annotation of Biomedical Data and Expert Label Synthesis) 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/stoyanov-20187-th/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/stoyanov-20187-th/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
       <link>https://albarqouni.github.io/publication/hariharan-2018-photon/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -660,14 +772,6 @@ Image source:
     </item>
     
     <item>
-      <title>Reviewers with more than 1 review in 2017</title>
-      <link>https://albarqouni.github.io/publication/abdel-2018-reviewers/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/abdel-2018-reviewers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Scene coordinate and correspondence learning for image-based localization</title>
       <link>https://albarqouni.github.io/publication/bui-2018-scene/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -748,7 +852,7 @@ Image source:
     </item>
     
     <item>
-      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
+      <title>Cathnets: detection and single-view depth prediction of catheter electrodes</title>
       <link>https://albarqouni.github.io/publication/baur-2016-cathnets/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2016-cathnets/</guid>
@@ -784,14 +888,6 @@ Image source:
       <link>https://albarqouni.github.io/publication/albarqouni-2015-gradient/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2015-gradient/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-scale Graph-based Guided Filter for De-noising Cryo-Electron Tomographic Data</title>
-      <link>https://albarqouni.github.io/publication/albarqouni-2015-multi/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/albarqouni-2015-multi/</guid>
       <description></description>
     </item>
     

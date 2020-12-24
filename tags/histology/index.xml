@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/tags/histology/</link>
       <atom:link href="https://albarqouni.github.io/tags/histology/index.xml" rel="self" type="application/rss+xml" />
     <description>Histology</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Histology</title>
       <link>https://albarqouni.github.io/tags/histology/</link>
     </image>
+    
+    <item>
+      <title>Multi-task multi-domain learning for digital staining and classification of leukocytes</title>
+      <link>https://albarqouni.github.io/publication/tomczak-2020-multi/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tomczak-2020-multi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learn to Recognize</title>
@@ -56,7 +64,7 @@
     <item>
       <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
       <link>https://albarqouni.github.io/publication/lahiani-2020-seamless/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lahiani-2020-seamless/</guid>
       <description></description>
     </item>

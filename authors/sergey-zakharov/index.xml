@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/authors/sergey-zakharov/</link>
       <atom:link href="https://albarqouni.github.io/authors/sergey-zakharov/index.xml" rel="self" type="application/rss+xml" />
     <description>Sergey Zakharov</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Sergey Zakharov</title>
       <link>https://albarqouni.github.io/authors/sergey-zakharov/</link>
     </image>
+    
+    <item>
+      <title>Determining a Pose of an Object in the Surroundings of the Object by Means of Multi-Task Learning</title>
+      <link>https://albarqouni.github.io/publication/zakharov-2020-determining/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/zakharov-2020-determining/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Method for determining a pose of an object in an environment of the object using multi task learning and control device</title>

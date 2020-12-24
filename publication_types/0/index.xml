@@ -5,12 +5,28 @@
     <link>https://albarqouni.github.io/publication_types/0/</link>
       <atom:link href="https://albarqouni.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>0</title>
       <link>https://albarqouni.github.io/publication_types/0/</link>
     </image>
+    
+    <item>
+      <title>Ascertaining the Pose of an X-Ray Unit Relative to an Object on the Basis of a Digital Model of the Object</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2020-ascertaining/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2020-ascertaining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determining a Pose of an Object in the Surroundings of the Object by Means of Multi-Task Learning</title>
+      <link>https://albarqouni.github.io/publication/zakharov-2020-determining/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/zakharov-2020-determining/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Domain Adaptation and Representation Transfer and Medical Image Learning with Less Labels and Imperfect Data: First MICCAI Workshop, DART 2019, and First International Workshop, MIL3ID 2019, Shenzhen, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13 and 17, 2019, Proceedings</title>
@@ -25,6 +41,14 @@
       <link>https://albarqouni.github.io/publication/liao-2019-machine/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/liao-2019-machine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>7th Joint International Workshop, CVII-STENT (Intravascular Imaging and Computer Assisted Stenting) 2018 and Third International Workshop, LABELS (Large-Scale Annotation of Biomedical Data and Expert Label Synthesis) 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings</title>
+      <link>https://albarqouni.github.io/publication/stoyanov-20187-th/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/stoyanov-20187-th/</guid>
       <description></description>
     </item>
     

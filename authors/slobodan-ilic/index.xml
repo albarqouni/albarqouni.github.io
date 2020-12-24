@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/authors/slobodan-ilic/</link>
       <atom:link href="https://albarqouni.github.io/authors/slobodan-ilic/index.xml" rel="self" type="application/rss+xml" />
     <description>Slobodan Ilic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Slobodan Ilic</title>
@@ -13,9 +13,33 @@
     </image>
     
     <item>
+      <title>Multi-task multi-domain learning for digital staining and classification of leukocytes</title>
+      <link>https://albarqouni.github.io/publication/tomczak-2020-multi/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tomczak-2020-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ascertaining the Pose of an X-Ray Unit Relative to an Object on the Basis of a Digital Model of the Object</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2020-ascertaining/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2020-ascertaining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determining a Pose of an Object in the Surroundings of the Object by Means of Multi-Task Learning</title>
+      <link>https://albarqouni.github.io/publication/zakharov-2020-determining/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/zakharov-2020-determining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
       <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
       <description></description>
     </item>

@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/authors/tingying-peng/</link>
       <atom:link href="https://albarqouni.github.io/authors/tingying-peng/index.xml" rel="self" type="application/rss+xml" />
     <description>Tingying Peng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Tingying Peng</title>
       <link>https://albarqouni.github.io/authors/tingying-peng/</link>
     </image>
+    
+    <item>
+      <title>Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2020-attention/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2020-attention/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Structure-preserving color normalization and sparse stain separation for histological images</title>

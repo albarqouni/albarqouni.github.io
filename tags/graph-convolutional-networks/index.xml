@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/tags/graph-convolutional-networks/</link>
       <atom:link href="https://albarqouni.github.io/tags/graph-convolutional-networks/index.xml" rel="self" type="application/rss+xml" />
     <description>Graph Convolutional Networks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
       <title>Graph Convolutional Networks</title>
       <link>https://albarqouni.github.io/tags/graph-convolutional-networks/</link>
     </image>
+    
+    <item>
+      <title>An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
