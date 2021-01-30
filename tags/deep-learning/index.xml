@@ -5,12 +5,50 @@
     <link>https://albarqouni.github.io/tags/deep-learning/</link>
       <atom:link href="https://albarqouni.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_2.png</url>
       <title>Deep Learning</title>
       <link>https://albarqouni.github.io/tags/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>BigPicture Project</title>
+      <link>https://albarqouni.github.io/project/bigpicture/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/bigpicture/</guid>
+      <description>&lt;h2 id=&#34;a-new-consortium-of-the-eu-innovative-medicines-initiative-imi-will-establish-the-biggest-database-of-pathology-images-to-accelerate-the-development-of-artificial-intelligence-in-medicine&#34;&gt;A new consortium of the EU Innovative Medicines Initiative (IMI) will establish the biggest database of pathology images to accelerate the development of artificial intelligence in medicine.&lt;/h2&gt;
+&lt;p&gt;To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70 million project called 
+&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt;, will herald a new era in pathology.&lt;/p&gt;
+&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;p&gt;Pathology is the cornerstone of the workup of many diseases such as cancer, autoimmune diseases, of the follow up after transplantation and is also critical for the evaluation of the safety of drugs. It’s based on the examination of tissue samples (slides) under the microscope. However, despite its pivotal role, it still relies heavily on the qualitative interpretation by a qualified pathologist.&lt;/p&gt;
+&lt;p&gt;While the microscope symbolizes the profession, the digitalisation of slides in recent years ignited a revolution: not only images can now be shared and accessed from distant locations, they can also be processed by computers. This opens the door for artificial intelligence (AI) applications to assist the pathologist and help study diseases, find better treatments and contribute to the 3Rs (replace, reduce, and refine animal use in research). However, the development of robust AI applications requires large amounts of data, which in the case of pathology means a huge collection of digital slides and the medical data necessary for their interpretation. Sharing these has so far remained challenging due to the data storage capacity required to host a sufficiently large collection and to concerns regarding the confidential character of the medical information.&lt;/p&gt;
+&lt;p&gt;To allow the fast development of AI in pathology, the 
+&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; project aims to create the first European, ethical and GDPR-compliant (General Data Protection Regulation), quality-controlled platform, in which both large-scale data and AI algorithms will coexist. The 
+&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; platform will be developed in a sustainable and inclusive way by connecting communities of pathologists, researchers, AI developers, patients, and industry parties.&lt;/p&gt;
+&lt;h3 id=&#34;tu-munich&#34;&gt;TU Munich&lt;/h3&gt;
+&lt;p&gt;In this project, 
+&lt;a href=&#34;http://campar.in.tum.de/Main/NassirNavab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nassir Navab&lt;/a&gt;, and 
+&lt;a href=&#34;../../#about&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt; from 
+&lt;a href=&#34;www.tum.de&#34;&gt;TU Munich&lt;/a&gt;, together with 
+&lt;a href=&#34;https://owkin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Owkin&lt;/a&gt; will be leading and contributing to the development of Federated Deep Learning algorithms leveraging massive amounts of data, distributed in multiple sources, in a privacy-preserved fashion. This will enable deep learning models to be trained using sensitive data that cannot be made publicly available due to GPDR or sensitivity, e.g. rare diseases. Please visit the website of 
+&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; for further details.&lt;/p&gt;
+&lt;h3 id=&#34;intended-results&#34;&gt;Intended results&lt;/h3&gt;
+&lt;p&gt;The project is divided into four main aspects that concern the large-scale collection of data. First, an infrastructure (hardware and software) must be created to store, share and process millions of images that can be gigabytes each. Second, legal and ethical constraints must be put in place to ensure adequate usage of data while fully respecting patient’s privacy and data confidentiality. Then, an initial set of 3 million digital slides from humans and laboratory animals will be collected and stored into the repository to provide data for the development of pathology AI tools. Finally, functionalities that aid the use of the database as well as the processing of images for diagnostic and research purposes will be developed.&lt;/p&gt;
+&lt;h3 id=&#34;consortium&#34;&gt;Consortium&lt;/h3&gt;
+&lt;p&gt;BIGPICTURE is a public-private partnership funded by IMI, with representation from academic institutions, small- and medium-sized enterprises (SMEs), public organisations and pharmaceutical companies, together with a large network slide contributing partners. The consortium partners involved in the project are:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Academic institutions:&lt;/strong&gt; Radboud University Medical Center (NL), Linköping University (SE), Leeds Teaching Hospitals NHS Trust (UK), University Medical Centre Utrecht (NL), Uppsala University (SE, ELIXIR node), Haute Ecole Spécialisé de Suisse Occidentale (CH), Technical University Eindhoven (NL), University of Warwick (UK), [Technical University of Munich (DE), Medical University Graz (AT), Institut Pasteur (FR), University of Liege (BE), University of Semmelweis (HU), National Cancer Institute (NL), Region Östergötland (SE), Medical University Vienna (AT), University of Marburg (DE), Helsingin ja Uudenmaan sairaanhoitopiirin kuntayhtymä (FI),&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pharmaceutical companies:&lt;/strong&gt; Novartis Pharma AG (CH), Janssen Pharmaceutica NV (BE), Bayer AG (DE), Boehringer Ingelheim International GmbH (DE), Novo Nordisk A/S (DK), Pfizer (US), Genentech – Roche (US), Sanofi Aventis recherche et Développement (FR), Institut de Recherches Internationales Servier (FR), and UCB Biopharma SRL (BE).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Other public &amp;amp; private organisations:&lt;/strong&gt; CSC – IT Center for Science Finland (FI, ELIXIR node), Biobanks and biomolecular resources research infrastructure (AT), Azienda Ospedaliera Per L’Emergenza Cannizzaro (IT), Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.(DE), Deutsches Institut für Normung E.V. (DE), European Institute for Innovation through Health Data (BE), European Society of Pathology (BE), Digital pathology association (US), GBG Forschungs Gmbh (DE), ttopstart (NL), Sectra AB (SE), Cytomine SCRLFS (BE), Stichting Lygature (NL), Owkin (FR), Deciphex (IE), MedicalPhit (NL), Timelex (BE),&lt;/p&gt;
+&lt;p&gt;BIGPICTURE starts on 1st February 2021 and will run for 6 years. However, the platform is meant to last, and the consortium will elaborate sustainability plans to maintain and continue to develop the platform beyond this term.&lt;/p&gt;
+&lt;h4 id=&#34;acknowledgment-of-support-and-disclaimer&#34;&gt;Acknowledgment of support and disclaimer&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;This project has received funding from the Innovative Medicines Initiative 2 Joint Undertaking under grant agreement No 945358. This Joint Undertaking receives support from the European Union’s Horizon 2020 research and innovation program and EFPIA.&lt;/em&gt; 
+&lt;a href=&#34;http://www.imi.europe.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;www.imi.europe.eu&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This communication reflects the consortium’s view. Neither IMI nor the European Union or EFPIA are responsible for any use that may be made of the information contained therein.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://albarqouni.github.io/Users/shadi.albarquoni/Documents/albarqouni_web/content/project/bigpicture/EU.png&#34; alt=&#34;EU&#34;&gt; &lt;img src=&#34;https://albarqouni.github.io/Users/shadi.albarquoni/Documents/albarqouni_web/content/project/bigpicture/EFPIA.png&#34; alt=&#34;EFPIA&#34;&gt; &lt;img src=&#34;https://albarqouni.github.io/Users/shadi.albarquoni/Documents/albarqouni_web/content/project/bigpicture/IMI.png&#34; alt=&#34;IMI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://albarqouni.github.io/Users/shadi.albarquoni/Documents/albarqouni_web/content/project/bigpicture/BigPicture.png&#34; alt=&#34;BigPicture&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
