@@ -454,9 +454,9 @@ Three
       <description>&lt;p&gt;Seminar on&lt;/p&gt;
 &lt;h2 id=&#34;span-stylecolororangefederated-learningspan-in-span-stylecolorgreenhealthcarespan&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Federated Learning&lt;/span&gt; in &lt;span style=&#34;color:green&#34;&gt;Healthcare&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://albarqouni.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visiting Scientist at 
-&lt;a href=&#34;https://people.ee.ethz.ch/~salbarqouni/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETH Zurich&lt;/a&gt; | Senior Research Scientist and Team Lead at 
+&lt;a href=&#34;https://albarqouni.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadi Albarqouni&lt;/a&gt;, PhD&lt;/p&gt;
+&lt;p&gt;AI Young Investigator Group Leader at 
+&lt;a href=&#34;https://www.helmholtz.ai/themenmenue/our-research/research-groups/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz AI&lt;/a&gt; | TUM Junior Fellow at 
 &lt;a href=&#34;http://campar.in.tum.de/Main/ShadiAlbarqouni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU Munich&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;content&#34;&gt;Content&lt;/h2&gt;
@@ -470,12 +470,12 @@ Three
 &lt;p&gt;
 &lt;a href=&#34;https://federated.withgoogle.com/#about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;FL_overview.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Deep Learning&lt;/strong&gt; &lt;/span&gt; success comes at the cost of collecting and processing a &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;massive amount of data&lt;/strong&gt; &lt;/span&gt; , which often are not accessible due to &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;privacy issues&lt;/strong&gt; &lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Deep Learning&lt;/strong&gt; &lt;/span&gt; success comes at the cost of collecting and processing a &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;massive amount of data&lt;/strong&gt; &lt;/span&gt;, which often are not accessible due to &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;privacy issues&lt;/strong&gt; &lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Federated Learning&lt;/strong&gt; &lt;/span&gt; has been recently introduced to allow training DL models &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;without sharing the data&lt;/strong&gt; &lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;FL.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;
-&lt;sub&gt;Taken from Rieke et al. &amp;ldquo;The future of digital health with federated learning.&amp;rdquo; arXiv preprint arXiv:2003.08119 (2020).&lt;/sub&gt;&lt;/p&gt;
+&lt;sub&gt;Taken from Rieke, N., Hancox, J., Li, W., Milletari, F., Roth, H.R., Albarqouni, S., Bakas, S., Galtier, M.N., Landman, B.A., Maier-Hein, K. and Ourselin, S., 2020. The future of digital health with federated learning. &lt;em&gt;NPJ digital medicine&lt;/em&gt;, &lt;em&gt;3&lt;/em&gt;(1), pp.1-7. &lt;/sub&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;The principal &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;challenges&lt;/strong&gt; &lt;/span&gt;, to overcome, concern the nature of medical data, namely&lt;/p&gt;
 &lt;ul&gt;
@@ -487,6 +487,9 @@ Three
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
 &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Privacy-Issues&lt;/strong&gt; &lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Communication Efficiency&lt;/strong&gt; &lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -507,6 +510,9 @@ Three
 &lt;p&gt;
 &lt;a href=&#34;https://dcl-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;DCL_MICCAI.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://icfl.cc/SpicyFL/2020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;NeurIPS20.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;course-structurehttpcamparintumdeviewchairteachingws20flhrequirements&#34;&gt;
 &lt;a href=&#34;http://campar.in.tum.de/view/Chair/TeachingWs20FLH#Requirements&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Course Structure&lt;/a&gt;&lt;/h2&gt;
 &lt;hr&gt;
@@ -516,14 +522,14 @@ Three
 &lt;li&gt;&lt;strong&gt;Language:&lt;/strong&gt; English&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;SWS:&lt;/strong&gt; 2&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ECTS:&lt;/strong&gt; 5&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Webpage:&lt;/strong&gt; &lt;a href=&#34;http://campar.in.tum.de/Chair/TeachingWs20FLH&#34;&gt;http://campar.in.tum.de/Chair/TeachingWs20FLH&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; Mondays (bi-weekly), 10 - 12&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; TBA (Zoom OR MI 03.13.010)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Webpage:&lt;/strong&gt; &lt;a href=&#34;https://albarqouni.github.io/courses/flhsose2021/&#34;&gt;https://albarqouni.github.io/courses/flhsose2021/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; Fridays, 10 - 12&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Virtual Event&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Requirements:&lt;/strong&gt; Solid Background in Machine/Deep Learning&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Tutors&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;MedIA_CAMP_Albarqouni.jpeg&#34; alt=&#34;Team&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;tutor.png&#34; alt=&#34;Team&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;
 Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;, &lt;em&gt;understand&lt;/em&gt;, &lt;em&gt;present&lt;/em&gt;, and &lt;em&gt;discuss&lt;/em&gt;&lt;/span&gt; many scientific papers&lt;sup&gt;1&lt;/sup&gt; tackling the challenges present in Federated Learning.&lt;/p&gt;
@@ -539,27 +545,27 @@ Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;09.11.2020&lt;/td&gt;
+&lt;td&gt;16.04.2021&lt;/td&gt;
 &lt;td&gt;Federated Learning; Challenges, Methods, and Future&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;23.11.2020&lt;/td&gt;
+&lt;td&gt;30.04.2021&lt;/td&gt;
 &lt;td&gt;Data Heterogeneity I&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;07.12.2020&lt;/td&gt;
+&lt;td&gt;14.05.2021&lt;/td&gt;
 &lt;td&gt;Data Heterogeneity II&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;21.12.2020&lt;/td&gt;
+&lt;td&gt;28.05.2021&lt;/td&gt;
 &lt;td&gt;System Heterogeneity&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;18.01.2021&lt;/td&gt;
+&lt;td&gt;11.06.2021&lt;/td&gt;
 &lt;td&gt;Privacy-Issues&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;01.02.2021&lt;/td&gt;
+&lt;td&gt;25.06.2021&lt;/td&gt;
 &lt;td&gt;Explainability and Accountability&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -578,9 +584,11 @@ Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;If you are still interested in this seminsr course, please write a brief motivation paragraph (few lines) showing your interest and your background in Machine/Deep Learning and send it with a subject “FLH_Motivation”, to Shadi Albarqouni (&lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;). Deadline is 21.07.2020.&lt;/p&gt;
+&lt;h3 id=&#34;insights-into-the-course-evaluation&#34;&gt;Insights into the course evaluation?&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;If you are interested in this seminsr course, please write a brief motivation paragraph (few lines) showing your interest and your background in Machine/Deep Learning and send it with a subject “FLH_Motivation”, to Shadi Albarqouni (&lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;). Deadline is 16.02.2021.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;Don’t forget to register at TUM matching system 16.07 to 21.07.2020: register via 
+&lt;span style=&#34;color:orange&#34;&gt;Don’t forget to register at TUM matching system 11.02 to 16.02.2021: register via 
 &lt;a href=&#34;matching.in.tum.de&#34;&gt;matching.in.tum.de&lt;/a&gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/p&gt;
 &lt;hr&gt;
