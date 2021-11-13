@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muriel Abbaci | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/muriel-abbaci/</link>
+      <atom:link href="https://albarqouni.github.io/authors/muriel-abbaci/index.xml" rel="self" type="application/rss+xml" />
+    <description>Muriel Abbaci</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_2.png</url>
+      <title>Muriel Abbaci</title>
+      <link>https://albarqouni.github.io/authors/muriel-abbaci/</link>
+    </image>
+    
+    <item>
+      <title>Reviewers with more than 1 review in 2018</title>
+      <link>https://albarqouni.github.io/publication/abbaci-2019-reviewers/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/abbaci-2019-reviewers/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/authors/mhd-hasan-sarhan/</link>
       <atom:link href="https://albarqouni.github.io/authors/mhd-hasan-sarhan/index.xml" rel="self" type="application/rss+xml" />
     <description>Mhd Hasan Sarhan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_2.png</url>
       <title>Mhd Hasan Sarhan</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Microaneurysms segmentation and diabetic retinopathy detection by learning discriminative representations</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2021-microaneurysms/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2021-microaneurysms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fairness by Learning Orthogonal Disentangled Representations</title>
       <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Fairness of Privacy-Preserving Representations in Medical Applications</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness-2/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness-2/</guid>
       <description></description>
     </item>
     

@@ -21,6 +21,62 @@
     </item>
     
     <item>
+      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
+      <link>https://albarqouni.github.io/publication/baur-2021-autoencoders/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2021-autoencoders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Butterfly-Net: Spatial-Temporal Architecture For Medical Image Segmentation</title>
+      <link>https://albarqouni.github.io/publication/klymenko-2021-butterfly/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/klymenko-2021-butterfly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification</title>
+      <link>https://albarqouni.github.io/publication/bdair-2021-fedperl/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bdair-2021-fedperl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fourier Transform of Percoll Gradients Boosts CNN Classification of Hereditary Hemolytic Anemias</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2021-fourier/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2021-fourier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microaneurysms segmentation and diabetic retinopathy detection by learning discriminative representations</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2021-microaneurysms/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2021-microaneurysms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Healthy Anatomy with Artificial Intelligence for Unsupervised Anomaly Detection in Brain MRI</title>
+      <link>https://albarqouni.github.io/publication/baur-2021-modeling/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2021-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sickle Cell Disease Severity Prediction from Percoll Gradient Images using Graph Convolutional Networks</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2021-sickle/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2021-sickle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Multi-task multi-domain learning for digital staining and classification of leukocytes</title>
       <link>https://albarqouni.github.io/publication/tomczak-2020-multi/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
@@ -121,6 +177,14 @@
       <link>https://albarqouni.github.io/publication/yeganeh-2020-inverse/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/yeganeh-2020-inverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Fairness of Privacy-Preserving Representations in Medical Applications</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness-2/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness-2/</guid>
       <description></description>
     </item>
     

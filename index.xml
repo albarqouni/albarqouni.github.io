@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/</link>
       <atom:link href="https://albarqouni.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shadi Albarqouni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Sat, 13 Nov 2021 20:45:58 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_2.png</url>
       <title>Shadi Albarqouni</title>
@@ -17,6 +17,14 @@
       <link>https://albarqouni.github.io/resume/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/resume/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>International reviewers</title>
+      <link>https://albarqouni.github.io/publication/heidariinternational/</link>
+      <pubDate>Sat, 13 Nov 2021 20:45:58 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/heidariinternational/</guid>
       <description></description>
     </item>
     
@@ -63,6 +71,110 @@
       <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
+      <link>https://albarqouni.github.io/publication/baur-2021-autoencoders/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2021-autoencoders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Butterfly-Net: Spatial-Temporal Architecture For Medical Image Segmentation</title>
+      <link>https://albarqouni.github.io/publication/klymenko-2021-butterfly/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/klymenko-2021-butterfly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eine computergestützte automatische Polypencharakterisierung von Hyperplasten, Adenomen und Serratierten Adenomen im Kolorektum-Ergebnisse der CASSANDRA Studie</title>
+      <link>https://albarqouni.github.io/publication/zvereva-2021-computergestutzte/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/zvereva-2021-computergestutzte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation</title>
+      <link>https://albarqouni.github.io/publication/bercea-2021-feddis/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bercea-2021-feddis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Federated Disentangled Representation Learning for Unsupervised Brain Anomaly Detection</title>
+      <link>https://albarqouni.github.io/publication/bercea-2021-federated/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bercea-2021-federated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification</title>
+      <link>https://albarqouni.github.io/publication/bdair-2021-fedperl/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bdair-2021-fedperl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fourier Transform of Percoll Gradients Boosts CNN Classification of Hereditary Hemolytic Anemias</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2021-fourier/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2021-fourier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microaneurysms segmentation and diabetic retinopathy detection by learning discriminative representations</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2021-microaneurysms/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2021-microaneurysms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Healthy Anatomy with Artificial Intelligence for Unsupervised Anomaly Detection in Brain MRI</title>
+      <link>https://albarqouni.github.io/publication/baur-2021-modeling/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2021-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
+      <link>https://albarqouni.github.io/publication/ayyad-2021-semi/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/ayyad-2021-semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sickle Cell Disease Severity Prediction from Percoll Gradient Images using Graph Convolutional Networks</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2021-sickle/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2021-sickle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Federated Tumor Segmentation (FeTS) Challenge</title>
+      <link>https://albarqouni.github.io/publication/pati-2021-federated/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/pati-2021-federated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The OOD Blind Spot of Unsupervised Anomaly Detection</title>
+      <link>https://albarqouni.github.io/publication/heer-2021-ood/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/heer-2021-ood/</guid>
       <description></description>
     </item>
     
@@ -621,6 +733,14 @@
       <link>https://albarqouni.github.io/publication/shapira-2020-liver/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/shapira-2020-liver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Fairness of Privacy-Preserving Representations in Medical Applications</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness-2/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness-2/</guid>
       <description></description>
     </item>
     
@@ -1591,10 +1711,26 @@ Image source:
     </item>
     
     <item>
+      <title>Reviewers with more than 1 review in 2018</title>
+      <link>https://albarqouni.github.io/publication/abbaci-2019-reviewers/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/abbaci-2019-reviewers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Self-attention equipped graph convolutions for disease prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-self/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Few-Shot Learning with Local and Global Consistency</title>
+      <link>https://albarqouni.github.io/publication/navab-2019-semi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/navab-2019-semi/</guid>
       <description></description>
     </item>
     
@@ -1755,6 +1891,14 @@ Image source:
       <link>https://albarqouni.github.io/publication/breininger-2018-multiple/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/breininger-2018-multiple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reviewers with more than 1 review in 2017</title>
+      <link>https://albarqouni.github.io/publication/abdel-2018-reviewers/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/abdel-2018-reviewers/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cosmin I Bercea | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/cosmin-i-bercea/</link>
+      <atom:link href="https://albarqouni.github.io/authors/cosmin-i-bercea/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cosmin I Bercea</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_2.png</url>
+      <title>Cosmin I Bercea</title>
+      <link>https://albarqouni.github.io/authors/cosmin-i-bercea/</link>
+    </image>
+    
+    <item>
+      <title>FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation</title>
+      <link>https://albarqouni.github.io/publication/bercea-2021-feddis/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bercea-2021-feddis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

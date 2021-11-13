@@ -5,12 +5,28 @@
     <link>https://albarqouni.github.io/authors/ario-sadafi/</link>
       <atom:link href="https://albarqouni.github.io/authors/ario-sadafi/index.xml" rel="self" type="application/rss+xml" />
     <description>Ario Sadafi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_2.png</url>
       <title>Ario Sadafi</title>
       <link>https://albarqouni.github.io/authors/ario-sadafi/</link>
     </image>
+    
+    <item>
+      <title>Fourier Transform of Percoll Gradients Boosts CNN Classification of Hereditary Hemolytic Anemias</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2021-fourier/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2021-fourier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sickle Cell Disease Severity Prediction from Percoll Gradient Images using Graph Convolutional Networks</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2021-sickle/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2021-sickle/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders</title>
