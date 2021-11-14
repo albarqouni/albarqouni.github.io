@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/tags/medical-imaging/</link>
       <atom:link href="https://albarqouni.github.io/tags/medical-imaging/index.xml" rel="self" type="application/rss+xml" />
     <description>Medical Imaging</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Sat, 30 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2021</copyright><lastBuildDate>Wed, 15 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_2.png</url>
       <title>Medical Imaging</title>
       <link>https://albarqouni.github.io/tags/medical-imaging/</link>
     </image>
+    
+    <item>
+      <title>Affordable AI and Healthcare</title>
+      <link>https://albarqouni.github.io/project/affordable-ai/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/affordable-ai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BigPicture Project</title>
