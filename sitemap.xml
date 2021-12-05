@@ -1867,11 +1867,6 @@
   </url>
   
   <url>
-    <loc>https://albarqouni.github.io/post/getting-started/</loc>
-    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://albarqouni.github.io/codes/anomaly-detection/</loc>
     <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url>
@@ -1883,16 +1878,6 @@
   
   <url>
     <loc>https://albarqouni.github.io/codes/capsule/</loc>
-    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://albarqouni.github.io/categories/</loc>
-    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://albarqouni.github.io/categories/demo/</loc>
     <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url>
   
@@ -2225,6 +2210,10 @@
   
   <url>
     <loc>https://albarqouni.github.io/authors/zehra-hayirci/</loc>
+  </url>
+  
+  <url>
+    <loc>https://albarqouni.github.io/categories/</loc>
   </url>
   
   <url>
