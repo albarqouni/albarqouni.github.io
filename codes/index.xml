@@ -7,7 +7,7 @@
     <description>Open Source Codes</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Open Source Codes</title>
       <link>https://albarqouni.github.io/codes/</link>
     </image>
@@ -61,13 +61,15 @@
 &lt;li&gt;Evaluation&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;datasets&#34;&gt;Datasets&lt;/h2&gt;
-&lt;p&gt;The evaluation was done using the Camelyon16 challenge (&lt;a href=&#34;https://camelyon16.grand-challenge.org/&#34;&gt;https://camelyon16.grand-challenge.org/&lt;/a&gt;) consisting of 400 whole-slide images collected
+&lt;p&gt;The evaluation was done using the Camelyon16 challenge (
+&lt;a href=&#34;https://camelyon16.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://camelyon16.grand-challenge.org/&lt;/a&gt;) consisting of 400 whole-slide images collected
 in two different labs in Radboud University Medical Center (lab 1) and University
 Medical Center Utrecht (lab 2). Otsu thresholding was used to remove the
 background, Afterwards, 40, 000 256 × 256 patches were generated on the x40
 magnification level, 30, 000 were used for training and 10, 000 used for validation
 from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
-&lt;p&gt;Patches can be found here: &lt;a href=&#34;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&#34;&gt;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Patches can be found here: 
+&lt;a href=&#34;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Any use of the dataset or anypart of the code should be cited&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
 &lt;p&gt;If you use this code for your research, please cite our papers.&lt;/p&gt;

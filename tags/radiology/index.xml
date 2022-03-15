@@ -7,7 +7,7 @@
     <description>Radiology</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Radiology</title>
       <link>https://albarqouni.github.io/tags/radiology/</link>
     </image>
@@ -107,20 +107,33 @@
 &lt;ul&gt;
 &lt;li&gt;To be able to quantify the pathologies in thorax CT scans, one needs to segment the pathologies, and probably classify them into common ones characterizing the COVID-19, &lt;em&gt;e.g.&lt;/em&gt;,
 &lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Ground Glass Opacity (GGO)
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Consolidations
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Scarr
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Pleueral Effusion
 &lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
@@ -145,15 +158,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
