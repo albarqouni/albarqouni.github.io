@@ -5,26 +5,50 @@
     <link>https://albarqouni.github.io/authors/benedikt-wiestler/</link>
       <atom:link href="https://albarqouni.github.io/authors/benedikt-wiestler/index.xml" rel="self" type="application/rss+xml" />
     <description>Benedikt Wiestler</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Benedikt Wiestler</title>
       <link>https://albarqouni.github.io/authors/benedikt-wiestler/</link>
     </image>
     
     <item>
       <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2020-autoencoders/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2020-autoencoders/</guid>
+      <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
-      <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
+      <link>https://albarqouni.github.io/publication/baur-2021-autoencoders/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2021-autoencoders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation</title>
+      <link>https://albarqouni.github.io/publication/bercea-2021-feddis/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bercea-2021-feddis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Federated Disentangled Representation Learning for Unsupervised Brain Anomaly Detection</title>
+      <link>https://albarqouni.github.io/publication/bercea-2021-federated/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bercea-2021-federated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Healthy Anatomy with Artificial Intelligence for Unsupervised Anomaly Detection in Brain MRI</title>
+      <link>https://albarqouni.github.io/publication/baur-2021-modeling/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2021-modeling/</guid>
       <description></description>
     </item>
     
@@ -54,25 +78,9 @@
     
     <item>
       <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
       <link>https://albarqouni.github.io/publication/baur-2019-fusing/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2019-fusing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2018-deep/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2018-deep/</guid>
       <description></description>
     </item>
     

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Federated Learning in Healthcare | Shadi Albarqouni</title>
+    <title>Federated Learning in Healthcare (WiSe2020) | Shadi Albarqouni</title>
     <link>https://albarqouni.github.io/courses/flh/</link>
       <atom:link href="https://albarqouni.github.io/courses/flh/index.xml" rel="self" type="application/rss+xml" />
-    <description>Federated Learning in Healthcare</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright>
+    <description>Federated Learning in Healthcare (WiSe2020)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
-      <title>Federated Learning in Healthcare</title>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
+      <title>Federated Learning in Healthcare (WiSe2020)</title>
       <link>https://albarqouni.github.io/courses/flh/</link>
     </image>
     

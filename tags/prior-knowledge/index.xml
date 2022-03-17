@@ -5,18 +5,18 @@
     <link>https://albarqouni.github.io/tags/prior-knowledge/</link>
       <atom:link href="https://albarqouni.github.io/tags/prior-knowledge/index.xml" rel="self" type="application/rss+xml" />
     <description>Prior Knowledge</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Prior Knowledge</title>
       <link>https://albarqouni.github.io/tags/prior-knowledge/</link>
     </image>
     
     <item>
-      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
-      <link>https://albarqouni.github.io/oldpublication/soberanis-2019-uncertainty/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/soberanis-2019-uncertainty/</guid>
+      <title>An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</guid>
       <description></description>
     </item>
     
@@ -30,25 +30,9 @@
     
     <item>
       <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
-      <link>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
       <link>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</guid>
       <description></description>
     </item>
     
@@ -62,25 +46,9 @@
     
     <item>
       <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
-      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</guid>
       <description></description>
     </item>
     
@@ -94,25 +62,9 @@
     
     <item>
       <title>Self-attention equipped graph convolutions for disease prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-self/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-self/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-attention equipped graph convolutions for disease prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-self/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-self/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
-      <link>https://albarqouni.github.io/oldpublication/ayyad-2019-semi/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/ayyad-2019-semi/</guid>
       <description></description>
     </item>
     
@@ -126,14 +78,6 @@
     
     <item>
       <title>Domain and geometry agnostic CNNs for left atrium segmentation in 3D ultrasound</title>
-      <link>https://albarqouni.github.io/oldpublication/degel-2018-domain/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/degel-2018-domain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domain and geometry agnostic CNNs for left atrium segmentation in 3D ultrasound</title>
       <link>https://albarqouni.github.io/publication/degel-2018-domain/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/degel-2018-domain/</guid>
@@ -142,25 +86,9 @@
     
     <item>
       <title>When regression meets manifold learning for object recognition and pose estimation</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2018-regression/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2018-regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>When regression meets manifold learning for object recognition and pose estimation</title>
       <link>https://albarqouni.github.io/publication/bui-2018-regression/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/bui-2018-regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-scale Graph-based Guided Filter for De-noising Cryo-Electron Tomographic Data</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2015-multi/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2015-multi/</guid>
       <description></description>
     </item>
     

@@ -5,9 +5,9 @@
     <link>https://albarqouni.github.io/tags/crowdsourcing/</link>
       <atom:link href="https://albarqouni.github.io/tags/crowdsourcing/index.xml" rel="self" type="application/rss+xml" />
     <description>Crowdsourcing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Sun, 09 Sep 2018 16:05:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Sun, 09 Sep 2018 16:05:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Crowdsourcing</title>
       <link>https://albarqouni.github.io/tags/crowdsourcing/</link>
     </image>
@@ -22,14 +22,6 @@
     
     <item>
       <title>Fine-Tuning Deep Learning by Crowd Participation</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2018-fine/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2018-fine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fine-Tuning Deep Learning by Crowd Participation</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2018-fine/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2018-fine/</guid>
@@ -38,25 +30,9 @@
     
     <item>
       <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playsourcing: a novel concept for knowledge creation in biomedical research</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-playsourcing/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-playsourcing/</guid>
       <description></description>
     </item>
     

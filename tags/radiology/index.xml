@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/tags/radiology/</link>
       <atom:link href="https://albarqouni.github.io/tags/radiology/index.xml" rel="self" type="application/rss+xml" />
     <description>Radiology</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Radiology</title>
       <link>https://albarqouni.github.io/tags/radiology/</link>
     </image>
+    
+    <item>
+      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
+      <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learn to Recognize</title>
@@ -54,42 +62,10 @@
     </item>
     
     <item>
-      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2020-autoencoders/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2020-autoencoders/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
-      <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
-      <link>https://albarqouni.github.io/oldpublication/shapira-2020-benefit/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/shapira-2020-benefit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
       <link>https://albarqouni.github.io/publication/shapira-2020-benefit/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/shapira-2020-benefit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image-to-Images Translation for Multi-Task Organ Segmentation and Bone Suppression in Chest X-Ray Radiography</title>
-      <link>https://albarqouni.github.io/oldpublication/eslami-2020-image/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/eslami-2020-image/</guid>
       <description></description>
     </item>
     
@@ -103,33 +79,9 @@
     
     <item>
       <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
-      <link>https://albarqouni.github.io/oldpublication/shapira-2020-liver/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/shapira-2020-liver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
       <link>https://albarqouni.github.io/publication/shapira-2020-liver/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/shapira-2020-liver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</title>
-      <link>https://albarqouni.github.io/oldpublication/bdair-2020-roam/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bdair-2020-roam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</title>
-      <link>https://albarqouni.github.io/publication/bdair-2020-roam/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/bdair-2020-roam/</guid>
       <description></description>
     </item>
     
@@ -155,21 +107,34 @@
 &lt;ul&gt;
 &lt;li&gt;To be able to quantify the pathologies in thorax CT scans, one needs to segment the pathologies, and probably classify them into common ones characterizing the COVID-19, &lt;em&gt;e.g.&lt;/em&gt;,
 &lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Ground Glass Opacity (GGO)
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Consolidations
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Scarr
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Pleueral Effusion
 &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
 &lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
@@ -193,15 +158,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
@@ -271,153 +236,6 @@ Three
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>AI meets COVID-19</title>
-      <link>https://albarqouni.github.io/slides/covid19/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/slides/covid19/</guid>
-      <description>&lt;h1 id=&#34;brief-progress-of&#34;&gt;Brief Progress of&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;* Reporting on current results (CAMP, IBBM):  (1) data availability, (2) segmentation, (3) classification, (4) algorithmic integration.
-* Next steps and modus operandi for the next weeks or months: (1) data from Radiologie and elsewhere, (2) data products and interface to Radiologie infrastructure, (3) integration of CAMP &amp;amp; IBBM algorithms.
-* Transition to &amp;ldquo;funded research&amp;rdquo;. (At IBBM the means for continuing this in an unfunded mode are essentially gone. Continuation will require a coordinated program.)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/img/boards.jpg&#34;
-  &gt;
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
-      <link>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -425,14 +243,6 @@ Three
       <link>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</guid>
       <description></description>
     </item>
     
@@ -446,25 +256,9 @@ Three
     
     <item>
       <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-graph/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</guid>
       <description></description>
     </item>
     
@@ -478,25 +272,9 @@ Three
     
     <item>
       <title>Learning-based x-ray image denoising utilizing model-based image simulations</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2019-learning/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning-based x-ray image denoising utilizing model-based image simulations</title>
       <link>https://albarqouni.github.io/publication/hariharan-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/hariharan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Preliminary results of DSA denoising based on a weighted low-rank approach using an advanced neurovascular replication system</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2019-preliminary/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2019-preliminary/</guid>
       <description></description>
     </item>
     
@@ -510,25 +288,9 @@ Three
     
     <item>
       <title>Self-attention equipped graph convolutions for disease prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-self/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-self/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-attention equipped graph convolutions for disease prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-self/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-self/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</title>
-      <link>https://albarqouni.github.io/oldpublication/jimenez-2019-towards/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/jimenez-2019-towards/</guid>
       <description></description>
     </item>
     
@@ -542,25 +304,9 @@ Three
     
     <item>
       <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2018-photon/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2018-photon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
       <link>https://albarqouni.github.io/publication/hariharan-2018-photon/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/hariharan-2018-photon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2018-deep/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2018-deep/</guid>
       <description></description>
     </item>
     
@@ -574,25 +320,9 @@ Three
     
     <item>
       <title>Domain and geometry agnostic CNNs for left atrium segmentation in 3D ultrasound</title>
-      <link>https://albarqouni.github.io/oldpublication/degel-2018-domain/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/degel-2018-domain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domain and geometry agnostic CNNs for left atrium segmentation in 3D ultrasound</title>
       <link>https://albarqouni.github.io/publication/degel-2018-domain/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/degel-2018-domain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generating highly realistic images of skin lesions with GANs</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2018-generating/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2018-generating/</guid>
       <description></description>
     </item>
     
@@ -606,25 +336,9 @@ Three
     
     <item>
       <title>Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair</title>
-      <link>https://albarqouni.github.io/oldpublication/breininger-2018-intraoperative/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/breininger-2018-intraoperative/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair</title>
       <link>https://albarqouni.github.io/publication/breininger-2018-intraoperative/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/breininger-2018-intraoperative/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiple device segmentation for fluoroscopic imaging using multi-task learning</title>
-      <link>https://albarqouni.github.io/oldpublication/breininger-2018-multiple/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/breininger-2018-multiple/</guid>
       <description></description>
     </item>
     
@@ -638,25 +352,9 @@ Three
     
     <item>
       <title>Weakly-supervised localization and classification of proximal femur fractures</title>
-      <link>https://albarqouni.github.io/oldpublication/jimenez-2018-weakly/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/jimenez-2018-weakly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Weakly-supervised localization and classification of proximal femur fractures</title>
       <link>https://albarqouni.github.io/publication/jimenez-2018-weakly/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/jimenez-2018-weakly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semi-supervised deep learning for fully convolutional networks</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2017-semi/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2017-semi/</guid>
       <description></description>
     </item>
     
@@ -670,25 +368,9 @@ Three
     
     <item>
       <title>X-ray in-depth decomposition: Revealing the latent structures</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2017-x/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2017-x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>X-ray in-depth decomposition: Revealing the latent structures</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2017-x/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2017-x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>X-Ray PoseNet: 6 DoF pose estimation for mobile X-Ray devices</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2017-x/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2017-x/</guid>
       <description></description>
     </item>
     
@@ -709,26 +391,10 @@ Three
     </item>
     
     <item>
-      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
+      <title>Cathnets: detection and single-view depth prediction of catheter electrodes</title>
       <link>https://albarqouni.github.io/publication/baur-2016-cathnets/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2016-cathnets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Single-view X-ray depth recovery: toward a novel concept for image-guided interventions</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-single/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-single/</guid>
       <description></description>
     </item>
     

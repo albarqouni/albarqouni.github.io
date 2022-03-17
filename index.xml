@@ -5,9 +5,9 @@
     <link>https://albarqouni.github.io/</link>
       <atom:link href="https://albarqouni.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shadi Albarqouni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Tue, 30 Nov 2021 09:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Shadi Albarqouni</title>
       <link>https://albarqouni.github.io/</link>
     </image>
@@ -17,6 +17,228 @@
       <link>https://albarqouni.github.io/resume/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/resume/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organizing a workshop on the Next Generation of AI in Medicine</title>
+      <link>https://albarqouni.github.io/talk/hida2021/</link>
+      <pubDate>Tue, 30 Nov 2021 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/hida2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Affordable AI and Healthcare</title>
+      <link>https://albarqouni.github.io/project/affordable-ai/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/affordable-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BigPicture Project</title>
+      <link>https://albarqouni.github.io/project/bigpicture/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/project/bigpicture/</guid>
+      <description>&lt;h2 id=&#34;a-new-consortium-of-the-eu-innovative-medicines-initiative-imi-will-establish-the-biggest-database-of-pathology-images-to-accelerate-the-development-of-artificial-intelligence-in-medicine&#34;&gt;A new consortium of the EU Innovative Medicines Initiative (IMI) will establish the biggest database of pathology images to accelerate the development of artificial intelligence in medicine.&lt;/h2&gt;
+&lt;p&gt;To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70 million project called 
+&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt;, will herald a new era in pathology.&lt;/p&gt;
+&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;p&gt;Pathology is the cornerstone of the workup of many diseases such as cancer, autoimmune diseases, of the follow up after transplantation and is also critical for the evaluation of the safety of drugs. It’s based on the examination of tissue samples (slides) under the microscope. However, despite its pivotal role, it still relies heavily on the qualitative interpretation by a qualified pathologist.&lt;/p&gt;
+&lt;p&gt;While the microscope symbolizes the profession, the digitalisation of slides in recent years ignited a revolution: not only images can now be shared and accessed from distant locations, they can also be processed by computers. This opens the door for artificial intelligence (AI) applications to assist the pathologist and help study diseases, find better treatments and contribute to the 3Rs (replace, reduce, and refine animal use in research). However, the development of robust AI applications requires large amounts of data, which in the case of pathology means a huge collection of digital slides and the medical data necessary for their interpretation. Sharing these has so far remained challenging due to the data storage capacity required to host a sufficiently large collection and to concerns regarding the confidential character of the medical information.&lt;/p&gt;
+&lt;p&gt;To allow the fast development of AI in pathology, the 
+&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; project aims to create the first European, ethical and GDPR-compliant (General Data Protection Regulation), quality-controlled platform, in which both large-scale data and AI algorithms will coexist. The 
+&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; platform will be developed in a sustainable and inclusive way by connecting communities of pathologists, researchers, AI developers, patients, and industry parties.&lt;/p&gt;
+&lt;h3 id=&#34;tu-munich&#34;&gt;TU Munich&lt;/h3&gt;
+&lt;p&gt;In this project, 
+&lt;a href=&#34;http://campar.in.tum.de/Main/NassirNavab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nassir Navab&lt;/a&gt;, and 
+&lt;a href=&#34;../../#about&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt; from 
+&lt;a href=&#34;www.tum.de&#34;&gt;TU Munich&lt;/a&gt;, together with 
+&lt;a href=&#34;https://owkin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Owkin&lt;/a&gt; will be leading and contributing to the development of Federated Deep Learning algorithms leveraging massive amounts of data, distributed in multiple sources, in a privacy-preserved fashion. This will enable deep learning models to be trained using sensitive data that cannot be made publicly available due to GPDR or sensitivity, e.g. rare diseases. Please visit the website of 
+&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; for further details.&lt;/p&gt;
+&lt;h3 id=&#34;intended-results&#34;&gt;Intended results&lt;/h3&gt;
+&lt;p&gt;The project is divided into four main aspects that concern the large-scale collection of data. First, an infrastructure (hardware and software) must be created to store, share and process millions of images that can be gigabytes each. Second, legal and ethical constraints must be put in place to ensure adequate usage of data while fully respecting patient’s privacy and data confidentiality. Then, an initial set of 3 million digital slides from humans and laboratory animals will be collected and stored into the repository to provide data for the development of pathology AI tools. Finally, functionalities that aid the use of the database as well as the processing of images for diagnostic and research purposes will be developed.&lt;/p&gt;
+&lt;h3 id=&#34;consortium&#34;&gt;Consortium&lt;/h3&gt;
+&lt;p&gt;BIGPICTURE is a public-private partnership funded by IMI, with representation from academic institutions, small- and medium-sized enterprises (SMEs), public organisations and pharmaceutical companies, together with a large network slide contributing partners. The consortium partners involved in the project are:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Academic institutions:&lt;/strong&gt; Radboud University Medical Center (NL), Linköping University (SE), Leeds Teaching Hospitals NHS Trust (UK), University Medical Centre Utrecht (NL), Uppsala University (SE, ELIXIR node), Haute Ecole Spécialisé de Suisse Occidentale (CH), Technical University Eindhoven (NL), University of Warwick (UK), [Technical University of Munich (DE), Medical University Graz (AT), Institut Pasteur (FR), University of Liege (BE), University of Semmelweis (HU), National Cancer Institute (NL), Region Östergötland (SE), Medical University Vienna (AT), University of Marburg (DE), Helsingin ja Uudenmaan sairaanhoitopiirin kuntayhtymä (FI),&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pharmaceutical companies:&lt;/strong&gt; Novartis Pharma AG (CH), Janssen Pharmaceutica NV (BE), Bayer AG (DE), Boehringer Ingelheim International GmbH (DE), Novo Nordisk A/S (DK), Pfizer (US), Genentech – Roche (US), Sanofi Aventis recherche et Développement (FR), Institut de Recherches Internationales Servier (FR), and UCB Biopharma SRL (BE).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Other public &amp;amp; private organisations:&lt;/strong&gt; CSC – IT Center for Science Finland (FI, ELIXIR node), Biobanks and biomolecular resources research infrastructure (AT), Azienda Ospedaliera Per L’Emergenza Cannizzaro (IT), Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.(DE), Deutsches Institut für Normung E.V. (DE), European Institute for Innovation through Health Data (BE), European Society of Pathology (BE), Digital pathology association (US), GBG Forschungs Gmbh (DE), ttopstart (NL), Sectra AB (SE), Cytomine SCRLFS (BE), Stichting Lygature (NL), Owkin (FR), Deciphex (IE), MedicalPhit (NL), Timelex (BE),&lt;/p&gt;
+&lt;p&gt;BIGPICTURE starts on 1st February 2021 and will run for 6 years. However, the platform is meant to last, and the consortium will elaborate sustainability plans to maintain and continue to develop the platform beyond this term.&lt;/p&gt;
+&lt;h4 id=&#34;acknowledgment-of-support-and-disclaimer&#34;&gt;Acknowledgment of support and disclaimer&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;This project has received funding from the Innovative Medicines Initiative 2 Joint Undertaking under grant agreement No 945358. This Joint Undertaking receives support from the European Union’s Horizon 2020 research and innovation program and EFPIA.&lt;/em&gt; 
+&lt;a href=&#34;http://www.imi.europe.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;www.imi.europe.eu&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This communication reflects the consortium’s view. Neither IMI nor the European Union or EFPIA are responsible for any use that may be made of the information contained therein.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;EU.png&#34; alt=&#34;EU&#34;&gt; &lt;img src=&#34;EFPIA.png&#34; alt=&#34;EFPIA&#34;&gt; &lt;img src=&#34;IMI.png&#34; alt=&#34;IMI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;BigPicture.png&#34; alt=&#34;BigPicture&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
+      <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
+      <link>https://albarqouni.github.io/publication/baur-2021-autoencoders/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2021-autoencoders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Butterfly-Net: Spatial-Temporal Architecture For Medical Image Segmentation</title>
+      <link>https://albarqouni.github.io/publication/klymenko-2021-butterfly/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/klymenko-2021-butterfly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eine computergestützte automatische Polypencharakterisierung von Hyperplasten, Adenomen und Serratierten Adenomen im Kolorektum-Ergebnisse der CASSANDRA Studie</title>
+      <link>https://albarqouni.github.io/publication/zvereva-2021-computergestutzte/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/zvereva-2021-computergestutzte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation</title>
+      <link>https://albarqouni.github.io/publication/bercea-2021-feddis/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bercea-2021-feddis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Federated Disentangled Representation Learning for Unsupervised Brain Anomaly Detection</title>
+      <link>https://albarqouni.github.io/publication/bercea-2021-federated/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bercea-2021-federated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification</title>
+      <link>https://albarqouni.github.io/publication/bdair-2021-fedperl/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bdair-2021-fedperl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fourier Transform of Percoll Gradients Boosts CNN Classification of Hereditary Hemolytic Anemias</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2021-fourier/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2021-fourier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microaneurysms segmentation and diabetic retinopathy detection by learning discriminative representations</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2021-microaneurysms/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2021-microaneurysms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Healthy Anatomy with Artificial Intelligence for Unsupervised Anomaly Detection in Brain MRI</title>
+      <link>https://albarqouni.github.io/publication/baur-2021-modeling/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/baur-2021-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
+      <link>https://albarqouni.github.io/publication/ayyad-2021-semi/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/ayyad-2021-semi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sickle Cell Disease Severity Prediction from Percoll Gradient Images using Graph Convolutional Networks</title>
+      <link>https://albarqouni.github.io/publication/sadafi-2021-sickle/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sadafi-2021-sickle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Federated Tumor Segmentation (FeTS) Challenge</title>
+      <link>https://albarqouni.github.io/publication/pati-2021-federated/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/pati-2021-federated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The OOD Blind Spot of Unsupervised Anomaly Detection</title>
+      <link>https://albarqouni.github.io/publication/heer-2021-ood/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/heer-2021-ood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-task multi-domain learning for digital staining and classification of leukocytes</title>
+      <link>https://albarqouni.github.io/publication/tomczak-2020-multi/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tomczak-2020-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ascertaining the Pose of an X-Ray Unit Relative to an Object on the Basis of a Digital Model of the Object</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2020-ascertaining/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2020-ascertaining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determining a Pose of an Object in the Surroundings of the Object by Means of Multi-Task Learning</title>
+      <link>https://albarqouni.github.io/publication/zakharov-2020-determining/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/zakharov-2020-determining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Future of Digital Health with Federated Learning</title>
+      <link>https://albarqouni.github.io/publication/rieke-2020-future/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/rieke-2020-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
+      <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
       <description></description>
     </item>
     
@@ -379,22 +601,6 @@
     </item>
     
     <item>
-      <title>The Future of Digital Health with Federated Learning</title>
-      <link>https://albarqouni.github.io/oldpublication/rieke-2020-future/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/rieke-2020-future/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Future of Digital Health with Federated Learning</title>
-      <link>https://albarqouni.github.io/publication/rieke-2020-future/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/rieke-2020-future/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Organizing Committee Member at MICCAI DART 2020</title>
       <link>https://albarqouni.github.io/talk/dart2020/</link>
       <pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate>
@@ -412,17 +618,17 @@
     
     <item>
       <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
-      <link>https://albarqouni.github.io/oldpublication/soberanis-2019-uncertainty/</link>
+      <link>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/soberanis-2019-uncertainty/</guid>
+      <guid>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
-      <link>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</guid>
+      <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
+      <link>https://albarqouni.github.io/publication/lahiani-2020-seamless/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/lahiani-2020-seamless/</guid>
       <description></description>
     </item>
     
@@ -451,42 +657,10 @@
     </item>
     
     <item>
-      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-20206-d/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-20206-d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
-      <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A learning without forgetting approach to incorporate artifact knowledge in polyp localization tasks</title>
-      <link>https://albarqouni.github.io/oldpublication/soberanis-2020-learning/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/soberanis-2020-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A learning without forgetting approach to incorporate artifact knowledge in polyp localization tasks</title>
       <link>https://albarqouni.github.io/publication/soberanis-2020-learning/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/soberanis-2020-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy</title>
-      <link>https://albarqouni.github.io/oldpublication/ali-2020-objective/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/ali-2020-objective/</guid>
       <description></description>
     </item>
     
@@ -499,6 +673,14 @@
     </item>
     
     <item>
+      <title>An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation</title>
+      <link>https://albarqouni.github.io/publication/mukul-2020-uncertainty/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/mukul-2020-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders</title>
       <link>https://albarqouni.github.io/publication/sadafi-2020-attention/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -507,34 +689,10 @@
     </item>
     
     <item>
-      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2020-autoencoders/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2020-autoencoders/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>
-      <link>https://albarqouni.github.io/publication/baur-2020-autoencoders/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/baur-2020-autoencoders/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Bayesian Skip-Autoencoders for Unsupervised Hyperintense Anomaly Detection in High Resolution Brain Mri</title>
       <link>https://albarqouni.github.io/publication/baur-2020-bayesian/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2020-bayesian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Benefit of dual energy CT for lesion localization and classification with convolutional neural networks</title>
-      <link>https://albarqouni.github.io/oldpublication/shapira-2020-benefit/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/shapira-2020-benefit/</guid>
       <description></description>
     </item>
     
@@ -555,34 +713,10 @@
     </item>
     
     <item>
-      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
-      <link>https://albarqouni.github.io/oldpublication/sarhan-2020-fairness/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/sarhan-2020-fairness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fairness by Learning Orthogonal Disentangled Representations</title>
-      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GANs for medical image analysis</title>
       <link>https://albarqouni.github.io/publication/kazeminia-2020-gans/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazeminia-2020-gans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image-to-Images Translation for Multi-Task Organ Segmentation and Bone Suppression in Chest X-Ray Radiography</title>
-      <link>https://albarqouni.github.io/oldpublication/eslami-2020-image/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/eslami-2020-image/</guid>
       <description></description>
     </item>
     
@@ -604,17 +738,17 @@
     
     <item>
       <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
-      <link>https://albarqouni.github.io/oldpublication/shapira-2020-liver/</link>
+      <link>https://albarqouni.github.io/publication/shapira-2020-liver/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/shapira-2020-liver/</guid>
+      <guid>https://albarqouni.github.io/publication/shapira-2020-liver/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography</title>
-      <link>https://albarqouni.github.io/publication/shapira-2020-liver/</link>
+      <title>On the Fairness of Privacy-Preserving Representations in Medical Applications</title>
+      <link>https://albarqouni.github.io/publication/sarhan-2020-fairness-2/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/shapira-2020-liver/</guid>
+      <guid>https://albarqouni.github.io/publication/sarhan-2020-fairness-2/</guid>
       <description></description>
     </item>
     
@@ -644,14 +778,6 @@
     
     <item>
       <title>ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</title>
-      <link>https://albarqouni.github.io/oldpublication/bdair-2020-roam/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bdair-2020-roam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</title>
       <link>https://albarqouni.github.io/publication/bdair-2020-roam/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/bdair-2020-roam/</guid>
@@ -667,34 +793,10 @@
     </item>
     
     <item>
-      <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
-      <link>https://albarqouni.github.io/oldpublication/lahiani-2020-seamless/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/lahiani-2020-seamless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
-      <link>https://albarqouni.github.io/publication/lahiani-2020-seamless/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/lahiani-2020-seamless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>SteGANomaly: Inhibiting CycleGAN Steganography for Unsupervised Anomaly Detection in Brain MRI</title>
       <link>https://albarqouni.github.io/publication/baur-2020-steganomaly/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2020-steganomaly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
-      <link>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</guid>
       <description></description>
     </item>
     
@@ -747,248 +849,6 @@
     </item>
     
     <item>
-      <title>Writing technical content in Academic</title>
-      <link>https://albarqouni.github.io/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^&lt;em&gt;) = \begin{cases} p_0^&lt;/em&gt; &amp;amp; \text{if }k=1, \&lt;br&gt;
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
-&lt;p&gt;Academic supports a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for asides&lt;/a&gt;, also referred to as &lt;em&gt;notices&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% alert note %}} ... {{% /alert %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% alert note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic enables you to use a wide range of 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
-{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
-{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Method for determining a pose of an object in an environment of the object using multi task learning and control device</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2019-method/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2019-method/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Method for determining a pose of an object in an environment of the object using multi task learning and control device</title>
       <link>https://albarqouni.github.io/publication/bui-2019-method/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
@@ -1026,21 +886,34 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
 &lt;ul&gt;
 &lt;li&gt;To be able to quantify the pathologies in thorax CT scans, one needs to segment the pathologies, and probably classify them into common ones characterizing the COVID-19, &lt;em&gt;e.g.&lt;/em&gt;,
 &lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Ground Glass Opacity (GGO)
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Consolidations
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Scarr
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 Pleueral Effusion
 &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
 &lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
@@ -1064,15 +937,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
@@ -1141,194 +1014,6 @@ Three
 &lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AI meets COVID-19</title>
-      <link>https://albarqouni.github.io/slides/covid19/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/slides/covid19/</guid>
-      <description>&lt;h1 id=&#34;brief-progress-of&#34;&gt;Brief Progress of&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;* Reporting on current results (CAMP, IBBM):  (1) data availability, (2) segmentation, (3) classification, (4) algorithmic integration.
-* Next steps and modus operandi for the next weeks or months: (1) data from Radiologie and elsewhere, (2) data products and interface to Radiologie infrastructure, (3) integration of CAMP &amp;amp; IBBM algorithms.
-* Transition to &amp;ldquo;funded research&amp;rdquo;. (At IBBM the means for continuing this in an unfunded mode are essentially gone. Continuation will require a coordinated program.)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/img/boards.jpg&#34;
-  &gt;
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>https://albarqouni.github.io/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Edit the metadata of your post, using the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1340,9 +1025,9 @@ date: 2019-09-01
       <description>&lt;p&gt;Seminar on&lt;/p&gt;
 &lt;h2 id=&#34;span-stylecolororangefederated-learningspan-in-span-stylecolorgreenhealthcarespan&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Federated Learning&lt;/span&gt; in &lt;span style=&#34;color:green&#34;&gt;Healthcare&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://albarqouni.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Visiting Scientist at 
-&lt;a href=&#34;https://people.ee.ethz.ch/~salbarqouni/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETH Zurich&lt;/a&gt; | Senior Research Scientist and Team Lead at 
+&lt;a href=&#34;https://albarqouni.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadi Albarqouni&lt;/a&gt;, PhD&lt;/p&gt;
+&lt;p&gt;AI Young Investigator Group Leader at 
+&lt;a href=&#34;https://www.helmholtz.ai/themenmenue/our-research/research-groups/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz AI&lt;/a&gt; | TUM Junior Fellow at 
 &lt;a href=&#34;http://campar.in.tum.de/Main/ShadiAlbarqouni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU Munich&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;content&#34;&gt;Content&lt;/h2&gt;
@@ -1356,25 +1041,30 @@ date: 2019-09-01
 &lt;p&gt;
 &lt;a href=&#34;https://federated.withgoogle.com/#about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;FL_overview.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Deep Learning&lt;/strong&gt; &lt;/span&gt; success comes at the cost of collecting and processing a &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;massive amount of data&lt;/strong&gt; &lt;/span&gt; , which often are not accessible due to &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;privacy issues&lt;/strong&gt; &lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Deep Learning&lt;/strong&gt; &lt;/span&gt; success comes at the cost of collecting and processing a &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;massive amount of data&lt;/strong&gt; &lt;/span&gt;, which often are not accessible due to &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;privacy issues&lt;/strong&gt; &lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Federated Learning&lt;/strong&gt; &lt;/span&gt; has been recently introduced to allow training DL models &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;without sharing the data&lt;/strong&gt; &lt;/span&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;FL.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;
-&lt;sub&gt;Taken from Rieke et al. &amp;ldquo;The future of digital health with federated learning.&amp;rdquo; arXiv preprint arXiv:2003.08119 (2020).&lt;/sub&gt;&lt;/p&gt;
+&lt;sub&gt;Taken from Rieke, N., Hancox, J., Li, W., Milletari, F., Roth, H.R., Albarqouni, S., Bakas, S., Galtier, M.N., Landman, B.A., Maier-Hein, K. and Ourselin, S., 2020. The future of digital health with federated learning. &lt;em&gt;NPJ digital medicine&lt;/em&gt;, &lt;em&gt;3&lt;/em&gt;(1), pp.1-7. &lt;/sub&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;The principal &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;challenges&lt;/strong&gt; &lt;/span&gt;, to overcome, concern the nature of medical data, namely&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Data heterogeneity&lt;/strong&gt;&lt;/span&gt;; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), and inter-/intra-observer variability (noisy annotations)
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;System Heterogeneity&lt;/strong&gt; &lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Privacy-Issues&lt;/strong&gt; &lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+ &lt;span style=&#34;color:orange&#34;&gt;**Data heterogeneity**&lt;/span&gt;; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), and inter-/intra-observer variability (noisy annotations) 
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
+- &lt;span class=&#34;fragment &#34; &gt;
+   &lt;span style=&#34;color:orange&#34;&gt;**System Heterogeneity** &lt;/span&gt; 
+&lt;/span&gt;
+- &lt;span class=&#34;fragment &#34; &gt;
+   &lt;span style=&#34;color:orange&#34;&gt;**Privacy-Issues** &lt;/span&gt; 
+&lt;/span&gt;
+- &lt;span class=&#34;fragment &#34; &gt;
+   &lt;span style=&#34;color:orange&#34;&gt;**Communication Efficiency** &lt;/span&gt; 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;right-thing-at-the-right-time&#34;&gt;Right thing at the right time&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;Google.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/p&gt;
@@ -1393,6 +1083,9 @@ date: 2019-09-01
 &lt;p&gt;
 &lt;a href=&#34;https://dcl-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;DCL_MICCAI.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://icfl.cc/SpicyFL/2020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;NeurIPS20.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;course-structurehttpcamparintumdeviewchairteachingws20flhrequirements&#34;&gt;
 &lt;a href=&#34;http://campar.in.tum.de/view/Chair/TeachingWs20FLH#Requirements&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Course Structure&lt;/a&gt;&lt;/h2&gt;
 &lt;hr&gt;
@@ -1402,14 +1095,15 @@ date: 2019-09-01
 &lt;li&gt;&lt;strong&gt;Language:&lt;/strong&gt; English&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;SWS:&lt;/strong&gt; 2&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ECTS:&lt;/strong&gt; 5&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Webpage:&lt;/strong&gt; &lt;a href=&#34;http://campar.in.tum.de/Chair/TeachingWs20FLH&#34;&gt;http://campar.in.tum.de/Chair/TeachingWs20FLH&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; Mondays (bi-weekly), 10 - 12&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; TBA (Zoom OR MI 03.13.010)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Webpage:&lt;/strong&gt; 
+&lt;a href=&#34;https://albarqouni.github.io/courses/flhsose2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://albarqouni.github.io/courses/flhsose2021/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; Fridays, 10 - 12&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Virtual Event&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Requirements:&lt;/strong&gt; Solid Background in Machine/Deep Learning&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Tutors&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;MedIA_CAMP_Albarqouni.jpeg&#34; alt=&#34;Team&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;tutor.png&#34; alt=&#34;Team&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;
 Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;, &lt;em&gt;understand&lt;/em&gt;, &lt;em&gt;present&lt;/em&gt;, and &lt;em&gt;discuss&lt;/em&gt;&lt;/span&gt; many scientific papers&lt;sup&gt;1&lt;/sup&gt; tackling the challenges present in Federated Learning.&lt;/p&gt;
@@ -1425,27 +1119,27 @@ Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;09.11.2020&lt;/td&gt;
+&lt;td&gt;16.04.2021&lt;/td&gt;
 &lt;td&gt;Federated Learning; Challenges, Methods, and Future&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;23.11.2020&lt;/td&gt;
+&lt;td&gt;30.04.2021&lt;/td&gt;
 &lt;td&gt;Data Heterogeneity I&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;07.12.2020&lt;/td&gt;
+&lt;td&gt;14.05.2021&lt;/td&gt;
 &lt;td&gt;Data Heterogeneity II&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;21.12.2020&lt;/td&gt;
+&lt;td&gt;28.05.2021&lt;/td&gt;
 &lt;td&gt;System Heterogeneity&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;18.01.2021&lt;/td&gt;
+&lt;td&gt;11.06.2021&lt;/td&gt;
 &lt;td&gt;Privacy-Issues&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;01.02.2021&lt;/td&gt;
+&lt;td&gt;25.06.2021&lt;/td&gt;
 &lt;td&gt;Explainability and Accountability&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -1453,22 +1147,26 @@ Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Presentation (60%)&lt;/strong&gt;:&lt;/span&gt; The selected paper is presented to the other participants (30 minutes presentation plus 10 minutes Q&amp;amp;A)
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Blog | Poster (30%)&lt;/strong&gt;:&lt;/span&gt; A blog post of 1000-1500 words excluding references should be submitted before the deadline
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Attendance (10%)&lt;/strong&gt;:&lt;/span&gt; Students are expected  to participate actively in all seminar sessions
-&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;span style=&#34;color:orange&#34;&gt;**Presentation (60%)**:&lt;/span&gt; The selected paper is presented to the other participants (30 minutes presentation plus 10 minutes Q&amp;A) 
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
+- &lt;span class=&#34;fragment &#34; &gt;
+   &lt;span style=&#34;color:orange&#34;&gt;**Blog | Poster (30%)**:&lt;/span&gt; A blog post of 1000-1500 words excluding references should be submitted before the deadline 
+&lt;/span&gt;
+- &lt;span class=&#34;fragment &#34; &gt;
+   &lt;span style=&#34;color:orange&#34;&gt;**Attendance (10%)**:&lt;/span&gt; Students are expected  to participate actively in all seminar sessions 
+&lt;/span&gt;
 &lt;hr&gt;
-&lt;p&gt;If you are still interested in this seminsr course, please write a brief motivation paragraph (few lines) showing your interest and your background in Machine/Deep Learning and send it with a subject “FLH_Motivation”, to Shadi Albarqouni (&lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;). Deadline is 21.07.2020.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;Don’t forget to register at TUM matching system 16.07 to 21.07.2020: register via 
-&lt;a href=&#34;matching.in.tum.de&#34;&gt;matching.in.tum.de&lt;/a&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;insights-into-the-course-evaluation&#34;&gt;Insights into the course evaluation?&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;If you are interested in this seminsr course, please write a brief motivation paragraph (few lines) showing your interest and your background in Machine/Deep Learning and send it with a subject “FLH_Motivation”, to Shadi Albarqouni (
+&lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;). Deadline is 16.02.2021.&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   &lt;span style=&#34;color:orange&#34;&gt;Don’t forget to register at TUM matching system 11.02 to 16.02.2021: register via [matching.in.tum.de](matching.in.tum.de)&lt;/span&gt; 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 </description>
@@ -1490,116 +1188,93 @@ Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;
 &lt;h2 id=&#34;span-stylecolororangepresentationspan-guidelines&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Presentation&lt;/span&gt; Guidelines&lt;/h2&gt;
 &lt;hr&gt;
 &lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;First Slide&lt;/strong&gt;:&lt;/span&gt; Please have the title of the paper, authors (&amp;lt;3), conference proceedings, or journal, and the name of the presenter.
-&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;Example: 
-
-The Future of Digital Health with Federated Learning
-
-Rieke et al., Nature Digital Medicine, 2020
-
-Presenter: Firstname Surname  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;:&lt;/span&gt; In the first few slides, you need to introduce the subject to the audience. A brief &lt;strong&gt;background&lt;/strong&gt; (big picture) and a few &lt;strong&gt;related works&lt;/strong&gt; (more concise) would help you to position your paper in the big picture. &lt;em&gt;It is quite important to talk about the key conclusions at the very beginning&lt;/em&gt;.  The &lt;strong&gt;rationale&lt;/strong&gt; for the paper, i.e. &lt;em&gt;why you did the work?&lt;/em&gt;, has to be addressed by the end of the Intro. slides.
-&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Methodology&lt;/strong&gt;:&lt;/span&gt; You need to explain the method in details, if possible. Start with an overview of the &lt;strong&gt;framework&lt;/strong&gt; (e.g. flow chart); input, output, and core components, before you dive deeper into the &lt;strong&gt;key contributions&lt;/strong&gt;; e.g. design architecture, objective functions, &amp;hellip;etc. Details that might distract the audience can be moved to the backup slides. In short, explain &lt;em&gt;how did you do it?&lt;/em&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Experiments and Results&lt;/strong&gt;:&lt;/span&gt; You need to explain the &lt;strong&gt;experimental designs&lt;/strong&gt;; datasets, evaluation metrics, and training setup, and the &lt;strong&gt;rationale behind them&lt;/strong&gt;, before you show the &lt;strong&gt;key results&lt;/strong&gt;.  The figures should be clearly labeled, e.g. explain the figures axes before you describe the results addressing the question &lt;em&gt;what did you find?&lt;/em&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Conclusion &amp;amp; Future Work&lt;/strong&gt;:&lt;/span&gt; Discuss the results (your interpretation), before you list the concluding reamrks, learned lessons, and future research directions.
-&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Group Discussion&lt;/strong&gt;:&lt;/span&gt; This is the most important part where you need to list a few major things that you need to discuss with the group, for example:
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;How the paper could be improved?&lt;/em&gt; e.g. critique on the proposed method, design choices, missing experiments, or inappropriate evaluation metrics.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;How the paper could be applied in medical domain?&lt;/em&gt; e.g. challenges in healthcare.&lt;/li&gt;
-&lt;li&gt;Have a look at the reviewers feedback, if available, e.g. 
-&lt;a href=&#34;https://openreview.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openreview&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+ &lt;span style=&#34;color:orange&#34;&gt;**First Slide**:&lt;/span&gt; Please have the title of the paper, authors (&lt;3), conference proceedings, or journal, and the name of the presenter. 
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/span&gt;
-&lt;hr&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Needless to Say&lt;/strong&gt;:&lt;/span&gt;
-&lt;ul&gt;
-&lt;li&gt;Read the paper carefully, and look for complementary materials; blog posts, videos, or code repo. to better understand the paper.&lt;/li&gt;
-&lt;li&gt;Be mindful of time.  You have 30 mins for points 1-4, and 15 mins for point 5. As a rule of thumb, # slides &amp;lt; given time slot in mins.&lt;/li&gt;
-&lt;li&gt;Build a compelling story and try to engage your audience.&lt;/li&gt;
-&lt;li&gt;List the References in the footer of the corresponding slide&lt;/li&gt;
-&lt;li&gt;&lt;span style=&#34;color:orange&#34;&gt;Practice, practice, practice&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/span&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;span-stylecolorgreenblog-post-span-guidelines&#34;&gt;&lt;span style=&#34;color:green&#34;&gt;Blog Post &lt;/span&gt; Guidelines&lt;/h2&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The secret to getting into the deep learning community is high quality blogging. Read 5 different blog posts about the same subject and then try to synthesize your own view. Don’t just write something ok, either — take 3 or 4 full days on a post and try to make it as short and simple (yet complete) as possible.
-&amp;ndash; 
-&lt;a href=&#34;https://hackernoon.com/interview-with-deep-learning-researcher-and-leader-of-openmined-andrew-trask-77cd33570a8c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andrew Trask&lt;/a&gt;, DeepMind&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;This is a free-style blog post! One can hardly enforce guidelines. However, I personally liked the &lt;em&gt;Dos and Don&amp;rsquo;ts&lt;/em&gt; appeared in this 
-&lt;a href=&#34;https://www.fast.ai/2019/05/13/blogging-advice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt;.  Here some examples&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://medium.com/@ODSC/what-is-federated-learning-99c7fc9bc4f5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What is Federated Learning?
-&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.inovex.de/blog/federated-learning-collaborative-training-part-1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federated Learning: A Guide to Collaborative Training with Decentralized Sensitive Data – Part 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://towardsdatascience.com/do-we-need-deep-graph-neural-networks-be62d3ec5c59&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Do we need deep graph neural networks?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://blog.ml.cmu.edu/2020/10/12/fact-diagnostic-how-to-better-understand-trade-offs-involving-group-fairness/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FACT Diagnostic: How to Better Understand Trade-offs Involving Group Fairness&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Other blog sites: 
-&lt;a href=&#34;https://blog.ml.cmu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CMU ML Blog&lt;/a&gt;, 
-&lt;a href=&#34;https://bair.berkeley.edu/blog/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BAIR Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;helpful-resourses&#34;&gt;Helpful resourses&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to read a paper?&lt;/a&gt; &amp;ndash;Three-pass method&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to read a research paper?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://medium.com/@drewdennis/how-to-read-scientific-papers-quickly-efficiently-e7030c4018fa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Read Scientific Papers Quickly &amp;amp; Efficiently&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-to-write-a-blogpost-from-your-journal-article-6511a3837caa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to write a blog post from your journal article?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.fast.ai/2019/05/13/blogging-advice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Advice for Better Blog Posts&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;PhDComics.png&#34; alt=&#34;PhDComics&#34;&gt;
-Image source: 
-&lt;a href=&#34;http://phdcomics.com/comics/archive.php?comicid=719&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;phdcomics.com&lt;/a&gt;. @Jorge Cham&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Should you have any questions, please drop me an email at &lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://twitter.com/ShadiAlbarqouni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@ShadiAlbarqouni&lt;/a&gt;&lt;/p&gt;
+```
+Example: 
+&lt;p&gt;The Future of Digital Health with Federated Learning&lt;/p&gt;
+&lt;p&gt;Rieke et al., Nature Digital Medicine, 2020&lt;/p&gt;
+&lt;p&gt;Presenter: Firstname Surname&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+---
+1. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
+    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Introduction**:&amp;lt;/span&amp;gt; In the first few slides, you need to introduce the subject to the audience. A brief **background** (big picture) and a few **related works** (more concise) would help you to position your paper in the big picture. *It is quite important to talk about the key conclusions at the very beginning*.  The **rationale** for the paper, i.e. *why you did the work?*, has to be addressed by the end of the Intro. slides. 
+&amp;lt;/span&amp;gt;
+
+---
+2. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
+    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Methodology**:&amp;lt;/span&amp;gt; You need to explain the method in details, if possible. Start with an overview of the **framework** (e.g. flow chart); input, output, and core components, before you dive deeper into the **key contributions**; e.g. design architecture, objective functions, ...etc. Details that might distract the audience can be moved to the backup slides. In short, explain *how did you do it?*
+&amp;lt;/span&amp;gt;
+---
+
+3. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
+    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Experiments and Results**:&amp;lt;/span&amp;gt; You need to explain the **experimental designs**; datasets, evaluation metrics, and training setup, and the **rationale behind them**, before you show the **key results**.  The figures should be clearly labeled, e.g. explain the figures axes before you describe the results addressing the question *what did you find?*
+&amp;lt;/span&amp;gt;
+---
+
+4. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
+    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Conclusion &amp;amp; Future Work**:&amp;lt;/span&amp;gt; Discuss the results (your interpretation), before you list the concluding reamrks, learned lessons, and future research directions. 
+&amp;lt;/span&amp;gt;
+
+---
+
+5. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
+    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Group Discussion**:&amp;lt;/span&amp;gt; This is the most important part where you need to list a few major things that you need to discuss with the group, for example: 
+	- *How the paper could be improved?* e.g. critique on the proposed method, design choices, missing experiments, or inappropriate evaluation metrics. 
+	- *How the paper could be applied in medical domain?* e.g. challenges in healthcare. 
+	- Have a look at the reviewers feedback, if available, e.g. [openreview](https://openreview.net/)
+ 
+&amp;lt;/span&amp;gt;
+
+---
+
+6. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
+    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Needless to Say**:&amp;lt;/span&amp;gt;  
+	- Read the paper carefully, and look for complementary materials; blog posts, videos, or code repo. to better understand the paper. 
+	- Be mindful of time.  You have 30 mins for points 1-4, and 15 mins for point 5. As a rule of thumb, # slides &amp;lt; given time slot in mins.
+	- Build a compelling story and try to engage your audience. 
+	- List the References in the footer of the corresponding slide 
+	- &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;Practice, practice, practice&amp;lt;/span&amp;gt;
+
+&amp;lt;/span&amp;gt;
+
+---
+## &amp;lt;span style=&amp;quot;color:green&amp;quot;&amp;gt;Blog Post &amp;lt;/span&amp;gt; Guidelines
+
+---
+&amp;gt; The secret to getting into the deep learning community is high quality blogging. Read 5 different blog posts about the same subject and then try to synthesize your own view. Don’t just write something ok, either — take 3 or 4 full days on a post and try to make it as short and simple (yet complete) as possible. 
+-- [Andrew Trask](https://hackernoon.com/interview-with-deep-learning-researcher-and-leader-of-openmined-andrew-trask-77cd33570a8c), DeepMind
+
+---
+
+This is a free-style blog post! One can hardly enforce guidelines. However, I personally liked the *Dos and Don&#39;ts* appeared in this [blog post](https://www.fast.ai/2019/05/13/blogging-advice/).  Here some examples
+- [What is Federated Learning?
+](https://medium.com/@ODSC/what-is-federated-learning-99c7fc9bc4f5)
+- [Federated Learning: A Guide to Collaborative Training with Decentralized Sensitive Data – Part 1](https://www.inovex.de/blog/federated-learning-collaborative-training-part-1/)
+- [Do we need deep graph neural networks?](https://towardsdatascience.com/do-we-need-deep-graph-neural-networks-be62d3ec5c59)
+- [FACT Diagnostic: How to Better Understand Trade-offs Involving Group Fairness](https://blog.ml.cmu.edu/2020/10/12/fact-diagnostic-how-to-better-understand-trade-offs-involving-group-fairness/)
+- Other blog sites: [CMU ML Blog](https://blog.ml.cmu.edu/), [BAIR Blog](https://bair.berkeley.edu/blog/)
+
+---
+## Helpful resourses 
+- [How to read a paper?](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) --Three-pass method
+- [How to read a research paper?](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
+- [How to Read Scientific Papers Quickly &amp;amp; Efficiently](https://medium.com/@drewdennis/how-to-read-scientific-papers-quickly-efficiently-e7030c4018fa)
+- [How to write a blog post from your journal article?](https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-to-write-a-blogpost-from-your-journal-article-6511a3837caa)
+- [Advice for Better Blog Posts](https://www.fast.ai/2019/05/13/blogging-advice/)
+---
+
+![PhDComics](PhDComics.png)
+Image source: [phdcomics.com](http://phdcomics.com/comics/archive.php?comicid=719). @Jorge Cham
+
+---
+Should you have any questions, please drop me an email at shadi.albarqouni@tum.de
+
+[@ShadiAlbarqouni](https://twitter.com/ShadiAlbarqouni)&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -1613,14 +1288,6 @@ Image source:
     
     <item>
       <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
-      <link>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/burwinkel-2019-adaptive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adaptive image-feature learning for disease classification using inductive graph networks</title>
       <link>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</guid>
@@ -1629,25 +1296,9 @@ Image source:
     
     <item>
       <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2019-adversarial/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2019-adversarial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
       <link>https://albarqouni.github.io/publication/bui-2019-adversarial/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/bui-2019-adversarial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domain Adaptation and Representation Transfer and Medical Image Learning with Less Labels and Imperfect Data: First MICCAI Workshop, DART 2019, and First International Workshop, MIL3ID 2019, Shenzhen, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13 and 17, 2019, Proceedings</title>
-      <link>https://albarqouni.github.io/oldpublication/wang-2019-domain/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/wang-2019-domain/</guid>
       <description></description>
     </item>
     
@@ -1669,25 +1320,9 @@ Image source:
     
     <item>
       <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2019-fusing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fusing unsupervised and supervised deep learning for white matter lesion segmentation</title>
       <link>https://albarqouni.github.io/publication/baur-2019-fusing/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2019-fusing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph Convolution Based Attention Model for Personalized Disease Prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-graph/</guid>
       <description></description>
     </item>
     
@@ -1701,25 +1336,9 @@ Image source:
     
     <item>
       <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-inceptiongcn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>InceptionGCN: receptive field aware graph convolutional network for disease prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigation of Focal Loss in Deep Learning Models For Femur Fractures Classification</title>
-      <link>https://albarqouni.github.io/oldpublication/lotfy-2019-investigation/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/lotfy-2019-investigation/</guid>
       <description></description>
     </item>
     
@@ -1733,25 +1352,9 @@ Image source:
     
     <item>
       <title>Learn to estimate labels uncertainty for quality assurance</title>
-      <link>https://albarqouni.github.io/oldpublication/tomczack-2019-learn/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/tomczack-2019-learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learn to estimate labels uncertainty for quality assurance</title>
       <link>https://albarqouni.github.io/publication/tomczack-2019-learn/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/tomczack-2019-learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learn to Segment Organs with a Few Bounding Boxes</title>
-      <link>https://albarqouni.github.io/oldpublication/parida-2019-learn/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/parida-2019-learn/</guid>
       <description></description>
     </item>
     
@@ -1765,25 +1368,9 @@ Image source:
     
     <item>
       <title>Learning interpretable disentangled representations using adversarial vaes</title>
-      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning interpretable disentangled representations using adversarial vaes</title>
       <link>https://albarqouni.github.io/publication/sarhan-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/sarhan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Interpretable Features via Adversarially Robust Optimization</title>
-      <link>https://albarqouni.github.io/oldpublication/khakzar-2019-learning/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/khakzar-2019-learning/</guid>
       <description></description>
     </item>
     
@@ -1797,25 +1384,9 @@ Image source:
     
     <item>
       <title>Learning-based x-ray image denoising utilizing model-based image simulations</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2019-learning/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning-based x-ray image denoising utilizing model-based image simulations</title>
       <link>https://albarqouni.github.io/publication/hariharan-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/hariharan-2019-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning and Medical Engineering for Cardiovascular Health and Intravascular Imaging and Computer Assisted Stenting: First International Workshop, MLMECH 2019, and 8th Joint International Workshop, CVII-STENT 2019, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13, 2019, Proceedings</title>
-      <link>https://albarqouni.github.io/oldpublication/liao-2019-machine/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/liao-2019-machine/</guid>
       <description></description>
     </item>
     
@@ -1829,25 +1400,9 @@ Image source:
     
     <item>
       <title>MRI to CT Translation with GANs</title>
-      <link>https://albarqouni.github.io/oldpublication/kaiser-2019-mri/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kaiser-2019-mri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MRI to CT Translation with GANs</title>
       <link>https://albarqouni.github.io/publication/kaiser-2019-mri/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kaiser-2019-mri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss</title>
-      <link>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/sarhan-2019-multi/</guid>
       <description></description>
     </item>
     
@@ -1861,25 +1416,9 @@ Image source:
     
     <item>
       <title>Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer</title>
-      <link>https://albarqouni.github.io/oldpublication/lahiani-2019-perceptual/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/lahiani-2019-perceptual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer</title>
       <link>https://albarqouni.github.io/publication/lahiani-2019-perceptual/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lahiani-2019-perceptual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Preliminary results of DSA denoising based on a weighted low-rank approach using an advanced neurovascular replication system</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2019-preliminary/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2019-preliminary/</guid>
       <description></description>
     </item>
     
@@ -1893,14 +1432,6 @@ Image source:
     
     <item>
       <title>Self-attention equipped graph convolutions for disease prediction</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2019-self/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2019-self/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-attention equipped graph convolutions for disease prediction</title>
       <link>https://albarqouni.github.io/publication/kazi-2019-self/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazi-2019-self/</guid>
@@ -1908,10 +1439,10 @@ Image source:
     </item>
     
     <item>
-      <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
-      <link>https://albarqouni.github.io/oldpublication/ayyad-2019-semi/</link>
+      <title>Semi-Supervised Few-Shot Learning with Local and Global Consistency</title>
+      <link>https://albarqouni.github.io/publication/navab-2019-semi/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/ayyad-2019-semi/</guid>
+      <guid>https://albarqouni.github.io/publication/navab-2019-semi/</guid>
       <description></description>
     </item>
     
@@ -1925,25 +1456,9 @@ Image source:
     
     <item>
       <title>Staingan: Stain style transfer for digital histological images</title>
-      <link>https://albarqouni.github.io/xtarx.github.io/staingan/</link>
+      <link>https://albarqouni.github.io/xtarx.github.io/StainGAN/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/xtarx.github.io/staingan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Staingan: Stain style transfer for digital histological images</title>
-      <link>https://albarqouni.github.io/xtarx.github.io/staingan/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/xtarx.github.io/staingan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification</title>
-      <link>https://albarqouni.github.io/oldpublication/jimenez-2019-towards/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/jimenez-2019-towards/</guid>
+      <guid>https://albarqouni.github.io/xtarx.github.io/StainGAN/</guid>
       <description></description>
     </item>
     
@@ -1957,25 +1472,9 @@ Image source:
     
     <item>
       <title>Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach</title>
-      <link>https://albarqouni.github.io/oldpublication/lahiani-2019-virtualization/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/lahiani-2019-virtualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach</title>
       <link>https://albarqouni.github.io/publication/lahiani-2019-virtualization/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lahiani-2019-virtualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Determination of the pose of an x-ray unit relative to an object using a digital model of the object</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2018-determination/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2018-determination/</guid>
       <description></description>
     </item>
     
@@ -2005,25 +1504,9 @@ Image source:
     
     <item>
       <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2018-photon/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2018-photon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
       <link>https://albarqouni.github.io/publication/hariharan-2018-photon/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/hariharan-2018-photon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Capsule networks against medical imaging data challenges</title>
-      <link>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/jimenez-2018-capsule/</guid>
       <description></description>
     </item>
     
@@ -2037,25 +1520,9 @@ Image source:
     
     <item>
       <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2018-deep/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2018-deep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep autoencoding models for unsupervised anomaly segmentation in brain MR images</title>
       <link>https://albarqouni.github.io/publication/baur-2018-deep/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2018-deep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep learning with synthetic data for free water elimination in diffusion MRI</title>
-      <link>https://albarqouni.github.io/oldpublication/molina-2018-deep/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/molina-2018-deep/</guid>
       <description></description>
     </item>
     
@@ -2069,25 +1536,9 @@ Image source:
     
     <item>
       <title>Domain and geometry agnostic CNNs for left atrium segmentation in 3D ultrasound</title>
-      <link>https://albarqouni.github.io/oldpublication/degel-2018-domain/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/degel-2018-domain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domain and geometry agnostic CNNs for left atrium segmentation in 3D ultrasound</title>
       <link>https://albarqouni.github.io/publication/degel-2018-domain/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/degel-2018-domain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fine-Tuning Deep Learning by Crowd Participation</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2018-fine/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2018-fine/</guid>
       <description></description>
     </item>
     
@@ -2101,25 +1552,9 @@ Image source:
     
     <item>
       <title>GANs for medical image analysis</title>
-      <link>https://albarqouni.github.io/oldpublication/kazeminia-2018-gans/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazeminia-2018-gans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GANs for medical image analysis</title>
       <link>https://albarqouni.github.io/publication/kazeminia-2018-gans/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/kazeminia-2018-gans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks</title>
-      <link>https://albarqouni.github.io/oldpublication/lahiani-2018-generalizing/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/lahiani-2018-generalizing/</guid>
       <description></description>
     </item>
     
@@ -2133,25 +1568,9 @@ Image source:
     
     <item>
       <title>Generating highly realistic images of skin lesions with GANs</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2018-generating/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2018-generating/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generating highly realistic images of skin lesions with GANs</title>
       <link>https://albarqouni.github.io/publication/baur-2018-generating/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2018-generating/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair</title>
-      <link>https://albarqouni.github.io/oldpublication/breininger-2018-intraoperative/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/breininger-2018-intraoperative/</guid>
       <description></description>
     </item>
     
@@ -2165,25 +1584,9 @@ Image source:
     
     <item>
       <title>Intravascular Imaging and Computer Assisted Stenting and Large-scale Annotation of Biomedical Data and Expert Label Synthesis: 7th Joint International Workshop, CVII-STENT 2018 and Third International Workshop, LABELS 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings</title>
-      <link>https://albarqouni.github.io/oldpublication/stoyanov-2018-intravascular/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/stoyanov-2018-intravascular/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intravascular Imaging and Computer Assisted Stenting and Large-scale Annotation of Biomedical Data and Expert Label Synthesis: 7th Joint International Workshop, CVII-STENT 2018 and Third International Workshop, LABELS 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings</title>
       <link>https://albarqouni.github.io/publication/stoyanov-2018-intravascular/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/stoyanov-2018-intravascular/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LABELS 2018 Preface</title>
-      <link>https://albarqouni.github.io/oldpublication/sznitman-2018-labels/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/sznitman-2018-labels/</guid>
       <description></description>
     </item>
     
@@ -2197,41 +1600,9 @@ Image source:
     
     <item>
       <title>Multiple device segmentation for fluoroscopic imaging using multi-task learning</title>
-      <link>https://albarqouni.github.io/oldpublication/breininger-2018-multiple/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/breininger-2018-multiple/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiple device segmentation for fluoroscopic imaging using multi-task learning</title>
       <link>https://albarqouni.github.io/publication/breininger-2018-multiple/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/breininger-2018-multiple/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reviewers with more than 1 review in 2017</title>
-      <link>https://albarqouni.github.io/oldpublication/abdel-2018-reviewers/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/abdel-2018-reviewers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reviewers with more than 1 review in 2017</title>
-      <link>https://albarqouni.github.io/publication/abdel-2018-reviewers/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/abdel-2018-reviewers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scene coordinate and correspondence learning for image-based localization</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2018-scene/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2018-scene/</guid>
       <description></description>
     </item>
     
@@ -2245,25 +1616,9 @@ Image source:
     
     <item>
       <title>Weakly-supervised localization and classification of proximal femur fractures</title>
-      <link>https://albarqouni.github.io/oldpublication/jimenez-2018-weakly/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/jimenez-2018-weakly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Weakly-supervised localization and classification of proximal femur fractures</title>
       <link>https://albarqouni.github.io/publication/jimenez-2018-weakly/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/jimenez-2018-weakly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>When regression meets manifold learning for object recognition and pose estimation</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2018-regression/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2018-regression/</guid>
       <description></description>
     </item>
     
@@ -2277,25 +1632,9 @@ Image source:
     
     <item>
       <title>X-ray Depthmaps: Revealing the Hidden Structures</title>
-      <link>https://albarqouni.github.io/oldpublication/demirci-2018-x/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/demirci-2018-x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>X-ray Depthmaps: Revealing the Hidden Structures</title>
       <link>https://albarqouni.github.io/publication/demirci-2018-x/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/demirci-2018-x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatic classification of proximal femur fractures based on attention models</title>
-      <link>https://albarqouni.github.io/oldpublication/kazi-2017-automatic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/kazi-2017-automatic/</guid>
       <description></description>
     </item>
     
@@ -2309,25 +1648,9 @@ Image source:
     
     <item>
       <title>Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</title>
-      <link>https://albarqouni.github.io/oldpublication/bejnordi-2017-diagnostic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bejnordi-2017-diagnostic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</title>
       <link>https://albarqouni.github.io/publication/bejnordi-2017-diagnostic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/bejnordi-2017-diagnostic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intravascular Imaging and Computer Assisted Stenting, and Large-Scale Annotation of Biomedical Data and Expert Label Synthesis</title>
-      <link>https://albarqouni.github.io/oldpublication/cardoso-2017-intravascular/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/cardoso-2017-intravascular/</guid>
       <description></description>
     </item>
     
@@ -2341,25 +1664,9 @@ Image source:
     
     <item>
       <title>Machine Learning for Biomedical Applications: From Crowdsourcing to Deep Learning</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2017-machine/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2017-machine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning for Biomedical Applications: From Crowdsourcing to Deep Learning</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2017-machine/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2017-machine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semi-supervised deep learning for fully convolutional networks</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2017-semi/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2017-semi/</guid>
       <description></description>
     </item>
     
@@ -2373,25 +1680,9 @@ Image source:
     
     <item>
       <title>X-ray in-depth decomposition: Revealing the latent structures</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2017-x/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2017-x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>X-ray in-depth decomposition: Revealing the latent structures</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2017-x/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2017-x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>X-Ray PoseNet: 6 DoF pose estimation for mobile X-Ray devices</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2017-x/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2017-x/</guid>
       <description></description>
     </item>
     
@@ -2401,150 +1692,6 @@ Image source:
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/bui-2017-x/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>https://albarqouni.github.io/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;👉 
-&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 
-&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👥 
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: 
-&lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@source_themes&lt;/a&gt; 
-&lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; 
-&lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
-&lt;ul&gt;
-&lt;li&gt;☕️ 
-&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💵 
-&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🖼️ 
-&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👕 
-&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👩‍💻 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-academic-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
-
-
-  &lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and 
-&lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
-&lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, 
-&lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the 
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; to help keep track of 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present 
-&lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -2596,13 +1743,15 @@ Image source:
 &lt;li&gt;Evaluation&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;datasets&#34;&gt;Datasets&lt;/h2&gt;
-&lt;p&gt;The evaluation was done using the Camelyon16 challenge (&lt;a href=&#34;https://camelyon16.grand-challenge.org/&#34;&gt;https://camelyon16.grand-challenge.org/&lt;/a&gt;) consisting of 400 whole-slide images collected
+&lt;p&gt;The evaluation was done using the Camelyon16 challenge (
+&lt;a href=&#34;https://camelyon16.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://camelyon16.grand-challenge.org/&lt;/a&gt;) consisting of 400 whole-slide images collected
 in two different labs in Radboud University Medical Center (lab 1) and University
 Medical Center Utrecht (lab 2). Otsu thresholding was used to remove the
 background, Afterwards, 40, 000 256 × 256 patches were generated on the x40
 magnification level, 30, 000 were used for training and 10, 000 used for validation
 from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
-&lt;p&gt;Patches can be found here: &lt;a href=&#34;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&#34;&gt;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Patches can be found here: 
+&lt;a href=&#34;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Any use of the dataset or anypart of the code should be cited&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
 &lt;p&gt;If you use this code for your research, please cite our papers.&lt;/p&gt;
@@ -2624,14 +1773,6 @@ from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
     
     <item>
       <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</guid>
@@ -2639,26 +1780,10 @@ from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
     </item>
     
     <item>
-      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2016-cathnets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CathNets: detection and single-view depth prediction of catheter electrodes</title>
+      <title>Cathnets: detection and single-view depth prediction of catheter electrodes</title>
       <link>https://albarqouni.github.io/publication/baur-2016-cathnets/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/baur-2016-cathnets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning and Data Labeling for Medical Applications: First International Workshop, LABELS 2016, and Second International Workshop, DLMIA 2016, Held in Conjunction with MICCAI 2016, Athens, Greece, October 21, 2016, Proceedings</title>
-      <link>https://albarqouni.github.io/oldpublication/carneiro-2016-deep/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/carneiro-2016-deep/</guid>
       <description></description>
     </item>
     
@@ -2672,25 +1797,9 @@ from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
     
     <item>
       <title>Parsing human skeletons in an operating room</title>
-      <link>https://albarqouni.github.io/oldpublication/belagiannis-2016-parsing/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/belagiannis-2016-parsing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parsing human skeletons in an operating room</title>
       <link>https://albarqouni.github.io/publication/belagiannis-2016-parsing/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/belagiannis-2016-parsing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playsourcing: a novel concept for knowledge creation in biomedical research</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-playsourcing/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-playsourcing/</guid>
       <description></description>
     </item>
     
@@ -2704,25 +1813,9 @@ from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
     
     <item>
       <title>Single-view X-ray depth recovery: toward a novel concept for image-guided interventions</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-single/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-single/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Single-view X-ray depth recovery: toward a novel concept for image-guided interventions</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2016-single/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2016-single/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Structure-preserving color normalization and sparse stain separation for histological images</title>
-      <link>https://albarqouni.github.io/oldpublication/vahadane-2016-structure/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/vahadane-2016-structure/</guid>
       <description></description>
     </item>
     
@@ -2736,14 +1829,6 @@ from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
     
     <item>
       <title>Gradient projection for regularized cryo-electron tomographic reconstruction</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2015-gradient/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2015-gradient/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gradient projection for regularized cryo-electron tomographic reconstruction</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2015-gradient/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2015-gradient/</guid>
@@ -2752,25 +1837,9 @@ from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
     
     <item>
       <title>Multi-scale Graph-based Guided Filter for De-noising Cryo-Electron Tomographic Data</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2015-multi/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2015-multi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-scale Graph-based Guided Filter for De-noising Cryo-Electron Tomographic Data</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2015-multi/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2015-multi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Structure-preserved color normalization for histological images</title>
-      <link>https://albarqouni.github.io/oldpublication/vahadane-2015-structure/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/vahadane-2015-structure/</guid>
       <description></description>
     </item>
     
@@ -2792,25 +1861,9 @@ from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
     
     <item>
       <title>Developing MATLAB software for PV and battery sizing for lighting projects in Gaza Strip, Palestine</title>
-      <link>https://albarqouni.github.io/oldpublication/hussein-2012-developing/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hussein-2012-developing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developing MATLAB software for PV and battery sizing for lighting projects in Gaza Strip, Palestine</title>
       <link>https://albarqouni.github.io/publication/hussein-2012-developing/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/hussein-2012-developing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developing empirical models for estimating global solar radiation in Gaza Strip, Palestine</title>
-      <link>https://albarqouni.github.io/oldpublication/hussein-2010-developing/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hussein-2010-developing/</guid>
       <description></description>
     </item>
     
@@ -2824,25 +1877,9 @@ from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
     
     <item>
       <title>Re-Evaluation and Re-Design Stand-Alone PV Solar Lighting Projects in Gaza</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2010-re/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2010-re/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Re-Evaluation and Re-Design Stand-Alone PV Solar Lighting Projects in Gaza</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2010-re/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2010-re/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Re-evaluation and re-design stand-alone PV solar lighting projects in Gaza Strip, Palestine</title>
-      <link>https://albarqouni.github.io/oldpublication/hussein-2010-re/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hussein-2010-re/</guid>
       <description></description>
     </item>
     
@@ -2856,25 +1893,9 @@ from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
     
     <item>
       <title>Study on the Optimum Tilt Angle and Orientation for Photovoltaic Panels and Feasibility Study of One axis-two positions tracking Solar PV in Palestine</title>
-      <link>https://albarqouni.github.io/oldpublication/hussein-2010-study/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hussein-2010-study/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Study on the Optimum Tilt Angle and Orientation for Photovoltaic Panels and Feasibility Study of One axis-two positions tracking Solar PV in Palestine</title>
       <link>https://albarqouni.github.io/publication/hussein-2010-study/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/hussein-2010-study/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Steps towards Establishing Telemedicine Center in Palestine</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2009-steps/</link>
-      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2009-steps/</guid>
       <description></description>
     </item>
     

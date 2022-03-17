@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S Conjeti | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/s-conjeti/</link>
+      <atom:link href="https://albarqouni.github.io/authors/s-conjeti/index.xml" rel="self" type="application/rss+xml" />
+    <description>S Conjeti</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
+      <title>S Conjeti</title>
+      <link>https://albarqouni.github.io/authors/s-conjeti/</link>
+    </image>
+    
+    <item>
+      <title>Multi-scale Graph-based Guided Filter for De-noising Cryo-Electron Tomographic Data</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2015-multi/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2015-multi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

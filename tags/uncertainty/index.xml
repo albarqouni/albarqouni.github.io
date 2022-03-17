@@ -5,12 +5,28 @@
     <link>https://albarqouni.github.io/tags/uncertainty/</link>
       <atom:link href="https://albarqouni.github.io/tags/uncertainty/index.xml" rel="self" type="application/rss+xml" />
     <description>Uncertainty</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Uncertainty</title>
       <link>https://albarqouni.github.io/tags/uncertainty/</link>
     </image>
+    
+    <item>
+      <title>An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation</title>
+      <link>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/soberanis-2020-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
+      <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modelling Uncertainty in Deep Learning for Medical Applications</title>
@@ -62,14 +78,6 @@
     
     <item>
       <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
-      <link>https://albarqouni.github.io/oldpublication/soberanis-2019-uncertainty/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/soberanis-2019-uncertainty/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uncertainty-based graph convolutional networks for organ segmentation refinement</title>
       <link>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</guid>
@@ -85,42 +93,10 @@
     </item>
     
     <item>
-      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-20206-d/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-20206-d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference</title>
-      <link>https://albarqouni.github.io/publication/bui-20206-d/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/bui-20206-d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2019-adversarial/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2019-adversarial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Adversarial Networks for Camera Pose Regression and Refinement</title>
       <link>https://albarqouni.github.io/publication/bui-2019-adversarial/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/bui-2019-adversarial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scene coordinate and correspondence learning for image-based localization</title>
-      <link>https://albarqouni.github.io/oldpublication/bui-2018-scene/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bui-2018-scene/</guid>
       <description></description>
     </item>
     

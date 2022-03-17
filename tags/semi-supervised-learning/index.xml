@@ -5,9 +5,9 @@
     <link>https://albarqouni.github.io/tags/semi-supervised-learning/</link>
       <atom:link href="https://albarqouni.github.io/tags/semi-supervised-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Semi-Supervised Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Semi-Supervised Learning</title>
       <link>https://albarqouni.github.io/tags/semi-supervised-learning/</link>
     </image>
@@ -70,30 +70,6 @@
     </item>
     
     <item>
-      <title>ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</title>
-      <link>https://albarqouni.github.io/oldpublication/bdair-2020-roam/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bdair-2020-roam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ROAM: Random Layer Mixup for Semi-Supervised Learning in Medical Imaging</title>
-      <link>https://albarqouni.github.io/publication/bdair-2020-roam/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/bdair-2020-roam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learn to Segment Organs with a Few Bounding Boxes</title>
-      <link>https://albarqouni.github.io/oldpublication/parida-2019-learn/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/parida-2019-learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Learn to Segment Organs with a Few Bounding Boxes</title>
       <link>https://albarqouni.github.io/publication/parida-2019-learn/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -103,25 +79,9 @@
     
     <item>
       <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
-      <link>https://albarqouni.github.io/oldpublication/ayyad-2019-semi/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/ayyad-2019-semi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semi-Supervised Few-Shot Learning with Prototypical Random Walks</title>
       <link>https://albarqouni.github.io/publication/ayyad-2019-semi/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/ayyad-2019-semi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semi-supervised deep learning for fully convolutional networks</title>
-      <link>https://albarqouni.github.io/oldpublication/baur-2017-semi/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/baur-2017-semi/</guid>
       <description></description>
     </item>
     

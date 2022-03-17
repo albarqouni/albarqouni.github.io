@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>G Anthony Reina | Shadi Albarqouni</title>
+    <link>https://albarqouni.github.io/authors/g-anthony-reina/</link>
+      <atom:link href="https://albarqouni.github.io/authors/g-anthony-reina/index.xml" rel="self" type="application/rss+xml" />
+    <description>G Anthony Reina</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
+      <title>G Anthony Reina</title>
+      <link>https://albarqouni.github.io/authors/g-anthony-reina/</link>
+    </image>
+    
+    <item>
+      <title>The Federated Tumor Segmentation (FeTS) Challenge</title>
+      <link>https://albarqouni.github.io/publication/pati-2021-federated/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/pati-2021-federated/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

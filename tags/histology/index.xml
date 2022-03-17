@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/tags/histology/</link>
       <atom:link href="https://albarqouni.github.io/tags/histology/index.xml" rel="self" type="application/rss+xml" />
     <description>Histology</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Histology</title>
       <link>https://albarqouni.github.io/tags/histology/</link>
     </image>
+    
+    <item>
+      <title>Multi-task multi-domain learning for digital staining and classification of leukocytes</title>
+      <link>https://albarqouni.github.io/publication/tomczak-2020-multi/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tomczak-2020-multi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learn to Recognize</title>
@@ -55,25 +63,9 @@
     
     <item>
       <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
-      <link>https://albarqouni.github.io/oldpublication/lahiani-2020-seamless/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/lahiani-2020-seamless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency</title>
       <link>https://albarqouni.github.io/publication/lahiani-2020-seamless/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lahiani-2020-seamless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer</title>
-      <link>https://albarqouni.github.io/oldpublication/lahiani-2019-perceptual/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/lahiani-2019-perceptual/</guid>
       <description></description>
     </item>
     
@@ -87,25 +79,9 @@
     
     <item>
       <title>Staingan: Stain style transfer for digital histological images</title>
-      <link>https://albarqouni.github.io/xtarx.github.io/staingan/</link>
+      <link>https://albarqouni.github.io/xtarx.github.io/StainGAN/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/xtarx.github.io/staingan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Staingan: Stain style transfer for digital histological images</title>
-      <link>https://albarqouni.github.io/xtarx.github.io/staingan/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/xtarx.github.io/staingan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach</title>
-      <link>https://albarqouni.github.io/oldpublication/lahiani-2019-virtualization/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/lahiani-2019-virtualization/</guid>
+      <guid>https://albarqouni.github.io/xtarx.github.io/StainGAN/</guid>
       <description></description>
     </item>
     
@@ -127,25 +103,9 @@
     
     <item>
       <title>Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks</title>
-      <link>https://albarqouni.github.io/oldpublication/lahiani-2018-generalizing/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/lahiani-2018-generalizing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks</title>
       <link>https://albarqouni.github.io/publication/lahiani-2018-generalizing/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/lahiani-2018-generalizing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</title>
-      <link>https://albarqouni.github.io/oldpublication/bejnordi-2017-diagnostic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/bejnordi-2017-diagnostic/</guid>
       <description></description>
     </item>
     
@@ -159,25 +119,9 @@
     
     <item>
       <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2016-aggnet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images</title>
       <link>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Structure-preserving color normalization and sparse stain separation for histological images</title>
-      <link>https://albarqouni.github.io/oldpublication/vahadane-2016-structure/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/vahadane-2016-structure/</guid>
       <description></description>
     </item>
     
@@ -191,25 +135,9 @@
     
     <item>
       <title>Structure-preserved color normalization for histological images</title>
-      <link>https://albarqouni.github.io/oldpublication/vahadane-2015-structure/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/vahadane-2015-structure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Structure-preserved color normalization for histological images</title>
       <link>https://albarqouni.github.io/publication/vahadane-2015-structure/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/vahadane-2015-structure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Steps towards Establishing Telemedicine Center in Palestine</title>
-      <link>https://albarqouni.github.io/oldpublication/albarqouni-2009-steps/</link>
-      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/albarqouni-2009-steps/</guid>
       <description></description>
     </item>
     

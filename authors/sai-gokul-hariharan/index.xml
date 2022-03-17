@@ -5,20 +5,12 @@
     <link>https://albarqouni.github.io/authors/sai-gokul-hariharan/</link>
       <atom:link href="https://albarqouni.github.io/authors/sai-gokul-hariharan/index.xml" rel="self" type="application/rss+xml" />
     <description>Sai Gokul Hariharan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://albarqouni.github.io/images/icon_hu12b039ffaabbdafcf05d9d63bdcb294a_6057_512x512_fill_lanczos_center_2.png</url>
+      <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
       <title>Sai Gokul Hariharan</title>
       <link>https://albarqouni.github.io/authors/sai-gokul-hariharan/</link>
     </image>
-    
-    <item>
-      <title>Learning-based x-ray image denoising utilizing model-based image simulations</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2019-learning/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2019-learning/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Learning-based x-ray image denoising utilizing model-based image simulations</title>
@@ -30,25 +22,9 @@
     
     <item>
       <title>Preliminary results of DSA denoising based on a weighted low-rank approach using an advanced neurovascular replication system</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2019-preliminary/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2019-preliminary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Preliminary results of DSA denoising based on a weighted low-rank approach using an advanced neurovascular replication system</title>
       <link>https://albarqouni.github.io/publication/hariharan-2019-preliminary/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/hariharan-2019-preliminary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A photon recycling approach to the denoising of ultra-low dose X-ray sequences</title>
-      <link>https://albarqouni.github.io/oldpublication/hariharan-2018-photon/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/oldpublication/hariharan-2018-photon/</guid>
       <description></description>
     </item>
     
