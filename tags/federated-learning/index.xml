@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Federated Learning | Shadi Albarqouni</title>
+    <title>federated-learning | Shadi Albarqouni</title>
     <link>https://albarqouni.github.io/tags/federated-learning/</link>
       <atom:link href="https://albarqouni.github.io/tags/federated-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>Federated Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Tue, 30 Nov 2021 09:00:00 +0000</lastBuildDate>
+    <description>federated-learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Thu, 23 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu4f38e089dd73214902aeea31898a1f39_7166_512x512_fill_lanczos_center_3.png</url>
-      <title>Federated Learning</title>
+      <title>federated-learning</title>
       <link>https://albarqouni.github.io/tags/federated-learning/</link>
     </image>
+    
+    <item>
+      <title>Federated Learning</title>
+      <link>https://albarqouni.github.io/codes/federated-learning/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/codes/federated-learning/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://github.com/tbdair/FedPerlV1.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification&lt;/a&gt;
+Accepted paper at MICCAI and extended to MELBA&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/albarqounilab/FedDis-NMI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation&lt;/a&gt;
+Accepted paper at MICCAI DCL and extended to a journal&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/albarqounilab/FedNorm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedNorm: Modality-Based Normalization in Federated Learning for Multi-Modal Liver Segmentation&lt;/a&gt;
+Under Review&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Organizing a workshop on the Next Generation of AI in Medicine</title>
