@@ -50,11 +50,14 @@
       <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/codes/federated-learning/</guid>
       <description>&lt;p&gt;
+&lt;a href=&#34;https://github.com/owkin/FLamby&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic Healthcare Settings&lt;/a&gt;
+Accepted paper at NeurIPS&#39;22&lt;/p&gt;
+&lt;p&gt;
 &lt;a href=&#34;https://github.com/tbdair/FedPerlV1.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification&lt;/a&gt;
-Accepted paper at MICCAI and extended to MELBA&lt;/p&gt;
+Accepted paper at MICCAI&#39;21 and extended to MELBA&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://github.com/albarqounilab/FedDis-NMI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation&lt;/a&gt;
-Accepted paper at MICCAI DCL and extended to a journal&lt;/p&gt;
+Accepted paper at MICCAI&#39;21 DCL and extended to a journal&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://github.com/albarqounilab/FedNorm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedNorm: Modality-Based Normalization in Federated Learning for Multi-Modal Liver Segmentation&lt;/a&gt;
 Under Review&lt;/p&gt;
@@ -1764,6 +1767,14 @@ Should you have any questions, please drop me an email at shadi.albarqouni@tum.d
       <link>https://albarqouni.github.io/codes/capsule/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/codes/capsule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flamby</title>
+      <link>https://albarqouni.github.io/codes/flamby/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/codes/flamby/</guid>
       <description></description>
     </item>
     
