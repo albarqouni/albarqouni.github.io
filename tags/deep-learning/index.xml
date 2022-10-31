@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/tags/deep-learning/</link>
       <atom:link href="https://albarqouni.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Wed, 29 Jun 2022 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Sat, 08 Oct 2022 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Deep Learning</title>
@@ -13,20 +13,20 @@
     </image>
     
     <item>
+      <title>Invited Talk at the Workshop on Collaborative Learning: From Theory to Practice</title>
+      <link>https://albarqouni.github.io/talk/mbzuai/</link>
+      <pubDate>Sat, 08 Oct 2022 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/mbzuai/</guid>
+      <description>&lt;p&gt;I had the pleasure to give an invited talk at the #Collaborative Learning workshop at MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! It was a wonderful weekend full of amazing talks and fruitful discussions! I had the pleasure to meet a few familiar faces in our community along with other great speakers from UC Berkeley, Harvard, MIT, KAUST, ETH Zurich, Nvidia, and EPFL, among others. I would like to thank Michael I. Jordan and the organizing team behind the workshop for the invitation and the excellent hospitality! For those who are interested in the talks, they will be made publicly available soon!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Invited Talk at AI 4 Imaging</title>
       <link>https://albarqouni.github.io/talk/ai4i2022/</link>
       <pubDate>Wed, 29 Jun 2022 09:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/talk/ai4i2022/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the Workshop on Collaborative Learning: From Theory to Practice</title>
-      <link>https://albarqouni.github.io/talk/mbzuai/</link>
-      <pubDate>Wed, 29 Jun 2022 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/mbzuai/</guid>
-      <description>&lt;p&gt;I had the pleasure to give an invited talk at the #Collaborative Learning workshop at MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! It was a wonderful weekend full of amazing talks and fruitful discussions! I had the pleasure to meet a few familiar faces in our community along with other great speakers from UC Berkeley, Harvard, MIT, KAUST, ETH Zurich, Nvidia, and EPFL, among others. I would like to thank Michael I. Jordan and the organizing team behind the workshop for the invitation and the excellent hospitality! For those who are interested in the talks, they will be made publicly available soon!&lt;/p&gt;
-</description>
     </item>
     
     <item>
