@@ -5,19 +5,21 @@
     <loc>https://albarqouni.github.io/courses/flhsose2021/</loc>
   </url><url>
     <loc>https://albarqouni.github.io/courses/flh/</loc>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/courses/iml2022/</loc>
   </url><url>
     <loc>https://albarqouni.github.io/team/</loc>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/students/</loc>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/resume/experience/</loc>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/collaborations/</loc>
-  </url><url>
-    <loc>https://albarqouni.github.io/talk/</loc>
-    <lastmod>2022-10-08T09:00:00+00:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/deep-learning/</loc>
     <lastmod>2022-10-08T09:00:00+00:00</lastmod>
@@ -46,16 +48,10 @@
     <loc>https://albarqouni.github.io/talk/fair2022/</loc>
     <lastmod>2022-06-23T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://albarqouni.github.io/authors/admin/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://albarqouni.github.io/authors/</loc>
     <lastmod>2022-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/codes/federated-learning/</loc>
-    <lastmod>2022-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://albarqouni.github.io/codes/</loc>
     <lastmod>2022-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/aim2022/</loc>
@@ -116,7 +112,7 @@
     <lastmod>2021-11-13T21:46:01+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/anomaly-detection/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-12T17:05:28+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/ario-sadafi/</loc>
     <lastmod>2021-11-13T21:46:01+01:00</lastmod>
@@ -125,7 +121,7 @@
     <lastmod>2021-11-13T21:46:01+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/baur-2020-autoencoders/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-12T17:05:28+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/baur-2021-autoencoders/</loc>
     <lastmod>2021-11-13T21:45:59+01:00</lastmod>
@@ -188,7 +184,7 @@
     <lastmod>2021-11-13T21:46:00+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/generative-adversarial-networks/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-12T17:05:28+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/guillaume-landry/</loc>
     <lastmod>2021-11-13T21:46:01+01:00</lastmod>
@@ -250,14 +246,11 @@
     <loc>https://albarqouni.github.io/publication_types/</loc>
     <lastmod>2021-11-13T21:46:01+01:00</lastmod>
   </url><url>
-    <loc>https://albarqouni.github.io/publication/</loc>
-    <lastmod>2021-11-13T21:46:01+01:00</lastmod>
-  </url><url>
     <loc>https://albarqouni.github.io/authors/raden-muaz/</loc>
     <lastmod>2021-11-13T21:45:58+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/radiology/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/rd-soberanis-mukul/</loc>
     <lastmod>2021-11-13T21:46:01+01:00</lastmod>
@@ -361,173 +354,170 @@
     <loc>https://albarqouni.github.io/authors/sergey-zakharov/</loc>
     <lastmod>2020-12-24T17:21:48+01:00</lastmod>
   </url><url>
-    <loc>https://albarqouni.github.io/authors/nicola-rieke/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://albarqouni.github.io/authors/bennett-landman/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/fausto-milletari/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/holger-roth/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/jonny-hancox/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/klaus-maier-hein/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/mathieu-n-galtier/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/spyridon-bakas/</loc>
     <lastmod>2020-11-12T09:24:32+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/rieke-2020-future/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/wenqi-li/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/bui-20206-d/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/abouzar-eslami/</loc>
     <lastmod>2021-11-13T21:45:59+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/computer-vision/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/fairness/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/sarhan-2020-fairness/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/haowen-deng/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/leonidas-guibas/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/mai-bui/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/pose-estimation/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/powerful-representation/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T17:05:28+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/tolga-birdal/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/covid19/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/federated-learning/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/hematology/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/interpretability/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/learn-from-crowds/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/learn-from-graph/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/learn-to-adapt/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/learn-to-learn/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/learn-to-reason-and-explain/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/learn-to-recognize/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/meta-learning/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T17:05:28+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/uncertainty/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/semi-supervised-learning/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/stain-normalization/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/style-transfer/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/telemedicine/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/telemedicine/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/project/bacatec/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/weakly-supervised-learning/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/dart2020/</loc>
-    <lastmod>2020-04-01T13:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/dcl2020/</loc>
-    <lastmod>2020-04-01T13:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/soberanis-2019-uncertainty/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/amal-lahiani/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/eldad-klaiman/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/irina-klaman/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/lahiani-2020-seamless/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/ulm2019/</loc>
-    <lastmod>2020-01-17T09:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/eth2020/</loc>
-    <lastmod>2020-01-15T11:15:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/ai4h/</loc>
-    <lastmod>2020-01-08T09:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/soberanis-2020-learning/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/adam-bailey/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/amelia-jimenez-sanchez/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/ali-2020-objective/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/mukul-2020-uncertainty/</loc>
     <lastmod>2020-12-24T17:21:48+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/andreas-p-sauter/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/anees-kazi/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
@@ -551,16 +541,16 @@
     <lastmod>2020-12-24T17:21:47+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/barbara-braden/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/baur-2020-bayesian/</loc>
     <lastmod>2020-11-12T12:42:51+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/shapira-2020-benefit/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/bernhard-renger/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/bram-van-ginneken/</loc>
     <lastmod>2020-12-24T17:21:41+01:00</lastmod>
@@ -569,7 +559,7 @@
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/daniela-pfeiffer/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/diana-mateus/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
@@ -578,28 +568,28 @@
     <lastmod>2020-11-12T09:24:32+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/ehsan-adeli/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/endoscopy/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/felix-k-kopp/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/felix-zhou/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/kazeminia-2020-gans/</loc>
     <lastmod>2020-12-24T17:21:41+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/gregor-pahn/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/guanju-cheng/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/eslami-2020-image/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/yeganeh-2020-inverse/</loc>
     <lastmod>2020-12-24T17:21:47+01:00</lastmod>
@@ -608,40 +598,40 @@
     <lastmod>2020-12-24T17:21:48+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/julia-dangelmaier/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/julia-fokuhl/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/konstantinos-kamnitsas/</loc>
     <lastmod>2020-11-12T09:24:32+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/learning-without-forgetting/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/shapira-2020-liver/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/malek-adjouadi/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/manuel-schulthei%C3%9F/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/maxime-kayser/</loc>
     <lastmod>2020-12-24T17:21:47+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/mohammad-eslami/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/nadav-shapira/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/sarhan-2020-fairness-2/</loc>
     <lastmod>2021-11-13T21:45:59+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/pengyi-zhang/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/peter-biberthaler/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
@@ -659,7 +649,7 @@
     <lastmod>2020-12-24T17:21:48+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/bdair-2020-roam/</loc>
-    <lastmod>2020-11-12T12:42:51+01:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/robert-graf/</loc>
     <lastmod>2020-11-12T12:42:52+01:00</lastmod>
@@ -677,22 +667,22 @@
     <lastmod>2020-12-24T17:21:48+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/sharib-ali/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/solale-tabarestani/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/sonja-kirchhoff/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/stefanie-beck/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/baur-2020-steganomaly/</loc>
     <lastmod>2020-11-12T12:42:52+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/suhui-yang/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/tingying-peng/</loc>
     <lastmod>2020-12-24T17:21:47+01:00</lastmod>
@@ -701,628 +691,628 @@
     <lastmod>2020-12-24T17:21:47+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/xiaoqiong-li/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/yousef-yeganeh/</loc>
     <lastmod>2020-12-24T17:21:47+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/haicu2019/</loc>
-    <lastmod>2019-12-16T09:30:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/guc2019/</loc>
-    <lastmod>2019-11-27T11:15:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/dart2019/</loc>
-    <lastmod>2019-10-13T16:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/compay2019/</loc>
-    <lastmod>2019-10-13T13:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/icann2019/</loc>
-    <lastmod>2019-09-19T09:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication_types/8/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/bui-2019-method/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/ai-in-healthcare/</loc>
-    <lastmod>2019-06-16T13:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/zeiss2019/</loc>
-    <lastmod>2019-06-16T13:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/slides/_example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/covid-19/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/slides/federated/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-03T17:34:19+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/slides/pres/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/neocolam2019/</loc>
-    <lastmod>2019-01-26T09:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/abhijeet-parida/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/burwinkel-2019-adaptive/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/bui-2019-adversarial/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/agnieszka-tomczack/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/ahmed-ayyad1-nassir-navab/</loc>
     <lastmod>2021-11-13T21:46:00+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/ashkan-khakzar/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/badri-roysam/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/benedict-wiestler/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/bodo-kaiser/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/christian-kaethner/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/wang-2019-domain/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/feng-zhang/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/kayser-2019-focal/</loc>
     <lastmod>2020-12-24T17:21:44+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/baur-2019-fusing/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/gerome-vivar/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/kazi-2019-graph/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/guijin-wang/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/guillaume-zahnd/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/hendrik-burwinkel/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/hien-v-nguyen/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/hongen-liao/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/kazi-2019-inceptiongcn/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/lotfy-2019-investigation/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/jacob-gildenblat/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/julie-dinitto/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/karsten-kortuem/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/karsten-kortum/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/katharina-breininger/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/tomczack-2019-learn/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/parida-2019-learn/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/sarhan-2019-learning/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/khakzar-2019-learning/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/hariharan-2019-learning/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/luc-duong/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/m-jorge-cardoso/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/m-tarek-shaban/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/liao-2019-machine/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/markus-kowarschik/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/mayar-lotfy/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/kaiser-2019-mri/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/sarhan-2019-multi/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/norbert-strobel/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/ophthalmology/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/lahiani-2019-perceptual/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/hariharan-2019-preliminary/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/qian-wang/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/raed-m-shubair/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/rebecca-fahrig/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/renzo-phellan/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/s-arvind-krishna/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/sai-gokul-hariharan/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/kazi-2019-self/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/navab-2019-semi/</loc>
     <lastmod>2021-11-13T21:46:00+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/ayyad-2019-semi/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T17:05:28+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/seyed-ahmad-ahmadi/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/shayan-shekarforoush/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/simone-balocco/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/xtarx.github.io/StainGAN/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/jimenez-2019-towards/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/lahiani-2019-virtualization/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/vishal-patel/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/yongpan-liu/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/zijian-ding/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/ziyue-xu/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2018-determination/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/crowdsourcing/</loc>
-    <lastmod>2018-09-09T16:05:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/talk/ecp2018/</loc>
-    <lastmod>2018-09-09T16:05:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication_types/5/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/stoyanov-20187-th/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/hariharan-2018-photon/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/alexandra-strater/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/andreas-maier/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/anne-martel/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/bjoern-h-menze/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/jimenez-2018-capsule/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/danail-stoyanov/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/baur-2018-deep/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/molina-2018-deep/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/degel-2018-domain/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/emanuele-trucco/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/eric-granger/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2018-fine/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/kazeminia-2018-gans/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/lahiani-2018-generalizing/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/baur-2018-generating/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/breininger-2018-intraoperative/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/stoyanov-2018-intravascular/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/javad-fotouhi/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/jonathan-i-sperl/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/sznitman-2018-labels/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/lena-maier-hein/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/marcus-pfister/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/marion-i-menzel/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/markus-a-degel/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/miguel-molina-romero/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/breininger-2018-multiple/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/pedro-a-gomez/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/pierre-jannin/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/raphael-sznitman/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/reza-ghotbi/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/bui-2018-scene/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/stefanie-demirci/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/tanja-kurzendorfer/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/tobias-wurfl/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/ultrasound/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/veronika-cheplygina/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/jimenez-2018-weakly/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/bui-2018-regression/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/demirci-2018-x/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/zeike-taylor/</loc>
     <lastmod>2020-12-24T17:21:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication_types/7/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/kazi-2017-automatic/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/babak-ehteshami-bejnordi/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/d-mateus/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/bejnordi-2017-diagnostic/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/e-granger/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/g-zahnd/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/geert-litjens/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/cardoso-2017-intravascular/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/jeroen-awm-van-der-laak/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/l-maier-hein/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2017-machine/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/maschenka-balkenhol/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/meyke-hermsen/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/mitko-veta/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/nico-karssemeijer/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/paul-johannes-van-diest/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/quirine-f-manson/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/s-balocco/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/s-demirci/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/baur-2017-semi/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/sl-lee/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/tal-arbel/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/v-cheplygina/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2017-x/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/bui-2017-x/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/codes/anomaly-detection/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/capsule-networks/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/codes/capsule/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/codes/flamby/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/codes/polyp-detection/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/codes/roam/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-26T19:26:00+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/codes/stain-normalization/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/abhishek-vahadane/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2016-aggnet/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/amit-sethi/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/andrew-bradley/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/anna-melissa-schlitter/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/armin-schneider/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/baur-2016-cathnets/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/carneiro-2016-deep/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/dictionary-learning/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/felix-achilles/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/gamification/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/gustavo-carneiro/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/horesh-beny-ben-shitrit/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/irene-esposito/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/jacinto-c-nascimento/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/joao-manuel-rs-tavares/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/joao-paulo-papa/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/katja-steiger/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/kiyoshi-hashimoto/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/lichao-wang/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/lo%C4%B1c-peter/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/marco-loog/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/maximilian-baust/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/michael-kranzfelder/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/belagiannis-2016-parsing/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/pascal-fallavollita/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/pascal-fua/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2016-playsourcing/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/ralf-stauder/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2016-single/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/sparse-coding/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/stefan-matl/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/vahadane-2016-structure/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/ulrich-konrad/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/vasileios-belagiannis/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/xinchao-wang/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/yoshimitsu-aoki/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/zhi-lu/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/a-al-amoudi/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/ashraf-al-amoudi/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/tags/electron-microscopic-imaging/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2015-gradient/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/m-baust/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2015-multi/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/s-conjeti/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/vahadane-2015-structure/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/tobias-lasser/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/weaam-alkhaldi/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/hussein-2013-developing/</loc>
     <lastmod>2020-12-24T17:17:39+01:00</lastmod>
@@ -1334,31 +1324,37 @@
     <lastmod>2020-12-24T17:17:39+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/hussein-2012-developing/</loc>
-    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/hussein-2010-developing/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/mohammed-hussein/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2010-re/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/hussein-2010-re/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/hussein-2010-study/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/publication/albarqouni-2009-steps/</loc>
-    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
+  </url><url>
+    <loc>https://albarqouni.github.io/authors/admin/</loc>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/anna-bodonhelyi/</loc>
   </url><url>
     <loc>https://albarqouni.github.io/authors/anna-lisitsyna/</loc>
   </url><url>
     <loc>https://albarqouni.github.io/authors/baraa-hassan/</loc>
+  </url><url>
+    <loc>https://albarqouni.github.io/authors/nicola-rieke/</loc>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/authors/simone-loehlein/</loc>
   </url><url>
@@ -1368,10 +1364,22 @@
   </url><url>
     <loc>https://albarqouni.github.io/categories/</loc>
   </url><url>
+    <loc>https://albarqouni.github.io/talk/</loc>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
+  </url><url>
     <loc>https://albarqouni.github.io/courses/</loc>
+    <lastmod>2020-11-06T19:34:46+01:00</lastmod>
+  </url><url>
+    <loc>https://albarqouni.github.io/codes/</loc>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/post/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+  </url><url>
+    <loc>https://albarqouni.github.io/publication/</loc>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url><url>
     <loc>https://albarqouni.github.io/resume/</loc>
+    <lastmod>2020-04-12T00:45:50+02:00</lastmod>
   </url>
 </urlset>
