@@ -13,10 +13,143 @@
     </image>
     
     <item>
-      <title>Introduction to Machine Learning</title>
-      <link>https://albarqouni.github.io/students/courses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/courses/</guid>
+      <title>MA Thesis: Deep Learning based model for detection and grading of prostate cancer using mpMRI and MR-Fingerprinting</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_automatic_detection_and_grading_of_prostate_cancer/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_automatic_detection_and_grading_of_prostate_cancer/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Prostate cancer (PCa) is the most common cancer in men and the second leading cause of cancer death in Germany  [4,14]. Both digital rectal examination (DRE) along with the prostate-specific antigen (PSA) level in blood samples are typically used in PCa screening. Altogether, about 40% of males in Western industrialized countries have the risk of developing PCa during their lifetime, of whom only about 10% become symptomatic and 3% die [15,16]. To determine the clinical significance of PCa, prostate biopsies are assessed histologically. Prostate lesions with a pathology/histology of Gleason score ≥ 7, and/or volume ≥ 0.5 cc, and/or extraprostatic extension (EPE) are commonly considered clinically significant Prostate Cancer (csPCa).  Readers are referred to  [17,18] for further details about the acquisition and the interpretation.&lt;/p&gt;
+&lt;p&gt;Treatment options of active surveillance, surgery, and/or radiotherapy are determined, accordingly. Multiparametric magnetic resonance imaging (mpMRI) has been increasingly utilized for the detection and staging of csPCa. The PI-RADS 2.1 scoring system [1][2] was introduced to standardize the image acquisition and interpretation (scoring) of csPCa. Recently, Alice et al. [5], Lo et al. [6], and Panda et al. [13], among others, have shown that quantitative characterization of prostate lesions can be successfully performed using diffusion MRI and Magnetic Resonance Fingerprinting (MRF) [3]. MRF represents an MRI sequence with a novel data acquisition, post-processing, and visualization approach. A pseudorandomized acquisition pattern with the variation of flip angle, repetition time and echo time within a scan allows the measurement of specific signal patterns, so-called &amp;ldquo;fingerprints&amp;rdquo;, which, via matching with a database (&amp;ldquo;dictionary&amp;rdquo;), enable the simultaneous generation of co-registered, multiparametric quantitative maps, based on T1-, T2- and T2-relaxation times. In this project, we will investigate developing a data-driven deep learning-based model to automatically detect and stage the csPCa cases using the MRF-based relaxometry, and potentially combined it with the mpMRI examination, including high b-value imaging and apparent diffusion coefficient mapping (ADC).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Given a database of morphological high-resolution T2w images (in axial and sagittal orientation), diffusion MRI images including a high b-value image of 1500 and ADC mapping as well as MRF sequences and their corresponding pixel-wise delineation of the Prostate lesions, the PI-RADS v2.1 scoring (1-5), and histopathological grading - if available - we aim to develop a deep learning (DL) model to:
+&lt;ul&gt;
+&lt;li&gt;segment the prostate lesions&lt;/li&gt;
+&lt;li&gt;automatically detect and stage the prostate lesions in csPCa, and&lt;/li&gt;
+&lt;li&gt;eventually, predict the histopathological grading (Gleason score) – if time allows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Run a comparative analysis between the DL models trained on T2w, high b-value DWI, and ADC, and the one trained on MRF sequences - potentially combined with the high b-value DWI and ADC image.&lt;/li&gt;
+&lt;li&gt;Report relevant evaluation metrics such as the Dice Coefficient, and Area Under the Precision-Recall Curve (AUPRC).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cohort: Up to date, 171 patients with elevated PSA levels have been included in this ongoing study.&lt;/li&gt;
+&lt;li&gt;MRI: Patients received an MRI examination on a 3T MRI scanner (Philips Ingenia) including the following sequences:
+&lt;ul&gt;
+&lt;li&gt;High-resolution T2-weighted sequences in axial and sagittal orientation&lt;/li&gt;
+&lt;li&gt;DWI, including b-values of 100, 400, and 800 with the calculation of an ADC map, and a high b-value of 1500&lt;/li&gt;
+&lt;li&gt;Magnetic Resonance Fingerprinting (MRF)&lt;/li&gt;
+&lt;li&gt;Perfusion imaging&lt;/li&gt;
+&lt;li&gt;Pre- and post-contrast T1-weighted axial images of the pelvis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data annotation: Axial high-resolution T2-weighted images are labeled by a radiology resident with 4 years of experience to include the following labels: i) Peripheral Zone, ii) Transitional Zone, iii) Lesion&lt;/li&gt;
+&lt;li&gt;Histopathological evaluation: Patients that were graded with a PI-RADS score of 3 or higher will receive a systematic/targeted biopsy that allows histopathological correlation with lesions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with the current literature on&lt;/li&gt;
+&lt;li&gt;Radiomics model for prostate [10] and its repeatability with MRF [12]&lt;/li&gt;
+&lt;li&gt;Deep Learning with MRF in Parameter Estimation [7-9], Correlation with Histopathology [11], and lesions catheterization [13]&lt;/li&gt;
+&lt;li&gt;Develop the baseline and proposed method&lt;/li&gt;
+&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
+&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Steiger, P. and Thoeny, H.C., 2016. Prostate MRI based on PI-RADS version 2: how we review and report. Cancer Imaging, 16(1), pp.1-9.&lt;/li&gt;
+&lt;li&gt;Turkbey, B., Rosenkrantz, A.B., Haider, M.A., Padhani, A.R., Villeirs, G., Macura, K.J., Tempany, C.M., Choyke, P.L., Cornud, F., Margolis, D.J. and Thoeny, H.C., 2019. Prostate imaging reporting and data system version 2.1: 2019 update of prostate imaging reporting and data system version 2. European urology, 76(3), pp.340-351.&lt;/li&gt;
+&lt;li&gt;Ma, D., Gulani, V., Seiberlich, N., Liu, K., Sunshine, J.L., Duerk, J.L. and Griswold, M.A., 2013. Magnetic resonance fingerprinting. Nature, 495(7440), pp.187-192.&lt;/li&gt;
+&lt;li&gt;Ferlay J, Ervik M, Lam F, Colombet M, Mery L, Piñeros M, Znaor A, Soerjomataram I, Bray F (2020). Global Cancer Observatory: Cancer Today. Lyon, France: International Agency for Research on Cancer. Available from: 
+&lt;a href=&#34;https://gco.iarc.fr/today&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gco.iarc.fr/today&lt;/a&gt;, accessed [01 July 2022]&lt;/li&gt;
+&lt;li&gt;Alice, C.Y., Badve, C., Ponsky, L.E., Pahwa, S., Dastmalchian, S., Rogers, M., Jiang, Y., Margevicius, S., Schluchter, M., Tabayoyong, W. and Abouassaly, R., 2017. Development of a combined MR fingerprinting and diffusion examination for prostate cancer. Radiology, 283(3), p.729.&lt;/li&gt;
+&lt;li&gt;Lo, W.C., Panda, A., Jiang, Y., Ahad, J., Gulani, V. and Seiberlich, N., 2022. MR fingerprinting of the prostate. Magnetic Resonance Materials in Physics, Biology and Medicine, pp.1-15.&lt;/li&gt;
+&lt;li&gt;Hoppe, E., Körzdörfer, G., Würfl, T., Wetzl, J., Lugauer, F., Pfeuffer, J. and Maier, A.K., 2017. Deep Learning for Magnetic Resonance Fingerprinting: A New Approach for Predicting Quantitative Parameter Values from Time Series. GMDS, 243, pp.202-206.&lt;/li&gt;
+&lt;li&gt;Girardeau, S., Oksuz, I., Cruz, G., Vasquez, C.P., King, A. and Clough, J., 2019, April. Deep Learning for Magnetic Resonance Fingerprinting. In International Conference on Medical Imaging with Deep Learning&amp;ndash;Extended Abstract Track.&lt;/li&gt;
+&lt;li&gt;Golbabaee, M., Chen, D., Gómez, P.A., Menzel, M.I. and Davies, M.E., 2019, May. Geometry of deep learning for magnetic resonance fingerprinting. In ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 7825-7829). IEEE.&lt;/li&gt;
+&lt;li&gt;Abdollahi, H., Mofid, B., Shiri, I., Razzaghdoust, A., Saadipoor, A., Mahdavi, A., Galandooz, H.M. and Mahdavi, S.R., 2019. Machine learning-based radiomic models to predict intensity-modulated radiation therapy response, Gleason score and stage in prostate cancer. La radiologia medica, 124(6), pp.555-567.&lt;/li&gt;
+&lt;li&gt;Shiradkar, R., Panda, A., Leo, P., Janowczyk, A., Farre, X., Janaki, N., Li, L., Pahwa, S., Mahran, A., Buzzy, C. and Fu, P., 2021. T1 and T2 MR fingerprinting measurements of prostate cancer and prostatitis correlate with deep learning–derived estimates of epithelium, lumen, and stromal composition on corresponding whole mount histopathology. European radiology, 31(3), pp.1336-1346.&lt;/li&gt;
+&lt;li&gt;Fujita, S., Hagiwara, A., Yasaka, K., Akai, H., Kunimatsu, A., Kiryu, S., Fukunaga, I., Kato, S., Akashi, T., Kamagata, K. and Wada, A., 2022. Radiomics with 3-dimensional magnetic resonance fingerprinting: influence of dictionary design on repeatability and reproducibility of radiomic features. European Radiology, pp.1-10.&lt;/li&gt;
+&lt;li&gt;Panda, A., Obmann, V.C., Lo, W.C., Margevicius, S., Jiang, Y., Schluchter, M., Patel, I.J., Nakamoto, D., Badve, C., Griswold, M.A. and Jaeger, I., 2019. MR fingerprinting and ADC mapping for characterization of lesions in the transition zone of the prostate gland. Radiology, 292(3), p.685.&lt;/li&gt;
+&lt;li&gt;Krebs in Deutschland für 2017/2018. 13. Ausgabe. Robert Koch-Institut (Hrsg) und die Gesellschaft der epidemiologischen Krebsregister in Deutschland e.V. (Hrsg). Berlin, 2021&lt;/li&gt;
+&lt;li&gt;Bott SR, Birtle AJ, Taylor CJ et al. Prostate cancer management: (1) an update on localised disease. Postgrad Med J 2003; 79: 575-580. doi:10.1136/pmj.79.936.575&lt;/li&gt;
+&lt;li&gt;Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF). Interdisziplinäre Leitlinie der Qualität S3 zur Früherkennung, Diagnose und Therapie der verschiedenen Stadien des Prostatakarzinoms, Langversion 5.1, AWMF Registernummer: 043/022OL. 
+&lt;a href=&#34;http://www.leitlinienprogramm-onkologie.de/leitlinien/prostatakarzinom/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.leitlinienprogramm-onkologie.de/leitlinien/prostatakarzinom/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Engels, R.R., Israël, B., Padhani, A.R. and Barentsz, J.O., 2020. Multiparametric magnetic resonance imaging for the detection of clinically significant prostate cancer: what urologists need to know. Part 1: acquisition. European urology, 77(4), pp.457-468.&lt;/li&gt;
+&lt;li&gt;Israel, B., van der Leest, M., Sedelaar, M., Padhani, A.R., Zamecnik, P. and Barentsz, J.O., 2020. Multiparametric magnetic resonance imaging for the detection of clinically significant prostate cancer: what urologists need to know. Part 2: interpretation. European urology, 77(4), pp.469-480.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MA Thesis: Deep Learning-based method for virtual ECV in cardiac magnetic resonance imaging</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Diseases of the cardiovascular system are among the most common diseases worldwide and are the leading cause of death. The World Health Organization (WHO) estimates that about 17.9 million people die of cardiovascular diseases each year worldwide. In particular, diseases of the heart muscle, for example in the context of a heart attack or myocarditis, are of great relevance here. In order to be able to examine such diseases in a targeted manner and as gently as possible, the MRI examination of the heart has become increasingly established and further developed over the last decades. It captures the entire heart non-invasively and provides an important basis for further more invasive examinations, such as cardiac catheterization or myocardial biopsy. However, in order to make reliable diagnoses, the administration of contrast media is inevitable. After the administration of the contrast medium, it is possible to distinguish exactly which areas of the heart malfunctioned (See the right figure – taken from [1]). To reduce the risks of such contrast administration, we would like to develop a DL-based algorithm in this study that can automatically generate extracellular volume maps (ECV) without the need for post-contrast images [8].&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Given the pre-contrast native T1-mapping, their corresponding post-contrast T1-mapping, and the segmentation of the myocardium, perform the registration between pre-contrast and post-contrast imaging and calculate the extracellular volume (ECV) map, accordingly. For cases where HtK values are missing or outdated, HtK could be estimated by the native T1 relaxation time of blood by applying a regression model [7].&lt;/li&gt;
+&lt;li&gt;Given a database of the pre-contrast native T1-mapping, and their corresponding post-contrast T1-mapping and the computed/calculated extracellular volume (ECV) images of the patients’ cohort, we aim, with the power of deep learning, to model and generate virtual extracellular volume (ECV) maps. Different diseases such as acute myocarditis (Fig. 1a), Takutsubo cardiomyopathy (Fig. 1b), acute myocardial infarction, and chronic myocardial infarction show a distinctive pattern (Fig. 1c-e).&lt;/li&gt;
+&lt;li&gt;To avoid the requirements of one-to-one correspondences, the proposed algorithm should be trained on unpaired data. CycleGAN approach [2,3] or enhanced version with the perceptual embedding consistency [4] could be investigated in this context.&lt;/li&gt;
+&lt;li&gt;The virtual extracellular volume (ECV) should be evaluated against the ground-truth ECV images via common evaluation metrics such as Mean Square Error (MSE), Peak-Signal-to-Noise-Ratio (PSNR), Mean Absolute Error (MAE), Structural Similarity Index (SSIM), and relevant clinical measures such as the post-contrast T1-relaxation-time and the ECV.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Data cohort:&lt;/strong&gt;
+Pre- and post-contrast cardiac T1 relaxation time maps from a total of 1086 subjects are available for this project. For each subject, 3 short-axis images were acquired at a field strength of 1.5 Tesla at the University Hospital Bonn. All of these maps have already been assessed for image quality by a radiology resident, and the total number of slices with good or moderate image quality is 2472, from 922 different patients. In 92 of these patients, a Htk value was obtained with a time difference of less than 48h to the examination, in 511 patients within 30 days.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with the current literature on:&lt;/li&gt;
+&lt;li&gt;Cardiac Imaging and Extracellular Volume Mapping [1,8]&lt;/li&gt;
+&lt;li&gt;Image-to-Image Translation [2,6]&lt;/li&gt;
+&lt;li&gt;Image-to-Image Translation in Medical Domain [3,4,5]&lt;/li&gt;
+&lt;li&gt;Develop the baseline and proposed method&lt;/li&gt;
+&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
+&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[1] Haaf, P., Garg, P., Messroghli, D.R., Broadbent, D.A., Greenwood, J.P. and Plein, S., 2017. Cardiac T1 mapping and extracellular volume (ECV) in clinical practice: a comprehensive review. Journal of Cardiovascular Magnetic Resonance, 18(1), pp.1-12.&lt;/li&gt;
+&lt;li&gt;[2] Zhu, J.Y., Park, T., Isola, P. and Efros, A.A., 2017. Unpaired image-to-image translation using cycle-consistent adversarial networks. In Proceedings of the IEEE international conference on computer vision (pp. 2223-2232).&lt;/li&gt;
+&lt;li&gt;[3] Shaban, M.T., Baur, C., Navab, N. and Albarqouni, S., 2019, April. Staingan: Stain style transfer for digital histological images. In 2019 Ieee 16th international symposium on biomedical imaging (Isbi 2019) (pp. 953-956). IEEE.&lt;/li&gt;
+&lt;li&gt;[4] Lahiani, A., Navab, N., Albarqouni, S. and Klaiman, E., 2019, October. Perceptual embedding consistency for seamless reconstruction of tilewise style transfer. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 568-576). Springer, Cham.&lt;/li&gt;
+&lt;li&gt;[5] Zhang, Q., Burrage, M.K., Lukaschuk, E., Shanmuganathan, M., Popescu, I.A., Nikolaidou, C., Mills, R., Werys, K., Hann, E., Barutcu, A. and Polat, S.D., 2021. Toward replacing late gadolinium enhancement with artificial intelligence virtual native enhancement for gadolinium-free cardiovascular magnetic resonance tissue characterization in hypertrophic cardiomyopathy. Circulation, 144(8), pp.589-599.&lt;/li&gt;
+&lt;li&gt;[6] Xu, Y., Xie, S., Wu, W., Zhang, K., Gong, M. and Batmanghelich, K., 2022. Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation. CVPR 2022. arXiv preprint arXiv:2203.12707. 
+&lt;a href=&#34;https://github.com/batmanlab/MSPC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/batmanlab/MSPC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[7] Mesropyan, N., Kupczyk, P., Isaak, A., Endler, C., Faron, A., Dold, L., Sprinkart, A.M., Pieper, C.C., Kuetting, D., Attenberger, U. and Luetkens, J.A., 2021. Synthetic extracellular volume fraction without hematocrit sampling for hepatic applications. Abdominal Radiology, 46(10), pp.4637-4646.&lt;/li&gt;
+&lt;li&gt;[8] Chen, W., Doeblin, P., Al-Tabatabaee, S., Klingel, K., Tanacli, R., Jakob Weiß, K., Stehning, C., Patel, A.R., Pieske, B., Zou, J. and Kelle, S., 2022. Synthetic Extracellular Volume in Cardiac Magnetic Resonance Without Blood Sampling: a Reliable Tool to Replace Conventional Extracellular Volume. Circulation: Cardiovascular Imaging, 15(4), p.e013745.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course: Introduction to Machine Learning</title>
+      <link>https://albarqouni.github.io/students/courses/iml2022/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/courses/iml2022/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Lecturer:&lt;/strong&gt; 
 &lt;a href=&#34;../../#about&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Class timing:&lt;/strong&gt; The 
@@ -202,135 +335,834 @@
     </item>
     
     <item>
-      <title>MA Thesis: Deep Learning based model for detection and grading of prostate cancer using mpMRI and MR-Fingerprinting</title>
-      <link>https://albarqouni.github.io/students/theses/ma_thesis_automatic_detection_and_grading_of_prostate_cancer/</link>
-      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/theses/ma_thesis_automatic_detection_and_grading_of_prostate_cancer/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Prostate cancer (PCa) is the most common cancer in men and the second leading cause of cancer death in Germany  [4,14]. Both digital rectal examination (DRE) along with the prostate-specific antigen (PSA) level in blood samples are typically used in PCa screening. Altogether, about 40% of males in Western industrialized countries have the risk of developing PCa during their lifetime, of whom only about 10% become symptomatic and 3% die [15,16]. To determine the clinical significance of PCa, prostate biopsies are assessed histologically. Prostate lesions with a pathology/histology of Gleason score ≥ 7, and/or volume ≥ 0.5 cc, and/or extraprostatic extension (EPE) are commonly considered clinically significant Prostate Cancer (csPCa).  Readers are referred to  [17,18] for further details about the acquisition and the interpretation.&lt;/p&gt;
-&lt;p&gt;Treatment options of active surveillance, surgery, and/or radiotherapy are determined, accordingly. Multiparametric magnetic resonance imaging (mpMRI) has been increasingly utilized for the detection and staging of csPCa. The PI-RADS 2.1 scoring system [1][2] was introduced to standardize the image acquisition and interpretation (scoring) of csPCa. Recently, Alice et al. [5], Lo et al. [6], and Panda et al. [13], among others, have shown that quantitative characterization of prostate lesions can be successfully performed using diffusion MRI and Magnetic Resonance Fingerprinting (MRF) [3]. MRF represents an MRI sequence with a novel data acquisition, post-processing, and visualization approach. A pseudorandomized acquisition pattern with the variation of flip angle, repetition time and echo time within a scan allows the measurement of specific signal patterns, so-called &amp;ldquo;fingerprints&amp;rdquo;, which, via matching with a database (&amp;ldquo;dictionary&amp;rdquo;), enable the simultaneous generation of co-registered, multiparametric quantitative maps, based on T1-, T2- and T2-relaxation times. In this project, we will investigate developing a data-driven deep learning-based model to automatically detect and stage the csPCa cases using the MRF-based relaxometry, and potentially combined it with the mpMRI examination, including high b-value imaging and apparent diffusion coefficient mapping (ADC).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
+      <title>Seminar: Federated Learning in Healthcare (SoSe2021)</title>
+      <link>https://albarqouni.github.io/students/courses/flhsose2021/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/courses/flhsose2021/</guid>
+      <description>&lt;p&gt;Organizers: 
+&lt;a href=&#34;../../#about&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt;, 
+&lt;a href=&#34;https://www.helmholtz.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz AI&lt;/a&gt; and 
+&lt;a href=&#34;https://www.in.tum.de/en/cover-page/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU Munich&lt;/a&gt;, 
+&lt;a href=&#34;http://campar.in.tum.de/Main/NassirNavab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nassir Navab&lt;/a&gt;, Chair for 
+&lt;a href=&#34;http://campar.in.tum.de/WebHome&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Computer Aided Medical Procedures&lt;/a&gt;, and 
+&lt;a href=&#34;http://aim-lab.io/author/daniel-ruckert/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Daniel Rueckert&lt;/a&gt;, Chair for 
+&lt;a href=&#34;http://aim-lab.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI in Medicine&lt;/a&gt;,  
+&lt;a href=&#34;https://www.in.tum.de/en/cover-page/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU Munich&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Time: Fridays, 10:00 - 12:00&lt;/p&gt;
+&lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Given a database of morphological high-resolution T2w images (in axial and sagittal orientation), diffusion MRI images including a high b-value image of 1500 and ADC mapping as well as MRF sequences and their corresponding pixel-wise delineation of the Prostate lesions, the PI-RADS v2.1 scoring (1-5), and histopathological grading - if available - we aim to develop a deep learning (DL) model to:
+&lt;li&gt;14-07-2021: The deadline of the blog post is extended to Thursday, 22.07.2021.&lt;/li&gt;
+&lt;li&gt;14-04-2021: Papers are assigned. Please have a look at the table below.&lt;/li&gt;
+&lt;li&gt;08-04-2021: Please send 3-4 preferences from different topics (Data Heterogeneity, Robustness, &amp;hellip;etc.) to 
+&lt;a href=&#34;../../authors/cosmin-bercea/&#34;&gt;Cosmin Bercea&lt;/a&gt; by 13th April 2021.&lt;/li&gt;
+&lt;li&gt;29-01-2021: Preliminary meeting is moved to &lt;font style=&#34;color: red; font-weight: bold&#34;&gt;Friday, 05.02.2021  (11:00-11:30)&lt;/font&gt;. Please register in advance for this meeting through this 
+&lt;a href=&#34;https://tum-conf.zoom.us/meeting/register/u5ApcuihqjIoGNe7lbY6r6O-vGtHHagGK2nw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;. After the registration, you will receive a confirmation email with the dial-up information.&lt;/li&gt;
+&lt;li&gt;19-01-2021: Preliminary meeting:  &lt;s&gt;&lt;font style=&#34;color: red; font-weight: bold&#34;&gt;Monday, 01.02.2021  (11:00-11:30)&lt;/font&gt;&lt;/s&gt; via Zoom&lt;/li&gt;
+&lt;li&gt;19-01-2021: Contact information: if you have any questions about this seminar, please feel free to contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;19-01-2021: The website is up!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Following the great success of our on-going seminar on Deep Learning for Medical Applications, we would like to discuss advanced topics that are quite relevant to Federated Learning which becomes an interesting and hot research direction in the community. In simple words, Federated Learning enables training models at the client-side while preserving their privacy, and aggregates the knowledge from the nodes to learn a global model. The interesting part here that the data are kept private and not transmitted to any other nodes. Instead, the characteristics (e.g. parameters) of the global model are shared with the clients, and once the training is done locally, the characteristics are sent back to the global one for aggregation. This learning paradigm has been received quite nicely in the community, in particular, for sensitive domains, e.g. Healthcare. To push this momentum, we proposed, together with our academia and industry partners, a workshop on 
+&lt;a href=&#34;https://dcl-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federated, Collaborative, and Distributed Learning&lt;/a&gt; in the 
+&lt;a href=&#34;https://miccai2020.org/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Conference on Medical Image Computing and Computer-Aided Intervention (MICCAI)&lt;/a&gt; to attract significant contributions attacking the challenges in Medical Imaging and Healthcare. In this seminar, we will be discussing the relevant papers on Federated Learning with an emphasis on the papers tackling the common challenges in Medical Imaging, e.g. data heterogeneity, domain shift, and non-iid distributed data.&lt;/p&gt;
+&lt;h3 id=&#34;registration&#34;&gt;Registration&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;segment the prostate lesions&lt;/li&gt;
-&lt;li&gt;automatically detect and stage the prostate lesions in csPCa, and&lt;/li&gt;
-&lt;li&gt;eventually, predict the histopathological grading (Gleason score) – if time allows&lt;/li&gt;
+&lt;li&gt;Interested students should attend the preliminary meeting to enlist in the course.&lt;/li&gt;
+&lt;li&gt;Students can only register through 
+&lt;a href=&#34;https://matching.in.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TUM Matching Platform&lt;/a&gt; themselves if the maximum number of participants hasn&amp;rsquo;t been reached (please pay attention to the 
+&lt;a href=&#34;http://docmatching.in.tum.de/index.php/schedule&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deadlines&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;A maximum number of participants: 12.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Run a comparative analysis between the DL models trained on T2w, high b-value DWI, and ADC, and the one trained on MRF sequences - potentially combined with the high b-value DWI and ADC image.&lt;/li&gt;
-&lt;li&gt;Report relevant evaluation metrics such as the Dice Coefficient, and Area Under the Precision-Recall Curve (AUPRC).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;In this Master Seminar, each student is asked to send three preferences from the list, then he will be assigned one paper. In order to successfully complete the seminar, participants have to fulfill these requirements:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Cohort: Up to date, 171 patients with elevated PSA levels have been included in this ongoing study.&lt;/li&gt;
-&lt;li&gt;MRI: Patients received an MRI examination on a 3T MRI scanner (Philips Ingenia) including the following sequences:
+&lt;li&gt;&lt;strong&gt;Presentation&lt;/strong&gt;: The selected paper is presented to the other participants.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blog Post&lt;/strong&gt;: A blog post of 1000-1500 words excluding references should be submitted before the deadline.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Attendance&lt;/strong&gt;: Participants have to participate actively in all seminar sessions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The students are required to attend each seminar presentation which will be held during this course. Each presentation is followed by a discussion and everyone is encouraged to actively participate. The blog post must include all references used and must be written &lt;em&gt;completely in your own words&lt;/em&gt;. Copy and paste will not be tolerated. Both the blog post and presentation have to be written in &lt;em&gt;English&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Submission Deadline&lt;/strong&gt;:  You have to submit the presentation &lt;em&gt;two weeks&lt;/em&gt; right after your presentation session. Please push your slides to the respective folder, i.e., SS2021, at this 
+&lt;a href=&#34;https://gitlab.lrz.de/Albarqouni_BMC/flh2020.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository&lt;/a&gt;, and create your blog at the Wiki section under Blogs. The deadline of the blog post is extended to Thursday, 22.07.2021.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guidelines:&lt;/strong&gt;
+I could not find better than this 
+&lt;a href=&#34;https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-916-the-neural-basis-of-visual-object-recognition-in-monkeys-and-humans-spring-2005/assignments/how_to_pres_pap.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guidelines&lt;/a&gt; to prepare for your presentation. The only difference is that you need to plan for 30 minutes for 1-4, and 10 minutes  for 5). Nevertheless, I have prepared a few slides acting as a 
+&lt;a href=&#34;../../slides/pres&#34;&gt;guidelines&lt;/a&gt; for your presentation and blog posts.&lt;/p&gt;
+&lt;h3 id=&#34;schedule&#34;&gt;Schedule&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;em&gt;Date (tentative)&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Session: Topic&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Speakers / Presenters&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;05.02.2021 (11:00 AM)&lt;/td&gt;
+&lt;td&gt;Preliminary Meeting&lt;/td&gt;
+&lt;td&gt;Shadi&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://albarqouni.github.io/slides/federated/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slides&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Online&lt;/td&gt;
+&lt;td&gt;Paper Assignment&lt;/td&gt;
+&lt;td&gt;Shadi/Cosmin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16.04.2021&lt;/td&gt;
+&lt;td&gt;Guidelines&lt;/td&gt;
+&lt;td&gt;Shadi&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30.04.2021&lt;/td&gt;
+&lt;td&gt;Data Heterogeneity I&lt;/td&gt;
+&lt;td&gt;Buess, Yirik&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14.05.2021&lt;/td&gt;
+&lt;td&gt;Data Heterogeneity II&lt;/td&gt;
+&lt;td&gt;Buchberger, Flecken&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;28.05.2021&lt;/td&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11.06.2021&lt;/td&gt;
+&lt;td&gt;Robustness&lt;/td&gt;
+&lt;td&gt;Stampfl, Mostafa&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25.06.2021&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Federated Learning in Healthcare: from Theory to Practice&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Dr. 
+&lt;a href=&#34;https://marcolorenzi.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco Lorenzi&lt;/a&gt;, Inria, France&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09.07.2021&lt;/td&gt;
+&lt;td&gt;Uncertainty and Interpretability&lt;/td&gt;
+&lt;td&gt;Yu, Feil&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;list-of-topics-and-papers&#34;&gt;List of Topics and Papers&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;em&gt;Topic&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;No&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Title&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Conference/Journal&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Tutor&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Student (Last name)&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Link&lt;/em&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Data Heterogeneity&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space&lt;/td&gt;
+&lt;td&gt;CVPR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2103.06030.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Personalized Federated Learning using Hypernetworks&lt;/td&gt;
+&lt;td&gt;arxiv 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Buess&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2103.04628.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Adaptive Federated Optimization&lt;/td&gt;
+&lt;td&gt;ICLR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2003.00295.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;FedMix: Approximation of Mixup Under Mean Augmented Federated Learning&lt;/td&gt;
+&lt;td&gt;ICLR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=Ogga20D2HO-&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;HeteroFL: Computation and Communication Efficient Federated Learning for Heterogeneous Clients&lt;/td&gt;
+&lt;td&gt;ICLR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Yirik&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=TNkPBBYFkXg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Personalized Federated Learning with First Order Model Optimization&lt;/td&gt;
+&lt;td&gt;ICLR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Buchgberger&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2012.08565v3.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Federated Learning Based on Dynamic Regulariation&lt;/td&gt;
+&lt;td&gt;ICLR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=B7v4QMR6Z9w&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Tackling the Objective Inconsistency Problem in Heterogenous Federated Optimization&lt;/td&gt;
+&lt;td&gt;NeurIPS 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2007.07481.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Ensemble Distillation for Robust Model Fusion in Federated Learning&lt;/td&gt;
+&lt;td&gt;NeurIPS 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2006.07242.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;Salvaging Federated Learning by Local Adaptation&lt;/td&gt;
+&lt;td&gt;arxiv  2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Flecken&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2002.04758.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;FedAwS: Federated Learning with Only Positive Labels&lt;/td&gt;
+&lt;td&gt;ICML 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;http://www.sanjivk.com/FedPositive_ICML20.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Robustness&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Provable Defense against Privacy Leakage in Federated Learning from Representation Perspective&lt;/td&gt;
+&lt;td&gt;CVPR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2012.06043.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;Untargeted Poisoning Attack Detection in Federated Learning via Behaviour Attestation&lt;/td&gt;
+&lt;td&gt;arxiv 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2101.10904.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Privacy and Robustness in Federated Learning: Attacks and Defenses&lt;/td&gt;
+&lt;td&gt;arxiv 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Stampfl&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2012.06337.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;How to backdoor federated learning&lt;/td&gt;
+&lt;td&gt;PMLR 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mostafa&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1807.00459.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;DBA: Distributed Backdoor Attacks against Federated Learning&lt;/td&gt;
+&lt;td&gt;ICLR 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf/61dc789b9f12be96506a23ddb7670ac132a51d6d.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Privacy and Security&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;Federated f-Differential Privacy&lt;/td&gt;
+&lt;td&gt;PMLR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;http://proceedings.mlr.press/v130/zheng21a/zheng21a.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;BatchCrypt: Efficient Homomorphic Encryption for Cross-Silo Federated Learning&lt;/td&gt;
+&lt;td&gt;USENIX 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://www.usenix.org/system/files/atc20-zhang-chengliang.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;Secure Weighted Aggregation in Federated Learning&lt;/td&gt;
+&lt;td&gt;arxiv 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2010.08730.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;Differentially Private Meta-Learning&lt;/td&gt;
+&lt;td&gt;ICLR 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=rJgqMRVYvr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;Secure, privacy-preserving and federated machine learning in medical imaging&lt;/td&gt;
+&lt;td&gt;Nature 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://www.nature.com/articles/s42256-020-0186-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Uncertainty  and Interpretability&lt;/td&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;Federated Uncertainty-Aware Learning for Distributed Hospital EHR Data&lt;/td&gt;
+&lt;td&gt;Journal of Healthcare Informatics Research 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1910.12191.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;FedBE: Making Bayesian Model Ensemble Applicable to Federated Learning&lt;/td&gt;
+&lt;td&gt;ICLR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Yu&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=dgtpE6gKjHn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;Federated Learning via Posterior Averaging: A New Perspective and Practical Algorithms&lt;/td&gt;
+&lt;td&gt;ICLR 2021&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Feil&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=GFsU8a0sGB&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;Probabilistic predictions with federated learning&lt;/td&gt;
+&lt;td&gt;2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;ved=2ahUKEwi4ydzbjdjvAhWRgP0HHf62AVAQFjABegQIBBAD&amp;amp;url=https%3A%2F%2Fwww.mdpi.com%2F1099-4300%2F23%2F1%2F41%2Fpdf&amp;amp;usg=AOvVaw0RI0T7gLKLjjDs5oUfhEY4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;Interpret Federated Learning with Shapley Values&lt;/td&gt;
+&lt;td&gt;arxiv 2019&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1905.04519.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;interested&#34;&gt;Interested?&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;High-resolution T2-weighted sequences in axial and sagittal orientation&lt;/li&gt;
-&lt;li&gt;DWI, including b-values of 100, 400, and 800 with the calculation of an ADC map, and a high b-value of 1500&lt;/li&gt;
-&lt;li&gt;Magnetic Resonance Fingerprinting (MRF)&lt;/li&gt;
-&lt;li&gt;Perfusion imaging&lt;/li&gt;
-&lt;li&gt;Pre- and post-contrast T1-weighted axial images of the pelvis&lt;/li&gt;
+&lt;li&gt;Join our Federated Learning Working Group at 
+&lt;a href=&#34;../../slides/MONAI_Slides_Master_v2.pdf&#34;&gt;Medical Open Network for AI (MONAI)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Data annotation: Axial high-resolution T2-weighted images are labeled by a radiology resident with 4 years of experience to include the following labels: i) Peripheral Zone, ii) Transitional Zone, iii) Lesion&lt;/li&gt;
-&lt;li&gt;Histopathological evaluation: Patients that were graded with a PI-RADS score of 3 or higher will receive a systematic/targeted biopsy that allows histopathological correlation with lesions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Familiarize yourself with the current literature on&lt;/li&gt;
-&lt;li&gt;Radiomics model for prostate [10] and its repeatability with MRF [12]&lt;/li&gt;
-&lt;li&gt;Deep Learning with MRF in Parameter Estimation [7-9], Correlation with Histopathology [11], and lesions catheterization [13]&lt;/li&gt;
-&lt;li&gt;Develop the baseline and proposed method&lt;/li&gt;
-&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
-&lt;li&gt;Write up your thesis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
-&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
-&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
-&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
-&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Steiger, P. and Thoeny, H.C., 2016. Prostate MRI based on PI-RADS version 2: how we review and report. Cancer Imaging, 16(1), pp.1-9.&lt;/li&gt;
-&lt;li&gt;Turkbey, B., Rosenkrantz, A.B., Haider, M.A., Padhani, A.R., Villeirs, G., Macura, K.J., Tempany, C.M., Choyke, P.L., Cornud, F., Margolis, D.J. and Thoeny, H.C., 2019. Prostate imaging reporting and data system version 2.1: 2019 update of prostate imaging reporting and data system version 2. European urology, 76(3), pp.340-351.&lt;/li&gt;
-&lt;li&gt;Ma, D., Gulani, V., Seiberlich, N., Liu, K., Sunshine, J.L., Duerk, J.L. and Griswold, M.A., 2013. Magnetic resonance fingerprinting. Nature, 495(7440), pp.187-192.&lt;/li&gt;
-&lt;li&gt;Ferlay J, Ervik M, Lam F, Colombet M, Mery L, Piñeros M, Znaor A, Soerjomataram I, Bray F (2020). Global Cancer Observatory: Cancer Today. Lyon, France: International Agency for Research on Cancer. Available from: 
-&lt;a href=&#34;https://gco.iarc.fr/today&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gco.iarc.fr/today&lt;/a&gt;, accessed [01 July 2022]&lt;/li&gt;
-&lt;li&gt;Alice, C.Y., Badve, C., Ponsky, L.E., Pahwa, S., Dastmalchian, S., Rogers, M., Jiang, Y., Margevicius, S., Schluchter, M., Tabayoyong, W. and Abouassaly, R., 2017. Development of a combined MR fingerprinting and diffusion examination for prostate cancer. Radiology, 283(3), p.729.&lt;/li&gt;
-&lt;li&gt;Lo, W.C., Panda, A., Jiang, Y., Ahad, J., Gulani, V. and Seiberlich, N., 2022. MR fingerprinting of the prostate. Magnetic Resonance Materials in Physics, Biology and Medicine, pp.1-15.&lt;/li&gt;
-&lt;li&gt;Hoppe, E., Körzdörfer, G., Würfl, T., Wetzl, J., Lugauer, F., Pfeuffer, J. and Maier, A.K., 2017. Deep Learning for Magnetic Resonance Fingerprinting: A New Approach for Predicting Quantitative Parameter Values from Time Series. GMDS, 243, pp.202-206.&lt;/li&gt;
-&lt;li&gt;Girardeau, S., Oksuz, I., Cruz, G., Vasquez, C.P., King, A. and Clough, J., 2019, April. Deep Learning for Magnetic Resonance Fingerprinting. In International Conference on Medical Imaging with Deep Learning&amp;ndash;Extended Abstract Track.&lt;/li&gt;
-&lt;li&gt;Golbabaee, M., Chen, D., Gómez, P.A., Menzel, M.I. and Davies, M.E., 2019, May. Geometry of deep learning for magnetic resonance fingerprinting. In ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 7825-7829). IEEE.&lt;/li&gt;
-&lt;li&gt;Abdollahi, H., Mofid, B., Shiri, I., Razzaghdoust, A., Saadipoor, A., Mahdavi, A., Galandooz, H.M. and Mahdavi, S.R., 2019. Machine learning-based radiomic models to predict intensity-modulated radiation therapy response, Gleason score and stage in prostate cancer. La radiologia medica, 124(6), pp.555-567.&lt;/li&gt;
-&lt;li&gt;Shiradkar, R., Panda, A., Leo, P., Janowczyk, A., Farre, X., Janaki, N., Li, L., Pahwa, S., Mahran, A., Buzzy, C. and Fu, P., 2021. T1 and T2 MR fingerprinting measurements of prostate cancer and prostatitis correlate with deep learning–derived estimates of epithelium, lumen, and stromal composition on corresponding whole mount histopathology. European radiology, 31(3), pp.1336-1346.&lt;/li&gt;
-&lt;li&gt;Fujita, S., Hagiwara, A., Yasaka, K., Akai, H., Kunimatsu, A., Kiryu, S., Fukunaga, I., Kato, S., Akashi, T., Kamagata, K. and Wada, A., 2022. Radiomics with 3-dimensional magnetic resonance fingerprinting: influence of dictionary design on repeatability and reproducibility of radiomic features. European Radiology, pp.1-10.&lt;/li&gt;
-&lt;li&gt;Panda, A., Obmann, V.C., Lo, W.C., Margevicius, S., Jiang, Y., Schluchter, M., Patel, I.J., Nakamoto, D., Badve, C., Griswold, M.A. and Jaeger, I., 2019. MR fingerprinting and ADC mapping for characterization of lesions in the transition zone of the prostate gland. Radiology, 292(3), p.685.&lt;/li&gt;
-&lt;li&gt;Krebs in Deutschland für 2017/2018. 13. Ausgabe. Robert Koch-Institut (Hrsg) und die Gesellschaft der epidemiologischen Krebsregister in Deutschland e.V. (Hrsg). Berlin, 2021&lt;/li&gt;
-&lt;li&gt;Bott SR, Birtle AJ, Taylor CJ et al. Prostate cancer management: (1) an update on localised disease. Postgrad Med J 2003; 79: 575-580. doi:10.1136/pmj.79.936.575&lt;/li&gt;
-&lt;li&gt;Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF). Interdisziplinäre Leitlinie der Qualität S3 zur Früherkennung, Diagnose und Therapie der verschiedenen Stadien des Prostatakarzinoms, Langversion 5.1, AWMF Registernummer: 043/022OL. 
-&lt;a href=&#34;http://www.leitlinienprogramm-onkologie.de/leitlinien/prostatakarzinom/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.leitlinienprogramm-onkologie.de/leitlinien/prostatakarzinom/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Engels, R.R., Israël, B., Padhani, A.R. and Barentsz, J.O., 2020. Multiparametric magnetic resonance imaging for the detection of clinically significant prostate cancer: what urologists need to know. Part 1: acquisition. European urology, 77(4), pp.457-468.&lt;/li&gt;
-&lt;li&gt;Israel, B., van der Leest, M., Sedelaar, M., Padhani, A.R., Zamecnik, P. and Barentsz, J.O., 2020. Multiparametric magnetic resonance imaging for the detection of clinically significant prostate cancer: what urologists need to know. Part 2: interpretation. European urology, 77(4), pp.469-480.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/font&gt;
-&lt;p&gt;Interested, please contact 
-&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;contact-the-organizers&#34;&gt;Contact the organizers&lt;/h3&gt;
+&lt;p&gt;If you have any questions regarding the course, please do not hesitate to contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Organizers.png&#34; alt=&#34;Organizers&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>MA Thesis: Deep Learning-based method for virtual ECV in cardiac magnetic resonance imaging</title>
-      <link>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</link>
-      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Diseases of the cardiovascular system are among the most common diseases worldwide and are the leading cause of death. The World Health Organization (WHO) estimates that about 17.9 million people die of cardiovascular diseases each year worldwide. In particular, diseases of the heart muscle, for example in the context of a heart attack or myocarditis, are of great relevance here. In order to be able to examine such diseases in a targeted manner and as gently as possible, the MRI examination of the heart has become increasingly established and further developed over the last decades. It captures the entire heart non-invasively and provides an important basis for further more invasive examinations, such as cardiac catheterization or myocardial biopsy. However, in order to make reliable diagnoses, the administration of contrast media is inevitable. After the administration of the contrast medium, it is possible to distinguish exactly which areas of the heart malfunctioned (See the right figure – taken from [1]). To reduce the risks of such contrast administration, we would like to develop a DL-based algorithm in this study that can automatically generate extracellular volume maps (ECV) without the need for post-contrast images [8].&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
+      <title>Seminar: Federated Learning in Healthcare (WiSe2020)</title>
+      <link>https://albarqouni.github.io/students/courses/flh/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/courses/flh/</guid>
+      <description>&lt;p&gt;Organizers: 
+&lt;a href=&#34;../#about&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt;, 
+&lt;a href=&#34;https://www.helmholtz.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz AI&lt;/a&gt; and  
+&lt;a href=&#34;http://campar.in.tum.de/Main/ShadiAlbarqouni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU Munich&lt;/a&gt;, and 
+&lt;a href=&#34;http://campar.in.tum.de/Main/NassirNavab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nassir Navab&lt;/a&gt;, TU Munich.&lt;/p&gt;
+&lt;h4 id=&#34;announcements&#34;&gt;Announcements&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;
+- 17-12-2020: The deadline to submit the blog post is moved to 1st. Feb. 2021.   &lt;/br&gt;  &lt;/summary&gt;
+- 05-11-2020: Our seminar will be held online via &lt;a href=&#34;https://tum-conf.zoom.us/j/91926157752&#34;&gt;Zoom.&lt;/a&gt;  Password is communicated to the participants through TUMonline. 
+- 30-09-2020: Your name has been assigned to one of our sessions. Please pin the date on your calendar.&lt;/br&gt;
+- 30-09-2020: Two invited talks were just arranged. Thanks to the invited speakers! &lt;/br&gt;
+- 21-09-2020: We are still working on the schedule. &lt;/br&gt;
+- 21-09-2020: We extended the time slots of the presentations from 20 to 30 mins (See the requirements) &lt;/br&gt;
+- 21-09-2020: Papers are assigned to the students according to their preferences (See the list of Topics and Material Table). &lt;/br&gt;
+- 22-07-2020: Registration is done via the matching system. You need to send a motivation letter with the subject &#34;FLH_Motivatoon&#34; to Dr. Shadi Albarqouni in order to get a higher ranking in the matching system from our side&lt;/br&gt;
+- 14-07-2020: Register in advance for this meeting &lt;a href=&#34;https://tum-conf.zoom.us/meeting/register/tJMqc-uqqTwsG9fC0e88gznwxvrEFpNIvPQ6&#34;&gt;here&lt;/a&gt;. After registering, you will receive a confirmation email containing information about joining the meeting.&lt;/br&gt;
+- 08-07-2020: Preliminary meeting:  &lt;s&gt;&lt;font style=&#34;color: red; font-weight: bold&#34;&gt;Thursday, 16.07.2020  (10:00-11:00) &lt;/font&gt;&lt;/s&gt; &lt;font style=&#34;color: red; font-weight: bold&#34;&gt;Friday, 17.07.2020  (11:00-12:00) &lt;/font&gt;  in virtual meeting room (zoom). &lt;/br&gt;
+- 08-07-2020: Contact information-If you have any question about this seminar, please feel free to contact Dr. Shadi Albarqouni&lt;/br&gt;
+- 08-07-2020: Website is up!&lt;/br&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Following the great success of our on-going seminar on Deep Learning for Medical Applications, we would like to discuss advanced topics that are quite relevant to Federated Learning which becomes an interesting and hot research direction in the community. In simple words, Federated Learning enables training models at the client-side while preserving their privacy, and aggregates the knowledge from the nodes to learn a global model. The interesting part here that the data are kept private and not transmitted to any other nodes. Instead, the characteristics (e.g. parameters) of the global model are shared with the clients, and once the training is done locally, the characteristics are sent back to the global one for aggregation. This learning paradigm has been received quite nicely in the community, in particular, for sensitive domains, e.g. Healthcare. To push this momentum, we proposed, together with our academia and industry partners, a workshop on 
+&lt;a href=&#34;https://dcl-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federated, Collaborative, and Distributed Learning&lt;/a&gt; in the 
+&lt;a href=&#34;https://miccai2020.org/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Conference on Medical Image Computing and Computer-Aided Intervention (MICCAI)&lt;/a&gt; to attract significant contributions attacking the challenges in Medical Imaging and Healthcare. In this seminar, we will be discussing the relevant papers on Federated Learning with an emphasis on the papers tackling the common challenges in Medical Imaging, e.g. data heterogeneity, domain shift, and non-iid distributed data.&lt;/p&gt;
+&lt;h3 id=&#34;registration&#34;&gt;Registration&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Given the pre-contrast native T1-mapping, their corresponding post-contrast T1-mapping, and the segmentation of the myocardium, perform the registration between pre-contrast and post-contrast imaging and calculate the extracellular volume (ECV) map, accordingly. For cases where HtK values are missing or outdated, HtK could be estimated by the native T1 relaxation time of blood by applying a regression model [7].&lt;/li&gt;
-&lt;li&gt;Given a database of the pre-contrast native T1-mapping, and their corresponding post-contrast T1-mapping and the computed/calculated extracellular volume (ECV) images of the patients’ cohort, we aim, with the power of deep learning, to model and generate virtual extracellular volume (ECV) maps. Different diseases such as acute myocarditis (Fig. 1a), Takutsubo cardiomyopathy (Fig. 1b), acute myocardial infarction, and chronic myocardial infarction show a distinctive pattern (Fig. 1c-e).&lt;/li&gt;
-&lt;li&gt;To avoid the requirements of one-to-one correspondences, the proposed algorithm should be trained on unpaired data. CycleGAN approach [2,3] or enhanced version with the perceptual embedding consistency [4] could be investigated in this context.&lt;/li&gt;
-&lt;li&gt;The virtual extracellular volume (ECV) should be evaluated against the ground-truth ECV images via common evaluation metrics such as Mean Square Error (MSE), Peak-Signal-to-Noise-Ratio (PSNR), Mean Absolute Error (MAE), Structural Similarity Index (SSIM), and relevant clinical measures such as the post-contrast T1-relaxation-time and the ECV.&lt;/li&gt;
+&lt;li&gt;Interested students should attend the preliminary meeting to enlist in the course.&lt;/li&gt;
+&lt;li&gt;Students can only register through 
+&lt;a href=&#34;https://matching.in.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TUM Matching Platform&lt;/a&gt; themselves if the maximum number of participants hasn&amp;rsquo;t been reached (please pay attention to the 
+&lt;a href=&#34;http://docmatching.in.tum.de/index.php/schedule&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deadlines&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;A maximum number of participants: 12.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Data cohort:&lt;/strong&gt;
-Pre- and post-contrast cardiac T1 relaxation time maps from a total of 1086 subjects are available for this project. For each subject, 3 short-axis images were acquired at a field strength of 1.5 Tesla at the University Hospital Bonn. All of these maps have already been assessed for image quality by a radiology resident, and the total number of slices with good or moderate image quality is 2472, from 922 different patients. In 92 of these patients, a Htk value was obtained with a time difference of less than 48h to the examination, in 511 patients within 30 days.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;In this Master Seminar, each student is asked to send three preferences from the list, then he will be assigned one paper. In order to successfully complete the seminar, participants have to fulfill these requirements:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Familiarize yourself with the current literature on:&lt;/li&gt;
-&lt;li&gt;Cardiac Imaging and Extracellular Volume Mapping [1,8]&lt;/li&gt;
-&lt;li&gt;Image-to-Image Translation [2,6]&lt;/li&gt;
-&lt;li&gt;Image-to-Image Translation in Medical Domain [3,4,5]&lt;/li&gt;
-&lt;li&gt;Develop the baseline and proposed method&lt;/li&gt;
-&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
-&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presentation&lt;/strong&gt;: The selected paper is presented to the other participants.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blog Post&lt;/strong&gt;: A blog post of 1000-1500 words excluding references should be submitted before the deadline.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Attendance&lt;/strong&gt;: Participants have to participate actively in all seminar sessions.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The students are required to attend each seminar presentation which will be held during this course. Each presentation is followed by a discussion and everyone is encouraged to actively participate. The blog post must include all references used and must be written &lt;em&gt;completely in your own words&lt;/em&gt;. Copy and paste will not be tolerated. Both the blog post and presentation have to be written in &lt;em&gt;English&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Submission Deadline&lt;/strong&gt;: You have to submit both the presentation &lt;em&gt;two weeks&lt;/em&gt; right after your presentation session. The deadline of the blog post is moved to 1st Feb. 2021.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guidelines:&lt;/strong&gt;
+I could not find better than this 
+&lt;a href=&#34;https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-916-the-neural-basis-of-visual-object-recognition-in-monkeys-and-humans-spring-2005/assignments/how_to_pres_pap.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guidelines&lt;/a&gt; to prepare for your presentation. The only difference is that you need to plan for 30 minutes for 1-4, and 10 minutes  for 5). Nevertheless, I have prepared a few slides acting as a 
+&lt;a href=&#34;../../slides/pres&#34;&gt;guidelines&lt;/a&gt; for your presentation and blog posts.&lt;/p&gt;
+&lt;h3 id=&#34;schedule&#34;&gt;Schedule&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;em&gt;Date&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Session: Topic&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Speakers / Presenters&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;17.07.2020 (11:00 AM)&lt;/td&gt;
+&lt;td&gt;Preliminary Meeting&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://albarqouni.github.io/slides/federated/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slides&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Online&lt;/td&gt;
+&lt;td&gt;Paper Assignment&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../slides/pres&#34;&gt;Guidelines&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09.11.2020 @ 11:00 AM&lt;/td&gt;
+&lt;td&gt;Federated Learning; Challenges, Methods, and Future I&lt;/td&gt;
+&lt;td&gt;Invited Talk: 
+&lt;a href=&#34;https://www.nature.com/articles/s41746-020-00323-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federated Learning: Collaborative AI without Exposing Patient Data&lt;/a&gt; &amp;ndash;&lt;em&gt;
+&lt;a href=&#34;../../authors/nicola-rieke&#34;&gt;Nicola Rieke&lt;/a&gt; from 
+&lt;a href=&#34;https://www.nvidia.com/en-us/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16.11.2020&lt;/td&gt;
+&lt;td&gt;Federated Learning; Challenges, Methods, and Future II&lt;/td&gt;
+&lt;td&gt;Ünay, Sánchez Clemente&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23.11.2020&lt;/td&gt;
+&lt;td&gt;Data Heterogeneity I&lt;/td&gt;
+&lt;td&gt;Lin, Raether&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30.11.2020&lt;/td&gt;
+&lt;td&gt;Data Heterogeneity II&lt;/td&gt;
+&lt;td&gt;Stoican, Schwarz&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;07.12.2020&lt;/td&gt;
+&lt;td&gt;System Heterogeneity and Privacy Issues I&lt;/td&gt;
+&lt;td&gt;Invited Talk: 
+&lt;a href=&#34;https://www.nature.com/articles/s42256-020-0186-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Secure, privacy-preserving and federated machine learning in medical imaging&lt;/a&gt; &amp;ndash;&lt;em&gt;
+&lt;a href=&#34;https://g-k.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Kaissis&lt;/a&gt; from 
+&lt;a href=&#34;https://www.mri.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Klinikum rechts der Isar&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14.12.2020&lt;/td&gt;
+&lt;td&gt;System Heterogeneity and Privacy Issues II&lt;/td&gt;
+&lt;td&gt;Qian, Heidmann&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21.12.2020&lt;/td&gt;
+&lt;td&gt;Data Heterogeneity III&lt;/td&gt;
+&lt;td&gt;Spannagl, Arfaoui&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11.01.2021&lt;/td&gt;
+&lt;td&gt;Federated Learning with Medical Imaging I&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../authors/zehra-hayirci/&#34;&gt;Zehra&lt;/a&gt; (
+&lt;a href=&#34;https://proceedings.neurips.cc/paper/2020/file/e32cc80bf07915058ce90722ee17bb71-Paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeurIPS&#39;20 Paper&lt;/a&gt;), 
+&lt;a href=&#34;../../authors/cosmin-bercea/&#34;&gt;Cosmin&lt;/a&gt; (
+&lt;a href=&#34;https://arxiv.org/abs/2008.07665&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAIW&#39;20 Paper&lt;/a&gt;)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;18.01.2021&lt;/td&gt;
+&lt;td&gt;Federated Learning with Medical Imaging II&lt;/td&gt;
+&lt;td&gt;Boysen&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25.01.2021&lt;/td&gt;
+&lt;td&gt;Federated Learning with Medical Imaging III&lt;/td&gt;
+&lt;td&gt;Invited Talk:  Federated Learning with Heterogeneous data in Healthcare &amp;ndash;&lt;em&gt;Jean Ogier du Terrail&lt;/em&gt; from 
+&lt;a href=&#34;https://owkin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Owkin&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;list-of-topics-and-papers&#34;&gt;List of Topics and Papers&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;em&gt;Topic&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;No&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Title&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Conference/Journal&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Tutor&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Student (Last name)&lt;/em&gt;&lt;/th&gt;
+&lt;th&gt;&lt;em&gt;Link&lt;/em&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Intro. to FL&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;FedAvg: Communication-Efficient Learning of Deep Networks from Decentralized Data&lt;/td&gt;
+&lt;td&gt;AISTATS, 2016&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Ünay&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1602.05629&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;The Future of Digital Health with Federated Learning&lt;/td&gt;
+&lt;td&gt;arXiv, 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Invited Speaker&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2003.08119.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Challenges&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Federated Learning: Challenges, Methods, and Future Directions&lt;/td&gt;
+&lt;td&gt;IEEE Signal Processing Magazine, 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Sánchez Clemente&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1908.07873.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;On the Convergence of FedAvg on Non-IID Data&lt;/td&gt;
+&lt;td&gt;ICLR 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=HJxNAnVtDS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data Heterogeneity&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;FedMA: Federated Learning with Matched Averaging&lt;/td&gt;
+&lt;td&gt;ICLR 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Lin&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=BkluqlSFDS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Federated Adversarial Domain Adaptation&lt;/td&gt;
+&lt;td&gt;ICLR 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Spannagl&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://openreview.net/pdf?id=HJezF3VYPB&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Federated optimization in heterogeneous networks&lt;/td&gt;
+&lt;td&gt;MLSys 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Raether&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1812.06127.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;FedAwS: Federated Learning with Only Positive Labels&lt;/td&gt;
+&lt;td&gt;ICML 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://proceedings.icml.cc/static/paper_files/icml/2020/5034-Paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;SCAFFOLD: Stochastic Controlled Averaging for Federated Learning&lt;/td&gt;
+&lt;td&gt;ICML 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Stoican&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://proceedings.icml.cc/static/paper_files/icml/2020/788-Paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;Federated Visual Classification with Real-World Data Distribution&lt;/td&gt;
+&lt;td&gt;CVPR 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Schwarz&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2003.08082.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;System Heterogeneity&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Federated Multi-Task Learning&lt;/td&gt;
+&lt;td&gt;NeurIPS 2017&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Qian&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://papers.nips.cc/paper/7029-federated-multi-task-learning.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Variational Federated Multi-Task Learning&lt;/td&gt;
+&lt;td&gt;arXiv 2019&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Heidmann&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1906.06268.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Privacy-Issues&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;Secure, privacy-preserving and federated machine learning in medical imaging&lt;/td&gt;
+&lt;td&gt;Nature MI&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Invited Speaker&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://www.nature.com/articles/s42256-020-0186-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTML&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Differentially Private Meta-Learning&lt;/td&gt;
+&lt;td&gt;ICLR 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://iclr.cc/virtual/poster_rJgqMRVYvr.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Explainability and Robustness&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;The Non-IID Data Quagmire of Decentralized Machine Learning&lt;/td&gt;
+&lt;td&gt;ICML 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Arfaoui&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://proceedings.icml.cc/static/paper_files/icml/2020/3152-Paper.pdf]&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;DBA: Distributed Backdoor Attacks against Federated Learning&lt;/td&gt;
+&lt;td&gt;ICLR 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;http://www.openreview.net/pdf?id=rkgyS0VFvr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Open Problems in FL&lt;/td&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;td&gt;Advances and Open Problems in Federated Learning&lt;/td&gt;
+&lt;td&gt;arXiv&lt;/td&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;td&gt;&amp;ndash;&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1912.04977.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Federated Learning with Medical Imaging&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;Privacy-preserving Federated Brain Tumour Segmentation&lt;/td&gt;
+&lt;td&gt;MICCAIW 2019&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Boysen&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-030-32692-0_16&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTML&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Multi-institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation&lt;/td&gt;
+&lt;td&gt;MICCAIW 2019&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Boysen&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-030-11723-8_9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTML&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;Federated Learning in Distributed Medical Databases: Meta-Analysis of Large-Scale Subcortical Brain Data&lt;/td&gt;
+&lt;td&gt;ISBI 2019&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Hofmann&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/8759317?casa_token=n3-x19MurqwAAAAA:Eyz2sIgH5MPRzVgtV9ADzDrl_A97A7M6xUYqi3iReri0d-SisH0CYfPYEh8aYjbSwEGHP45n&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTML&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Inverse Distance Aggregation for Federated Learning with Non-IID Data&lt;/td&gt;
+&lt;td&gt;MICCAIW 2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Hofmann&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2008.07665&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;interested&#34;&gt;Interested?&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
-&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
-&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
-&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;li&gt;Join our Federated Learning Working Group at 
+&lt;a href=&#34;../../slides/MONAI_Slides_Master_v2.pdf&#34;&gt;Medical Open Network for AI (MONAI)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
-&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[1] Haaf, P., Garg, P., Messroghli, D.R., Broadbent, D.A., Greenwood, J.P. and Plein, S., 2017. Cardiac T1 mapping and extracellular volume (ECV) in clinical practice: a comprehensive review. Journal of Cardiovascular Magnetic Resonance, 18(1), pp.1-12.&lt;/li&gt;
-&lt;li&gt;[2] Zhu, J.Y., Park, T., Isola, P. and Efros, A.A., 2017. Unpaired image-to-image translation using cycle-consistent adversarial networks. In Proceedings of the IEEE international conference on computer vision (pp. 2223-2232).&lt;/li&gt;
-&lt;li&gt;[3] Shaban, M.T., Baur, C., Navab, N. and Albarqouni, S., 2019, April. Staingan: Stain style transfer for digital histological images. In 2019 Ieee 16th international symposium on biomedical imaging (Isbi 2019) (pp. 953-956). IEEE.&lt;/li&gt;
-&lt;li&gt;[4] Lahiani, A., Navab, N., Albarqouni, S. and Klaiman, E., 2019, October. Perceptual embedding consistency for seamless reconstruction of tilewise style transfer. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 568-576). Springer, Cham.&lt;/li&gt;
-&lt;li&gt;[5] Zhang, Q., Burrage, M.K., Lukaschuk, E., Shanmuganathan, M., Popescu, I.A., Nikolaidou, C., Mills, R., Werys, K., Hann, E., Barutcu, A. and Polat, S.D., 2021. Toward replacing late gadolinium enhancement with artificial intelligence virtual native enhancement for gadolinium-free cardiovascular magnetic resonance tissue characterization in hypertrophic cardiomyopathy. Circulation, 144(8), pp.589-599.&lt;/li&gt;
-&lt;li&gt;[6] Xu, Y., Xie, S., Wu, W., Zhang, K., Gong, M. and Batmanghelich, K., 2022. Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation. CVPR 2022. arXiv preprint arXiv:2203.12707. 
-&lt;a href=&#34;https://github.com/batmanlab/MSPC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/batmanlab/MSPC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[7] Mesropyan, N., Kupczyk, P., Isaak, A., Endler, C., Faron, A., Dold, L., Sprinkart, A.M., Pieper, C.C., Kuetting, D., Attenberger, U. and Luetkens, J.A., 2021. Synthetic extracellular volume fraction without hematocrit sampling for hepatic applications. Abdominal Radiology, 46(10), pp.4637-4646.&lt;/li&gt;
-&lt;li&gt;[8] Chen, W., Doeblin, P., Al-Tabatabaee, S., Klingel, K., Tanacli, R., Jakob Weiß, K., Stehning, C., Patel, A.R., Pieske, B., Zou, J. and Kelle, S., 2022. Synthetic Extracellular Volume in Cardiac Magnetic Resonance Without Blood Sampling: a Reliable Tool to Replace Conventional Extracellular Volume. Circulation: Cardiovascular Imaging, 15(4), p.e013745.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/font&gt;
-&lt;p&gt;Interested, please contact 
-&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;contact-us&#34;&gt;Contact us&lt;/h3&gt;
+&lt;p&gt;If you have any questions regarding the course, please do not hesitate to contact us at 
+&lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
