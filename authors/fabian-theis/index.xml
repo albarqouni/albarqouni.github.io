@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabian Theis | Albarqouni Lab</title>
+    <link>https://albarqouni.github.io/authors/fabian-theis/</link>
+      <atom:link href="https://albarqouni.github.io/authors/fabian-theis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fabian Theis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
+      <title>Fabian Theis</title>
+      <link>https://albarqouni.github.io/authors/fabian-theis/</link>
+    </image>
+    
+    <item>
+      <title>FedNorm: Modality-Based Normalization in Federated Learning for Multi-Modal Liver Segmentation</title>
+      <link>https://albarqouni.github.io/publication/bernecker-2022-fednorm/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bernecker-2022-fednorm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

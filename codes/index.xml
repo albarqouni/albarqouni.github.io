@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Source Codes | Shadi Albarqouni</title>
+    <title>Open Source Codes | Albarqouni Lab</title>
     <link>https://albarqouni.github.io/codes/</link>
       <atom:link href="https://albarqouni.github.io/codes/index.xml" rel="self" type="application/rss+xml" />
     <description>Open Source Codes</description>
@@ -45,14 +45,6 @@ Under Review&lt;/p&gt;
       <link>https://albarqouni.github.io/codes/capsule/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/codes/capsule/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flamby</title>
-      <link>https://albarqouni.github.io/codes/flamby/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/codes/flamby/</guid>
       <description></description>
     </item>
     

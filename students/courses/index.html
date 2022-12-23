@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shadi Albarqouni">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Lecturer: Prof. Dr. Shadi Albarqouni
+Class timing: The academic quarter is applied here! This means the lecture will start 15 minutes after the said time.
+Course Description Machine Learning has gained a lot of momentum within development organizations that are actively looking for innovative solutions to leverage their data to identify new levels of understanding their operations and processes.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://albarqouni.github.io/students/courses/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://albarqouni.github.io/students/courses/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@ShadiAlbarqouni">
+  <meta property="twitter:creator" content="@ShadiAlbarqouni">
+  
+  <meta property="og:site_name" content="Albarqouni Lab">
+  <meta property="og:url" content="https://albarqouni.github.io/students/courses/">
+  <meta property="og:title" content="Introduction to Machine Learning | Albarqouni Lab">
+  <meta property="og:description" content="Lecturer: Prof. Dr. Shadi Albarqouni
+Class timing: The academic quarter is applied here! This means the lecture will start 15 minutes after the said time.
+Course Description Machine Learning has gained a lot of momentum within development organizations that are actively looking for innovative solutions to leverage their data to identify new levels of understanding their operations and processes."><meta property="og:image" content="https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  
+    
+    
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Introduction to Machine Learning | Albarqouni Lab</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Albarqouni Lab</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Albarqouni Lab</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#latest"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#students"><span>Students</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Community</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#positions"><span>Open Positions</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/codes/"><span>Codes</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Introduction to Machine Learning</h1>
+
+  
+  <p class="page-subtitle">(SoSe2023)</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 1, 0001
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p><strong>Lecturer:</strong> 
+<a href="../../#about">Prof. Dr. Shadi Albarqouni</a></p>
+<p><strong>Class timing:</strong> The 
+<a href="https://en.wikipedia.org/wiki/Academic_quarter_%28class_timing%29" target="_blank" rel="noopener">academic quarter</a> is applied here! This means the lecture will start 15 minutes after the said time.</p>
+<h3 id="course-description">Course Description</h3>
+<p>Machine Learning has gained a lot of momentum within development organizations that are actively looking for innovative solutions to leverage their data to identify new levels of understanding their operations and processes. Machine learning is a subfield of Artificial Intelligence where the machine learns from data rather than from explicit programming. Machine Learning applications are likely to be part of your daily life without you being aware of it! Take 
+<a href="https://support.google.com/recaptcha" target="_blank" rel="noopener">reCAPTCHA</a> as an example that you might face on a daily basis! This course will walk you through the basics of machine learning and explain how to formulate machine learning problems that are relevant to a wide range of applications. The class will be self-contained; a brief review on probability and information theory will be given before we dive into the main topics; linear and logistic regression, neural networks, non-parametric models, and unsupervised learning.</p>
+<h3 id="course-objectives">Course Objectives</h3>
+<p>Successful students should</p>
+<ul>
+<li>gain a basic understanding of machine learning theory</li>
+<li>identify the strengths and weaknesses of various machine learning algorithms</li>
+<li>be able to formulate machine learning problems that are relevant to a wide range of applications</li>
+<li>be able to solve moderately complex problems using machine learning algorithms</li>
+<li>be able to apply, adapt and optimize machine learning algorithms to real-world problems</li>
+<li>be able to report various performance measures and evaluation metrics</li>
+</ul>
+<h3 id="required-materials">Required Materials</h3>
+<ul>
+<li>Murphy, K.P., 2022. 
+<a href="https://github.com/probml/pml-book/releases/latest/download/book1.pdf" target="_blank" rel="noopener">Probabilistic machine learning: an introduction</a>. MIT press.</li>
+</ul>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>Linear Algebra</li>
+<li>Probability Theory</li>
+<li>Programming in Python</li>
+</ul>
+<h3 id="course-structure-and-grading-policy-tentative">Course Structure and grading policy (tentative):</h3>
+<ul>
+<li><strong>Assignments/Quizzes (10%)</strong>: You will be occasionally given assigments or quizzes which contribute to 10% of your grade</li>
+<li><strong>Lab. (20%)</strong>: You will be given a few lab assignments to have hands-on experience with programming in python</li>
+<li><strong>Class Project/Midterm Exam (20%)</strong></li>
+<li><strong>Final Exam (50%)</strong></li>
+</ul>
+<h3 id="schedule">Schedule</h3>
+<table>
+<thead>
+<tr>
+<th><em>Date</em></th>
+<th><em>Topic</em></th>
+<th><em>Material</em></th>
+<th><em>Self-reading</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>29.09.2022</td>
+<td>Introduction (Ch1)</td>
+<td>
+<a href="Lect01.pdf">Lecture01</a></td>
+<td></td>
+</tr>
+<tr>
+<td>06.10.2022</td>
+<td>Foundations: Probability (Ch2)</td>
+<td>
+<a href="Lect02.pdf">Lecture02</a></td>
+<td>Statistics (Ch4) + Decicion Theory (Ch5)</td>
+</tr>
+<tr>
+<td>13.10.2022</td>
+<td>Foundations: Probability (Ch3)</td>
+<td>
+<a href="Assignment01.pdf">Assignment01</a></td>
+<td>Information Theory (Ch6) + Linear Algebra (Ch7) + Optimization (Ch8)</td>
+</tr>
+<tr>
+<td>20.10.2022</td>
+<td>Linear Models: Logistic Regression (Ch10)</td>
+<td>
+<a href="Lect03.pdf">Lecture03</a></td>
+<td></td>
+</tr>
+<tr>
+<td>27.10.2022</td>
+<td>Linear Models: Logistic Regression (Ch10) &ndash; Cont.</td>
+<td>
+<a href="Assignment02.pdf">Assignment02</a></td>
+<td>Linear Discriminative Analysis (Ch9)</td>
+</tr>
+<tr>
+<td>03.11.2022</td>
+<td>Linear Models: Linear Regression (Ch11)</td>
+<td>
+<a href="Lect04.pdf">Lecture04</a></td>
+<td>Generalized Linear Models (Ch12)</td>
+</tr>
+<tr>
+<td>10.11.2022</td>
+<td>Linear Models: Linear Regression (Ch11) &ndash; Cont.</td>
+<td>
+<a href="Lab01.pdf">Lab01</a></td>
+<td>Generalized Linear Models (Ch12)</td>
+</tr>
+<tr>
+<td>17.11.2022</td>
+<td>Mid-term Evaluation</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>01.12.2022</td>
+<td>Neural Networks: NNs for Tabular Data (Ch13)</td>
+<td>
+<a href="Lect05.pdf">Lecture05</a></td>
+<td></td>
+</tr>
+<tr>
+<td>08.12.2022</td>
+<td>Neural Networks: NNs for Tabular Data (Ch13) &ndash; Cont. + Lab</td>
+<td>
+<a href="Lab02.pdf">Lab02</a></td>
+<td></td>
+</tr>
+<tr>
+<td>15.12.2022</td>
+<td>Neural Networks: NNs for Imaging Data (Ch14)</td>
+<td>
+<a href="Lect06.pdf">Lecture06</a></td>
+<td></td>
+</tr>
+<tr>
+<td>22.12.2022</td>
+<td>Beyond Supervised Learning: Dimensionality Reduction (Ch20) + Clustering (Ch21)</td>
+<td>
+<a href="Lect07.pdf">Lecture07</a></td>
+<td>Recommender Systems (Ch22)</td>
+</tr>
+<tr>
+<td>29.12.2022</td>
+<td>Hands-on Experience on the projects</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>05.01.2023</td>
+<td>Course Recap.</td>
+<td>
+<a href="Lect08.pdf">Lecture08</a></td>
+<td></td>
+</tr>
+<tr>
+<td>19.01.2023</td>
+<td>Final Project Evaluation</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="references">References</h3>
+<ul>
+<li>Bishop, C.M. and Nasrabadi, N.M., 2006. 
+<a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf" target="_blank" rel="noopener">Pattern recognition and machine learning</a> (Vol. 4, No. 4, p. 738). New York: springer.</li>
+<li>James, G., Witten, D., Hastie, T. and Tibshirani, R., 2013. 
+<a href="https://link.springer.com/content/pdf/10.1007/978-1-0716-1418-1.pdf" target="_blank" rel="noopener">An introduction to statistical learning</a> (Vol. 112, p. 18). New York: springer.</li>
+</ul>
+<h3 id="projects">Projects</h3>
+<ul>
+<li>
+<a href="https://archive.ics.uci.edu/ml/datasets/Statlog&#43;%28German&#43;Credit&#43;Data%29" target="_blank" rel="noopener">German Credit Dataset</a></li>
+<li>
+<a href="https://archive.ics.uci.edu/ml/datasets/Heart&#43;Disease" target="_blank" rel="noopener">Heart Disease Dataset</a></li>
+<li>
+<a href="https://archive.ics.uci.edu/ml/datasets/Divorce&#43;Predictors&#43;data&#43;set" target="_blank" rel="noopener">Divorce Predictors Dataset</a></li>
+<li>
+<a href="https://archive.ics.uci.edu/ml/datasets/Water&#43;Quality&#43;Prediction" target="_blank" rel="noopener">Water Quality Prediction Dataset</a></li>
+<li>
+<a href="https://archive.ics.uci.edu/ml/datasets/Early&#43;stage&#43;diabetes&#43;risk&#43;prediction&#43;dataset." target="_blank" rel="noopener">Early stage diabetes risk prediction Dataset</a></li>
+</ul>
+<h3 id="interested-in-the-medical-imaging-community">Interested in the Medical Imaging community!</h3>
+<ul>
+<li>Listen to our recent talks about Federated Learning in Healthcare (
+<a href="https://www.youtube.com/watch?v=ZQiyH0tlnwM" target="_blank" rel="noopener">English</a> /
+<a href="https://www.youtube.com/watch?v=mDU16ZMPTXw" target="_blank" rel="noopener">Arabic</a>)</li>
+<li>Join and contribute to the 
+<a href="../../slides/MONAI_Slides_Master_v2.pdf">Medical Open Network for AI (MONAI)</a></li>
+</ul>
+<h3 id="contact-the-organizers">Contact the organizers</h3>
+<p>If you have any questions regarding the course, please do not hesitate to contact 
+<a href="../../#about">Prof. Dr. Shadi Albarqouni</a>!</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://albarqouni.github.io/students/courses/&amp;text=Introduction%20to%20Machine%20Learning" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://albarqouni.github.io/students/courses/&amp;t=Introduction%20to%20Machine%20Learning" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Introduction%20to%20Machine%20Learning&amp;body=https://albarqouni.github.io/students/courses/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://albarqouni.github.io/students/courses/&amp;title=Introduction%20to%20Machine%20Learning" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Introduction%20to%20Machine%20Learning%20https://albarqouni.github.io/students/courses/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://albarqouni.github.io/students/courses/&amp;title=Introduction%20to%20Machine%20Learning" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hud88bf5a68b63304b861af7343adde0d5_2791867_270x270_fill_q90_lanczos_center.jpg" alt="Shadi Albarqouni">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/admin/">Shadi Albarqouni</a></h5>
+      <h6 class="card-subtitle">Professor of Computational Medical Imaging Research at 
+<a href="https://www.uni-bonn.de/en" target="_blank" rel="noopener">University of Bonn</a> | AI Young Investigator Group Leader at 
+<a href="https://www.helmholtz.ai/" target="_blank" rel="noopener">Helmholtz AI</a></h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:shadi.albarqouni@tum.de" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/ShadiAlbarqouni" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.de/citations?user=CPuApzoAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/albarqouni" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/shadialbarqouni/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-2157-2211" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://albarqouni.github.io/" target="_blank" rel="noopener">
+        <i class="fas fa-globe-africa"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.b83f17b8257ec03d591fc1860efee439.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    ©Shadi Albarqouni 2022 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

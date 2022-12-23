@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anomaly Detection | Shadi Albarqouni</title>
+    <title>Anomaly Detection | Albarqouni Lab</title>
     <link>https://albarqouni.github.io/tags/anomaly-detection/</link>
       <atom:link href="https://albarqouni.github.io/tags/anomaly-detection/index.xml" rel="self" type="application/rss+xml" />
     <description>Anomaly Detection</description>
@@ -90,14 +90,6 @@
       <link>https://albarqouni.github.io/codes/anomaly-detection/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/codes/anomaly-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Flamby</title>
-      <link>https://albarqouni.github.io/codes/flamby/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/codes/flamby/</guid>
       <description></description>
     </item>
     

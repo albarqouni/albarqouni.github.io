@@ -1,16 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1 | Shadi Albarqouni</title>
+    <title>1 | Albarqouni Lab</title>
     <link>https://albarqouni.github.io/publication_types/1/</link>
       <atom:link href="https://albarqouni.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://albarqouni.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>FLamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic Healthcare Settings</title>
+      <link>https://albarqouni.github.io/publication/terrail-2022-flamby/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/terrail-2022-flamby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Self-Supervised Image-Volume Representation Learning with Intra-Inter Contrastive Clustering</title>
+      <link>https://albarqouni.github.io/publication/nguyen-2022-joint/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/nguyen-2022-joint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anomaly-aware multiple instance learning for rare anemia disorder classification</title>
+      <link>https://albarqouni.github.io/publication/kazeminia-2022-anomaly/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/kazeminia-2022-anomaly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Cross-Domain Feature Extraction for Single Blood Cell Image Classification</title>
+      <link>https://albarqouni.github.io/publication/salehi-2022-unsupervised/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/salehi-2022-unsupervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What can we learn about a generated image corrupting its latent representation?</title>
+      <link>https://albarqouni.github.io/publication/tomczak-2022-can/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tomczak-2022-can/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Butterfly-Net: Spatial-Temporal Architecture For Medical Image Segmentation</title>

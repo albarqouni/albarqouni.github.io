@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shadi Albarqouni</title>
+    <title>Albarqouni Lab</title>
     <link>https://albarqouni.github.io/authors/tariq-bdair/</link>
       <atom:link href="https://albarqouni.github.io/authors/tariq-bdair/index.xml" rel="self" type="application/rss+xml" />
-    <description>Shadi Albarqouni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <description>Albarqouni Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>Shadi Albarqouni</title>
+      <title>Albarqouni Lab</title>
       <link>https://albarqouni.github.io/authors/tariq-bdair/</link>
     </image>
+    
+    <item>
+      <title>ROAM: Random layer mixup for semi-supervised learning in medical images</title>
+      <link>https://albarqouni.github.io/publication/bdair-2022-roam/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bdair-2022-roam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Federated Peer Learning for Skin Lesion Classification</title>
+      <link>https://albarqouni.github.io/publication/melba-2022-011-bdair/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/melba-2022-011-bdair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TriMix: Virtual embeddings and self-consistency for self-supervised learning</title>
+      <link>https://albarqouni.github.io/publication/bdair-2022-trimix/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bdair-2022-trimix/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification</title>

@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title> others | Shadi Albarqouni</title>
+    <title> others | Albarqouni Lab</title>
     <link>https://albarqouni.github.io/authors/others/</link>
       <atom:link href="https://albarqouni.github.io/authors/others/index.xml" rel="self" type="application/rss+xml" />
     <description> others</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title> others</title>
       <link>https://albarqouni.github.io/authors/others/</link>
     </image>
+    
+    <item>
+      <title>FLamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic Healthcare Settings</title>
+      <link>https://albarqouni.github.io/publication/terrail-2022-flamby/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/terrail-2022-flamby/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Eine computergestützte automatische Polypencharakterisierung von Hyperplasten, Adenomen und Serratierten Adenomen im Kolorektum-Ergebnisse der CASSANDRA Studie</title>

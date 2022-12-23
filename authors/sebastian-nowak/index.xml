@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sebastian-nowak | Albarqouni Lab</title>
+    <link>https://albarqouni.github.io/authors/sebastian-nowak/</link>
+      <atom:link href="https://albarqouni.github.io/authors/sebastian-nowak/index.xml" rel="self" type="application/rss+xml" />
+    <description>sebastian-nowak</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
+      <title>sebastian-nowak</title>
+      <link>https://albarqouni.github.io/authors/sebastian-nowak/</link>
+    </image>
+    
+    <item>
+      <title>MA Thesis: Deep Learning-based method for virtual ECV in cardiac magnetic resonance imaging</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Diseases of the cardiovascular system are among the most common diseases worldwide and are the leading cause of death. The World Health Organization (WHO) estimates that about 17.9 million people die of cardiovascular diseases each year worldwide. In particular, diseases of the heart muscle, for example in the context of a heart attack or myocarditis, are of great relevance here. In order to be able to examine such diseases in a targeted manner and as gently as possible, the MRI examination of the heart has become increasingly established and further developed over the last decades. It captures the entire heart non-invasively and provides an important basis for further more invasive examinations, such as cardiac catheterization or myocardial biopsy. However, in order to make reliable diagnoses, the administration of contrast media is inevitable. After the administration of the contrast medium, it is possible to distinguish exactly which areas of the heart malfunctioned (See the right figure – taken from [1]). To reduce the risks of such contrast administration, we would like to develop a DL-based algorithm in this study that can automatically generate extracellular volume maps (ECV) without the need for post-contrast images [8].&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Given the pre-contrast native T1-mapping, their corresponding post-contrast T1-mapping, and the segmentation of the myocardium, perform the registration between pre-contrast and post-contrast imaging and calculate the extracellular volume (ECV) map, accordingly. For cases where HtK values are missing or outdated, HtK could be estimated by the native T1 relaxation time of blood by applying a regression model [7].&lt;/li&gt;
+&lt;li&gt;Given a database of the pre-contrast native T1-mapping, and their corresponding post-contrast T1-mapping and the computed/calculated extracellular volume (ECV) images of the patients’ cohort, we aim, with the power of deep learning, to model and generate virtual extracellular volume (ECV) maps. Different diseases such as acute myocarditis (Fig. 1a), Takutsubo cardiomyopathy (Fig. 1b), acute myocardial infarction, and chronic myocardial infarction show a distinctive pattern (Fig. 1c-e).&lt;/li&gt;
+&lt;li&gt;To avoid the requirements of one-to-one correspondences, the proposed algorithm should be trained on unpaired data. CycleGAN approach [2,3] or enhanced version with the perceptual embedding consistency [4] could be investigated in this context.&lt;/li&gt;
+&lt;li&gt;The virtual extracellular volume (ECV) should be evaluated against the ground-truth ECV images via common evaluation metrics such as Mean Square Error (MSE), Peak-Signal-to-Noise-Ratio (PSNR), Mean Absolute Error (MAE), Structural Similarity Index (SSIM), and relevant clinical measures such as the post-contrast T1-relaxation-time and the ECV.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Data cohort:&lt;/strong&gt;
+Pre- and post-contrast cardiac T1 relaxation time maps from a total of 1086 subjects are available for this project. For each subject, 3 short-axis images were acquired at a field strength of 1.5 Tesla at the University Hospital Bonn. All of these maps have already been assessed for image quality by a radiology resident, and the total number of slices with good or moderate image quality is 2472, from 922 different patients. In 92 of these patients, a Htk value was obtained with a time difference of less than 48h to the examination, in 511 patients within 30 days.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with the current literature on:&lt;/li&gt;
+&lt;li&gt;Cardiac Imaging and Extracellular Volume Mapping [1,8]&lt;/li&gt;
+&lt;li&gt;Image-to-Image Translation [2,6]&lt;/li&gt;
+&lt;li&gt;Image-to-Image Translation in Medical Domain [3,4,5]&lt;/li&gt;
+&lt;li&gt;Develop the baseline and proposed method&lt;/li&gt;
+&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
+&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[1] Haaf, P., Garg, P., Messroghli, D.R., Broadbent, D.A., Greenwood, J.P. and Plein, S., 2017. Cardiac T1 mapping and extracellular volume (ECV) in clinical practice: a comprehensive review. Journal of Cardiovascular Magnetic Resonance, 18(1), pp.1-12.&lt;/li&gt;
+&lt;li&gt;[2] Zhu, J.Y., Park, T., Isola, P. and Efros, A.A., 2017. Unpaired image-to-image translation using cycle-consistent adversarial networks. In Proceedings of the IEEE international conference on computer vision (pp. 2223-2232).&lt;/li&gt;
+&lt;li&gt;[3] Shaban, M.T., Baur, C., Navab, N. and Albarqouni, S., 2019, April. Staingan: Stain style transfer for digital histological images. In 2019 Ieee 16th international symposium on biomedical imaging (Isbi 2019) (pp. 953-956). IEEE.&lt;/li&gt;
+&lt;li&gt;[4] Lahiani, A., Navab, N., Albarqouni, S. and Klaiman, E., 2019, October. Perceptual embedding consistency for seamless reconstruction of tilewise style transfer. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 568-576). Springer, Cham.&lt;/li&gt;
+&lt;li&gt;[5] Zhang, Q., Burrage, M.K., Lukaschuk, E., Shanmuganathan, M., Popescu, I.A., Nikolaidou, C., Mills, R., Werys, K., Hann, E., Barutcu, A. and Polat, S.D., 2021. Toward replacing late gadolinium enhancement with artificial intelligence virtual native enhancement for gadolinium-free cardiovascular magnetic resonance tissue characterization in hypertrophic cardiomyopathy. Circulation, 144(8), pp.589-599.&lt;/li&gt;
+&lt;li&gt;[6] Xu, Y., Xie, S., Wu, W., Zhang, K., Gong, M. and Batmanghelich, K., 2022. Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation. CVPR 2022. arXiv preprint arXiv:2203.12707. 
+&lt;a href=&#34;https://github.com/batmanlab/MSPC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/batmanlab/MSPC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[7] Mesropyan, N., Kupczyk, P., Isaak, A., Endler, C., Faron, A., Dold, L., Sprinkart, A.M., Pieper, C.C., Kuetting, D., Attenberger, U. and Luetkens, J.A., 2021. Synthetic extracellular volume fraction without hematocrit sampling for hepatic applications. Abdominal Radiology, 46(10), pp.4637-4646.&lt;/li&gt;
+&lt;li&gt;[8] Chen, W., Doeblin, P., Al-Tabatabaee, S., Klingel, K., Tanacli, R., Jakob Weiß, K., Stehning, C., Patel, A.R., Pieske, B., Zou, J. and Kelle, S., 2022. Synthetic Extracellular Volume in Cardiac Magnetic Resonance Without Blood Sampling: a Reliable Tool to Replace Conventional Extracellular Volume. Circulation: Cardiovascular Imaging, 15(4), p.e013745.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

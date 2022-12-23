@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Benedikt Wiestler | Shadi Albarqouni</title>
+    <title>Benedikt Wiestler | Albarqouni Lab</title>
     <link>https://albarqouni.github.io/authors/benedikt-wiestler/</link>
       <atom:link href="https://albarqouni.github.io/authors/benedikt-wiestler/index.xml" rel="self" type="application/rss+xml" />
     <description>Benedikt Wiestler</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Thu, 22 Dec 2022 23:15:58 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Benedikt Wiestler</title>
       <link>https://albarqouni.github.io/authors/benedikt-wiestler/</link>
     </image>
+    
+    <item>
+      <title>Federated disentangled representation learning for unsupervised brain anomaly detection</title>
+      <link>https://albarqouni.github.io/publication/cite-key/</link>
+      <pubDate>Thu, 22 Dec 2022 23:15:58 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/cite-key/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Federated disentangled representation learning for unsupervised brain anomaly detection</title>
+      <link>https://albarqouni.github.io/publication/bercea-2022-federated/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bercea-2022-federated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROAM: Random layer mixup for semi-supervised learning in medical images</title>
+      <link>https://albarqouni.github.io/publication/bdair-2022-roam/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/bdair-2022-roam/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study</title>

@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Uncertainty | Shadi Albarqouni</title>
+    <title>Uncertainty | Albarqouni Lab</title>
     <link>https://albarqouni.github.io/tags/uncertainty/</link>
       <atom:link href="https://albarqouni.github.io/tags/uncertainty/index.xml" rel="self" type="application/rss+xml" />
     <description>Uncertainty</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2022</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Uncertainty</title>
       <link>https://albarqouni.github.io/tags/uncertainty/</link>
     </image>
+    
+    <item>
+      <title>What can we learn about a generated image corrupting its latent representation?</title>
+      <link>https://albarqouni.github.io/publication/tomczak-2022-can/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tomczak-2022-can/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation</title>
