@@ -5,12 +5,76 @@
     <link>https://albarqouni.github.io/publication/</link>
       <atom:link href="https://albarqouni.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2023</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://albarqouni.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Editorial for the Special Issue on the 2022 Medical Imaging with Deep Learning Conference</title>
+      <link>https://albarqouni.github.io/publication/albarqouni-2024-editorial/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/albarqouni-2024-editorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing oncological care: A guide to setting up a new multidisciplinary cancer cachexia clinic within a tertiary centre</title>
+      <link>https://albarqouni.github.io/publication/ko-2024-enhancing/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/ko-2024-enhancing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lvm-med: Learning large-scale self-supervised vision models for medical imaging via second-order graph matching</title>
+      <link>https://albarqouni.github.io/publication/mh-2024-lvm/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/mh-2024-lvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Federated Learning Methodology for Automatic Chest X-Ray Diagnosis</title>
+      <link>https://albarqouni.github.io/publication/del-2024-robust/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/del-2024-robust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital staining of white blood cells with confidence estimation</title>
+      <link>https://albarqouni.github.io/publication/tomczak-2023-digital/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/tomczak-2023-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FUTURE-AI: International consensus guideline for trustworthy and deployable artificial intelligence in healthcare</title>
+      <link>https://albarqouni.github.io/publication/lekadir-2023-future/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/lekadir-2023-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guest Editorial Special Issue on Federated Learning for Medical Imaging: Enabling Collaborative Development of Robust AI Models</title>
+      <link>https://albarqouni.github.io/publication/roth-2023-guest/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/roth-2023-guest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LYSTO: The lymphocyte assessment hackathon and benchmark dataset</title>
+      <link>https://albarqouni.github.io/publication/jiao-2023-lysto/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/jiao-2023-lysto/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Federated disentangled representation learning for unsupervised brain anomaly detection</title>
@@ -73,6 +137,14 @@
       <link>https://albarqouni.github.io/publication/melba-2022-011-bdair/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/publication/melba-2022-011-bdair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformer based models for unsupervised anomaly segmentation in brain MR images</title>
+      <link>https://albarqouni.github.io/publication/ghorbel-2022-transformer/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/ghorbel-2022-transformer/</guid>
       <description></description>
     </item>
     

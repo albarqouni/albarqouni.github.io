@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/authors/tri-cao/</link>
       <atom:link href="https://albarqouni.github.io/authors/tri-cao/index.xml" rel="self" type="application/rss+xml" />
     <description>Tri Cao</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2023</copyright><lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Tri Cao</title>
       <link>https://albarqouni.github.io/authors/tri-cao/</link>
     </image>
+    
+    <item>
+      <title>Lvm-med: Learning large-scale self-supervised vision models for medical imaging via second-order graph matching</title>
+      <link>https://albarqouni.github.io/publication/mh-2024-lvm/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/mh-2024-lvm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Joint Self-Supervised Image-Volume Representation Learning with Intra-Inter Contrastive Clustering</title>

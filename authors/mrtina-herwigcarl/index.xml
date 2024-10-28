@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Albarqouni Lab</title>
+    <link>https://albarqouni.github.io/authors/mrtina-herwigcarl/</link>
+      <atom:link href="https://albarqouni.github.io/authors/mrtina-herwigcarl/index.xml" rel="self" type="application/rss+xml" />
+    <description>Albarqouni Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright><lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
+      <title>Albarqouni Lab</title>
+      <link>https://albarqouni.github.io/authors/mrtina-herwigcarl/</link>
+    </image>
+    
+    <item>
+      <title>MA Thesis: Development of a Machine Learning Algorithm for Histopathological Classification of Conjunctival Melanocytic Intraepithelial Lesions</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning_conjunctival_melanocytic_intraepithelial_lesions/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning_conjunctival_melanocytic_intraepithelial_lesions/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Conjunctival Melanocytic Intraepithelial Lesions (CMIL) are a significant precursor to conjunctival melanoma, a rare but potentially fatal ocular cancer. The histopathological classification of CMIL is crucial for early diagnosis and treatment planning. Current diagnostic methods rely heavily on the subjective assessment of pathologists, leading to variability and potential inconsistencies in diagnosis, especially for low-grade lesions. To improve diagnostic accuracy and consistency, this thesis aims to develop a machine learning model capable of automatically classifying CMIL based on histopathological images. The model will be trained and validated using a diverse dataset of H&amp;amp;E-stained histopathological sections to achieve a high level of accuracy and reliability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Questions&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Can a machine learning model be developed to accurately classify CMIL in histopathological images?&lt;/li&gt;
+&lt;li&gt;What are the optimal preprocessing techniques for histopathological images to enhance model performance?&lt;/li&gt;
+&lt;li&gt;How does the machine learning model&amp;rsquo;s performance compare to that of expert pathologists in classifying CMIL?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Methodology&lt;/strong&gt;
+The methodology for this thesis involves several key steps to develop and validate a machine learning algorithm for CMIL classification. First, a comprehensive dataset of histopathological images, including hematoxylin-eosin (H&amp;amp;E) stained sections from at least 100 patients, will be compiled. The dataset will be carefully curated to include images with varying staining techniques and scanner types to ensure robustness and generalizability. The images will undergo preprocessing, including normalization and augmentation, to enhance the model&amp;rsquo;s performance. A convolutional neural network (CNN) will be developed and trained on 90% of the dataset, with 10% reserved for validation. The model&amp;rsquo;s performance will be rigorously evaluated against expert pathologists&amp;rsquo; classifications, using metrics such as accuracy, sensitivity, specificity, and Cohen’s kappa. The goal is to create a model that can provide objective, reproducible classifications that match or exceed the diagnostic accuracy of human experts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;
+The thesis will be completed within a 6-month period, following this structured timeline:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Month 1: Literature Review and Data Collection&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Conduct a comprehensive review of existing literature on CMIL and machine learning in histopathology.&lt;/li&gt;
+&lt;li&gt;Gather histopathological image data from collaborating clinics and institutions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 2: Data Preprocessing and Initial Analysis&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Preprocess collected data to ensure standardization and quality.&lt;/li&gt;
+&lt;li&gt;Perform exploratory data analysis to understand dataset characteristics and variability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 3: Model Development&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop and train the CNN model using the preprocessed dataset.&lt;/li&gt;
+&lt;li&gt;Experiment with various model architectures and hyperparameters to optimize performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 4: Model Optimization&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement data augmentation and regularization techniques to prevent overfitting.&lt;/li&gt;
+&lt;li&gt;Fine-tune model hyperparameters to achieve optimal performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 5: Evaluation and Validation&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Evaluate the model&amp;rsquo;s performance using the validation set and external datasets.&lt;/li&gt;
+&lt;li&gt;Compare AI model results with those from expert pathologists to assess diagnostic accuracy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 6: Thesis Writing and Defense Preparation&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Compile findings and insights into a comprehensive thesis document.&lt;/li&gt;
+&lt;li&gt;Prepare for the thesis defense and submit the final thesis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Damato B, Coupland SE. Management of conjunctival melanoma. Expert Rev Anticancer Ther. 2009.&lt;/li&gt;
+&lt;li&gt;Grossniklaus HE, Eberhart CG, Kivela TT, editors. WHO classification of tumors of the eye. 4th ed. Lyon: IARC.&lt;/li&gt;
+&lt;li&gt;Jakobiec FA, Folberg R, Iwamoto T. Clinicopathologic characteristics of premalignant and malignant melanocytic lesions of the conjunctiva. Ophthalmology. 1989.&lt;/li&gt;
+&lt;li&gt;Milman T, et al. Validation of the Newly Proposed World Health Organization Classification System for Conjunctival Melanocytic Intraepithelial Lesions. Am J Ophthalmol. 2021.&lt;/li&gt;
+&lt;li&gt;Mudhar HS, et al. A multicenter study validates the WHO 2022 classification of conjunctival melanocytic intraepithelial lesions. Lab Invest. 2024.&lt;/li&gt;
+&lt;li&gt;Jiang, F., et al. Artificial intelligence in healthcare: Past, present and future. Seminars in Cancer Biology, 2018.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

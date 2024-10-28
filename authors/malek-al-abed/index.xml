@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Albarqouni Lab</title>
+    <link>https://albarqouni.github.io/authors/malek-al-abed/</link>
+      <atom:link href="https://albarqouni.github.io/authors/malek-al-abed/index.xml" rel="self" type="application/rss+xml" />
+    <description>Albarqouni Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright><lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
+      <title>Albarqouni Lab</title>
+      <link>https://albarqouni.github.io/authors/malek-al-abed/</link>
+    </image>
+    
+    <item>
+      <title>MA Thesis: Deep Learning for Brain MRI Image Quality Transfer -- Not available</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Magnetic Resonance Imaging (MRI) plays a vital role in modern diagnostics, offering detailed, non-invasive insights into human anatomy [1-2]. High-field MRI (HF-MRI) systems, which operate at higher magnetic field strengths, provide superior image resolution and contrast compared to low-field MRI (LF-MRI) systems [3-4]. However, HF-MRI scanners are expensive and require significant maintenance, limiting their availability in resource-constrained environments where LF-MRI systems prevail. This disparity often leads to suboptimal diagnostic outcomes, underscoring the need to enhance the quality of LF-MRI images to the standard of HF-MRI [10].&lt;/p&gt;
+&lt;p&gt;Generative models, particularly diffusion models [5], have emerged as promising tools for image enhancement. They excel in generating high-fidelity, contextually coherent images by iteratively refining noisy data. Recent studies have demonstrated the potential of diffusion models in various imaging tasks, outperforming traditional techniques, including Generative Adversarial Networks (GANs). The proposed project aims to leverage diffusion models to improve LF-MRI image quality, bridging the gap between LF-MRI and HF-MRI and enhancing diagnostic accuracy [1-2].&lt;/p&gt;
+&lt;p&gt;The project aims to develop a 3D Conditional Diffusion Model specifically designed for enhancing LF-MRI images [6-8]. This model, named MagIQT, will integrate multiple innovative components that complement each other to address existing challenges in MRI image enhancement. The model will consist of a transformer-based encoder and a cross-batch mechanism, uniquely positioned to improve contextual information and reduce artifacts, thus advancing the current state-of-the-art. A recent review [9] summarizing the strengths and weaknesses of diffusion models in medical imaging will be further investigated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Q1) How effectively can a 3D conditional diffusion model enhance low-field MRI images to high-field MRI quality in terms of diagnostic accuracy and image fidelity compared to existing generative models [11]?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Q2) What are the specific contributions of the transformer-based encoder and cross-batch mechanism to the overall performance of the 3D conditional diffusion model in reducing artifacts and preserving anatomical details in MRI image enhancement?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Q3) How does the application of the 3D conditional diffusion model impact the detection and diagnosis of anomalies in pediatric MRI scans, particularly in identifying subtle pathologies that may be missed in low-field MRI?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
+A total of 50 patients were scanned on portable 64mT and standard 3T scanners at the Clinic for Neonatology and Pediatric Intensive Care Medicine at the University Hospital Bonn with T1-weighted, T2-weighted, and FLAIR acquisitions. Brain Imaging sequences require registration as a pre-processing step. Another cohort of unpaired 100 patients was scanned on either 64mT or 3T, which might be used for the model development. Additional datasets might be requested from the authors of [11-12].&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with the current literature [5-9]&lt;/li&gt;
+&lt;li&gt;Build the baseline supervised model and develop the anomaly detection model.&lt;/li&gt;
+&lt;li&gt;Run the necessary comparisons.&lt;/li&gt;
+&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
+&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Barkovich, A. James. Pediatric neuroimaging. Lippincott Williams &amp;amp; Wilkins, 2005.&lt;/li&gt;
+&lt;li&gt;Atlas, Scott W., ed. Magnetic resonance imaging of the brain and spine. Vol. 1. Lippincott Williams &amp;amp; Wilkins, 2009.&lt;/li&gt;
+&lt;li&gt;Campbell‐Washburn, Adrienne E., et al. &amp;ldquo;Low‐field MRI: a report on the 2022 ISMRM workshop.&amp;rdquo; Magnetic resonance in medicine 90.4 (2023): 1682-1694.&lt;/li&gt;
+&lt;li&gt;Arnold, Thomas Campbell, et al. &amp;ldquo;Low‐field MRI: clinical promise and challenges.&amp;rdquo; Journal of Magnetic Resonance Imaging 57.1 (2023): 25-44.&lt;/li&gt;
+&lt;li&gt;Ho, Jonathan, Ajay Jain, and Pieter Abbeel. &amp;ldquo;Denoising diffusion probabilistic models.&amp;rdquo; Advances in neural information processing systems 33 (2020): 6840-6851.&lt;/li&gt;
+&lt;li&gt;Kim, S., et al. &amp;ldquo;A 3D Conditional Diffusion Model for Image Quality Transfer - An Application to Low-Field MRI.&amp;rdquo; 1st Workshop on Deep Generative Models for Health at NeurIPS 2023. 
+&lt;a href=&#34;https://github.com/edshkim98/DiffusionIQT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt; .&lt;/li&gt;
+&lt;li&gt;Cechnicka, S., et al. &amp;ldquo;Ultra-Resolution Cascaded Diffusion Model for Gigapixel Image Synthesis in Histopathology.&amp;rdquo; NeurIPS 2023. 
+&lt;a href=&#34;https://arxiv.org/abs/2312.01152&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Islam, Kh Tohidul, et al. &amp;ldquo;Improving portable low-field MRI image quality through image-to-image translation using paired low-and high-field images.&amp;rdquo; Scientific Reports 13.1 (2023): 21183. [Link] (
+&lt;a href=&#34;https://github.com/khtohidulislam/LoHiResGAN%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/khtohidulislam/LoHiResGAN)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Kazerouni, Amirhossein, et al. &amp;ldquo;Diffusion models in medical imaging: A comprehensive survey.&amp;rdquo; Medical Image Analysis 88 (2023): 102846.&lt;/li&gt;
+&lt;li&gt;Kimberly, W. Taylor, et al. &amp;ldquo;Brain imaging with portable low-field MRI.&amp;rdquo; Nature reviews bioengineering 1.9 (2023): 617-630.&lt;/li&gt;
+&lt;li&gt;Lucas, Alfredo, et al. &amp;ldquo;Multi-contrast high-field quality image synthesis for portable low-field MRI using generative adversarial networks and paired data.&amp;rdquo; medRxiv (2023).&lt;/li&gt;
+&lt;li&gt;Arnold, T. Campbell, et al. &amp;ldquo;Sensitivity of portable low-field magnetic resonance imaging for multiple sclerosis lesions.&amp;rdquo; NeuroImage: Clinical 35 (2022): 103101.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

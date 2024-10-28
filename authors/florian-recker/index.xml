@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>florian-recker | Albarqouni Lab</title>
+    <link>https://albarqouni.github.io/authors/florian-recker/</link>
+      <atom:link href="https://albarqouni.github.io/authors/florian-recker/index.xml" rel="self" type="application/rss+xml" />
+    <description>florian-recker</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright><lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
+      <title>florian-recker</title>
+      <link>https://albarqouni.github.io/authors/florian-recker/</link>
+    </image>
+    
+    <item>
+      <title>BA/MA Thesis: Deep Learning for Fetal Diaphragmatic Hernias Detection in US Images</title>
+      <link>https://albarqouni.github.io/students/theses/ba_thesis_on_fetal_diaphragmatic_hernias_detection/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ba_thesis_on_fetal_diaphragmatic_hernias_detection/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Fetuses with diaphragmatic hernias face severe health and survival risks. Treatment and outcomes can be improved if this condition is detected early. Ultrasound measurement of the lung-to-head ratio (o/e LHR) is widely used in obstetric ultrasound procedures for the assessment of the observed to expected lung-to-head ratio. However, There is some difficulty when it comes to detecting diaphragmatic hernias with ultrasound imaging because of the overlap of tissues, the limited visibility, and the subjective interpretation of radiologists.  This project aims to develop a deep learning-based model to detect fetal diaphragmatic hernias in ultrasound images. The model will be trained on a relatively large dataset of abdominal and head fetal ultrasound images with and without diaphragmatic hernias to identify diaphragmatic hernias&amp;rsquo; patterns and features.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
+A total of 500 patients will be collected from our clinic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data collection (Nov):&lt;/strong&gt; A relatively large dataset of 500 fetal ultrasound images, including those with (~200) and without (~300) diaphragmatic hernias, will be collected from our in-house database. This requires going through a list of patients and doing the following steps: 1) Collect the right image view, e.g., head, lung, femur …etc.  (Every single patient has multiple scans and views, and you are supposed to screen the images and store the right view). 2) Annotate the measurements, e.g. head circumstance, lung size, and femur length, among others, and report them in an Excel sheet. 3) Data pre-processing (Dec. – Jan.): The collected images will be pre-processed to enhance the visibility of diaphragmatic hernias and reduce the impact of overlapping tissues. This involves running a few basic image processing algorithms, e.g., image filtering and inpainting methods.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model development (Feb.-Mar.):&lt;/strong&gt; A deep learning-based model will be developed using convolutional neural networks (CNNs) to train the segmentation model and will be evaluated using various metrics, such as accuracy, sensitivity, and specificity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Writing up&lt;/strong&gt; the Bachelor thesis (Apr).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.hopkinsmedicine.org/gynecology_obstetrics/specialty_areas/fetal_therapy/conditions-we-treat/congenital_diaphragmatic_hernia.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.hopkinsmedicine.org/gynecology_obstetrics/specialty_areas/fetal_therapy/conditions-we-treat/congenital_diaphragmatic_hernia.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Amodeo, Ilaria, et al. &amp;ldquo;A maChine and deep Learning Approach to predict pulmoNary hyperteNsIon in newbornS with congenital diaphragmatic Hernia (CLANNISH): Protocol for a retrospective study.&amp;rdquo; Plos one 16.11 (2021): e0259724.&lt;/li&gt;
+&lt;li&gt;Russo, Francesca Maria, et al. &amp;ldquo;Proposal for standardized prenatal ultrasound assessment of the fetus with congenital diaphragmatic hernia by the European reference network on rare inherited and congenital anomalies (ERNICA).&amp;rdquo; Prenatal diagnosis 38.9 (2018): 629-637.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

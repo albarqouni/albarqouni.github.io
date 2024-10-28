@@ -5,7 +5,7 @@
     <link>https://albarqouni.github.io/students/</link>
       <atom:link href="https://albarqouni.github.io/students/index.xml" rel="self" type="application/rss+xml" />
     <description>Students</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2023</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Students</title>
@@ -13,9 +13,468 @@
     </image>
     
     <item>
-      <title>MA Thesis: Deep Learning based detection model of the temporal and axillary artery in suspected giant cell arteritis in ultrasound images</title>
+      <title>Seminar: Artificial Intelligence in Radiology: Applications and Research</title>
+      <link>https://albarqouni.github.io/students/courses/air/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/courses/air/</guid>
+      <description>&lt;h2 id=&#34;seminar-2-sws-artificial-intelligence-in-radiology-applications-and-research-artifizielle-intelligenz-in-der-radiologie-anwendungen-und-forschung&#34;&gt;Seminar (2 SWS): Artificial Intelligence in Radiology: Applications and Research (Artifizielle Intelligenz in der Radiologie: Anwendungen und Forschung)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Lecturers:&lt;/strong&gt; 
+&lt;a href=&#34;../../../authors/admin/&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutors:&lt;/strong&gt; 
+&lt;a href=&#34;../../../authors/elodie-germani/&#34;&gt;Dr. Elodie Germani&lt;/a&gt;, 
+&lt;a href=&#34;%28../../../authors/david-gaviria/%29&#34;&gt;David Gaviria&lt;/a&gt;, 
+&lt;a href=&#34;../../../authors/yiheng-xiong&#34;&gt;Yiheneg Xiong&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; November 15 – Jan 31 (every Friday, 11:30 AM - 1:00 PM) (tentative)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Format:&lt;/strong&gt; Online (Zoom Meeting) with potential face-to-face meetings, if participants interested!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Language:&lt;/strong&gt; English&lt;/p&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;The Computational Imaging Research (Albarqouni Lab) at the Clinic of Diagnostic and Interventional Radiology at the University Hospital Bonn is pleased to present a seminar on &lt;em&gt;Artificial Intelligence in Radiology: Applications and Research.&lt;/em&gt; This cutting-edge seminar, spanning two semester hours per week (2 SWS), is specially curated for medical students to explore the transformative role of deep learning in medical imaging, with a focus on tasks such as classification, detection, segmentation, reconstruction, tracking, and disease progression.&lt;/p&gt;
+&lt;h3 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h3&gt;
+&lt;p&gt;Upon completing this seminar, students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Grasp deep learning concepts and their specific applications in medical imaging.&lt;/li&gt;
+&lt;li&gt;Analyze advanced image analysis tasks, including classification, detection, segmentation, and disease progression modeling.&lt;/li&gt;
+&lt;li&gt;Evaluate ethical and regulatory considerations in the deployment of AI within healthcare.&lt;/li&gt;
+&lt;li&gt;Discuss the future potential of AI-driven solutions in personalized medicine and patient care.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;target-audience&#34;&gt;Target Audience&lt;/h3&gt;
+&lt;p&gt;This seminar is designed for medical students at the Faculty of Medicine, University Hospital Bonn, who are keen on leveraging AI technologies to enhance their medical practice, specifically within diagnostic imaging.&lt;/p&gt;
+&lt;h3 id=&#34;prerequisites-and-desired-knowledge&#34;&gt;Prerequisites and Desired Knowledge&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt; Familiarity with fundamental medical imaging techniques and an interest in AI applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desired:&lt;/strong&gt; Understanding of medical diagnostics and clinical data interpretation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;credit-hours&#34;&gt;Credit Hours&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total Contact Hours:&lt;/strong&gt; 2 SWS (Semester Weekly Hours)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;seminar-topics-and-schedule&#34;&gt;Seminar Topics and Schedule&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Topic&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Materials&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nov 15&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Introduction to Medical Imaging&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Overview of imaging modalities (X-ray, MRI, CT, ultrasound) and their role in diagnostics.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nov 22&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Deep Learning Foundations&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Introduction to deep learning concepts specific to medical imaging.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nov 29&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Classification in Medical Imaging&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Exploring classification techniques in diagnosing diseases from medical images.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dec 6&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Detection and Segmentation&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Deep learning methods for detecting and segmenting key structures in medical images.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dec 13&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Reconstruction Techniques&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Using deep learning to reconstruct high-quality images from raw data, including noise reduction.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dec 20&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Tracking and Disease Progression&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Applying AI to track anatomical changes and model disease progression over time.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Jan 10&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Advanced Topics&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Advanced AI techniques for personalized medicine.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Jan 17&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Student Paper Presentations (1)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Students present research papers on deep learning in medical imaging.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Jan 24&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Student Paper Presentations (2)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Continuation of student presentations.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Jan 31&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Course Wrap-up and Future Perspectives&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Summary, feedback, and discussion on future AI applications in medical practice.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;learning-format&#34;&gt;Learning Format&lt;/h3&gt;
+&lt;p&gt;One of the seminar’s unique teaching concepts is “Teach It to Yourself.” Participants (limited to 20 partisipants) will present selected chapter and papers, engage in discussions, and critically analyze case studies on deep learning applications in medical imaging.&lt;/p&gt;
+&lt;h3 id=&#34;registration&#34;&gt;Registration&lt;/h3&gt;
+&lt;p&gt;Interested in this seminar, please register via email to 
+&lt;a href=&#34;../../../authors/elodie-germani/&#34;&gt;Dr. Elodie Germani&lt;/a&gt; and 
+&lt;a href=&#34;../../../authors/admin/&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MA Thesis: Development of a Machine Learning Algorithm for Histopathological Classification of Conjunctival Melanocytic Intraepithelial Lesions</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning_conjunctival_melanocytic_intraepithelial_lesions/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning_conjunctival_melanocytic_intraepithelial_lesions/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Conjunctival Melanocytic Intraepithelial Lesions (CMIL) are a significant precursor to conjunctival melanoma, a rare but potentially fatal ocular cancer. The histopathological classification of CMIL is crucial for early diagnosis and treatment planning. Current diagnostic methods rely heavily on the subjective assessment of pathologists, leading to variability and potential inconsistencies in diagnosis, especially for low-grade lesions. To improve diagnostic accuracy and consistency, this thesis aims to develop a machine learning model capable of automatically classifying CMIL based on histopathological images. The model will be trained and validated using a diverse dataset of H&amp;amp;E-stained histopathological sections to achieve a high level of accuracy and reliability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Questions&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Can a machine learning model be developed to accurately classify CMIL in histopathological images?&lt;/li&gt;
+&lt;li&gt;What are the optimal preprocessing techniques for histopathological images to enhance model performance?&lt;/li&gt;
+&lt;li&gt;How does the machine learning model&amp;rsquo;s performance compare to that of expert pathologists in classifying CMIL?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Methodology&lt;/strong&gt;
+The methodology for this thesis involves several key steps to develop and validate a machine learning algorithm for CMIL classification. First, a comprehensive dataset of histopathological images, including hematoxylin-eosin (H&amp;amp;E) stained sections from at least 100 patients, will be compiled. The dataset will be carefully curated to include images with varying staining techniques and scanner types to ensure robustness and generalizability. The images will undergo preprocessing, including normalization and augmentation, to enhance the model&amp;rsquo;s performance. A convolutional neural network (CNN) will be developed and trained on 90% of the dataset, with 10% reserved for validation. The model&amp;rsquo;s performance will be rigorously evaluated against expert pathologists&amp;rsquo; classifications, using metrics such as accuracy, sensitivity, specificity, and Cohen’s kappa. The goal is to create a model that can provide objective, reproducible classifications that match or exceed the diagnostic accuracy of human experts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;
+The thesis will be completed within a 6-month period, following this structured timeline:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Month 1: Literature Review and Data Collection&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Conduct a comprehensive review of existing literature on CMIL and machine learning in histopathology.&lt;/li&gt;
+&lt;li&gt;Gather histopathological image data from collaborating clinics and institutions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 2: Data Preprocessing and Initial Analysis&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Preprocess collected data to ensure standardization and quality.&lt;/li&gt;
+&lt;li&gt;Perform exploratory data analysis to understand dataset characteristics and variability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 3: Model Development&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop and train the CNN model using the preprocessed dataset.&lt;/li&gt;
+&lt;li&gt;Experiment with various model architectures and hyperparameters to optimize performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 4: Model Optimization&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement data augmentation and regularization techniques to prevent overfitting.&lt;/li&gt;
+&lt;li&gt;Fine-tune model hyperparameters to achieve optimal performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 5: Evaluation and Validation&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Evaluate the model&amp;rsquo;s performance using the validation set and external datasets.&lt;/li&gt;
+&lt;li&gt;Compare AI model results with those from expert pathologists to assess diagnostic accuracy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Month 6: Thesis Writing and Defense Preparation&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Compile findings and insights into a comprehensive thesis document.&lt;/li&gt;
+&lt;li&gt;Prepare for the thesis defense and submit the final thesis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Damato B, Coupland SE. Management of conjunctival melanoma. Expert Rev Anticancer Ther. 2009.&lt;/li&gt;
+&lt;li&gt;Grossniklaus HE, Eberhart CG, Kivela TT, editors. WHO classification of tumors of the eye. 4th ed. Lyon: IARC.&lt;/li&gt;
+&lt;li&gt;Jakobiec FA, Folberg R, Iwamoto T. Clinicopathologic characteristics of premalignant and malignant melanocytic lesions of the conjunctiva. Ophthalmology. 1989.&lt;/li&gt;
+&lt;li&gt;Milman T, et al. Validation of the Newly Proposed World Health Organization Classification System for Conjunctival Melanocytic Intraepithelial Lesions. Am J Ophthalmol. 2021.&lt;/li&gt;
+&lt;li&gt;Mudhar HS, et al. A multicenter study validates the WHO 2022 classification of conjunctival melanocytic intraepithelial lesions. Lab Invest. 2024.&lt;/li&gt;
+&lt;li&gt;Jiang, F., et al. Artificial intelligence in healthcare: Past, present and future. Seminars in Cancer Biology, 2018.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Call for Application for DAAD AInet Fellowship</title>
+      <link>https://albarqouni.github.io/students/calls/netai2024/</link>
+      <pubDate>Sat, 17 Aug 2024 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/calls/netai2024/</guid>
+      <description>&lt;p&gt;We are excited to announce that Albarqouni Lab is proud to be one of the host institutions for the prestigious DAAD AInet Fellowship, which is awarded twice a year to outstanding international early-career researchers in artificial intelligence. This fellowship offers a unique opportunity to join the Postdoctoral Networking Tour in Artificial Intelligence (Postdoc-NeT-AI), where awardees can engage with leading researchers in Germany, fostering collaborations and creating new research and career opportunities. At Albarqouni Lab, we are at the forefront of AI research in medical imaging, machine learning, and large language models, and have successfully hosted several AInet Fellows in the past. We invite interested applicants to apply and consider joining us to advance cutting-edge AI research in healthcare. More details can be found 
+&lt;a href=&#34;https://www.daad.de/en/the-daad/postdocnet/details-and-application/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MA Thesis: Investigating Bias in AI Algorithms for Breast Cancer Detection from Mammography Imaging: A Focus on Generalization to Unseen Populations</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_investigating_bias_in_ai_algorithms_for_breast_cancer_detection_in_mammography_imaging/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_investigating_bias_in_ai_algorithms_for_breast_cancer_detection_in_mammography_imaging/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Breast density is a critical factor in breast cancer risk and detection, influencing the effectiveness of mammography. Higher breast density, characterized by a greater proportion of fibroglandular tissue relative to fatty tissue, is associated with a four- to sixfold increase in breast cancer risk. This risk is compounded by the fact that dense tissue can mask tumors on mammograms, reducing diagnostic sensitivity. Breast density typically decreases with age, particularly after menopause. However, this relationship is not uniform across all populations.&lt;/p&gt;
+&lt;p&gt;For instance, the study by Checka et al. (2012) [1] revealed that while 74% of women aged 40-49 had dense breasts, this percentage declined to 57% in women aged 50-59, and further to 36% in women aged 70-79. Notably, a significant portion of older women still possessed dense breasts, challenging the assumption that breast density diminishes uniformly with age. Similarly, Advani et al. (2021) [2] explored breast density among women aged 65 years and older, revealing that even in this older demographic, breast density remains a significant risk factor. The study found that 31.5% of women aged 65-74 had heterogeneously or extremely dense breasts, compared to 30.5% of those aged 75 and older. This persistence of high breast density in older women suggests that age alone is not a sufficient predictor of breast density.&lt;/p&gt;
+&lt;p&gt;Breast density and its impact on cancer detection vary significantly across different demographic groups. The studies highlight that certain racial and ethnic groups, such as Asian women, are more likely to have dense breasts, which may necessitate different screening protocols. Moreover, body mass index (BMI) also influences breast density, with lower BMI being associated with higher breast density, particularly in older women. For example, Advani et al. (2021) [2] found that 53.5% of women with heterogeneously or extremely dense breasts had a normal BMI, compared to 39.0% of women with scattered fibroglandular densities.&lt;/p&gt;
+&lt;p&gt;This project aims to investigate any potential biases in deep learning models trained predominantly on data from Western populations—primarily from Europe and the USA— and its generalization on data coming from different demographics. We hypothesize that these models may not adequately account for the variability in breast density across different demographic groups, leading to less accurate risk assessments and detection in non-Western populations.&lt;/p&gt;
+&lt;p&gt;The integration of deep learning (DL) models into mammography for breast cancer risk prediction has shown significant potential, yet there remains a notable research gap in understanding the implications of demographic variability on model performance. While existing models, such as the Tyrer-Cuzick model, have incorporated risk factors like breast density, these models have limitations, particularly when applied to diverse populations. Many DL models are trained on data from predominantly Western populations, which raises concerns about their generalizability and accuracy in non-Western or minority groups.&lt;/p&gt;
+&lt;p&gt;Moreover, the phenomenon of automation bias, as highlighted by Dratsch et al. (2023) [3], poses an additional challenge, particularly when AI systems are integrated into the radiology workflow. The risk of radiologists overly relying on AI suggestions without critical engagement is a significant concern, especially when the AI systems themselves may be biased due to the data they were trained on. This bias, coupled with the underrepresentation of diverse demographics in training datasets, underscores a critical gap in the current research landscape.&lt;/p&gt;
+&lt;p&gt;Given the complexities associated with breast density and its variation across demographics, it is crucial to develop and validate deep learning models that are sensitive to these differences. Such models should be trained on diverse datasets that reflect the global population, ensuring that they can accurately assess breast cancer risk and detect lesions in women from various demographic backgrounds. This approach will help mitigate the biases inherent in current models and improve the effectiveness of breast cancer screening worldwide.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Q1) How does the performance of deep learning models for breast cancer risk prediction vary across different demographic groups, particularly those underrepresented in the training data?&lt;/li&gt;
+&lt;li&gt;Q2) How do breast density and age affect the accuracy of DL-based breast cancer risk prediction models in non-Western populations?&lt;/li&gt;
+&lt;li&gt;Q3) How can AI-induced automation bias be mitigated in mammography to ensure equitable and accurate breast cancer screening across diverse populations?&lt;/li&gt;
+&lt;li&gt;Q4) What strategies can be employed to improve the generalizability of DL models in breast cancer risk prediction across various demographic groups?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
+The landscape of publicly available mammography datasets is rich with resources critical for advancing breast cancer research, particularly in the development of deep learning models. The 
+&lt;a href=&#34;http://www.eng.usf.edu/cvprg/Mammography/Database.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Database for Screening Mammography (DDSM)&lt;/a&gt;, from the &lt;strong&gt;USA&lt;/strong&gt;, provides over 10,000 images with detailed lesion annotations and BI-RADS categorizations, though it lacks explicit demographic data. 
+&lt;a href=&#34;https://academictorrents.com/details/ce1ecade37814701ac95193a910a3c6917ea43b3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;INbreast&lt;/a&gt; offers 410 images, from &lt;strong&gt;Portugal&lt;/strong&gt;, with comprehensive annotations, including lesion contours and breast density. The 
+&lt;a href=&#34;https://www.cancerimagingarchive.net/collection/cbis-ddsm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curated Breast Imaging Subset of DDSM (CBIS-DDSM)&lt;/a&gt; refines DDSM data into 3,000 high-quality images with improved relevance for machine learning. The 
+&lt;a href=&#34;http://peipa.essex.ac.uk/info/mias.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mammographic Image Analysis Society (MIAS)&lt;/a&gt; Database contains 322 images from the &lt;strong&gt;UK&lt;/strong&gt;, categorized by breast density and abnormality type. Lastly, the 
+&lt;a href=&#34;https://medphys.royalsurrey.nhs.uk/omidb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OPTIMAM Mammography Image Database (OMI-DB)&lt;/a&gt; is a vast repository with over 100,000 mammograms from the &lt;strong&gt;UK&lt;/strong&gt;, rich in BI-RADS data and lesion annotations, serving as a vital resource for AI model training.&lt;/p&gt;
+&lt;p&gt;Besides, we have access to a couple of databases from different demographies, namely, 
+&lt;a href=&#34;https://vindr.ai/datasets/mammo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VinDr-Mammo&lt;/a&gt;, from &lt;strong&gt;Vietnam&lt;/strong&gt;, which consists of 5,000 four-view exams with breast-level assessment and finding annotations, and the 
+&lt;a href=&#34;https://www.cancerimagingarchive.net/collection/cmmd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chinese Mammography Database (CMMD)&lt;/a&gt; which consists of 1,775 patients from &lt;strong&gt;China&lt;/strong&gt; with benign or malignant breast disease, and 
+&lt;a href=&#34;https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KAUMD&lt;/a&gt;, from &lt;strong&gt;Saudi Arabia&lt;/strong&gt;, which provides around 1500 cases with a total of 5600 mammogram images with BI-RADS scores.  Besides, through our clinical partners, we have access to 1500 cases from &lt;strong&gt;Lebanon&lt;/strong&gt; and around 100 cases from the &lt;strong&gt;United Arab Emirates&lt;/strong&gt;.  All cases have at least a Mammography scan for both left and right sides with multiple views.&lt;/p&gt;
+&lt;p&gt;The BI-RADS  scores are reported and Malignant cases are biopsy proven. These datasets are indispensable for developing robust, generalizable AI models, though they vary in the level of demographic detail provided.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with the current literature [3-6]&lt;/li&gt;
+&lt;li&gt;Build the baseline supervised model.&lt;/li&gt;
+&lt;li&gt;Run the necessary comparisons.&lt;/li&gt;
+&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
+&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Checka, Cristina M., et al. &amp;ldquo;The relationship of mammographic density and age: implications for breast cancer screening.&amp;rdquo; American Journal of Roentgenology 198.3 (2012): W292-W295.&lt;/li&gt;
+&lt;li&gt;Advani, Shailesh M., et al. &amp;ldquo;Association of breast density with breast cancer risk among women aged 65 years or older by age group and body mass index.&amp;rdquo; JAMA network open 4.8 (2021): e2122810-e2122810.&lt;/li&gt;
+&lt;li&gt;Dratsch, Thomas, et al. &amp;ldquo;Automation bias in mammography: the impact of artificial intelligence BI-RADS suggestions on reader performance.&amp;rdquo; Radiology 307.4 (2023): e222176.&lt;/li&gt;
+&lt;li&gt;Yala, Adam, et al. &amp;ldquo;A deep learning mammography-based model for improved breast cancer risk prediction.&amp;rdquo; Radiology 292.1 (2019): 60-66.&lt;/li&gt;
+&lt;li&gt;Lotter, William, et al. &amp;ldquo;Robust breast cancer detection in mammography and digital breast tomosynthesis using an annotation-efficient deep learning approach.&amp;rdquo; Nature medicine 27.2 (2021): 244-249.&lt;/li&gt;
+&lt;li&gt;Zufiria, Blanca, et al. &amp;ldquo;Analysis of potential biases on mammography datasets for deep learning model development.&amp;rdquo; International Workshop on Applications of Medical AI. Cham: Springer Nature Switzerland, 2022.&lt;/li&gt;
+&lt;li&gt;Hamidinekoo, Azam, et al. &amp;ldquo;Deep learning in mammography and breast histology, an overview and future trends.&amp;rdquo; Medical image analysis 47 (2018): 45-67.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MA Thesis: Deep Learning for Brain MRI Image Quality Transfer -- Not available</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Magnetic Resonance Imaging (MRI) plays a vital role in modern diagnostics, offering detailed, non-invasive insights into human anatomy [1-2]. High-field MRI (HF-MRI) systems, which operate at higher magnetic field strengths, provide superior image resolution and contrast compared to low-field MRI (LF-MRI) systems [3-4]. However, HF-MRI scanners are expensive and require significant maintenance, limiting their availability in resource-constrained environments where LF-MRI systems prevail. This disparity often leads to suboptimal diagnostic outcomes, underscoring the need to enhance the quality of LF-MRI images to the standard of HF-MRI [10].&lt;/p&gt;
+&lt;p&gt;Generative models, particularly diffusion models [5], have emerged as promising tools for image enhancement. They excel in generating high-fidelity, contextually coherent images by iteratively refining noisy data. Recent studies have demonstrated the potential of diffusion models in various imaging tasks, outperforming traditional techniques, including Generative Adversarial Networks (GANs). The proposed project aims to leverage diffusion models to improve LF-MRI image quality, bridging the gap between LF-MRI and HF-MRI and enhancing diagnostic accuracy [1-2].&lt;/p&gt;
+&lt;p&gt;The project aims to develop a 3D Conditional Diffusion Model specifically designed for enhancing LF-MRI images [6-8]. This model, named MagIQT, will integrate multiple innovative components that complement each other to address existing challenges in MRI image enhancement. The model will consist of a transformer-based encoder and a cross-batch mechanism, uniquely positioned to improve contextual information and reduce artifacts, thus advancing the current state-of-the-art. A recent review [9] summarizing the strengths and weaknesses of diffusion models in medical imaging will be further investigated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Q1) How effectively can a 3D conditional diffusion model enhance low-field MRI images to high-field MRI quality in terms of diagnostic accuracy and image fidelity compared to existing generative models [11]?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Q2) What are the specific contributions of the transformer-based encoder and cross-batch mechanism to the overall performance of the 3D conditional diffusion model in reducing artifacts and preserving anatomical details in MRI image enhancement?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Q3) How does the application of the 3D conditional diffusion model impact the detection and diagnosis of anomalies in pediatric MRI scans, particularly in identifying subtle pathologies that may be missed in low-field MRI?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
+A total of 50 patients were scanned on portable 64mT and standard 3T scanners at the Clinic for Neonatology and Pediatric Intensive Care Medicine at the University Hospital Bonn with T1-weighted, T2-weighted, and FLAIR acquisitions. Brain Imaging sequences require registration as a pre-processing step. Another cohort of unpaired 100 patients was scanned on either 64mT or 3T, which might be used for the model development. Additional datasets might be requested from the authors of [11-12].&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with the current literature [5-9]&lt;/li&gt;
+&lt;li&gt;Build the baseline supervised model and develop the anomaly detection model.&lt;/li&gt;
+&lt;li&gt;Run the necessary comparisons.&lt;/li&gt;
+&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
+&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Barkovich, A. James. Pediatric neuroimaging. Lippincott Williams &amp;amp; Wilkins, 2005.&lt;/li&gt;
+&lt;li&gt;Atlas, Scott W., ed. Magnetic resonance imaging of the brain and spine. Vol. 1. Lippincott Williams &amp;amp; Wilkins, 2009.&lt;/li&gt;
+&lt;li&gt;Campbell‐Washburn, Adrienne E., et al. &amp;ldquo;Low‐field MRI: a report on the 2022 ISMRM workshop.&amp;rdquo; Magnetic resonance in medicine 90.4 (2023): 1682-1694.&lt;/li&gt;
+&lt;li&gt;Arnold, Thomas Campbell, et al. &amp;ldquo;Low‐field MRI: clinical promise and challenges.&amp;rdquo; Journal of Magnetic Resonance Imaging 57.1 (2023): 25-44.&lt;/li&gt;
+&lt;li&gt;Ho, Jonathan, Ajay Jain, and Pieter Abbeel. &amp;ldquo;Denoising diffusion probabilistic models.&amp;rdquo; Advances in neural information processing systems 33 (2020): 6840-6851.&lt;/li&gt;
+&lt;li&gt;Kim, S., et al. &amp;ldquo;A 3D Conditional Diffusion Model for Image Quality Transfer - An Application to Low-Field MRI.&amp;rdquo; 1st Workshop on Deep Generative Models for Health at NeurIPS 2023. 
+&lt;a href=&#34;https://github.com/edshkim98/DiffusionIQT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt; .&lt;/li&gt;
+&lt;li&gt;Cechnicka, S., et al. &amp;ldquo;Ultra-Resolution Cascaded Diffusion Model for Gigapixel Image Synthesis in Histopathology.&amp;rdquo; NeurIPS 2023. 
+&lt;a href=&#34;https://arxiv.org/abs/2312.01152&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Islam, Kh Tohidul, et al. &amp;ldquo;Improving portable low-field MRI image quality through image-to-image translation using paired low-and high-field images.&amp;rdquo; Scientific Reports 13.1 (2023): 21183. [Link] (
+&lt;a href=&#34;https://github.com/khtohidulislam/LoHiResGAN%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/khtohidulislam/LoHiResGAN)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Kazerouni, Amirhossein, et al. &amp;ldquo;Diffusion models in medical imaging: A comprehensive survey.&amp;rdquo; Medical Image Analysis 88 (2023): 102846.&lt;/li&gt;
+&lt;li&gt;Kimberly, W. Taylor, et al. &amp;ldquo;Brain imaging with portable low-field MRI.&amp;rdquo; Nature reviews bioengineering 1.9 (2023): 617-630.&lt;/li&gt;
+&lt;li&gt;Lucas, Alfredo, et al. &amp;ldquo;Multi-contrast high-field quality image synthesis for portable low-field MRI using generative adversarial networks and paired data.&amp;rdquo; medRxiv (2023).&lt;/li&gt;
+&lt;li&gt;Arnold, T. Campbell, et al. &amp;ldquo;Sensitivity of portable low-field magnetic resonance imaging for multiple sclerosis lesions.&amp;rdquo; NeuroImage: Clinical 35 (2022): 103101.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Summer School on Affordable AI (SAAI -- سعي)</title>
+      <link>https://albarqouni.github.io/students/courses/saai/</link>
+      <pubDate>Mon, 22 Jul 2024 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/courses/saai/</guid>
+      <description>&lt;p&gt;Our lab at Universitätsklinikum Bonn, The University of Bonn, and Helmholtz AI in cooperation with the Arab-German Young Academy of Sciences and Humanities (AGYA) are delighted to announce the upcoming   AGYA   Summer School on   Affordable Artificial Intelligence (SAAI -سعي) in Bonn, 22-26 July 2024.&lt;/p&gt;
+&lt;p&gt;The AGYA Summer School is designed to promote theoretical and experimental research in Affordable Artificial Intelligence (AI). Through a carefully curated interdisciplinary   curriculum, participants will explore the   fundamental principles, potential   applications, and the latest advancements in this dynamic scientific field with a multi-faceted focus engaging the academic fields of   health,   education, and   climate change.&lt;/p&gt;
+&lt;p&gt;With participation from   diverse academic backgrounds, we foster   knowledge transfer and   collaborative learning among approximately 30   under-/   graduates, and 12   faculty members from   Germany and   Arab countries.&lt;/p&gt;
+&lt;p&gt;Apply before 29th May 2024 and join us as we blend   cutting-edge AI with diverse   disciplines through   lectures, labs, and a real-world   hackathon. Travel tickets, accommodation, and catering will be covered for the whole 5 days of the summer school.&lt;/p&gt;
+&lt;p&gt;Further details about the summer school and the application: 
+&lt;a href=&#34;https://saai2024.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://saai2024.github.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BA/MA Thesis: Deep Learning for Fetal Diaphragmatic Hernias Detection in US Images</title>
+      <link>https://albarqouni.github.io/students/theses/ba_thesis_on_fetal_diaphragmatic_hernias_detection/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ba_thesis_on_fetal_diaphragmatic_hernias_detection/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Fetuses with diaphragmatic hernias face severe health and survival risks. Treatment and outcomes can be improved if this condition is detected early. Ultrasound measurement of the lung-to-head ratio (o/e LHR) is widely used in obstetric ultrasound procedures for the assessment of the observed to expected lung-to-head ratio. However, There is some difficulty when it comes to detecting diaphragmatic hernias with ultrasound imaging because of the overlap of tissues, the limited visibility, and the subjective interpretation of radiologists.  This project aims to develop a deep learning-based model to detect fetal diaphragmatic hernias in ultrasound images. The model will be trained on a relatively large dataset of abdominal and head fetal ultrasound images with and without diaphragmatic hernias to identify diaphragmatic hernias&amp;rsquo; patterns and features.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
+A total of 500 patients will be collected from our clinic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data collection (Nov):&lt;/strong&gt; A relatively large dataset of 500 fetal ultrasound images, including those with (~200) and without (~300) diaphragmatic hernias, will be collected from our in-house database. This requires going through a list of patients and doing the following steps: 1) Collect the right image view, e.g., head, lung, femur …etc.  (Every single patient has multiple scans and views, and you are supposed to screen the images and store the right view). 2) Annotate the measurements, e.g. head circumstance, lung size, and femur length, among others, and report them in an Excel sheet. 3) Data pre-processing (Dec. – Jan.): The collected images will be pre-processed to enhance the visibility of diaphragmatic hernias and reduce the impact of overlapping tissues. This involves running a few basic image processing algorithms, e.g., image filtering and inpainting methods.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model development (Feb.-Mar.):&lt;/strong&gt; A deep learning-based model will be developed using convolutional neural networks (CNNs) to train the segmentation model and will be evaluated using various metrics, such as accuracy, sensitivity, and specificity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Writing up&lt;/strong&gt; the Bachelor thesis (Apr).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.hopkinsmedicine.org/gynecology_obstetrics/specialty_areas/fetal_therapy/conditions-we-treat/congenital_diaphragmatic_hernia.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.hopkinsmedicine.org/gynecology_obstetrics/specialty_areas/fetal_therapy/conditions-we-treat/congenital_diaphragmatic_hernia.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Amodeo, Ilaria, et al. &amp;ldquo;A maChine and deep Learning Approach to predict pulmoNary hyperteNsIon in newbornS with congenital diaphragmatic Hernia (CLANNISH): Protocol for a retrospective study.&amp;rdquo; Plos one 16.11 (2021): e0259724.&lt;/li&gt;
+&lt;li&gt;Russo, Francesca Maria, et al. &amp;ldquo;Proposal for standardized prenatal ultrasound assessment of the fetus with congenital diaphragmatic hernia by the European reference network on rare inherited and congenital anomalies (ERNICA).&amp;rdquo; Prenatal diagnosis 38.9 (2018): 629-637.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Call for Participation at the Summer School on Affordable AI (SAAI -- سعي)</title>
+      <link>https://albarqouni.github.io/students/calls/saai2024/</link>
+      <pubDate>Wed, 15 May 2024 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/calls/saai2024/</guid>
+      <description>&lt;p&gt;Our lab at Universitätsklinikum Bonn, The University of Bonn, and Helmholtz AI in cooperation with the Arab-German Young Academy of Sciences and Humanities (AGYA) are delighted to announce the upcoming   AGYA   Summer School on   Affordable Artificial Intelligence (SAAI -سعي) in Bonn, 22-26 July 2024.&lt;/p&gt;
+&lt;p&gt;The AGYA Summer School is designed to promote theoretical and experimental research in Affordable Artificial Intelligence (AI). Through a carefully curated interdisciplinary   curriculum, participants will explore the   fundamental principles, potential   applications, and the latest advancements in this dynamic scientific field with a multi-faceted focus engaging the academic fields of   health,   education, and   climate change.&lt;/p&gt;
+&lt;p&gt;With participation from   diverse academic backgrounds, we foster   knowledge transfer and   collaborative learning among approximately 30   under-/   graduates, and 12   faculty members from   Germany and   Arab countries.&lt;/p&gt;
+&lt;p&gt;Apply before 29th May 2024 and join us as we blend   cutting-edge AI with diverse   disciplines through   lectures, labs, and a real-world   hackathon. Travel tickets, accommodation, and catering will be covered for the whole 5 days of the summer school.&lt;/p&gt;
+&lt;p&gt;Further details about the summer school and the application: 
+&lt;a href=&#34;https://saai2024.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://saai2024.github.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BA/MA Thesis: Deep Learning for Inherited Retinal Diseases Detection -- Not available</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_deep_learning_for_ird_fundus_imaging/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_deep_learning_for_ird_fundus_imaging/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Our project aims to improve the diagnosis of Inherited Retinal Dystrophies (IRDs), a group of rare retinal diseases impacting over 2 million people globally [1]. IRDs can lead to vision problems like night blindness, color blindness, tunnel vision, and eventual blindness, greatly affecting patients&amp;rsquo; and their families&amp;rsquo; quality of life [4]. With more than 20 different conditions falling under IRDs [1], we&amp;rsquo;re dedicated to addressing the specific needs of each affected individual, taking into account the age of onset, progression rate, and causative gene(s) [3].&lt;/p&gt;
+&lt;p&gt;IRDs are relatively rare, with an estimated prevalence of 1 in 16,500 to 1 in 4,000, often leading to misdiagnoses and a prolonged journey for patients, especially in low and middle-income countries (LMICs) [8,9]. Among the different IRD forms, Retinitis Pigmentosa (RP) is the most common. Still, other less-known conditions include Leber Congenital Amaurosis, cone or cone-rod dystrophies, Stargardt disease, and best vitelliform macular dystrophy [2,5]. Additionally, syndromic conditions like Usher syndrome and Bardet-Biedl syndrome manifest as a combination of eye and hearing issues [6,7].&lt;/p&gt;
+&lt;p&gt;Our goal is to use cutting-edge deep learning techniques to create a model that can detect abnormalities in Fundus images. By combining images with clinical signs, we aspire to provide an accurate and timely diagnosis for IRD patients worldwide, particularly those in LMICs. This innovation has the potential to positively impact the lives of thousands of IRD patients and enhance the efficiency and accuracy of IRD diagnoses on a global scale. Join us in this exciting journey to make a meaningful difference in the lives of those affected by IRDs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Q1) Would unsupervised learning, e.g., anomaly detection models, deliver an acceptable diagnosis rate for patients with different IRDs, most importantly RP?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Q2) Does adding clinical symptoms, if available, to the fundus images improve the diagnosis rate?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
+We expect to analyze more than 1,000 fundus images from healthy and IRDs. We will retrieve the healthy fundus images from the Kaggle database; namely (
+&lt;a href=&#34;https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k&lt;/a&gt;)  while the IRDs from the RIPS database (
+&lt;a href=&#34;https://www.icar.cnr.it/en/sites-rips-datasetrips/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.icar.cnr.it/en/sites-rips-datasetrips/)&lt;/a&gt;, (
+&lt;a href=&#34;https://www.kaggle.com/datasets/linchundan/fundusimage1000%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/datasets/linchundan/fundusimage1000)&lt;/a&gt;, and (
+&lt;a href=&#34;https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification)&lt;/a&gt;. We will test our algorithm on fundus images, collected from our Lebanese partner, of IRD patients who were genetically diagnosed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with the current literature [10-12]&lt;/li&gt;
+&lt;li&gt;Build the baseline supervised model and develop the anomaly detection model.&lt;/li&gt;
+&lt;li&gt;Run the necessary comparisons.&lt;/li&gt;
+&lt;li&gt;Equip the models with the Monte-Carlo Dropout for uncertainty estimation.&lt;/li&gt;
+&lt;li&gt;Equip the models with the visualization methods, e.g., INNvitstigate [22-23]&lt;/li&gt;
+&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
+&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Audo I, Bujakowska K, Orhan E, El Shamieh S, Sennlaub F, Guillonneau X, et al. The familial dementia gene revisited: a missense mutation revealed by whole-exome sequencing identifies ITM2B as a candidate gene underlying a novel autosomal dominant retinal dystrophy in a large family. Hum Mol Genet. 2014;23(2):491–501.&lt;/li&gt;
+&lt;li&gt;Awad M, Ouda O, El-Refy A, El-Feky FA, Mosa KA, Helmy M. FN-identify: novel restriction enzymes-based method for bacterial identification in absence of genome sequencing. Adv Bioinform. 2015;2015: 303605.&lt;/li&gt;
+&lt;li&gt;Belhassan K, Ouldim K, Sefiani AA. Genetics and genomic medicine in Morocco: the present hope can make the future bright. Mol Genet Genomic Med. 2016;4(6):588–98.&lt;/li&gt;
+&lt;li&gt;Bornmann L, Wagner C, Leydesdorff L. The geography of references in elite articles: Which countries contribute to the archives of knowledge? PLoS ONE. 2018;13(3): e0194805.&lt;/li&gt;
+&lt;li&gt;Brimo Alsaman MZ, Sallah H, Badawi R, Ghawi A, Shashaa MN, Kassem LH, Ghazal A. Syrian medical, dental and pharmaceutical publication in the last decade: a bibliometric analysis. Ann Med Surg. 2021;66: 102441.&lt;/li&gt;
+&lt;li&gt;Broadgate S, Yu J, Downes SM, Halford S. Unravelling the genetics of inherited retinal dystrophies: past, present and future. Prog Retin Eye Res. 2017;59:53–96.&lt;/li&gt;
+&lt;li&gt;Browne JL, Rees CO, van Delden JJM, Agyepong I, Grobbee DE, Edwin A, et al. The willingness to participate in biomedical research involving human beings in low- and middle-income countries: a systematic review. Trop Med Int Health. 2019;24(3):264–79.&lt;/li&gt;
+&lt;li&gt;Hamel C. Retinitis pigmentosa. Orphanet J. Rare Dis. 2006;1:40. doi: 10.1186/1750-1172-1-40.&lt;/li&gt;
+&lt;li&gt;Jaffal L, Mrad Z, Ibrahim M, Salami A, Audo I, Zeitz C, El Shamieh S. The research output of rod-cone dystrophy genetics. Orphanet J Rare Dis. 2022 Apr 23;17(1):175.&lt;/li&gt;
+&lt;li&gt;Chen, Ta-Ching, et al. &amp;ldquo;Artificial intelligence–assisted early detection of retinitis pigmentosa—the most common inherited retinal degeneration.&amp;rdquo; Journal of Digital Imaging 34 (2021): 948-958.&lt;/li&gt;
+&lt;li&gt;Tan, Tien-En, et al. &amp;quot; .&amp;quot; British journal of ophthalmology 105.9 (2021): 1187-1189.&lt;/li&gt;
+&lt;li&gt;Pontikos, Nikolas, et al. &amp;ldquo;Eye2Gene: prediction of causal inherited retinal disease gene from multimodal imaging using deep-learning.&amp;rdquo; (2022).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+Interested, please contact [Prof. Dr. Shadi Albarqouni](mailto:shadi.albarqouni@ukbonn.de)
+</description>
+    </item>
+    
+    <item>
+      <title>MA Thesis: Deep Learning based detection model of the temporal and axillary artery in suspected giant cell arteritis in ultrasound images -- Not available</title>
       <link>https://albarqouni.github.io/students/theses/ma_thesis_on_deep_learning_for_gca_detection_in_us_images/</link>
-      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_deep_learning_for_gca_detection_in_us_images/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Giant cell arteritis (GCA) is a systemic autoimmune disease marked by inflammation of blood vessels (&amp;ldquo;vasculitis&amp;rdquo;) that can cause impairment and damage to organs [1]. GCA typically affects large and medium size arteries, such as the aorta and the temporal and axillary arteries [2–4]. It is considered the most common form of systemic vasculitis in adults [5–8], older than 50 years, in Europe [5,9,10] and the USA. Every week, we diagnose one to two new patients with GCA in our department. A diagnosis of GCA must be made as soon as possible through ultrasound verification or falsification as it is a severe rheumatologic and ophthalmologic emergency that can cause permanent vision loss in up to 50% of patients [11,12]. One way to early diagnose GCA is by observing whether hypoechoic wall thickening of the superficial temporal artery is present and measurable in Ultrasound (US) imaging (Fig.1).  US devices are widely available and easily accessible because they are noninvasive, patient-friendly, and cost-effective [13]. Moreover, they offer a superior image resolution of less than 0.1mm when used in modern transducers [14]. Although the US can be used to detect GCA [15], expertise in the interpretation of the resulting images is still lacking, and ultrasound specialists are not readily available for the GCA diagnosis.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Aim.&lt;/strong&gt; To this end, we aim to develop a deep learning-based model which detects the temporal and axillary artery wall thickening in suspected GCA in US images, basically classifying the images whether abnormal or not. Such a model would have an impact on the throughput and precision of the US diagnosis of GCA.&lt;/p&gt;
@@ -85,7 +544,29 @@
     </item>
     
     <item>
-      <title>MA Thesis: Deep Learning based model for detection and grading of prostate cancer using mpMRI and MR-Fingerprinting</title>
+      <title>Autumn School on AI (EEDA -- ايدا)</title>
+      <link>https://albarqouni.github.io/students/courses/eeda/</link>
+      <pubDate>Thu, 14 Dec 2023 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/courses/eeda/</guid>
+      <description>&lt;p&gt;Welcome/Willkommen (de)/اهلا وسهلا (ar) to the AI Autumn School, one of the measures of our project on affordablE collaborativE learning for global Digital heAlth (EEDA – ايدا), a platform where academia meets innovation, and global collaboration sparks intellectual excellence. Through the partnership of Albarqouni Lab at the University Hospital Bonn, University of Bonn and Helmholtz Munich in Germany and the Faculty of Health Sciences at Beirut Arab University in Lebanon, we offer an enriching educational experience that marries cutting-edge AI advancements with multi-discplines through lectures, hands-on labs, and real-world hackathon led by faculty and skilled tutors. Further details about the autumn school and the application: 
+&lt;a href=&#34;https://eeda2023.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://eeda2023.github.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Call for Participation at the Autumn School on AI (EEDA -- ايدا)</title>
+      <link>https://albarqouni.github.io/students/calls/eeda2023/</link>
+      <pubDate>Fri, 10 Nov 2023 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/calls/eeda2023/</guid>
+      <description>&lt;p&gt;Our lab at Universitätsklinikum Bonn, The University of Bonn, and Helmholtz Munich in cooperation with the Faculty of Health Sciences at Beirut Arab University are delighted to announce the upcoming  EEDA Autumn School on Artificial Intelligence (EEDA &amp;ndash; ايدا) in Bonn, 14-18 Dec 2023.  Thanks to DAAD German Academic Exchange Service and the Auswärtiges Amt (Federal Foreign Office) Germany, this initiative exemplifies our dedication to global collaborative learning for digital health&lt;/p&gt;
+&lt;p&gt;Apply before 10th Nov. 2023 and join us as we blend  cutting-edge AI with diverse disciplines through   lectures, labs, and a real-world  hackathon. Travel tickets, accommodation, and catering will be covered for the whole 5 days of the autumn school.&lt;/p&gt;
+&lt;p&gt;Further details about the summer school and the application: 
+&lt;a href=&#34;https://eeda2023.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://eeda2023.github.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MA Thesis: Deep Learning based model for detection and grading of prostate cancer using mpMRI and MR-Fingerprinting -- Not available</title>
       <link>https://albarqouni.github.io/students/theses/ma_thesis_automatic_detection_and_grading_of_prostate_cancer/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://albarqouni.github.io/students/theses/ma_thesis_automatic_detection_and_grading_of_prostate_cancer/</guid>
@@ -159,58 +640,6 @@
 &lt;li&gt;Engels, R.R., Israël, B., Padhani, A.R. and Barentsz, J.O., 2020. Multiparametric magnetic resonance imaging for the detection of clinically significant prostate cancer: what urologists need to know. Part 1: acquisition. European urology, 77(4), pp.457-468.&lt;/li&gt;
 &lt;li&gt;Israel, B., van der Leest, M., Sedelaar, M., Padhani, A.R., Zamecnik, P. and Barentsz, J.O., 2020. Multiparametric magnetic resonance imaging for the detection of clinically significant prostate cancer: what urologists need to know. Part 2: interpretation. European urology, 77(4), pp.469-480.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/font&gt;
-&lt;p&gt;Interested, please contact 
-&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MA Thesis: Deep Learning-based method for virtual ECV in cardiac magnetic resonance imaging</title>
-      <link>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</link>
-      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Diseases of the cardiovascular system are among the most common diseases worldwide and are the leading cause of death. The World Health Organization (WHO) estimates that about 17.9 million people die of cardiovascular diseases each year worldwide. In particular, diseases of the heart muscle, for example in the context of a heart attack or myocarditis, are of great relevance here. In order to be able to examine such diseases in a targeted manner and as gently as possible, the MRI examination of the heart has become increasingly established and further developed over the last decades. It captures the entire heart non-invasively and provides an important basis for further more invasive examinations, such as cardiac catheterization or myocardial biopsy. However, in order to make reliable diagnoses, the administration of contrast media is inevitable. After the administration of the contrast medium, it is possible to distinguish exactly which areas of the heart malfunctioned (See the right figure – taken from [1]). To reduce the risks of such contrast administration, we would like to develop a DL-based algorithm in this study that can automatically generate extracellular volume maps (ECV) without the need for post-contrast images [8].&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Given the pre-contrast native T1-mapping, their corresponding post-contrast T1-mapping, and the segmentation of the myocardium, perform the registration between pre-contrast and post-contrast imaging and calculate the extracellular volume (ECV) map, accordingly. For cases where HtK values are missing or outdated, HtK could be estimated by the native T1 relaxation time of blood by applying a regression model [7].&lt;/li&gt;
-&lt;li&gt;Given a database of the pre-contrast native T1-mapping, and their corresponding post-contrast T1-mapping and the computed/calculated extracellular volume (ECV) images of the patients’ cohort, we aim, with the power of deep learning, to model and generate virtual extracellular volume (ECV) maps. Different diseases such as acute myocarditis (Fig. 1a), Takutsubo cardiomyopathy (Fig. 1b), acute myocardial infarction, and chronic myocardial infarction show a distinctive pattern (Fig. 1c-e).&lt;/li&gt;
-&lt;li&gt;To avoid the requirements of one-to-one correspondences, the proposed algorithm should be trained on unpaired data. CycleGAN approach [2,3] or enhanced version with the perceptual embedding consistency [4] could be investigated in this context.&lt;/li&gt;
-&lt;li&gt;The virtual extracellular volume (ECV) should be evaluated against the ground-truth ECV images via common evaluation metrics such as Mean Square Error (MSE), Peak-Signal-to-Noise-Ratio (PSNR), Mean Absolute Error (MAE), Structural Similarity Index (SSIM), and relevant clinical measures such as the post-contrast T1-relaxation-time and the ECV.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Data cohort:&lt;/strong&gt;
-Pre- and post-contrast cardiac T1 relaxation time maps from a total of 1086 subjects are available for this project. For each subject, 3 short-axis images were acquired at a field strength of 1.5 Tesla at the University Hospital Bonn. All of these maps have already been assessed for image quality by a radiology resident, and the total number of slices with good or moderate image quality is 2472, from 922 different patients. In 92 of these patients, a Htk value was obtained with a time difference of less than 48h to the examination, in 511 patients within 30 days.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Familiarize yourself with the current literature on:&lt;/li&gt;
-&lt;li&gt;Cardiac Imaging and Extracellular Volume Mapping [1,8]&lt;/li&gt;
-&lt;li&gt;Image-to-Image Translation [2,6]&lt;/li&gt;
-&lt;li&gt;Image-to-Image Translation in Medical Domain [3,4,5]&lt;/li&gt;
-&lt;li&gt;Develop the baseline and proposed method&lt;/li&gt;
-&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
-&lt;li&gt;Write up your thesis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
-&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
-&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
-&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
-&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[1] Haaf, P., Garg, P., Messroghli, D.R., Broadbent, D.A., Greenwood, J.P. and Plein, S., 2017. Cardiac T1 mapping and extracellular volume (ECV) in clinical practice: a comprehensive review. Journal of Cardiovascular Magnetic Resonance, 18(1), pp.1-12.&lt;/li&gt;
-&lt;li&gt;[2] Zhu, J.Y., Park, T., Isola, P. and Efros, A.A., 2017. Unpaired image-to-image translation using cycle-consistent adversarial networks. In Proceedings of the IEEE international conference on computer vision (pp. 2223-2232).&lt;/li&gt;
-&lt;li&gt;[3] Shaban, M.T., Baur, C., Navab, N. and Albarqouni, S., 2019, April. Staingan: Stain style transfer for digital histological images. In 2019 Ieee 16th international symposium on biomedical imaging (Isbi 2019) (pp. 953-956). IEEE.&lt;/li&gt;
-&lt;li&gt;[4] Lahiani, A., Navab, N., Albarqouni, S. and Klaiman, E., 2019, October. Perceptual embedding consistency for seamless reconstruction of tilewise style transfer. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 568-576). Springer, Cham.&lt;/li&gt;
-&lt;li&gt;[5] Zhang, Q., Burrage, M.K., Lukaschuk, E., Shanmuganathan, M., Popescu, I.A., Nikolaidou, C., Mills, R., Werys, K., Hann, E., Barutcu, A. and Polat, S.D., 2021. Toward replacing late gadolinium enhancement with artificial intelligence virtual native enhancement for gadolinium-free cardiovascular magnetic resonance tissue characterization in hypertrophic cardiomyopathy. Circulation, 144(8), pp.589-599.&lt;/li&gt;
-&lt;li&gt;[6] Xu, Y., Xie, S., Wu, W., Zhang, K., Gong, M. and Batmanghelich, K., 2022. Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation. CVPR 2022. arXiv preprint arXiv:2203.12707. 
-&lt;a href=&#34;https://github.com/batmanlab/MSPC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/batmanlab/MSPC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[7] Mesropyan, N., Kupczyk, P., Isaak, A., Endler, C., Faron, A., Dold, L., Sprinkart, A.M., Pieper, C.C., Kuetting, D., Attenberger, U. and Luetkens, J.A., 2021. Synthetic extracellular volume fraction without hematocrit sampling for hepatic applications. Abdominal Radiology, 46(10), pp.4637-4646.&lt;/li&gt;
-&lt;li&gt;[8] Chen, W., Doeblin, P., Al-Tabatabaee, S., Klingel, K., Tanacli, R., Jakob Weiß, K., Stehning, C., Patel, A.R., Pieske, B., Zou, J. and Kelle, S., 2022. Synthetic Extracellular Volume in Cardiac Magnetic Resonance Without Blood Sampling: a Reliable Tool to Replace Conventional Extracellular Volume. Circulation: Cardiovascular Imaging, 15(4), p.e013745.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/font&gt;
 &lt;p&gt;Interested, please contact 
 &lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
@@ -1240,6 +1669,556 @@ I could not find better than this
 &lt;h3 id=&#34;contact-us&#34;&gt;Contact us&lt;/h3&gt;
 &lt;p&gt;If you have any questions regarding the course, please do not hesitate to contact us at 
 &lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AI Week: Synergizing Human and AI for Multidisciplinary Solutions (SHAMS)</title>
+      <link>https://albarqouni.github.io/students/courses/shams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/courses/shams/</guid>
+      <description>&lt;h2 id=&#34;ai-course-module-for-phd-students&#34;&gt;AI Course Module for PhD Students&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Lecturers:&lt;/strong&gt; 
+&lt;a href=&#34;../../#about&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutors:&lt;/strong&gt; TBA&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 23-27 June 2025 (tentative)&lt;/p&gt;
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+&lt;p&gt;This 5-day intensive course is tailored for PhD students from diverse disciplines seeking a robust introduction to Artificial Intelligence (AI) and Machine Learning (ML). The module begins with essential mathematical concepts, including algebra, probability, and optimization, before moving into fundamental and advanced machine learning techniques. Students will explore deep learning architectures, engage in hands-on coding exercises, and apply their knowledge to real-world problems, with a particular focus on healthcare and resource-constrained environments. The course also addresses the ethical implications of AI and the importance of explainability in AI models, preparing students to implement AI solutions responsibly in their research.&lt;/p&gt;
+&lt;h3 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h3&gt;
+&lt;p&gt;Successful students should&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gain a solid foundation in AI and Machine Learning:&lt;/strong&gt; Understand key concepts and techniques, including machine learning theory, neural networks, and deep learning, and their applications across various fields.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identify and evaluate machine learning algorithms:&lt;/strong&gt; Learn to identify the strengths and weaknesses of various machine learning algorithms, and report on performance measures and evaluation metrics.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Formulate and solve AI-related problems:&lt;/strong&gt; Be able to formulate machine learning problems relevant to a wide range of applications and solve moderately complex problems using machine learning algorithms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apply AI to multidisciplinary challenges:&lt;/strong&gt; Implement, adapt, and optimize machine learning algorithms for real-world problems in areas such as climate change, agriculture, water management, and healthcare.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Develop practical skills with AI tools:&lt;/strong&gt; Gain hands-on experience using Python and PyTorch to build, experiment with, and optimize AI models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explore ethical and societal impacts of AI:&lt;/strong&gt; Understand the importance of fairness, transparency, and explainability in AI, particularly in sensitive and critical applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Foster interdisciplinary collaboration:&lt;/strong&gt; Work with peers from diverse disciplines to innovate and develop AI-driven solutions for complex global challenges.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;target-audience&#34;&gt;Target Audience&lt;/h3&gt;
+&lt;p&gt;The target audience for AI Week SHAMS includes interdisciplinary researchers and development-focused scholars from diverse fields such as economics, political science, sociology, environmental science, and natural sciences, all united by a commitment to advancing sustainable development goals. This program is designed for individuals with a strong interest in tackling global challenges, including climate change, water resources, agriculture, food security, health, and poverty reduction. Additionally, it is ideal for early-career academics, PhD students, postdoctoral researchers, and practitioners eager to integrate AI and machine learning into their research or practical work, particularly within development contexts.&lt;/p&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mathematical Background:&lt;/strong&gt; A basic understanding of linear algebra (vectors, matrices), probability theory (random variables, distributions), and calculus (derivatives).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interest in AI/ML:&lt;/strong&gt; A keen interest in AI and Machine Learning, with the intent to apply these techniques in research, particularly in interdisciplinary fields such as healthcare.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;desired&#34;&gt;Desired:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming Skills:&lt;/strong&gt; Proficiency in Python, including familiarity with libraries like NumPy and Pandas, and basic experience with PyTorch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;credit-hours&#34;&gt;Credit Hours&lt;/h3&gt;
+&lt;p&gt;The AI Week SHAMS program is designed to offer an intensive learning experience with a total of 27 actual contact hours, which corresponds to 1.5 ECTS credits.&lt;/p&gt;
+&lt;h3 id=&#34;course-content&#34;&gt;Course Content&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Foundations of AI and Machine Learning:&lt;/strong&gt; Introduction to key concepts, algorithms, and mathematical foundations, including algebra and probability theory.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supervised and Unsupervised Learning:&lt;/strong&gt; Deep dive into logistic regression, linear regression, clustering, and dimensionality reduction techniques, with hands-on labs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Neural Networks and Deep Learning:&lt;/strong&gt; Exploration of neural network architectures and deep learning techniques, along with practical implementation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Applications in Real-World Challenges:&lt;/strong&gt; Focused sessions on applying AI to critical areas such as agriculture, food security, climate change, healthcare, and economics.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactive Group Discussions:&lt;/strong&gt; Collaborative discussions where participants brainstorm AI solutions to their specific PhD research challenges, using whiteboards and sticky notes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final Project Presentations:&lt;/strong&gt; Participants present conceptual proposals for integrating AI into their research, evaluated on clarity, creativity, and feasibility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;detailed-schedule-tentative&#34;&gt;Detailed Schedule (tentative)&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Activity&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Type&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Presenter&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Materials&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Day 1 - Monday&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09:00 - 09:30&lt;/td&gt;
+&lt;td&gt;Registration &amp;amp; Welcome Coffee&lt;/td&gt;
+&lt;td&gt;Introduction&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09:30 - 10:30&lt;/td&gt;
+&lt;td&gt;Foundations of AI and Machine Learning&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30 - 11:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11:00 - 12:30&lt;/td&gt;
+&lt;td&gt;Mathematical Foundations I: Algebra and Probability Theory&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12:30 - 14:00&lt;/td&gt;
+&lt;td&gt;Lunch Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14:00 - 15:30&lt;/td&gt;
+&lt;td&gt;Machine Learning Algorithms: Overview and Applications&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15:30 - 16:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16:00 - 17:00&lt;/td&gt;
+&lt;td&gt;Hands-on Lab: Introduction to ML Tools and Python&lt;/td&gt;
+&lt;td&gt;Lab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Day 2 - Tuesday&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09:00 - 10:30&lt;/td&gt;
+&lt;td&gt;Supervised Learning: Logistic Regression&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30 - 11:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11:00 - 12:30&lt;/td&gt;
+&lt;td&gt;Hands-on Lab: Implementing Logistic Regression&lt;/td&gt;
+&lt;td&gt;Lab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12:30 - 14:00&lt;/td&gt;
+&lt;td&gt;Lunch Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14:00 - 15:30&lt;/td&gt;
+&lt;td&gt;AI in Agriculture and Food Security&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15:30 - 16:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16:00 - 17:00&lt;/td&gt;
+&lt;td&gt;Group Discussion: AI in Agriculture&lt;/td&gt;
+&lt;td&gt;Discussion&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Day 3 - Wednesday&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09:00 - 10:30&lt;/td&gt;
+&lt;td&gt;Supervised Learning: Linear Regression&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30 - 11:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11:00 - 12:30&lt;/td&gt;
+&lt;td&gt;Hands-on Lab: Implementing Linear Regression&lt;/td&gt;
+&lt;td&gt;Lab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12:30 - 14:00&lt;/td&gt;
+&lt;td&gt;Lunch Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14:00 - 15:30&lt;/td&gt;
+&lt;td&gt;AI in Climate Change&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15:30 - 16:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16:00 - 17:00&lt;/td&gt;
+&lt;td&gt;Group Discussion: AI in Climate Change&lt;/td&gt;
+&lt;td&gt;Discussion&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Day 4 - Thursday&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09:00 - 10:30&lt;/td&gt;
+&lt;td&gt;Unsupervised Learning: Clustering and Dimensionality Reduction&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30 - 11:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11:00 - 12:30&lt;/td&gt;
+&lt;td&gt;Hands-on Lab: Clustering and Dimensionality Reduction&lt;/td&gt;
+&lt;td&gt;Lab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12:30 - 14:00&lt;/td&gt;
+&lt;td&gt;Lunch Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14:00 - 15:30&lt;/td&gt;
+&lt;td&gt;AI in Healthcare&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15:30 - 16:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16:00 - 17:00&lt;/td&gt;
+&lt;td&gt;Group Discussion: AI in Healthcare&lt;/td&gt;
+&lt;td&gt;Discussion&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Day 5 - Friday&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09:00 - 10:30&lt;/td&gt;
+&lt;td&gt;Neural Networks and Deep Learning&lt;/td&gt;
+&lt;td&gt;Lecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30 - 11:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11:00 - 12:30&lt;/td&gt;
+&lt;td&gt;Hands-on Lab: Building a Simple Neural Network&lt;/td&gt;
+&lt;td&gt;Lab&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12:30 - 14:00&lt;/td&gt;
+&lt;td&gt;Lunch Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14:00 - 15:30&lt;/td&gt;
+&lt;td&gt;Final Project Presentations&lt;/td&gt;
+&lt;td&gt;Presentations&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15:30 - 16:00&lt;/td&gt;
+&lt;td&gt;Coffee Break&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16:00 - 17:00&lt;/td&gt;
+&lt;td&gt;Final Project Presentations (continued) &amp;amp; Wrap-up&lt;/td&gt;
+&lt;td&gt;Presentations&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;group-discussion-and-final-project-tbd&#34;&gt;Group Discussion and Final Project (TBD)&lt;/h3&gt;
+&lt;h3 id=&#34;evaluation-criteria-tbd&#34;&gt;Evaluation Criteria (TBD)&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course: AI for Medical Diagnosis and Prediction (AAI643O)</title>
+      <link>https://albarqouni.github.io/students/courses/aai6430/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/courses/aai6430/</guid>
+      <description>&lt;h2 id=&#34;ai-for-medical-diagnosis-and-prediction&#34;&gt;AI for Medical Diagnosis and Prediction&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Lecturers:&lt;/strong&gt; 
+&lt;a href=&#34;../../#about&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutors:&lt;/strong&gt; TBA&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; March - April 2025 (tentative)&lt;/p&gt;
+&lt;h3 id=&#34;course-description&#34;&gt;Course Description&lt;/h3&gt;
+&lt;p&gt;This is an 8-week course designed for non-computer science students at the &lt;strong&gt;Lebanese American University&lt;/strong&gt;. The course equips students with practical skills to implement AI in the field of medical diagnosis and prediction. Students will explore techniques like medical image classification, segmentation, object detection, and reconstruction, as well as time-series data analysis for medical forecasting. Additionally, they will learn about weakly-, semi-, and self-supervised learning, and how to tackle fairness and robustness challenges in healthcare AI.&lt;/p&gt;
+&lt;h3 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h3&gt;
+&lt;p&gt;By the end of this course, students will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand the role of AI in medical diagnosis and prediction.&lt;/li&gt;
+&lt;li&gt;Apply AI techniques to medical image analysis and time-series forecasting.&lt;/li&gt;
+&lt;li&gt;Explore weakly-, semi-, and self-supervised learning in healthcare.&lt;/li&gt;
+&lt;li&gt;Analyze ethical implications, fairness, and robustness in healthcare AI models.&lt;/li&gt;
+&lt;li&gt;Gain hands-on experience with coding medical AI solutions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;target-audience&#34;&gt;Target Audience&lt;/h3&gt;
+&lt;p&gt;This course is tailored for non-computer science students who have taken introductory courses in Machine Learning and Deep Learning. The students are expected to have an interest in applying AI to medical applications but do not require deep knowledge of computer science concepts.&lt;/p&gt;
+&lt;h3 id=&#34;course-schedule-12-hours-per-week&#34;&gt;Course Schedule (12 hours per week)&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Week&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Lecture (3 hrs)&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Practical Sessions (3 hrs)&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Week 1&lt;/td&gt;
+&lt;td&gt;Introduction to AI in Healthcare&lt;/td&gt;
+&lt;td&gt;Overview of AI in healthcare, challenges, and opportunities.&lt;/td&gt;
+&lt;td&gt;Image classification using CNNs on medical datasets.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Week 2&lt;/td&gt;
+&lt;td&gt;Medical Image Segmentation&lt;/td&gt;
+&lt;td&gt;Explore AI segmentation techniques like U-Net.&lt;/td&gt;
+&lt;td&gt;Implement U-Net for medical image segmentation.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Week 3&lt;/td&gt;
+&lt;td&gt;Object Detection in Medical Imaging&lt;/td&gt;
+&lt;td&gt;Object detection models and challenges in medical images.&lt;/td&gt;
+&lt;td&gt;Implement YOLO/Faster R-CNN on medical datasets.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Week 4&lt;/td&gt;
+&lt;td&gt;Medical Image Reconstruction &amp;amp; Time-Series Data&lt;/td&gt;
+&lt;td&gt;AI techniques for image reconstruction and medical time-series.&lt;/td&gt;
+&lt;td&gt;Time-series classification using RNN/LSTM models.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Week 5&lt;/td&gt;
+&lt;td&gt;Time-Series Forecasting &amp;amp; Weakly Supervised Learning&lt;/td&gt;
+&lt;td&gt;Forecasting techniques and weakly supervised learning in healthcare.&lt;/td&gt;
+&lt;td&gt;Apply forecasting models and weakly labeled data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Week 6&lt;/td&gt;
+&lt;td&gt;Semi-Supervised &amp;amp; Self-Supervised Learning&lt;/td&gt;
+&lt;td&gt;Explore semi- and self-supervised learning.&lt;/td&gt;
+&lt;td&gt;Train models with limited labels using contrastive learning.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Week 7&lt;/td&gt;
+&lt;td&gt;Fairness &amp;amp; Robustness in AI for Healthcare&lt;/td&gt;
+&lt;td&gt;Ethical AI, fairness, and robustness in healthcare AI models.&lt;/td&gt;
+&lt;td&gt;Analyze bias and robustness in healthcare datasets.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Week 8&lt;/td&gt;
+&lt;td&gt;Advanced Applications &amp;amp; Final Project Presentation&lt;/td&gt;
+&lt;td&gt;Explore advanced AI applications and wrap-up project presentations.&lt;/td&gt;
+&lt;td&gt;Student presentations and peer review of final projects.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;course-materials&#34;&gt;Course Materials&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lecture slides and readings will be provided weekly.&lt;/li&gt;
+&lt;li&gt;Jupyter notebooks for hands-on labs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;evaluation-and-projects&#34;&gt;Evaluation and Projects&lt;/h3&gt;
+&lt;p&gt;Students will be evaluated through a combination of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Predefined Projects&lt;/strong&gt;: Students will work on predefined medical AI projects, implementing techniques learned throughout the course.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MCQs&lt;/strong&gt;: Quizzes covering theoretical aspects of AI and its applications in healthcare.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Presentations&lt;/strong&gt;: Final presentations of projects in Week 8.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peer Reviews&lt;/strong&gt;: Students will review each other&amp;rsquo;s projects for additional feedback and learning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;p&gt;Students should have a basic understanding of machine learning and deep learning, as well as some experience with Python programming.&lt;/p&gt;
+&lt;h3 id=&#34;contact-information&#34;&gt;Contact Information&lt;/h3&gt;
+&lt;p&gt;For any inquiries, please contact the instructor at 
+&lt;a href=&#34;../../#about&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MA Thesis: Deep Learning-based method for virtual ECV in cardiac magnetic resonance imaging</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_deep_learning-based_method_for_virtual_ecv_in_cardiac_magnetic_resonance_imaging/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Diseases of the cardiovascular system are among the most common diseases worldwide and are the leading cause of death. The World Health Organization (WHO) estimates that about 17.9 million people die of cardiovascular diseases each year worldwide. In particular, diseases of the heart muscle, for example in the context of a heart attack or myocarditis, are of great relevance here. In order to be able to examine such diseases in a targeted manner and as gently as possible, the MRI examination of the heart has become increasingly established and further developed over the last decades. It captures the entire heart non-invasively and provides an important basis for further more invasive examinations, such as cardiac catheterization or myocardial biopsy. However, in order to make reliable diagnoses, the administration of contrast media is inevitable. After the administration of the contrast medium, it is possible to distinguish exactly which areas of the heart malfunctioned (See the right figure – taken from [1]). To reduce the risks of such contrast administration, we would like to develop a DL-based algorithm in this study that can automatically generate extracellular volume maps (ECV) without the need for post-contrast images [8].&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Given the pre-contrast native T1-mapping, their corresponding post-contrast T1-mapping, and the segmentation of the myocardium, perform the registration between pre-contrast and post-contrast imaging and calculate the extracellular volume (ECV) map, accordingly. For cases where HtK values are missing or outdated, HtK could be estimated by the native T1 relaxation time of blood by applying a regression model [7].&lt;/li&gt;
+&lt;li&gt;Given a database of the pre-contrast native T1-mapping, and their corresponding post-contrast T1-mapping and the computed/calculated extracellular volume (ECV) images of the patients’ cohort, we aim, with the power of deep learning, to model and generate virtual extracellular volume (ECV) maps. Different diseases such as acute myocarditis (Fig. 1a), Takutsubo cardiomyopathy (Fig. 1b), acute myocardial infarction, and chronic myocardial infarction show a distinctive pattern (Fig. 1c-e).&lt;/li&gt;
+&lt;li&gt;To avoid the requirements of one-to-one correspondences, the proposed algorithm should be trained on unpaired data. CycleGAN approach [2,3] or enhanced version with the perceptual embedding consistency [4] could be investigated in this context.&lt;/li&gt;
+&lt;li&gt;The virtual extracellular volume (ECV) should be evaluated against the ground-truth ECV images via common evaluation metrics such as Mean Square Error (MSE), Peak-Signal-to-Noise-Ratio (PSNR), Mean Absolute Error (MAE), Structural Similarity Index (SSIM), and relevant clinical measures such as the post-contrast T1-relaxation-time and the ECV.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Data cohort:&lt;/strong&gt;
+Pre- and post-contrast cardiac T1 relaxation time maps from a total of 1086 subjects are available for this project. For each subject, 3 short-axis images were acquired at a field strength of 1.5 Tesla at the University Hospital Bonn. All of these maps have already been assessed for image quality by a radiology resident, and the total number of slices with good or moderate image quality is 2472, from 922 different patients. In 92 of these patients, a Htk value was obtained with a time difference of less than 48h to the examination, in 511 patients within 30 days.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with the current literature on:&lt;/li&gt;
+&lt;li&gt;Cardiac Imaging and Extracellular Volume Mapping [1,8]&lt;/li&gt;
+&lt;li&gt;Image-to-Image Translation [2,6]&lt;/li&gt;
+&lt;li&gt;Image-to-Image Translation in Medical Domain [3,4,5]&lt;/li&gt;
+&lt;li&gt;Develop the baseline and proposed method&lt;/li&gt;
+&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
+&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[1] Haaf, P., Garg, P., Messroghli, D.R., Broadbent, D.A., Greenwood, J.P. and Plein, S., 2017. Cardiac T1 mapping and extracellular volume (ECV) in clinical practice: a comprehensive review. Journal of Cardiovascular Magnetic Resonance, 18(1), pp.1-12.&lt;/li&gt;
+&lt;li&gt;[2] Zhu, J.Y., Park, T., Isola, P. and Efros, A.A., 2017. Unpaired image-to-image translation using cycle-consistent adversarial networks. In Proceedings of the IEEE international conference on computer vision (pp. 2223-2232).&lt;/li&gt;
+&lt;li&gt;[3] Shaban, M.T., Baur, C., Navab, N. and Albarqouni, S., 2019, April. Staingan: Stain style transfer for digital histological images. In 2019 Ieee 16th international symposium on biomedical imaging (Isbi 2019) (pp. 953-956). IEEE.&lt;/li&gt;
+&lt;li&gt;[4] Lahiani, A., Navab, N., Albarqouni, S. and Klaiman, E., 2019, October. Perceptual embedding consistency for seamless reconstruction of tilewise style transfer. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 568-576). Springer, Cham.&lt;/li&gt;
+&lt;li&gt;[5] Zhang, Q., Burrage, M.K., Lukaschuk, E., Shanmuganathan, M., Popescu, I.A., Nikolaidou, C., Mills, R., Werys, K., Hann, E., Barutcu, A. and Polat, S.D., 2021. Toward replacing late gadolinium enhancement with artificial intelligence virtual native enhancement for gadolinium-free cardiovascular magnetic resonance tissue characterization in hypertrophic cardiomyopathy. Circulation, 144(8), pp.589-599.&lt;/li&gt;
+&lt;li&gt;[6] Xu, Y., Xie, S., Wu, W., Zhang, K., Gong, M. and Batmanghelich, K., 2022. Maximum Spatial Perturbation Consistency for Unpaired Image-to-Image Translation. CVPR 2022. arXiv preprint arXiv:2203.12707. 
+&lt;a href=&#34;https://github.com/batmanlab/MSPC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/batmanlab/MSPC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[7] Mesropyan, N., Kupczyk, P., Isaak, A., Endler, C., Faron, A., Dold, L., Sprinkart, A.M., Pieper, C.C., Kuetting, D., Attenberger, U. and Luetkens, J.A., 2021. Synthetic extracellular volume fraction without hematocrit sampling for hepatic applications. Abdominal Radiology, 46(10), pp.4637-4646.&lt;/li&gt;
+&lt;li&gt;[8] Chen, W., Doeblin, P., Al-Tabatabaee, S., Klingel, K., Tanacli, R., Jakob Weiß, K., Stehning, C., Patel, A.R., Pieske, B., Zou, J. and Kelle, S., 2022. Synthetic Extracellular Volume in Cardiac Magnetic Resonance Without Blood Sampling: a Reliable Tool to Replace Conventional Extracellular Volume. Circulation: Cardiovascular Imaging, 15(4), p.e013745.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

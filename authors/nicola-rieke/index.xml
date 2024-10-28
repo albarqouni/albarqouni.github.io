@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/authors/nicola-rieke/</link>
       <atom:link href="https://albarqouni.github.io/authors/nicola-rieke/index.xml" rel="self" type="application/rss+xml" />
     <description>Albarqouni Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2023</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Albarqouni Lab</title>
       <link>https://albarqouni.github.io/authors/nicola-rieke/</link>
     </image>
+    
+    <item>
+      <title>Guest Editorial Special Issue on Federated Learning for Medical Imaging: Enabling Collaborative Development of Robust AI Models</title>
+      <link>https://albarqouni.github.io/publication/roth-2023-guest/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/roth-2023-guest/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Future of Digital Health with Federated Learning</title>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MIDL | Albarqouni Lab</title>
+    <link>https://albarqouni.github.io/tags/midl/</link>
+      <atom:link href="https://albarqouni.github.io/tags/midl/index.xml" rel="self" type="application/rss+xml" />
+    <description>MIDL</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright><lastBuildDate>Wed, 03 Jul 2024 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
+      <title>MIDL</title>
+      <link>https://albarqouni.github.io/tags/midl/</link>
+    </image>
+    
+    <item>
+      <title>Participate at the International Conference on Medical Imaging with Deep Learning (MIDL)</title>
+      <link>https://albarqouni.github.io/talk/midl2024/</link>
+      <pubDate>Wed, 03 Jul 2024 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/midl2024/</guid>
+      <description>&lt;p&gt;Happy to see so many brilliant works at the hashtag#MIDL conference in Paris! It&amp;rsquo;s a fantastic opportunity to connect with colleagues and graduates passionate about medical imaging and deep learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Keynote Lecture on AI in Ophthalmology and Pathology</title>
+      <link>https://albarqouni.github.io/talk/eops2024/</link>
+      <pubDate>Sat, 15 Jun 2024 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/eops2024/</guid>
+      <description>&lt;p&gt;I was invited to give a Keynote Lecture on AI in Ophthalmology and Pathology to present a few works on Histopathology; Mitotoc figure detection in Breast Cancer, Domain Adaptation from H&amp;amp;E Imaging to IHC imaging among others. Thanks Prof. Martina C. Herwig-Carl for the invitation and warm hospitality!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
