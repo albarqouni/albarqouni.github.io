@@ -1,0 +1,87 @@
+---
+title: "AGYA/02/2024: Research Assistant (Software Developer) in AI for Interdisciplinary Research (m/f/d)"
+
+summary: "starting mid. Oct 2024 or as agreed upon. The Service Contract is limited to 3 months, with a possiblilty of an extension. The applicant must be based either in Arab nation or Europe."
+
+authors:
+- shadi-albarqouni
+
+tags:
+- AI Development
+- Interdisciplinary Research
+- Software Engineering
+
+featured: true
+publishDate: "2024-10-01T00:00:00Z"
+
+image:
+  caption: ''
+  focal_point: Center
+
+links:
+- icon: paper-plane
+  icon_pack: fas
+  name: Apply
+  url: https://forms.gle/vUtkn88rmF3MYnwCA
+
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+slides: ""
+
+projects: []
+
+math: true
+---
+
+**Arab-German Young Academy of Sciences and Humanities (AGYA)**  
+AGYA is based at the Berlin-Brandenburg Academy of Sciences and Humanities (BBAW) and at the Academy of Scientific Research and Technology (ASRT) in Egypt. It was established in 2013 as the first bilateral young academy worldwide. AGYA promotes research cooperation among outstanding early-career researchers (3–10 years after Ph.D.) from all disciplines who are affiliated with a research institution in Germany or any Arab country. The academy supports the innovative projects of its members in various fields of research as well as in science policy and education. To date, AGYA members have developed and carried out more than 150 interdisciplinary projects in over 60 cities and 30 countries. The diverse projects have dealt with topics relevant to society, such as scarcity of resources, public health, migration, education, and cultural heritage protection. AGYA is funded by the German Federal Ministry of Education and Research (BMBF) and various Arab cooperation partners.
+
+The following **Research Assistant (Software Developer)** is available within the scope of a funded project by AGYA, led by Prof. Dr. Shadi Albarqouni:
+
+## **Research Assistant (Software Developer) in AI for Interdisciplinary Research (m/f/d)**
+
+starting mid. Oct 2024 or as agreed upon. The Service Contract is limited to 3 months, with a possiblilty of an extension. The applicant must be based either in Arab nation or Europe.
+
+This Service Contract is part of a newly funded interdisciplinary research project through AGYA. The project aims to leverage Artificial Intelligence to tackle challenges in various domains, including healthcare, agriculture, and cultural heritage protection. Specifically, the **Arab-German Young Academy of Sciences and Humanities (AGYA)** is facilitating cutting-edge research in collaboration with scientists and institutions across Germany and Arab countries, fostering impactful solutions for societal challenges.
+
+The Research Assistant will focus on developing a GDPR-compliant telemedicine application, incorporating advanced imaging features and machine learning (ML) integration. The candidate will work on image data handling, secure storage, and ML model integration for medical image analysis. Additionally, the app will be expanded to communicate further disease information and treatment details to patients based on publicly available health resources.
+
+**Your responsibilities:**
+
+- Develop a GDPR-compliant mobile telemedicine application that supports image uploads (via camera and file selection) and PDF reading.
+- Implement secure data transmission between the app and an ML server for inference (e.g., prediction or quantification), and integrate the diagnostic results into the app.
+- Collaborate with clinicians to ensure correct medical imaging and clinical information integration.
+- Implement user-friendly features to allow patients to receive follow-up educational information about their diagnosis using publicly available healthcare resources.
+- Use no-code/low-code platforms to expedite development while ensuring the scalability and robustness of the application.
+- Maintain secure data handling and storage practices in line with GDPR regulations.
+- Collaborate with interdisciplinary research teams and domain experts to ensure the application's functionality aligns with healthcare and other domain requirements.
+
+**Your qualifications:**
+
+- B.Sc. or M.Sc. in Computer Science, Software Engineering, or a related field.
+- Proven experience in mobile app development using no-code/low-code platforms (e.g., Bubble, Adalo, Mendix).
+- Strong knowledge of secure data handling practices, with experience in GDPR compliance.
+- Familiarity with machine learning integration for medical image analysis (e.g., REST APIs, GraphQL).
+- Excellent programming skills in mobile development, particularly with frameworks like Flutter or React Native.
+- Ability to work collaboratively with interdisciplinary teams, including healthcare professionals.
+- Fluent command of the English language.
+
+**Desirable qualifications:**
+
+- Experience in healthcare or telemedicine app development.
+- Familiarity with image processing, ML models, and secure database integration.
+- Experience in developing applications that include educational components for end-users.
+- Strong problem-solving skills and an eye for user-friendly design.
+
+**What we offer you:**
+
+- A service contract by the [Arab-German Young Academy for Sciences and Humanities (AGYA)](https://agya.info/)
+
+AGYA is committed to diversity and equal opportunity. We aim to increase the proportion of women in areas where women are under-represented and promote their careers. Therefore, we strongly encourage applications from qualified women. Applications from individuals with a certified severe disability and those of equal status are particularly welcome.
+
+**Contact:**
+
+If you meet the requirements and are looking for a challenging opportunity to work on interdisciplinary AI research, do not hesitate to send your application, including a cover letter (highlighting your qualifications), a detailed CV (with links to previous projects and code), scanned academic degrees, and the contact details of two referees (preferably by e-mail in a single PDF file up to 5 MB in size), quoting the job advertisement no. **AGYA/02/2024** in your [application](https://forms.gle/vUtkn88rmF3MYnwCA).
