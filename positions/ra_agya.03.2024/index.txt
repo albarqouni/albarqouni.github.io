@@ -1,0 +1,80 @@
+---
+title: "AGYA/03/2024: Multiple Research Assistant Openings in Machine/Deep Learning for Interdisciplinary AI Research (m/f/d)"
+
+summary: "starting mid. Oct 2024 or as agreed upon. Service Contracts are limited to 3 months, with a possiblilty of an extension. The applicant must be based either in Arab nation or Europe."
+
+authors:
+- shadi-albarqouni
+
+tags:
+- Machine Learning
+- Deep Learning
+- Interdisciplinary Research
+
+featured: true
+publishDate: "2024-10-13T00:00:00Z"
+
+image:
+  caption: ''
+  focal_point: Center
+
+links:
+- icon: paper-plane
+  icon_pack: fas
+  name: Apply
+  url: https://forms.gle/vUtkn88rmF3MYnwCA
+
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+slides: ""
+
+projects: []
+
+math: true
+---
+
+**Arab-German Young Academy of Sciences and Humanities (AGYA)**  
+AGYA is based at the Berlin-Brandenburg Academy of Sciences and Humanities (BBAW) and at the Academy of Scientific Research and Technology (ASRT) in Egypt. It was established in 2013 as the first bilateral young academy worldwide. AGYA promotes research cooperation among outstanding early-career researchers (3–10 years after Ph.D.) from all disciplines who are affiliated with a research institution in Germany or any Arab country. The academy supports the innovative projects of its members in various fields of research as well as in science policy and education. To date, AGYA members have developed and carried out more than 150 interdisciplinary projects in over 60 cities and 30 countries. The diverse projects have dealt with topics relevant to society, such as scarcity of resources, public health, migration, education, and cultural heritage protection. AGYA is funded by the German Federal Ministry of Education and Research (BMBF) and various Arab cooperation partners.
+
+The following **Research Assistant (Machine/Deep Learning)** are available within the scope of funded projects by AGYA, led by Prof. Dr. Shadi Albarqouni:
+
+## **Multiple Research Assistant Openings in Machine/Deep Learning for Interdisciplinary AI Research (m/f/d)**
+
+starting mid. Oct 2024 or as agreed upon. Service Contracts are limited to 3 months, with a possiblilty of an extension. The applicant must be based either in Arab nation or Europe.
+
+These Service Contracts are part of newly funded interdisciplinary research projects through AGYA. The projects aim to leverage Machine and Deep Learning techniques to address diverse societal and scientific challenges, including:
+
+- **<s>Stress Detection in Olive Trees**: Using AI to monitor and quantify stress indicators in olive crops</s>.
+- **<s>Polyphenols Quantification in Pomegranate**: Developing machine learning models to quantify polyphenols in pomegranate using spectral and imaging data</s>.
+- **Bacterial Colonies Detection and Classification in Water Samples**: Applying advanced AI models to identify and classify bacterial colonies in water quality monitoring.
+- **<s>Classification and Segmentation in Medical Imaging**: Using AI to enhance the accuracy and precision of medical imaging tasks</s>.
+
+**Your responsibilities:**
+
+- Develop machine learning algorithms for interdisciplinary applications, such as stress detection in agriculture, chemical quantification, and medical imaging.
+- Design and implement deep learning models for data classification, segmentation, and quantification.
+- Develop robust algorithms for adversarial attack resistance and model interpretability.
+- Collaborate with interdisciplinary teams to understand problem domains and optimize AI solutions.
+- Publish and present scientific outcomes at international conferences and high-impact journals.
+
+**Your qualifications:**
+
+- B.Sc./M.Sc. in Computer Science, Machine Learning, or equivalent with an interest in interdisciplinary AI research.
+- Strong knowledge of Machine/Deep Learning with experience in discriminative models, adversarial attacks, and Bayesian neural networks.
+- Excellent programming skills in Python and experience with frameworks such as PyTorch, including fundamental software engineering principles and machine learning design patterns.
+- Excellent analytical, technical, and problem-solving skills.
+- Highly motivated and a team player with excellent communication and presentation skills, including experience in communicating across discipline boundaries.
+- Fluent command of the English language.
+
+**What we offer you:**
+
+- A service contract by the [Arab-German Young Academy for Sciences and Humanities (AGYA)](https://agya.info/)
+
+AGYA is committed to diversity and equal opportunity. We aim to increase the proportion of women in areas where women are under-represented and promote their careers. Therefore, we strongly encourage applications from qualified women. Applications from individuals with a certified severe disability and those of equal status are particularly welcome.
+
+**Contact:**
+
+If you meet the requirements and are looking for a challenging opportunity to work on interdisciplinary AI research, do not hesitate to send your application, including a cover letter (highlighting your qualifications), a detailed CV (with links to previous projects and code), scanned academic degrees, and the contact details of two referees (preferably by e-mail in a single PDF file up to 5 MB in size), quoting the job advertisement no. **AGYA/03/2024** in your [application](https://forms.gle/vUtkn88rmF3MYnwCA).
