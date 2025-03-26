@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data science | Albarqouni Lab</title>
+    <link>https://albarqouni.github.io/tags/data-science/</link>
+      <atom:link href="https://albarqouni.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Thu, 21 Nov 2024 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
+      <title>Data science</title>
+      <link>https://albarqouni.github.io/tags/data-science/</link>
+    </image>
+    
+    <item>
+      <title>Invited Lecture at Health Data Science Principles (GD5301) at St. Andrews University, UK</title>
+      <link>https://albarqouni.github.io/talk/standrews/</link>
+      <pubDate>Thu, 21 Nov 2024 10:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/standrews/</guid>
+      <description>&lt;p&gt;I had the pleasure to give a lecture at the 
+&lt;a href=&#34;https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_modulecode=GD5301&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Health Data Science Principles (GD5301)&lt;/a&gt; course offered at St. Andrews University and interact with the briliant students there! Thanks to Prof. 
+&lt;a href=&#34;https://www.st-andrews.ac.uk/medicine/people/sp58/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Silvia Paracchini&lt;/a&gt; from the School of Medicine for the great hospitality!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Elodie attended and presented at the 2024 International Conference on Image Processing (ICIP) in Abu Dhabi, UAE</title>
+      <link>https://albarqouni.github.io/talk/icip2024/</link>
+      <pubDate>Wed, 30 Oct 2024 14:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/icip2024/</guid>
+      <description>&lt;p&gt;Elodie had the chance to attend the 2024 IEEE International Conference on Image Processing in Abu Dhabi, Emirates. She presented her work during an oral session about &lt;em&gt;Medical Image Analysis&lt;/em&gt;. This work was part of her Ph.D. projects and was entitled &lt;em&gt;Uncovering communities of pipelines in the task fMRI analytical space&lt;/em&gt;. In this work, she used graph representations to explore the relationships between fMRI pipelines results and the stability of their relationships across different study contexts. The results were useful to evaluate the &lt;em&gt;potential generalisability and robustness to unseen context&lt;/em&gt; of methods to mitigate analytical variability, for instance, &lt;em&gt;style transfer between statistic maps&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

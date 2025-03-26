@@ -5,12 +5,109 @@
     <link>https://albarqouni.github.io/authors/hyun-ko/</link>
       <atom:link href="https://albarqouni.github.io/authors/hyun-ko/index.xml" rel="self" type="application/rss+xml" />
     <description>Albarqouni Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Thu, 19 Dec 2024 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Albarqouni Lab</title>
       <link>https://albarqouni.github.io/authors/hyun-ko/</link>
     </image>
+    
+    <item>
+      <title>Met our partners at Peter MacCallum, Melbourne, Australia</title>
+      <link>https://albarqouni.github.io/talk/melbourne2024/</link>
+      <pubDate>Thu, 19 Dec 2024 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/melbourne2024/</guid>
+      <description>&lt;p&gt;During my recent trip to Melbourne, Australia, supported by the 
+&lt;a href=&#34;https://www.uni-bonn.de/en/research-and-teaching/support-for-researchers-and-teachers/research-funding/university-grants/university-of-melbourne-ref&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bonn Melbourne Research Excellence Fund&lt;/a&gt; from the University of Bonn, I had the pleasure of meeting with the lab members of 
+&lt;a href=&#34;https://www.petermac.org/research/research-programs-and-labs/organogenesis-cancer-program/louise-cheng-labdiscussion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Dr. Louise Cheng&lt;/a&gt; and 
+&lt;a href=&#34;https://www.petermac.org/expert-finder/details/hyun-ko&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Hyun Ko&lt;/a&gt; at the 
+&lt;a href=&#34;https://www.petermac.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter MacCallum Cancer Centre&lt;/a&gt;. The visit provided fascinating insights into their research themes, ranging from studying zebrafish to Drosophila. I was particularly intrigued by the parallels between these model organisms and the human body, as well as the short life cycle of Drosophila, which facilitates the study of diverse behavioral questions such as jet lag and emotional connections.&lt;/p&gt;
+&lt;p&gt;We also explored opportunities for collaboration in areas including pancreatic ductal adenocarcinoma (PDAC), breast cancer, and prostate cancer. This visit builds on the strong ties established during the delegation from Bonn to Melbourne in March 2023 (
+&lt;a href=&#34;https://www.petermac.org/about-us/news-and-events/news/details/collaborating-with-bonn-university-to-improve-patient-outcomes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read more here&lt;/a&gt;), further strengthening the foundation for impactful research collaborations. We have also discussed the closing repoty of our common project on 
+&lt;a href=&#34;https://albarqouni.github.io/funded/bonnmelbourne/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cachexia Cancer&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MA Thesis: Deep Learning for Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_lnm/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_lnm/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Pancreatic ductal adenocarcinoma (PDAC) is one of the most lethal cancers, with lymph node metastasis (LNM) being a critical determinant in patient prognosis and therapeutic planning [1-2]. Conventional methods for detecting LNM in PDAC primarily rely on contrast-enhanced CT scans, but these often fall short in sensitivity, especially in early-stage disease. Studies have shown that preoperative imaging tends to underestimate LNM, leading to inaccurate staging that can influence treatment outcomes [3-4]. Given the high stakes associated with accurate LNM detection, there is a pressing need to develop more precise and sensitive models that can provide reliable predictions and aid in clinical decision-making.&lt;/p&gt;
+&lt;p&gt;Recent advancements in deep learning (DL) have shown promise in enhancing the accuracy of LNM detection for PDAC [5], although external validation remains necessary to confirm the generalizability of these models [6]. Building on this foundation, our previous work [7] integrated imaging features with non-imaging clinical attributes, such as clinical biomarkers, namely CA-19-9, tumor size and tumor location, into a DL pipeline to improve overall LNM detection. Moreover, challenges such as data heterogeneity across multi-institutional cohorts and imbalances in positive and negative LNM cases still need to be addressed in these multi-center datasets, ensuring that the model is both robust and adaptable across different clinical environments.&lt;/p&gt;
+&lt;p&gt;This thesis aims to further expand on our previous work by including datasets from seven centers across Australia and Germany, encompassing a total of 1,260+ cases. The project will investigate the impact of clinical attributes on model performance through an ablation study, perform feature normalization using Adaptive Instance Normalization (AdaIN) to mitigate center-specific data biases, and analyze self-attention maps from SwinTransformers to verify if the model accurately identifies LNM-positive regions. By extending the DL pipeline to additional centers and rigorously examining the model&amp;rsquo;s feature fusion and attention mechanisms, we aim to achieve a highly accurate, generalizable model for LNM detection in PDAC that could serve as a valuable tool in clinical practice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Q1)&lt;/strong&gt; How effectively can an expanded DL model integrating multi-center data from seven centers across Australia and Germany and clinical attributes improve LNM detection?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Q2)&lt;/strong&gt; What is the impact of different feature fusion techniques on the model’s ability to accurately detect LNM?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Q3)&lt;/strong&gt; How does feature normalization, particularly using Adaptive Instance Normalization (AdaIN), improve model robustness across datasets from diverse centers?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Q4)&lt;/strong&gt; Can self-attention maps from the SwinTransformers capture LNM-positive regions effectively, and how well do these maps align with expert-validated annotations of lymph node metastasis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Clinical Collaborators&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Patrick Kupczyk&lt;/strong&gt;, University Hospital Bonn&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hyun Ko&lt;/strong&gt;, Peter MacCallum Cancer Centre&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alexander Semaan&lt;/strong&gt;, University Hospital Bonn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dataset&lt;/strong&gt;:
+The dataset now comprises a total of 1,260+ cases collected from seven centers in Germany and Australia. Each scan is annotated with histological data (N+ or N0) to confirm LNM presence or absence:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;University Hospital Bonn (UKB)&lt;/strong&gt;: Comprising 180 cases (106 N+ PDAC patients) from the Radiology Department and the Clinic and Polyclinic for General, Visceral, Thoracic, and Vascular Surgery.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peter MacCallum Cancer Centre, Melbourne (MEL)&lt;/strong&gt;: 480 cases sourced from four hospitals in Melbourne, including the Royal Melbourne Hospital, Western Health, and Northern Health. Of these, 42 cases are N+ with specialist radiologist-provided lymph node segmentations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Berlin Cohort&lt;/strong&gt;: 400 cases, with preprocessing and annotation required.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Additional Göttingen Cohort&lt;/strong&gt;: Over 200 cases, currently in the acquisition process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Expected Tasks&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Pipeline Extension&lt;/strong&gt;: Extend the current model to incorporate data from two additional centers, totaling seven. This requires documenting dataset details from each center (including annotation availability) and balancing the LNM-positive and LNM-negative cases.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ablation Study and Feature Fusion Analysis&lt;/strong&gt;: Perform an ablation study, analyzing the impact of clinical attributes alone, and assess different feature fusion techniques to optimize model performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature Normalization across Centers&lt;/strong&gt;: Investigate the use of Adaptive Instance Normalization (AdaIN) as a data augmentation technique to improve feature consistency across centers, minimizing the effect of domain shifts [8].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Attention Map Analysis&lt;/strong&gt;: Use SwinTransformers’ self-attention maps to assess whether the model accurately captures positive lymph nodes (validated by expert radiologist Alex). Relevant research includes the methodology outlined in [9].&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Review relevant literature on LNM prediction and DL models in medical imaging.&lt;/li&gt;
+&lt;li&gt;Expand and preprocess datasets from all centers, including balancing strategies for LNM cases.&lt;/li&gt;
+&lt;li&gt;Develop and integrate the baseline DL model with extended data inputs, incorporating feature normalization and fusion mechanisms.&lt;/li&gt;
+&lt;li&gt;Conduct experiments, including ablation studies and feature fusion assessments.&lt;/li&gt;
+&lt;li&gt;Complete the analysis and write the thesis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interested candidate must be based in Bonn for data acccess within the hopsital (willing to relocate to Bonn with possibility of having her/him on a HiWi position)&lt;/li&gt;
+&lt;li&gt;Proficiency in Python and familiarity with machine learning frameworks (e.g., PyTorch).&lt;/li&gt;
+&lt;li&gt;Background in deep learning, especially in medical imaging.&lt;/li&gt;
+&lt;li&gt;Strong foundation in data preprocessing and data integration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;:
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Katz, Matthew H. G. et al. “Tumor‐Node‐Metastasis Staging of Pancreatic Adenocarcinoma.” CA: A Cancer Journal for Clinicians 58 (2008).&lt;/li&gt;
+&lt;li&gt;National Comprehensive Cancer Network. 
+&lt;a href=&#34;http://www.nccn.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National comprehensive cancer network (nccn) guidelines&lt;/a&gt;, 2023.&lt;/li&gt;
+&lt;li&gt;Loch, Florian N. et al. “Accuracy of various criteria for lymph node staging in ductal adenocarcinoma of the pancreatic head by computed tomography and magnetic resonance imaging.” World Journal of Surgical Oncology 18 (2020).&lt;/li&gt;
+&lt;li&gt;Perrotta, Gerardo et al. “Accuracy of Clinical Staging in Early-Stage Pancreatic Ductal Adenocarcinoma.” JAMA (2024).&lt;/li&gt;
+&lt;li&gt;Castellana, R. et al. &amp;ldquo;Radiomics and deep learning models for LNM prediction in PDAC: A systematic review and meta-analysis.&amp;rdquo; European Journal of Radiology 176 (2024).&lt;/li&gt;
+&lt;li&gt;Zheng, Zhilin et al. “A deep local attention network for pre-operative lymph node metastasis prediction in pancreatic cancer via multiphase CT imaging.” ArXiv abs/2301.01448 (2023)&lt;/li&gt;
+&lt;li&gt;D Gaviria. et al. Deep Learning for Improved Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma. Accepted at Medical Imaging and Computer-Aided Diagnosis (MICAD) 2024.&lt;/li&gt;
+&lt;li&gt;Huang, Xun and Serge J. Belongie. 
+&lt;a href=&#34;https://openaccess.thecvf.com/content_ICCV_2017/papers/Huang_Arbitrary_Style_Transfer_ICCV_2017_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arbitrary Style Transfer in Real-Time with Adaptive Instance Normalization.&lt;/a&gt; 2017 IEEE International Conference on Computer Vision (ICCV) (2017): 1510-1519.&lt;/li&gt;
+&lt;li&gt;Rasoulian, Amir et al. 
+&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-031-17899-3_7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weakly Supervised Intracranial Hemorrhage Segmentation Using Hierarchical Combination of Attention Maps from a Swin Transformer&lt;/a&gt;. MLCN@MICCAI (2022).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+&lt;p&gt;For inquiries, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enhancing oncological care: A guide to setting up a new multidisciplinary cancer cachexia clinic within a tertiary centre</title>
+      <link>https://albarqouni.github.io/publication/ko-2024-enhancing/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/ko-2024-enhancing/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

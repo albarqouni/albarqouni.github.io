@@ -5,12 +5,69 @@
     <link>https://albarqouni.github.io/funded/</link>
       <atom:link href="https://albarqouni.github.io/funded/index.xml" rel="self" type="application/rss+xml" />
     <description>Fundeds</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Fundeds</title>
       <link>https://albarqouni.github.io/funded/</link>
     </image>
+    
+    <item>
+      <title>Cost-Effective Affordable AI for Breast Lesion Detection with Ultra-sensitive Optical Sensing</title>
+      <link>https://albarqouni.github.io/funded/bonnguc/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/funded/bonnguc/</guid>
+      <description>&lt;p&gt;Breast cancer is a global health crisis and a leading cause of cancer-related mortality among women, with over 2.3 million new cases and approximately 685,000 deaths reported in 2020. Early and accurate detection is crucial for successful treatment outcomes, yet traditional diagnostic methods like mammography, biopsy, and digital pathology are expensive, invasive, and require highly specialized infrastructure, making them inaccessible in low-resource settings. Thus, there is an urgent need for diagnostic tools that are both affordable and effective.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Current Challenges:&lt;/strong&gt; While micro-optical resonators offer high sensitivity, their translation into clinical settings requires solutions for stability, compatibility with existing medical equipment, and real-time data handling. Moreover, accurately distinguishing between benign and malignant tissue using ML remains challenging, requiring model fine-tuning and rigorous evaluation to ensure reliability comparable to digital pathology.&lt;/p&gt;
+&lt;p&gt;This project &lt;strong&gt;aims&lt;/strong&gt; to develop a novel diagnostic approach that combines biosensor technology with advanced Machine Learning (ML) and Deep Learning algorithms for breast lesion detection and grading. By leveraging cost-effective biosensor-based detection, we seek to deliver comparable accuracy to digital pathology methods while minimizing expense and resource requirements. This approach not only holds promise for affordable diagnostics but also addresses the unmet needs of low-resource settings, contributing to broader health equity.&lt;/p&gt;
+&lt;h3 id=&#34;project-goals&#34;&gt;Project goals&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;To develop a novel, non-invasive, biosensor-based diagnostic tool for breast lesion detection and grading that is accessible and cost-effective.&lt;/li&gt;
+&lt;li&gt;To integrate advanced ML and Deep Learning algorithms specifically optimized to analyze data from biosensors, providing a high-accuracy, low-cost alternative to digital pathology.&lt;/li&gt;
+&lt;li&gt;To rigorously compare the efficacy of this biosensor-based approach with digital pathology, aiming to validate its reliability in detecting and grading breast lesions.&lt;/li&gt;
+&lt;li&gt;To establish a collaborative framework between the 
+&lt;a href=&#34;www.ARAtronics.com&#34;&gt;GUC ARAtronics&lt;/a&gt; Research Center at the German University in Cairo (GUC) and 
+&lt;a href=&#34;https://albarqouni.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Albarqouni Lab&lt;/a&gt; at the University Hospital Bonn, University of Bonn, combining their strengths in bio-optical sensors, ML, and medical imaging, and advancing solutions for low-resource clinical environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;activities&#34;&gt;Activities:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kickoff Meeting at UKBonn&lt;/li&gt;
+&lt;li&gt;Summer School on Affordable AI at GUC&lt;/li&gt;
+&lt;li&gt;Short Research Stays at UKBonn&lt;/li&gt;
+&lt;li&gt;Workshop on Affordable AI at the GUC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;partners&#34;&gt;Partners:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Assoc. Prof. Amir Ali, Dr. Sally Ibrahim, and Dr. Shereen Afifi from 
+&lt;a href=&#34;https://www.guc.edu.eg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;German University in Cairo&lt;/a&gt;, Egypt&lt;/li&gt;
+&lt;li&gt;Prof. Shadi Albarqouni from 
+&lt;a href=&#34;https://albarqouni.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University Hospital Bonn | Universiy of Bonn | Helmholtz AI&lt;/a&gt;, Germany&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;p&gt;The project is financed by the 
+&lt;a href=&#34;https://www.daad.de/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;German Academic Exchange Service (DAAD)&lt;/a&gt; with funds from the 
+&lt;a href=&#34;https://www.bmbf.de/bmbf/en/home/home_node.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;German Federal Ministry of Education and Research (BMBF)&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Application of AI and Advanced MRI for a Better Prediction of Disease Progression in Neurological Disorders</title>
+      <link>https://albarqouni.github.io/funded/bonnfellowship/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/funded/bonnfellowship/</guid>
+      <description>&lt;p&gt;TBA&lt;/p&gt;
+&lt;h3 id=&#34;partners&#34;&gt;Partners:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://weill.cornell.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weill Cornell Medicine&lt;/a&gt;, USA&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://albarqouni.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Albarqouni Lab&lt;/a&gt;, Germany&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
+&lt;p&gt;The project is funded by 
+&lt;a href=&#34;https://www.uni-bonn.de/en/research-and-teaching/support-for-researchers-and-teachers/research-funding/university-grants/bonn-international-fellowships&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bonn International Fellowship&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Summer School on Affordable AI (SAAI)</title>
@@ -50,6 +107,41 @@
 &lt;h4 id=&#34;funding&#34;&gt;Funding:&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;This project has received funding from German Research Foundation (DFG)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;DFG.png&#34; alt=&#34;DFG&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Utilising Artificial Intelligence in Cancer Imaging To Improve Patient Outcomes</title>
+      <link>https://albarqouni.github.io/funded/bonnmelbourne/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/funded/bonnmelbourne/</guid>
+      <description>&lt;p&gt;Cachexia is a devastating tumour-induced wasting disease affecting 30% of all cancerpatients. This initiative brings together clinical, computational (artifi cial intelligence),and laboratory research partners to work on the delivery of improved outcomes forpatients with cancer cachexia. Aims of the collaboration: Funding will provideopportunities to broaden digital research links and submit joint grant and conjoint PhDproposals.&lt;/p&gt;
+&lt;p&gt;Long-term objectives:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;Developing non-invasive screening tools for cancercachexia, using AI-assisted imaging analysis approaches.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Developing a greaterunderstanding of molecular processes of cancer cachexia using animal models andpatient samples.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Increase knowledge and awareness about cachexia througheducational events for clinicians, patients and families on cachexia diagnosis andtreatment.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This multidisciplinary and diverse initiative builds on the expertise andexisting collaborations between researchers/clinicians across both universities (Bonn/Melbourne). The group consists of experts in radiology/ image analysis (Ko,Attenberger), computational science /AI (Albarqouni) and cancer biology/ metabolism(Cheng). This team of clinicians and researchers with deep knowledge of the fi eld ofcancer cachexia are ideally placed to educate clinicians, patients and families oncachexia and increase its awareness in the general community.&lt;/p&gt;
+&lt;p&gt;Partners:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.petermac.org/education/postgraduate-research-studies/sir-peter-maccallum-department-oncology-university-of-melbourne-and-peter-maccallum-cancer-centre&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Sir Peter MacCallum Dept of Oncology&lt;/a&gt;, Australia&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://albarqouni.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Albarqouni Lab&lt;/a&gt;, Germany&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

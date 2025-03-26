@@ -5,12 +5,303 @@
     <link>https://albarqouni.github.io/authors/david-gaviria/</link>
       <atom:link href="https://albarqouni.github.io/authors/david-gaviria/index.xml" rel="self" type="application/rss+xml" />
     <description>Albarqouni Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Mon, 17 Mar 2025 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Albarqouni Lab</title>
       <link>https://albarqouni.github.io/authors/david-gaviria/</link>
     </image>
+    
+    <item>
+      <title>Participated at the Helmholtz-ELLIS Workshop on Foundation Models in Science</title>
+      <link>https://albarqouni.github.io/talk/helmholtzellisfm/</link>
+      <pubDate>Mon, 17 Mar 2025 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/helmholtzellisfm/</guid>
+      <description>&lt;p&gt;Elodie, David, and Shadi participated at the Helmholtz ELLIS Workshop on Foundation Models which took place in Berlin over two days, bringing together leading researchers and practitioners from academia and industry. The primary focus was to explore the transformative impact of large-scale AI models (\textit{Foundation Models}) across various scientific domains, including medical imaging, astrophysics, tabular data analysis, and beyond.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>David participated at MICAD 2024 in Manchester، UK</title>
+      <link>https://albarqouni.github.io/talk/micad_david_2024/</link>
+      <pubDate>Tue, 19 Nov 2024 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/micad_david_2024/</guid>
+      <description>&lt;p&gt;At MICAD 2024 in Manchester, UK, David presented our research, &lt;em&gt;Deep Learning for Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma.&lt;/em&gt; This study introduces an innovative two-stage deep learning framework to improve the detection of lymph node metastases (LNM) in PDAC. Utilizing 3D CT scans and integrating imaging with clinical features, our model achieves enhanced performance without relying on lymph node segmentation.&lt;/p&gt;
+&lt;p&gt;Our study underscores the significance of combining imaging data with non-imaging clinical attributes, such as tumor size, anatomical location, and CA-19-9 tumor marker levels. The model demonstrated a 35.32% relative improvement in balanced accuracy, highlighting the impact of holistic data integration in LNM detection. Notably, the inclusion of straightforward automated segmentation priors further optimized performance, marking a pivotal step forward in preoperative diagnostics for PDAC.&lt;/p&gt;
+&lt;p&gt;Engaging with the MICAD community gave us a valuable platform to showcase these advancements, fostering discussions on multi-institutional collaboration and addressing challenges like domain shifts and data heterogeneity. The feedback and interest from peers emphasized the relevance of our findings, opening avenues for potential collaborations to refine and expand this work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>David participated at the MIB Future Panel in Bonn</title>
+      <link>https://albarqouni.github.io/talk/mib_panel_david/</link>
+      <pubDate>Wed, 06 Nov 2024 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/mib_panel_david/</guid>
+      <description>&lt;p&gt;It was an exciting to present our research on Lymph Node Metastasis Detection in &lt;em&gt;Pancreatic Ductal Adenocarcinoma&lt;/em&gt; at the MIB Future Panel 2024. Hosted by the &lt;em&gt;Medical Imaging Center Bonn&lt;/em&gt; in partnership with &lt;em&gt;Universitätsklinikum Bonn&lt;/em&gt; and the Medical Faculty of &lt;em&gt;Rheinische Friedrich-Wilhelms-Universität Bonn&lt;/em&gt;, this symposium united thought leaders from both academia and industry. The event highlighted the critical importance of multi-center collaborations for the development of robust Computer-Aided Diagnosis (CAD) systems, which are essential for providing radiologists with reliable tools suited for real-world clinical application.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>David participated with a poster presentation at the Student Retreat from BIGS Clinical and Population Science PhD program</title>
+      <link>https://albarqouni.github.io/talk/student_retreat_david/</link>
+      <pubDate>Mon, 04 Nov 2024 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/student_retreat_david/</guid>
+      <description>&lt;p&gt;David participated in the &lt;em&gt;Student Retreat 2024&lt;/em&gt; organized by the BIGS Clinical and Population Science PhD program in Bonn, Germany. This event was an invaluable opportunity to present my research in a poster format, engage with fellow scholars, and exchange scientific knowledge. The retreat provided a platform to receive constructive feedback on my work, expand my network, and enhance my understanding of diverse research topics within clinical and population science.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MA Thesis: Deep Learning for Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_lnm/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_lnm/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Pancreatic ductal adenocarcinoma (PDAC) is one of the most lethal cancers, with lymph node metastasis (LNM) being a critical determinant in patient prognosis and therapeutic planning [1-2]. Conventional methods for detecting LNM in PDAC primarily rely on contrast-enhanced CT scans, but these often fall short in sensitivity, especially in early-stage disease. Studies have shown that preoperative imaging tends to underestimate LNM, leading to inaccurate staging that can influence treatment outcomes [3-4]. Given the high stakes associated with accurate LNM detection, there is a pressing need to develop more precise and sensitive models that can provide reliable predictions and aid in clinical decision-making.&lt;/p&gt;
+&lt;p&gt;Recent advancements in deep learning (DL) have shown promise in enhancing the accuracy of LNM detection for PDAC [5], although external validation remains necessary to confirm the generalizability of these models [6]. Building on this foundation, our previous work [7] integrated imaging features with non-imaging clinical attributes, such as clinical biomarkers, namely CA-19-9, tumor size and tumor location, into a DL pipeline to improve overall LNM detection. Moreover, challenges such as data heterogeneity across multi-institutional cohorts and imbalances in positive and negative LNM cases still need to be addressed in these multi-center datasets, ensuring that the model is both robust and adaptable across different clinical environments.&lt;/p&gt;
+&lt;p&gt;This thesis aims to further expand on our previous work by including datasets from seven centers across Australia and Germany, encompassing a total of 1,260+ cases. The project will investigate the impact of clinical attributes on model performance through an ablation study, perform feature normalization using Adaptive Instance Normalization (AdaIN) to mitigate center-specific data biases, and analyze self-attention maps from SwinTransformers to verify if the model accurately identifies LNM-positive regions. By extending the DL pipeline to additional centers and rigorously examining the model&amp;rsquo;s feature fusion and attention mechanisms, we aim to achieve a highly accurate, generalizable model for LNM detection in PDAC that could serve as a valuable tool in clinical practice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Q1)&lt;/strong&gt; How effectively can an expanded DL model integrating multi-center data from seven centers across Australia and Germany and clinical attributes improve LNM detection?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Q2)&lt;/strong&gt; What is the impact of different feature fusion techniques on the model’s ability to accurately detect LNM?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Q3)&lt;/strong&gt; How does feature normalization, particularly using Adaptive Instance Normalization (AdaIN), improve model robustness across datasets from diverse centers?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Q4)&lt;/strong&gt; Can self-attention maps from the SwinTransformers capture LNM-positive regions effectively, and how well do these maps align with expert-validated annotations of lymph node metastasis?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Clinical Collaborators&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Patrick Kupczyk&lt;/strong&gt;, University Hospital Bonn&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hyun Ko&lt;/strong&gt;, Peter MacCallum Cancer Centre&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alexander Semaan&lt;/strong&gt;, University Hospital Bonn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dataset&lt;/strong&gt;:
+The dataset now comprises a total of 1,260+ cases collected from seven centers in Germany and Australia. Each scan is annotated with histological data (N+ or N0) to confirm LNM presence or absence:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;University Hospital Bonn (UKB)&lt;/strong&gt;: Comprising 180 cases (106 N+ PDAC patients) from the Radiology Department and the Clinic and Polyclinic for General, Visceral, Thoracic, and Vascular Surgery.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peter MacCallum Cancer Centre, Melbourne (MEL)&lt;/strong&gt;: 480 cases sourced from four hospitals in Melbourne, including the Royal Melbourne Hospital, Western Health, and Northern Health. Of these, 42 cases are N+ with specialist radiologist-provided lymph node segmentations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Berlin Cohort&lt;/strong&gt;: 400 cases, with preprocessing and annotation required.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Additional Göttingen Cohort&lt;/strong&gt;: Over 200 cases, currently in the acquisition process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Expected Tasks&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Pipeline Extension&lt;/strong&gt;: Extend the current model to incorporate data from two additional centers, totaling seven. This requires documenting dataset details from each center (including annotation availability) and balancing the LNM-positive and LNM-negative cases.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ablation Study and Feature Fusion Analysis&lt;/strong&gt;: Perform an ablation study, analyzing the impact of clinical attributes alone, and assess different feature fusion techniques to optimize model performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature Normalization across Centers&lt;/strong&gt;: Investigate the use of Adaptive Instance Normalization (AdaIN) as a data augmentation technique to improve feature consistency across centers, minimizing the effect of domain shifts [8].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Attention Map Analysis&lt;/strong&gt;: Use SwinTransformers’ self-attention maps to assess whether the model accurately captures positive lymph nodes (validated by expert radiologist Alex). Relevant research includes the methodology outlined in [9].&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Review relevant literature on LNM prediction and DL models in medical imaging.&lt;/li&gt;
+&lt;li&gt;Expand and preprocess datasets from all centers, including balancing strategies for LNM cases.&lt;/li&gt;
+&lt;li&gt;Develop and integrate the baseline DL model with extended data inputs, incorporating feature normalization and fusion mechanisms.&lt;/li&gt;
+&lt;li&gt;Conduct experiments, including ablation studies and feature fusion assessments.&lt;/li&gt;
+&lt;li&gt;Complete the analysis and write the thesis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interested candidate must be based in Bonn for data acccess within the hopsital (willing to relocate to Bonn with possibility of having her/him on a HiWi position)&lt;/li&gt;
+&lt;li&gt;Proficiency in Python and familiarity with machine learning frameworks (e.g., PyTorch).&lt;/li&gt;
+&lt;li&gt;Background in deep learning, especially in medical imaging.&lt;/li&gt;
+&lt;li&gt;Strong foundation in data preprocessing and data integration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;:
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Katz, Matthew H. G. et al. “Tumor‐Node‐Metastasis Staging of Pancreatic Adenocarcinoma.” CA: A Cancer Journal for Clinicians 58 (2008).&lt;/li&gt;
+&lt;li&gt;National Comprehensive Cancer Network. 
+&lt;a href=&#34;http://www.nccn.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National comprehensive cancer network (nccn) guidelines&lt;/a&gt;, 2023.&lt;/li&gt;
+&lt;li&gt;Loch, Florian N. et al. “Accuracy of various criteria for lymph node staging in ductal adenocarcinoma of the pancreatic head by computed tomography and magnetic resonance imaging.” World Journal of Surgical Oncology 18 (2020).&lt;/li&gt;
+&lt;li&gt;Perrotta, Gerardo et al. “Accuracy of Clinical Staging in Early-Stage Pancreatic Ductal Adenocarcinoma.” JAMA (2024).&lt;/li&gt;
+&lt;li&gt;Castellana, R. et al. &amp;ldquo;Radiomics and deep learning models for LNM prediction in PDAC: A systematic review and meta-analysis.&amp;rdquo; European Journal of Radiology 176 (2024).&lt;/li&gt;
+&lt;li&gt;Zheng, Zhilin et al. “A deep local attention network for pre-operative lymph node metastasis prediction in pancreatic cancer via multiphase CT imaging.” ArXiv abs/2301.01448 (2023)&lt;/li&gt;
+&lt;li&gt;D Gaviria. et al. Deep Learning for Improved Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma. Accepted at Medical Imaging and Computer-Aided Diagnosis (MICAD) 2024.&lt;/li&gt;
+&lt;li&gt;Huang, Xun and Serge J. Belongie. 
+&lt;a href=&#34;https://openaccess.thecvf.com/content_ICCV_2017/papers/Huang_Arbitrary_Style_Transfer_ICCV_2017_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arbitrary Style Transfer in Real-Time with Adaptive Instance Normalization.&lt;/a&gt; 2017 IEEE International Conference on Computer Vision (ICCV) (2017): 1510-1519.&lt;/li&gt;
+&lt;li&gt;Rasoulian, Amir et al. 
+&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-031-17899-3_7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weakly Supervised Intracranial Hemorrhage Segmentation Using Hierarchical Combination of Attention Maps from a Swin Transformer&lt;/a&gt;. MLCN@MICCAI (2022).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+&lt;p&gt;For inquiries, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Artificial Intelligence in Radiology: Applications and Research</title>
+      <link>https://albarqouni.github.io/students/courses/air/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/courses/air/</guid>
+      <description>&lt;h2 id=&#34;seminar-2-sws-artificial-intelligence-in-radiology-applications-and-research-artifizielle-intelligenz-in-der-radiologie-anwendungen-und-forschung&#34;&gt;Seminar (2 SWS): Artificial Intelligence in Radiology: Applications and Research (Artifizielle Intelligenz in der Radiologie: Anwendungen und Forschung)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Lecturers:&lt;/strong&gt; 
+&lt;a href=&#34;../../../authors/admin/&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutors:&lt;/strong&gt; 
+&lt;a href=&#34;../../../authors/elodie-germani/&#34;&gt;Dr. Elodie Germani&lt;/a&gt;, 
+&lt;a href=&#34;../../../authors/david-gaviria/&#34;&gt;David Gaviria&lt;/a&gt;, 
+&lt;a href=&#34;../../../authors/yiheng-xiong&#34;&gt;Yiheneg Xiong&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; November 15 – Jan 31 (every Friday, &lt;s&gt;11:30 AM - 1:00 PM&lt;/s&gt; 16:00 - 17:30)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Format:&lt;/strong&gt; Online (Zoom Meeting) with potential face-to-face meetings, if participants interested! Link was provided via email.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Language:&lt;/strong&gt; English&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;eCampus:&lt;/strong&gt; 
+&lt;a href=&#34;https://ecampus.uni-bonn.de/goto.php?target=crs_3579292&amp;amp;client_id=ecampus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt; to eCampus&lt;/p&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;The Computational Imaging Research (Albarqouni Lab) at the Clinic of Diagnostic and Interventional Radiology at the University Hospital Bonn is pleased to present a seminar on &lt;em&gt;Artificial Intelligence in Radiology: Applications and Research.&lt;/em&gt; This cutting-edge seminar, spanning two semester hours per week (2 SWS), is specially curated for medical students to explore the transformative role of deep learning in medical imaging, with a focus on tasks such as classification, detection, segmentation, reconstruction, tracking, and disease progression.&lt;/p&gt;
+&lt;h3 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h3&gt;
+&lt;p&gt;Upon completing this seminar, students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Grasp deep learning concepts and their specific applications in medical imaging.&lt;/li&gt;
+&lt;li&gt;Analyze advanced image analysis tasks, including classification, detection, segmentation, and disease progression modeling.&lt;/li&gt;
+&lt;li&gt;Evaluate ethical and regulatory considerations in the deployment of AI within healthcare.&lt;/li&gt;
+&lt;li&gt;Discuss the future potential of AI-driven solutions in personalized medicine and patient care.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;target-audience&#34;&gt;Target Audience&lt;/h3&gt;
+&lt;p&gt;This seminar is designed for medical students at the Faculty of Medicine, University Hospital Bonn, who are keen on leveraging AI technologies to enhance their medical practice, specifically within diagnostic imaging.&lt;/p&gt;
+&lt;h3 id=&#34;prerequisites-and-desired-knowledge&#34;&gt;Prerequisites and Desired Knowledge&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt; Familiarity with fundamental medical imaging techniques and an interest in AI applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desired:&lt;/strong&gt; Understanding of medical diagnostics and clinical data interpretation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;seminar-topics-and-schedule-tentative&#34;&gt;Seminar Topics and Schedule (Tentative)&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Topic&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Presenter&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Materials&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nov 22&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Deep Learning Foundations&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Introduction to deep learning concepts specific to medical imaging.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Meskó, Bertalan, and Marton Görög. &amp;ldquo;A short guide for medical professionals in the era of artificial intelligence.&amp;rdquo; NPJ digital medicine 3.1 (2020): 126. 
+&lt;a href=&#34;https://www.nature.com/articles/s41746-020-00333-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF}&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nov 29&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Detection and Classification in Medical Imaging&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Exploring detection and classification techniques in diagnosing diseases from medical images.&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../authors/david-gaviria/&#34;&gt;David Gaviria&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Litjens, Geert, et al. &amp;ldquo;A survey on deep learning in medical image analysis.&amp;rdquo; Medical image analysis 42 (2017): 60-88. 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1361841517301135?casa_token=0EKKPg-JAL8AAAAA:CjbQzL7k-8_VF4g6VXgtrN_r7Ai1xbSDos_f_4yp_YAi3EEEu6wXoBw7Z3eYPLnGB_avgXkzLGk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;, Chen, Xuxin, et al. &amp;ldquo;Recent advances and clinical applications of deep learning in medical image analysis.&amp;rdquo; Medical image analysis 79 (2022): 102444. 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/am/pii/S1361841522000913&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;,&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dec 6&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Segmentation&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Deep learning methods for segmenting key structures in medical images.&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../authors/yiheng-xiong&#34;&gt;Yiheneg Xiong&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Tajbakhsh, Nima, et al. &amp;ldquo;Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.&amp;rdquo; Medical image analysis 63 (2020):101693. 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S136184152030058X?casa_token=CEnq-3mHEtoAAAAA:TAzIDSKtwOxS0j3CatirvKvpq17nxyy2Tg0LZfdxxzho_FDxH5eqLHTatVjYe7xHPHxLrVOpLnE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dec 13&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Causality and Bias&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Causality and Bias in deep learning with medical imaging.&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../authors/elodie-germani/&#34;&gt;Dr. Elodie Germani&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Castro, Daniel C., Ian Walker, and Ben Glocker. &amp;ldquo;Causality matters in medical imaging.&amp;rdquo; Nature Communications 11.1 (2020): 3673. 
+&lt;a href=&#34;https://www.nature.com/articles/s41467-020-17478-w.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;, Jones, Charles, et al. &amp;ldquo;A causal perspective on dataset bias in machine learning for medical imaging.&amp;rdquo; Nature Machine Intelligence 6.2 (2024): 138-146 
+&lt;a href=&#34;https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/s42256-024-00797-8&amp;amp;casa_token=Da6WexFt42oAAAAA:yZN-4FKxwBz6by4QicC1neuiGFCcur8StH0I_0FTO3SVASKgzuNPhX0PnXrXCmJaib1UjVClSzB-BkXBJCE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dec 20&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;s&gt;Uncertainity Quantification&lt;/s&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Moved to the next year due to holiday season&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Jan 10&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Q&amp;amp;A Session&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Students should prepare questions for their assigned papers and discuss them with the tutors&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Jan 17&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Uncertainity Quantification&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Quanitifying Uncertainty in Deep Learning Models&lt;/td&gt;
+&lt;td&gt;
+&lt;a href=&#34;../../../authors/david-gaviria/&#34;&gt;David Gaviria&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Huang, Ling, et al. &amp;ldquo;A review of uncertainty quantification in medical image analysis: probabilistic and non-probabilistic methods.&amp;rdquo; Medical Image Analysis (2024): 103223. 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1361841524001488&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Jan 24&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Student Paper Presentations (1)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Student presentations.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Jan 31&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Student Paper Presentations (2) and Course Wrap-Up&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Wrap-up, feedback, and discussion on future AI applications in medical practice.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;learning-format&#34;&gt;Learning Format&lt;/h3&gt;
+&lt;p&gt;One of the seminar’s unique teaching concepts is “Teach It to Yourself.” Participants (limited to 20 partisipants) will present selected chapter and papers, engage in discussions, and critically analyze case studies on deep learning applications in medical imaging.&lt;/p&gt;
+&lt;h3 id=&#34;registration-closed&#34;&gt;Registration (&lt;strong&gt;closed&lt;/strong&gt;)&lt;/h3&gt;
+&lt;p&gt;Interested in this seminar, please register via email to 
+&lt;a href=&#34;../../../authors/elodie-germani/&#34;&gt;Dr. Elodie Germani&lt;/a&gt; and 
+&lt;a href=&#34;../../../authors/admin/&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[1] Litjens, Geert, et al. &amp;ldquo;A survey on deep learning in medical image analysis.&amp;rdquo; Medical image analysis 42 (2017): 60-88. 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1361841517301135?casa_token=0EKKPg-JAL8AAAAA:CjbQzL7k-8_VF4g6VXgtrN_r7Ai1xbSDos_f_4yp_YAi3EEEu6wXoBw7Z3eYPLnGB_avgXkzLGk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[2] Shen, Dinggang, Guorong Wu, and Heung-Il Suk. &amp;ldquo;Deep learning in medical image analysis.&amp;rdquo; Annual review of biomedical engineering 19.1 (2017): 221-248.&lt;/li&gt;
+&lt;li&gt;[3] Chen, Xuxin, et al. &amp;ldquo;Recent advances and clinical applications of deep learning in medical image analysis.&amp;rdquo; Medical image analysis 79 (2022): 102444. 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/am/pii/S1361841522000913&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[4] Tajbakhsh, Nima, et al. &amp;ldquo;Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.&amp;rdquo; Medical image analysis 63 (2020):101693. 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S136184152030058X?casa_token=CEnq-3mHEtoAAAAA:TAzIDSKtwOxS0j3CatirvKvpq17nxyy2Tg0LZfdxxzho_FDxH5eqLHTatVjYe7xHPHxLrVOpLnE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[5] Wang, Ge, Jong Chul Ye, and Bruno De Man. &amp;ldquo;Deep learning for tomographic image reconstruction.&amp;rdquo; Nature machine intelligence 2.12 (2020): 737-748. 
+&lt;a href=&#34;https://www.nature.com/articles/s42256-020-00273-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[6] Ben Yedder, Hanene, Ben Cardoen, and Ghassan Hamarneh. &amp;ldquo;Deep learning for biomedical image reconstruction: A survey.&amp;rdquo; Artificial intelligence review 54.1 (2021): 215-251. 
+&lt;a href=&#34;https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s10462-020-09861-2&amp;amp;casa_token=ckLy9XB_kJAAAAAA:kIEg6GqC0Jk9nDBDO5Lzh_2QXXyBw3gFDMuE5gzgFZuR-JvmIqhS2dN2QNhK_eCggtgZakZen-PGNc_OrOo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[7] Huang, Ling, et al. &amp;ldquo;A review of uncertainty quantification in medical image analysis: probabilistic and non-probabilistic methods.&amp;rdquo; Medical Image Analysis (2024): 103223. 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1361841524001488&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[8] Castro, Daniel C., Ian Walker, and Ben Glocker. &amp;ldquo;Causality matters in medical imaging.&amp;rdquo; Nature Communications 11.1 (2020): 3673. 
+&lt;a href=&#34;https://www.nature.com/articles/s41467-020-17478-w.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[9] Jones, Charles, et al. &amp;ldquo;A causal perspective on dataset bias in machine learning for medical imaging.&amp;rdquo; Nature Machine Intelligence 6.2 (2024): 138-146. 
+&lt;a href=&#34;https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/s42256-024-00797-8&amp;amp;casa_token=Da6WexFt42oAAAAA:yZN-4FKxwBz6by4QicC1neuiGFCcur8StH0I_0FTO3SVASKgzuNPhX0PnXrXCmJaib1UjVClSzB-BkXBJCE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[10] Thirunavukarasu, Arun James, et al. &amp;ldquo;Large language models in medicine.&amp;rdquo; Nature medicine 29.8 (2023): 1930-1940. 
+&lt;a href=&#34;https://www.nature.com/articles/s41591-023-02448-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[11] Zhang, Jingyi, et al. &amp;ldquo;Vision-language models for vision tasks: A survey.&amp;rdquo; IEEE Transactions on Pattern Analysis and Machine Intelligence (2024). 
+&lt;a href=&#34;https://ieeexplore.ieee.org/iel7/34/4359286/10445007.pdf?casa_token=YkE-Ce1otfoAAAAA:nzxMsIoQekzVQlRvR7AvTxQzOpdaBIXJNVfv8P9XGpkscrrbxMXfAYLrF4b2eJTfAEFFKss7UmE8LUM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Summer School on Affordable AI (SAAI)</title>
+      <link>https://albarqouni.github.io/funded/saai/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/funded/saai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Participate at the International Conference on Computer Vision</title>
+      <link>https://albarqouni.github.io/talk/iccv2023/</link>
+      <pubDate>Mon, 02 Oct 2023 09:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/iccv2023/</guid>
+      <description>&lt;p&gt;I very much enjoyed the two days at the International Conference on Computer Vision (ICCV) in the lovely Paris 🇫🇷. I met a couple of students, colleagues and friends who are coming from Stanford 🇺🇸, Imperial 🇬🇧, Google and ETH Zurich 🇨🇭, and TU Munich, UniBonn, and University of Potsdam 🇩🇪! We discussed the possibilities of collaboration and exchange that might happen in the future!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Affordable AI and Collaborative Federated Learning for Global Healthcare (EEDA)</title>
+      <link>https://albarqouni.github.io/funded/eeda/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/funded/eeda/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

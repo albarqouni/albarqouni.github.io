@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>valentin-schaefer | Albarqouni Lab</title>
+    <title>Albarqouni Lab</title>
     <link>https://albarqouni.github.io/authors/valentin-schaefer/</link>
       <atom:link href="https://albarqouni.github.io/authors/valentin-schaefer/index.xml" rel="self" type="application/rss+xml" />
-    <description>valentin-schaefer</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright><lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <description>Albarqouni Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Wed, 06 Nov 2024 09:10:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>valentin-schaefer</title>
+      <title>Albarqouni Lab</title>
       <link>https://albarqouni.github.io/authors/valentin-schaefer/</link>
     </image>
+    
+    <item>
+      <title>Moderator at the MIB Future Panel 2024</title>
+      <link>https://albarqouni.github.io/talk/mib2024/</link>
+      <pubDate>Wed, 06 Nov 2024 09:10:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/talk/mib2024/</guid>
+      <description>&lt;p&gt;It was a pleasure moderating the Symposium on AI in Medicine and sharing our recent works, which have recently been accepted at hashtag#MICAD and hashtag#MICCAI Workshops! Thanks to the team members Sarah Schaab, David D. Gaviria, and Elyes Farjallah for their great efforts! Thanks to the co-moderator Prof. Valentin S. Schäfer, and the organizing team behind the MIB Future Panel; Lisa Mona Marie Senner, Prof. Frank G. Holz, and the dean, Prof. Bernd Weber, among others! Congrats to the winners!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MA Thesis: Deep Learning based detection model of the temporal and axillary artery in suspected giant cell arteritis in ultrasound images -- Not available</title>

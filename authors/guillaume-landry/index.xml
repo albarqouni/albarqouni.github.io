@@ -5,12 +5,20 @@
     <link>https://albarqouni.github.io/authors/guillaume-landry/</link>
       <atom:link href="https://albarqouni.github.io/authors/guillaume-landry/index.xml" rel="self" type="application/rss+xml" />
     <description>Guillaume Landry</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2024</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
       <title>Guillaume Landry</title>
       <link>https://albarqouni.github.io/authors/guillaume-landry/</link>
     </image>
+    
+    <item>
+      <title>CloverNet--Leveraging Planning Annotations for Enhanced Procedural MR Segmentation: An Application to Adaptive Radiation Therapy</title>
+      <link>https://albarqouni.github.io/publication/de-2024-clovernet/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/de-2024-clovernet/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Butterfly-Net: Spatial-Temporal Architecture For Medical Image Segmentation</title>

@@ -1,0 +1,80 @@
+---
+title: "CIR/02/2024: Research Manager (m/f/d)"
+
+summary: "starting Nov 2024 or as agreed upon. The position is initially limited to two years, with the possibility of extension."
+
+authors:
+- shadi-albarqouni
+tags: 
+- Research Management
+- Medical Imaging
+- Deep Learning
+
+featured: true
+publishDate: "2024-10-15T00:00:00Z"
+
+image:
+  caption: ''
+  focal_point: Center
+
+links:
+- icon: paper-plane
+  icon_pack: fas
+  name: Apply
+  url: https://forms.gle/vUtkn88rmF3MYnwCA
+
+slides: ""
+
+projects: []
+
+math: true
+---
+
+We combine excellence in research, teaching, and patient care. The University Hospital Bonn (UKB) is a maximum care hospital with more than 1,300 beds. With around 38 clinics and 31 institutes as well as more than 8,000 employees (over 5,000 full-time staff), the UKB is one of the largest employers in Bonn. Every year, the UKB treats around 50,000 inpatients and around 35,000 emergencies, as well as provides over 350,000 outpatient treatments.
+
+The following **part-time (33%)** Research Manager position is available at the **Computational Imaging Research (CIR) Lab**, led by Prof. Dr. Shadi Albarqouni, in the **Clinic for Diagnostic and Interventional Radiology** of the University Hospital Bonn, University of Bonn:
+
+## **Research Manager (m/f/d)** 
+
+starting Nov 2024 or as agreed upon. The position is initially limited to two years, with the possibility of extension.
+
+The Research Manager will work within the newly founded **Computational Imaging Research (CIR) Lab**, which focuses on developing:
+1. Fully automated, highly accurate computational methods to overcome challenges in medical imaging, including limited annotated data, low inter-/intra-observer agreement, inter-/intra-scanner variability, and domain shifts.
+2. Innovative Federated Learning algorithms that enable robust, privacy-preserved knowledge sharing among AI agents.
+3. Affordable AI solutions tailored for low-quality data from low-resource settings and point-of-care devices.
+
+**Your responsibilities:**
+
+- Overseeing and coordinating research projects within the CIR Lab.
+- Managing project timelines, deliverables, and communications with internal teams and external collaborators.
+- Facilitating the data collection, annotation processes, and quality control of imaging data.
+- Supporting grant writing, reporting, and funding applications for ongoing and future projects.
+- Supervising research staff, including assisting with onboarding and training.
+- Ensuring adherence to ethical guidelines and regulatory requirements in research projects.
+- Acting as the main point of contact between clinical partners, lab members, and other stakeholders.
+
+**Your qualifications:**
+
+- **Educational Background:** A Ph.D. in Medical Imaging, Computer Science, Data Science, or a related field, with strong experience in research project management. A Medical Doctorate (MD) or Medical Science backgrouns with research management experience is also acceptable.
+- **Project Management Experience:** Proven experience in managing and coordinating research projects, particularly in an academic or healthcare setting.
+- **Research Interest:** A passion for medical imaging, AI applications, and a track record of involvement in relevant research.
+- **Team Leadership:** Strong leadership skills, with the ability to mentor and guide a multidisciplinary team.
+- **Communication and Collaboration:** Excellent organizational, interpersonal, and communication skills, capable of handling collaboration between various departments and institutions.
+- **Technical Skills:** Knowledge of Machine Learning or Deep Learning frameworks, as well as familiarity with medical imaging tools.
+- **Language Skills:** Fluent in English; knowledge of German is preferred but not required.
+
+**What we offer you:**
+
+- **A secure future:** remuneration according to the German salary scale TV-L E13 (part-time, 33%).
+- **Flexible for families:** flexible working hours, the option of home office, onsite nursery, and parental care services.
+- **Provisions for later:** company pension scheme.
+- **Discounted public transport ticket:** discounted ticket for public transport (VRS).
+- **Health services:** on-site health management with numerous health promotion offers.
+- **Employer benefits:** Discounted offers for employees.
+- **Subsidized continuing education and training.**
+
+The University of Bonn is committed to diversity and equal opportunity and is certified as a family-friendly university. It aims to increase the proportion of women in areas where women are under-represented and to promote their careers in particular. Therefore, we strongly encourage applications from qualified women. Applications will be handled in accordance with the State Equality Act (Landesgleichstellungsgesetz). Applications from individuals with a certified severe disability and from those of equal status are particularly welcome.
+
+**Contact:**
+
+If you meet the requirements and you are looking for a challenging job? Do not hesitate and send your application including a cover letter (highlighting your qualifications), a detailed CV (with links to previous projects and code), scanned academic degrees, and the contact details of two referees (preferably by e-mail in a single PDF file up to 5 MB in size), quoting the job advertisement no. CIR/02/2024 in your [application](https://forms.gle/vUtkn88rmF3MYnwCA).

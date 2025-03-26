@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Claus Belka | Albarqouni Lab</title>
+    <link>https://albarqouni.github.io/authors/claus-belka/</link>
+      <atom:link href="https://albarqouni.github.io/authors/claus-belka/index.xml" rel="self" type="application/rss+xml" />
+    <description>Claus Belka</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
+      <title>Claus Belka</title>
+      <link>https://albarqouni.github.io/authors/claus-belka/</link>
+    </image>
+    
+    <item>
+      <title>CloverNet--Leveraging Planning Annotations for Enhanced Procedural MR Segmentation: An Application to Adaptive Radiation Therapy</title>
+      <link>https://albarqouni.github.io/publication/de-2024-clovernet/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/publication/de-2024-clovernet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

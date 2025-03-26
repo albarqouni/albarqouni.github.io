@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Albarqouni Lab</title>
+    <link>https://albarqouni.github.io/authors/ilayda-tuerk/</link>
+      <atom:link href="https://albarqouni.github.io/authors/ilayda-tuerk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Albarqouni Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
+      <title>Albarqouni Lab</title>
+      <link>https://albarqouni.github.io/authors/ilayda-tuerk/</link>
+    </image>
+    
+    <item>
+      <title>MA Thesis: Investigating Bias in AI Algorithms for Breast Cancer Detection from Mammography Imaging: A Focus on Generalization to Unseen Populations</title>
+      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_investigating_bias_in_ai_algorithms_for_breast_cancer_detection_in_mammography_imaging/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_investigating_bias_in_ai_algorithms_for_breast_cancer_detection_in_mammography_imaging/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Breast density is a critical factor in breast cancer risk and detection, influencing the effectiveness of mammography. Higher breast density, characterized by a greater proportion of fibroglandular tissue relative to fatty tissue, is associated with a four- to sixfold increase in breast cancer risk. This risk is compounded by the fact that dense tissue can mask tumors on mammograms, reducing diagnostic sensitivity. Breast density typically decreases with age, particularly after menopause. However, this relationship is not uniform across all populations.&lt;/p&gt;
+&lt;p&gt;For instance, the study by Checka et al. (2012) [1] revealed that while 74% of women aged 40-49 had dense breasts, this percentage declined to 57% in women aged 50-59, and further to 36% in women aged 70-79. Notably, a significant portion of older women still possessed dense breasts, challenging the assumption that breast density diminishes uniformly with age. Similarly, Advani et al. (2021) [2] explored breast density among women aged 65 years and older, revealing that even in this older demographic, breast density remains a significant risk factor. The study found that 31.5% of women aged 65-74 had heterogeneously or extremely dense breasts, compared to 30.5% of those aged 75 and older. This persistence of high breast density in older women suggests that age alone is not a sufficient predictor of breast density.&lt;/p&gt;
+&lt;p&gt;Breast density and its impact on cancer detection vary significantly across different demographic groups. The studies highlight that certain racial and ethnic groups, such as Asian women, are more likely to have dense breasts, which may necessitate different screening protocols. Moreover, body mass index (BMI) also influences breast density, with lower BMI being associated with higher breast density, particularly in older women. For example, Advani et al. (2021) [2] found that 53.5% of women with heterogeneously or extremely dense breasts had a normal BMI, compared to 39.0% of women with scattered fibroglandular densities.&lt;/p&gt;
+&lt;p&gt;This project aims to investigate any potential biases in deep learning models trained predominantly on data from Western populations—primarily from Europe and the USA— and its generalization on data coming from different demographics. We hypothesize that these models may not adequately account for the variability in breast density across different demographic groups, leading to less accurate risk assessments and detection in non-Western populations.&lt;/p&gt;
+&lt;p&gt;The integration of deep learning (DL) models into mammography for breast cancer risk prediction has shown significant potential, yet there remains a notable research gap in understanding the implications of demographic variability on model performance. While existing models, such as the Tyrer-Cuzick model, have incorporated risk factors like breast density, these models have limitations, particularly when applied to diverse populations. Many DL models are trained on data from predominantly Western populations, which raises concerns about their generalizability and accuracy in non-Western or minority groups.&lt;/p&gt;
+&lt;p&gt;Moreover, the phenomenon of automation bias, as highlighted by Dratsch et al. (2023) [3], poses an additional challenge, particularly when AI systems are integrated into the radiology workflow. The risk of radiologists overly relying on AI suggestions without critical engagement is a significant concern, especially when the AI systems themselves may be biased due to the data they were trained on. This bias, coupled with the underrepresentation of diverse demographics in training datasets, underscores a critical gap in the current research landscape.&lt;/p&gt;
+&lt;p&gt;Given the complexities associated with breast density and its variation across demographics, it is crucial to develop and validate deep learning models that are sensitive to these differences. Such models should be trained on diverse datasets that reflect the global population, ensuring that they can accurately assess breast cancer risk and detect lesions in women from various demographic backgrounds. This approach will help mitigate the biases inherent in current models and improve the effectiveness of breast cancer screening worldwide.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Q1) How does the performance of deep learning models for breast cancer risk prediction vary across different demographic groups, particularly those underrepresented in the training data?&lt;/li&gt;
+&lt;li&gt;Q2) How do breast density and age affect the accuracy of DL-based breast cancer risk prediction models in non-Western populations?&lt;/li&gt;
+&lt;li&gt;Q3) How can AI-induced automation bias be mitigated in mammography to ensure equitable and accurate breast cancer screening across diverse populations?&lt;/li&gt;
+&lt;li&gt;Q4) What strategies can be employed to improve the generalizability of DL models in breast cancer risk prediction across various demographic groups?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
+The landscape of publicly available mammography datasets is rich with resources critical for advancing breast cancer research, particularly in the development of deep learning models. The 
+&lt;a href=&#34;http://www.eng.usf.edu/cvprg/Mammography/Database.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Database for Screening Mammography (DDSM)&lt;/a&gt;, from the &lt;strong&gt;USA&lt;/strong&gt;, provides over 10,000 images with detailed lesion annotations and BI-RADS categorizations, though it lacks explicit demographic data. 
+&lt;a href=&#34;https://academictorrents.com/details/ce1ecade37814701ac95193a910a3c6917ea43b3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;INbreast&lt;/a&gt; offers 410 images, from &lt;strong&gt;Portugal&lt;/strong&gt;, with comprehensive annotations, including lesion contours and breast density. The 
+&lt;a href=&#34;https://www.cancerimagingarchive.net/collection/cbis-ddsm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curated Breast Imaging Subset of DDSM (CBIS-DDSM)&lt;/a&gt; refines DDSM data into 3,000 high-quality images with improved relevance for machine learning. The 
+&lt;a href=&#34;http://peipa.essex.ac.uk/info/mias.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mammographic Image Analysis Society (MIAS)&lt;/a&gt; Database contains 322 images from the &lt;strong&gt;UK&lt;/strong&gt;, categorized by breast density and abnormality type. Lastly, the 
+&lt;a href=&#34;https://medphys.royalsurrey.nhs.uk/omidb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OPTIMAM Mammography Image Database (OMI-DB)&lt;/a&gt; is a vast repository with over 100,000 mammograms from the &lt;strong&gt;UK&lt;/strong&gt;, rich in BI-RADS data and lesion annotations, serving as a vital resource for AI model training.&lt;/p&gt;
+&lt;p&gt;Besides, we have access to a couple of databases from different demographies, namely, 
+&lt;a href=&#34;https://vindr.ai/datasets/mammo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VinDr-Mammo&lt;/a&gt;, from &lt;strong&gt;Vietnam&lt;/strong&gt;, which consists of 5,000 four-view exams with breast-level assessment and finding annotations, and the 
+&lt;a href=&#34;https://www.cancerimagingarchive.net/collection/cmmd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chinese Mammography Database (CMMD)&lt;/a&gt; which consists of 1,775 patients from &lt;strong&gt;China&lt;/strong&gt; with benign or malignant breast disease, and 
+&lt;a href=&#34;https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KAUMD&lt;/a&gt;, from &lt;strong&gt;Saudi Arabia&lt;/strong&gt;, which provides around 1500 cases with a total of 5600 mammogram images with BI-RADS scores.  Besides, through our clinical partners, we have access to 1500 cases from &lt;strong&gt;Lebanon&lt;/strong&gt; and around 100 cases from the &lt;strong&gt;United Arab Emirates&lt;/strong&gt;.  All cases have at least a Mammography scan for both left and right sides with multiple views.&lt;/p&gt;
+&lt;p&gt;The BI-RADS  scores are reported and Malignant cases are biopsy proven. These datasets are indispensable for developing robust, generalizable AI models, though they vary in the level of demographic detail provided.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with the current literature [3-6]&lt;/li&gt;
+&lt;li&gt;Build the baseline supervised model.&lt;/li&gt;
+&lt;li&gt;Run the necessary comparisons.&lt;/li&gt;
+&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
+&lt;li&gt;Write up your thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
+&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
+&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
+&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
+&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Checka, Cristina M., et al. &amp;ldquo;The relationship of mammographic density and age: implications for breast cancer screening.&amp;rdquo; American Journal of Roentgenology 198.3 (2012): W292-W295.&lt;/li&gt;
+&lt;li&gt;Advani, Shailesh M., et al. &amp;ldquo;Association of breast density with breast cancer risk among women aged 65 years or older by age group and body mass index.&amp;rdquo; JAMA network open 4.8 (2021): e2122810-e2122810.&lt;/li&gt;
+&lt;li&gt;Dratsch, Thomas, et al. &amp;ldquo;Automation bias in mammography: the impact of artificial intelligence BI-RADS suggestions on reader performance.&amp;rdquo; Radiology 307.4 (2023): e222176.&lt;/li&gt;
+&lt;li&gt;Yala, Adam, et al. &amp;ldquo;A deep learning mammography-based model for improved breast cancer risk prediction.&amp;rdquo; Radiology 292.1 (2019): 60-66.&lt;/li&gt;
+&lt;li&gt;Lotter, William, et al. &amp;ldquo;Robust breast cancer detection in mammography and digital breast tomosynthesis using an annotation-efficient deep learning approach.&amp;rdquo; Nature medicine 27.2 (2021): 244-249.&lt;/li&gt;
+&lt;li&gt;Zufiria, Blanca, et al. &amp;ldquo;Analysis of potential biases on mammography datasets for deep learning model development.&amp;rdquo; International Workshop on Applications of Medical AI. Cham: Springer Nature Switzerland, 2022.&lt;/li&gt;
+&lt;li&gt;Hamidinekoo, Azam, et al. &amp;ldquo;Deep learning in mammography and breast histology, an overview and future trends.&amp;rdquo; Medical image analysis 47 (2018): 45-67.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/font&gt;
+&lt;p&gt;Interested, please contact 
+&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
