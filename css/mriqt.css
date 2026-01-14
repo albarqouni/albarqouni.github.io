@@ -1,0 +1,188 @@
+/* PROOF */
+body::before { content: "mriqt.css loaded"; position: fixed; top: 0; left: 0; z-index: 99999; background: yellow; color: black; padding: 4px 8px; font-size: 12px; }
+
+
+.logo-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:18px;
+  align-items:center;
+}
+.logo-grid img{
+  width:100%;
+  max-height:70px;
+  object-fit:contain;
+}
+
+/* ================================
+   Force dark mode for MRIQT page
+   ================================ */
+
+.dark-page {
+  background-color: #0b0d10;
+  color: #e6e6e6;
+}
+
+/* Headings */
+.dark-page h1,
+.dark-page h2,
+.dark-page h3,
+.dark-page h4,
+.dark-page h5 {
+  color: #ffffff;
+}
+
+/* Paragraphs and lists */
+.dark-page p,
+.dark-page li {
+  color: #d6d6d6;
+}
+
+/* Links */
+.dark-page a {
+  color: #6ddcff;
+}
+.dark-page a:hover {
+  color: #9ae6ff;
+}
+
+/* Sections / cards */
+.dark-page .wg-hero,
+.dark-page .wg-custom,
+.dark-page section {
+  background: transparent;
+}
+
+/* Buttons */
+.dark-page .btn-primary {
+  background-color: #1fa2ff;
+  border-color: #1fa2ff;
+}
+.dark-page .btn-outline-primary {
+  color: #9ae6ff;
+  border-color: #9ae6ff;
+}
+
+/* Code / BibTeX */
+.dark-page pre,
+.dark-page code {
+  background: #12151a;
+  color: #eaeaea;
+}
+
+/* Slider tweaks */
+.dark-page .compare {
+  background: #000;
+}
+.dark-page .compare__labels {
+  color: #eaeaea;
+}
+
+.dark-page .navbar {
+  background: #0b0d10 !important;
+}
+.dark-page .navbar a {
+  color: #eaeaea !important;
+}
+
+/* --- Slider: true overlay reveal --- */
+.compare{
+  position: relative;
+  width: 100%;
+  max-width: 520px;           /* adjust */
+  aspect-ratio: 1 / 1;        /* MRI slices are usually square */
+  background: #000;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.compare__img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;        /* crucial for alignment */
+  object-position: center;
+  pointer-events: none;
+  user-select: none;
+}
+
+.compare__overlay{
+  position: absolute;
+  inset: 0;
+  width: 50%;                 /* JS updates this */
+  overflow: hidden;
+}
+
+.compare__range{
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: 3;
+}
+
+.compare__labels{
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,.7);
+  font-size: 0.95em;
+}
+
+/* --- Logos: horizontal row --- */
+.logo-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  align-items: center;
+  justify-content: center; /* or flex-start */
+  margin-top: 12px;
+}
+
+.logo-row img{
+  height: 72px;          /* uniform height */
+  width: auto;
+  object-fit: contain;
+}
+
+/* --- Full width image (break out of container) --- */
+.full-bleed{
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 0;
+}
+
+.full-bleed img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Zoom cursor */
+.zoomable{ cursor: zoom-in; }
+
+/* Lightbox */
+.img-modal{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 24px;
+}
+.img-modal img{
+  max-width: 96vw;
+  max-height: 92vh;
+  width: auto;
+  height: auto;
+  cursor: zoom-out;
+}

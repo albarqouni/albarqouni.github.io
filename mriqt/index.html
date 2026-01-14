@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shadi Albarqouni">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://albarqouni.github.io/mriqt/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73880662-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-73880662-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://albarqouni.github.io/mriqt/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@ShadiAlbarqouni">
+  <meta property="twitter:creator" content="@ShadiAlbarqouni">
+  
+  <meta property="og:site_name" content="Albarqouni Lab">
+  <meta property="og:url" content="https://albarqouni.github.io/mriqt/">
+  <meta property="og:title" content="MRIQT | Albarqouni Lab">
+  <meta property="og:description" content=""><meta property="og:image" content="https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2025-11-27T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2025-11-27T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>MRIQT | Albarqouni Lab</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Albarqouni Lab</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Albarqouni Lab</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#latest"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#funded"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#students"><span>Students</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Community</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#positions"><span>Vacancy</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/codes/"><span>Codes</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/media/"><span>Media</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="demo" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>MRIQT: Physics-Aware Diffusion Model for Image Quality Transfer in Neonatal Ultra-Low-Field MRI</h1>
+      <p>Slide to reveal uLF → MRIQT<br>
+<a class="btn btn-primary btn-sm" href="https://arxiv.org/abs/2511.13232" target="_blank">arXiv</a>
+<a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2511.13232.pdf" target="_blank">PDF</a>
+<a class="btn btn-outline-primary btn-sm" href="https://github.com/albarqounilab/MRIQT" target="_blank">Code</a></p>
+    </div>
+    <div class="col-12 col-lg-8">
+      <style>
+/* ===== MRIQT overlay slider (inline, scoped) ===== */
+#mriqt-compare{
+  --pos: 50%;
+  position: relative;
+  width: 100%;
+  max-width: min(980px, 100%);
+  aspect-ratio: 1 / 1;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1rem auto;
+}
+
+#mriqt-compare .img{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  user-select: none;
+  pointer-events: none;
+}
+
+#mriqt-compare .top{
+  clip-path: inset(0 calc(100% - var(--pos)) 0 0);
+}
+
+#mriqt-compare .splitter{
+  position: absolute;
+  top: 0;
+  left: var(--pos);
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: rgba(255,255,255,0.85);
+  z-index: 4;
+  pointer-events: none;
+}
+
+#mriqt-compare .knob{
+  position: absolute;
+  left: var(--pos);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.55);
+  border: 2px solid rgba(255,255,255,0.85);
+  z-index: 6;
+
+  /* make knob draggable */
+  pointer-events: auto;
+  cursor: ew-resize;
+  touch-action: none;
+}
+
+#mriqt-compare .labels{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 7;
+  color: #fff;
+  font-size: 0.95em;
+  text-shadow: 0 1px 2px rgba(0,0,0,.7);
+  pointer-events: none;
+}
+
+/* Optional: hide the bottom range UI (still used for accessibility) */
+#mriqt-compare input[type="range"]{
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 10px;
+  z-index: 10;
+
+  opacity: 0;           /* hide */
+  pointer-events: none; /* disable dragging on the bar */
+}
+</style>
+<div id="mriqt-compare">
+  <!-- base = uLF -->
+  <img class="img base" src="demo_ulf_A.png" alt="uLF">
+  <!-- top = MRIQT -->
+  <img class="img top" src="demo_mriqt_A.png" alt="MRIQT">
+  <div class="labels"><span>MRIQT</span><span>uLF</span></div>
+  <div class="splitter"></div>
+  <div class="knob"></div>
+  <input id="mriqt-range" type="range" min="0" max="100" value="50" aria-label="uLF to MRIQT slider">
+</div>
+<script>
+(function(){
+  const root  = document.getElementById("mriqt-compare");
+  const range = document.getElementById("mriqt-range");
+  const knob  = root && root.querySelector(".knob");
+  if(!root || !range || !knob) return;
+
+  const set = (v) => {
+    v = Math.max(0, Math.min(100, v));
+    root.style.setProperty("--pos", v + "%");
+    range.value = v;
+  };
+
+  const posFromClientX = (clientX) => {
+    const rect = root.getBoundingClientRect();
+    const x = Math.min(Math.max(clientX - rect.left, 0), rect.width);
+    return (x / rect.width) * 100;
+  };
+
+  // init
+  set(parseFloat(range.value || 50));
+
+  // click anywhere on the image to jump
+  root.addEventListener("pointerdown", (e) => {
+    if (e.target.closest("a, button")) return;
+    set(posFromClientX(e.clientX));
+  });
+
+  // drag the knob
+  let dragging = false;
+
+  knob.addEventListener("pointerdown", (e) => {
+    dragging = true;
+    knob.setPointerCapture(e.pointerId);
+    e.preventDefault();
+    e.stopPropagation();
+  });
+
+  knob.addEventListener("pointermove", (e) => {
+    if(!dragging) return;
+    set(posFromClientX(e.clientX));
+  });
+
+  knob.addEventListener("pointerup", () => dragging = false);
+  knob.addEventListener("pointercancel", () => dragging = false);
+
+  // keyboard accessibility (range still works)
+  range.addEventListener("input", (e) => set(parseFloat(e.target.value)));
+})();
+
+  const baseImg = document.getElementById("img-base");
+  const topImg  = document.getElementById("img-top");
+  const sel     = document.getElementById("exsel");
+
+  sel.addEventListener("change", () => {
+    const v = sel.value;
+    baseImg.src = `demo_ulf_${v}.png`;
+    topImg.src  = `demo_mriqt_${v}.png`;
+    range.value = 50;
+    set(50);
+  });
+
+</script>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="overview" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Overview</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <p>Portable ultra-low-field MRI (uLF-MRI, 0.064T) enables bedside neonatal neuroimaging but suffers from low SNR and reduced diagnostic quality.
+<strong>MRIQT</strong> performs <strong>3D image quality transfer (uLF→HF)</strong> using a conditional diffusion model guided by <strong>physics-aware k-space simulation</strong> and an <strong>anatomy-preserving 3D perceptual objective</strong>.</p>
+<p><img src="teaser.png" alt="Teaser"></p>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="results" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      
+      
+      <style>
+.mriqt-full{
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+.mriqt-full img{
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: zoom-in;
+}
+
+#mriqt-modal{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.88);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 24px;
+}
+#mriqt-modal img{
+  max-width: 96vw;
+  max-height: 92vh;
+  cursor: zoom-out;
+}
+</style>
+<div class="mriqt-full">
+  <img id="mriqt-results" src="results.png" alt="MRIQT Teaser Results">
+</div>
+<div id="mriqt-modal"><img alt=""></div>
+<script>
+(function(){
+  const thumb = document.getElementById("mriqt-results");
+  const modal = document.getElementById("mriqt-modal");
+  const modalImg = modal.querySelector("img");
+  if(!thumb || !modal || !modalImg) return;
+
+  thumb.addEventListener("click", () => {
+    modalImg.src = thumb.src;
+    modal.style.display = "flex";
+  });
+
+  modal.addEventListener("click", () => modal.style.display = "none");
+  document.addEventListener("keydown", (e) => {
+    if(e.key === "Escape") modal.style.display = "none";
+  });
+})();
+</script>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="howitworks" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>How it works</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <p><strong>Key components</strong></p>
+<ul>
+<li>Physics-aware uLF degradation in k-space</li>
+<li>3D conditional diffusion for anatomy-preserving enhancement</li>
+<li>Guidance + SNR-weighted 3D perceptual loss to reduce artifacts/hallucinations</li>
+</ul>
+<p><strong>Training:</strong> MRIQT is trained as a conditional diffusion model using physics-based uLF simulations to guide anatomically faithful reconstruction from noisy inputs.
+<img src="training_1.png" alt="Training"></p>
+<p><strong>Inference:</strong> Given a real uLF scan, MRIQT iteratively denoises a noisy initialization while conditioning on the uLF measurement, yielding a high-quality reconstruction.
+<img src="inference_1.png" alt="Inference"></p>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="team" class="home-section wg-people   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+
+  
+
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">MRIQT</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/authors/elodie-germani/"><img class="avatar avatar-circle" src="/authors/elodie-germani/avatar_hu20bb93a42691aa22a25e818d7b7831d7_2065214_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/authors/elodie-germani/">Elodie Germani</a></h2>
+      <h3>Postdoctoral Researcher</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/authors/hemmen-sabir/"><img class="avatar avatar-circle" src="/authors/hemmen-sabir/avatar_huf1cf475f7fcf1ae50f4bc27231761d7b_26411_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/authors/hemmen-sabir/">Hemmen Sabir</a></h2>
+      <h3>Professor and Head of Experimental Neonatology</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/authors/malek-al-abed/"><img class="avatar avatar-circle" src="/authors/malek-al-abed/avatar_hu9559495c21d47cab9a2902fe78c7331f_91908_270x270_fill_q90_lanczos_center.jpeg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/authors/malek-al-abed/">Malek Al Abed</a></h2>
+      <h3>Research Associate</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/authors/admin/"><img class="avatar avatar-circle" src="/authors/admin/avatar_huf6fe472177cdbbc11692e7b840700fd6_4388160_270x270_fill_q90_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/authors/admin/">Shadi Albarqouni</a></h2>
+      <h3>Professor of Computational Medical Imaging Research at 
+<a href="https://www.uni-bonn.de/en" target="_blank" rel="noopener">University of Bonn</a> | fmr. AI Young Investigator Group Leader at 
+<a href="https://www.helmholtz.ai/" target="_blank" rel="noopener">Helmholtz AI</a> | Affiliate Scientist at 
+<a href="https://www.cs.cit.tum.de/camp/members/" target="_blank" rel="noopener">Technical University of Munich</a></h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/authors/anne-groteklaes/"><img class="avatar avatar-circle" src="/authors/anne-groteklaes/avatar_hua5ef373b5c631af943a23a010a4de183_161374_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/authors/anne-groteklaes/">Anne Groteklaes</a></h2>
+      <h3>Kinderärztin</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/authors/sebiha-demir/"><img class="avatar avatar-circle" src="/authors/sebiha-demir/avatar_hua5ef373b5c631af943a23a010a4de183_161374_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/authors/sebiha-demir/">Sebiha Demir</a></h2>
+      <h3>Kinderärztin</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/authors/shahrooz-faghihroohi/"><img class="avatar avatar-circle" src="/authors/shahrooz-faghihroohi/avatar_hub11082ea3ae87d427e395dcc5de118c8_70900_270x270_fill_q90_lanczos_center.jpeg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/authors/shahrooz-faghihroohi/">Shahrooz Faghihroohi</a></h2>
+      <h3>Research Scinetist</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="affiliations" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Partners</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <style>
+.mriqt-logos{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 26px;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0.25rem;
+}
+.mriqt-logos img{
+  height: 72px;
+  width: auto;
+  object-fit: contain;
+}
+</style>
+<div class="mriqt-logos">
+  <img src="UniBonn.png" alt="University of Bonn">
+  <img src="UKB.png"" alt="UKB">
+  <img src="TUM.png" alt="TUM">
+</div>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="cite" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Citation</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <p>If you use this work in your research, kindly cite our paper.</p>
+<style>
+/* === Citation block (inline, scoped) === */
+.mriqt-cite{
+  position: relative;
+  margin-top: 0.75rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+  background: #fff;
+  overflow: hidden;
+}
+
+.mriqt-cite pre{
+  margin: 0;
+  padding: 18px 18px 18px 18px;
+  overflow: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  white-space: pre;        /* keep formatting */
+  color: #0b1f3a;
+}
+
+/* copy button */
+.mriqt-cite button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 1px solid rgba(0,0,0,.15);
+  background: rgba(255,255,255,.9);
+  border-radius: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mriqt-cite button:hover{ background: #fff; }
+.mriqt-cite button:active{ transform: translateY(1px); }
+
+.mriqt-cite .status{
+  margin-left: 6px;
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+</style>
+<div class="mriqt-cite">
+  <button type="button" id="mriqt-copy-btn" aria-label="Copy BibTeX">
+    ⧉ Copy
+    <span class="status" id="mriqt-copy-status"></span>
+  </button>
+  <pre id="mriqt-bibtex">@misc{alabed2025mriqt,
+  title         = {MRIQT: Physics-Aware Diffusion Model for Image Quality Transfer in Neonatal Ultra-Low-Field MRI},
+  author        = {Malek Al Abed and Sebiha Demir and Anne Groteklaes and Elodie Germani and Shahrooz Faghihroohi and Hemmen Sabir and Shadi Albarqouni},
+  year          = {2025},
+  eprint        = {2511.13232},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2511.13232},
+  url           = {https://arxiv.org/abs/2511.13232}
+}</pre>
+</div>
+<script>
+(function(){
+  const btn = document.getElementById("mriqt-copy-btn");
+  const pre = document.getElementById("mriqt-bibtex");
+  const status = document.getElementById("mriqt-copy-status");
+  if(!btn || !pre) return;
+
+  btn.addEventListener("click", async () => {
+    const text = pre.innerText;
+    try{
+      await navigator.clipboard.writeText(text);
+      status.textContent = "Copied!";
+      setTimeout(() => status.textContent = "", 1400);
+    }catch(e){
+      // fallback for older browsers
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+      status.textContent = "Copied!";
+      setTimeout(() => status.textContent = "", 1400);
+    }
+  });
+})();
+</script>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="hero" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.5cbe51271615d69caead0155ce0cb8ce.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    ©Shadi Albarqouni 2026 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

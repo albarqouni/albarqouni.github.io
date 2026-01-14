@@ -1,0 +1,8 @@
++++
+widget = "custom"
+headless = false
+weight = 90
+title = "Funding"
++++
+
+Ethical approval was granted by the Ethics Committee of UniBonn (Ethics Nr. 167/22)
