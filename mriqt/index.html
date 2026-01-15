@@ -1006,9 +1006,13 @@
       
     </div>
     <div class="col-12 col-lg-8">
-      <p>Portable ultra-low-field MRI (uLF-MRI, 0.064T) enables bedside neonatal neuroimaging but suffers from low SNR and reduced diagnostic quality.
-<strong>MRIQT</strong> performs <strong>3D image quality transfer (uLF→HF)</strong> using a conditional diffusion model guided by <strong>physics-aware k-space simulation</strong> and an <strong>anatomy-preserving 3D perceptual objective</strong>.</p>
-<p><img src="teaser.png" alt="Teaser"></p>
+      <p><strong>Infants</strong> undergo rapid brain development in the first weeks of life, with structures that are continuously changing and fundamentally different from adult brains in both anatomy and tissue contrast.
+In <strong>neonatal intensive care units (NICUs)</strong>, infants are often in a critical condition, requiring constant monitoring while connected to life-support and monitoring equipment. Many of these infants suffer from a range of neurological pathologies that must be closely tracked over time. Frequent MRI scans can be essential for monitoring disease progression or treatment response, but standard <strong>high-field (HF) MRI</strong> requires disconnecting infants from life-support systems and transporting them to a dedicated scanner room. This process is time-consuming and often involves sedation or exposure to high noise levels, increasing medical risk, delaying diagnosis, and limiting access to imaging.</p>
+<p><strong>Portable ultra-low-field MRI</strong> (uLF-MRI, 0.064T) enables bedside neonatal neuroimaging but suffers from low SNR and reduced diagnostic quality.
+Improving the <strong>image quality</strong> of uLF MRI can minimize these risks while providing valuable diagnostic insights. Our proposed <strong>MRIQT</strong> is based on that specific clinical need, and performs <strong>3D image quality transfer (uLF→HF)</strong> using a conditional diffusion model guided by <strong>physics-aware k-space simulation</strong> and an <strong>anatomy-preserving 3D perceptual objective</strong>.
+We work on a cohort of neonatal patients with an average age of 2 months, and a wide range of clinically relevant neurological pathologies (9 different pathologies), often occurring as compound pathologies.</p>
+<p>A sample of uLF, our MRIQT, and the HF for a selected case
+<img src="teaser.png" alt="Teaser"></p>
 
     </div>
   
@@ -1055,8 +1059,8 @@
 <div class="row">
   
     <div class="col-lg-12">
-      
-      
+      <h1>Results</h1>
+      <p>Quntitative and Qulaititative Results</p>
       <style>
 .mriqt-full{
   width: 100vw;
@@ -1108,6 +1112,8 @@
   });
 })();
 </script>
+<p>A comparison of our MRIQT with other competitirs w.r.t PSNR, LPIPS, MAE, MS-SSIM, SSIM, and Pearson Correlation metrics:
+<img src="qresults.png" alt="Teaser"></p>
 
     </div>
   
@@ -1445,76 +1451,6 @@
   
   
 
-  <section id="affiliations" class="home-section wg-blank   "  >
-    <div class="container">
-      
-
-
-<div class="row">
-  
-    <div class="col-12 col-lg-4 section-heading">
-      <h1>Partners</h1>
-      
-    </div>
-    <div class="col-12 col-lg-8">
-      <style>
-.mriqt-logos{
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 26px;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 0.25rem;
-}
-.mriqt-logos img{
-  height: 72px;
-  width: auto;
-  object-fit: contain;
-}
-</style>
-<div class="mriqt-logos">
-  <img src="UniBonn.png" alt="University of Bonn">
-  <img src="UKB.png"" alt="UKB">
-  <img src="TUM.png" alt="TUM">
-</div>
-
-    </div>
-  
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
   <section id="cite" class="home-section wg-blank   "  >
     <div class="container">
       
@@ -1527,7 +1463,8 @@
       
     </div>
     <div class="col-12 col-lg-8">
-      <p>If you use this work in your research, kindly cite our paper.</p>
+      <p>If you use this work in your research, kindly cite our paper. The paper has just been accepted at the 
+<a href="https://biomedicalimaging.org/2026/" target="_blank" rel="noopener">IEEE International Symposium on Biomedical Imaging (ISBI)</a> in London. Citation key will be updated, accordingly.</p>
 <style>
 /* === Citation block (inline, scoped) === */
 .mriqt-cite{
@@ -1618,6 +1555,76 @@
   });
 })();
 </script>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="affiliations" class="home-section wg-blank   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Partners</h1>
+      
+    </div>
+    <div class="col-12 col-lg-8">
+      <style>
+.mriqt-logos{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 26px;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0.25rem;
+}
+.mriqt-logos img{
+  height: 72px;
+  width: auto;
+  object-fit: contain;
+}
+</style>
+<div class="mriqt-logos">
+  <img src="UniBonn.png" alt="University of Bonn">
+  <img src="UKB.png"" alt="UKB">
+  <img src="TUM.png" alt="TUM">
+</div>
 
     </div>
   
