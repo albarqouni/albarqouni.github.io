@@ -1,93 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>marcel-daamen | Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/authors/marcel-daamen/</link>
-      <atom:link href="https://albarqouni.github.io/authors/marcel-daamen/index.xml" rel="self" type="application/rss+xml" />
-    <description>marcel-daamen</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>marcel-daamen</title>
-      <link>https://albarqouni.github.io/authors/marcel-daamen/</link>
-    </image>
-    
-    <item>
-      <title>BA/MA thesis on Modeling brain changes related to physical activity with machine learning</title>
-      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_ba/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_ba/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt;  In the last decade, several studies suggested that physical fitness may positively influence brain and cardiovascular health. Brain health is usually assessed through structural and functional imaging techniques to extract biomarkers of aging that can be used to predict brain age (
-&lt;a href=&#34;https://doi.org/10.1093/cercor/bhab019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dunås et al., 2021&lt;/a&gt;; 
-&lt;a href=&#34;https://doi.org/10.1101/2024.11.16.623903&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tan et al., 2024&lt;/a&gt;). Physical fitness has been associated with younger-appearing brains in the literature, but there is little consensus on the exact changes related to physical fitness in the brain 
-&lt;a href=&#34;https://doi.org/10.1016/j.neuroimage.2015.09.071&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Sexton et al., 2016)&lt;/a&gt;. For instance, 
-&lt;a href=&#34;https://doi.org/10.1016/j.neuroimage.2015.12.010&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Boraxbekk et al., 2016)&lt;/a&gt; found a relationship between physical fitness and increased white matter volume in specific brain areas, as well as enhanced functional connectivity in the posterior Default Mode Network (DMN) and increased brain perfusion. The majority of the studies that explored these changes were made on old-adult cohorts, and there has been evidence of an age-related effect of physical activity on brain structural changes 
-&lt;a href=&#34;https://doi.org/10.1111/1467-9280.t01-1-01430&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Colcombe and Kramer, 2003)&lt;/a&gt;. Moreover, there is little knowledge of the time required to see significant changes in the brain related to physical activity 
-&lt;a href=&#34;https://doi.org/10.1002/hbm.22119&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Voss et al., 2013)&lt;/a&gt;. The goal of this thesis is to use machine learning methods to get a better understanding of the changes in the brain related to physical activity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Q1) Can we predict young individuals&amp;rsquo; physical activity from structural and functional brain imaging-derived biomarkers using machine learning?&lt;/li&gt;
-&lt;li&gt;Q2) Can we predict the effect of physical activity on the evolution of these imaging-derived biomarkers at different time scales?&lt;/li&gt;
-&lt;li&gt;Q3) Is there any effect of age, feature extraction technique, and other confounds on the predictability of the biomarkers?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
-&lt;strong&gt;BEACON study&lt;/strong&gt;: Acute exercise study 
-&lt;a href=&#34;https://doi.org/10.3389/fnimg.2024.1332384&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Boecker et al., 2024)&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;3 different exercise interventions for data collection: high-, low-intensity, and resting condition.&lt;/li&gt;
-&lt;li&gt;20 male subjects aged 20-35 years, trained athletes with VO2peak&amp;gt;55 ml/min/kg.&lt;/li&gt;
-&lt;li&gt;6 MRI measurements (3 pre-intervention, 3 post-intervention); structural (T1w and T2w, FLAIR, DTI) and functional MRI (resting-state).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Heart and Brain study&lt;/strong&gt;: Longitudinal exercise study over 6 months&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2 groups:  intervention and active control group.&lt;/li&gt;
-&lt;li&gt;Actual status: Data was obtained for 15 subjects in the intervention group and 20 subjects in the control group. Additionally, we have access to baseline-only measurements for 32 subjects in the intervention group and 40 subjects in the control group. Aged 20-35 years, fitness level: poor to fair.&lt;/li&gt;
-&lt;li&gt;3 MRI measurements (baseline, after 3 months, and after 6 months); structural (T1w and T2w, FLAIR, DTI) and functional MRI (resting-state, pCASL)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Literature Review and Data Exploration. Preprocess data from the different datasets to ensure standardization and quality.&lt;/li&gt;
-&lt;li&gt;Extract biomarkers from functional and structural MRI data: regional measurements extracted using common neuroimaging software packages (
-&lt;a href=&#34;https://fmriprep.org/en/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fMRIprep&lt;/a&gt;, 
-&lt;a href=&#34;https://fcp-indi.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CPAC&lt;/a&gt;, 
-&lt;a href=&#34;https://www.nitrc.org/projects/rest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;REST&lt;/a&gt;, 
-&lt;a href=&#34;https://rfmri.org/DPARSF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEPARSF&lt;/a&gt;, 
-&lt;a href=&#34;https://www.fil.ion.ucl.ac.uk/spm/software/spm12/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPM&lt;/a&gt;, etc.) and 
-&lt;a href=&#34;https://pyradiomics.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pyradiomics&lt;/a&gt; (tabular data); whole-brain volumes of extracted features (3D images).&lt;/li&gt;
-&lt;li&gt;Develop and train different machine learning models using extracted biomarkers to predict physical activity (e.g. control vs. active group, type of exercise) using data from &lt;strong&gt;BEACON and Heart and Brain studies&lt;/strong&gt;. Standard machine learning models such as SVM or RandomForest will be used for tabular data, and deep learning models such as Convolutional Neural Networks will be used for whole-brain volumes.&lt;/li&gt;
-&lt;li&gt;Explore the relationship between biomarkers evolution and physical activity on longitudinal data (&lt;strong&gt;Heart and Brain study&lt;/strong&gt;). Develop a regression model (machine learning or deep learning based on previous results) to predict biomarkers evolution conditioned on baseline measurements and physical activity.&lt;/li&gt;
-&lt;li&gt;Evaluate the model’s performance and compare model results with features extracted using different methodologies (denoising, normalization, segmentation atlas, etc.)&lt;/li&gt;
-&lt;li&gt;Thesis writing and defense preparation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
-&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
-&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
-&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
-&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.3389/fnimg.2024.1332384&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boecker, H. et al.&lt;/a&gt; (2024) ‘Fractional amplitude of low-frequency fluctuations associated with μ-opioid and dopamine receptor distributions in the central nervous system after high-intensity exercise bouts’, Frontiers in Neuroimaging, 3, p. 1332384.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1016/j.neuroimage.2015.12.010&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boraxbekk, C.-J. et al.&lt;/a&gt; (2016) ‘Physical activity over a decade modifies age-related decline in perfusion, gray matter volume, and functional connectivity of the posterior default-mode network-A multimodal approach’, NeuroImage, 131, pp. 133–141.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1111/1467-9280.t01-1-01430&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colcombe, S. and Kramer, A.F.&lt;/a&gt; (2003) ‘Fitness Effects on the Cognitive Function of Older Adults: A Meta-Analytic Study’, Psychological Science, 14(2), pp. 125–130.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1093/cercor/bhab019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dunås, T. et al.&lt;/a&gt; (2021) ‘Multimodal Image Analysis of Apparent Brain Age Identifies Physical Fitness as Predictor of Brain Maintenance’, Cerebral Cortex, 31(7), pp. 3393–3407.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1016/j.neuroimage.2015.09.071&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sexton, C.E. et al.&lt;/a&gt; (2016) ‘A systematic review of MRI studies examining the relationship between physical fitness and activity and the white matter of the ageing brain’, NeuroImage, 131, pp. 81–90.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1101/2024.11.16.623903&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tan, T.W.K. et al.&lt;/a&gt; (2024) ‘Evaluation of Brain Age as a Specific Marker of Brain Health’. bioRxiv, p. 2024.11.16.623903.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1002/hbm.22119&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voss, M.W. et al.&lt;/a&gt; (2013) ‘The influence of aerobic fitness on cerebral white matter integrity and cognitive function in older adults: Results of a one-year exercise intervention’, Human Brain Mapping, 34(11), pp. 2972–2985.&lt;/p&gt;
-&lt;/font&gt;
-&lt;p&gt;Interested, please contact 
-&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>marcel-daamen | Albarqouni Lab</title><link>https://albarqouni.github.io/authors/marcel-daamen/</link><atom:link href="https://albarqouni.github.io/authors/marcel-daamen/index.xml" rel="self" type="application/rss+xml"/><description>marcel-daamen</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>marcel-daamen</title><link>https://albarqouni.github.io/authors/marcel-daamen/</link></image><item><title>BA/MA thesis on Modeling brain changes related to physical activity with machine learning</title><link>https://albarqouni.github.io/students/theses/ma_thesis_on_ba/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/theses/ma_thesis_on_ba/</guid><description>&lt;p>&lt;strong>Abstract.&lt;/strong> In the last decade, several studies suggested that physical fitness may positively influence brain and cardiovascular health. Brain health is usually assessed through structural and functional imaging techniques to extract biomarkers of aging that can be used to predict brain age (
+&lt;a href="https://doi.org/10.1093/cercor/bhab019" target="_blank" rel="noopener">Dunås et al., 2021&lt;/a>;
+&lt;a href="https://doi.org/10.1101/2024.11.16.623903" target="_blank" rel="noopener">Tan et al., 2024&lt;/a>). Physical fitness has been associated with younger-appearing brains in the literature, but there is little consensus on the exact changes related to physical fitness in the brain
+&lt;a href="https://doi.org/10.1016/j.neuroimage.2015.09.071" target="_blank" rel="noopener">(Sexton et al., 2016)&lt;/a>. For instance,
+&lt;a href="https://doi.org/10.1016/j.neuroimage.2015.12.010" target="_blank" rel="noopener">(Boraxbekk et al., 2016)&lt;/a> found a relationship between physical fitness and increased white matter volume in specific brain areas, as well as enhanced functional connectivity in the posterior Default Mode Network (DMN) and increased brain perfusion. The majority of the studies that explored these changes were made on old-adult cohorts, and there has been evidence of an age-related effect of physical activity on brain structural changes
+&lt;a href="https://doi.org/10.1111/1467-9280.t01-1-01430" target="_blank" rel="noopener">(Colcombe and Kramer, 2003)&lt;/a>. Moreover, there is little knowledge of the time required to see significant changes in the brain related to physical activity
+&lt;a href="https://doi.org/10.1002/hbm.22119" target="_blank" rel="noopener">(Voss et al., 2013)&lt;/a>. The goal of this thesis is to use machine learning methods to get a better understanding of the changes in the brain related to physical activity.&lt;/p>
+&lt;p>&lt;strong>Research Questions:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Q1) Can we predict young individuals&amp;rsquo; physical activity from structural and functional brain imaging-derived biomarkers using machine learning?&lt;/li>
+&lt;li>Q2) Can we predict the effect of physical activity on the evolution of these imaging-derived biomarkers at different time scales?&lt;/li>
+&lt;li>Q3) Is there any effect of age, feature extraction technique, and other confounds on the predictability of the biomarkers?&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Dataset:&lt;/strong>
+&lt;strong>BEACON study&lt;/strong>: Acute exercise study
+&lt;a href="https://doi.org/10.3389/fnimg.2024.1332384" target="_blank" rel="noopener">(Boecker et al., 2024)&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>3 different exercise interventions for data collection: high-, low-intensity, and resting condition.&lt;/li>
+&lt;li>20 male subjects aged 20-35 years, trained athletes with VO2peak&amp;gt;55 ml/min/kg.&lt;/li>
+&lt;li>6 MRI measurements (3 pre-intervention, 3 post-intervention); structural (T1w and T2w, FLAIR, DTI) and functional MRI (resting-state).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Heart and Brain study&lt;/strong>: Longitudinal exercise study over 6 months&lt;/p>
+&lt;ul>
+&lt;li>2 groups: intervention and active control group.&lt;/li>
+&lt;li>Actual status: Data was obtained for 15 subjects in the intervention group and 20 subjects in the control group. Additionally, we have access to baseline-only measurements for 32 subjects in the intervention group and 40 subjects in the control group. Aged 20-35 years, fitness level: poor to fair.&lt;/li>
+&lt;li>3 MRI measurements (baseline, after 3 months, and after 6 months); structural (T1w and T2w, FLAIR, DTI) and functional MRI (resting-state, pCASL)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Roadmap:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Literature Review and Data Exploration. Preprocess data from the different datasets to ensure standardization and quality.&lt;/li>
+&lt;li>Extract biomarkers from functional and structural MRI data: regional measurements extracted using common neuroimaging software packages (
+&lt;a href="https://fmriprep.org/en/stable/" target="_blank" rel="noopener">fMRIprep&lt;/a>,
+&lt;a href="https://fcp-indi.github.io/" target="_blank" rel="noopener">CPAC&lt;/a>,
+&lt;a href="https://www.nitrc.org/projects/rest/" target="_blank" rel="noopener">REST&lt;/a>,
+&lt;a href="https://rfmri.org/DPARSF" target="_blank" rel="noopener">DEPARSF&lt;/a>,
+&lt;a href="https://www.fil.ion.ucl.ac.uk/spm/software/spm12/" target="_blank" rel="noopener">SPM&lt;/a>, etc.) and
+&lt;a href="https://pyradiomics.readthedocs.io/en/latest/" target="_blank" rel="noopener">pyradiomics&lt;/a> (tabular data); whole-brain volumes of extracted features (3D images).&lt;/li>
+&lt;li>Develop and train different machine learning models using extracted biomarkers to predict physical activity (e.g. control vs. active group, type of exercise) using data from &lt;strong>BEACON and Heart and Brain studies&lt;/strong>. Standard machine learning models such as SVM or RandomForest will be used for tabular data, and deep learning models such as Convolutional Neural Networks will be used for whole-brain volumes.&lt;/li>
+&lt;li>Explore the relationship between biomarkers evolution and physical activity on longitudinal data (&lt;strong>Heart and Brain study&lt;/strong>). Develop a regression model (machine learning or deep learning based on previous results) to predict biomarkers evolution conditioned on baseline measurements and physical activity.&lt;/li>
+&lt;li>Evaluate the model’s performance and compare model results with features extracted using different methodologies (denoising, normalization, segmentation atlas, etc.)&lt;/li>
+&lt;li>Thesis writing and defense preparation&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Requirements:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Solid background in Machine/Deep Learning&lt;/li>
+&lt;li>Familiar with deep learning models and SOTA architectures&lt;/li>
+&lt;li>Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li>
+&lt;li>Experience with a mainstream deep learning framework such as PyTorch.&lt;/li>
+&lt;li>Machine/Deep learning hands-on experience&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>References:&lt;/strong>
+&lt;font size = "2">&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.3389/fnimg.2024.1332384" target="_blank" rel="noopener">Boecker, H. et al.&lt;/a> (2024) ‘Fractional amplitude of low-frequency fluctuations associated with μ-opioid and dopamine receptor distributions in the central nervous system after high-intensity exercise bouts’, Frontiers in Neuroimaging, 3, p. 1332384.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1016/j.neuroimage.2015.12.010" target="_blank" rel="noopener">Boraxbekk, C.-J. et al.&lt;/a> (2016) ‘Physical activity over a decade modifies age-related decline in perfusion, gray matter volume, and functional connectivity of the posterior default-mode network-A multimodal approach’, NeuroImage, 131, pp. 133–141.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1111/1467-9280.t01-1-01430" target="_blank" rel="noopener">Colcombe, S. and Kramer, A.F.&lt;/a> (2003) ‘Fitness Effects on the Cognitive Function of Older Adults: A Meta-Analytic Study’, Psychological Science, 14(2), pp. 125–130.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1093/cercor/bhab019" target="_blank" rel="noopener">Dunås, T. et al.&lt;/a> (2021) ‘Multimodal Image Analysis of Apparent Brain Age Identifies Physical Fitness as Predictor of Brain Maintenance’, Cerebral Cortex, 31(7), pp. 3393–3407.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1016/j.neuroimage.2015.09.071" target="_blank" rel="noopener">Sexton, C.E. et al.&lt;/a> (2016) ‘A systematic review of MRI studies examining the relationship between physical fitness and activity and the white matter of the ageing brain’, NeuroImage, 131, pp. 81–90.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1101/2024.11.16.623903" target="_blank" rel="noopener">Tan, T.W.K. et al.&lt;/a> (2024) ‘Evaluation of Brain Age as a Specific Marker of Brain Health’. bioRxiv, p. 2024.11.16.623903.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1002/hbm.22119" target="_blank" rel="noopener">Voss, M.W. et al.&lt;/a> (2013) ‘The influence of aerobic fitness on cerebral white matter integrity and cognitive function in older adults: Results of a one-year exercise intervention’, Human Brain Mapping, 34(11), pp. 2972–2985.&lt;/p>
+&lt;/font>
+&lt;p>Interested, please contact
+&lt;a href="mailto:shadi.albarqouni@ukbonn.de">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/p></description></item></channel></rss>

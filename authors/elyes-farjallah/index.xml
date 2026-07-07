@@ -1,94 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/authors/elyes-farjallah/</link>
-      <atom:link href="https://albarqouni.github.io/authors/elyes-farjallah/index.xml" rel="self" type="application/rss+xml" />
-    <description>Albarqouni Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>Albarqouni Lab</title>
-      <link>https://albarqouni.github.io/authors/elyes-farjallah/</link>
-    </image>
-    
-    <item>
-      <title>Summer School on Affordable AI (SAAI)</title>
-      <link>https://albarqouni.github.io/funded/saai/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/saai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BA/MA Thesis: Deep Learning for Inherited Retinal Diseases Detection -- Not available</title>
-      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_deep_learning_for_ird_fundus_imaging/</link>
-      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_deep_learning_for_ird_fundus_imaging/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Our project aims to improve the diagnosis of Inherited Retinal Dystrophies (IRDs), a group of rare retinal diseases impacting over 2 million people globally [1]. IRDs can lead to vision problems like night blindness, color blindness, tunnel vision, and eventual blindness, greatly affecting patients&amp;rsquo; and their families&amp;rsquo; quality of life [4]. With more than 20 different conditions falling under IRDs [1], we&amp;rsquo;re dedicated to addressing the specific needs of each affected individual, taking into account the age of onset, progression rate, and causative gene(s) [3].&lt;/p&gt;
-&lt;p&gt;IRDs are relatively rare, with an estimated prevalence of 1 in 16,500 to 1 in 4,000, often leading to misdiagnoses and a prolonged journey for patients, especially in low and middle-income countries (LMICs) [8,9]. Among the different IRD forms, Retinitis Pigmentosa (RP) is the most common. Still, other less-known conditions include Leber Congenital Amaurosis, cone or cone-rod dystrophies, Stargardt disease, and best vitelliform macular dystrophy [2,5]. Additionally, syndromic conditions like Usher syndrome and Bardet-Biedl syndrome manifest as a combination of eye and hearing issues [6,7].&lt;/p&gt;
-&lt;p&gt;Our goal is to use cutting-edge deep learning techniques to create a model that can detect abnormalities in Fundus images. By combining images with clinical signs, we aspire to provide an accurate and timely diagnosis for IRD patients worldwide, particularly those in LMICs. This innovation has the potential to positively impact the lives of thousands of IRD patients and enhance the efficiency and accuracy of IRD diagnoses on a global scale. Join us in this exciting journey to make a meaningful difference in the lives of those affected by IRDs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Q1) Would unsupervised learning, e.g., anomaly detection models, deliver an acceptable diagnosis rate for patients with different IRDs, most importantly RP?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Q2) Does adding clinical symptoms, if available, to the fundus images improve the diagnosis rate?&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Albarqouni Lab</title><link>https://albarqouni.github.io/authors/elyes-farjallah/</link><atom:link href="https://albarqouni.github.io/authors/elyes-farjallah/index.xml" rel="self" type="application/rss+xml"/><description>Albarqouni Lab</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>Albarqouni Lab</title><link>https://albarqouni.github.io/authors/elyes-farjallah/</link></image><item><title>Summer School on Affordable AI (SAAI)</title><link>https://albarqouni.github.io/funded/saai/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/saai/</guid><description/></item><item><title>BA/MA Thesis: Deep Learning for Inherited Retinal Diseases Detection -- Not available</title><link>https://albarqouni.github.io/students/theses/ma_thesis_on_deep_learning_for_ird_fundus_imaging/</link><pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/theses/ma_thesis_on_deep_learning_for_ird_fundus_imaging/</guid><description>&lt;p>&lt;strong>Abstract.&lt;/strong> Our project aims to improve the diagnosis of Inherited Retinal Dystrophies (IRDs), a group of rare retinal diseases impacting over 2 million people globally [1]. IRDs can lead to vision problems like night blindness, color blindness, tunnel vision, and eventual blindness, greatly affecting patients&amp;rsquo; and their families&amp;rsquo; quality of life [4]. With more than 20 different conditions falling under IRDs [1], we&amp;rsquo;re dedicated to addressing the specific needs of each affected individual, taking into account the age of onset, progression rate, and causative gene(s) [3].&lt;/p>
+&lt;p>IRDs are relatively rare, with an estimated prevalence of 1 in 16,500 to 1 in 4,000, often leading to misdiagnoses and a prolonged journey for patients, especially in low and middle-income countries (LMICs) [8,9]. Among the different IRD forms, Retinitis Pigmentosa (RP) is the most common. Still, other less-known conditions include Leber Congenital Amaurosis, cone or cone-rod dystrophies, Stargardt disease, and best vitelliform macular dystrophy [2,5]. Additionally, syndromic conditions like Usher syndrome and Bardet-Biedl syndrome manifest as a combination of eye and hearing issues [6,7].&lt;/p>
+&lt;p>Our goal is to use cutting-edge deep learning techniques to create a model that can detect abnormalities in Fundus images. By combining images with clinical signs, we aspire to provide an accurate and timely diagnosis for IRD patients worldwide, particularly those in LMICs. This innovation has the potential to positively impact the lives of thousands of IRD patients and enhance the efficiency and accuracy of IRD diagnoses on a global scale. Join us in this exciting journey to make a meaningful difference in the lives of those affected by IRDs.&lt;/p>
+&lt;p>&lt;strong>Research Questions:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Q1) Would unsupervised learning, e.g., anomaly detection models, deliver an acceptable diagnosis rate for patients with different IRDs, most importantly RP?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Q2) Does adding clinical symptoms, if available, to the fundus images improve the diagnosis rate?&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Dataset:&lt;/strong>
 We expect to analyze more than 1,000 fundus images from healthy and IRDs. We will retrieve the healthy fundus images from the Kaggle database; namely (
-&lt;a href=&#34;https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k&lt;/a&gt;)  while the IRDs from the RIPS database (
-&lt;a href=&#34;https://www.icar.cnr.it/en/sites-rips-datasetrips/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.icar.cnr.it/en/sites-rips-datasetrips/)&lt;/a&gt;, (
-&lt;a href=&#34;https://www.kaggle.com/datasets/linchundan/fundusimage1000%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/datasets/linchundan/fundusimage1000)&lt;/a&gt;, and (
-&lt;a href=&#34;https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification)&lt;/a&gt;. We will test our algorithm on fundus images, collected from our Lebanese partner, of IRD patients who were genetically diagnosed.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Familiarize yourself with the current literature [10-12]&lt;/li&gt;
-&lt;li&gt;Build the baseline supervised model and develop the anomaly detection model.&lt;/li&gt;
-&lt;li&gt;Run the necessary comparisons.&lt;/li&gt;
-&lt;li&gt;Equip the models with the Monte-Carlo Dropout for uncertainty estimation.&lt;/li&gt;
-&lt;li&gt;Equip the models with the visualization methods, e.g., INNvitstigate [22-23]&lt;/li&gt;
-&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
-&lt;li&gt;Write up your thesis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
-&lt;li&gt;Familiar with discriminative deep learning models and SOTA architectures&lt;/li&gt;
-&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
-&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
-&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Audo I, Bujakowska K, Orhan E, El Shamieh S, Sennlaub F, Guillonneau X, et al. The familial dementia gene revisited: a missense mutation revealed by whole-exome sequencing identifies ITM2B as a candidate gene underlying a novel autosomal dominant retinal dystrophy in a large family. Hum Mol Genet. 2014;23(2):491–501.&lt;/li&gt;
-&lt;li&gt;Awad M, Ouda O, El-Refy A, El-Feky FA, Mosa KA, Helmy M. FN-identify: novel restriction enzymes-based method for bacterial identification in absence of genome sequencing. Adv Bioinform. 2015;2015: 303605.&lt;/li&gt;
-&lt;li&gt;Belhassan K, Ouldim K, Sefiani AA. Genetics and genomic medicine in Morocco: the present hope can make the future bright. Mol Genet Genomic Med. 2016;4(6):588–98.&lt;/li&gt;
-&lt;li&gt;Bornmann L, Wagner C, Leydesdorff L. The geography of references in elite articles: Which countries contribute to the archives of knowledge? PLoS ONE. 2018;13(3): e0194805.&lt;/li&gt;
-&lt;li&gt;Brimo Alsaman MZ, Sallah H, Badawi R, Ghawi A, Shashaa MN, Kassem LH, Ghazal A. Syrian medical, dental and pharmaceutical publication in the last decade: a bibliometric analysis. Ann Med Surg. 2021;66: 102441.&lt;/li&gt;
-&lt;li&gt;Broadgate S, Yu J, Downes SM, Halford S. Unravelling the genetics of inherited retinal dystrophies: past, present and future. Prog Retin Eye Res. 2017;59:53–96.&lt;/li&gt;
-&lt;li&gt;Browne JL, Rees CO, van Delden JJM, Agyepong I, Grobbee DE, Edwin A, et al. The willingness to participate in biomedical research involving human beings in low- and middle-income countries: a systematic review. Trop Med Int Health. 2019;24(3):264–79.&lt;/li&gt;
-&lt;li&gt;Hamel C. Retinitis pigmentosa. Orphanet J. Rare Dis. 2006;1:40. doi: 10.1186/1750-1172-1-40.&lt;/li&gt;
-&lt;li&gt;Jaffal L, Mrad Z, Ibrahim M, Salami A, Audo I, Zeitz C, El Shamieh S. The research output of rod-cone dystrophy genetics. Orphanet J Rare Dis. 2022 Apr 23;17(1):175.&lt;/li&gt;
-&lt;li&gt;Chen, Ta-Ching, et al. &amp;ldquo;Artificial intelligence–assisted early detection of retinitis pigmentosa—the most common inherited retinal degeneration.&amp;rdquo; Journal of Digital Imaging 34 (2021): 948-958.&lt;/li&gt;
-&lt;li&gt;Tan, Tien-En, et al. &amp;quot; .&amp;quot; British journal of ophthalmology 105.9 (2021): 1187-1189.&lt;/li&gt;
-&lt;li&gt;Pontikos, Nikolas, et al. &amp;ldquo;Eye2Gene: prediction of causal inherited retinal disease gene from multimodal imaging using deep-learning.&amp;rdquo; (2022).&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/font&gt;
-Interested, please contact [Prof. Dr. Shadi Albarqouni](mailto:shadi.albarqouni@ukbonn.de)
-</description>
-    </item>
-    
-    <item>
-      <title>Affordable Deep Learning for Diagnosing Inherited and Common Retinal Diseases via Color Fundus Photography</title>
-      <link>https://albarqouni.github.io/publication/farjallah-2024-affordable/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/farjallah-2024-affordable/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;a href="https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k" target="_blank" rel="noopener">https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k&lt;/a>) while the IRDs from the RIPS database (
+&lt;a href="https://www.icar.cnr.it/en/sites-rips-datasetrips/%29" target="_blank" rel="noopener">https://www.icar.cnr.it/en/sites-rips-datasetrips/)&lt;/a>, (
+&lt;a href="https://www.kaggle.com/datasets/linchundan/fundusimage1000%29" target="_blank" rel="noopener">https://www.kaggle.com/datasets/linchundan/fundusimage1000)&lt;/a>, and (
+&lt;a href="https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification%29" target="_blank" rel="noopener">https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification)&lt;/a>. We will test our algorithm on fundus images, collected from our Lebanese partner, of IRD patients who were genetically diagnosed.&lt;/p>
+&lt;p>&lt;strong>Roadmap:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Familiarize yourself with the current literature [10-12]&lt;/li>
+&lt;li>Build the baseline supervised model and develop the anomaly detection model.&lt;/li>
+&lt;li>Run the necessary comparisons.&lt;/li>
+&lt;li>Equip the models with the Monte-Carlo Dropout for uncertainty estimation.&lt;/li>
+&lt;li>Equip the models with the visualization methods, e.g., INNvitstigate [22-23]&lt;/li>
+&lt;li>Run extensive experiments and analysis&lt;/li>
+&lt;li>Write up your thesis&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Requirements:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Solid background in Machine/Deep Learning&lt;/li>
+&lt;li>Familiar with discriminative deep learning models and SOTA architectures&lt;/li>
+&lt;li>Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li>
+&lt;li>Experience with a mainstream deep learning framework such as PyTorch.&lt;/li>
+&lt;li>Machine/Deep learning hands-on experience&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>References:&lt;/strong>
+&lt;font size = "2">&lt;/p>
+&lt;ol>
+&lt;li>Audo I, Bujakowska K, Orhan E, El Shamieh S, Sennlaub F, Guillonneau X, et al. The familial dementia gene revisited: a missense mutation revealed by whole-exome sequencing identifies ITM2B as a candidate gene underlying a novel autosomal dominant retinal dystrophy in a large family. Hum Mol Genet. 2014;23(2):491–501.&lt;/li>
+&lt;li>Awad M, Ouda O, El-Refy A, El-Feky FA, Mosa KA, Helmy M. FN-identify: novel restriction enzymes-based method for bacterial identification in absence of genome sequencing. Adv Bioinform. 2015;2015: 303605.&lt;/li>
+&lt;li>Belhassan K, Ouldim K, Sefiani AA. Genetics and genomic medicine in Morocco: the present hope can make the future bright. Mol Genet Genomic Med. 2016;4(6):588–98.&lt;/li>
+&lt;li>Bornmann L, Wagner C, Leydesdorff L. The geography of references in elite articles: Which countries contribute to the archives of knowledge? PLoS ONE. 2018;13(3): e0194805.&lt;/li>
+&lt;li>Brimo Alsaman MZ, Sallah H, Badawi R, Ghawi A, Shashaa MN, Kassem LH, Ghazal A. Syrian medical, dental and pharmaceutical publication in the last decade: a bibliometric analysis. Ann Med Surg. 2021;66: 102441.&lt;/li>
+&lt;li>Broadgate S, Yu J, Downes SM, Halford S. Unravelling the genetics of inherited retinal dystrophies: past, present and future. Prog Retin Eye Res. 2017;59:53–96.&lt;/li>
+&lt;li>Browne JL, Rees CO, van Delden JJM, Agyepong I, Grobbee DE, Edwin A, et al. The willingness to participate in biomedical research involving human beings in low- and middle-income countries: a systematic review. Trop Med Int Health. 2019;24(3):264–79.&lt;/li>
+&lt;li>Hamel C. Retinitis pigmentosa. Orphanet J. Rare Dis. 2006;1:40. doi: 10.1186/1750-1172-1-40.&lt;/li>
+&lt;li>Jaffal L, Mrad Z, Ibrahim M, Salami A, Audo I, Zeitz C, El Shamieh S. The research output of rod-cone dystrophy genetics. Orphanet J Rare Dis. 2022 Apr 23;17(1):175.&lt;/li>
+&lt;li>Chen, Ta-Ching, et al. &amp;ldquo;Artificial intelligence–assisted early detection of retinitis pigmentosa—the most common inherited retinal degeneration.&amp;rdquo; Journal of Digital Imaging 34 (2021): 948-958.&lt;/li>
+&lt;li>Tan, Tien-En, et al. &amp;quot; .&amp;quot; British journal of ophthalmology 105.9 (2021): 1187-1189.&lt;/li>
+&lt;li>Pontikos, Nikolas, et al. &amp;ldquo;Eye2Gene: prediction of causal inherited retinal disease gene from multimodal imaging using deep-learning.&amp;rdquo; (2022).&lt;/li>
+&lt;/ol>
+&lt;/font>
+Interested, please contact [Prof. Dr. Shadi Albarqouni](mailto:shadi.albarqouni@ukbonn.de)</description></item><item><title>Affordable Deep Learning for Diagnosing Inherited and Common Retinal Diseases via Color Fundus Photography</title><link>https://albarqouni.github.io/publication/farjallah-2024-affordable/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/publication/farjallah-2024-affordable/</guid><description/></item></channel></rss>

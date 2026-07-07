@@ -1,421 +1,461 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/authors/elodie-germani/</link>
-      <atom:link href="https://albarqouni.github.io/authors/elodie-germani/index.xml" rel="self" type="application/rss+xml" />
-    <description>Albarqouni Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Mon, 17 Mar 2025 09:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>Albarqouni Lab</title>
-      <link>https://albarqouni.github.io/authors/elodie-germani/</link>
-    </image>
-    
-    <item>
-      <title>Participated at the Helmholtz-ELLIS Workshop on Foundation Models in Science</title>
-      <link>https://albarqouni.github.io/talk/helmholtzellisfm/</link>
-      <pubDate>Mon, 17 Mar 2025 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/helmholtzellisfm/</guid>
-      <description>&lt;p&gt;Elodie, David, and Shadi participated at the Helmholtz ELLIS Workshop on Foundation Models which took place in Berlin over two days, bringing together leading researchers and practitioners from academia and industry. The primary focus was to explore the transformative impact of large-scale AI models (\textit{Foundation Models}) across various scientific domains, including medical imaging, astrophysics, tabular data analysis, and beyond.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organized the Seminar on Artificial Intelligence in Radiology: Applications and Research</title>
-      <link>https://albarqouni.github.io/talk/air_wise2425/</link>
-      <pubDate>Thu, 06 Feb 2025 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/air_wise2425/</guid>
-      <description>&lt;p&gt;We have just concluded the last session of our seminar course on Artificial Intelligence in Radiology: Applications and Research which was offered for our medical students at the Faculty of Medicine, University Hospital Bonn, who were keen on leveraging AI technologies to enhance their medical practice, specifically within diagnostic imaging&amp;quot;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The lab contributes to the Organizing and Program Committees of MICCAI&#39;25</title>
-      <link>https://albarqouni.github.io/talk/miccai25/</link>
-      <pubDate>Thu, 16 Jan 2025 14:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/miccai25/</guid>
-      <description>&lt;p&gt;The lab is thrilled to contribute to the organization of 
-&lt;a href=&#34;https://conferences.miccai.org/2025/en/default.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI&#39;25&lt;/a&gt; in Daejon, South Korea. This conference is particularly relevant to the lab&amp;rsquo;s research focus, and we are honored to be part of this journey to advance innovation in AI in Healthcare!&lt;/p&gt;
-&lt;p&gt;Prof. Dr. Shadi Albarqouni is serving on the Outreach Committee, working to foster collaboration and engagement with the community. Dr. Elodie Germani will serve as an Area Chair, participating in managing the scientific review process and ensuring the quality of accepted papers.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>BA/MA thesis on Modeling brain changes related to physical activity with machine learning</title>
-      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_ba/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_ba/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt;  In the last decade, several studies suggested that physical fitness may positively influence brain and cardiovascular health. Brain health is usually assessed through structural and functional imaging techniques to extract biomarkers of aging that can be used to predict brain age (
-&lt;a href=&#34;https://doi.org/10.1093/cercor/bhab019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dunås et al., 2021&lt;/a&gt;; 
-&lt;a href=&#34;https://doi.org/10.1101/2024.11.16.623903&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tan et al., 2024&lt;/a&gt;). Physical fitness has been associated with younger-appearing brains in the literature, but there is little consensus on the exact changes related to physical fitness in the brain 
-&lt;a href=&#34;https://doi.org/10.1016/j.neuroimage.2015.09.071&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Sexton et al., 2016)&lt;/a&gt;. For instance, 
-&lt;a href=&#34;https://doi.org/10.1016/j.neuroimage.2015.12.010&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Boraxbekk et al., 2016)&lt;/a&gt; found a relationship between physical fitness and increased white matter volume in specific brain areas, as well as enhanced functional connectivity in the posterior Default Mode Network (DMN) and increased brain perfusion. The majority of the studies that explored these changes were made on old-adult cohorts, and there has been evidence of an age-related effect of physical activity on brain structural changes 
-&lt;a href=&#34;https://doi.org/10.1111/1467-9280.t01-1-01430&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Colcombe and Kramer, 2003)&lt;/a&gt;. Moreover, there is little knowledge of the time required to see significant changes in the brain related to physical activity 
-&lt;a href=&#34;https://doi.org/10.1002/hbm.22119&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Voss et al., 2013)&lt;/a&gt;. The goal of this thesis is to use machine learning methods to get a better understanding of the changes in the brain related to physical activity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Q1) Can we predict young individuals&amp;rsquo; physical activity from structural and functional brain imaging-derived biomarkers using machine learning?&lt;/li&gt;
-&lt;li&gt;Q2) Can we predict the effect of physical activity on the evolution of these imaging-derived biomarkers at different time scales?&lt;/li&gt;
-&lt;li&gt;Q3) Is there any effect of age, feature extraction technique, and other confounds on the predictability of the biomarkers?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
-&lt;strong&gt;BEACON study&lt;/strong&gt;: Acute exercise study 
-&lt;a href=&#34;https://doi.org/10.3389/fnimg.2024.1332384&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Boecker et al., 2024)&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;3 different exercise interventions for data collection: high-, low-intensity, and resting condition.&lt;/li&gt;
-&lt;li&gt;20 male subjects aged 20-35 years, trained athletes with VO2peak&amp;gt;55 ml/min/kg.&lt;/li&gt;
-&lt;li&gt;6 MRI measurements (3 pre-intervention, 3 post-intervention); structural (T1w and T2w, FLAIR, DTI) and functional MRI (resting-state).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Heart and Brain study&lt;/strong&gt;: Longitudinal exercise study over 6 months&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2 groups:  intervention and active control group.&lt;/li&gt;
-&lt;li&gt;Actual status: Data was obtained for 15 subjects in the intervention group and 20 subjects in the control group. Additionally, we have access to baseline-only measurements for 32 subjects in the intervention group and 40 subjects in the control group. Aged 20-35 years, fitness level: poor to fair.&lt;/li&gt;
-&lt;li&gt;3 MRI measurements (baseline, after 3 months, and after 6 months); structural (T1w and T2w, FLAIR, DTI) and functional MRI (resting-state, pCASL)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Literature Review and Data Exploration. Preprocess data from the different datasets to ensure standardization and quality.&lt;/li&gt;
-&lt;li&gt;Extract biomarkers from functional and structural MRI data: regional measurements extracted using common neuroimaging software packages (
-&lt;a href=&#34;https://fmriprep.org/en/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fMRIprep&lt;/a&gt;, 
-&lt;a href=&#34;https://fcp-indi.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CPAC&lt;/a&gt;, 
-&lt;a href=&#34;https://www.nitrc.org/projects/rest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;REST&lt;/a&gt;, 
-&lt;a href=&#34;https://rfmri.org/DPARSF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEPARSF&lt;/a&gt;, 
-&lt;a href=&#34;https://www.fil.ion.ucl.ac.uk/spm/software/spm12/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPM&lt;/a&gt;, etc.) and 
-&lt;a href=&#34;https://pyradiomics.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pyradiomics&lt;/a&gt; (tabular data); whole-brain volumes of extracted features (3D images).&lt;/li&gt;
-&lt;li&gt;Develop and train different machine learning models using extracted biomarkers to predict physical activity (e.g. control vs. active group, type of exercise) using data from &lt;strong&gt;BEACON and Heart and Brain studies&lt;/strong&gt;. Standard machine learning models such as SVM or RandomForest will be used for tabular data, and deep learning models such as Convolutional Neural Networks will be used for whole-brain volumes.&lt;/li&gt;
-&lt;li&gt;Explore the relationship between biomarkers evolution and physical activity on longitudinal data (&lt;strong&gt;Heart and Brain study&lt;/strong&gt;). Develop a regression model (machine learning or deep learning based on previous results) to predict biomarkers evolution conditioned on baseline measurements and physical activity.&lt;/li&gt;
-&lt;li&gt;Evaluate the model’s performance and compare model results with features extracted using different methodologies (denoising, normalization, segmentation atlas, etc.)&lt;/li&gt;
-&lt;li&gt;Thesis writing and defense preparation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
-&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
-&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
-&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
-&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.3389/fnimg.2024.1332384&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boecker, H. et al.&lt;/a&gt; (2024) ‘Fractional amplitude of low-frequency fluctuations associated with μ-opioid and dopamine receptor distributions in the central nervous system after high-intensity exercise bouts’, Frontiers in Neuroimaging, 3, p. 1332384.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1016/j.neuroimage.2015.12.010&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boraxbekk, C.-J. et al.&lt;/a&gt; (2016) ‘Physical activity over a decade modifies age-related decline in perfusion, gray matter volume, and functional connectivity of the posterior default-mode network-A multimodal approach’, NeuroImage, 131, pp. 133–141.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1111/1467-9280.t01-1-01430&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colcombe, S. and Kramer, A.F.&lt;/a&gt; (2003) ‘Fitness Effects on the Cognitive Function of Older Adults: A Meta-Analytic Study’, Psychological Science, 14(2), pp. 125–130.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1093/cercor/bhab019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dunås, T. et al.&lt;/a&gt; (2021) ‘Multimodal Image Analysis of Apparent Brain Age Identifies Physical Fitness as Predictor of Brain Maintenance’, Cerebral Cortex, 31(7), pp. 3393–3407.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1016/j.neuroimage.2015.09.071&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sexton, C.E. et al.&lt;/a&gt; (2016) ‘A systematic review of MRI studies examining the relationship between physical fitness and activity and the white matter of the ageing brain’, NeuroImage, 131, pp. 81–90.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1101/2024.11.16.623903&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tan, T.W.K. et al.&lt;/a&gt; (2024) ‘Evaluation of Brain Age as a Specific Marker of Brain Health’. bioRxiv, p. 2024.11.16.623903.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doi.org/10.1002/hbm.22119&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Voss, M.W. et al.&lt;/a&gt; (2013) ‘The influence of aerobic fitness on cerebral white matter integrity and cognitive function in older adults: Results of a one-year exercise intervention’, Human Brain Mapping, 34(11), pp. 2972–2985.&lt;/p&gt;
-&lt;/font&gt;
-&lt;p&gt;Interested, please contact 
-&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Elodie attended and presented at the 2024 International Conference on Image Processing (ICIP) in Abu Dhabi, UAE</title>
-      <link>https://albarqouni.github.io/talk/icip2024/</link>
-      <pubDate>Wed, 30 Oct 2024 14:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/icip2024/</guid>
-      <description>&lt;p&gt;Elodie had the chance to attend the 2024 IEEE International Conference on Image Processing in Abu Dhabi, Emirates. She presented her work during an oral session about &lt;em&gt;Medical Image Analysis&lt;/em&gt;. This work was part of her Ph.D. projects and was entitled &lt;em&gt;Uncovering communities of pipelines in the task fMRI analytical space&lt;/em&gt;. In this work, she used graph representations to explore the relationships between fMRI pipelines results and the stability of their relationships across different study contexts. The results were useful to evaluate the &lt;em&gt;potential generalisability and robustness to unseen context&lt;/em&gt; of methods to mitigate analytical variability, for instance, &lt;em&gt;style transfer between statistic maps&lt;/em&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Seminar: Artificial Intelligence in Radiology: Applications and Research</title>
-      <link>https://albarqouni.github.io/students/courses/air/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/courses/air/</guid>
-      <description>&lt;h2 id=&#34;seminar-2-sws-artificial-intelligence-in-radiology-applications-and-research-artifizielle-intelligenz-in-der-radiologie-anwendungen-und-forschung&#34;&gt;Seminar (2 SWS): Artificial Intelligence in Radiology: Applications and Research (Artifizielle Intelligenz in der Radiologie: Anwendungen und Forschung)&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Lecturers:&lt;/strong&gt; 
-&lt;a href=&#34;../../../authors/admin/&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tutors:&lt;/strong&gt; 
-&lt;a href=&#34;../../../authors/elodie-germani/&#34;&gt;Dr. Elodie Germani&lt;/a&gt;, 
-&lt;a href=&#34;../../../authors/david-gaviria/&#34;&gt;David Gaviria&lt;/a&gt;, 
-&lt;a href=&#34;../../../authors/yiheng-xiong&#34;&gt;Yiheneg Xiong&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; November 15 – Jan 31 (every Friday, &lt;s&gt;11:30 AM - 1:00 PM&lt;/s&gt; 16:00 - 17:30)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Format:&lt;/strong&gt; Online (Zoom Meeting) with potential face-to-face meetings, if participants interested! Link was provided via email.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Language:&lt;/strong&gt; English&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;eCampus:&lt;/strong&gt; 
-&lt;a href=&#34;https://ecampus.uni-bonn.de/goto.php?target=crs_3579292&amp;amp;client_id=ecampus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt; to eCampus&lt;/p&gt;
-&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
-&lt;p&gt;The Computational Imaging Research (Albarqouni Lab) at the Clinic of Diagnostic and Interventional Radiology at the University Hospital Bonn is pleased to present a seminar on &lt;em&gt;Artificial Intelligence in Radiology: Applications and Research.&lt;/em&gt; This cutting-edge seminar, spanning two semester hours per week (2 SWS), is specially curated for medical students to explore the transformative role of deep learning in medical imaging, with a focus on tasks such as classification, detection, segmentation, reconstruction, tracking, and disease progression.&lt;/p&gt;
-&lt;h3 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h3&gt;
-&lt;p&gt;Upon completing this seminar, students will be able to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Grasp deep learning concepts and their specific applications in medical imaging.&lt;/li&gt;
-&lt;li&gt;Analyze advanced image analysis tasks, including classification, detection, segmentation, and disease progression modeling.&lt;/li&gt;
-&lt;li&gt;Evaluate ethical and regulatory considerations in the deployment of AI within healthcare.&lt;/li&gt;
-&lt;li&gt;Discuss the future potential of AI-driven solutions in personalized medicine and patient care.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;target-audience&#34;&gt;Target Audience&lt;/h3&gt;
-&lt;p&gt;This seminar is designed for medical students at the Faculty of Medicine, University Hospital Bonn, who are keen on leveraging AI technologies to enhance their medical practice, specifically within diagnostic imaging.&lt;/p&gt;
-&lt;h3 id=&#34;prerequisites-and-desired-knowledge&#34;&gt;Prerequisites and Desired Knowledge&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt; Familiarity with fundamental medical imaging techniques and an interest in AI applications.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Desired:&lt;/strong&gt; Understanding of medical diagnostics and clinical data interpretation.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;seminar-topics-and-schedule-tentative&#34;&gt;Seminar Topics and Schedule (Tentative)&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Topic&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Presenter&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Materials&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Nov 22&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Deep Learning Foundations&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Introduction to deep learning concepts specific to medical imaging.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Meskó, Bertalan, and Marton Görög. &amp;ldquo;A short guide for medical professionals in the era of artificial intelligence.&amp;rdquo; NPJ digital medicine 3.1 (2020): 126. 
-&lt;a href=&#34;https://www.nature.com/articles/s41746-020-00333-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF}&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Nov 29&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Detection and Classification in Medical Imaging&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Exploring detection and classification techniques in diagnosing diseases from medical images.&lt;/td&gt;
-&lt;td&gt;
-&lt;a href=&#34;../../../authors/david-gaviria/&#34;&gt;David Gaviria&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Litjens, Geert, et al. &amp;ldquo;A survey on deep learning in medical image analysis.&amp;rdquo; Medical image analysis 42 (2017): 60-88. 
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1361841517301135?casa_token=0EKKPg-JAL8AAAAA:CjbQzL7k-8_VF4g6VXgtrN_r7Ai1xbSDos_f_4yp_YAi3EEEu6wXoBw7Z3eYPLnGB_avgXkzLGk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;, Chen, Xuxin, et al. &amp;ldquo;Recent advances and clinical applications of deep learning in medical image analysis.&amp;rdquo; Medical image analysis 79 (2022): 102444. 
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/am/pii/S1361841522000913&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;,&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Dec 6&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Segmentation&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Deep learning methods for segmenting key structures in medical images.&lt;/td&gt;
-&lt;td&gt;
-&lt;a href=&#34;../../../authors/yiheng-xiong&#34;&gt;Yiheneg Xiong&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Tajbakhsh, Nima, et al. &amp;ldquo;Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.&amp;rdquo; Medical image analysis 63 (2020):101693. 
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S136184152030058X?casa_token=CEnq-3mHEtoAAAAA:TAzIDSKtwOxS0j3CatirvKvpq17nxyy2Tg0LZfdxxzho_FDxH5eqLHTatVjYe7xHPHxLrVOpLnE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Dec 13&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Causality and Bias&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Causality and Bias in deep learning with medical imaging.&lt;/td&gt;
-&lt;td&gt;
-&lt;a href=&#34;../../../authors/elodie-germani/&#34;&gt;Dr. Elodie Germani&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Castro, Daniel C., Ian Walker, and Ben Glocker. &amp;ldquo;Causality matters in medical imaging.&amp;rdquo; Nature Communications 11.1 (2020): 3673. 
-&lt;a href=&#34;https://www.nature.com/articles/s41467-020-17478-w.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;, Jones, Charles, et al. &amp;ldquo;A causal perspective on dataset bias in machine learning for medical imaging.&amp;rdquo; Nature Machine Intelligence 6.2 (2024): 138-146 
-&lt;a href=&#34;https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/s42256-024-00797-8&amp;amp;casa_token=Da6WexFt42oAAAAA:yZN-4FKxwBz6by4QicC1neuiGFCcur8StH0I_0FTO3SVASKgzuNPhX0PnXrXCmJaib1UjVClSzB-BkXBJCE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Dec 20&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;&lt;s&gt;Uncertainity Quantification&lt;/s&gt;&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Moved to the next year due to holiday season&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Jan 10&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Q&amp;amp;A Session&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Students should prepare questions for their assigned papers and discuss them with the tutors&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Jan 17&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Uncertainity Quantification&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Quanitifying Uncertainty in Deep Learning Models&lt;/td&gt;
-&lt;td&gt;
-&lt;a href=&#34;../../../authors/david-gaviria/&#34;&gt;David Gaviria&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Huang, Ling, et al. &amp;ldquo;A review of uncertainty quantification in medical image analysis: probabilistic and non-probabilistic methods.&amp;rdquo; Medical Image Analysis (2024): 103223. 
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1361841524001488&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Jan 24&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Student Paper Presentations (1)&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Student presentations.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Jan 31&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Student Paper Presentations (2) and Course Wrap-Up&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Wrap-up, feedback, and discussion on future AI applications in medical practice.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;learning-format&#34;&gt;Learning Format&lt;/h3&gt;
-&lt;p&gt;One of the seminar’s unique teaching concepts is “Teach It to Yourself.” Participants (limited to 20 partisipants) will present selected chapter and papers, engage in discussions, and critically analyze case studies on deep learning applications in medical imaging.&lt;/p&gt;
-&lt;h3 id=&#34;registration-closed&#34;&gt;Registration (&lt;strong&gt;closed&lt;/strong&gt;)&lt;/h3&gt;
-&lt;p&gt;Interested in this seminar, please register via email to 
-&lt;a href=&#34;../../../authors/elodie-germani/&#34;&gt;Dr. Elodie Germani&lt;/a&gt; and 
-&lt;a href=&#34;../../../authors/admin/&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;[1] Litjens, Geert, et al. &amp;ldquo;A survey on deep learning in medical image analysis.&amp;rdquo; Medical image analysis 42 (2017): 60-88. 
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1361841517301135?casa_token=0EKKPg-JAL8AAAAA:CjbQzL7k-8_VF4g6VXgtrN_r7Ai1xbSDos_f_4yp_YAi3EEEu6wXoBw7Z3eYPLnGB_avgXkzLGk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[2] Shen, Dinggang, Guorong Wu, and Heung-Il Suk. &amp;ldquo;Deep learning in medical image analysis.&amp;rdquo; Annual review of biomedical engineering 19.1 (2017): 221-248.&lt;/li&gt;
-&lt;li&gt;[3] Chen, Xuxin, et al. &amp;ldquo;Recent advances and clinical applications of deep learning in medical image analysis.&amp;rdquo; Medical image analysis 79 (2022): 102444. 
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/am/pii/S1361841522000913&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[4] Tajbakhsh, Nima, et al. &amp;ldquo;Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.&amp;rdquo; Medical image analysis 63 (2020):101693. 
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S136184152030058X?casa_token=CEnq-3mHEtoAAAAA:TAzIDSKtwOxS0j3CatirvKvpq17nxyy2Tg0LZfdxxzho_FDxH5eqLHTatVjYe7xHPHxLrVOpLnE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[5] Wang, Ge, Jong Chul Ye, and Bruno De Man. &amp;ldquo;Deep learning for tomographic image reconstruction.&amp;rdquo; Nature machine intelligence 2.12 (2020): 737-748. 
-&lt;a href=&#34;https://www.nature.com/articles/s42256-020-00273-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[6] Ben Yedder, Hanene, Ben Cardoen, and Ghassan Hamarneh. &amp;ldquo;Deep learning for biomedical image reconstruction: A survey.&amp;rdquo; Artificial intelligence review 54.1 (2021): 215-251. 
-&lt;a href=&#34;https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s10462-020-09861-2&amp;amp;casa_token=ckLy9XB_kJAAAAAA:kIEg6GqC0Jk9nDBDO5Lzh_2QXXyBw3gFDMuE5gzgFZuR-JvmIqhS2dN2QNhK_eCggtgZakZen-PGNc_OrOo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[7] Huang, Ling, et al. &amp;ldquo;A review of uncertainty quantification in medical image analysis: probabilistic and non-probabilistic methods.&amp;rdquo; Medical Image Analysis (2024): 103223. 
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1361841524001488&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[8] Castro, Daniel C., Ian Walker, and Ben Glocker. &amp;ldquo;Causality matters in medical imaging.&amp;rdquo; Nature Communications 11.1 (2020): 3673. 
-&lt;a href=&#34;https://www.nature.com/articles/s41467-020-17478-w.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[9] Jones, Charles, et al. &amp;ldquo;A causal perspective on dataset bias in machine learning for medical imaging.&amp;rdquo; Nature Machine Intelligence 6.2 (2024): 138-146. 
-&lt;a href=&#34;https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/s42256-024-00797-8&amp;amp;casa_token=Da6WexFt42oAAAAA:yZN-4FKxwBz6by4QicC1neuiGFCcur8StH0I_0FTO3SVASKgzuNPhX0PnXrXCmJaib1UjVClSzB-BkXBJCE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[10] Thirunavukarasu, Arun James, et al. &amp;ldquo;Large language models in medicine.&amp;rdquo; Nature medicine 29.8 (2023): 1930-1940. 
-&lt;a href=&#34;https://www.nature.com/articles/s41591-023-02448-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[11] Zhang, Jingyi, et al. &amp;ldquo;Vision-language models for vision tasks: A survey.&amp;rdquo; IEEE Transactions on Pattern Analysis and Machine Intelligence (2024). 
-&lt;a href=&#34;https://ieeexplore.ieee.org/iel7/34/4359286/10445007.pdf?casa_token=YkE-Ce1otfoAAAAA:nzxMsIoQekzVQlRvR7AvTxQzOpdaBIXJNVfv8P9XGpkscrrbxMXfAYLrF4b2eJTfAEFFKss7UmE8LUM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MA Thesis: Investigating Bias in AI Algorithms for Breast Cancer Detection from Mammography Imaging: A Focus on Generalization to Unseen Populations</title>
-      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_investigating_bias_in_ai_algorithms_for_breast_cancer_detection_in_mammography_imaging/</link>
-      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_investigating_bias_in_ai_algorithms_for_breast_cancer_detection_in_mammography_imaging/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Breast density is a critical factor in breast cancer risk and detection, influencing the effectiveness of mammography. Higher breast density, characterized by a greater proportion of fibroglandular tissue relative to fatty tissue, is associated with a four- to sixfold increase in breast cancer risk. This risk is compounded by the fact that dense tissue can mask tumors on mammograms, reducing diagnostic sensitivity. Breast density typically decreases with age, particularly after menopause. However, this relationship is not uniform across all populations.&lt;/p&gt;
-&lt;p&gt;For instance, the study by Checka et al. (2012) [1] revealed that while 74% of women aged 40-49 had dense breasts, this percentage declined to 57% in women aged 50-59, and further to 36% in women aged 70-79. Notably, a significant portion of older women still possessed dense breasts, challenging the assumption that breast density diminishes uniformly with age. Similarly, Advani et al. (2021) [2] explored breast density among women aged 65 years and older, revealing that even in this older demographic, breast density remains a significant risk factor. The study found that 31.5% of women aged 65-74 had heterogeneously or extremely dense breasts, compared to 30.5% of those aged 75 and older. This persistence of high breast density in older women suggests that age alone is not a sufficient predictor of breast density.&lt;/p&gt;
-&lt;p&gt;Breast density and its impact on cancer detection vary significantly across different demographic groups. The studies highlight that certain racial and ethnic groups, such as Asian women, are more likely to have dense breasts, which may necessitate different screening protocols. Moreover, body mass index (BMI) also influences breast density, with lower BMI being associated with higher breast density, particularly in older women. For example, Advani et al. (2021) [2] found that 53.5% of women with heterogeneously or extremely dense breasts had a normal BMI, compared to 39.0% of women with scattered fibroglandular densities.&lt;/p&gt;
-&lt;p&gt;This project aims to investigate any potential biases in deep learning models trained predominantly on data from Western populations—primarily from Europe and the USA— and its generalization on data coming from different demographics. We hypothesize that these models may not adequately account for the variability in breast density across different demographic groups, leading to less accurate risk assessments and detection in non-Western populations.&lt;/p&gt;
-&lt;p&gt;The integration of deep learning (DL) models into mammography for breast cancer risk prediction has shown significant potential, yet there remains a notable research gap in understanding the implications of demographic variability on model performance. While existing models, such as the Tyrer-Cuzick model, have incorporated risk factors like breast density, these models have limitations, particularly when applied to diverse populations. Many DL models are trained on data from predominantly Western populations, which raises concerns about their generalizability and accuracy in non-Western or minority groups.&lt;/p&gt;
-&lt;p&gt;Moreover, the phenomenon of automation bias, as highlighted by Dratsch et al. (2023) [3], poses an additional challenge, particularly when AI systems are integrated into the radiology workflow. The risk of radiologists overly relying on AI suggestions without critical engagement is a significant concern, especially when the AI systems themselves may be biased due to the data they were trained on. This bias, coupled with the underrepresentation of diverse demographics in training datasets, underscores a critical gap in the current research landscape.&lt;/p&gt;
-&lt;p&gt;Given the complexities associated with breast density and its variation across demographics, it is crucial to develop and validate deep learning models that are sensitive to these differences. Such models should be trained on diverse datasets that reflect the global population, ensuring that they can accurately assess breast cancer risk and detect lesions in women from various demographic backgrounds. This approach will help mitigate the biases inherent in current models and improve the effectiveness of breast cancer screening worldwide.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Q1) How does the performance of deep learning models for breast cancer risk prediction vary across different demographic groups, particularly those underrepresented in the training data?&lt;/li&gt;
-&lt;li&gt;Q2) How do breast density and age affect the accuracy of DL-based breast cancer risk prediction models in non-Western populations?&lt;/li&gt;
-&lt;li&gt;Q3) How can AI-induced automation bias be mitigated in mammography to ensure equitable and accurate breast cancer screening across diverse populations?&lt;/li&gt;
-&lt;li&gt;Q4) What strategies can be employed to improve the generalizability of DL models in breast cancer risk prediction across various demographic groups?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
-The landscape of publicly available mammography datasets is rich with resources critical for advancing breast cancer research, particularly in the development of deep learning models. The 
-&lt;a href=&#34;http://www.eng.usf.edu/cvprg/Mammography/Database.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Digital Database for Screening Mammography (DDSM)&lt;/a&gt;, from the &lt;strong&gt;USA&lt;/strong&gt;, provides over 10,000 images with detailed lesion annotations and BI-RADS categorizations, though it lacks explicit demographic data. 
-&lt;a href=&#34;https://academictorrents.com/details/ce1ecade37814701ac95193a910a3c6917ea43b3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;INbreast&lt;/a&gt; offers 410 images, from &lt;strong&gt;Portugal&lt;/strong&gt;, with comprehensive annotations, including lesion contours and breast density. The 
-&lt;a href=&#34;https://www.cancerimagingarchive.net/collection/cbis-ddsm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curated Breast Imaging Subset of DDSM (CBIS-DDSM)&lt;/a&gt; refines DDSM data into 3,000 high-quality images with improved relevance for machine learning. The 
-&lt;a href=&#34;http://peipa.essex.ac.uk/info/mias.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mammographic Image Analysis Society (MIAS)&lt;/a&gt; Database contains 322 images from the &lt;strong&gt;UK&lt;/strong&gt;, categorized by breast density and abnormality type. Lastly, the 
-&lt;a href=&#34;https://medphys.royalsurrey.nhs.uk/omidb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OPTIMAM Mammography Image Database (OMI-DB)&lt;/a&gt; is a vast repository with over 100,000 mammograms from the &lt;strong&gt;UK&lt;/strong&gt;, rich in BI-RADS data and lesion annotations, serving as a vital resource for AI model training.&lt;/p&gt;
-&lt;p&gt;Besides, we have access to a couple of databases from different demographies, namely, 
-&lt;a href=&#34;https://vindr.ai/datasets/mammo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VinDr-Mammo&lt;/a&gt;, from &lt;strong&gt;Vietnam&lt;/strong&gt;, which consists of 5,000 four-view exams with breast-level assessment and finding annotations, and the 
-&lt;a href=&#34;https://www.cancerimagingarchive.net/collection/cmmd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chinese Mammography Database (CMMD)&lt;/a&gt; which consists of 1,775 patients from &lt;strong&gt;China&lt;/strong&gt; with benign or malignant breast disease, and 
-&lt;a href=&#34;https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KAUMD&lt;/a&gt;, from &lt;strong&gt;Saudi Arabia&lt;/strong&gt;, which provides around 1500 cases with a total of 5600 mammogram images with BI-RADS scores.  Besides, through our clinical partners, we have access to 1500 cases from &lt;strong&gt;Lebanon&lt;/strong&gt; and around 100 cases from the &lt;strong&gt;United Arab Emirates&lt;/strong&gt;.  All cases have at least a Mammography scan for both left and right sides with multiple views.&lt;/p&gt;
-&lt;p&gt;The BI-RADS  scores are reported and Malignant cases are biopsy proven. These datasets are indispensable for developing robust, generalizable AI models, though they vary in the level of demographic detail provided.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Familiarize yourself with the current literature [3-6]&lt;/li&gt;
-&lt;li&gt;Build the baseline supervised model.&lt;/li&gt;
-&lt;li&gt;Run the necessary comparisons.&lt;/li&gt;
-&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
-&lt;li&gt;Write up your thesis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
-&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
-&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
-&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
-&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Checka, Cristina M., et al. &amp;ldquo;The relationship of mammographic density and age: implications for breast cancer screening.&amp;rdquo; American Journal of Roentgenology 198.3 (2012): W292-W295.&lt;/li&gt;
-&lt;li&gt;Advani, Shailesh M., et al. &amp;ldquo;Association of breast density with breast cancer risk among women aged 65 years or older by age group and body mass index.&amp;rdquo; JAMA network open 4.8 (2021): e2122810-e2122810.&lt;/li&gt;
-&lt;li&gt;Dratsch, Thomas, et al. &amp;ldquo;Automation bias in mammography: the impact of artificial intelligence BI-RADS suggestions on reader performance.&amp;rdquo; Radiology 307.4 (2023): e222176.&lt;/li&gt;
-&lt;li&gt;Yala, Adam, et al. &amp;ldquo;A deep learning mammography-based model for improved breast cancer risk prediction.&amp;rdquo; Radiology 292.1 (2019): 60-66.&lt;/li&gt;
-&lt;li&gt;Lotter, William, et al. &amp;ldquo;Robust breast cancer detection in mammography and digital breast tomosynthesis using an annotation-efficient deep learning approach.&amp;rdquo; Nature medicine 27.2 (2021): 244-249.&lt;/li&gt;
-&lt;li&gt;Zufiria, Blanca, et al. &amp;ldquo;Analysis of potential biases on mammography datasets for deep learning model development.&amp;rdquo; International Workshop on Applications of Medical AI. Cham: Springer Nature Switzerland, 2022.&lt;/li&gt;
-&lt;li&gt;Hamidinekoo, Azam, et al. &amp;ldquo;Deep learning in mammography and breast histology, an overview and future trends.&amp;rdquo; Medical image analysis 47 (2018): 45-67.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/font&gt;
-&lt;p&gt;Interested, please contact 
-&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MA Thesis: Deep Learning for Brain MRI Image Quality Transfer -- Not available</title>
-      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</link>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Magnetic Resonance Imaging (MRI) plays a vital role in modern diagnostics, offering detailed, non-invasive insights into human anatomy [1-2]. High-field MRI (HF-MRI) systems, which operate at higher magnetic field strengths, provide superior image resolution and contrast compared to low-field MRI (LF-MRI) systems [3-4]. However, HF-MRI scanners are expensive and require significant maintenance, limiting their availability in resource-constrained environments where LF-MRI systems prevail. This disparity often leads to suboptimal diagnostic outcomes, underscoring the need to enhance the quality of LF-MRI images to the standard of HF-MRI [10].&lt;/p&gt;
-&lt;p&gt;Generative models, particularly diffusion models [5], have emerged as promising tools for image enhancement. They excel in generating high-fidelity, contextually coherent images by iteratively refining noisy data. Recent studies have demonstrated the potential of diffusion models in various imaging tasks, outperforming traditional techniques, including Generative Adversarial Networks (GANs). The proposed project aims to leverage diffusion models to improve LF-MRI image quality, bridging the gap between LF-MRI and HF-MRI and enhancing diagnostic accuracy [1-2].&lt;/p&gt;
-&lt;p&gt;The project aims to develop a 3D Conditional Diffusion Model specifically designed for enhancing LF-MRI images [6-8]. This model, named MagIQT, will integrate multiple innovative components that complement each other to address existing challenges in MRI image enhancement. The model will consist of a transformer-based encoder and a cross-batch mechanism, uniquely positioned to improve contextual information and reduce artifacts, thus advancing the current state-of-the-art. A recent review [9] summarizing the strengths and weaknesses of diffusion models in medical imaging will be further investigated.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Q1) How effectively can a 3D conditional diffusion model enhance low-field MRI images to high-field MRI quality in terms of diagnostic accuracy and image fidelity compared to existing generative models [11]?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Q2) What are the specific contributions of the transformer-based encoder and cross-batch mechanism to the overall performance of the 3D conditional diffusion model in reducing artifacts and preserving anatomical details in MRI image enhancement?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Q3) How does the application of the 3D conditional diffusion model impact the detection and diagnosis of anomalies in pediatric MRI scans, particularly in identifying subtle pathologies that may be missed in low-field MRI?&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
-A total of 50 patients were scanned on portable 64mT and standard 3T scanners at the Clinic for Neonatology and Pediatric Intensive Care Medicine at the University Hospital Bonn with T1-weighted, T2-weighted, and FLAIR acquisitions. Brain Imaging sequences require registration as a pre-processing step. Another cohort of unpaired 100 patients was scanned on either 64mT or 3T, which might be used for the model development. Additional datasets might be requested from the authors of [11-12].&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Familiarize yourself with the current literature [5-9]&lt;/li&gt;
-&lt;li&gt;Build the baseline supervised model and develop the anomaly detection model.&lt;/li&gt;
-&lt;li&gt;Run the necessary comparisons.&lt;/li&gt;
-&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
-&lt;li&gt;Write up your thesis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
-&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
-&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
-&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
-&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Barkovich, A. James. Pediatric neuroimaging. Lippincott Williams &amp;amp; Wilkins, 2005.&lt;/li&gt;
-&lt;li&gt;Atlas, Scott W., ed. Magnetic resonance imaging of the brain and spine. Vol. 1. Lippincott Williams &amp;amp; Wilkins, 2009.&lt;/li&gt;
-&lt;li&gt;Campbell‐Washburn, Adrienne E., et al. &amp;ldquo;Low‐field MRI: a report on the 2022 ISMRM workshop.&amp;rdquo; Magnetic resonance in medicine 90.4 (2023): 1682-1694.&lt;/li&gt;
-&lt;li&gt;Arnold, Thomas Campbell, et al. &amp;ldquo;Low‐field MRI: clinical promise and challenges.&amp;rdquo; Journal of Magnetic Resonance Imaging 57.1 (2023): 25-44.&lt;/li&gt;
-&lt;li&gt;Ho, Jonathan, Ajay Jain, and Pieter Abbeel. &amp;ldquo;Denoising diffusion probabilistic models.&amp;rdquo; Advances in neural information processing systems 33 (2020): 6840-6851.&lt;/li&gt;
-&lt;li&gt;Kim, S., et al. &amp;ldquo;A 3D Conditional Diffusion Model for Image Quality Transfer - An Application to Low-Field MRI.&amp;rdquo; 1st Workshop on Deep Generative Models for Health at NeurIPS 2023. 
-&lt;a href=&#34;https://github.com/edshkim98/DiffusionIQT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt; .&lt;/li&gt;
-&lt;li&gt;Cechnicka, S., et al. &amp;ldquo;Ultra-Resolution Cascaded Diffusion Model for Gigapixel Image Synthesis in Histopathology.&amp;rdquo; NeurIPS 2023. 
-&lt;a href=&#34;https://arxiv.org/abs/2312.01152&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Islam, Kh Tohidul, et al. &amp;ldquo;Improving portable low-field MRI image quality through image-to-image translation using paired low-and high-field images.&amp;rdquo; Scientific Reports 13.1 (2023): 21183. [Link] (
-&lt;a href=&#34;https://github.com/khtohidulislam/LoHiResGAN%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/khtohidulislam/LoHiResGAN)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Kazerouni, Amirhossein, et al. &amp;ldquo;Diffusion models in medical imaging: A comprehensive survey.&amp;rdquo; Medical Image Analysis 88 (2023): 102846.&lt;/li&gt;
-&lt;li&gt;Kimberly, W. Taylor, et al. &amp;ldquo;Brain imaging with portable low-field MRI.&amp;rdquo; Nature reviews bioengineering 1.9 (2023): 617-630.&lt;/li&gt;
-&lt;li&gt;Lucas, Alfredo, et al. &amp;ldquo;Multi-contrast high-field quality image synthesis for portable low-field MRI using generative adversarial networks and paired data.&amp;rdquo; medRxiv (2023).&lt;/li&gt;
-&lt;li&gt;Arnold, T. Campbell, et al. &amp;ldquo;Sensitivity of portable low-field magnetic resonance imaging for multiple sclerosis lesions.&amp;rdquo; NeuroImage: Clinical 35 (2022): 103101.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/font&gt;
-&lt;p&gt;Interested, please contact 
-&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer School on Affordable AI (SAAI)</title>
-      <link>https://albarqouni.github.io/funded/saai/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/saai/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Albarqouni Lab</title><link>https://albarqouni.github.io/authors/elodie-germani/</link><atom:link href="https://albarqouni.github.io/authors/elodie-germani/index.xml" rel="self" type="application/rss+xml"/><description>Albarqouni Lab</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Wed, 08 Apr 2026 09:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>Albarqouni Lab</title><link>https://albarqouni.github.io/authors/elodie-germani/</link></image><item><title>Three Oral Presentations at ISBI in London</title><link>https://albarqouni.github.io/talk/isbi2026/</link><pubDate>Wed, 08 Apr 2026 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/isbi2026/</guid><description/></item><item><title>Block Course: AI in Medicine (AiM): Foundations, Methods, and Critical Perspectives</title><link>https://albarqouni.github.io/students/courses/aim/</link><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/courses/aim/</guid><description>&lt;h2 id="block-course-ai-in-medicine-aim">Block Course: AI in Medicine (AiM)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Lecturers:&lt;/strong>
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Tutors:&lt;/strong>
+&lt;a href="../../../authors/adea-nesturi/">Adea Nesturi&lt;/a>,
+&lt;a href="../../../authors/david-gaviria/">David Gaviria&lt;/a>,
+&lt;a href="../../../authors/jiajun-zeng">Jiajun Zeng&lt;/a>,
+&lt;a href="../../../authors/malek-al-abed">Malek Al-Abed&lt;/a>,
+&lt;a href="../../../authors/elodie-germani">Elodie Germani&lt;/a>,
+&lt;a href="../../../authors/aditya-rastogi">Aditya Rastogi&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Module:&lt;/strong> CM1659&lt;/li>
+&lt;li>&lt;strong>Credits:&lt;/strong> 2 SWS&lt;/li>
+&lt;li>&lt;strong>Programme:&lt;/strong> PhD Candidates at BIGC CPS and NeuroScience&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> English&lt;/li>
+&lt;li>&lt;strong>Format:&lt;/strong> Block Course (2 SWS)&lt;/li>
+&lt;li>&lt;strong>Time:&lt;/strong> Tuesday to Thursday, 14-16 April 2026, 09:00 &amp;ndash; 17:00&lt;/li>
+&lt;li>&lt;strong>Location:&lt;/strong> UKB, Venusberg-Campus 1, building C66, 1st floor, seminar room 101&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="description">Description&lt;/h3>
+&lt;p>This block course offers an intensive introduction to artificial intelligence in medicine, with a focus on modern deep learning methods for biomedical and clinical applications. Designed as an interdisciplinary format, the course combines concept-driven lectures with interactive labs, allowing students to engage both with the theoretical foundations of AI and with practical challenges in medical data analysis.&lt;/p>
+&lt;p>The course is structured around a series of core topics that are central to contemporary AI in medicine. It begins with an introduction to deep learning, providing the conceptual basis for understanding neural networks and their role in medical applications. Building on this foundation, students are introduced to key tasks such as detection and classification, as well as segmentation, which are essential in areas such as diagnostic imaging, image-guided analysis, and automated clinical decision support. The course then expands to quality control in AI systems, with a particular emphasis on uncertainty estimation and interpretability, highlighting how trustworthy and transparent models can be developed and assessed. Further sessions address bias and causality, encouraging students to critically examine fairness, generalizability, and the difference between correlation-driven prediction and clinically meaningful reasoning. Finally, the course introduces vision-language models and their emerging role in connecting medical images, clinical text, and multimodal reasoning.&lt;/p>
+&lt;p>Each lecture is followed by an interactive lab in which students apply, explore, and critically reflect on the methods discussed. These labs are designed to deepen understanding through hands-on experimentation, collaborative problem-solving, and discussion of real-world medical use cases. In this way, the course not only introduces students to the technical building blocks of AI in medicine but also emphasizes the broader methodological and ethical questions that arise when such systems are developed for healthcare.&lt;/p>
+&lt;p>By the end of the course, students will have gained a structured overview of important AI methods in medicine, an understanding of their main areas of application, and a critical perspective on their limitations, risks, and clinical potential.&lt;/p>
+&lt;hr>
+&lt;h3 id="learning-goals">Learning Goals&lt;/h3>
+&lt;h4 id="technical-skills">Technical Skills&lt;/h4>
+&lt;ul>
+&lt;li>Understand and critically appraise current research in AI in Medicine.&lt;/li>
+&lt;li>Deepen expertise in medical image segmentation, registration, classification, uncertainty quantification, and bias/causality.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="topics-and-focus-areas">Topics and Focus Areas&lt;/h3>
+&lt;p>Seminar topics are drawn from recent publications in top-tier venues and may include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Deep Learning Architectures&lt;/strong> (U-Nets, GANs, Vision Transformers)&lt;/li>
+&lt;li>&lt;strong>Segmentation &amp;amp; Classification&lt;/strong> (e.g., anatomical structure delineation, lesion detection)&lt;/li>
+&lt;li>&lt;strong>Uncertainty Quantification &amp;amp; Bias&lt;/strong> (Bayesian learning, causal inference, dataset shift)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-block-course-schedule-14-16-april-2026">🗓 Block Course Schedule (14-16 April 2026)&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Date&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Time&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Topic&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Tuesday, April 14&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 09:30&lt;/td>
+&lt;td>&lt;strong>Intro&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>09:30 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Detection and Classification&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Detection and Classification&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Quality Control: Interpretbility&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA Interpretability algorithms&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Detection and Classification&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Detection and Classification&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Wednesday, April 15&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Segmentation&lt;/strong>&lt;/td>
+&lt;td>Introduction to deep learning concepts specific to medical imaging.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Quality Control: Uncertiantity&lt;/strong>&lt;/td>
+&lt;td>Introduction to uncertainty and quantification methods&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Segmentation and Interpretbility&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Segmentation and Interpretability&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Thursday, April 16&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Bias and Causality&lt;/strong>&lt;/td>
+&lt;td>Introduction to Bias and Causality in Medical Imaging&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Vision-Language Models&lt;/strong>&lt;/td>
+&lt;td>Introduction to Vision-Language Models&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Segmentation (Cont.)&lt;/strong>&lt;/td>
+&lt;td>Free time to complete the labs.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="recommended-prerequisites">Recommended Prerequisites&lt;/h3>
+&lt;p>At least one of the following:&lt;/p>
+&lt;ul>
+&lt;li>Familiarity with fundamental medical imaging techniques and an interest in AI applications.&lt;/li>
+&lt;li>Understanding of medical diagnostics and clinical data interpretation.&lt;/li>
+&lt;li>A solid background in &lt;strong>Python programming&lt;/strong>, &lt;strong>linear algebra&lt;/strong>, &lt;strong>probability&lt;/strong>, and &lt;strong>numerical algorithms&lt;/strong> is recommended.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="references-and-resources">References and Resources&lt;/h3>
+&lt;ul>
+&lt;li>[1] Litjens, Geert, et al. “A survey on deep learning in medical image analysis.” Medical image analysis 42 (2017): 60-88.&lt;/li>
+&lt;li>[2] Shen, Dinggang, Guorong Wu, and Heung-Il Suk. “Deep learning in medical image analysis.” Annual review of biomedical engineering 19.1 (2017): 221-248.&lt;/li>
+&lt;li>[3] Chen, Xuxin, et al. “Recent advances and clinical applications of deep learning in medical image analysis.” Medical image analysis 79 (2022): 102444.&lt;/li>
+&lt;li>[4] Tajbakhsh, Nima, et al. “Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.” Medical image analysis 63 (2020):101693.&lt;/li>
+&lt;li>[5] Wang, Ge, Jong Chul Ye, and Bruno De Man. “Deep learning for tomographic image reconstruction.” Nature machine intelligence 2.12 (2020): 737-748.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="registration">Registration&lt;/h3>
+&lt;p>Registration takes place via
+&lt;a href="https://intern.bigs-clinpopscience.de/teachers/showCourse/1659" target="_blank" rel="noopener">BIGS CPS Portal&lt;/a> or by contacting
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>.&lt;/p></description></item><item><title>Contributed to the 23rd BONFOR Symposium in Bonn, Germany</title><link>https://albarqouni.github.io/talk/bonfor25/</link><pubDate>Wed, 07 May 2025 14:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/bonfor25/</guid><description>&lt;p>At the 23rd BONFOR Symposium on Wednesday, 7 May 2025, held in the DZNE Lecture Hall at University Hospital Bonn, Albarqouni Lab actively showcased its current research by delivering concise oral presentations during the afternoon’s Doctoral Promotion Fair. Our team highlighted a diverse portfolio of projects—ranging from advanced image‐analysis pipelines to AI-driven diagnostic tools—and outlined potential MD-thesis topics for interested students, fostering in-depth discussions about methodological approaches and future research directions. By engaging directly with medical students, the lab not only raised awareness of its work but also provided guidance on how to embark on cutting-edge thesis projects within our group, thereby strengthening the pipeline of young clinician-scientists&lt;/p></description></item><item><title>Participated at the Helmholtz-ELLIS Workshop on Foundation Models in Science</title><link>https://albarqouni.github.io/talk/helmholtzellisfm/</link><pubDate>Mon, 17 Mar 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/helmholtzellisfm/</guid><description>&lt;p>Elodie, David, and Shadi participated at the Helmholtz ELLIS Workshop on Foundation Models which took place in Berlin over two days, bringing together leading researchers and practitioners from academia and industry. The primary focus was to explore the transformative impact of large-scale AI models (\textit{Foundation Models}) across various scientific domains, including medical imaging, astrophysics, tabular data analysis, and beyond.&lt;/p></description></item><item><title>Organized the Seminar on Artificial Intelligence in Radiology: Applications and Research</title><link>https://albarqouni.github.io/talk/air_wise2425/</link><pubDate>Thu, 06 Feb 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/air_wise2425/</guid><description>&lt;p>We have just concluded the last session of our seminar course on Artificial Intelligence in Radiology: Applications and Research which was offered for our medical students at the Faculty of Medicine, University Hospital Bonn, who were keen on leveraging AI technologies to enhance their medical practice, specifically within diagnostic imaging&amp;quot;&lt;/p></description></item><item><title>The lab contributes to the Organizing and Program Committees of MICCAI'25</title><link>https://albarqouni.github.io/talk/miccai25/</link><pubDate>Thu, 16 Jan 2025 14:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/miccai25/</guid><description>&lt;p>The lab is thrilled to contribute to the organization of
+&lt;a href="https://conferences.miccai.org/2025/en/default.asp" target="_blank" rel="noopener">MICCAI'25&lt;/a> in Daejon, South Korea. This conference is particularly relevant to the lab&amp;rsquo;s research focus, and we are honored to be part of this journey to advance innovation in AI in Healthcare!&lt;/p>
+&lt;p>Prof. Dr. Shadi Albarqouni is serving on the Outreach Committee, working to foster collaboration and engagement with the community. Dr. Elodie Germani will serve as an Area Chair, participating in managing the scientific review process and ensuring the quality of accepted papers.&lt;/p></description></item><item><title>BA/MA thesis on Modeling brain changes related to physical activity with machine learning</title><link>https://albarqouni.github.io/students/theses/ma_thesis_on_ba/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/theses/ma_thesis_on_ba/</guid><description>&lt;p>&lt;strong>Abstract.&lt;/strong> In the last decade, several studies suggested that physical fitness may positively influence brain and cardiovascular health. Brain health is usually assessed through structural and functional imaging techniques to extract biomarkers of aging that can be used to predict brain age (
+&lt;a href="https://doi.org/10.1093/cercor/bhab019" target="_blank" rel="noopener">Dunås et al., 2021&lt;/a>;
+&lt;a href="https://doi.org/10.1101/2024.11.16.623903" target="_blank" rel="noopener">Tan et al., 2024&lt;/a>). Physical fitness has been associated with younger-appearing brains in the literature, but there is little consensus on the exact changes related to physical fitness in the brain
+&lt;a href="https://doi.org/10.1016/j.neuroimage.2015.09.071" target="_blank" rel="noopener">(Sexton et al., 2016)&lt;/a>. For instance,
+&lt;a href="https://doi.org/10.1016/j.neuroimage.2015.12.010" target="_blank" rel="noopener">(Boraxbekk et al., 2016)&lt;/a> found a relationship between physical fitness and increased white matter volume in specific brain areas, as well as enhanced functional connectivity in the posterior Default Mode Network (DMN) and increased brain perfusion. The majority of the studies that explored these changes were made on old-adult cohorts, and there has been evidence of an age-related effect of physical activity on brain structural changes
+&lt;a href="https://doi.org/10.1111/1467-9280.t01-1-01430" target="_blank" rel="noopener">(Colcombe and Kramer, 2003)&lt;/a>. Moreover, there is little knowledge of the time required to see significant changes in the brain related to physical activity
+&lt;a href="https://doi.org/10.1002/hbm.22119" target="_blank" rel="noopener">(Voss et al., 2013)&lt;/a>. The goal of this thesis is to use machine learning methods to get a better understanding of the changes in the brain related to physical activity.&lt;/p>
+&lt;p>&lt;strong>Research Questions:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Q1) Can we predict young individuals&amp;rsquo; physical activity from structural and functional brain imaging-derived biomarkers using machine learning?&lt;/li>
+&lt;li>Q2) Can we predict the effect of physical activity on the evolution of these imaging-derived biomarkers at different time scales?&lt;/li>
+&lt;li>Q3) Is there any effect of age, feature extraction technique, and other confounds on the predictability of the biomarkers?&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Dataset:&lt;/strong>
+&lt;strong>BEACON study&lt;/strong>: Acute exercise study
+&lt;a href="https://doi.org/10.3389/fnimg.2024.1332384" target="_blank" rel="noopener">(Boecker et al., 2024)&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>3 different exercise interventions for data collection: high-, low-intensity, and resting condition.&lt;/li>
+&lt;li>20 male subjects aged 20-35 years, trained athletes with VO2peak&amp;gt;55 ml/min/kg.&lt;/li>
+&lt;li>6 MRI measurements (3 pre-intervention, 3 post-intervention); structural (T1w and T2w, FLAIR, DTI) and functional MRI (resting-state).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Heart and Brain study&lt;/strong>: Longitudinal exercise study over 6 months&lt;/p>
+&lt;ul>
+&lt;li>2 groups: intervention and active control group.&lt;/li>
+&lt;li>Actual status: Data was obtained for 15 subjects in the intervention group and 20 subjects in the control group. Additionally, we have access to baseline-only measurements for 32 subjects in the intervention group and 40 subjects in the control group. Aged 20-35 years, fitness level: poor to fair.&lt;/li>
+&lt;li>3 MRI measurements (baseline, after 3 months, and after 6 months); structural (T1w and T2w, FLAIR, DTI) and functional MRI (resting-state, pCASL)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Roadmap:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Literature Review and Data Exploration. Preprocess data from the different datasets to ensure standardization and quality.&lt;/li>
+&lt;li>Extract biomarkers from functional and structural MRI data: regional measurements extracted using common neuroimaging software packages (
+&lt;a href="https://fmriprep.org/en/stable/" target="_blank" rel="noopener">fMRIprep&lt;/a>,
+&lt;a href="https://fcp-indi.github.io/" target="_blank" rel="noopener">CPAC&lt;/a>,
+&lt;a href="https://www.nitrc.org/projects/rest/" target="_blank" rel="noopener">REST&lt;/a>,
+&lt;a href="https://rfmri.org/DPARSF" target="_blank" rel="noopener">DEPARSF&lt;/a>,
+&lt;a href="https://www.fil.ion.ucl.ac.uk/spm/software/spm12/" target="_blank" rel="noopener">SPM&lt;/a>, etc.) and
+&lt;a href="https://pyradiomics.readthedocs.io/en/latest/" target="_blank" rel="noopener">pyradiomics&lt;/a> (tabular data); whole-brain volumes of extracted features (3D images).&lt;/li>
+&lt;li>Develop and train different machine learning models using extracted biomarkers to predict physical activity (e.g. control vs. active group, type of exercise) using data from &lt;strong>BEACON and Heart and Brain studies&lt;/strong>. Standard machine learning models such as SVM or RandomForest will be used for tabular data, and deep learning models such as Convolutional Neural Networks will be used for whole-brain volumes.&lt;/li>
+&lt;li>Explore the relationship between biomarkers evolution and physical activity on longitudinal data (&lt;strong>Heart and Brain study&lt;/strong>). Develop a regression model (machine learning or deep learning based on previous results) to predict biomarkers evolution conditioned on baseline measurements and physical activity.&lt;/li>
+&lt;li>Evaluate the model’s performance and compare model results with features extracted using different methodologies (denoising, normalization, segmentation atlas, etc.)&lt;/li>
+&lt;li>Thesis writing and defense preparation&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Requirements:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Solid background in Machine/Deep Learning&lt;/li>
+&lt;li>Familiar with deep learning models and SOTA architectures&lt;/li>
+&lt;li>Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li>
+&lt;li>Experience with a mainstream deep learning framework such as PyTorch.&lt;/li>
+&lt;li>Machine/Deep learning hands-on experience&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>References:&lt;/strong>
+&lt;font size = "2">&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.3389/fnimg.2024.1332384" target="_blank" rel="noopener">Boecker, H. et al.&lt;/a> (2024) ‘Fractional amplitude of low-frequency fluctuations associated with μ-opioid and dopamine receptor distributions in the central nervous system after high-intensity exercise bouts’, Frontiers in Neuroimaging, 3, p. 1332384.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1016/j.neuroimage.2015.12.010" target="_blank" rel="noopener">Boraxbekk, C.-J. et al.&lt;/a> (2016) ‘Physical activity over a decade modifies age-related decline in perfusion, gray matter volume, and functional connectivity of the posterior default-mode network-A multimodal approach’, NeuroImage, 131, pp. 133–141.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1111/1467-9280.t01-1-01430" target="_blank" rel="noopener">Colcombe, S. and Kramer, A.F.&lt;/a> (2003) ‘Fitness Effects on the Cognitive Function of Older Adults: A Meta-Analytic Study’, Psychological Science, 14(2), pp. 125–130.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1093/cercor/bhab019" target="_blank" rel="noopener">Dunås, T. et al.&lt;/a> (2021) ‘Multimodal Image Analysis of Apparent Brain Age Identifies Physical Fitness as Predictor of Brain Maintenance’, Cerebral Cortex, 31(7), pp. 3393–3407.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1016/j.neuroimage.2015.09.071" target="_blank" rel="noopener">Sexton, C.E. et al.&lt;/a> (2016) ‘A systematic review of MRI studies examining the relationship between physical fitness and activity and the white matter of the ageing brain’, NeuroImage, 131, pp. 81–90.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1101/2024.11.16.623903" target="_blank" rel="noopener">Tan, T.W.K. et al.&lt;/a> (2024) ‘Evaluation of Brain Age as a Specific Marker of Brain Health’. bioRxiv, p. 2024.11.16.623903.&lt;/p>
+&lt;p>
+&lt;a href="https://doi.org/10.1002/hbm.22119" target="_blank" rel="noopener">Voss, M.W. et al.&lt;/a> (2013) ‘The influence of aerobic fitness on cerebral white matter integrity and cognitive function in older adults: Results of a one-year exercise intervention’, Human Brain Mapping, 34(11), pp. 2972–2985.&lt;/p>
+&lt;/font>
+&lt;p>Interested, please contact
+&lt;a href="mailto:shadi.albarqouni@ukbonn.de">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/p></description></item><item><title>Elodie attended and presented at the 2024 International Conference on Image Processing (ICIP) in Abu Dhabi, UAE</title><link>https://albarqouni.github.io/talk/icip2024/</link><pubDate>Wed, 30 Oct 2024 14:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/icip2024/</guid><description>&lt;p>Elodie had the chance to attend the 2024 IEEE International Conference on Image Processing in Abu Dhabi, Emirates. She presented her work during an oral session about &lt;em>Medical Image Analysis&lt;/em>. This work was part of her Ph.D. projects and was entitled &lt;em>Uncovering communities of pipelines in the task fMRI analytical space&lt;/em>. In this work, she used graph representations to explore the relationships between fMRI pipelines results and the stability of their relationships across different study contexts. The results were useful to evaluate the &lt;em>potential generalisability and robustness to unseen context&lt;/em> of methods to mitigate analytical variability, for instance, &lt;em>style transfer between statistic maps&lt;/em>.&lt;/p></description></item><item><title>Seminar: Artificial Intelligence in Radiology: Applications and Research</title><link>https://albarqouni.github.io/students/courses/air/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/courses/air/</guid><description>&lt;h2 id="seminar-2-sws-artificial-intelligence-in-radiology-applications-and-research-artifizielle-intelligenz-in-der-radiologie-anwendungen-und-forschung">Seminar (2 SWS): Artificial Intelligence in Radiology: Applications and Research (Artifizielle Intelligenz in der Radiologie: Anwendungen und Forschung)&lt;/h2>
+&lt;p>&lt;strong>Lecturers:&lt;/strong>
+&lt;a href="../../../authors/admin/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Tutors:&lt;/strong>
+&lt;a href="../../../authors/elodie-germani/">Dr. Elodie Germani&lt;/a>,
+&lt;a href="../../../authors/david-gaviria/">David Gaviria&lt;/a>,
+&lt;a href="../../../authors/yiheng-xiong">Yiheneg Xiong&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Time:&lt;/strong> November 15 – Jan 31 (every Friday, &lt;s>11:30 AM - 1:00 PM&lt;/s> 16:00 - 17:30)&lt;/p>
+&lt;p>&lt;strong>Format:&lt;/strong> Online (Zoom Meeting) with potential face-to-face meetings, if participants interested! Link was provided via email.&lt;/p>
+&lt;p>&lt;strong>Language:&lt;/strong> English&lt;/p>
+&lt;p>&lt;strong>eCampus:&lt;/strong>
+&lt;a href="https://ecampus.uni-bonn.de/goto.php?target=crs_3579292&amp;amp;client_id=ecampus" target="_blank" rel="noopener">Link&lt;/a> to eCampus&lt;/p>
+&lt;h3 id="description">Description&lt;/h3>
+&lt;p>The Computational Imaging Research (Albarqouni Lab) at the Clinic of Diagnostic and Interventional Radiology at the University Hospital Bonn is pleased to present a seminar on &lt;em>Artificial Intelligence in Radiology: Applications and Research.&lt;/em> This cutting-edge seminar, spanning two semester hours per week (2 SWS), is specially curated for medical students to explore the transformative role of deep learning in medical imaging, with a focus on tasks such as classification, detection, segmentation, reconstruction, tracking, and disease progression.&lt;/p>
+&lt;h3 id="course-objectives">Course Objectives&lt;/h3>
+&lt;p>Upon completing this seminar, students will be able to:&lt;/p>
+&lt;ul>
+&lt;li>Grasp deep learning concepts and their specific applications in medical imaging.&lt;/li>
+&lt;li>Analyze advanced image analysis tasks, including classification, detection, segmentation, and disease progression modeling.&lt;/li>
+&lt;li>Evaluate ethical and regulatory considerations in the deployment of AI within healthcare.&lt;/li>
+&lt;li>Discuss the future potential of AI-driven solutions in personalized medicine and patient care.&lt;/li>
+&lt;/ul>
+&lt;h3 id="target-audience">Target Audience&lt;/h3>
+&lt;p>This seminar is designed for medical students at the Faculty of Medicine, University Hospital Bonn, who are keen on leveraging AI technologies to enhance their medical practice, specifically within diagnostic imaging.&lt;/p>
+&lt;h3 id="prerequisites-and-desired-knowledge">Prerequisites and Desired Knowledge&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Prerequisites:&lt;/strong> Familiarity with fundamental medical imaging techniques and an interest in AI applications.&lt;/li>
+&lt;li>&lt;strong>Desired:&lt;/strong> Understanding of medical diagnostics and clinical data interpretation.&lt;/li>
+&lt;/ul>
+&lt;h3 id="seminar-topics-and-schedule-tentative">Seminar Topics and Schedule (Tentative)&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Date&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Topic&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Presenter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Materials&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Nov 22&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Deep Learning Foundations&lt;/strong>&lt;/td>
+&lt;td>Introduction to deep learning concepts specific to medical imaging.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Meskó, Bertalan, and Marton Görög. &amp;ldquo;A short guide for medical professionals in the era of artificial intelligence.&amp;rdquo; NPJ digital medicine 3.1 (2020): 126.
+&lt;a href="https://www.nature.com/articles/s41746-020-00333-z" target="_blank" rel="noopener">(PDF}&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nov 29&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Detection and Classification in Medical Imaging&lt;/strong>&lt;/td>
+&lt;td>Exploring detection and classification techniques in diagnosing diseases from medical images.&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/david-gaviria/">David Gaviria&lt;/a>&lt;/td>
+&lt;td>Litjens, Geert, et al. &amp;ldquo;A survey on deep learning in medical image analysis.&amp;rdquo; Medical image analysis 42 (2017): 60-88.
+&lt;a href="https://www.sciencedirect.com/science/article/pii/S1361841517301135?casa_token=0EKKPg-JAL8AAAAA:CjbQzL7k-8_VF4g6VXgtrN_r7Ai1xbSDos_f_4yp_YAi3EEEu6wXoBw7Z3eYPLnGB_avgXkzLGk" target="_blank" rel="noopener">(PDF)&lt;/a>, Chen, Xuxin, et al. &amp;ldquo;Recent advances and clinical applications of deep learning in medical image analysis.&amp;rdquo; Medical image analysis 79 (2022): 102444.
+&lt;a href="https://www.sciencedirect.com/science/article/am/pii/S1361841522000913" target="_blank" rel="noopener">(PDF)&lt;/a>,&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Dec 6&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Segmentation&lt;/strong>&lt;/td>
+&lt;td>Deep learning methods for segmenting key structures in medical images.&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/yiheng-xiong">Yiheneg Xiong&lt;/a>&lt;/td>
+&lt;td>Tajbakhsh, Nima, et al. &amp;ldquo;Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.&amp;rdquo; Medical image analysis 63 (2020):101693.
+&lt;a href="https://www.sciencedirect.com/science/article/pii/S136184152030058X?casa_token=CEnq-3mHEtoAAAAA:TAzIDSKtwOxS0j3CatirvKvpq17nxyy2Tg0LZfdxxzho_FDxH5eqLHTatVjYe7xHPHxLrVOpLnE" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Dec 13&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Causality and Bias&lt;/strong>&lt;/td>
+&lt;td>Causality and Bias in deep learning with medical imaging.&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/elodie-germani/">Dr. Elodie Germani&lt;/a>&lt;/td>
+&lt;td>Castro, Daniel C., Ian Walker, and Ben Glocker. &amp;ldquo;Causality matters in medical imaging.&amp;rdquo; Nature Communications 11.1 (2020): 3673.
+&lt;a href="https://www.nature.com/articles/s41467-020-17478-w.pdf" target="_blank" rel="noopener">(PDF)&lt;/a>, Jones, Charles, et al. &amp;ldquo;A causal perspective on dataset bias in machine learning for medical imaging.&amp;rdquo; Nature Machine Intelligence 6.2 (2024): 138-146
+&lt;a href="https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/s42256-024-00797-8&amp;amp;casa_token=Da6WexFt42oAAAAA:yZN-4FKxwBz6by4QicC1neuiGFCcur8StH0I_0FTO3SVASKgzuNPhX0PnXrXCmJaib1UjVClSzB-BkXBJCE" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Dec 20&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>&lt;s>Uncertainity Quantification&lt;/s>&lt;/strong>&lt;/td>
+&lt;td>Moved to the next year due to holiday season&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Jan 10&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Q&amp;amp;A Session&lt;/strong>&lt;/td>
+&lt;td>Students should prepare questions for their assigned papers and discuss them with the tutors&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Jan 17&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Uncertainity Quantification&lt;/strong>&lt;/td>
+&lt;td>Quanitifying Uncertainty in Deep Learning Models&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/david-gaviria/">David Gaviria&lt;/a>&lt;/td>
+&lt;td>Huang, Ling, et al. &amp;ldquo;A review of uncertainty quantification in medical image analysis: probabilistic and non-probabilistic methods.&amp;rdquo; Medical Image Analysis (2024): 103223.
+&lt;a href="https://www.sciencedirect.com/science/article/pii/S1361841524001488" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Jan 24&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Student Paper Presentations (1)&lt;/strong>&lt;/td>
+&lt;td>Student presentations.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Jan 31&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Student Paper Presentations (2) and Course Wrap-Up&lt;/strong>&lt;/td>
+&lt;td>Wrap-up, feedback, and discussion on future AI applications in medical practice.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="learning-format">Learning Format&lt;/h3>
+&lt;p>One of the seminar’s unique teaching concepts is “Teach It to Yourself.” Participants (limited to 20 partisipants) will present selected chapter and papers, engage in discussions, and critically analyze case studies on deep learning applications in medical imaging.&lt;/p>
+&lt;h3 id="registration-closed">Registration (&lt;strong>closed&lt;/strong>)&lt;/h3>
+&lt;p>Interested in this seminar, please register via email to
+&lt;a href="../../../authors/elodie-germani/">Dr. Elodie Germani&lt;/a> and
+&lt;a href="../../../authors/admin/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/p>
+&lt;h3 id="references">References&lt;/h3>
+&lt;ul>
+&lt;li>[1] Litjens, Geert, et al. &amp;ldquo;A survey on deep learning in medical image analysis.&amp;rdquo; Medical image analysis 42 (2017): 60-88.
+&lt;a href="https://www.sciencedirect.com/science/article/pii/S1361841517301135?casa_token=0EKKPg-JAL8AAAAA:CjbQzL7k-8_VF4g6VXgtrN_r7Ai1xbSDos_f_4yp_YAi3EEEu6wXoBw7Z3eYPLnGB_avgXkzLGk" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;li>[2] Shen, Dinggang, Guorong Wu, and Heung-Il Suk. &amp;ldquo;Deep learning in medical image analysis.&amp;rdquo; Annual review of biomedical engineering 19.1 (2017): 221-248.&lt;/li>
+&lt;li>[3] Chen, Xuxin, et al. &amp;ldquo;Recent advances and clinical applications of deep learning in medical image analysis.&amp;rdquo; Medical image analysis 79 (2022): 102444.
+&lt;a href="https://www.sciencedirect.com/science/article/am/pii/S1361841522000913" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;li>[4] Tajbakhsh, Nima, et al. &amp;ldquo;Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.&amp;rdquo; Medical image analysis 63 (2020):101693.
+&lt;a href="https://www.sciencedirect.com/science/article/pii/S136184152030058X?casa_token=CEnq-3mHEtoAAAAA:TAzIDSKtwOxS0j3CatirvKvpq17nxyy2Tg0LZfdxxzho_FDxH5eqLHTatVjYe7xHPHxLrVOpLnE" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;li>[5] Wang, Ge, Jong Chul Ye, and Bruno De Man. &amp;ldquo;Deep learning for tomographic image reconstruction.&amp;rdquo; Nature machine intelligence 2.12 (2020): 737-748.
+&lt;a href="https://www.nature.com/articles/s42256-020-00273-z" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;li>[6] Ben Yedder, Hanene, Ben Cardoen, and Ghassan Hamarneh. &amp;ldquo;Deep learning for biomedical image reconstruction: A survey.&amp;rdquo; Artificial intelligence review 54.1 (2021): 215-251.
+&lt;a href="https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s10462-020-09861-2&amp;amp;casa_token=ckLy9XB_kJAAAAAA:kIEg6GqC0Jk9nDBDO5Lzh_2QXXyBw3gFDMuE5gzgFZuR-JvmIqhS2dN2QNhK_eCggtgZakZen-PGNc_OrOo" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;li>[7] Huang, Ling, et al. &amp;ldquo;A review of uncertainty quantification in medical image analysis: probabilistic and non-probabilistic methods.&amp;rdquo; Medical Image Analysis (2024): 103223.
+&lt;a href="https://www.sciencedirect.com/science/article/pii/S1361841524001488" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;li>[8] Castro, Daniel C., Ian Walker, and Ben Glocker. &amp;ldquo;Causality matters in medical imaging.&amp;rdquo; Nature Communications 11.1 (2020): 3673.
+&lt;a href="https://www.nature.com/articles/s41467-020-17478-w.pdf" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;li>[9] Jones, Charles, et al. &amp;ldquo;A causal perspective on dataset bias in machine learning for medical imaging.&amp;rdquo; Nature Machine Intelligence 6.2 (2024): 138-146.
+&lt;a href="https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/s42256-024-00797-8&amp;amp;casa_token=Da6WexFt42oAAAAA:yZN-4FKxwBz6by4QicC1neuiGFCcur8StH0I_0FTO3SVASKgzuNPhX0PnXrXCmJaib1UjVClSzB-BkXBJCE" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;li>[10] Thirunavukarasu, Arun James, et al. &amp;ldquo;Large language models in medicine.&amp;rdquo; Nature medicine 29.8 (2023): 1930-1940.
+&lt;a href="https://www.nature.com/articles/s41591-023-02448-8" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;li>[11] Zhang, Jingyi, et al. &amp;ldquo;Vision-language models for vision tasks: A survey.&amp;rdquo; IEEE Transactions on Pattern Analysis and Machine Intelligence (2024).
+&lt;a href="https://ieeexplore.ieee.org/iel7/34/4359286/10445007.pdf?casa_token=YkE-Ce1otfoAAAAA:nzxMsIoQekzVQlRvR7AvTxQzOpdaBIXJNVfv8P9XGpkscrrbxMXfAYLrF4b2eJTfAEFFKss7UmE8LUM" target="_blank" rel="noopener">(PDF)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>MA Thesis: Investigating Bias in AI Algorithms for Breast Cancer Detection from Mammography Imaging: A Focus on Generalization to Unseen Populations</title><link>https://albarqouni.github.io/students/theses/ma_thesis_on_investigating_bias_in_ai_algorithms_for_breast_cancer_detection_in_mammography_imaging/</link><pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/theses/ma_thesis_on_investigating_bias_in_ai_algorithms_for_breast_cancer_detection_in_mammography_imaging/</guid><description>&lt;p>&lt;strong>Abstract.&lt;/strong> Breast density is a critical factor in breast cancer risk and detection, influencing the effectiveness of mammography. Higher breast density, characterized by a greater proportion of fibroglandular tissue relative to fatty tissue, is associated with a four- to sixfold increase in breast cancer risk. This risk is compounded by the fact that dense tissue can mask tumors on mammograms, reducing diagnostic sensitivity. Breast density typically decreases with age, particularly after menopause. However, this relationship is not uniform across all populations.&lt;/p>
+&lt;p>For instance, the study by Checka et al. (2012) [1] revealed that while 74% of women aged 40-49 had dense breasts, this percentage declined to 57% in women aged 50-59, and further to 36% in women aged 70-79. Notably, a significant portion of older women still possessed dense breasts, challenging the assumption that breast density diminishes uniformly with age. Similarly, Advani et al. (2021) [2] explored breast density among women aged 65 years and older, revealing that even in this older demographic, breast density remains a significant risk factor. The study found that 31.5% of women aged 65-74 had heterogeneously or extremely dense breasts, compared to 30.5% of those aged 75 and older. This persistence of high breast density in older women suggests that age alone is not a sufficient predictor of breast density.&lt;/p>
+&lt;p>Breast density and its impact on cancer detection vary significantly across different demographic groups. The studies highlight that certain racial and ethnic groups, such as Asian women, are more likely to have dense breasts, which may necessitate different screening protocols. Moreover, body mass index (BMI) also influences breast density, with lower BMI being associated with higher breast density, particularly in older women. For example, Advani et al. (2021) [2] found that 53.5% of women with heterogeneously or extremely dense breasts had a normal BMI, compared to 39.0% of women with scattered fibroglandular densities.&lt;/p>
+&lt;p>This project aims to investigate any potential biases in deep learning models trained predominantly on data from Western populations—primarily from Europe and the USA— and its generalization on data coming from different demographics. We hypothesize that these models may not adequately account for the variability in breast density across different demographic groups, leading to less accurate risk assessments and detection in non-Western populations.&lt;/p>
+&lt;p>The integration of deep learning (DL) models into mammography for breast cancer risk prediction has shown significant potential, yet there remains a notable research gap in understanding the implications of demographic variability on model performance. While existing models, such as the Tyrer-Cuzick model, have incorporated risk factors like breast density, these models have limitations, particularly when applied to diverse populations. Many DL models are trained on data from predominantly Western populations, which raises concerns about their generalizability and accuracy in non-Western or minority groups.&lt;/p>
+&lt;p>Moreover, the phenomenon of automation bias, as highlighted by Dratsch et al. (2023) [3], poses an additional challenge, particularly when AI systems are integrated into the radiology workflow. The risk of radiologists overly relying on AI suggestions without critical engagement is a significant concern, especially when the AI systems themselves may be biased due to the data they were trained on. This bias, coupled with the underrepresentation of diverse demographics in training datasets, underscores a critical gap in the current research landscape.&lt;/p>
+&lt;p>Given the complexities associated with breast density and its variation across demographics, it is crucial to develop and validate deep learning models that are sensitive to these differences. Such models should be trained on diverse datasets that reflect the global population, ensuring that they can accurately assess breast cancer risk and detect lesions in women from various demographic backgrounds. This approach will help mitigate the biases inherent in current models and improve the effectiveness of breast cancer screening worldwide.&lt;/p>
+&lt;p>&lt;strong>Research Questions:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Q1) How does the performance of deep learning models for breast cancer risk prediction vary across different demographic groups, particularly those underrepresented in the training data?&lt;/li>
+&lt;li>Q2) How do breast density and age affect the accuracy of DL-based breast cancer risk prediction models in non-Western populations?&lt;/li>
+&lt;li>Q3) How can AI-induced automation bias be mitigated in mammography to ensure equitable and accurate breast cancer screening across diverse populations?&lt;/li>
+&lt;li>Q4) What strategies can be employed to improve the generalizability of DL models in breast cancer risk prediction across various demographic groups?&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Dataset:&lt;/strong>
+The landscape of publicly available mammography datasets is rich with resources critical for advancing breast cancer research, particularly in the development of deep learning models. The
+&lt;a href="http://www.eng.usf.edu/cvprg/Mammography/Database.html" target="_blank" rel="noopener">Digital Database for Screening Mammography (DDSM)&lt;/a>, from the &lt;strong>USA&lt;/strong>, provides over 10,000 images with detailed lesion annotations and BI-RADS categorizations, though it lacks explicit demographic data.
+&lt;a href="https://academictorrents.com/details/ce1ecade37814701ac95193a910a3c6917ea43b3" target="_blank" rel="noopener">INbreast&lt;/a> offers 410 images, from &lt;strong>Portugal&lt;/strong>, with comprehensive annotations, including lesion contours and breast density. The
+&lt;a href="https://www.cancerimagingarchive.net/collection/cbis-ddsm/" target="_blank" rel="noopener">Curated Breast Imaging Subset of DDSM (CBIS-DDSM)&lt;/a> refines DDSM data into 3,000 high-quality images with improved relevance for machine learning. The
+&lt;a href="http://peipa.essex.ac.uk/info/mias.html" target="_blank" rel="noopener">Mammographic Image Analysis Society (MIAS)&lt;/a> Database contains 322 images from the &lt;strong>UK&lt;/strong>, categorized by breast density and abnormality type. Lastly, the
+&lt;a href="https://medphys.royalsurrey.nhs.uk/omidb/" target="_blank" rel="noopener">OPTIMAM Mammography Image Database (OMI-DB)&lt;/a> is a vast repository with over 100,000 mammograms from the &lt;strong>UK&lt;/strong>, rich in BI-RADS data and lesion annotations, serving as a vital resource for AI model training.&lt;/p>
+&lt;p>Besides, we have access to a couple of databases from different demographies, namely,
+&lt;a href="https://vindr.ai/datasets/mammo" target="_blank" rel="noopener">VinDr-Mammo&lt;/a>, from &lt;strong>Vietnam&lt;/strong>, which consists of 5,000 four-view exams with breast-level assessment and finding annotations, and the
+&lt;a href="https://www.cancerimagingarchive.net/collection/cmmd/" target="_blank" rel="noopener">Chinese Mammography Database (CMMD)&lt;/a> which consists of 1,775 patients from &lt;strong>China&lt;/strong> with benign or malignant breast disease, and
+&lt;a href="https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset" target="_blank" rel="noopener">KAUMD&lt;/a>, from &lt;strong>Saudi Arabia&lt;/strong>, which provides around 1500 cases with a total of 5600 mammogram images with BI-RADS scores. Besides, through our clinical partners, we have access to 1500 cases from &lt;strong>Lebanon&lt;/strong> and around 100 cases from the &lt;strong>United Arab Emirates&lt;/strong>. All cases have at least a Mammography scan for both left and right sides with multiple views.&lt;/p>
+&lt;p>The BI-RADS scores are reported and Malignant cases are biopsy proven. These datasets are indispensable for developing robust, generalizable AI models, though they vary in the level of demographic detail provided.&lt;/p>
+&lt;p>&lt;strong>Roadmap:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Familiarize yourself with the current literature [3-6]&lt;/li>
+&lt;li>Build the baseline supervised model.&lt;/li>
+&lt;li>Run the necessary comparisons.&lt;/li>
+&lt;li>Run extensive experiments and analysis&lt;/li>
+&lt;li>Write up your thesis&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Requirements:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Solid background in Machine/Deep Learning&lt;/li>
+&lt;li>Familiar with deep learning models and SOTA architectures&lt;/li>
+&lt;li>Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li>
+&lt;li>Experience with a mainstream deep learning framework such as PyTorch.&lt;/li>
+&lt;li>Machine/Deep learning hands-on experience&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>References:&lt;/strong>
+&lt;font size = "2">&lt;/p>
+&lt;ol>
+&lt;li>Checka, Cristina M., et al. &amp;ldquo;The relationship of mammographic density and age: implications for breast cancer screening.&amp;rdquo; American Journal of Roentgenology 198.3 (2012): W292-W295.&lt;/li>
+&lt;li>Advani, Shailesh M., et al. &amp;ldquo;Association of breast density with breast cancer risk among women aged 65 years or older by age group and body mass index.&amp;rdquo; JAMA network open 4.8 (2021): e2122810-e2122810.&lt;/li>
+&lt;li>Dratsch, Thomas, et al. &amp;ldquo;Automation bias in mammography: the impact of artificial intelligence BI-RADS suggestions on reader performance.&amp;rdquo; Radiology 307.4 (2023): e222176.&lt;/li>
+&lt;li>Yala, Adam, et al. &amp;ldquo;A deep learning mammography-based model for improved breast cancer risk prediction.&amp;rdquo; Radiology 292.1 (2019): 60-66.&lt;/li>
+&lt;li>Lotter, William, et al. &amp;ldquo;Robust breast cancer detection in mammography and digital breast tomosynthesis using an annotation-efficient deep learning approach.&amp;rdquo; Nature medicine 27.2 (2021): 244-249.&lt;/li>
+&lt;li>Zufiria, Blanca, et al. &amp;ldquo;Analysis of potential biases on mammography datasets for deep learning model development.&amp;rdquo; International Workshop on Applications of Medical AI. Cham: Springer Nature Switzerland, 2022.&lt;/li>
+&lt;li>Hamidinekoo, Azam, et al. &amp;ldquo;Deep learning in mammography and breast histology, an overview and future trends.&amp;rdquo; Medical image analysis 47 (2018): 45-67.&lt;/li>
+&lt;/ol>
+&lt;/font>
+&lt;p>Interested, please contact
+&lt;a href="mailto:shadi.albarqouni@ukbonn.de">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/p></description></item><item><title>MA Thesis: Deep Learning for Brain MRI Image Quality Transfer -- Not available</title><link>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</link><pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</guid><description>&lt;p>&lt;strong>Abstract.&lt;/strong> Magnetic Resonance Imaging (MRI) plays a vital role in modern diagnostics, offering detailed, non-invasive insights into human anatomy [1-2]. High-field MRI (HF-MRI) systems, which operate at higher magnetic field strengths, provide superior image resolution and contrast compared to low-field MRI (LF-MRI) systems [3-4]. However, HF-MRI scanners are expensive and require significant maintenance, limiting their availability in resource-constrained environments where LF-MRI systems prevail. This disparity often leads to suboptimal diagnostic outcomes, underscoring the need to enhance the quality of LF-MRI images to the standard of HF-MRI [10].&lt;/p>
+&lt;p>Generative models, particularly diffusion models [5], have emerged as promising tools for image enhancement. They excel in generating high-fidelity, contextually coherent images by iteratively refining noisy data. Recent studies have demonstrated the potential of diffusion models in various imaging tasks, outperforming traditional techniques, including Generative Adversarial Networks (GANs). The proposed project aims to leverage diffusion models to improve LF-MRI image quality, bridging the gap between LF-MRI and HF-MRI and enhancing diagnostic accuracy [1-2].&lt;/p>
+&lt;p>The project aims to develop a 3D Conditional Diffusion Model specifically designed for enhancing LF-MRI images [6-8]. This model, named MagIQT, will integrate multiple innovative components that complement each other to address existing challenges in MRI image enhancement. The model will consist of a transformer-based encoder and a cross-batch mechanism, uniquely positioned to improve contextual information and reduce artifacts, thus advancing the current state-of-the-art. A recent review [9] summarizing the strengths and weaknesses of diffusion models in medical imaging will be further investigated.&lt;/p>
+&lt;p>&lt;strong>Research Questions:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Q1) How effectively can a 3D conditional diffusion model enhance low-field MRI images to high-field MRI quality in terms of diagnostic accuracy and image fidelity compared to existing generative models [11]?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Q2) What are the specific contributions of the transformer-based encoder and cross-batch mechanism to the overall performance of the 3D conditional diffusion model in reducing artifacts and preserving anatomical details in MRI image enhancement?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Q3) How does the application of the 3D conditional diffusion model impact the detection and diagnosis of anomalies in pediatric MRI scans, particularly in identifying subtle pathologies that may be missed in low-field MRI?&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Dataset:&lt;/strong>
+A total of 50 patients were scanned on portable 64mT and standard 3T scanners at the Clinic for Neonatology and Pediatric Intensive Care Medicine at the University Hospital Bonn with T1-weighted, T2-weighted, and FLAIR acquisitions. Brain Imaging sequences require registration as a pre-processing step. Another cohort of unpaired 100 patients was scanned on either 64mT or 3T, which might be used for the model development. Additional datasets might be requested from the authors of [11-12].&lt;/p>
+&lt;p>&lt;strong>Roadmap:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Familiarize yourself with the current literature [5-9]&lt;/li>
+&lt;li>Build the baseline supervised model and develop the anomaly detection model.&lt;/li>
+&lt;li>Run the necessary comparisons.&lt;/li>
+&lt;li>Run extensive experiments and analysis&lt;/li>
+&lt;li>Write up your thesis&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Requirements:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Solid background in Machine/Deep Learning&lt;/li>
+&lt;li>Familiar with deep learning models and SOTA architectures&lt;/li>
+&lt;li>Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li>
+&lt;li>Experience with a mainstream deep learning framework such as PyTorch.&lt;/li>
+&lt;li>Machine/Deep learning hands-on experience&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>References:&lt;/strong>
+&lt;font size = "2">&lt;/p>
+&lt;ol>
+&lt;li>Barkovich, A. James. Pediatric neuroimaging. Lippincott Williams &amp;amp; Wilkins, 2005.&lt;/li>
+&lt;li>Atlas, Scott W., ed. Magnetic resonance imaging of the brain and spine. Vol. 1. Lippincott Williams &amp;amp; Wilkins, 2009.&lt;/li>
+&lt;li>Campbell‐Washburn, Adrienne E., et al. &amp;ldquo;Low‐field MRI: a report on the 2022 ISMRM workshop.&amp;rdquo; Magnetic resonance in medicine 90.4 (2023): 1682-1694.&lt;/li>
+&lt;li>Arnold, Thomas Campbell, et al. &amp;ldquo;Low‐field MRI: clinical promise and challenges.&amp;rdquo; Journal of Magnetic Resonance Imaging 57.1 (2023): 25-44.&lt;/li>
+&lt;li>Ho, Jonathan, Ajay Jain, and Pieter Abbeel. &amp;ldquo;Denoising diffusion probabilistic models.&amp;rdquo; Advances in neural information processing systems 33 (2020): 6840-6851.&lt;/li>
+&lt;li>Kim, S., et al. &amp;ldquo;A 3D Conditional Diffusion Model for Image Quality Transfer - An Application to Low-Field MRI.&amp;rdquo; 1st Workshop on Deep Generative Models for Health at NeurIPS 2023.
+&lt;a href="https://github.com/edshkim98/DiffusionIQT" target="_blank" rel="noopener">Link&lt;/a> .&lt;/li>
+&lt;li>Cechnicka, S., et al. &amp;ldquo;Ultra-Resolution Cascaded Diffusion Model for Gigapixel Image Synthesis in Histopathology.&amp;rdquo; NeurIPS 2023.
+&lt;a href="https://arxiv.org/abs/2312.01152" target="_blank" rel="noopener">Link&lt;/a>&lt;/li>
+&lt;li>Islam, Kh Tohidul, et al. &amp;ldquo;Improving portable low-field MRI image quality through image-to-image translation using paired low-and high-field images.&amp;rdquo; Scientific Reports 13.1 (2023): 21183. [Link] (
+&lt;a href="https://github.com/khtohidulislam/LoHiResGAN%29" target="_blank" rel="noopener">https://github.com/khtohidulislam/LoHiResGAN)&lt;/a>.&lt;/li>
+&lt;li>Kazerouni, Amirhossein, et al. &amp;ldquo;Diffusion models in medical imaging: A comprehensive survey.&amp;rdquo; Medical Image Analysis 88 (2023): 102846.&lt;/li>
+&lt;li>Kimberly, W. Taylor, et al. &amp;ldquo;Brain imaging with portable low-field MRI.&amp;rdquo; Nature reviews bioengineering 1.9 (2023): 617-630.&lt;/li>
+&lt;li>Lucas, Alfredo, et al. &amp;ldquo;Multi-contrast high-field quality image synthesis for portable low-field MRI using generative adversarial networks and paired data.&amp;rdquo; medRxiv (2023).&lt;/li>
+&lt;li>Arnold, T. Campbell, et al. &amp;ldquo;Sensitivity of portable low-field magnetic resonance imaging for multiple sclerosis lesions.&amp;rdquo; NeuroImage: Clinical 35 (2022): 103101.&lt;/li>
+&lt;/ol>
+&lt;/font>
+&lt;p>Interested, please contact
+&lt;a href="mailto:shadi.albarqouni@ukbonn.de">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/p></description></item><item><title>Summer School on Affordable AI (SAAI)</title><link>https://albarqouni.github.io/funded/saai/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/saai/</guid><description/></item></channel></rss>

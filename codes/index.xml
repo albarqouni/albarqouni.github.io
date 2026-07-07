@@ -1,113 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Open Source Codes | Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/codes/</link>
-      <atom:link href="https://albarqouni.github.io/codes/index.xml" rel="self" type="application/rss+xml" />
-    <description>Open Source Codes</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>Open Source Codes</title>
-      <link>https://albarqouni.github.io/codes/</link>
-    </image>
-    
-    <item>
-      <title>Federated Learning</title>
-      <link>https://albarqouni.github.io/codes/federated-learning/</link>
-      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/codes/federated-learning/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://github.com/owkin/FLamby&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic Healthcare Settings&lt;/a&gt;
-Accepted paper at NeurIPS&#39;22&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/tbdair/FedPerlV1.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification&lt;/a&gt;
-Accepted paper at MICCAI&#39;21 and extended to MELBA&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/albarqounilab/FedDis-NMI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation&lt;/a&gt;
-Accepted paper at MICCAI&#39;21 DCL and extended to a journal&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/albarqounilab/FedNorm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedNorm: Modality-Based Normalization in Federated Learning for Multi-Modal Liver Segmentation&lt;/a&gt;
-Under Review&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Anomaly Detection</title>
-      <link>https://albarqouni.github.io/codes/anomaly-detection/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/codes/anomaly-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Capsule Networks</title>
-      <link>https://albarqouni.github.io/codes/capsule/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/codes/capsule/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Polyp and Artifact Detector</title>
-      <link>https://albarqouni.github.io/codes/polyp-detection/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/codes/polyp-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ROAM</title>
-      <link>https://albarqouni.github.io/codes/roam/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/codes/roam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stain Normlization</title>
-      <link>https://albarqouni.github.io/codes/stain-normalization/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/codes/stain-normalization/</guid>
-      <description>&lt;h1 id=&#34;staingan&#34;&gt;StainGAN&lt;/h1&gt;
-&lt;p&gt;StainGAN implementation based on Cycle-Consistency Concept&lt;/p&gt;
-&lt;p&gt;For more information visit 
-&lt;a href=&#34;https://xtarx.github.io/StainGAN/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;structure&#34;&gt;Structure&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Stain-Transfer Model&lt;/li&gt;
-&lt;li&gt;Pre-processing.&lt;/li&gt;
-&lt;li&gt;Post-processing.&lt;/li&gt;
-&lt;li&gt;Evaluation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;datasets&#34;&gt;Datasets&lt;/h2&gt;
-&lt;p&gt;The evaluation was done using the Camelyon16 challenge (
-&lt;a href=&#34;https://camelyon16.grand-challenge.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://camelyon16.grand-challenge.org/&lt;/a&gt;) consisting of 400 whole-slide images collected
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source Codes | Albarqouni Lab</title><link>https://albarqouni.github.io/codes/</link><atom:link href="https://albarqouni.github.io/codes/index.xml" rel="self" type="application/rss+xml"/><description>Open Source Codes</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>Open Source Codes</title><link>https://albarqouni.github.io/codes/</link></image><item><title>Federated Learning</title><link>https://albarqouni.github.io/codes/federated-learning/</link><pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/codes/federated-learning/</guid><description>&lt;p>
+&lt;a href="https://github.com/owkin/FLamby" target="_blank" rel="noopener">Flamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic Healthcare Settings&lt;/a>
+Accepted paper at NeurIPS'22&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/tbdair/FedPerlV1.0" target="_blank" rel="noopener">FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification&lt;/a>
+Accepted paper at MICCAI'21 and extended to MELBA&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/albarqounilab/FedDis-NMI" target="_blank" rel="noopener">FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation&lt;/a>
+Accepted paper at MICCAI'21 DCL and extended to a journal&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/albarqounilab/FedNorm" target="_blank" rel="noopener">FedNorm: Modality-Based Normalization in Federated Learning for Multi-Modal Liver Segmentation&lt;/a>
+Under Review&lt;/p></description></item><item><title>Anomaly Detection</title><link>https://albarqouni.github.io/codes/anomaly-detection/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/codes/anomaly-detection/</guid><description/></item><item><title>Capsule Networks</title><link>https://albarqouni.github.io/codes/capsule/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/codes/capsule/</guid><description/></item><item><title>Polyp and Artifact Detector</title><link>https://albarqouni.github.io/codes/polyp-detection/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/codes/polyp-detection/</guid><description/></item><item><title>ROAM</title><link>https://albarqouni.github.io/codes/roam/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/codes/roam/</guid><description/></item><item><title>Stain Normlization</title><link>https://albarqouni.github.io/codes/stain-normalization/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/codes/stain-normalization/</guid><description>&lt;h1 id="staingan">StainGAN&lt;/h1>
+&lt;p>StainGAN implementation based on Cycle-Consistency Concept&lt;/p>
+&lt;p>For more information visit
+&lt;a href="https://xtarx.github.io/StainGAN/" target="_blank" rel="noopener">website&lt;/a>.&lt;/p>
+&lt;h2 id="structure">Structure&lt;/h2>
+&lt;ul>
+&lt;li>Stain-Transfer Model&lt;/li>
+&lt;li>Pre-processing.&lt;/li>
+&lt;li>Post-processing.&lt;/li>
+&lt;li>Evaluation&lt;/li>
+&lt;/ul>
+&lt;h2 id="datasets">Datasets&lt;/h2>
+&lt;p>The evaluation was done using the Camelyon16 challenge (
+&lt;a href="https://camelyon16.grand-challenge.org/" target="_blank" rel="noopener">https://camelyon16.grand-challenge.org/&lt;/a>) consisting of 400 whole-slide images collected
 in two different labs in Radboud University Medical Center (lab 1) and University
 Medical Center Utrecht (lab 2). Otsu thresholding was used to remove the
 background, Afterwards, 40, 000 256 × 256 patches were generated on the x40
 magnification level, 30, 000 were used for training and 10, 000 used for validation
-from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p&gt;
-&lt;p&gt;Patches can be found here: 
-&lt;a href=&#34;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Any use of the dataset or anypart of the code should be cited&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;If you use this code for your research, please cite our papers.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;@inproceedings{shaban2019staingan,
- author = {Shaban, M Tarek and Baur, Christoph and Navab, Nassir and Albarqouni, Shadi},
- booktitle = {2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)},
- organization = {IEEE},
- pages = {953--956},
- title = {Staingan: Stain style transfer for digital histological images},
- year = {2019}
+from lab 1 and 10, 000 patches were generated for testing from lab 2.&lt;/p>
+&lt;p>Patches can be found here:
+&lt;a href="https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16" target="_blank" rel="noopener">https://campowncloud.in.tum.de/index.php/s/iGgQ9vdHiMZsFJB?path=%2FStainGAN_camelyon16&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Any use of the dataset or anypart of the code should be cited&lt;/strong>&lt;/p>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;p>If you use this code for your research, please cite our papers.&lt;/p>
+&lt;pre>&lt;code>@inproceedings{shaban2019staingan,
+author = {Shaban, M Tarek and Baur, Christoph and Navab, Nassir and Albarqouni, Shadi},
+booktitle = {2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)},
+organization = {IEEE},
+pages = {953--956},
+title = {Staingan: Stain style transfer for digital histological images},
+year = {2019}
 }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
-&lt;p&gt;Code is inspired by 
-&lt;a href=&#34;https://github.com/pytorch/examples/tree/master/dcgan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pytorch-DCGAN&lt;/a&gt; and 
-&lt;a href=&#34;https://github.com/junyanz/CycleGAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CycleGAN&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>
+&lt;h2 id="acknowledgments">Acknowledgments&lt;/h2>
+&lt;p>Code is inspired by
+&lt;a href="https://github.com/pytorch/examples/tree/master/dcgan" target="_blank" rel="noopener">pytorch-DCGAN&lt;/a> and
+&lt;a href="https://github.com/junyanz/CycleGAN" target="_blank" rel="noopener">CycleGAN&lt;/a>.&lt;/p></description></item></channel></rss>

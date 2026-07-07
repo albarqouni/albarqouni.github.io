@@ -1,293 +1,368 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Fundeds | Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/funded/</link>
-      <atom:link href="https://albarqouni.github.io/funded/index.xml" rel="self" type="application/rss+xml" />
-    <description>Fundeds</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>Fundeds</title>
-      <link>https://albarqouni.github.io/funded/</link>
-    </image>
-    
-    <item>
-      <title>Cost-Effective Affordable AI for Breast Lesion Detection with Ultra-sensitive Optical Sensing</title>
-      <link>https://albarqouni.github.io/funded/bonnguc/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/bonnguc/</guid>
-      <description>&lt;p&gt;Breast cancer is a global health crisis and a leading cause of cancer-related mortality among women, with over 2.3 million new cases and approximately 685,000 deaths reported in 2020. Early and accurate detection is crucial for successful treatment outcomes, yet traditional diagnostic methods like mammography, biopsy, and digital pathology are expensive, invasive, and require highly specialized infrastructure, making them inaccessible in low-resource settings. Thus, there is an urgent need for diagnostic tools that are both affordable and effective.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Current Challenges:&lt;/strong&gt; While micro-optical resonators offer high sensitivity, their translation into clinical settings requires solutions for stability, compatibility with existing medical equipment, and real-time data handling. Moreover, accurately distinguishing between benign and malignant tissue using ML remains challenging, requiring model fine-tuning and rigorous evaluation to ensure reliability comparable to digital pathology.&lt;/p&gt;
-&lt;p&gt;This project &lt;strong&gt;aims&lt;/strong&gt; to develop a novel diagnostic approach that combines biosensor technology with advanced Machine Learning (ML) and Deep Learning algorithms for breast lesion detection and grading. By leveraging cost-effective biosensor-based detection, we seek to deliver comparable accuracy to digital pathology methods while minimizing expense and resource requirements. This approach not only holds promise for affordable diagnostics but also addresses the unmet needs of low-resource settings, contributing to broader health equity.&lt;/p&gt;
-&lt;h3 id=&#34;project-goals&#34;&gt;Project goals&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;To develop a novel, non-invasive, biosensor-based diagnostic tool for breast lesion detection and grading that is accessible and cost-effective.&lt;/li&gt;
-&lt;li&gt;To integrate advanced ML and Deep Learning algorithms specifically optimized to analyze data from biosensors, providing a high-accuracy, low-cost alternative to digital pathology.&lt;/li&gt;
-&lt;li&gt;To rigorously compare the efficacy of this biosensor-based approach with digital pathology, aiming to validate its reliability in detecting and grading breast lesions.&lt;/li&gt;
-&lt;li&gt;To establish a collaborative framework between the 
-&lt;a href=&#34;www.ARAtronics.com&#34;&gt;GUC ARAtronics&lt;/a&gt; Research Center at the German University in Cairo (GUC) and 
-&lt;a href=&#34;https://albarqouni.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Albarqouni Lab&lt;/a&gt; at the University Hospital Bonn, University of Bonn, combining their strengths in bio-optical sensors, ML, and medical imaging, and advancing solutions for low-resource clinical environments.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;activities&#34;&gt;Activities:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Kickoff Meeting at UKBonn&lt;/li&gt;
-&lt;li&gt;Summer School on Affordable AI at GUC&lt;/li&gt;
-&lt;li&gt;Short Research Stays at UKBonn&lt;/li&gt;
-&lt;li&gt;Workshop on Affordable AI at the GUC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;partners&#34;&gt;Partners:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Assoc. Prof. Amir Ali, Dr. Sally Ibrahim, and Dr. Shereen Afifi from 
-&lt;a href=&#34;https://www.guc.edu.eg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;German University in Cairo&lt;/a&gt;, Egypt&lt;/li&gt;
-&lt;li&gt;Prof. Shadi Albarqouni from 
-&lt;a href=&#34;https://albarqouni.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University Hospital Bonn | Universiy of Bonn | Helmholtz AI&lt;/a&gt;, Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
-&lt;p&gt;The project is financed by the 
-&lt;a href=&#34;https://www.daad.de/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;German Academic Exchange Service (DAAD)&lt;/a&gt; with funds from the 
-&lt;a href=&#34;https://www.bmbf.de/bmbf/en/home/home_node.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;German Federal Ministry of Education and Research (BMBF)&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Application of AI and Advanced MRI for a Better Prediction of Disease Progression in Neurological Disorders</title>
-      <link>https://albarqouni.github.io/funded/bonnfellowship/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/bonnfellowship/</guid>
-      <description>&lt;p&gt;TBA&lt;/p&gt;
-&lt;h3 id=&#34;partners&#34;&gt;Partners:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://weill.cornell.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weill Cornell Medicine&lt;/a&gt;, USA&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://albarqouni.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Albarqouni Lab&lt;/a&gt;, Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
-&lt;p&gt;The project is funded by 
-&lt;a href=&#34;https://www.uni-bonn.de/en/research-and-teaching/support-for-researchers-and-teachers/research-funding/university-grants/bonn-international-fellowships&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bonn International Fellowship&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Summer School on Affordable AI (SAAI)</title>
-      <link>https://albarqouni.github.io/funded/saai/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/saai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Medical Inference (OMI)</title>
-      <link>https://albarqouni.github.io/funded/omi/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/omi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Affordable AI and Collaborative Federated Learning for Global Healthcare (EEDA)</title>
-      <link>https://albarqouni.github.io/funded/eeda/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/eeda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep learning to estimate aging from chest imaging</title>
-      <link>https://albarqouni.github.io/funded/chestage/</link>
-      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/chestage/</guid>
-      <description>&lt;p&gt;Chronologic age is an important risk factor for many chronic diseases. However, as we all age at different rates chronological age is an imperfect measure of aging and more accurate estimates of one’s true biological age are desirable. The proposed study will develop and test artificial intelligence-based measures of aging from chest imaging data and will explore whether these measures can improve chronologic age-based clinical guidelines for prevention of cardiovascular disease and cancer. Over recent decades life expectancy has continuously increased, however, the years of life without significant morbidity have remained stable over the last 5 decades resulting in significant socioeconomic burden to society and the healthcare system. Therefore, delaying the onset of morbidity is a promising way to improve healthy aging. In particular, prevention and early detection of diseases of high socioeconomic importance such as cancer and cardiovascular disease are a priority to increase health and longevity. Biological age is a concept to estimate the differences in rates of aging not captured by chronologic age. Several measures of biological age have been developed in recent years including blood, functional and physiological approaches. However, there relevance in clinical routine is limited. Medical imaging may be an effective way to estimate aging by measuring age-related changes based on anatomical alterations visible in the image such as degenerative changes of the spine, dilation of the heart and vasculature and changes in lung parenchyma. Unlike molecular measures, image-based reflections of aging can be calculated opportunistically using data acquired during routine clinical care. Furthermore, these measures can estimate aging of specific organ systems, which may improve disease-specific preventive measures over general estimates of biological age. The image-based estimates of aging using deep learning proposed in this study will address this unmet need and may help to personalize clinical decision-making for chronic disease screening and prevention. My preliminary data show that deep learning can estimate a chest x-ray age from a chest radiograph image and that this chest x-ray age predicts longevity better than chronologic age in large multicenter clinical trial data. The proposed project will build on these promising initial findings with the potential to broaden the application to other imaging modalities and to leverage multi-omics data to infer causes of aging.&lt;/p&gt;
-&lt;h4 id=&#34;collaborators&#34;&gt;Collaborators:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;PD. Dr. 
-&lt;a href=&#34;https://www.uniklinik-freiburg.de/radiologie/team/klinikleitung/aerzte.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jakob Weiss&lt;/a&gt;, UniKlinikum Freiburg&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;funding&#34;&gt;Funding:&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;This project has received funding from German Research Foundation (DFG)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;DFG.png&#34; alt=&#34;DFG&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Utilising Artificial Intelligence in Cancer Imaging To Improve Patient Outcomes</title>
-      <link>https://albarqouni.github.io/funded/bonnmelbourne/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/bonnmelbourne/</guid>
-      <description>&lt;p&gt;Cachexia is a devastating tumour-induced wasting disease affecting 30% of all cancerpatients. This initiative brings together clinical, computational (artifi cial intelligence),and laboratory research partners to work on the delivery of improved outcomes forpatients with cancer cachexia. Aims of the collaboration: Funding will provideopportunities to broaden digital research links and submit joint grant and conjoint PhDproposals.&lt;/p&gt;
-&lt;p&gt;Long-term objectives:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;Developing non-invasive screening tools for cancercachexia, using AI-assisted imaging analysis approaches.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Developing a greaterunderstanding of molecular processes of cancer cachexia using animal models andpatient samples.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Increase knowledge and awareness about cachexia througheducational events for clinicians, patients and families on cachexia diagnosis andtreatment.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This multidisciplinary and diverse initiative builds on the expertise andexisting collaborations between researchers/clinicians across both universities (Bonn/Melbourne). The group consists of experts in radiology/ image analysis (Ko,Attenberger), computational science /AI (Albarqouni) and cancer biology/ metabolism(Cheng). This team of clinicians and researchers with deep knowledge of the fi eld ofcancer cachexia are ideally placed to educate clinicians, patients and families oncachexia and increase its awareness in the general community.&lt;/p&gt;
-&lt;p&gt;Partners:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.petermac.org/education/postgraduate-research-studies/sir-peter-maccallum-department-oncology-university-of-melbourne-and-peter-maccallum-cancer-centre&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Sir Peter MacCallum Dept of Oncology&lt;/a&gt;, Australia&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://albarqouni.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Albarqouni Lab&lt;/a&gt;, Germany&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Development of a Deep Learning Toolkit for MRI-Guided Online Adaptive Radiotherapy</title>
-      <link>https://albarqouni.github.io/funded/radiotherapy/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/radiotherapy/</guid>
-      <description>&lt;p&gt;In Germany close to 500,000 new patients are diagnosed with cancer every year. More than half of the patients undergo radiotherapy as part of their treatment. In-room imaging, in combination with modern external beam radiotherapy techniques, enables tight adjustment of the delivered dose to the target. However, the full potential of these techniques is currently not exploited. One of the reasons for this is the presence of anatomical changes. For the vast majority of patients in today’s radiotherapy, anatomical alterations are considered by introducing safety margins around the tumor volume during treatment planning, which increases the irradiated volume, the dose burden to organs at risk (OARs), and eventually limits the applicable dose.&lt;/p&gt;
-&lt;p&gt;An improved treatment can be realized by online adaptive radiation therapy (ART): instead of applying the same irradiation plan throughout the entire course of treatment, the treatment is optimized at each irradiation session on basis of the daily anatomy in treatment position, as inferred from in-room imaging. Great efforts have been made to realize the integration of magnetic resonance imaging (MRI) as in-room imaging modality, but only during the last few years integrated MR-linacs became clinically available at few academic institutions. The superior soft-tissue contrast allows for accurate visualization of targets and OARs, which has allowed basic online ART workflows to be implemented. The time overhead associated with the generation of a synthetic-CT from MRI and a re-delineation of the patient for treatment plan optimization greatly limits applicability to all patients.&lt;/p&gt;
-&lt;p&gt;The goal of this project is to tackle the main bottlenecks of online plan adaptation: synthetic CT generation and organ delineation. By combining our respective expertise in radiotherapy and artificial intelligence, we aim at proposing deep-learning-based solutions to build a toolkit to tackle both of these challenges. In the case of synthetic CT generation, we will use generative adversarial networks with hybrid paired-unpaired training paradigms, additionally exploiting novel embedding loss functions to ensure geometric fidelity. Alternatively, disentangled representations will be investigated. For segmentation we aim at exploiting the information from previous fractions by performing spatio-temporal segmentation using longitudinal spatial memory networks. Finally, we aim at evaluating the benefits from these approaches by performing an evaluation of their clinical impact in terms of plan optimization, including physician grading of delineations and robustness assessment. The time benefits, including potential corrections to segmentations and synthetic CT, will also be quantified. Further details can be found 
-&lt;a href=&#34;https://lmu-art-lab.userweb.mwn.de/third-party/dfg-mr-linac-deep-learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;collaborators&#34;&gt;Collaborators:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Prof. 
-&lt;a href=&#34;https://lmu-art-lab.userweb.mwn.de/author/guillaume-landry/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guillaume Landry&lt;/a&gt;, Department of Radiation Oncology, LMU University Hospital&lt;/li&gt;
-&lt;li&gt;Dr. 
-&lt;a href=&#34;https://lmu-art-lab.userweb.mwn.de/author/christopher-kurz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Kurz&lt;/a&gt;, Department of Radiation Oncology, LMU University Hospital&lt;/li&gt;
-&lt;li&gt;Prof. 
-&lt;a href=&#34;https://www.professoren.tum.de/en/navab-nassir&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nassir Navab&lt;/a&gt;, CAMP, CIT School, TU Munich&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;funding&#34;&gt;Funding:&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;This project has received funding from German Research Foundation (DFG)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;DFG.png&#34; alt=&#34;DFG&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>BigPicture Project</title>
-      <link>https://albarqouni.github.io/funded/bigpicture/</link>
-      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/bigpicture/</guid>
-      <description>&lt;h2 id=&#34;a-new-consortium-of-the-eu-innovative-medicines-initiative-imi-will-establish-the-biggest-database-of-pathology-images-to-accelerate-the-development-of-artificial-intelligence-in-medicine&#34;&gt;A new consortium of the EU Innovative Medicines Initiative (IMI) will establish the biggest database of pathology images to accelerate the development of artificial intelligence in medicine.&lt;/h2&gt;
-&lt;p&gt;To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70 million project called 
-&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt;, will herald a new era in pathology.&lt;/p&gt;
-&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
-&lt;p&gt;Pathology is the cornerstone of the workup of many diseases such as cancer, autoimmune diseases, of the follow up after transplantation and is also critical for the evaluation of the safety of drugs. It’s based on the examination of tissue samples (slides) under the microscope. However, despite its pivotal role, it still relies heavily on the qualitative interpretation by a qualified pathologist.&lt;/p&gt;
-&lt;p&gt;While the microscope symbolizes the profession, the digitalisation of slides in recent years ignited a revolution: not only images can now be shared and accessed from distant locations, they can also be processed by computers. This opens the door for artificial intelligence (AI) applications to assist the pathologist and help study diseases, find better treatments and contribute to the 3Rs (replace, reduce, and refine animal use in research). However, the development of robust AI applications requires large amounts of data, which in the case of pathology means a huge collection of digital slides and the medical data necessary for their interpretation. Sharing these has so far remained challenging due to the data storage capacity required to host a sufficiently large collection and to concerns regarding the confidential character of the medical information.&lt;/p&gt;
-&lt;p&gt;To allow the fast development of AI in pathology, the 
-&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; project aims to create the first European, ethical and GDPR-compliant (General Data Protection Regulation), quality-controlled platform, in which both large-scale data and AI algorithms will coexist. The 
-&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; platform will be developed in a sustainable and inclusive way by connecting communities of pathologists, researchers, AI developers, patients, and industry parties.&lt;/p&gt;
-&lt;h3 id=&#34;tu-munich&#34;&gt;TU Munich&lt;/h3&gt;
-&lt;p&gt;In this project, 
-&lt;a href=&#34;http://campar.in.tum.de/Main/NassirNavab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nassir Navab&lt;/a&gt;, and 
-&lt;a href=&#34;../../#about&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt; from 
-&lt;a href=&#34;www.tum.de&#34;&gt;TU Munich&lt;/a&gt;, together with 
-&lt;a href=&#34;https://owkin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Owkin&lt;/a&gt; will be leading and contributing to the development of Federated Deep Learning algorithms leveraging massive amounts of data, distributed in multiple sources, in a privacy-preserved fashion. This will enable deep learning models to be trained using sensitive data that cannot be made publicly available due to GPDR or sensitivity, e.g. rare diseases. Please visit the website of 
-&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; for further details.&lt;/p&gt;
-&lt;h3 id=&#34;intended-results&#34;&gt;Intended results&lt;/h3&gt;
-&lt;p&gt;The project is divided into four main aspects that concern the large-scale collection of data. First, an infrastructure (hardware and software) must be created to store, share and process millions of images that can be gigabytes each. Second, legal and ethical constraints must be put in place to ensure adequate usage of data while fully respecting patient’s privacy and data confidentiality. Then, an initial set of 3 million digital slides from humans and laboratory animals will be collected and stored into the repository to provide data for the development of pathology AI tools. Finally, functionalities that aid the use of the database as well as the processing of images for diagnostic and research purposes will be developed.&lt;/p&gt;
-&lt;h3 id=&#34;consortium&#34;&gt;Consortium&lt;/h3&gt;
-&lt;p&gt;BIGPICTURE is a public-private partnership funded by IMI, with representation from academic institutions, small- and medium-sized enterprises (SMEs), public organisations and pharmaceutical companies, together with a large network slide contributing partners. The consortium partners involved in the project are:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Academic institutions:&lt;/strong&gt; Radboud University Medical Center (NL), Linköping University (SE), Leeds Teaching Hospitals NHS Trust (UK), University Medical Centre Utrecht (NL), Uppsala University (SE, ELIXIR node), Haute Ecole Spécialisé de Suisse Occidentale (CH), Technical University Eindhoven (NL), University of Warwick (UK), [Technical University of Munich (DE), Medical University Graz (AT), Institut Pasteur (FR), University of Liege (BE), University of Semmelweis (HU), National Cancer Institute (NL), Region Östergötland (SE), Medical University Vienna (AT), University of Marburg (DE), Helsingin ja Uudenmaan sairaanhoitopiirin kuntayhtymä (FI),&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Pharmaceutical companies:&lt;/strong&gt; Novartis Pharma AG (CH), Janssen Pharmaceutica NV (BE), Bayer AG (DE), Boehringer Ingelheim International GmbH (DE), Novo Nordisk A/S (DK), Pfizer (US), Genentech – Roche (US), Sanofi Aventis recherche et Développement (FR), Institut de Recherches Internationales Servier (FR), and UCB Biopharma SRL (BE).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Other public &amp;amp; private organisations:&lt;/strong&gt; CSC – IT Center for Science Finland (FI, ELIXIR node), Biobanks and biomolecular resources research infrastructure (AT), Azienda Ospedaliera Per L’Emergenza Cannizzaro (IT), Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.(DE), Deutsches Institut für Normung E.V. (DE), European Institute for Innovation through Health Data (BE), European Society of Pathology (BE), Digital pathology association (US), GBG Forschungs Gmbh (DE), ttopstart (NL), Sectra AB (SE), Cytomine SCRLFS (BE), Stichting Lygature (NL), Owkin (FR), Deciphex (IE), MedicalPhit (NL), Timelex (BE),&lt;/p&gt;
-&lt;p&gt;BIGPICTURE starts on 1st February 2021 and will run for 6 years. However, the platform is meant to last, and the consortium will elaborate sustainability plans to maintain and continue to develop the platform beyond this term.&lt;/p&gt;
-&lt;h4 id=&#34;acknowledgment-of-support-and-disclaimer&#34;&gt;Acknowledgment of support and disclaimer&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;This project has received funding from the Innovative Medicines Initiative 2 Joint Undertaking under grant agreement No 945358. This Joint Undertaking receives support from the European Union’s Horizon 2020 research and innovation program and EFPIA.&lt;/em&gt; 
-&lt;a href=&#34;http://www.imi.europe.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;www.imi.europe.eu&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This communication reflects the consortium’s view. Neither IMI nor the European Union or EFPIA are responsible for any use that may be made of the information contained therein.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;EU.png&#34; alt=&#34;EU&#34;&gt; &lt;img src=&#34;EFPIA.png&#34; alt=&#34;EFPIA&#34;&gt; &lt;img src=&#34;IMI.png&#34; alt=&#34;IMI&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;BigPicture.png&#34; alt=&#34;BigPicture&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/funded/federated-learning/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/federated-learning/</guid>
-      <description>&lt;p&gt;Deep Learning (DL) has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of computer vision and medical applications. However, this success comes at the cost of collecting and processing a massive amount of data, which often are not accessible, in Healthcare, due to privacy issues. Federated Learning (FL) has been recently introduced to allow training DL models without sharing the data. Instead, DL models at local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, share only the trained parameters with a centralized DL model, which is, in return, responsible for updating the local DL models as well.&lt;/p&gt;
-&lt;p&gt;Our golas in this project is to develop novel models and algorithms for a ground-breaking new generation of deep FL, which can distill the knowledge from local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, and edges, &lt;em&gt;i.e.&lt;/em&gt; wearable devices, to provide personalized healthcare services.&lt;/p&gt;
-&lt;p&gt;The principal &lt;strong&gt;challenges&lt;/strong&gt;, to overcome, concern the nature of medical data, namely data heterogeneity; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), inter-/intra-observer variability (noisy annotations), system heterogeneity, and privacy issues (see the example below).&lt;/p&gt;
-&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.helmholtz.de/en/career/careers-at-helmholtz/helmholtz-young-investigator-groups/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz Young Investigator Group&lt;/a&gt; (1.8 Million Euros)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Modelling Uncertainty in Deep Learning for Medical Applications</title>
-      <link>https://albarqouni.github.io/funded/uncertainty/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/uncertainty/</guid>
-      <description>&lt;p&gt;Deep Learning has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of applications in computer vision and medical applications. Despite its success and merit in recent state-of-the-art methods, DL tools still lack in robustness hindering its adoption in medical applications. Modeling uncertainty, through Bayesian Inference and Monte-Carlo dropout, has been successfully introduced to computer vision for better understanding the underlying deep learning models. In this proposal, we investigate modeling the uncertainty for medical applications given the well-known challenges in medical image analysis, namely severe class-imbalance, few amounts of labeled data, domain shift, and noisy annotations.&lt;/p&gt;
-&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
-&lt;p&gt;Prof. 
-&lt;a href=&#34;http://people.ee.ethz.ch/~kender/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ender Konukoglu&lt;/a&gt;, 
-&lt;a href=&#34;https://ee.ethz.ch/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Information Technology and Electrical Engineerng&lt;/a&gt;, 
-&lt;a href=&#34;https://ethz.ch/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETH Zurich&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Prof. 
-&lt;a href=&#34;http://wp.doc.ic.ac.uk/dr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Rueckert&lt;/a&gt;, 
-&lt;a href=&#34;http://www.imperial.ac.uk/computing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Computing&lt;/a&gt;, 
-&lt;a href=&#34;http://www.imperial.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imperial College London&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Prof. 
-&lt;a href=&#34;http://campar.in.tum.de/Main/NassirNavab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nassir Navab&lt;/a&gt;, 
-&lt;a href=&#34;http://campar.in.tum.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Faculty of Informatics&lt;/a&gt;, 
-&lt;a href=&#34;www.tum.de&#34;&gt;Technical University of Munich&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
-&lt;p&gt;This project is supported by the 
-&lt;a href=&#34;https://www.daad.de/de/studieren-und-forschen-in-deutschland/stipendien-finden/prime/prime-fellows-201819/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PRIME programme&lt;/a&gt; of the 
-&lt;a href=&#34;www.daad.de&#34;&gt;German Academic Exchange Service (DAAD)&lt;/a&gt; with funds from the 
-&lt;a href=&#34;www.bmbf.de&#34;&gt;German Federal Ministry of Education and Research (BMBF)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;DAAD.png&#34; alt=&#34;DAAD&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Telemedicine in Palestine</title>
-      <link>https://albarqouni.github.io/funded/telemedicine/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/telemedicine/</guid>
-      <description>&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/BXqwyYh8hPU9Ub&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/sbaraqouni/telemedicine-in-palestine&#34; title=&#34;Telemedicine in Palestine&#34; target=&#34;_blank&#34;&gt;Telemedicine in Palestine&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/sbaraqouni&#34; target=&#34;_blank&#34;&gt;Shadi Nabil Albarqouni&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
-&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Uncertainty Aware Methods for Camera Pose Estimation and Relocalization</title>
-      <link>https://albarqouni.github.io/funded/bacatec/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/bacatec/</guid>
-      <description>&lt;p&gt;Camera pose estimation is the term for determining the 6-DoF rotation and translation parameters of a camera. It is now a key technology in enabling multitudes of applications such as augmented reality, autonomous driving, human computer interaction and robot guidance. For decades, vision scholars have worked on finding the unique solution of this problem. Yet, this trend is witnessing a fundamental change. The recent school of thought has begun to admit that for our highly complex and ambiguous real environments, obtaining a single solution is not sufficient. This has led to a paradigm shift towards estimating rather a range of solutions in the form of full probability or at least explaining the uncertainty of camera pose estimates. Thanks to the advances in Artificial Intelligence, this important problem can now be tackled via machine learning algorithms that can discover rich and powerful representations for the data at hand. In collaboration, TU Munich and Stanford University plan to devise and implement generative methods that can explain uncertainty and ambiguity in pose predictions. In particular, our aim is to bridge the gap between 6DoF pose estimation either from 2D images/3D point sets and uncertainty quantification through multimodal variational deep methods. Further details can be found here: 
-&lt;a href=&#34;https://www.bacatec.de/en/gefoerderte_projekte.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.bacatec.de/en/gefoerderte_projekte.html&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://tbirdal.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Tolga Birdal&lt;/a&gt;, 
-&lt;a href=&#34;https://profiles.stanford.edu/leonidas-guibas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Leonidas Guibas&lt;/a&gt;, Stanford University&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://campar.in.tum.de/Main/MaiBui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mai Bui&lt;/a&gt;, 
-&lt;a href=&#34;%22#about%22&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt;, 
-&lt;a href=&#34;http://campar.in.tum.de/WebHome&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nassir Navab&lt;/a&gt;, Technical University of Munich&lt;/p&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
-&lt;p&gt;This project is funded by the Bavaria California Technology Center (
-&lt;a href=&#34;https://www.bacatec.de/en/gefoerderte_projekte.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BaCaTeC&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;bacatec.png&#34; alt=&#34;BaCaTeC&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fundeds | Albarqouni Lab</title><link>https://albarqouni.github.io/funded/</link><atom:link href="https://albarqouni.github.io/funded/index.xml" rel="self" type="application/rss+xml"/><description>Fundeds</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>Fundeds</title><link>https://albarqouni.github.io/funded/</link></image><item><title>Symposium on AI in Medicine &amp; Food Science</title><link>https://albarqouni.github.io/funded/symposium/</link><pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/symposium/</guid><description>&lt;p>Time: All times correspond to local Bonn time (CET)&lt;/p>
+&lt;h2 id="day-1--tuesday-9-december-2025">&lt;strong>Day 1 — Tuesday, 9 December 2025&lt;/strong>&lt;/h2>
+&lt;p>&lt;strong>Arrival &amp;amp; Check-in&lt;/strong>&lt;br>
+📍 Youth Hostel Bonn, Haager Weg 42, 53127 Bonn&lt;/p>
+&lt;hr>
+&lt;h2 id="day-2--wednesday-10-december-2025">&lt;strong>Day 2 — Wednesday, 10 December 2025&lt;/strong>&lt;/h2>
+&lt;p>&lt;strong>Symposium on AI in Medicine&lt;/strong>&lt;br>
+📍 Baunscheidtstraße 17, 53113 Bonn&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Time&lt;/th>
+&lt;th>Session&lt;/th>
+&lt;th>Speaker&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>09:30–10:00&lt;/td>
+&lt;td>Registration&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10:00–10:30&lt;/td>
+&lt;td>Welcome Speech&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/admin">Shadi Albarqouni&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10:30–11:45&lt;/td>
+&lt;td>Keynote Speech: Seeing, Sensing, Securing: AI in Modern Medicine&lt;/td>
+&lt;td>
+&lt;a href="https://www.uni-bonn.de/de/forschung-lehre/forschungsprofil/transdisziplinaere-forschungsbereiche/modelling/mitgliederverzeichnis/bjoern-krueger" target="_blank" rel="noopener">Bjoern Krueger&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11:45–12:00&lt;/td>
+&lt;td>Therapeutic &amp;amp; Surgical Simulation in Medicine&lt;/td>
+&lt;td>
+&lt;a href="https://scholar.google.com/citations?user=m9b3pEgAAAAJ&amp;amp;hl=en" target="_blank" rel="noopener">Hanene Boussi&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12:00–12:15&lt;/td>
+&lt;td>AI-Driven Segmentation for Early Eye Disease Detection&lt;/td>
+&lt;td>
+&lt;a href="https://staff.dpu.edu.krd/najdavan.kako" target="_blank" rel="noopener">Najdavan Kako&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12:15–12:30&lt;/td>
+&lt;td>&amp;ldquo;Ocean modeling in the Eastern Mediterranean: insights from physical based modelling, data assimilation and machine learning.&lt;/td>
+&lt;td>
+&lt;a href="https://soas.lau.edu.lb/about/people/leila-issa.php" target="_blank" rel="noopener">Leila Issa&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12:30–14:00&lt;/td>
+&lt;td>&lt;strong>Lunch Break&lt;/strong>&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14:00–14:15&lt;/td>
+&lt;td>FIDAL: Diversity-Aware Federated Active Learning Under Real-World Distribution Shifts&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/david-gaviria">David Gaviria&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14:15–14:30&lt;/td>
+&lt;td>MRIQT: Physics-Aware Diffusion Model for Image Quality Transfer in Neonatal Ultra-Low-Field MRI&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/malek-al-abed">Malek Al-Abed&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14:30–14:45&lt;/td>
+&lt;td>Rapid and affordable detection of Giant Cell Arteritis using B-mode ultrasound&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/pranav-kirti">Pranav Kirti&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14:45–15:15&lt;/td>
+&lt;td>&lt;strong>Break&lt;/strong>&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>15:15–15:30&lt;/td>
+&lt;td>Teleradiology System Integrating DICOMweb and AI&lt;/td>
+&lt;td>Molka Yermani&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>15:30–15:45&lt;/td>
+&lt;td>Lightweight Bayesian Deep Learning for Point-of-Care Breast Ultrasound&lt;/td>
+&lt;td>Zeravan Ali&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>15:45–16:00&lt;/td>
+&lt;td>Modality‑Aware Deep Learning for Human Bone Fracture Recognition on HBFMID&lt;/td>
+&lt;td>Omar Al-Zakholi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16:00–16:15&lt;/td>
+&lt;td>Embedding BI-RADS Foundational Concepts for Cross-Domain and Cross-Modality Generalization in Breast Imaging&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/jiajun-zeng">Jiajun Zeng&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16:15–16:30&lt;/td>
+&lt;td>ML for Histopathological Classification of Conjunctival Melanocytic Intraepithelial Lesion&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/mert-ikinci">Mert Ikinci&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16:30–16:45&lt;/td>
+&lt;td>Affordable AI for Retinal Disease Detection&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/elyes-farjallah">Elyes Farajallah&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16:45–17:00&lt;/td>
+&lt;td>Wrap-up Discussion&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/admin">Shadi Albarqouni&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="day-3--thursday-11-december-2025">&lt;strong>Day 3 — Thursday, 11 December 2025&lt;/strong>&lt;/h2>
+&lt;p>&lt;strong>Symposium on Food Science&lt;/strong>&lt;br>
+📍 Käthe-Kümmel-Str. 1, 53115 Bonn&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Time&lt;/th>
+&lt;th>Session&lt;/th>
+&lt;th>Speaker&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>14:25–14:30&lt;/td>
+&lt;td>Welcome Speech&lt;/td>
+&lt;td>
+&lt;a href="../../../authors/admin">Shadi Albarqouni&lt;/a> &amp;amp;
+&lt;a href="https://www.uni-bonn.de/en/research-and-teaching/research-profile/transdisciplinary-research-areas/tra-6-sustainable-futures/members-directory/ismail-hakki-acir" target="_blank" rel="noopener">Ismail Acir&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14:30–15:00&lt;/td>
+&lt;td>Proteins Under the Microscope: Extraction, Modification and Characterisation&lt;/td>
+&lt;td>
+&lt;a href="https://www.uni-bonn.de/en/research-and-teaching/research-profile/transdisciplinary-research-areas/tra-6-sustainable-futures/members-directory/ismail-hakki-acir" target="_blank" rel="noopener">Ismail Acir&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>15:00–15:10&lt;/td>
+&lt;td>Effects of processing on protein-bound amino acids&lt;/td>
+&lt;td>
+&lt;a href="https://www.mlmt.uni-bonn.de/de/team-1/hannaluecke" target="_blank" rel="noopener">Hanna Lücke&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>15:10–15:30&lt;/td>
+&lt;td>Innovative plant protein sources: Common bean and hempseed press cake as raw material for protein ingredient production&lt;/td>
+&lt;td>
+&lt;a href="https://www.lse.ls.tum.de/en/ppn/staff/anna-dziuballe-msc/" target="_blank" rel="noopener">Anna Dziuballe&lt;/a> &amp;amp;
+&lt;a href="https://www.lebensmittelwissenschaften.uni-bonn.de/team/team_template" target="_blank" rel="noopener">Luisa Vieler&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>15:30–16:00&lt;/td>
+&lt;td>&lt;strong>Break&lt;/strong>&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16:00–16:15&lt;/td>
+&lt;td>From Questions to Discoveries: Highlights from My Food Science Research Career&lt;/td>
+&lt;td>
+&lt;a href="https://soas.lau.edu.lb/about/people/hussein-hassan.php" target="_blank" rel="noopener">Hussein Hassan&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16:15–16:30&lt;/td>
+&lt;td>Driving Excellence in Nutrition and Food Science: LAU&amp;rsquo;s NFS Department’s Mission and Work&lt;/td>
+&lt;td>
+&lt;a href="https://soas.lau.edu.lb/about/people/rana-rizk.php" target="_blank" rel="noopener">Rana Rizk&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16:30–16:40&lt;/td>
+&lt;td>Micro and Nanoplastics in table salt: occurence and exposure&lt;/td>
+&lt;td>Hanin El Hajj&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16:40–16:50&lt;/td>
+&lt;td>Unmasking gluten contamination in gluten-free products&lt;/td>
+&lt;td>Roa Echtay&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16:50–17:10&lt;/td>
+&lt;td>Wrap-up Discussion&lt;/td>
+&lt;td>Shadi &amp;amp; Ismail&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>17:10–17:30&lt;/td>
+&lt;td>Lab Tour&lt;/td>
+&lt;td>
+&lt;a href="https://www.uni-bonn.de/en/research-and-teaching/research-profile/transdisciplinary-research-areas/tra-6-sustainable-futures/members-directory/ismail-hakki-acir" target="_blank" rel="noopener">Ismail Acir&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>We have the symposium a bit late as one of the key guest&amp;rsquo;s expertise in Food Science will only arrive in the afternoon&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="day-4--friday-12-december-2025">&lt;strong>Day 4 — Friday, 12 December 2025&lt;/strong>&lt;/h2>
+&lt;p>Roundtable discussion in our lab + Excursion Day (Self-Organized)**
+📍 Baunscheidtstraße 17, 53113 Bonn&lt;/p>
+&lt;p>For the Excurssion, here are some suggested visits: Bonn Christmas Market, Cologne Cathedral, Chocolate Museum Köln.&lt;br>
+📍 Bonn / Cologne region&lt;/p>
+&lt;hr>
+&lt;h2 id="day-5--saturday-13-december-2025">&lt;strong>Day 5 — Saturday, 13 December 2025&lt;/strong>&lt;/h2>
+&lt;p>&lt;strong>Departure Day&lt;/strong>&lt;br>
+📍 Youth Hostel Bonn&lt;/p></description></item><item><title>Summer School on Biomedical Imaging with Deep Learning (BILD)</title><link>https://albarqouni.github.io/funded/bild/</link><pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/bild/</guid><description/></item><item><title>Strategic Arab-German Network for Affordable and Democratized AI (SANAD)</title><link>https://albarqouni.github.io/funded/sanad/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/sanad/</guid><description>&lt;p>In recent years, the transformative potential of Artificial Intelligence (AI) in revolutionizing global healthcare has become evident, offering promising advancements in diagnostic precision, personalized treatment, and healthcare delivery. However, integrating AI into low-resource environments, especially in low- and middle-income countries (LMICs), remains constrained by significant barriers such as limited computational resources, inadequate local data, and financial constraints. The Strategic Arab-German Network for Affordable and Democratized AI in Healthcare (SANAD- سند) seeks to address these challenges by fostering collaboration, empowering local expertise, and advancing Affordable AI and Collaborative Federated Learning solutions tailored to underserved regions. The word “SANAD” means support in Arabic, which is what this project is about.&lt;/p>
+&lt;p>SANAD aims to bridge the healthcare gap between resource-rich and resource-limited settings, particularly the Global North and Global South disparity. Many existing AI models are developed using centralized datasets from well-funded institutions, which often fail to generalize across diverse populations and contexts. SANAD proposes a strategic, inclusive approach to democratizing access to AI by leveraging interdisciplinary expertise and promoting knowledge-sharing between Arab and German stakeholders&lt;/p>
+&lt;h3 id="measures">Measures:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="https://bild2025.github.io/" target="_blank" rel="noopener">Summer School on Biomedical Imaging with Deep Learning&lt;/a>, Tunisia&lt;/li>
+&lt;li>
+&lt;a href="https://albarqouni.github.io/funded/symposium/">Symposium on AI in Medicine &amp;amp; Food Science&lt;/a>, Germany&lt;/li>
+&lt;/ul>
+&lt;h3 id="partners">Partners:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.lau.edu.lb/" target="_blank" rel="noopener">Lebanese American University (LAU)&lt;/a>, Lebanon&lt;/li>
+&lt;li>
+&lt;a href="https://utm.rnu.tn/utm/fr/" target="_blank" rel="noopener">University of Tunis El-Manar (UTM)&lt;/a>, Tunisia&lt;/li>
+&lt;li>
+&lt;a href="https://www.dpu.edu.krd/" target="_blank" rel="noopener">Duhok Polytechnic University (DPU)&lt;/a>, Iraq&lt;/li>
+&lt;li>
+&lt;a href="https://albarqouni.github.io/" target="_blank" rel="noopener">Albarqouni Lab&lt;/a>,
+&lt;a href="https://www.uni-bonn.de/de" target="_blank" rel="noopener">University of Bonn&lt;/a>, Germany&lt;/li>
+&lt;/ul>
+&lt;h3 id="funding">Funding:&lt;/h3>
+&lt;p>The project is funded by:&lt;/p>
+&lt;p>&lt;img src="DAAD.png" alt="DAAD">&lt;/p></description></item><item><title>Application of AI and Advanced MRI for a Better Prediction of Disease Progression in Neurological Disorders</title><link>https://albarqouni.github.io/funded/bonnfellowship/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/bonnfellowship/</guid><description>&lt;p>TBA&lt;/p>
+&lt;h3 id="partners">Partners:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="https://weill.cornell.edu/" target="_blank" rel="noopener">Weill Cornell Medicine&lt;/a>, USA&lt;/li>
+&lt;li>
+&lt;a href="https://albarqouni.github.io/" target="_blank" rel="noopener">Albarqouni Lab&lt;/a>, Germany&lt;/li>
+&lt;/ul>
+&lt;h3 id="funding">Funding:&lt;/h3>
+&lt;p>The project is funded by
+&lt;a href="https://www.uni-bonn.de/en/research-and-teaching/support-for-researchers-and-teachers/research-funding/university-grants/bonn-international-fellowships" target="_blank" rel="noopener">Bonn International Fellowship&lt;/a>&lt;/p></description></item><item><title>Summer School on Affordable AI (SAAI)</title><link>https://albarqouni.github.io/funded/saai/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/saai/</guid><description/></item><item><title>Open Medical Inference (OMI)</title><link>https://albarqouni.github.io/funded/omi/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/omi/</guid><description/></item><item><title>Affordable AI and Collaborative Federated Learning for Global Healthcare (EEDA)</title><link>https://albarqouni.github.io/funded/eeda/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/eeda/</guid><description/></item><item><title>Deep learning to estimate aging from chest imaging</title><link>https://albarqouni.github.io/funded/chestage/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/chestage/</guid><description>&lt;p>Chronologic age is an important risk factor for many chronic diseases. However, as we all age at different rates chronological age is an imperfect measure of aging and more accurate estimates of one’s true biological age are desirable. The proposed study will develop and test artificial intelligence-based measures of aging from chest imaging data and will explore whether these measures can improve chronologic age-based clinical guidelines for prevention of cardiovascular disease and cancer. Over recent decades life expectancy has continuously increased, however, the years of life without significant morbidity have remained stable over the last 5 decades resulting in significant socioeconomic burden to society and the healthcare system. Therefore, delaying the onset of morbidity is a promising way to improve healthy aging. In particular, prevention and early detection of diseases of high socioeconomic importance such as cancer and cardiovascular disease are a priority to increase health and longevity. Biological age is a concept to estimate the differences in rates of aging not captured by chronologic age. Several measures of biological age have been developed in recent years including blood, functional and physiological approaches. However, there relevance in clinical routine is limited. Medical imaging may be an effective way to estimate aging by measuring age-related changes based on anatomical alterations visible in the image such as degenerative changes of the spine, dilation of the heart and vasculature and changes in lung parenchyma. Unlike molecular measures, image-based reflections of aging can be calculated opportunistically using data acquired during routine clinical care. Furthermore, these measures can estimate aging of specific organ systems, which may improve disease-specific preventive measures over general estimates of biological age. The image-based estimates of aging using deep learning proposed in this study will address this unmet need and may help to personalize clinical decision-making for chronic disease screening and prevention. My preliminary data show that deep learning can estimate a chest x-ray age from a chest radiograph image and that this chest x-ray age predicts longevity better than chronologic age in large multicenter clinical trial data. The proposed project will build on these promising initial findings with the potential to broaden the application to other imaging modalities and to leverage multi-omics data to infer causes of aging.&lt;/p>
+&lt;h4 id="collaborators">Collaborators:&lt;/h4>
+&lt;ul>
+&lt;li>PD. Dr.
+&lt;a href="https://www.uniklinik-freiburg.de/radiologie/team/klinikleitung/aerzte.html" target="_blank" rel="noopener">Jakob Weiss&lt;/a>, UniKlinikum Freiburg&lt;/li>
+&lt;/ul>
+&lt;h4 id="funding">Funding:&lt;/h4>
+&lt;p>&lt;em>This project has received funding from German Research Foundation (DFG)&lt;/em>&lt;/p>
+&lt;p>&lt;img src="DFG.png" alt="DFG">&lt;/p></description></item><item><title>Utilising Artificial Intelligence in Cancer Imaging To Improve Patient Outcomes</title><link>https://albarqouni.github.io/funded/bonnmelbourne/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/bonnmelbourne/</guid><description>&lt;p>Cachexia is a devastating tumour-induced wasting disease affecting 30% of all cancerpatients. This initiative brings together clinical, computational (artifi cial intelligence),and laboratory research partners to work on the delivery of improved outcomes forpatients with cancer cachexia. Aims of the collaboration: Funding will provideopportunities to broaden digital research links and submit joint grant and conjoint PhDproposals.&lt;/p>
+&lt;p>Long-term objectives:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>Developing non-invasive screening tools for cancercachexia, using AI-assisted imaging analysis approaches.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>Developing a greaterunderstanding of molecular processes of cancer cachexia using animal models andpatient samples.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>Increase knowledge and awareness about cachexia througheducational events for clinicians, patients and families on cachexia diagnosis andtreatment.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>This multidisciplinary and diverse initiative builds on the expertise andexisting collaborations between researchers/clinicians across both universities (Bonn/Melbourne). The group consists of experts in radiology/ image analysis (Ko,Attenberger), computational science /AI (Albarqouni) and cancer biology/ metabolism(Cheng). This team of clinicians and researchers with deep knowledge of the fi eld ofcancer cachexia are ideally placed to educate clinicians, patients and families oncachexia and increase its awareness in the general community.&lt;/p>
+&lt;p>Partners:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.petermac.org/education/postgraduate-research-studies/sir-peter-maccallum-department-oncology-university-of-melbourne-and-peter-maccallum-cancer-centre" target="_blank" rel="noopener">The Sir Peter MacCallum Dept of Oncology&lt;/a>, Australia&lt;/li>
+&lt;li>
+&lt;a href="https://albarqouni.github.io/" target="_blank" rel="noopener">Albarqouni Lab&lt;/a>, Germany&lt;/li>
+&lt;/ul></description></item><item><title>Development of a Deep Learning Toolkit for MRI-Guided Online Adaptive Radiotherapy</title><link>https://albarqouni.github.io/funded/radiotherapy/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/radiotherapy/</guid><description>&lt;p>In Germany close to 500,000 new patients are diagnosed with cancer every year. More than half of the patients undergo radiotherapy as part of their treatment. In-room imaging, in combination with modern external beam radiotherapy techniques, enables tight adjustment of the delivered dose to the target. However, the full potential of these techniques is currently not exploited. One of the reasons for this is the presence of anatomical changes. For the vast majority of patients in today’s radiotherapy, anatomical alterations are considered by introducing safety margins around the tumor volume during treatment planning, which increases the irradiated volume, the dose burden to organs at risk (OARs), and eventually limits the applicable dose.&lt;/p>
+&lt;p>An improved treatment can be realized by online adaptive radiation therapy (ART): instead of applying the same irradiation plan throughout the entire course of treatment, the treatment is optimized at each irradiation session on basis of the daily anatomy in treatment position, as inferred from in-room imaging. Great efforts have been made to realize the integration of magnetic resonance imaging (MRI) as in-room imaging modality, but only during the last few years integrated MR-linacs became clinically available at few academic institutions. The superior soft-tissue contrast allows for accurate visualization of targets and OARs, which has allowed basic online ART workflows to be implemented. The time overhead associated with the generation of a synthetic-CT from MRI and a re-delineation of the patient for treatment plan optimization greatly limits applicability to all patients.&lt;/p>
+&lt;p>The goal of this project is to tackle the main bottlenecks of online plan adaptation: synthetic CT generation and organ delineation. By combining our respective expertise in radiotherapy and artificial intelligence, we aim at proposing deep-learning-based solutions to build a toolkit to tackle both of these challenges. In the case of synthetic CT generation, we will use generative adversarial networks with hybrid paired-unpaired training paradigms, additionally exploiting novel embedding loss functions to ensure geometric fidelity. Alternatively, disentangled representations will be investigated. For segmentation we aim at exploiting the information from previous fractions by performing spatio-temporal segmentation using longitudinal spatial memory networks. Finally, we aim at evaluating the benefits from these approaches by performing an evaluation of their clinical impact in terms of plan optimization, including physician grading of delineations and robustness assessment. The time benefits, including potential corrections to segmentations and synthetic CT, will also be quantified. Further details can be found
+&lt;a href="https://lmu-art-lab.userweb.mwn.de/third-party/dfg-mr-linac-deep-learning/" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h4 id="collaborators">Collaborators:&lt;/h4>
+&lt;ul>
+&lt;li>Prof.
+&lt;a href="https://lmu-art-lab.userweb.mwn.de/author/guillaume-landry/" target="_blank" rel="noopener">Guillaume Landry&lt;/a>, Department of Radiation Oncology, LMU University Hospital&lt;/li>
+&lt;li>Dr.
+&lt;a href="https://lmu-art-lab.userweb.mwn.de/author/christopher-kurz/" target="_blank" rel="noopener">Christopher Kurz&lt;/a>, Department of Radiation Oncology, LMU University Hospital&lt;/li>
+&lt;li>Prof.
+&lt;a href="https://www.professoren.tum.de/en/navab-nassir" target="_blank" rel="noopener">Nassir Navab&lt;/a>, CAMP, CIT School, TU Munich&lt;/li>
+&lt;/ul>
+&lt;h4 id="funding">Funding:&lt;/h4>
+&lt;p>&lt;em>This project has received funding from German Research Foundation (DFG)&lt;/em>&lt;/p>
+&lt;p>&lt;img src="DFG.png" alt="DFG">&lt;/p></description></item><item><title>BigPicture Project</title><link>https://albarqouni.github.io/funded/bigpicture/</link><pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/bigpicture/</guid><description>&lt;h2 id="a-new-consortium-of-the-eu-innovative-medicines-initiative-imi-will-establish-the-biggest-database-of-pathology-images-to-accelerate-the-development-of-artificial-intelligence-in-medicine">A new consortium of the EU Innovative Medicines Initiative (IMI) will establish the biggest database of pathology images to accelerate the development of artificial intelligence in medicine.&lt;/h2>
+&lt;p>To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70 million project called
+&lt;a href="https://www.bigpicture.eu/" target="_blank" rel="noopener">BIGPICTURE&lt;/a>, will herald a new era in pathology.&lt;/p>
+&lt;h3 id="background">Background&lt;/h3>
+&lt;p>Pathology is the cornerstone of the workup of many diseases such as cancer, autoimmune diseases, of the follow up after transplantation and is also critical for the evaluation of the safety of drugs. It’s based on the examination of tissue samples (slides) under the microscope. However, despite its pivotal role, it still relies heavily on the qualitative interpretation by a qualified pathologist.&lt;/p>
+&lt;p>While the microscope symbolizes the profession, the digitalisation of slides in recent years ignited a revolution: not only images can now be shared and accessed from distant locations, they can also be processed by computers. This opens the door for artificial intelligence (AI) applications to assist the pathologist and help study diseases, find better treatments and contribute to the 3Rs (replace, reduce, and refine animal use in research). However, the development of robust AI applications requires large amounts of data, which in the case of pathology means a huge collection of digital slides and the medical data necessary for their interpretation. Sharing these has so far remained challenging due to the data storage capacity required to host a sufficiently large collection and to concerns regarding the confidential character of the medical information.&lt;/p>
+&lt;p>To allow the fast development of AI in pathology, the
+&lt;a href="https://www.bigpicture.eu/" target="_blank" rel="noopener">BIGPICTURE&lt;/a> project aims to create the first European, ethical and GDPR-compliant (General Data Protection Regulation), quality-controlled platform, in which both large-scale data and AI algorithms will coexist. The
+&lt;a href="https://www.bigpicture.eu/" target="_blank" rel="noopener">BIGPICTURE&lt;/a> platform will be developed in a sustainable and inclusive way by connecting communities of pathologists, researchers, AI developers, patients, and industry parties.&lt;/p>
+&lt;h3 id="tu-munich">TU Munich&lt;/h3>
+&lt;p>In this project,
+&lt;a href="http://campar.in.tum.de/Main/NassirNavab" target="_blank" rel="noopener">Prof. Nassir Navab&lt;/a>, and
+&lt;a href="../../#about">Dr. Shadi Albarqouni&lt;/a> from
+&lt;a href="www.tum.de">TU Munich&lt;/a>, together with
+&lt;a href="https://owkin.com/" target="_blank" rel="noopener">Owkin&lt;/a> will be leading and contributing to the development of Federated Deep Learning algorithms leveraging massive amounts of data, distributed in multiple sources, in a privacy-preserved fashion. This will enable deep learning models to be trained using sensitive data that cannot be made publicly available due to GPDR or sensitivity, e.g. rare diseases. Please visit the website of
+&lt;a href="https://www.bigpicture.eu/" target="_blank" rel="noopener">BIGPICTURE&lt;/a> for further details.&lt;/p>
+&lt;h3 id="intended-results">Intended results&lt;/h3>
+&lt;p>The project is divided into four main aspects that concern the large-scale collection of data. First, an infrastructure (hardware and software) must be created to store, share and process millions of images that can be gigabytes each. Second, legal and ethical constraints must be put in place to ensure adequate usage of data while fully respecting patient’s privacy and data confidentiality. Then, an initial set of 3 million digital slides from humans and laboratory animals will be collected and stored into the repository to provide data for the development of pathology AI tools. Finally, functionalities that aid the use of the database as well as the processing of images for diagnostic and research purposes will be developed.&lt;/p>
+&lt;h3 id="consortium">Consortium&lt;/h3>
+&lt;p>BIGPICTURE is a public-private partnership funded by IMI, with representation from academic institutions, small- and medium-sized enterprises (SMEs), public organisations and pharmaceutical companies, together with a large network slide contributing partners. The consortium partners involved in the project are:&lt;/p>
+&lt;p>&lt;strong>Academic institutions:&lt;/strong> Radboud University Medical Center (NL), Linköping University (SE), Leeds Teaching Hospitals NHS Trust (UK), University Medical Centre Utrecht (NL), Uppsala University (SE, ELIXIR node), Haute Ecole Spécialisé de Suisse Occidentale (CH), Technical University Eindhoven (NL), University of Warwick (UK), [Technical University of Munich (DE), Medical University Graz (AT), Institut Pasteur (FR), University of Liege (BE), University of Semmelweis (HU), National Cancer Institute (NL), Region Östergötland (SE), Medical University Vienna (AT), University of Marburg (DE), Helsingin ja Uudenmaan sairaanhoitopiirin kuntayhtymä (FI),&lt;/p>
+&lt;p>&lt;strong>Pharmaceutical companies:&lt;/strong> Novartis Pharma AG (CH), Janssen Pharmaceutica NV (BE), Bayer AG (DE), Boehringer Ingelheim International GmbH (DE), Novo Nordisk A/S (DK), Pfizer (US), Genentech – Roche (US), Sanofi Aventis recherche et Développement (FR), Institut de Recherches Internationales Servier (FR), and UCB Biopharma SRL (BE).&lt;/p>
+&lt;p>&lt;strong>Other public &amp;amp; private organisations:&lt;/strong> CSC – IT Center for Science Finland (FI, ELIXIR node), Biobanks and biomolecular resources research infrastructure (AT), Azienda Ospedaliera Per L’Emergenza Cannizzaro (IT), Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.(DE), Deutsches Institut für Normung E.V. (DE), European Institute for Innovation through Health Data (BE), European Society of Pathology (BE), Digital pathology association (US), GBG Forschungs Gmbh (DE), ttopstart (NL), Sectra AB (SE), Cytomine SCRLFS (BE), Stichting Lygature (NL), Owkin (FR), Deciphex (IE), MedicalPhit (NL), Timelex (BE),&lt;/p>
+&lt;p>BIGPICTURE starts on 1st February 2021 and will run for 6 years. However, the platform is meant to last, and the consortium will elaborate sustainability plans to maintain and continue to develop the platform beyond this term.&lt;/p>
+&lt;h4 id="acknowledgment-of-support-and-disclaimer">Acknowledgment of support and disclaimer&lt;/h4>
+&lt;p>&lt;em>This project has received funding from the Innovative Medicines Initiative 2 Joint Undertaking under grant agreement No 945358. This Joint Undertaking receives support from the European Union’s Horizon 2020 research and innovation program and EFPIA.&lt;/em>
+&lt;a href="http://www.imi.europe.eu" target="_blank" rel="noopener">&lt;em>www.imi.europe.eu&lt;/em>&lt;/a>&lt;/p>
+&lt;p>&lt;em>This communication reflects the consortium’s view. Neither IMI nor the European Union or EFPIA are responsible for any use that may be made of the information contained therein.&lt;/em>&lt;/p>
+&lt;p>&lt;img src="EU.png" alt="EU"> &lt;img src="EFPIA.png" alt="EFPIA"> &lt;img src="IMI.png" alt="IMI">&lt;/p>
+&lt;p>&lt;img src="BigPicture.png" alt="BigPicture">&lt;/p></description></item><item><title>Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/funded/federated-learning/</link><pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/federated-learning/</guid><description>&lt;p>Deep Learning (DL) has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of computer vision and medical applications. However, this success comes at the cost of collecting and processing a massive amount of data, which often are not accessible, in Healthcare, due to privacy issues. Federated Learning (FL) has been recently introduced to allow training DL models without sharing the data. Instead, DL models at local hubs, &lt;em>i.e.&lt;/em> hospitals, share only the trained parameters with a centralized DL model, which is, in return, responsible for updating the local DL models as well.&lt;/p>
+&lt;p>Our golas in this project is to develop novel models and algorithms for a ground-breaking new generation of deep FL, which can distill the knowledge from local hubs, &lt;em>i.e.&lt;/em> hospitals, and edges, &lt;em>i.e.&lt;/em> wearable devices, to provide personalized healthcare services.&lt;/p>
+&lt;p>The principal &lt;strong>challenges&lt;/strong>, to overcome, concern the nature of medical data, namely data heterogeneity; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), inter-/intra-observer variability (noisy annotations), system heterogeneity, and privacy issues (see the example below).&lt;/p>
+&lt;h3 id="collaboration">Collaboration:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h3 id="funding">Funding:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.helmholtz.de/en/career/careers-at-helmholtz/helmholtz-young-investigator-groups/" target="_blank" rel="noopener">Helmholtz Young Investigator Group&lt;/a> (1.8 Million Euros)&lt;/li>
+&lt;/ul></description></item><item><title>Modelling Uncertainty in Deep Learning for Medical Applications</title><link>https://albarqouni.github.io/funded/uncertainty/</link><pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/uncertainty/</guid><description>&lt;p>Deep Learning has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of applications in computer vision and medical applications. Despite its success and merit in recent state-of-the-art methods, DL tools still lack in robustness hindering its adoption in medical applications. Modeling uncertainty, through Bayesian Inference and Monte-Carlo dropout, has been successfully introduced to computer vision for better understanding the underlying deep learning models. In this proposal, we investigate modeling the uncertainty for medical applications given the well-known challenges in medical image analysis, namely severe class-imbalance, few amounts of labeled data, domain shift, and noisy annotations.&lt;/p>
+&lt;h3 id="collaboration">Collaboration:&lt;/h3>
+&lt;p>Prof.
+&lt;a href="http://people.ee.ethz.ch/~kender/" target="_blank" rel="noopener">Ender Konukoglu&lt;/a>,
+&lt;a href="https://ee.ethz.ch/" target="_blank" rel="noopener">Department of Information Technology and Electrical Engineerng&lt;/a>,
+&lt;a href="https://ethz.ch/en.html" target="_blank" rel="noopener">ETH Zurich&lt;/a>.&lt;/p>
+&lt;p>Prof.
+&lt;a href="http://wp.doc.ic.ac.uk/dr/" target="_blank" rel="noopener">Daniel Rueckert&lt;/a>,
+&lt;a href="http://www.imperial.ac.uk/computing" target="_blank" rel="noopener">Department of Computing&lt;/a>,
+&lt;a href="http://www.imperial.ac.uk/" target="_blank" rel="noopener">Imperial College London&lt;/a>&lt;/p>
+&lt;p>Prof.
+&lt;a href="http://campar.in.tum.de/Main/NassirNavab" target="_blank" rel="noopener">Nassir Navab&lt;/a>,
+&lt;a href="http://campar.in.tum.de/" target="_blank" rel="noopener">Faculty of Informatics&lt;/a>,
+&lt;a href="www.tum.de">Technical University of Munich&lt;/a>&lt;/p>
+&lt;h3 id="funding">Funding:&lt;/h3>
+&lt;p>This project is supported by the
+&lt;a href="https://www.daad.de/de/studieren-und-forschen-in-deutschland/stipendien-finden/prime/prime-fellows-201819/" target="_blank" rel="noopener">PRIME programme&lt;/a> of the
+&lt;a href="www.daad.de">German Academic Exchange Service (DAAD)&lt;/a> with funds from the
+&lt;a href="www.bmbf.de">German Federal Ministry of Education and Research (BMBF)&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="DAAD.png" alt="DAAD">&lt;/p></description></item><item><title>Telemedicine in Palestine</title><link>https://albarqouni.github.io/funded/telemedicine/</link><pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/telemedicine/</guid><description>&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/BXqwyYh8hPU9Ub" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> &lt;/iframe> &lt;div style="margin-bottom:5px"> &lt;strong> &lt;a href="//www.slideshare.net/sbaraqouni/telemedicine-in-palestine" title="Telemedicine in Palestine" target="_blank">Telemedicine in Palestine&lt;/a> &lt;/strong> from &lt;strong>&lt;a href="https://www.slideshare.net/sbaraqouni" target="_blank">Shadi Nabil Albarqouni&lt;/a>&lt;/strong> &lt;/div>
+&lt;h3 id="collaboration">Collaboration:&lt;/h3>
+&lt;h3 id="funding">Funding:&lt;/h3></description></item><item><title>Uncertainty Aware Methods for Camera Pose Estimation and Relocalization</title><link>https://albarqouni.github.io/funded/bacatec/</link><pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/bacatec/</guid><description>&lt;p>Camera pose estimation is the term for determining the 6-DoF rotation and translation parameters of a camera. It is now a key technology in enabling multitudes of applications such as augmented reality, autonomous driving, human computer interaction and robot guidance. For decades, vision scholars have worked on finding the unique solution of this problem. Yet, this trend is witnessing a fundamental change. The recent school of thought has begun to admit that for our highly complex and ambiguous real environments, obtaining a single solution is not sufficient. This has led to a paradigm shift towards estimating rather a range of solutions in the form of full probability or at least explaining the uncertainty of camera pose estimates. Thanks to the advances in Artificial Intelligence, this important problem can now be tackled via machine learning algorithms that can discover rich and powerful representations for the data at hand. In collaboration, TU Munich and Stanford University plan to devise and implement generative methods that can explain uncertainty and ambiguity in pose predictions. In particular, our aim is to bridge the gap between 6DoF pose estimation either from 2D images/3D point sets and uncertainty quantification through multimodal variational deep methods. Further details can be found here:
+&lt;a href="https://www.bacatec.de/en/gefoerderte_projekte.html" target="_blank" rel="noopener">https://www.bacatec.de/en/gefoerderte_projekte.html&lt;/a>.&lt;/p>
+&lt;h3 id="collaboration">Collaboration:&lt;/h3>
+&lt;p>
+&lt;a href="http://tbirdal.me/" target="_blank" rel="noopener">Dr. Tolga Birdal&lt;/a>,
+&lt;a href="https://profiles.stanford.edu/leonidas-guibas" target="_blank" rel="noopener">Prof. Leonidas Guibas&lt;/a>, Stanford University&lt;/p>
+&lt;p>
+&lt;a href="http://campar.in.tum.de/Main/MaiBui" target="_blank" rel="noopener">Mai Bui&lt;/a>,
+&lt;a href="%22#about%22">Dr. Shadi Albarqouni&lt;/a>,
+&lt;a href="http://campar.in.tum.de/WebHome" target="_blank" rel="noopener">Prof. Nassir Navab&lt;/a>, Technical University of Munich&lt;/p>
+&lt;h3 id="funding">Funding:&lt;/h3>
+&lt;p>This project is funded by the Bavaria California Technology Center (
+&lt;a href="https://www.bacatec.de/en/gefoerderte_projekte.html" target="_blank" rel="noopener">BaCaTeC&lt;/a>)&lt;/p>
+&lt;p>&lt;img src="bacatec.png" alt="BaCaTeC">&lt;/p>
+&lt;h3 id="heading">&lt;/h3></description></item></channel></rss>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>shereen-afifi | Albarqouni Lab</title><link>https://albarqouni.github.io/authors/shereen-afifi/</link><atom:link href="https://albarqouni.github.io/authors/shereen-afifi/index.xml" rel="self" type="application/rss+xml"/><description>shereen-afifi</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>shereen-afifi</title><link>https://albarqouni.github.io/authors/shereen-afifi/</link></image><item><title>Special Version: AI in Radiology – From Pixels to Decisions (AiR-GUC Edition)</title><link>https://albarqouni.github.io/students/courses/air_ws2526/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/courses/air_ws2526/</guid><description>&lt;h2 id="special-version-ai-in-radiology--from-pixels-to-decisions-air-guc-edition">Special Version: AI in Radiology – From Pixels to Decisions (AiR-GUC Edition)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Coordinators:&lt;/strong>
+&lt;a href="../../../authors/admin/">Prof. Dr. Shadi Albarqouni&lt;/a> (University of Bonn),
+&lt;a href="../../../authors/mohammed-salem/">Dr. Mohammed Salem&lt;/a> &amp;amp;
+&lt;a href="../../../authors/shereen-afifi/">Dr. Shereen Moataz Afifi&lt;/a> (German University in Cairo)&lt;/li>
+&lt;li>&lt;strong>Tutors:&lt;/strong>
+&lt;a href="../../../authors/adea-nesturi/">Adea Nesturi&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Duration:&lt;/strong> October 23, 2025 – February 5, 2026 (every Thursday, 09:00 AM - 11:00 AM)&lt;/li>
+&lt;li>&lt;strong>Format:&lt;/strong> Blended Seminar + Project-based Collaboration&lt;/li>
+&lt;li>&lt;strong>Credits:&lt;/strong> 4 CP (Bonn) / Elective (GUC)&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> English&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="course-overview">Course Overview&lt;/h3>
+&lt;p>&lt;strong>Artificial Intelligence (AI)&lt;/strong> is rapidly transforming medical imaging, enhancing clinical workflows and diagnostic accuracy. This &lt;strong>special edition of the AiR seminar&lt;/strong>, titled &lt;em>“AI in Radiology – From Pixels to Decisions,”&lt;/em> bridges &lt;strong>technical and medical perspectives&lt;/strong>, offering students a deep dive into the theoretical foundations, applications, and challenges of AI in Radiology.&lt;/p>
+&lt;p>This &lt;strong>joint course&lt;/strong> brings together:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Medical students&lt;/strong> from the &lt;strong>University of Bonn&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Computer Science students&lt;/strong> from the &lt;strong>German University in Cairo (GUC)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>It is jointly funded under the
+&lt;a href="https://www.guc.uni-ulm.de/en/mutual-research-and-teaching/funding-opportunities-and-application-process/joint-teaching-1/" target="_blank" rel="noopener">&lt;strong>Joint Teaching Initiative&lt;/strong>&lt;/a> and aims to foster &lt;strong>international collaboration&lt;/strong>, &lt;strong>interdisciplinary teamwork&lt;/strong>, and &lt;strong>cross-cultural learning&lt;/strong> through guided lectures, interactive sessions, and project-based research.&lt;/p>
+&lt;hr>
+&lt;h3 id="learning-objectives">Learning Objectives&lt;/h3>
+&lt;p>By the end of this course, students will:&lt;/p>
+&lt;ul>
+&lt;li>Understand fundamental and advanced AI methods applied to medical imaging.&lt;/li>
+&lt;li>Analyze academic research papers and translate ideas into practical mini-projects.&lt;/li>
+&lt;li>Collaborate across disciplines to integrate technical and clinical insights.&lt;/li>
+&lt;li>Present and communicate interdisciplinary work effectively.&lt;/li>
+&lt;li>Develop sustainable academic and cultural connections between Germany and Egypt.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="teaching--learning-format">Teaching &amp;amp; Learning Format&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Hybrid sessions:&lt;/strong> alternating between live online sessions and optional in-person meetings.&lt;/li>
+&lt;li>&lt;strong>Group projects:&lt;/strong> each team (2 GUC CS students + 1 Uni Bonn medical student) develops an interdisciplinary mini-project throughout the semester.&lt;/li>
+&lt;li>&lt;strong>Guest lectures:&lt;/strong> experts from Germany and Egypt provide advanced insights into AI in healthcare.&lt;/li>
+&lt;li>&lt;strong>Final presentations:&lt;/strong> joint session showcasing team results and reflections.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="seminar-schedule-winter-202526">Seminar Schedule (Winter 2025/26)&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Date&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Topic&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Presenter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Key References / Materials&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>23 Oct 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Kick-off &amp;amp; Orientation&lt;/strong>&lt;/td>
+&lt;td>Introduction to the seminar, course goals, and project assignments.&lt;/td>
+&lt;td>Course Team&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>30 Oct 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Foundations of Deep Learning&lt;/strong>&lt;/td>
+&lt;td>Overview of deep learning architectures for image analysis.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>06 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Detection &amp;amp; Classification in Medical Imaging&lt;/strong>&lt;/td>
+&lt;td>Exploring how deep learning identifies and classifies medical abnormalities.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>13 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Segmentation in Medical Imaging&lt;/strong>&lt;/td>
+&lt;td>Methods for delineating anatomical structures and lesions.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>20 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Bias and Causality in AI Models&lt;/strong>&lt;/td>
+&lt;td>Understanding dataset bias and causal reasoning in medical AI.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Castro et al., &lt;em>Nat Commun 11 (2020)&lt;/em>;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>27 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Uncertainty Quantification&lt;/strong>&lt;/td>
+&lt;td>Quantifying uncertainty and improving trust in AI models.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Huang et al., &lt;em>Med Image Anal (2024)&lt;/em>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>04 Dec 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Foundation Models &amp;amp; Vision-Language Systems&lt;/strong>&lt;/td>
+&lt;td>Exploring transformers and multimodal AI in radiology.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>11 Dec 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Ethics &amp;amp; Regulatory Aspects&lt;/strong>&lt;/td>
+&lt;td>Legal, ethical, and social challenges of deploying AI in healthcare.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Topol, E. &lt;em>Nature Medicine 25 (2019)&lt;/em>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>18 Dec 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Midterm Checkpoint &amp;amp; Group Feedback&lt;/strong>&lt;/td>
+&lt;td>Group progress presentations and instructor consultation.&lt;/td>
+&lt;td>All Teams&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>08 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Guest Talks (Germany–Egypt)&lt;/strong>&lt;/td>
+&lt;td>Expert talks on AI applications in clinical and technical domains.&lt;/td>
+&lt;td>Invited Speakers&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>15 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Student Project Presentations I&lt;/strong>&lt;/td>
+&lt;td>Group project presentations (part 1).&lt;/td>
+&lt;td>Teams&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>22 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Student Project Presentations II&lt;/strong>&lt;/td>
+&lt;td>Group project presentations (part 2).&lt;/td>
+&lt;td>Teams&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>05 Feb 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Joint Closing &amp;amp; Reflection&lt;/strong>&lt;/td>
+&lt;td>Course wrap-up, cross-cultural discussion, and feedback.&lt;/td>
+&lt;td>Course Team&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="grading--evaluation">Grading &amp;amp; Evaluation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>GUC Students:&lt;/strong> Elective course – 100% coursework-based (project &amp;amp; presentation).&lt;/li>
+&lt;li>&lt;strong>Uni Bonn Students:&lt;/strong> Non-graded seminar – certificate of completion based on attendance, participation, and project contribution.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="collaboration-framework">Collaboration Framework&lt;/h3>
+&lt;p>This seminar is part of the &lt;strong>GUC–Uni Bonn Joint Teaching Collaboration&lt;/strong>, coordinated by:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>University of Bonn:&lt;/strong>
+&lt;a href="../../../authors/admin/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/li>
+&lt;li>&lt;strong>German University in Cairo:&lt;/strong>
+&lt;a href="../../../authors/mohammed-salem/">Dr. Mohammed Salem&lt;/a>,
+&lt;a href="../../../authors/shereen-afifi/">Dr. Shereen Moataz Afifi&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Supported by the
+&lt;a href="https://www.guc.uni-ulm.de/en/mutual-research-and-teaching/funding-opportunities-and-application-process/joint-teaching-1/" target="_blank" rel="noopener">&lt;strong>Joint Teaching Program&lt;/strong>&lt;/a>, this course aims to build &lt;strong>sustainable academic bridges&lt;/strong> between Germany and Egypt.&lt;/p>
+&lt;hr>
+&lt;h3 id="contact">Contact&lt;/h3>
+&lt;p>&lt;strong>University of Bonn&lt;/strong>&lt;br>
+&lt;a href="../../../authors/admin/">Prof. Dr. Shadi Albarqouni&lt;/a> – Clinic for Diagnostic and Interventional Radiology, UKB&lt;/p>
+&lt;p>&lt;strong>German University in Cairo (GUC)&lt;/strong>&lt;br>
+&lt;a href="../../../authors/mohammed-salem/">Dr. Mohammed Salem&lt;/a>,
+&lt;a href="../../../authors/shereen-afifi/">Dr. Shereen Moataz Afifi&lt;/a>&lt;/p></description></item></channel></rss>

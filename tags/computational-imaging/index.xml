@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computational Imaging | Albarqouni Lab</title><link>https://albarqouni.github.io/tags/computational-imaging/</link><atom:link href="https://albarqouni.github.io/tags/computational-imaging/index.xml" rel="self" type="application/rss+xml"/><description>Computational Imaging</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Fri, 17 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>Computational Imaging</title><link>https://albarqouni.github.io/tags/computational-imaging/</link></image><item><title>Lab: Computational Medical Imaging (CoMI)</title><link>https://albarqouni.github.io/students/courses/comi_l_ss26/</link><pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/courses/comi_l_ss26/</guid><description>&lt;h2 id="lab-computational-medical-imaging-comi">Lab: Computational Medical Imaging (CoMI)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Lecturers:&lt;/strong>
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Tutors:&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Module:&lt;/strong> MA-INF 2230&lt;/li>
+&lt;li>&lt;strong>Credits:&lt;/strong> 4 SWS, 9 CP (270h workload)&lt;/li>
+&lt;li>&lt;strong>Programme:&lt;/strong> M.Sc. Computer Science&lt;/li>
+&lt;li>&lt;strong>Mode:&lt;/strong> Optional (2. or 3. Semester)&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> English&lt;/li>
+&lt;li>&lt;strong>Format:&lt;/strong> Lab (Praktikum), groups of max. 3 students&lt;/li>
+&lt;li>&lt;strong>Frequency:&lt;/strong> Every year&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="description">Description&lt;/h3>
+&lt;p>The &lt;strong>Computational Medical Imaging (CoMI) Lab&lt;/strong> is a project-based course in which students carry out a semester-long research project in computational medical imaging. Working in small groups, students identify a well-defined problem, collect or are provided a suitable dataset, implement baseline and novel approaches, and evaluate their results both quantitatively and qualitatively.&lt;/p>
+&lt;p>Possible project topics (chosen or proposed by the instructors) include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Anatomical Structure Segmentation&lt;/strong> (e.g., multi-atlas, CNN-based)&lt;/li>
+&lt;li>&lt;strong>Deformable Registration&lt;/strong> (e.g., classic demons, learning-based registration)&lt;/li>
+&lt;li>&lt;strong>Lesion/Anomaly Detection&lt;/strong> (e.g., out-of-distribution detection in X-ray)&lt;/li>
+&lt;li>&lt;strong>Radiomics &amp;amp; Quantitative Biomarker Extraction&lt;/strong> (e.g., texture features, deep radiomics)&lt;/li>
+&lt;li>&lt;strong>Uncertainty Estimation in Deep Learning&lt;/strong> (e.g., MC-Dropout, Bayesian networks)&lt;/li>
+&lt;li>&lt;strong>Causality &amp;amp; Bias Analysis in Medical Datasets&lt;/strong> (e.g., domain shift, fairness)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="learning-goals">Learning Goals&lt;/h3>
+&lt;h4 id="technical-skills">Technical Skills&lt;/h4>
+&lt;ul>
+&lt;li>Acquire a deep understanding of a selected problem in computational medical imaging: from problem identification to data processing, algorithm design, implementation, and evaluation.&lt;/li>
+&lt;li>Implement, test, and validate state-of-the-art image-analysis algorithms (e.g., segmentation, registration, reconstruction, classification) on real medical data.&lt;/li>
+&lt;li>Develop proficiency in using libraries and toolkits commonly used in medical imaging (e.g., ITK, SimpleITK, PyTorch for deep learning, nibabel/dipy).&lt;/li>
+&lt;li>Learn to document software systematically (API documentation, code comments, unit tests) and to generate reproducible experiments (version control, containerization).&lt;/li>
+&lt;/ul>
+&lt;h4 id="soft-skills">Soft Skills&lt;/h4>
+&lt;ul>
+&lt;li>Collaborate effectively in small groups over the entire semester, dividing tasks (e.g., data curation, algorithmic implementation, evaluation).&lt;/li>
+&lt;li>Prepare clear, concise technical documentation and design rationales.&lt;/li>
+&lt;li>Present project progress and final results in oral form (midterm demo, final demo).&lt;/li>
+&lt;li>Critically assess one&amp;rsquo;s own results and position them within the state-of-the-art in computational medical imaging.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-projects-summer-2026">🗓 Projects (Summer 2026)&lt;/h3>
+&lt;p>Projects will be defined and announced at the beginning of the semester. Each group will work on one project throughout the semester.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>#&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Topic&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Group&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>TBD&lt;/td>
+&lt;td>—&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>TBD&lt;/td>
+&lt;td>—&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>TBD&lt;/td>
+&lt;td>—&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="learning-format">Learning Format&lt;/h3>
+&lt;p>Students work in &lt;strong>groups of up to 3&lt;/strong> on a semester-long project. Each group will:&lt;/p>
+&lt;ul>
+&lt;li>Identify a well-defined problem and collect or be provided a suitable dataset (publicly available or hospital data under ethics approval).&lt;/li>
+&lt;li>Perform a literature review to select baseline methods.&lt;/li>
+&lt;li>Implement baseline and at least one novel or improved approach.&lt;/li>
+&lt;li>Evaluate quantitatively (e.g., Dice, Hausdorff, MSE, classification accuracy) and qualitatively (expert review where possible).&lt;/li>
+&lt;li>Document the software (README, API docs) and provide a reproducible environment (Docker/Singularity).&lt;/li>
+&lt;li>Present &lt;strong>midterm progress&lt;/strong> (oral demonstration + short written summary) and &lt;strong>final results&lt;/strong> (oral + poster or full report).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="assessment">Assessment&lt;/h3>
+&lt;p>&lt;strong>Graded Exam:&lt;/strong>&lt;br>
+Oral presentation (final demo + Q&amp;amp;A, 20 minutes per group). Written report (12–16 pages, including background, methods, results, discussion).&lt;/p>
+&lt;p>&lt;strong>Ungraded Coursework (required for admission to the exam):&lt;/strong>&lt;br>
+Project work; attendance in course sessions in accordance with the exam regulations of 2023, § 12(6).&lt;/p>
+&lt;hr>
+&lt;h3 id="recommended-prerequisites">Recommended Prerequisites&lt;/h3>
+&lt;p>At least one of the following:&lt;/p>
+&lt;ul>
+&lt;li>MA-INF 2222 – &lt;em>Visual Data Analysis&lt;/em>&lt;/li>
+&lt;li>MA-INF 2312 – &lt;em>Image Acquisition and Analysis in Neuroscience&lt;/em>&lt;/li>
+&lt;li>MA-INF 2220 – &lt;em>Lab Visualization and Medical Image Analysis&lt;/em> (or equivalent)&lt;/li>
+&lt;/ul>
+&lt;p>A solid background in &lt;strong>Python programming&lt;/strong> (and/or C++), &lt;strong>linear algebra&lt;/strong>, &lt;strong>calculus&lt;/strong>, &lt;strong>probability theory&lt;/strong>, and &lt;strong>numerical algorithms&lt;/strong> is required. Familiarity with deep learning frameworks is highly recommended.&lt;/p>
+&lt;hr>
+&lt;h3 id="references-and-resources">References and Resources&lt;/h3>
+&lt;p>&lt;strong>Relevant Journals:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Nature Machine Intelligence&lt;/em>&lt;/li>
+&lt;li>&lt;em>Medical Image Analysis (MedIA)&lt;/em>&lt;/li>
+&lt;li>&lt;em>IEEE Transactions on Medical Imaging (TMI)&lt;/em>&lt;/li>
+&lt;li>&lt;em>Radiology: AI&lt;/em>, &lt;em>European Radiology&lt;/em>, &lt;em>IEEE Journal of Biomedical and Health Informatics&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Relevant Conferences:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>MICCAI&lt;/em> (Medical Image Computing &amp;amp; Computer-Assisted Intervention)&lt;/li>
+&lt;li>&lt;em>CVPR&lt;/em> (IEEE/CVF Computer Vision and Pattern Recognition)&lt;/li>
+&lt;li>&lt;em>MIDL&lt;/em> (Medical Imaging with Deep Learning)&lt;/li>
+&lt;li>&lt;em>ISBI&lt;/em> (International Symposium on Biomedical Imaging)&lt;/li>
+&lt;li>&lt;em>RSNA&lt;/em> (Radiological Society of North America Annual Meeting)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="registration">Registration&lt;/h3>
+&lt;p>Registration takes place via eCampus or by contacting
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>.&lt;/p></description></item><item><title>Block Course: AI in Medicine (AiM): Foundations, Methods, and Critical Perspectives</title><link>https://albarqouni.github.io/students/courses/aim/</link><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/courses/aim/</guid><description>&lt;h2 id="block-course-ai-in-medicine-aim">Block Course: AI in Medicine (AiM)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Lecturers:&lt;/strong>
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Tutors:&lt;/strong>
+&lt;a href="../../../authors/adea-nesturi/">Adea Nesturi&lt;/a>,
+&lt;a href="../../../authors/david-gaviria/">David Gaviria&lt;/a>,
+&lt;a href="../../../authors/jiajun-zeng">Jiajun Zeng&lt;/a>,
+&lt;a href="../../../authors/malek-al-abed">Malek Al-Abed&lt;/a>,
+&lt;a href="../../../authors/elodie-germani">Elodie Germani&lt;/a>,
+&lt;a href="../../../authors/aditya-rastogi">Aditya Rastogi&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Module:&lt;/strong> CM1659&lt;/li>
+&lt;li>&lt;strong>Credits:&lt;/strong> 2 SWS&lt;/li>
+&lt;li>&lt;strong>Programme:&lt;/strong> PhD Candidates at BIGC CPS and NeuroScience&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> English&lt;/li>
+&lt;li>&lt;strong>Format:&lt;/strong> Block Course (2 SWS)&lt;/li>
+&lt;li>&lt;strong>Time:&lt;/strong> Tuesday to Thursday, 14-16 April 2026, 09:00 &amp;ndash; 17:00&lt;/li>
+&lt;li>&lt;strong>Location:&lt;/strong> UKB, Venusberg-Campus 1, building C66, 1st floor, seminar room 101&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="description">Description&lt;/h3>
+&lt;p>This block course offers an intensive introduction to artificial intelligence in medicine, with a focus on modern deep learning methods for biomedical and clinical applications. Designed as an interdisciplinary format, the course combines concept-driven lectures with interactive labs, allowing students to engage both with the theoretical foundations of AI and with practical challenges in medical data analysis.&lt;/p>
+&lt;p>The course is structured around a series of core topics that are central to contemporary AI in medicine. It begins with an introduction to deep learning, providing the conceptual basis for understanding neural networks and their role in medical applications. Building on this foundation, students are introduced to key tasks such as detection and classification, as well as segmentation, which are essential in areas such as diagnostic imaging, image-guided analysis, and automated clinical decision support. The course then expands to quality control in AI systems, with a particular emphasis on uncertainty estimation and interpretability, highlighting how trustworthy and transparent models can be developed and assessed. Further sessions address bias and causality, encouraging students to critically examine fairness, generalizability, and the difference between correlation-driven prediction and clinically meaningful reasoning. Finally, the course introduces vision-language models and their emerging role in connecting medical images, clinical text, and multimodal reasoning.&lt;/p>
+&lt;p>Each lecture is followed by an interactive lab in which students apply, explore, and critically reflect on the methods discussed. These labs are designed to deepen understanding through hands-on experimentation, collaborative problem-solving, and discussion of real-world medical use cases. In this way, the course not only introduces students to the technical building blocks of AI in medicine but also emphasizes the broader methodological and ethical questions that arise when such systems are developed for healthcare.&lt;/p>
+&lt;p>By the end of the course, students will have gained a structured overview of important AI methods in medicine, an understanding of their main areas of application, and a critical perspective on their limitations, risks, and clinical potential.&lt;/p>
+&lt;hr>
+&lt;h3 id="learning-goals">Learning Goals&lt;/h3>
+&lt;h4 id="technical-skills">Technical Skills&lt;/h4>
+&lt;ul>
+&lt;li>Understand and critically appraise current research in AI in Medicine.&lt;/li>
+&lt;li>Deepen expertise in medical image segmentation, registration, classification, uncertainty quantification, and bias/causality.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="topics-and-focus-areas">Topics and Focus Areas&lt;/h3>
+&lt;p>Seminar topics are drawn from recent publications in top-tier venues and may include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Deep Learning Architectures&lt;/strong> (U-Nets, GANs, Vision Transformers)&lt;/li>
+&lt;li>&lt;strong>Segmentation &amp;amp; Classification&lt;/strong> (e.g., anatomical structure delineation, lesion detection)&lt;/li>
+&lt;li>&lt;strong>Uncertainty Quantification &amp;amp; Bias&lt;/strong> (Bayesian learning, causal inference, dataset shift)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-block-course-schedule-14-16-april-2026">🗓 Block Course Schedule (14-16 April 2026)&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Date&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Time&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Topic&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Tuesday, April 14&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 09:30&lt;/td>
+&lt;td>&lt;strong>Intro&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>09:30 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Detection and Classification&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Detection and Classification&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Quality Control: Interpretbility&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA Interpretability algorithms&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Detection and Classification&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Detection and Classification&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Wednesday, April 15&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Segmentation&lt;/strong>&lt;/td>
+&lt;td>Introduction to deep learning concepts specific to medical imaging.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Quality Control: Uncertiantity&lt;/strong>&lt;/td>
+&lt;td>Introduction to uncertainty and quantification methods&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Segmentation and Interpretbility&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Segmentation and Interpretability&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Thursday, April 16&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Bias and Causality&lt;/strong>&lt;/td>
+&lt;td>Introduction to Bias and Causality in Medical Imaging&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Vision-Language Models&lt;/strong>&lt;/td>
+&lt;td>Introduction to Vision-Language Models&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Segmentation (Cont.)&lt;/strong>&lt;/td>
+&lt;td>Free time to complete the labs.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="recommended-prerequisites">Recommended Prerequisites&lt;/h3>
+&lt;p>At least one of the following:&lt;/p>
+&lt;ul>
+&lt;li>Familiarity with fundamental medical imaging techniques and an interest in AI applications.&lt;/li>
+&lt;li>Understanding of medical diagnostics and clinical data interpretation.&lt;/li>
+&lt;li>A solid background in &lt;strong>Python programming&lt;/strong>, &lt;strong>linear algebra&lt;/strong>, &lt;strong>probability&lt;/strong>, and &lt;strong>numerical algorithms&lt;/strong> is recommended.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="references-and-resources">References and Resources&lt;/h3>
+&lt;ul>
+&lt;li>[1] Litjens, Geert, et al. “A survey on deep learning in medical image analysis.” Medical image analysis 42 (2017): 60-88.&lt;/li>
+&lt;li>[2] Shen, Dinggang, Guorong Wu, and Heung-Il Suk. “Deep learning in medical image analysis.” Annual review of biomedical engineering 19.1 (2017): 221-248.&lt;/li>
+&lt;li>[3] Chen, Xuxin, et al. “Recent advances and clinical applications of deep learning in medical image analysis.” Medical image analysis 79 (2022): 102444.&lt;/li>
+&lt;li>[4] Tajbakhsh, Nima, et al. “Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.” Medical image analysis 63 (2020):101693.&lt;/li>
+&lt;li>[5] Wang, Ge, Jong Chul Ye, and Bruno De Man. “Deep learning for tomographic image reconstruction.” Nature machine intelligence 2.12 (2020): 737-748.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="registration">Registration&lt;/h3>
+&lt;p>Registration takes place via
+&lt;a href="https://intern.bigs-clinpopscience.de/teachers/showCourse/1659" target="_blank" rel="noopener">BIGS CPS Portal&lt;/a> or by contacting
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>.&lt;/p></description></item><item><title>Seminar: Computational Medical Imaging (CoMI)</title><link>https://albarqouni.github.io/students/courses/comi_s_ws2526/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/courses/comi_s_ws2526/</guid><description>&lt;h2 id="seminar-computational-medical-imaging-comi">Seminar: Computational Medical Imaging (CoMI)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Lecturers:&lt;/strong>
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Module:&lt;/strong> MA-INF 2318&lt;/li>
+&lt;li>&lt;strong>Credits:&lt;/strong> 2 SWS, 4 CP (120 h workload)&lt;/li>
+&lt;li>&lt;strong>Programme:&lt;/strong> M.Sc. Computer Science&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> English&lt;/li>
+&lt;li>&lt;strong>Format:&lt;/strong> Seminar (2 SWS)&lt;/li>
+&lt;li>&lt;strong>Time:&lt;/strong> Thursdays, 14:00 &amp;ndash; 16:00&lt;/li>
+&lt;li>&lt;strong>Location:&lt;/strong> TBD, INF 6+8&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="description">Description&lt;/h3>
+&lt;p>The &lt;strong>Computational Medical Imaging (CoMI)&lt;/strong> seminar provides an opportunity for students to explore, understand, and critically evaluate contemporary research in computational medical imaging — from classical algorithms to modern deep learning-based techniques.&lt;/p>
+&lt;p>Participants analyze recent publications from leading journals and conferences, deepening their understanding of medical image segmentation, registration, classification, uncertainty quantification, and bias/causality in imaging. The seminar emphasizes both &lt;strong>technical expertise&lt;/strong> and &lt;strong>scientific communication skills&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="learning-goals">Learning Goals&lt;/h3>
+&lt;h4 id="technical-skills">Technical Skills&lt;/h4>
+&lt;ul>
+&lt;li>Understand and critically appraise current research in computational medical imaging.&lt;/li>
+&lt;li>Deepen expertise in medical image segmentation, registration, classification, uncertainty quantification, and bias/causality.&lt;/li>
+&lt;li>Extract core contributions from scientific papers and position them in the context of the state-of-the-art.&lt;/li>
+&lt;/ul>
+&lt;h4 id="soft-skills">Soft Skills&lt;/h4>
+&lt;ul>
+&lt;li>Develop competence in independent literature search and paper analysis.&lt;/li>
+&lt;li>Present complex research effectively (written and oral), with appropriate visual and didactic support.&lt;/li>
+&lt;li>Engage in critical discussions and defend arguments scientifically.&lt;/li>
+&lt;li>Practice time management and constructive peer feedback.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="topics-and-focus-areas">Topics and Focus Areas&lt;/h3>
+&lt;p>Seminar topics are drawn from recent publications in top-tier venues and may include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Segmentation &amp;amp; Classification&lt;/strong> (e.g., anatomical structure delineation, lesion detection)&lt;/li>
+&lt;li>&lt;strong>Registration &amp;amp; Alignment&lt;/strong> (e.g., atlas-based or diffeomorphic registration)&lt;/li>
+&lt;li>&lt;strong>Quantitative Imaging &amp;amp; Radiomics&lt;/strong> (feature extraction, prognostic modeling)&lt;/li>
+&lt;li>&lt;strong>Uncertainty Quantification &amp;amp; Bias&lt;/strong> (Bayesian learning, causal inference, dataset shift)&lt;/li>
+&lt;li>&lt;strong>Deep Learning Architectures&lt;/strong> (U-Nets, GANs, Vision Transformers)&lt;/li>
+&lt;li>&lt;strong>Ethical, Regulatory, and Clinical Translation Aspects&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-seminar-schedule-winter-202526">🗓 Seminar Schedule (Winter 2025/26)&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Date&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Theme&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Presenter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Key References / Papers&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>23 Oct 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Kick-off &amp;amp; Introduction&lt;/strong>&lt;/td>
+&lt;td>Overview of seminar format, expectations, topic assignments.&lt;/td>
+&lt;td>Course Team&lt;/td>
+&lt;td>Duncan, J.S. and Ayache, N., 2002. Medical image analysis: Progress over two decades and the challenges ahead. IEEE transactions on pattern analysis and machine intelligence, 22(1), pp.85-106.
+&lt;a href="https://ieeexplore.ieee.org/abstract/document/824822" target="_blank" rel="noopener">PDF&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>30 Oct 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Foundations of Computational Medical Imaging&lt;/strong>&lt;/td>
+&lt;td>Classical image processing and analysis methods.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Gonzalez &amp;amp; Woods, &lt;em>Digital Image Processing&lt;/em>, Ch2-Ch4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>06 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Segmentation and Classification&lt;/strong>&lt;/td>
+&lt;td>Delineation of anatomical structures and lesion detection.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Gonzalez &amp;amp; Woods, &lt;em>Digital Image Processing&lt;/em>, Ch10-Ch12, Litjens et al., &lt;em>Med Image Anal 42 (2017)&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>13 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Registration and Alignment&lt;/strong>&lt;/td>
+&lt;td>Image registration methods: deformable, atlas-based, and deep learning approaches.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Rueckert, D. and Schnabel, J.A., 2010. Medical image registration. In Biomedical image processing (pp. 131-154). Berlin, Heidelberg: Springer Berlin Heidelberg.
+&lt;a href="https://link.springer.com/chapter/10.1007/978-3-642-15816-2_5" target="_blank" rel="noopener">PDF&lt;/a>; Sotiras et al., &lt;em>IEEE TMI 32(7):1153–1190 (2013)&lt;/em>
+&lt;a href="https://ieeexplore.ieee.org/abstract/document/6522524" target="_blank" rel="noopener">PDF&lt;/a>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>20 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Quantitative Imaging &amp;amp; Radiomics&lt;/strong>&lt;/td>
+&lt;td>Feature extraction, radiomic biomarkers, and prognostic modeling.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Lambin et al., &lt;em>Eur J Cancer 48 (2012)&lt;/em>
+&lt;a href="https://www.nature.com/articles/nrclinonc.2012.196" target="_blank" rel="noopener">PDF&lt;/a>; McCague, C., et al. &amp;ldquo;Introduction to radiomics for a clinical audience.&amp;rdquo; Clinical Radiology 78.2 (2023): 83-98.
+&lt;a href="https://www.sciencedirect.com/science/article/pii/S000992602200705X?via%3Dihub" target="_blank" rel="noopener">PDF&lt;/a>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>27 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Deep Learning Architectures I&lt;/strong>&lt;/td>
+&lt;td>Convolutional Neural Networks, U-Nets for image segmentation and classification.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Goodfellow, Ian, et al. Deep learning. Vol. 1. No. 2. Cambridge: MIT press, 2016. Ch-9
+&lt;a href="https://www.deeplearningbook.org/contents/convnets.html" target="_blank" rel="noopener">PDF&lt;/a>; Ronneberger et al., &lt;em>MICCAI 2015&lt;/em>
+&lt;a href="https://arxiv.org/pdf/1505.04597" target="_blank" rel="noopener">PDF&lt;/a>;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>04 Dec 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Deep Learning Architectures II&lt;/strong>&lt;/td>
+&lt;td>Generative Adversarial Networks, Vision Transformers, and self-supervised learning.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Goodfellow, Ian, et al. Deep learning. Vol. 1. No. 2. Cambridge: MIT press, 2016. Ch-20
+&lt;a href="https://www.deeplearningbook.org/contents/generative_models.html" target="_blank" rel="noopener">PDF&lt;/a>; Goodfellow et al. 2020
+&lt;a href="https://dl.acm.org/doi/10.1145/3422622" target="_blank" rel="noopener">PDF&lt;/a>, Isola et al., &lt;em>CVPR 2017&lt;/em>
+&lt;a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Isola_Image-To-Image_Translation_With_CVPR_2017_paper.pdf" target="_blank" rel="noopener">PDF&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>11 Dec 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Uncertainty Quantification&lt;/strong>&lt;/td>
+&lt;td>Probabilistic and non-probabilistic approaches to quantifying model uncertainty.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Huang et al., &lt;em>Med Image Anal (2024)&lt;/em>
+&lt;a href="https://www.sciencedirect.com/science/article/pii/S1361841524001488" target="_blank" rel="noopener">PDF&lt;/a>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>18 Dec 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Causality and Bias in Medical Imaging&lt;/strong>&lt;/td>
+&lt;td>Causal reasoning and dataset bias in deep learning for medical applications.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Castro et al., &lt;em>Nat Commun 11 (2020)&lt;/em>
+&lt;a href="https://www.nature.com/articles/s41467-020-17478-w" target="_blank" rel="noopener">PDF&lt;/a>; Mittermaier, Mirja, Marium M. Raza, and Joseph C. Kvedar. &amp;ldquo;Bias in AI-based models for medical applications: challenges and mitigation strategies.&amp;rdquo; NPJ Digital Medicine 6.1 (2023): 113.
+&lt;a href="https://www.nature.com/articles/s41746-023-00858-z" target="_blank" rel="noopener">PDF&lt;/a>; Chinta, Sribala Vidyadhari, et al. &amp;ldquo;AI-Driven Healthcare: A Review on Ensuring Fairness and Mitigating Bias.&amp;rdquo; arXiv preprint arXiv:2407.19655 (2024).
+&lt;a href="https://arxiv.org/abs/2407.19655" target="_blank" rel="noopener">PDF&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>08 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Ethics &amp;amp; Clinical Translation&lt;/strong>&lt;/td>
+&lt;td>Regulatory and ethical challenges of AI in healthcare.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Topol E., &lt;em>Nature Med 25 (2019)&lt;/em>
+&lt;a href="https://www.nature.com/articles/s41591-018-0300-7" target="_blank" rel="noopener">PDF&lt;/a>; Lekadir, Karim, et al. &amp;ldquo;FUTURE-AI: international consensus guideline for trustworthy and deployable artificial intelligence in healthcare.&amp;rdquo; bmj 388 (2025).
+&lt;a href="https://www.bmj.com/content/388/bmj-2024-081554" target="_blank" rel="noopener">PDF&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>15 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Student Paper Presentations I&lt;/strong>&lt;/td>
+&lt;td>Student presentations and peer feedback.&lt;/td>
+&lt;td>Students&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>22 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Student Paper Presentations II&lt;/strong>&lt;/td>
+&lt;td>Continuation of student presentations.&lt;/td>
+&lt;td>Students&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>29 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Student Paper Presentations III&lt;/strong>&lt;/td>
+&lt;td>Final student session and discussion.&lt;/td>
+&lt;td>Students&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>05 Feb 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Course Wrap-Up &amp;amp; Outlook&lt;/strong>&lt;/td>
+&lt;td>Summary of insights and future directions in computational medical imaging.&lt;/td>
+&lt;td>Course Team&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="learning-format">Learning Format&lt;/h3>
+&lt;p>Students independently select and present recent research papers in computational medical imaging, fostering discussion and critical evaluation within the seminar group.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Group Presentation:&lt;/strong> A group of 2-3 Students will present a topic and raise some discussions among the students. They will be asked to write a &lt;strong>written summary&lt;/strong> as a lecture note on their topic (15-20 pages).&lt;/li>
+&lt;li>&lt;strong>Individual Presentation:&lt;/strong> Each individual will present a relevant paper of her/his choice at the end of the semester&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="recommended-prerequisites">Recommended Prerequisites&lt;/h3>
+&lt;p>At least one of the following:&lt;/p>
+&lt;ul>
+&lt;li>MA-INF 2222 – &lt;em>Visual Data Analysis&lt;/em>&lt;/li>
+&lt;li>MA-INF 2312 – &lt;em>Image Acquisition and Analysis in Neuroscience&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>A solid background in &lt;strong>Python programming&lt;/strong>, &lt;strong>linear algebra&lt;/strong>, &lt;strong>probability&lt;/strong>, and &lt;strong>numerical algorithms&lt;/strong> is recommended.&lt;/p>
+&lt;hr>
+&lt;h3 id="references-and-resources">References and Resources&lt;/h3>
+&lt;p>&lt;strong>Relevant Journals:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Nature Machine Intelligence&lt;/em>&lt;/li>
+&lt;li>&lt;em>Medical Image Analysis (MedIA)&lt;/em>&lt;/li>
+&lt;li>&lt;em>IEEE Transactions on Medical Imaging (TMI)&lt;/em>&lt;/li>
+&lt;li>&lt;em>Radiology: AI&lt;/em>, &lt;em>European Radiology&lt;/em>, &lt;em>IEEE Journal of Biomedical and Health Informatics&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Relevant Conferences:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>MICCAI&lt;/em> (Medical Image Computing &amp;amp; Computer-Assisted Intervention)&lt;/li>
+&lt;li>&lt;em>CVPR&lt;/em> (IEEE/CVF Computer Vision and Pattern Recognition)&lt;/li>
+&lt;li>&lt;em>MIDL&lt;/em> (Medical Imaging with Deep Learning)&lt;/li>
+&lt;li>&lt;em>ISBI&lt;/em> (International Symposium on Biomedical Imaging)&lt;/li>
+&lt;li>&lt;em>RSNA&lt;/em> (Radiological Society of North America Annual Meeting)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="registration">Registration&lt;/h3>
+&lt;p>Registration takes place via eCampus or by contacting
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>.&lt;/p></description></item><item><title>Special Version: AI in Radiology – From Pixels to Decisions (AiR-GUC Edition)</title><link>https://albarqouni.github.io/students/courses/air_ws2526/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/courses/air_ws2526/</guid><description>&lt;h2 id="special-version-ai-in-radiology--from-pixels-to-decisions-air-guc-edition">Special Version: AI in Radiology – From Pixels to Decisions (AiR-GUC Edition)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Coordinators:&lt;/strong>
+&lt;a href="../../../authors/admin/">Prof. Dr. Shadi Albarqouni&lt;/a> (University of Bonn),
+&lt;a href="../../../authors/mohammed-salem/">Dr. Mohammed Salem&lt;/a> &amp;amp;
+&lt;a href="../../../authors/shereen-afifi/">Dr. Shereen Moataz Afifi&lt;/a> (German University in Cairo)&lt;/li>
+&lt;li>&lt;strong>Tutors:&lt;/strong>
+&lt;a href="../../../authors/adea-nesturi/">Adea Nesturi&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Duration:&lt;/strong> October 23, 2025 – February 5, 2026 (every Thursday, 09:00 AM - 11:00 AM)&lt;/li>
+&lt;li>&lt;strong>Format:&lt;/strong> Blended Seminar + Project-based Collaboration&lt;/li>
+&lt;li>&lt;strong>Credits:&lt;/strong> 4 CP (Bonn) / Elective (GUC)&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> English&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="course-overview">Course Overview&lt;/h3>
+&lt;p>&lt;strong>Artificial Intelligence (AI)&lt;/strong> is rapidly transforming medical imaging, enhancing clinical workflows and diagnostic accuracy. This &lt;strong>special edition of the AiR seminar&lt;/strong>, titled &lt;em>“AI in Radiology – From Pixels to Decisions,”&lt;/em> bridges &lt;strong>technical and medical perspectives&lt;/strong>, offering students a deep dive into the theoretical foundations, applications, and challenges of AI in Radiology.&lt;/p>
+&lt;p>This &lt;strong>joint course&lt;/strong> brings together:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Medical students&lt;/strong> from the &lt;strong>University of Bonn&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Computer Science students&lt;/strong> from the &lt;strong>German University in Cairo (GUC)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>It is jointly funded under the
+&lt;a href="https://www.guc.uni-ulm.de/en/mutual-research-and-teaching/funding-opportunities-and-application-process/joint-teaching-1/" target="_blank" rel="noopener">&lt;strong>Joint Teaching Initiative&lt;/strong>&lt;/a> and aims to foster &lt;strong>international collaboration&lt;/strong>, &lt;strong>interdisciplinary teamwork&lt;/strong>, and &lt;strong>cross-cultural learning&lt;/strong> through guided lectures, interactive sessions, and project-based research.&lt;/p>
+&lt;hr>
+&lt;h3 id="learning-objectives">Learning Objectives&lt;/h3>
+&lt;p>By the end of this course, students will:&lt;/p>
+&lt;ul>
+&lt;li>Understand fundamental and advanced AI methods applied to medical imaging.&lt;/li>
+&lt;li>Analyze academic research papers and translate ideas into practical mini-projects.&lt;/li>
+&lt;li>Collaborate across disciplines to integrate technical and clinical insights.&lt;/li>
+&lt;li>Present and communicate interdisciplinary work effectively.&lt;/li>
+&lt;li>Develop sustainable academic and cultural connections between Germany and Egypt.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="teaching--learning-format">Teaching &amp;amp; Learning Format&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Hybrid sessions:&lt;/strong> alternating between live online sessions and optional in-person meetings.&lt;/li>
+&lt;li>&lt;strong>Group projects:&lt;/strong> each team (2 GUC CS students + 1 Uni Bonn medical student) develops an interdisciplinary mini-project throughout the semester.&lt;/li>
+&lt;li>&lt;strong>Guest lectures:&lt;/strong> experts from Germany and Egypt provide advanced insights into AI in healthcare.&lt;/li>
+&lt;li>&lt;strong>Final presentations:&lt;/strong> joint session showcasing team results and reflections.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="seminar-schedule-winter-202526">Seminar Schedule (Winter 2025/26)&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Date&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Topic&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Presenter&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Key References / Materials&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>23 Oct 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Kick-off &amp;amp; Orientation&lt;/strong>&lt;/td>
+&lt;td>Introduction to the seminar, course goals, and project assignments.&lt;/td>
+&lt;td>Course Team&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>30 Oct 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Foundations of Deep Learning&lt;/strong>&lt;/td>
+&lt;td>Overview of deep learning architectures for image analysis.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>06 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Detection &amp;amp; Classification in Medical Imaging&lt;/strong>&lt;/td>
+&lt;td>Exploring how deep learning identifies and classifies medical abnormalities.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>13 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Segmentation in Medical Imaging&lt;/strong>&lt;/td>
+&lt;td>Methods for delineating anatomical structures and lesions.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>20 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Bias and Causality in AI Models&lt;/strong>&lt;/td>
+&lt;td>Understanding dataset bias and causal reasoning in medical AI.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Castro et al., &lt;em>Nat Commun 11 (2020)&lt;/em>;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>27 Nov 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Uncertainty Quantification&lt;/strong>&lt;/td>
+&lt;td>Quantifying uncertainty and improving trust in AI models.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Huang et al., &lt;em>Med Image Anal (2024)&lt;/em>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>04 Dec 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Foundation Models &amp;amp; Vision-Language Systems&lt;/strong>&lt;/td>
+&lt;td>Exploring transformers and multimodal AI in radiology.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>11 Dec 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Ethics &amp;amp; Regulatory Aspects&lt;/strong>&lt;/td>
+&lt;td>Legal, ethical, and social challenges of deploying AI in healthcare.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Topol, E. &lt;em>Nature Medicine 25 (2019)&lt;/em>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>18 Dec 2025&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Midterm Checkpoint &amp;amp; Group Feedback&lt;/strong>&lt;/td>
+&lt;td>Group progress presentations and instructor consultation.&lt;/td>
+&lt;td>All Teams&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>08 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Guest Talks (Germany–Egypt)&lt;/strong>&lt;/td>
+&lt;td>Expert talks on AI applications in clinical and technical domains.&lt;/td>
+&lt;td>Invited Speakers&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>15 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Student Project Presentations I&lt;/strong>&lt;/td>
+&lt;td>Group project presentations (part 1).&lt;/td>
+&lt;td>Teams&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>22 Jan 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Student Project Presentations II&lt;/strong>&lt;/td>
+&lt;td>Group project presentations (part 2).&lt;/td>
+&lt;td>Teams&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>05 Feb 2026&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>Joint Closing &amp;amp; Reflection&lt;/strong>&lt;/td>
+&lt;td>Course wrap-up, cross-cultural discussion, and feedback.&lt;/td>
+&lt;td>Course Team&lt;/td>
+&lt;td>—&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="grading--evaluation">Grading &amp;amp; Evaluation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>GUC Students:&lt;/strong> Elective course – 100% coursework-based (project &amp;amp; presentation).&lt;/li>
+&lt;li>&lt;strong>Uni Bonn Students:&lt;/strong> Non-graded seminar – certificate of completion based on attendance, participation, and project contribution.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="collaboration-framework">Collaboration Framework&lt;/h3>
+&lt;p>This seminar is part of the &lt;strong>GUC–Uni Bonn Joint Teaching Collaboration&lt;/strong>, coordinated by:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>University of Bonn:&lt;/strong>
+&lt;a href="../../../authors/admin/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/li>
+&lt;li>&lt;strong>German University in Cairo:&lt;/strong>
+&lt;a href="../../../authors/mohammed-salem/">Dr. Mohammed Salem&lt;/a>,
+&lt;a href="../../../authors/shereen-afifi/">Dr. Shereen Moataz Afifi&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Supported by the
+&lt;a href="https://www.guc.uni-ulm.de/en/mutual-research-and-teaching/funding-opportunities-and-application-process/joint-teaching-1/" target="_blank" rel="noopener">&lt;strong>Joint Teaching Program&lt;/strong>&lt;/a>, this course aims to build &lt;strong>sustainable academic bridges&lt;/strong> between Germany and Egypt.&lt;/p>
+&lt;hr>
+&lt;h3 id="contact">Contact&lt;/h3>
+&lt;p>&lt;strong>University of Bonn&lt;/strong>&lt;br>
+&lt;a href="../../../authors/admin/">Prof. Dr. Shadi Albarqouni&lt;/a> – Clinic for Diagnostic and Interventional Radiology, UKB&lt;/p>
+&lt;p>&lt;strong>German University in Cairo (GUC)&lt;/strong>&lt;br>
+&lt;a href="../../../authors/mohammed-salem/">Dr. Mohammed Salem&lt;/a>,
+&lt;a href="../../../authors/shereen-afifi/">Dr. Shereen Moataz Afifi&lt;/a>&lt;/p></description></item></channel></rss>

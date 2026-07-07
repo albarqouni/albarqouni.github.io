@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ICCV | Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/tags/iccv/</link>
-      <atom:link href="https://albarqouni.github.io/tags/iccv/index.xml" rel="self" type="application/rss+xml" />
-    <description>ICCV</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Mon, 02 Oct 2023 09:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>ICCV</title>
-      <link>https://albarqouni.github.io/tags/iccv/</link>
-    </image>
-    
-    <item>
-      <title>David attended ICCV 2023 in Paris</title>
-      <link>https://albarqouni.github.io/talk/iccv_david_2023/</link>
-      <pubDate>Mon, 02 Oct 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/iccv_david_2023/</guid>
-      <description>&lt;p&gt;David attended the International Conference on Computer Vision (ICCV) 2023 in Paris from October 2–6, 2023. This event brought together leading minds in computer vision and AI from all over the world. It was an incredible experience to immerse myself in the latest developments in the field and gain insight into cutting-edge research.&lt;/p&gt;
-&lt;p&gt;The conference covered a wide range of topics, from foundational deep learning techniques to applications in healthcare, autonomous systems, and beyond. The keynote talks were inspiring, and the technical sessions and poster presentations provided valuable ideas and perspectives. It was a fantastic opportunity to connect with the research community and stay up-to-date with the newest trends shaping computer vision.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ICCV | Albarqouni Lab</title><link>https://albarqouni.github.io/tags/iccv/</link><atom:link href="https://albarqouni.github.io/tags/iccv/index.xml" rel="self" type="application/rss+xml"/><description>ICCV</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Mon, 02 Oct 2023 09:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>ICCV</title><link>https://albarqouni.github.io/tags/iccv/</link></image><item><title>David attended ICCV 2023 in Paris</title><link>https://albarqouni.github.io/talk/iccv_david_2023/</link><pubDate>Mon, 02 Oct 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/iccv_david_2023/</guid><description>&lt;p>David attended the International Conference on Computer Vision (ICCV) 2023 in Paris from October 2–6, 2023. This event brought together leading minds in computer vision and AI from all over the world. It was an incredible experience to immerse myself in the latest developments in the field and gain insight into cutting-edge research.&lt;/p>
+&lt;p>The conference covered a wide range of topics, from foundational deep learning techniques to applications in healthcare, autonomous systems, and beyond. The keynote talks were inspiring, and the technical sessions and poster presentations provided valuable ideas and perspectives. It was a fantastic opportunity to connect with the research community and stay up-to-date with the newest trends shaping computer vision.&lt;/p></description></item></channel></rss>

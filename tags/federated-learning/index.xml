@@ -1,417 +1,146 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>federated-learning | Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/tags/federated-learning/</link>
-      <atom:link href="https://albarqouni.github.io/tags/federated-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>federated-learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Wed, 22 Jan 2025 09:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>federated-learning</title>
-      <link>https://albarqouni.github.io/tags/federated-learning/</link>
-    </image>
-    
-    <item>
-      <title>Invited Talk at BioMedIA, MBZUAI, UAE</title>
-      <link>https://albarqouni.github.io/talk/mbzuai2025/</link>
-      <pubDate>Wed, 22 Jan 2025 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/mbzuai2025/</guid>
-      <description>&lt;p&gt;I had the pleasure to give an invited talk at the BioMedIA Lab in MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! I had the pleasure to meet 
-&lt;a href=&#34;https://www.linkedin.com/in/mohammad-yaqub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Mohammad Yaqub&lt;/a&gt;, his group members and a few familiar faces in our community. Thanks, Mohammad!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Potential Collaboration on organizing a Summer School on AI in Medicine, Tunisia</title>
-      <link>https://albarqouni.github.io/talk/tunis2024/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/tunis2024/</guid>
-      <description>&lt;p&gt;Last week, I had the privilege of meeting Prof. Dr. Moez CHAFRA, President of the University of Tunis El Manar, and his esteemed colleagues. We had a productive discussion exploring potential collaborations, including the exciting possibility of organizing a Summer School on AI in Medicine in Tunisia, among other initiatives.&lt;/p&gt;
-&lt;p&gt;Excited to see what the future holds—stay tuned for updates!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Lecture at Health Data Science Principles (GD5301) at St. Andrews University, UK</title>
-      <link>https://albarqouni.github.io/talk/standrews/</link>
-      <pubDate>Thu, 21 Nov 2024 10:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/standrews/</guid>
-      <description>&lt;p&gt;I had the pleasure to give a lecture at the 
-&lt;a href=&#34;https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_modulecode=GD5301&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Health Data Science Principles (GD5301)&lt;/a&gt; course offered at St. Andrews University and interact with the briliant students there! Thanks to Prof. 
-&lt;a href=&#34;https://www.st-andrews.ac.uk/medicine/people/sp58/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Silvia Paracchini&lt;/a&gt; from the School of Medicine for the great hospitality!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Moderator at the MIB Future Panel 2024</title>
-      <link>https://albarqouni.github.io/talk/mib2024/</link>
-      <pubDate>Wed, 06 Nov 2024 09:10:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/mib2024/</guid>
-      <description>&lt;p&gt;It was a pleasure moderating the Symposium on AI in Medicine and sharing our recent works, which have recently been accepted at hashtag#MICAD and hashtag#MICCAI Workshops! Thanks to the team members Sarah Schaab, David D. Gaviria, and Elyes Farjallah for their great efforts! Thanks to the co-moderator Prof. Valentin S. Schäfer, and the organizing team behind the MIB Future Panel; Lisa Mona Marie Senner, Prof. Frank G. Holz, and the dean, Prof. Bernd Weber, among others! Congrats to the winners!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Keynote at the 1st International NEU DESAM Biotechnology Congress in Nicosia</title>
-      <link>https://albarqouni.github.io/talk/desam2024/</link>
-      <pubDate>Fri, 18 Oct 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/desam2024/</guid>
-      <description>&lt;p&gt;I had the pleasure to give a talk at the DESAM Congress at the Near East University in Nicosia. I had the chance to meet and discuss further collaboration with 
-&lt;a href=&#34;https://neu.edu.tr/about-us/management/rectorate/?lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rectorate&lt;/a&gt; reprsented by the rector, Prof. Dr. Tamer ŞANLIDAĞ, vice rector; Prof. Dr. Umut AKSOY, and his advisors; Prof. Dr. Murat SAYAN  and Assoc. Prof. Dr. Dilber UZUN ÖZŞAHİN at the Near East University.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the World Health Summit in Berlin</title>
-      <link>https://albarqouni.github.io/talk/whs2024/</link>
-      <pubDate>Sun, 13 Oct 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/whs2024/</guid>
-      <description>&lt;p&gt;At the World Health Summit, I had the opportunity to participate in key sessions moderated by GLOHRA, such as &amp;ldquo;Stronger Together: Improving Research Partnerships with LMICs,&amp;rdquo; where we heard from influential figures, including parliament members, and sessions like &amp;ldquo;Bridging Policy and Research: Translating the EU Global Health Strategy into Action&amp;rdquo; and &amp;ldquo;Building Success: On the Road to the &amp;lsquo;Nutrition for Growth&amp;rsquo;.&amp;rdquo; A few key takeaways from these discussions included the importance of: i) fostering communication that respects diverse cultures, ii) upholding the 3Es—engagement, equity, and ethics—in our partnerships, and iii) delivering impact and ensuring its sustainability in LMIC research collaborations. Moreover, the focus on nutrition for all, especially through affordable diet programs in LMICs, is critical. Capacity building in nutrition, potentially through AI and technology, also emerged as a vital strategy for driving progress.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</title>
-      <link>https://albarqouni.github.io/talk/miccai2024/</link>
-      <pubDate>Sun, 06 Oct 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/miccai2024/</guid>
-      <description>&lt;p&gt;Despite the difficult circumstances, we are proud to contribute to MICCAI 2024 with the following papers and events:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Our paper on Affordable DL for common and inherited retinal diseases will be presented at the 11th Ophthalmology Image Analysis (OMIA) Workshop on 10th October, AM Session, Cristal Room - Palmeraie Palace. Further details can be found here: 
-&lt;a href=&#34;http://hdmilab.cn/omia11&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://hdmilab.cn/omia11&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;with Elyes Farjallah, Razieh Rezaei, Philipp Herrmann, Sandrine Kuenzel, Frank G. Holz from Universitätsklinikum Bonn, and Said El Shamieh from Beirut Arab University.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Our paper on Leveraging Planning annotations in Adaptive Radiation Therapy will be presented at #CLIP Workshop on 6th October, AM Session, Conference Center.  Further details can be found here: 
-&lt;a href=&#34;https://miccai-clip.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miccai-clip.org/&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;with Francesca De Benetti, Yousef Yaganeh, Claus Belka, Stefanie Corradini, Nassir Navab, Christopher Kurz, Guillaume Landry, and Thomas Wendler&lt;/p&gt;
-&lt;p&gt;Other exciting events during the conference include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;#RISE Networking Event where Nassir Navab will deliver an inspiring talk on the democratization of healthcare (
-&lt;a href=&#34;https://lnkd.in/dM6y89JU%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://lnkd.in/dM6y89JU)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Our 5th workshop on Distributed, Collaborative, and Federated Learning (#DeCaF) &amp;ndash; will be held on 10th October, PM Session (
-&lt;a href=&#34;https://lnkd.in/ex5sQ_ga%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://lnkd.in/ex5sQ_ga)&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;On a personal note, serving as Challenges Co-Chair at #MICCAI2024 has been incredibly difficult, especially with my family being under threat in #Gaza during these troubling times. However, I’ve pushed through, believing that #resilience in the face of adversity will make us stronger.&lt;/p&gt;
-&lt;p&gt;Looking ahead, I’m optimistic about the future and excited for a productive year filled with new achievements. I’m especially looking forward to meeting and interacting with #young #talents at #MICCAI in #Marrakech next week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Keynote at the First Arab Science Symposium in Hannover, Germany</title>
-      <link>https://albarqouni.github.io/talk/dsfg2024/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/dsfg2024/</guid>
-      <description>&lt;p&gt;I am deeply grateful to the organizers of this symposium for bringing together Syrian and Arab scholars in such a meaningful way. It is a privilege to have the opportunity to present on the topic of collective intelligence, highlighting the importance of interdisciplinary research in shaping a better future. Events like these foster collaboration and inspire innovative solutions that transcend boundaries, and I am honored to be a part of it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the Helmholtz Annual Meeting 2024 in Berlin</title>
-      <link>https://albarqouni.github.io/talk/helmholtz2024/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/helmholtz2024/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m truly honored and excited to be invited to participate in the Helmholtz Annual Meeting 2024. I was particularly inspired by the insightful talk on synaptic transmission by Nobel laureate and Stanford Professor 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Thomas_C._S%C3%BCdhof&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Thomas C. Südhof&lt;/a&gt;. His groundbreaking work continues to shape our understanding of neuroscience and opens new doors for innovation in the field. Additionally, the panel discussion led by BMBF Minister 
-&lt;a href=&#34;https://www.bmbf.de/bmbf/de/ueber-uns/die-leitung-des-hauses/bettina-stark-watzinger/bettina-stark-watzinger_node.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ms. Bettina Stark-Watzinger&lt;/a&gt; was highly thought-provoking, especially her emphasis on fostering research and development in Germany. These sessions highlight the critical role of science and policy in shaping our future.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the DAAD PRIME Alumni Seminar</title>
-      <link>https://albarqouni.github.io/talk/prime2024/</link>
-      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/prime2024/</guid>
-      <description>&lt;p&gt;I was fortunate enough to attend and participate at the DAAD PRIME Alumni Seminar where I had the chance to meet and re-connect with PRIME fellows and a couple of colleagues! We exchanged career paths and trajectories and heard several success stories in both academia and industries. Although I received the 
-&lt;a href=&#34;https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/prime/prime-fellows-201819/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PRIME fellowship&lt;/a&gt; 6 years ago, I felt it was just yesterday! Gratfeul to the DAAD for this fellowship and tremendous efforts to reconnect with our fellows!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at North American Imaging in MS Cooperative, USA</title>
-      <link>https://albarqouni.github.io/talk/aims2024/</link>
-      <pubDate>Wed, 11 Sep 2024 17:30:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/aims2024/</guid>
-      <description>&lt;p&gt;It is a pleasure to accept the invitation to deliver a talk at the The Artificial Intelligence and Machine-Learning (AIMS) working group of the North American Imaging in MS (NAIMS) Cooperative. I&amp;rsquo;ll present our Nature Machine Intelligence Paper on anomaly detection in MR Brain Imaging which includes MS Lesions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organzie the Summer School on Affordbale AI (SAAI -- سعي)</title>
-      <link>https://albarqouni.github.io/talk/saai2024/</link>
-      <pubDate>Mon, 22 Jul 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/saai2024/</guid>
-      <description>&lt;p&gt;We have just wrapped up an amazing week at the 
-&lt;a href=&#34;https://saai2024.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Summer School on Affordbale AI (SAAI &amp;ndash; سعي)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As the curtains close on an unforgettable week in Bonn, we reflect on the enriching experiences shared at the AGYA Summer School on Affordable AI. We were thrilled to host 60 guests, including 35 students from nations across the globe; 🇲🇷 Mauritania, 🇲🇦 Morocco, 🇹🇳 Tunisia, 🇩🇿 Algeria, 🇱🇾 Libya, 🇪🇬 Egypt, 🇵🇸 Palestine, 🇱🇧 Lebanon, 🇯🇴 Jordan, 🇸🇾 Syria, 🇮🇶 Iraq, 🇴🇲 Oman, 🇶🇦 Qatar, 🇰🇼 Kuwait, 🇸🇦Saudi, 🇦🇪 UAE, 🇾🇪 Yemen, 🇰🇲 Comoros, 🇩🇪 Germany, 🇷🇺 Russia, 🇮🇹 Italy, 🇺🇦 Ukraine, 🇫🇷 France, and 🇨🇴 Colombia alongside 15 faculty and AGYA members, and 6 dedicated tutors.&lt;/p&gt;
-&lt;p&gt;🚀 Our diverse participants engaged deeply with innovative AI concepts, learning from esteemed speakers, lecturers, and each other. The collaborative environment fostered not only education but also meaningful connections across cultural lines.&lt;/p&gt;
-&lt;p&gt;🌐 Social events at iconic locations like the Cologne Cathedral, Drachenburg Castle, and the Haus der Geschichte Museum provided fantastic backdrops for our participants to unwind and network, enhancing their cultural and academic experience.&lt;/p&gt;
-&lt;p&gt;Thanks to everyone who made this event a huge success—your enthusiasm and insights have truly shaped this summer school into a beacon of learning and international cooperation.&lt;/p&gt;
-&lt;p&gt;Special Thanks to the Arab-German Young Academy of Sciences and Humanities (AGYA) for the financial support. I would like to thank The University of Bonn, Universitätsklinikum Bonn, Helmholtz AI for the host and financial support as well.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the Summer School for Surgical Data Science</title>
-      <link>https://albarqouni.github.io/talk/sds2024/</link>
-      <pubDate>Wed, 17 Jul 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/sds2024/</guid>
-      <description>&lt;p&gt;Very much enjoyed the time in Strasbourg!&lt;/p&gt;
-&lt;p&gt;Great keynotes and lectures at the 
-&lt;a href=&#34;https://www.edu4sds.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;summer school for surgical data science&lt;/a&gt;. I was fortunate enough to meet a couple of brilliant minds at the school! It was also a pleasure meeting my mentor Prof. Nassir Navab!&lt;/p&gt;
-&lt;p&gt;Thanks for the invitation, organziation and the warm hospitality, Prof. Nicolas Padoy 🙏🙏&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Research Visit at the University of Sharjah, UAE</title>
-      <link>https://albarqouni.github.io/talk/agya202403/</link>
-      <pubDate>Sun, 14 Apr 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/agya202403/</guid>
-      <description>&lt;p&gt;I have just completed the research visit at the University of Sharjah, NYU Abu Dhabi, and other esteemed universities. This initiative aims to strengthen connections and foster collaboration between German and Emirati academic institutes in the field of health and medical sciences.
-I will soon return to the Emirates to organize a one-day workshop on AI and healthcare at a prestigious academic institute. Stay tuned for more details!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the Okinawa Institute of Science and Technology Graduate University, Japan</title>
-      <link>https://albarqouni.github.io/talk/oist2024/</link>
-      <pubDate>Fri, 09 Feb 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/oist2024/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invited to a Panel Discussion on AI in clinical routine at LMU, Munich, Germany</title>
-      <link>https://albarqouni.github.io/talk/lmu2024/</link>
-      <pubDate>Fri, 19 Jan 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/lmu2024/</guid>
-      <description>&lt;p&gt;I was excited to join a distinguished panel, including Prof. Dr. Wolfgang Böcker, Prof. Dr. Clemens Cyran, and Katharina Danhauser, moderated by Claus Belka, to explore AI&amp;rsquo;s readiness for clinical routine. Our discussion spotlighted crucial aspects: the current state of AI in clinics and strategic placement within workflows. Emphasis was placed on robust data governance and addressing development challenges.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>federated-learning | Albarqouni Lab</title><link>https://albarqouni.github.io/tags/federated-learning/</link><atom:link href="https://albarqouni.github.io/tags/federated-learning/index.xml" rel="self" type="application/rss+xml"/><description>federated-learning</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Tue, 14 Apr 2026 09:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>federated-learning</title><link>https://albarqouni.github.io/tags/federated-learning/</link></image><item><title>Our first cohort of the BIGS block course on AI in Medicine</title><link>https://albarqouni.github.io/talk/aim_bigs/</link><pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/aim_bigs/</guid><description/></item><item><title>Three Oral Presentations at ISBI in London</title><link>https://albarqouni.github.io/talk/isbi2026/</link><pubDate>Wed, 08 Apr 2026 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/isbi2026/</guid><description/></item><item><title>Organzie the Symposium on AI in Medicine and Food Sciences</title><link>https://albarqouni.github.io/talk/symposium_daad_sanad/</link><pubDate>Tue, 09 Dec 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/symposium_daad_sanad/</guid><description>&lt;h2 id="sanad-symposium-on-ai-in-medicine--food-sciences">SANAD Symposium on AI in Medicine &amp;amp; Food Sciences&lt;/h2>
+&lt;p>Over the past two days, we had the pleasure of hosting our &lt;strong>SANAD symposium on AI in Medicine and Food Sciences&lt;/strong> within the framework of the &lt;strong>DAAD Ta’ziz project&lt;/strong>, welcoming a delegation from &lt;strong>Tunisia&lt;/strong>, &lt;strong>Lebanon&lt;/strong>, and &lt;strong>Iraq&lt;/strong>.&lt;br>
+Project link:
+&lt;a href="https://albarqouni.github.io/funded/symposium/" target="_blank" rel="noopener">https://albarqouni.github.io/funded/symposium/&lt;/a>&lt;/p>
+&lt;p>The symposium brought together colleagues from &lt;strong>Universitätsklinikum Bonn&lt;/strong>, &lt;strong>The University of Bonn&lt;/strong>, and our partner universities in the MENA region: &lt;strong>Lebanese American University&lt;/strong>, &lt;strong>University of Tunis El Manar&lt;/strong>, and &lt;strong>Duhok Polytechnic University&lt;/strong>. Together, we focused on strengthening &lt;strong>academic cooperation&lt;/strong>, &lt;strong>interdisciplinary exchange&lt;/strong>, and &lt;strong>capacity building&lt;/strong> under the &lt;strong>SANAD&lt;/strong> vision.&lt;/p>
+&lt;p>We extend our gratitude to &lt;strong>Prof. Björn Krüger&lt;/strong> for his excellent keynote, to all speakers and participants for their contributions, and to our dedicated team for their support.&lt;/p>
+&lt;p>Special thanks to &lt;strong>Dr. Ismail Acir&lt;/strong> and his team for co-organizing and hosting the &lt;strong>Food Sciences Day&lt;/strong> with great hospitality.&lt;/p>
+&lt;p>Beyond the academic program, our delegation enjoyed a rich cultural experience — from the &lt;strong>Christmas market in Bonn&lt;/strong> to the &lt;strong>Chocolate Museum&lt;/strong> and the &lt;strong>Cologne Cathedral&lt;/strong>.&lt;/p>
+&lt;p>We look forward to building on these connections and continuing our collaboration.&lt;/p></description></item><item><title>Invited Keynote at the 12th International Conference on Intelligent Computing and Information Systems (ICICIS) in Cairo, Egypt</title><link>https://albarqouni.github.io/talk/icicis2025/</link><pubDate>Tue, 25 Nov 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/icicis2025/</guid><description>&lt;p>I had the pleasure to give a keynote on Leveraging Collective Intelligence for Inclusive Global Healthcare at the 12th International Conference on Intelligent Computing and Information Systems (ICICIS) in Cairo, Egypt. I had the chance to meet and discuss further collaboration with the dean at the Ain Shams University Prof. Dr. Rasha Ismail, Prof. Dr. Hassan Abdalla from East London University, and Prof. Robert Sloan, from University of Illinois Chicago, and Prof. Huan Liu from Arizona Satet University.&lt;/p></description></item><item><title>Contributed to the GLOHRA’s fact-finding mission to Brussels</title><link>https://albarqouni.github.io/talk/glohra_eu_2025/</link><pubDate>Mon, 17 Nov 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/glohra_eu_2025/</guid><description>&lt;p>I recently had the privilege of joining the Steering Committee of the German Alliance for Global Health Research (GLOHRA) in Brussels for a fact-finding mission from &lt;strong>17–20 November 2025&lt;/strong>. Alongside colleagues from diverse research disciplines, we engaged in constructive dialogue with key European institutions and partners to better understand the EU’s policy and funding landscape for global health research. Over three days of meetings, we gained valuable insights into emerging priorities for research funding and the upcoming EU Framework Programme (FP10), identifying new opportunities for collaboration and coordinated action from the research community. This visit not only strengthened our understanding of how global health research can be supported at the EU level but also reinforced our collective commitment to advancing impactful, interdisciplinary research that addresses global health challenges.&lt;/p></description></item><item><title>Organzie the Summer School on Biomedical Imaging with Deep Learning (BiLD)</title><link>https://albarqouni.github.io/talk/bild2025/</link><pubDate>Mon, 01 Sep 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/bild2025/</guid><description>&lt;p>We have just wrapped up an inspiring week of the BILD Summer School 2025 in Tunis, and I could not be more grateful for the people and partnerships that made this possible.&lt;/p>
+&lt;p>A heartfelt thank you to the University of Tunis El Manar, represented by the Rector Prof. Moez CHAFRA and his vice rectors, for their warm welcome and strong support of this initiative. Your presence was an honor and an encouragement to all of us.&lt;/p>
+&lt;p>My sincere gratitude also goes to my co-organizers, Prof. Monia Najar, Bareen Haval, and Prof. Hussein F. HASSAN, PhD, for their trust and collaboration!&lt;/p>
+&lt;p>I would like to thank all the speakers and lecturers, Prof. Nassir Navab, Prof. Vasileios Belagiannis, Prof. Islem Rekik, Prof. Ezzeddine Zagrouba, Prof. Hanene Boussi, and Dr. Narjes Ben ameur, Dr. Aditya Rastogi, Dr. Lara Marie Reimer, Leon Nissen, and Rached Abdelkhalek for their amazing talks and lectures.&lt;/p>
+&lt;p>A special thanks to the tutors: David D. Gaviria, Diletta Chiaro, Ph.D., Elyes Farjallah, Hadil AFFES, and Sarra Guirat for preparing and tutoring a couple of exercises and hands-on sessions during the summer school.&lt;/p>
+&lt;p>Thanks to our participants, who made it from Lebanon, Iraq, Germany (Ulm, Essen, Munich, and Bonn), and multiple cities in Tunisia (Tunis, Bizerte, Sousse, Sfax, and Kebili), for their dedication and curiosity!&lt;/p>
+&lt;p>Each of you contributed your expertise, energy, and enthusiasm, turning this event into a true success story.&lt;/p>
+&lt;p>Highlights of the week:&lt;/p>
+&lt;ul>
+&lt;li>Engaging lectures that bridged theory and real-world applications in biomedical imaging and AI.&lt;/li>
+&lt;li>Hands-on sessions where students trained, tested, and discussed DL models—exploring both the challenges and opportunities of deep learning in medical imaging.&lt;/li>
+&lt;li>Special Hands-on Sessions on MONAI Labels from NVIDIA (Rached Abdelkhalek) and Mobile Medical AI App Development (Lara Marie Reimer and Leon Nissen)&lt;/li>
+&lt;li>Networking events that fostered meaningful connections and future collaborations across countries and disciplines.&lt;/li>
+&lt;/ul>
+&lt;p>This summer school once again underscored the core mission of the
+&lt;a href="../../funded/sanad/">SANAD Project:&lt;/a> knowledge exchange and building sustainable networks.&lt;/p>
+&lt;p>This won&amp;rsquo;t happen without the support of our medical faculty at the Universitätsklinikum Bonn, represented by the Dean, Prof. Bernd Weber, and the DAAD German Academic Exchange Service, with funds from the Auswärtiges Amt (Federal Foreign Office) Germany in Germany.&lt;/p>
+&lt;p>We look forward to seeing the seeds planted in Tunis grow into lasting collaborations and innovations!&lt;/p>
+&lt;p>Interested to learn more about the experience shared by our participants, feel free to visit the testimonials page here:
+&lt;a href="https://lnkd.in/dxVAnG75" target="_blank" rel="noopener">https://lnkd.in/dxVAnG75&lt;/a>.&lt;/p>
+&lt;p>Interested to join us for the upcoming summer/autumn schools, follow our homepage (
+&lt;a href="https://lnkd.in/dEANjkhs" target="_blank" rel="noopener">https://lnkd.in/dEANjkhs&lt;/a>) and LinkedIn
+&lt;a href="https://www.linkedin.com/posts/shadialbarqouni_bild-summer-school-activity-7370733915113848833-p8r_?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAAUGC60B9TGi2p-_iG9RWfbzteoiB8KQy8c" target="_blank" rel="noopener">Post&lt;/a>&lt;/p></description></item><item><title>Participated at the AI for Good Global Summit in Geneva, Switzerland</title><link>https://albarqouni.github.io/talk/ai4good/</link><pubDate>Tue, 08 Jul 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/ai4good/</guid><description>&lt;p>Just returned from my first AI for Good Global Summit in Geneva — an incredible experience!&lt;/p>
+&lt;p>I was especially inspired by the focus on AI in healthcare:&lt;/p>
+&lt;ul>
+&lt;li>Reversing diabetes and Parkinson’s with AI-powered stem cell therapies&lt;/li>
+&lt;li>Real-time, personalized health risk screening using AI&lt;/li>
+&lt;li>Tackling global health inequities with open, responsible, and equitable AI solutions&lt;/li>
+&lt;/ul>
+&lt;p>This summit reminded me that AI is not just about innovation — it&amp;rsquo;s about impact. Excited to keep learning and contributing to this global movement&lt;/p></description></item><item><title>Panelist at Applied Case Studies of AI in Health for WHO EMRO Workshop, Egypt</title><link>https://albarqouni.github.io/talk/whoemro/</link><pubDate>Wed, 02 Jul 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/whoemro/</guid><description>&lt;p>Honored to join an inspiring panel at the WHO EMRO AI Workshop on &lt;strong>Applied Case Studies of AI in Health,&lt;/strong> alongside brilliant colleagues working at the intersection of AI, public health, and policy. I shared insights from our work at the University of Bonn on building trustworthy and equitable AI models for medical imaging—especially in global health settings where data diversity and clinical applicability are key challenges. Grateful for the engaging discussion on how we can ensure that AI innovations serve not just high-resource settings, but also strengthen health systems worldwide&lt;/p></description></item><item><title>Invited Talk at the Andalusian Research Institute in Data Science and Computational Intelligence (DASCI), Spain</title><link>https://albarqouni.github.io/talk/dasci2025/</link><pubDate>Wed, 18 Jun 2025 16:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/dasci2025/</guid><description>&lt;p>I had the pleasure to give a talk on &lt;strong>Leveraging Collective Intelligence for Inclusive Global Healthcare&lt;/strong> at the
+&lt;a href="https://dasci.es/en/" target="_blank" rel="noopener">Andalusian Research Institute in Data Science and Computational Intelligence (DASCI)&lt;/a>! Thanks to Prof.
+&lt;a href="https://dasci.es/investigador/pablo-mesejo-santiago/" target="_blank" rel="noopener">Pablo Mesejo Santiago&lt;/a> for the invitation and great hospitality! The Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI Institute), is a research institute promoted by the universities of Granada (UGR), Jaén (UJA) and Córdoba (UCO).&lt;/p></description></item><item><title>Invited Lecture at the Charité – Universitätsmedizin Berlin, Germany</title><link>https://albarqouni.github.io/talk/charite/</link><pubDate>Thu, 10 Apr 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/charite/</guid><description>&lt;p>As an Invited Lecturer for the Digital Health and Artificial Intelligence module at Charité – Universitätsmedizin Berlin’s Institute of International Health, I delivered a focused lecture on deep learning algorithms and their medical applications—highlighting federated learning—and had the privilege of engaging with a diverse, global cohort of brilliant medical professionals from Germany, other European countries and the U.S., Africa, the Eastern Mediterranean Region, Asia, and South America.&lt;/p></description></item><item><title>Invited Talk at BioMedIA, MBZUAI, UAE</title><link>https://albarqouni.github.io/talk/mbzuai2025/</link><pubDate>Wed, 22 Jan 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/mbzuai2025/</guid><description>&lt;p>I had the pleasure to give an invited talk at the BioMedIA Lab in MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! I had the pleasure to meet
+&lt;a href="https://www.linkedin.com/in/mohammad-yaqub" target="_blank" rel="noopener">Dr Mohammad Yaqub&lt;/a>, his group members and a few familiar faces in our community. Thanks, Mohammad!&lt;/p></description></item><item><title>Potential Collaboration on organizing a Summer School on AI in Medicine, Tunisia</title><link>https://albarqouni.github.io/talk/tunis2024/</link><pubDate>Tue, 26 Nov 2024 10:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/tunis2024/</guid><description>&lt;p>Last week, I had the privilege of meeting Prof. Dr. Moez CHAFRA, President of the University of Tunis El Manar, and his esteemed colleagues. We had a productive discussion exploring potential collaborations, including the exciting possibility of organizing a Summer School on AI in Medicine in Tunisia, among other initiatives.&lt;/p>
+&lt;p>Excited to see what the future holds—stay tuned for updates!&lt;/p></description></item><item><title>Invited Lecture at Health Data Science Principles (GD5301) at St. Andrews University, UK</title><link>https://albarqouni.github.io/talk/standrews/</link><pubDate>Thu, 21 Nov 2024 10:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/standrews/</guid><description>&lt;p>I had the pleasure to give a lecture at the
+&lt;a href="https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_modulecode=GD5301" target="_blank" rel="noopener">Health Data Science Principles (GD5301)&lt;/a> course offered at St. Andrews University and interact with the briliant students there! Thanks to Prof.
+&lt;a href="https://www.st-andrews.ac.uk/medicine/people/sp58/" target="_blank" rel="noopener">Silvia Paracchini&lt;/a> from the School of Medicine for the great hospitality!&lt;/p></description></item><item><title>Moderator at the MIB Future Panel 2024</title><link>https://albarqouni.github.io/talk/mib2024/</link><pubDate>Wed, 06 Nov 2024 09:10:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/mib2024/</guid><description>&lt;p>It was a pleasure moderating the Symposium on AI in Medicine and sharing our recent works, which have recently been accepted at hashtag#MICAD and hashtag#MICCAI Workshops! Thanks to the team members Sarah Schaab, David D. Gaviria, and Elyes Farjallah for their great efforts! Thanks to the co-moderator Prof. Valentin S. Schäfer, and the organizing team behind the MIB Future Panel; Lisa Mona Marie Senner, Prof. Frank G. Holz, and the dean, Prof. Bernd Weber, among others! Congrats to the winners!&lt;/p></description></item><item><title>Invited Keynote at the 1st International NEU DESAM Biotechnology Congress in Nicosia</title><link>https://albarqouni.github.io/talk/desam2024/</link><pubDate>Fri, 18 Oct 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/desam2024/</guid><description>&lt;p>I had the pleasure to give a talk at the DESAM Congress at the Near East University in Nicosia. I had the chance to meet and discuss further collaboration with
+&lt;a href="https://neu.edu.tr/about-us/management/rectorate/?lang=en" target="_blank" rel="noopener">rectorate&lt;/a> reprsented by the rector, Prof. Dr. Tamer ŞANLIDAĞ, vice rector; Prof. Dr. Umut AKSOY, and his advisors; Prof. Dr. Murat SAYAN and Assoc. Prof. Dr. Dilber UZUN ÖZŞAHİN at the Near East University.&lt;/p></description></item><item><title>Participate at the World Health Summit in Berlin</title><link>https://albarqouni.github.io/talk/whs2024/</link><pubDate>Sun, 13 Oct 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/whs2024/</guid><description>&lt;p>At the World Health Summit, I had the opportunity to participate in key sessions moderated by GLOHRA, such as &amp;ldquo;Stronger Together: Improving Research Partnerships with LMICs,&amp;rdquo; where we heard from influential figures, including parliament members, and sessions like &amp;ldquo;Bridging Policy and Research: Translating the EU Global Health Strategy into Action&amp;rdquo; and &amp;ldquo;Building Success: On the Road to the &amp;lsquo;Nutrition for Growth&amp;rsquo;.&amp;rdquo; A few key takeaways from these discussions included the importance of: i) fostering communication that respects diverse cultures, ii) upholding the 3Es—engagement, equity, and ethics—in our partnerships, and iii) delivering impact and ensuring its sustainability in LMIC research collaborations. Moreover, the focus on nutrition for all, especially through affordable diet programs in LMICs, is critical. Capacity building in nutrition, potentially through AI and technology, also emerged as a vital strategy for driving progress.&lt;/p></description></item><item><title>Participate at the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</title><link>https://albarqouni.github.io/talk/miccai2024/</link><pubDate>Sun, 06 Oct 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/miccai2024/</guid><description>&lt;p>Despite the difficult circumstances, we are proud to contribute to MICCAI 2024 with the following papers and events:&lt;/p>
+&lt;ul>
+&lt;li>Our paper on Affordable DL for common and inherited retinal diseases will be presented at the 11th Ophthalmology Image Analysis (OMIA) Workshop on 10th October, AM Session, Cristal Room - Palmeraie Palace. Further details can be found here:
+&lt;a href="http://hdmilab.cn/omia11" target="_blank" rel="noopener">http://hdmilab.cn/omia11&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>with Elyes Farjallah, Razieh Rezaei, Philipp Herrmann, Sandrine Kuenzel, Frank G. Holz from Universitätsklinikum Bonn, and Said El Shamieh from Beirut Arab University.&lt;/p>
+&lt;ul>
+&lt;li>Our paper on Leveraging Planning annotations in Adaptive Radiation Therapy will be presented at #CLIP Workshop on 6th October, AM Session, Conference Center. Further details can be found here:
+&lt;a href="https://miccai-clip.org/" target="_blank" rel="noopener">https://miccai-clip.org/&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>with Francesca De Benetti, Yousef Yaganeh, Claus Belka, Stefanie Corradini, Nassir Navab, Christopher Kurz, Guillaume Landry, and Thomas Wendler&lt;/p>
+&lt;p>Other exciting events during the conference include:&lt;/p>
+&lt;ul>
+&lt;li>#RISE Networking Event where Nassir Navab will deliver an inspiring talk on the democratization of healthcare (
+&lt;a href="https://lnkd.in/dM6y89JU%29" target="_blank" rel="noopener">https://lnkd.in/dM6y89JU)&lt;/a>.&lt;/li>
+&lt;li>Our 5th workshop on Distributed, Collaborative, and Federated Learning (#DeCaF) &amp;ndash; will be held on 10th October, PM Session (
+&lt;a href="https://lnkd.in/ex5sQ_ga%29" target="_blank" rel="noopener">https://lnkd.in/ex5sQ_ga)&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>On a personal note, serving as Challenges Co-Chair at #MICCAI2024 has been incredibly difficult, especially with my family being under threat in #Gaza during these troubling times. However, I’ve pushed through, believing that #resilience in the face of adversity will make us stronger.&lt;/p>
+&lt;p>Looking ahead, I’m optimistic about the future and excited for a productive year filled with new achievements. I’m especially looking forward to meeting and interacting with #young #talents at #MICCAI in #Marrakech next week.&lt;/p></description></item><item><title>Invited Keynote at the First Arab Science Symposium in Hannover, Germany</title><link>https://albarqouni.github.io/talk/dsfg2024/</link><pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/dsfg2024/</guid><description>&lt;p>I am deeply grateful to the organizers of this symposium for bringing together Syrian and Arab scholars in such a meaningful way. It is a privilege to have the opportunity to present on the topic of collective intelligence, highlighting the importance of interdisciplinary research in shaping a better future. Events like these foster collaboration and inspire innovative solutions that transcend boundaries, and I am honored to be a part of it.&lt;/p></description></item><item><title>Participate at the Helmholtz Annual Meeting 2024 in Berlin</title><link>https://albarqouni.github.io/talk/helmholtz2024/</link><pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/helmholtz2024/</guid><description>&lt;p>I&amp;rsquo;m truly honored and excited to be invited to participate in the Helmholtz Annual Meeting 2024. I was particularly inspired by the insightful talk on synaptic transmission by Nobel laureate and Stanford Professor
+&lt;a href="https://en.wikipedia.org/wiki/Thomas_C._S%C3%BCdhof" target="_blank" rel="noopener">Thomas C. Südhof&lt;/a>. His groundbreaking work continues to shape our understanding of neuroscience and opens new doors for innovation in the field. Additionally, the panel discussion led by BMBF Minister
+&lt;a href="https://www.bmbf.de/bmbf/de/ueber-uns/die-leitung-des-hauses/bettina-stark-watzinger/bettina-stark-watzinger_node.html" target="_blank" rel="noopener">Ms. Bettina Stark-Watzinger&lt;/a> was highly thought-provoking, especially her emphasis on fostering research and development in Germany. These sessions highlight the critical role of science and policy in shaping our future.&lt;/p></description></item><item><title>Participate at the DAAD PRIME Alumni Seminar</title><link>https://albarqouni.github.io/talk/prime2024/</link><pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/prime2024/</guid><description>&lt;p>I was fortunate enough to attend and participate at the DAAD PRIME Alumni Seminar where I had the chance to meet and re-connect with PRIME fellows and a couple of colleagues! We exchanged career paths and trajectories and heard several success stories in both academia and industries. Although I received the
+&lt;a href="https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/prime/prime-fellows-201819/" target="_blank" rel="noopener">PRIME fellowship&lt;/a> 6 years ago, I felt it was just yesterday! Gratfeul to the DAAD for this fellowship and tremendous efforts to reconnect with our fellows!&lt;/p></description></item><item><title>Invited Talk at North American Imaging in MS Cooperative, USA</title><link>https://albarqouni.github.io/talk/aims2024/</link><pubDate>Wed, 11 Sep 2024 17:30:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/aims2024/</guid><description>&lt;p>It is a pleasure to accept the invitation to deliver a talk at the The Artificial Intelligence and Machine-Learning (AIMS) working group of the North American Imaging in MS (NAIMS) Cooperative. I&amp;rsquo;ll present our Nature Machine Intelligence Paper on anomaly detection in MR Brain Imaging which includes MS Lesions.&lt;/p></description></item><item><title>Organzie the Summer School on Affordbale AI (SAAI -- سعي)</title><link>https://albarqouni.github.io/talk/saai2024/</link><pubDate>Mon, 22 Jul 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/saai2024/</guid><description>&lt;p>We have just wrapped up an amazing week at the
+&lt;a href="https://saai2024.github.io/" target="_blank" rel="noopener">Summer School on Affordbale AI (SAAI &amp;ndash; سعي)&lt;/a>.&lt;/p>
+&lt;p>As the curtains close on an unforgettable week in Bonn, we reflect on the enriching experiences shared at the AGYA Summer School on Affordable AI. We were thrilled to host 60 guests, including 35 students from nations across the globe; 🇲🇷 Mauritania, 🇲🇦 Morocco, 🇹🇳 Tunisia, 🇩🇿 Algeria, 🇱🇾 Libya, 🇪🇬 Egypt, 🇵🇸 Palestine, 🇱🇧 Lebanon, 🇯🇴 Jordan, 🇸🇾 Syria, 🇮🇶 Iraq, 🇴🇲 Oman, 🇶🇦 Qatar, 🇰🇼 Kuwait, 🇸🇦Saudi, 🇦🇪 UAE, 🇾🇪 Yemen, 🇰🇲 Comoros, 🇩🇪 Germany, 🇷🇺 Russia, 🇮🇹 Italy, 🇺🇦 Ukraine, 🇫🇷 France, and 🇨🇴 Colombia alongside 15 faculty and AGYA members, and 6 dedicated tutors.&lt;/p>
+&lt;p>🚀 Our diverse participants engaged deeply with innovative AI concepts, learning from esteemed speakers, lecturers, and each other. The collaborative environment fostered not only education but also meaningful connections across cultural lines.&lt;/p>
+&lt;p>🌐 Social events at iconic locations like the Cologne Cathedral, Drachenburg Castle, and the Haus der Geschichte Museum provided fantastic backdrops for our participants to unwind and network, enhancing their cultural and academic experience.&lt;/p>
+&lt;p>Thanks to everyone who made this event a huge success—your enthusiasm and insights have truly shaped this summer school into a beacon of learning and international cooperation.&lt;/p>
+&lt;p>Special Thanks to the Arab-German Young Academy of Sciences and Humanities (AGYA) for the financial support. I would like to thank The University of Bonn, Universitätsklinikum Bonn, Helmholtz AI for the host and financial support as well.&lt;/p></description></item><item><title>Invited Talk at the Summer School for Surgical Data Science</title><link>https://albarqouni.github.io/talk/sds2024/</link><pubDate>Wed, 17 Jul 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/sds2024/</guid><description>&lt;p>Very much enjoyed the time in Strasbourg!&lt;/p>
+&lt;p>Great keynotes and lectures at the
+&lt;a href="https://www.edu4sds.org/" target="_blank" rel="noopener">summer school for surgical data science&lt;/a>. I was fortunate enough to meet a couple of brilliant minds at the school! It was also a pleasure meeting my mentor Prof. Nassir Navab!&lt;/p>
+&lt;p>Thanks for the invitation, organziation and the warm hospitality, Prof. Nicolas Padoy 🙏🙏&lt;/p></description></item><item><title>Research Visit at the University of Sharjah, UAE</title><link>https://albarqouni.github.io/talk/agya202403/</link><pubDate>Sun, 14 Apr 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/agya202403/</guid><description>&lt;p>I have just completed the research visit at the University of Sharjah, NYU Abu Dhabi, and other esteemed universities. This initiative aims to strengthen connections and foster collaboration between German and Emirati academic institutes in the field of health and medical sciences.
+I will soon return to the Emirates to organize a one-day workshop on AI and healthcare at a prestigious academic institute. Stay tuned for more details!&lt;/p></description></item><item><title>Invited Talk at the Okinawa Institute of Science and Technology Graduate University, Japan</title><link>https://albarqouni.github.io/talk/oist2024/</link><pubDate>Fri, 09 Feb 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/oist2024/</guid><description/></item><item><title>Invited to a Panel Discussion on AI in clinical routine at LMU, Munich, Germany</title><link>https://albarqouni.github.io/talk/lmu2024/</link><pubDate>Fri, 19 Jan 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/lmu2024/</guid><description>&lt;p>I was excited to join a distinguished panel, including Prof. Dr. Wolfgang Böcker, Prof. Dr. Clemens Cyran, and Katharina Danhauser, moderated by Claus Belka, to explore AI&amp;rsquo;s readiness for clinical routine. Our discussion spotlighted crucial aspects: the current state of AI in clinics and strategic placement within workflows. Emphasis was placed on robust data governance and addressing development challenges.
 The dialogue highlighted the importance of collaboration with stakeholders, involving regulatory bodies, and prioritizing education and training. Grateful for the opportunity to contribute to this pivotal conversation shaping the future of AI in healthcare.
-Thanks for the invitation, Guillaume Landry!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the Sino-German Symposium on AI in Medicine</title>
-      <link>https://albarqouni.github.io/talk/sinogerman2023/</link>
-      <pubDate>Sat, 11 Nov 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/sinogerman2023/</guid>
-      <description>&lt;p&gt;Very much enjoyed the time in Shanghai!&lt;/p&gt;
-&lt;p&gt;Great keynotes and lectures at the 
-&lt;a href=&#34;https://finance.sina.cn/2023-11-21/detail-imzvkwnk8116163.d.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sino-German Symposium on AI in Medicine&lt;/a&gt;. I was fortunate enough to meet a couple of brilliant minds at the school! It was also a pleasure meeting my mentor Prof. Nassir Navab!&lt;/p&gt;
-&lt;p&gt;Thanks for the invitation, organziation and the warm hospitality, Prof. Kuangyu Shi 🙏🙏&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at German Jordanian University (GIU), Amman, Jordan</title>
-      <link>https://albarqouni.github.io/talk/ieeeembs2023/</link>
-      <pubDate>Thu, 27 Jul 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/ieeeembs2023/</guid>
-      <description>&lt;p&gt;IEEE EMBS Jordan Chapter is pleased to invite faculty, students, fresh graduates, and professionals to attend the (virtual) EMBS Jordan Chapter Distinguished Lecture on Wednesday, July 26th, 2023, 6:00-7:30 PM (Jordan Local Time). This time we have a special guest PROF. Dr. Shadi Albarqouni, Professor of Computational Medical Imaging at the University of Bonn in Bonn, Germany. For registration, use the form below or the QR code. The seminar will take place on the ZOOM platform. Details for how to join the virtual meeting will be sent later for those who confirm their registration.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at DomGen2023 workshop, Warwick, UK</title>
-      <link>https://albarqouni.github.io/talk/domgen2023/</link>
-      <pubDate>Tue, 11 Jul 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/domgen2023/</guid>
-      <description>&lt;p&gt;I very much enjoyed the invited talk at the University of Warwick, United Kingdom! I met students from the UK 🇬🇧 , Korea 🇰🇷 , Iran 🇮🇷 , Pakistan 🇵🇰 , Saudi 🇸🇦 , and Egypt 🇪🇬 ! Incredibly amazing how international that place is!
-The talk was part of the 
-&lt;a href=&#34;https://warwick.ac.uk/fac/cross_fac/tia/domgen2023/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DomGen workshop&lt;/a&gt;. Thank you so much for the invitation and the warm welcome and hospitality, Mostafa Jahanifar and Nasir Rajpoot!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the Workshop on Collaborative Learning: From Theory to Practice</title>
-      <link>https://albarqouni.github.io/talk/mbzuai/</link>
-      <pubDate>Sat, 08 Oct 2022 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/mbzuai/</guid>
-      <description>&lt;p&gt;I had the pleasure to give an invited talk at the #Collaborative Learning workshop at MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! It was a wonderful weekend full of amazing talks and fruitful discussions! I had the pleasure to meet a few familiar faces in our community along with other great speakers from UC Berkeley, Harvard, MIT, KAUST, ETH Zurich, Nvidia, and EPFL, among others. I would like to thank Michael I. Jordan and the organizing team behind the workshop for the invitation and the excellent hospitality! For those who are interested in the talks, they will be made publicly available soon!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Federated disentangled representation learning for unsupervised brain anomaly detection</title>
-      <link>https://albarqouni.github.io/publication/bercea-2022-federated/</link>
-      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/bercea-2022-federated/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Federated Learning</title>
-      <link>https://albarqouni.github.io/codes/federated-learning/</link>
-      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/codes/federated-learning/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://github.com/owkin/FLamby&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic Healthcare Settings&lt;/a&gt;
-Accepted paper at NeurIPS&#39;22&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/tbdair/FedPerlV1.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification&lt;/a&gt;
-Accepted paper at MICCAI&#39;21 and extended to MELBA&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/albarqounilab/FedDis-NMI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation&lt;/a&gt;
-Accepted paper at MICCAI&#39;21 DCL and extended to a journal&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/albarqounilab/FedNorm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FedNorm: Modality-Based Normalization in Federated Learning for Multi-Modal Liver Segmentation&lt;/a&gt;
-Under Review&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organizing a workshop on the Next Generation of AI in Medicine</title>
-      <link>https://albarqouni.github.io/talk/hida2021/</link>
-      <pubDate>Tue, 30 Nov 2021 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/hida2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BigPicture Project</title>
-      <link>https://albarqouni.github.io/funded/bigpicture/</link>
-      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/bigpicture/</guid>
-      <description>&lt;h2 id=&#34;a-new-consortium-of-the-eu-innovative-medicines-initiative-imi-will-establish-the-biggest-database-of-pathology-images-to-accelerate-the-development-of-artificial-intelligence-in-medicine&#34;&gt;A new consortium of the EU Innovative Medicines Initiative (IMI) will establish the biggest database of pathology images to accelerate the development of artificial intelligence in medicine.&lt;/h2&gt;
-&lt;p&gt;To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70 million project called 
-&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt;, will herald a new era in pathology.&lt;/p&gt;
-&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
-&lt;p&gt;Pathology is the cornerstone of the workup of many diseases such as cancer, autoimmune diseases, of the follow up after transplantation and is also critical for the evaluation of the safety of drugs. It’s based on the examination of tissue samples (slides) under the microscope. However, despite its pivotal role, it still relies heavily on the qualitative interpretation by a qualified pathologist.&lt;/p&gt;
-&lt;p&gt;While the microscope symbolizes the profession, the digitalisation of slides in recent years ignited a revolution: not only images can now be shared and accessed from distant locations, they can also be processed by computers. This opens the door for artificial intelligence (AI) applications to assist the pathologist and help study diseases, find better treatments and contribute to the 3Rs (replace, reduce, and refine animal use in research). However, the development of robust AI applications requires large amounts of data, which in the case of pathology means a huge collection of digital slides and the medical data necessary for their interpretation. Sharing these has so far remained challenging due to the data storage capacity required to host a sufficiently large collection and to concerns regarding the confidential character of the medical information.&lt;/p&gt;
-&lt;p&gt;To allow the fast development of AI in pathology, the 
-&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; project aims to create the first European, ethical and GDPR-compliant (General Data Protection Regulation), quality-controlled platform, in which both large-scale data and AI algorithms will coexist. The 
-&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; platform will be developed in a sustainable and inclusive way by connecting communities of pathologists, researchers, AI developers, patients, and industry parties.&lt;/p&gt;
-&lt;h3 id=&#34;tu-munich&#34;&gt;TU Munich&lt;/h3&gt;
-&lt;p&gt;In this project, 
-&lt;a href=&#34;http://campar.in.tum.de/Main/NassirNavab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nassir Navab&lt;/a&gt;, and 
-&lt;a href=&#34;../../#about&#34;&gt;Dr. Shadi Albarqouni&lt;/a&gt; from 
-&lt;a href=&#34;www.tum.de&#34;&gt;TU Munich&lt;/a&gt;, together with 
-&lt;a href=&#34;https://owkin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Owkin&lt;/a&gt; will be leading and contributing to the development of Federated Deep Learning algorithms leveraging massive amounts of data, distributed in multiple sources, in a privacy-preserved fashion. This will enable deep learning models to be trained using sensitive data that cannot be made publicly available due to GPDR or sensitivity, e.g. rare diseases. Please visit the website of 
-&lt;a href=&#34;https://www.bigpicture.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIGPICTURE&lt;/a&gt; for further details.&lt;/p&gt;
-&lt;h3 id=&#34;intended-results&#34;&gt;Intended results&lt;/h3&gt;
-&lt;p&gt;The project is divided into four main aspects that concern the large-scale collection of data. First, an infrastructure (hardware and software) must be created to store, share and process millions of images that can be gigabytes each. Second, legal and ethical constraints must be put in place to ensure adequate usage of data while fully respecting patient’s privacy and data confidentiality. Then, an initial set of 3 million digital slides from humans and laboratory animals will be collected and stored into the repository to provide data for the development of pathology AI tools. Finally, functionalities that aid the use of the database as well as the processing of images for diagnostic and research purposes will be developed.&lt;/p&gt;
-&lt;h3 id=&#34;consortium&#34;&gt;Consortium&lt;/h3&gt;
-&lt;p&gt;BIGPICTURE is a public-private partnership funded by IMI, with representation from academic institutions, small- and medium-sized enterprises (SMEs), public organisations and pharmaceutical companies, together with a large network slide contributing partners. The consortium partners involved in the project are:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Academic institutions:&lt;/strong&gt; Radboud University Medical Center (NL), Linköping University (SE), Leeds Teaching Hospitals NHS Trust (UK), University Medical Centre Utrecht (NL), Uppsala University (SE, ELIXIR node), Haute Ecole Spécialisé de Suisse Occidentale (CH), Technical University Eindhoven (NL), University of Warwick (UK), [Technical University of Munich (DE), Medical University Graz (AT), Institut Pasteur (FR), University of Liege (BE), University of Semmelweis (HU), National Cancer Institute (NL), Region Östergötland (SE), Medical University Vienna (AT), University of Marburg (DE), Helsingin ja Uudenmaan sairaanhoitopiirin kuntayhtymä (FI),&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Pharmaceutical companies:&lt;/strong&gt; Novartis Pharma AG (CH), Janssen Pharmaceutica NV (BE), Bayer AG (DE), Boehringer Ingelheim International GmbH (DE), Novo Nordisk A/S (DK), Pfizer (US), Genentech – Roche (US), Sanofi Aventis recherche et Développement (FR), Institut de Recherches Internationales Servier (FR), and UCB Biopharma SRL (BE).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Other public &amp;amp; private organisations:&lt;/strong&gt; CSC – IT Center for Science Finland (FI, ELIXIR node), Biobanks and biomolecular resources research infrastructure (AT), Azienda Ospedaliera Per L’Emergenza Cannizzaro (IT), Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.(DE), Deutsches Institut für Normung E.V. (DE), European Institute for Innovation through Health Data (BE), European Society of Pathology (BE), Digital pathology association (US), GBG Forschungs Gmbh (DE), ttopstart (NL), Sectra AB (SE), Cytomine SCRLFS (BE), Stichting Lygature (NL), Owkin (FR), Deciphex (IE), MedicalPhit (NL), Timelex (BE),&lt;/p&gt;
-&lt;p&gt;BIGPICTURE starts on 1st February 2021 and will run for 6 years. However, the platform is meant to last, and the consortium will elaborate sustainability plans to maintain and continue to develop the platform beyond this term.&lt;/p&gt;
-&lt;h4 id=&#34;acknowledgment-of-support-and-disclaimer&#34;&gt;Acknowledgment of support and disclaimer&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;This project has received funding from the Innovative Medicines Initiative 2 Joint Undertaking under grant agreement No 945358. This Joint Undertaking receives support from the European Union’s Horizon 2020 research and innovation program and EFPIA.&lt;/em&gt; 
-&lt;a href=&#34;http://www.imi.europe.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;www.imi.europe.eu&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This communication reflects the consortium’s view. Neither IMI nor the European Union or EFPIA are responsible for any use that may be made of the information contained therein.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;EU.png&#34; alt=&#34;EU&#34;&gt; &lt;img src=&#34;EFPIA.png&#34; alt=&#34;EFPIA&#34;&gt; &lt;img src=&#34;IMI.png&#34; alt=&#34;IMI&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;BigPicture.png&#34; alt=&#34;BigPicture&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Federated Disentangled Representation Learning for Unsupervised Brain Anomaly Detection</title>
-      <link>https://albarqouni.github.io/publication/bercea-2021-federated/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/bercea-2021-federated/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification</title>
-      <link>https://albarqouni.github.io/publication/bdair-2021-fedperl/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/bdair-2021-fedperl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Future of Digital Health with Federated Learning</title>
-      <link>https://albarqouni.github.io/publication/rieke-2020-future/</link>
-      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/publication/rieke-2020-future/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/funded/federated-learning/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/funded/federated-learning/</guid>
-      <description>&lt;p&gt;Deep Learning (DL) has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of computer vision and medical applications. However, this success comes at the cost of collecting and processing a massive amount of data, which often are not accessible, in Healthcare, due to privacy issues. Federated Learning (FL) has been recently introduced to allow training DL models without sharing the data. Instead, DL models at local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, share only the trained parameters with a centralized DL model, which is, in return, responsible for updating the local DL models as well.&lt;/p&gt;
-&lt;p&gt;Our golas in this project is to develop novel models and algorithms for a ground-breaking new generation of deep FL, which can distill the knowledge from local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, and edges, &lt;em&gt;i.e.&lt;/em&gt; wearable devices, to provide personalized healthcare services.&lt;/p&gt;
-&lt;p&gt;The principal &lt;strong&gt;challenges&lt;/strong&gt;, to overcome, concern the nature of medical data, namely data heterogeneity; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), inter-/intra-observer variability (noisy annotations), system heterogeneity, and privacy issues (see the example below).&lt;/p&gt;
-&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.helmholtz.de/en/career/careers-at-helmholtz/helmholtz-young-investigator-groups/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz Young Investigator Group&lt;/a&gt; (1.8 Million Euros)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/project/federated-learning/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/project/federated-learning/</guid>
-      <description>&lt;p&gt;Deep Learning (DL) has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of computer vision and medical applications. However, this success comes at the cost of collecting and processing a massive amount of data, which often are not accessible, in Healthcare, due to privacy issues. Federated Learning (FL) has been recently introduced to allow training DL models without sharing the data. Instead, DL models at local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, share only the trained parameters with a centralized DL model, which is, in return, responsible for updating the local DL models as well.&lt;/p&gt;
-&lt;p&gt;Our golas in this project is to develop novel models and algorithms for a ground-breaking new generation of deep FL, which can distill the knowledge from local hubs, &lt;em&gt;i.e.&lt;/em&gt; hospitals, and edges, &lt;em&gt;i.e.&lt;/em&gt; wearable devices, to provide personalized healthcare services.&lt;/p&gt;
-&lt;p&gt;The principal &lt;strong&gt;challenges&lt;/strong&gt;, to overcome, concern the nature of medical data, namely data heterogeneity; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), inter-/intra-observer variability (noisy annotations), system heterogeneity, and privacy issues (see the example below).&lt;/p&gt;
-&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;funding&#34;&gt;Funding:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.helmholtz.de/en/career/careers-at-helmholtz/helmholtz-young-investigator-groups/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz Young Investigator Group&lt;/a&gt; (1.8 Million Euros)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organizing Committee Member at MICCAI DCL 2020</title>
-      <link>https://albarqouni.github.io/talk/dcl2020/</link>
-      <pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/dcl2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/talk/ulm2019/</link>
-      <pubDate>Fri, 17 Jan 2020 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/ulm2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/talk/haicu2019/</link>
-      <pubDate>Mon, 16 Dec 2019 09:30:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/haicu2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/talk/guc2019/</link>
-      <pubDate>Wed, 27 Nov 2019 11:15:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/guc2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/talk/icann2019/</link>
-      <pubDate>Thu, 19 Sep 2019 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/icann2019/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+Thanks for the invitation, Guillaume Landry!&lt;/p></description></item><item><title>Invited Talk at the Sino-German Symposium on AI in Medicine</title><link>https://albarqouni.github.io/talk/sinogerman2023/</link><pubDate>Sat, 11 Nov 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/sinogerman2023/</guid><description>&lt;p>Very much enjoyed the time in Shanghai!&lt;/p>
+&lt;p>Great keynotes and lectures at the
+&lt;a href="https://finance.sina.cn/2023-11-21/detail-imzvkwnk8116163.d.html" target="_blank" rel="noopener">Sino-German Symposium on AI in Medicine&lt;/a>. I was fortunate enough to meet a couple of brilliant minds at the school! It was also a pleasure meeting my mentor Prof. Nassir Navab!&lt;/p>
+&lt;p>Thanks for the invitation, organziation and the warm hospitality, Prof. Kuangyu Shi 🙏🙏&lt;/p></description></item><item><title>Invited Talk at German Jordanian University (GIU), Amman, Jordan</title><link>https://albarqouni.github.io/talk/ieeeembs2023/</link><pubDate>Thu, 27 Jul 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/ieeeembs2023/</guid><description>&lt;p>IEEE EMBS Jordan Chapter is pleased to invite faculty, students, fresh graduates, and professionals to attend the (virtual) EMBS Jordan Chapter Distinguished Lecture on Wednesday, July 26th, 2023, 6:00-7:30 PM (Jordan Local Time). This time we have a special guest PROF. Dr. Shadi Albarqouni, Professor of Computational Medical Imaging at the University of Bonn in Bonn, Germany. For registration, use the form below or the QR code. The seminar will take place on the ZOOM platform. Details for how to join the virtual meeting will be sent later for those who confirm their registration.&lt;/p></description></item><item><title>Invited Talk at DomGen2023 workshop, Warwick, UK</title><link>https://albarqouni.github.io/talk/domgen2023/</link><pubDate>Tue, 11 Jul 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/domgen2023/</guid><description>&lt;p>I very much enjoyed the invited talk at the University of Warwick, United Kingdom! I met students from the UK 🇬🇧 , Korea 🇰🇷 , Iran 🇮🇷 , Pakistan 🇵🇰 , Saudi 🇸🇦 , and Egypt 🇪🇬 ! Incredibly amazing how international that place is!
+The talk was part of the
+&lt;a href="https://warwick.ac.uk/fac/cross_fac/tia/domgen2023/" target="_blank" rel="noopener">DomGen workshop&lt;/a>. Thank you so much for the invitation and the warm welcome and hospitality, Mostafa Jahanifar and Nasir Rajpoot!&lt;/p></description></item><item><title>Invited Talk at the Workshop on Collaborative Learning: From Theory to Practice</title><link>https://albarqouni.github.io/talk/mbzuai/</link><pubDate>Sat, 08 Oct 2022 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/mbzuai/</guid><description>&lt;p>I had the pleasure to give an invited talk at the #Collaborative Learning workshop at MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! It was a wonderful weekend full of amazing talks and fruitful discussions! I had the pleasure to meet a few familiar faces in our community along with other great speakers from UC Berkeley, Harvard, MIT, KAUST, ETH Zurich, Nvidia, and EPFL, among others. I would like to thank Michael I. Jordan and the organizing team behind the workshop for the invitation and the excellent hospitality! For those who are interested in the talks, they will be made publicly available soon!&lt;/p></description></item><item><title>Federated disentangled representation learning for unsupervised brain anomaly detection</title><link>https://albarqouni.github.io/publication/bercea-2022-federated/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/publication/bercea-2022-federated/</guid><description/></item><item><title>Federated Learning</title><link>https://albarqouni.github.io/codes/federated-learning/</link><pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/codes/federated-learning/</guid><description>&lt;p>
+&lt;a href="https://github.com/owkin/FLamby" target="_blank" rel="noopener">Flamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic Healthcare Settings&lt;/a>
+Accepted paper at NeurIPS'22&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/tbdair/FedPerlV1.0" target="_blank" rel="noopener">FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification&lt;/a>
+Accepted paper at MICCAI'21 and extended to MELBA&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/albarqounilab/FedDis-NMI" target="_blank" rel="noopener">FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation&lt;/a>
+Accepted paper at MICCAI'21 DCL and extended to a journal&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/albarqounilab/FedNorm" target="_blank" rel="noopener">FedNorm: Modality-Based Normalization in Federated Learning for Multi-Modal Liver Segmentation&lt;/a>
+Under Review&lt;/p></description></item><item><title>Organizing a workshop on the Next Generation of AI in Medicine</title><link>https://albarqouni.github.io/talk/hida2021/</link><pubDate>Tue, 30 Nov 2021 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/hida2021/</guid><description/></item><item><title>BigPicture Project</title><link>https://albarqouni.github.io/funded/bigpicture/</link><pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/bigpicture/</guid><description>&lt;h2 id="a-new-consortium-of-the-eu-innovative-medicines-initiative-imi-will-establish-the-biggest-database-of-pathology-images-to-accelerate-the-development-of-artificial-intelligence-in-medicine">A new consortium of the EU Innovative Medicines Initiative (IMI) will establish the biggest database of pathology images to accelerate the development of artificial intelligence in medicine.&lt;/h2>
+&lt;p>To take AI development in pathology to the next level, a European consortium combining leading European research centres, hospitals as well as major pharmaceutical industries, is going to develop a repository for the sharing of pathology data. The 6-year, €70 million project called
+&lt;a href="https://www.bigpicture.eu/" target="_blank" rel="noopener">BIGPICTURE&lt;/a>, will herald a new era in pathology.&lt;/p>
+&lt;h3 id="background">Background&lt;/h3>
+&lt;p>Pathology is the cornerstone of the workup of many diseases such as cancer, autoimmune diseases, of the follow up after transplantation and is also critical for the evaluation of the safety of drugs. It’s based on the examination of tissue samples (slides) under the microscope. However, despite its pivotal role, it still relies heavily on the qualitative interpretation by a qualified pathologist.&lt;/p>
+&lt;p>While the microscope symbolizes the profession, the digitalisation of slides in recent years ignited a revolution: not only images can now be shared and accessed from distant locations, they can also be processed by computers. This opens the door for artificial intelligence (AI) applications to assist the pathologist and help study diseases, find better treatments and contribute to the 3Rs (replace, reduce, and refine animal use in research). However, the development of robust AI applications requires large amounts of data, which in the case of pathology means a huge collection of digital slides and the medical data necessary for their interpretation. Sharing these has so far remained challenging due to the data storage capacity required to host a sufficiently large collection and to concerns regarding the confidential character of the medical information.&lt;/p>
+&lt;p>To allow the fast development of AI in pathology, the
+&lt;a href="https://www.bigpicture.eu/" target="_blank" rel="noopener">BIGPICTURE&lt;/a> project aims to create the first European, ethical and GDPR-compliant (General Data Protection Regulation), quality-controlled platform, in which both large-scale data and AI algorithms will coexist. The
+&lt;a href="https://www.bigpicture.eu/" target="_blank" rel="noopener">BIGPICTURE&lt;/a> platform will be developed in a sustainable and inclusive way by connecting communities of pathologists, researchers, AI developers, patients, and industry parties.&lt;/p>
+&lt;h3 id="tu-munich">TU Munich&lt;/h3>
+&lt;p>In this project,
+&lt;a href="http://campar.in.tum.de/Main/NassirNavab" target="_blank" rel="noopener">Prof. Nassir Navab&lt;/a>, and
+&lt;a href="../../#about">Dr. Shadi Albarqouni&lt;/a> from
+&lt;a href="www.tum.de">TU Munich&lt;/a>, together with
+&lt;a href="https://owkin.com/" target="_blank" rel="noopener">Owkin&lt;/a> will be leading and contributing to the development of Federated Deep Learning algorithms leveraging massive amounts of data, distributed in multiple sources, in a privacy-preserved fashion. This will enable deep learning models to be trained using sensitive data that cannot be made publicly available due to GPDR or sensitivity, e.g. rare diseases. Please visit the website of
+&lt;a href="https://www.bigpicture.eu/" target="_blank" rel="noopener">BIGPICTURE&lt;/a> for further details.&lt;/p>
+&lt;h3 id="intended-results">Intended results&lt;/h3>
+&lt;p>The project is divided into four main aspects that concern the large-scale collection of data. First, an infrastructure (hardware and software) must be created to store, share and process millions of images that can be gigabytes each. Second, legal and ethical constraints must be put in place to ensure adequate usage of data while fully respecting patient’s privacy and data confidentiality. Then, an initial set of 3 million digital slides from humans and laboratory animals will be collected and stored into the repository to provide data for the development of pathology AI tools. Finally, functionalities that aid the use of the database as well as the processing of images for diagnostic and research purposes will be developed.&lt;/p>
+&lt;h3 id="consortium">Consortium&lt;/h3>
+&lt;p>BIGPICTURE is a public-private partnership funded by IMI, with representation from academic institutions, small- and medium-sized enterprises (SMEs), public organisations and pharmaceutical companies, together with a large network slide contributing partners. The consortium partners involved in the project are:&lt;/p>
+&lt;p>&lt;strong>Academic institutions:&lt;/strong> Radboud University Medical Center (NL), Linköping University (SE), Leeds Teaching Hospitals NHS Trust (UK), University Medical Centre Utrecht (NL), Uppsala University (SE, ELIXIR node), Haute Ecole Spécialisé de Suisse Occidentale (CH), Technical University Eindhoven (NL), University of Warwick (UK), [Technical University of Munich (DE), Medical University Graz (AT), Institut Pasteur (FR), University of Liege (BE), University of Semmelweis (HU), National Cancer Institute (NL), Region Östergötland (SE), Medical University Vienna (AT), University of Marburg (DE), Helsingin ja Uudenmaan sairaanhoitopiirin kuntayhtymä (FI),&lt;/p>
+&lt;p>&lt;strong>Pharmaceutical companies:&lt;/strong> Novartis Pharma AG (CH), Janssen Pharmaceutica NV (BE), Bayer AG (DE), Boehringer Ingelheim International GmbH (DE), Novo Nordisk A/S (DK), Pfizer (US), Genentech – Roche (US), Sanofi Aventis recherche et Développement (FR), Institut de Recherches Internationales Servier (FR), and UCB Biopharma SRL (BE).&lt;/p>
+&lt;p>&lt;strong>Other public &amp;amp; private organisations:&lt;/strong> CSC – IT Center for Science Finland (FI, ELIXIR node), Biobanks and biomolecular resources research infrastructure (AT), Azienda Ospedaliera Per L’Emergenza Cannizzaro (IT), Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.(DE), Deutsches Institut für Normung E.V. (DE), European Institute for Innovation through Health Data (BE), European Society of Pathology (BE), Digital pathology association (US), GBG Forschungs Gmbh (DE), ttopstart (NL), Sectra AB (SE), Cytomine SCRLFS (BE), Stichting Lygature (NL), Owkin (FR), Deciphex (IE), MedicalPhit (NL), Timelex (BE),&lt;/p>
+&lt;p>BIGPICTURE starts on 1st February 2021 and will run for 6 years. However, the platform is meant to last, and the consortium will elaborate sustainability plans to maintain and continue to develop the platform beyond this term.&lt;/p>
+&lt;h4 id="acknowledgment-of-support-and-disclaimer">Acknowledgment of support and disclaimer&lt;/h4>
+&lt;p>&lt;em>This project has received funding from the Innovative Medicines Initiative 2 Joint Undertaking under grant agreement No 945358. This Joint Undertaking receives support from the European Union’s Horizon 2020 research and innovation program and EFPIA.&lt;/em>
+&lt;a href="http://www.imi.europe.eu" target="_blank" rel="noopener">&lt;em>www.imi.europe.eu&lt;/em>&lt;/a>&lt;/p>
+&lt;p>&lt;em>This communication reflects the consortium’s view. Neither IMI nor the European Union or EFPIA are responsible for any use that may be made of the information contained therein.&lt;/em>&lt;/p>
+&lt;p>&lt;img src="EU.png" alt="EU"> &lt;img src="EFPIA.png" alt="EFPIA"> &lt;img src="IMI.png" alt="IMI">&lt;/p>
+&lt;p>&lt;img src="BigPicture.png" alt="BigPicture">&lt;/p></description></item><item><title>Federated Disentangled Representation Learning for Unsupervised Brain Anomaly Detection</title><link>https://albarqouni.github.io/publication/bercea-2021-federated/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/publication/bercea-2021-federated/</guid><description/></item><item><title>FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification</title><link>https://albarqouni.github.io/publication/bdair-2021-fedperl/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/publication/bdair-2021-fedperl/</guid><description/></item><item><title>The Future of Digital Health with Federated Learning</title><link>https://albarqouni.github.io/publication/rieke-2020-future/</link><pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/publication/rieke-2020-future/</guid><description/></item><item><title>Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/funded/federated-learning/</link><pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/funded/federated-learning/</guid><description>&lt;p>Deep Learning (DL) has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of computer vision and medical applications. However, this success comes at the cost of collecting and processing a massive amount of data, which often are not accessible, in Healthcare, due to privacy issues. Federated Learning (FL) has been recently introduced to allow training DL models without sharing the data. Instead, DL models at local hubs, &lt;em>i.e.&lt;/em> hospitals, share only the trained parameters with a centralized DL model, which is, in return, responsible for updating the local DL models as well.&lt;/p>
+&lt;p>Our golas in this project is to develop novel models and algorithms for a ground-breaking new generation of deep FL, which can distill the knowledge from local hubs, &lt;em>i.e.&lt;/em> hospitals, and edges, &lt;em>i.e.&lt;/em> wearable devices, to provide personalized healthcare services.&lt;/p>
+&lt;p>The principal &lt;strong>challenges&lt;/strong>, to overcome, concern the nature of medical data, namely data heterogeneity; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), inter-/intra-observer variability (noisy annotations), system heterogeneity, and privacy issues (see the example below).&lt;/p>
+&lt;h3 id="collaboration">Collaboration:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h3 id="funding">Funding:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.helmholtz.de/en/career/careers-at-helmholtz/helmholtz-young-investigator-groups/" target="_blank" rel="noopener">Helmholtz Young Investigator Group&lt;/a> (1.8 Million Euros)&lt;/li>
+&lt;/ul></description></item><item><title>Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/project/federated-learning/</link><pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/project/federated-learning/</guid><description>&lt;p>Deep Learning (DL) has emerged as a leading technology for accomplishing many challenging tasks showing outstanding performance in a broad range of computer vision and medical applications. However, this success comes at the cost of collecting and processing a massive amount of data, which often are not accessible, in Healthcare, due to privacy issues. Federated Learning (FL) has been recently introduced to allow training DL models without sharing the data. Instead, DL models at local hubs, &lt;em>i.e.&lt;/em> hospitals, share only the trained parameters with a centralized DL model, which is, in return, responsible for updating the local DL models as well.&lt;/p>
+&lt;p>Our golas in this project is to develop novel models and algorithms for a ground-breaking new generation of deep FL, which can distill the knowledge from local hubs, &lt;em>i.e.&lt;/em> hospitals, and edges, &lt;em>i.e.&lt;/em> wearable devices, to provide personalized healthcare services.&lt;/p>
+&lt;p>The principal &lt;strong>challenges&lt;/strong>, to overcome, concern the nature of medical data, namely data heterogeneity; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), inter-/intra-observer variability (noisy annotations), system heterogeneity, and privacy issues (see the example below).&lt;/p>
+&lt;h3 id="collaboration">Collaboration:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h3 id="funding">Funding:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.helmholtz.de/en/career/careers-at-helmholtz/helmholtz-young-investigator-groups/" target="_blank" rel="noopener">Helmholtz Young Investigator Group&lt;/a> (1.8 Million Euros)&lt;/li>
+&lt;/ul></description></item><item><title>Organizing Committee Member at MICCAI DCL 2020</title><link>https://albarqouni.github.io/talk/dcl2020/</link><pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/dcl2020/</guid><description/></item><item><title>Invited Talk: Towards Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/talk/ulm2019/</link><pubDate>Fri, 17 Jan 2020 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/ulm2019/</guid><description/></item><item><title>Invited Talk: Towards Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/talk/haicu2019/</link><pubDate>Mon, 16 Dec 2019 09:30:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/haicu2019/</guid><description/></item><item><title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/talk/guc2019/</link><pubDate>Wed, 27 Nov 2019 11:15:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/guc2019/</guid><description/></item><item><title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/talk/icann2019/</link><pubDate>Thu, 19 Sep 2019 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/icann2019/</guid><description/></item></channel></rss>

@@ -1,828 +1,275 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Community Engagement | Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/talk/</link>
-      <atom:link href="https://albarqouni.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Community Engagement</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>Community Engagement</title>
-      <link>https://albarqouni.github.io/talk/</link>
-    </image>
-    
-    <item>
-      <title>Participated at the Helmholtz-ELLIS Workshop on Foundation Models in Science</title>
-      <link>https://albarqouni.github.io/talk/helmholtzellisfm/</link>
-      <pubDate>Mon, 17 Mar 2025 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/helmholtzellisfm/</guid>
-      <description>&lt;p&gt;Elodie, David, and Shadi participated at the Helmholtz ELLIS Workshop on Foundation Models which took place in Berlin over two days, bringing together leading researchers and practitioners from academia and industry. The primary focus was to explore the transformative impact of large-scale AI models (\textit{Foundation Models}) across various scientific domains, including medical imaging, astrophysics, tabular data analysis, and beyond.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the German University in Cairo and the American University in Cairo, Egypt</title>
-      <link>https://albarqouni.github.io/talk/guc_auc_cairo2025/</link>
-      <pubDate>Tue, 04 Mar 2025 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/guc_auc_cairo2025/</guid>
-      <description>&lt;p&gt;Just wrapped up two intense and inspiring days in Cairo at the The German University in Cairo and The American University in Cairo (AUC)! 🇪🇬&lt;/p&gt;
-&lt;p&gt;From invited talks and an engaging workshop to thesis defenses and valuable networking events, it was a fantastic opportunity to exchange ideas and connect with brilliant minds.&lt;/p&gt;
-&lt;p&gt;A big thank you to the hosts, Dr. Mohammed A.-Megeed Salem and Dr. Seif Eldawlatly and everyone who made this visit so enriching!&lt;/p&gt;
-&lt;p&gt;Looking forward to future hashtag#collaborations.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organized the Seminar on Artificial Intelligence in Radiology: Applications and Research</title>
-      <link>https://albarqouni.github.io/talk/air_wise2425/</link>
-      <pubDate>Thu, 06 Feb 2025 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/air_wise2425/</guid>
-      <description>&lt;p&gt;We have just concluded the last session of our seminar course on Artificial Intelligence in Radiology: Applications and Research which was offered for our medical students at the Faculty of Medicine, University Hospital Bonn, who were keen on leveraging AI technologies to enhance their medical practice, specifically within diagnostic imaging&amp;quot;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fact Finding Mission to Emirates and Qatar</title>
-      <link>https://albarqouni.github.io/talk/qu2025/</link>
-      <pubDate>Thu, 23 Jan 2025 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/qu2025/</guid>
-      <description>&lt;p&gt;As part of AGYA projects, I have been on a Fact Finding Mission (FFM) to a couple of universities in Emirates and Qatar. I had the pleasure to meet Dr. Henda Mahmoudi from ICBA, Dr. Nisreen Alwan from Abu Dhabi University, and Dr. Mohammed Yaqoubi from MBZUAI in Emirates and Dr. Sami Zaqout, Dr. Susu Zughaier and the dean of the Medical Faculty, Prof. Marwan Abu-Hijleh, at Qatar University in Qatar.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at BioMedIA, MBZUAI, UAE</title>
-      <link>https://albarqouni.github.io/talk/mbzuai2025/</link>
-      <pubDate>Wed, 22 Jan 2025 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/mbzuai2025/</guid>
-      <description>&lt;p&gt;I had the pleasure to give an invited talk at the BioMedIA Lab in MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! I had the pleasure to meet 
-&lt;a href=&#34;https://www.linkedin.com/in/mohammad-yaqub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Mohammad Yaqub&lt;/a&gt;, his group members and a few familiar faces in our community. Thanks, Mohammad!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The lab contributes to the Organizing and Program Committees of MICCAI&#39;25</title>
-      <link>https://albarqouni.github.io/talk/miccai25/</link>
-      <pubDate>Thu, 16 Jan 2025 14:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/miccai25/</guid>
-      <description>&lt;p&gt;The lab is thrilled to contribute to the organization of 
-&lt;a href=&#34;https://conferences.miccai.org/2025/en/default.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MICCAI&#39;25&lt;/a&gt; in Daejon, South Korea. This conference is particularly relevant to the lab&amp;rsquo;s research focus, and we are honored to be part of this journey to advance innovation in AI in Healthcare!&lt;/p&gt;
-&lt;p&gt;Prof. Dr. Shadi Albarqouni is serving on the Outreach Committee, working to foster collaboration and engagement with the community. Dr. Elodie Germani will serve as an Area Chair, participating in managing the scientific review process and ensuring the quality of accepted papers.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Met our partners at Peter MacCallum, Melbourne, Australia</title>
-      <link>https://albarqouni.github.io/talk/melbourne2024/</link>
-      <pubDate>Thu, 19 Dec 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/melbourne2024/</guid>
-      <description>&lt;p&gt;During my recent trip to Melbourne, Australia, supported by the 
-&lt;a href=&#34;https://www.uni-bonn.de/en/research-and-teaching/support-for-researchers-and-teachers/research-funding/university-grants/university-of-melbourne-ref&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bonn Melbourne Research Excellence Fund&lt;/a&gt; from the University of Bonn, I had the pleasure of meeting with the lab members of 
-&lt;a href=&#34;https://www.petermac.org/research/research-programs-and-labs/organogenesis-cancer-program/louise-cheng-labdiscussion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Dr. Louise Cheng&lt;/a&gt; and 
-&lt;a href=&#34;https://www.petermac.org/expert-finder/details/hyun-ko&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Hyun Ko&lt;/a&gt; at the 
-&lt;a href=&#34;https://www.petermac.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter MacCallum Cancer Centre&lt;/a&gt;. The visit provided fascinating insights into their research themes, ranging from studying zebrafish to Drosophila. I was particularly intrigued by the parallels between these model organisms and the human body, as well as the short life cycle of Drosophila, which facilitates the study of diverse behavioral questions such as jet lag and emotional connections.&lt;/p&gt;
-&lt;p&gt;We also explored opportunities for collaboration in areas including pancreatic ductal adenocarcinoma (PDAC), breast cancer, and prostate cancer. This visit builds on the strong ties established during the delegation from Bonn to Melbourne in March 2023 (
-&lt;a href=&#34;https://www.petermac.org/about-us/news-and-events/news/details/collaborating-with-bonn-university-to-improve-patient-outcomes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read more here&lt;/a&gt;), further strengthening the foundation for impactful research collaborations. We have also discussed the closing repoty of our common project on 
-&lt;a href=&#34;https://albarqouni.github.io/funded/bonnmelbourne/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cachexia Cancer&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participated as part of a delegation to the University of St. Andrews in Scotland, UK</title>
-      <link>https://albarqouni.github.io/talk/bonndelegation/</link>
-      <pubDate>Mon, 02 Dec 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/bonndelegation/</guid>
-      <description>&lt;p&gt;As part of a delegation from the Faculty of Medicine of the University of Bonn, I had the privilege to visit the University of St. Andrews in Scotland, aimed at strengthening our partnership and shaping the future of our collaboration. The visit culminated in the signing of a joint vision statement between our medical faculties, reaffirming our shared commitment to advancing medical education and research.&lt;/p&gt;
-&lt;p&gt;This milestone represents a significant step forward in fostering a deeper connection between our institutions, laying the groundwork for impactful initiatives in the years to come. 
-&lt;a href=&#34;https://medicine.st-andrews.ac.uk/news/st-andrews-and-bonn-commit-to-shared-vision-for-medical-education-and-research/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read more about the visit and the shared vision here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Potential Collaboration on organizing a Summer School on AI in Medicine, Tunisia</title>
-      <link>https://albarqouni.github.io/talk/tunis2024/</link>
-      <pubDate>Tue, 26 Nov 2024 10:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/tunis2024/</guid>
-      <description>&lt;p&gt;Last week, I had the privilege of meeting Prof. Dr. Moez CHAFRA, President of the University of Tunis El Manar, and his esteemed colleagues. We had a productive discussion exploring potential collaborations, including the exciting possibility of organizing a Summer School on AI in Medicine in Tunisia, among other initiatives.&lt;/p&gt;
-&lt;p&gt;Excited to see what the future holds—stay tuned for updates!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Lecture at Health Data Science Principles (GD5301) at St. Andrews University, UK</title>
-      <link>https://albarqouni.github.io/talk/standrews/</link>
-      <pubDate>Thu, 21 Nov 2024 10:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/standrews/</guid>
-      <description>&lt;p&gt;I had the pleasure to give a lecture at the 
-&lt;a href=&#34;https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_modulecode=GD5301&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Health Data Science Principles (GD5301)&lt;/a&gt; course offered at St. Andrews University and interact with the briliant students there! Thanks to Prof. 
-&lt;a href=&#34;https://www.st-andrews.ac.uk/medicine/people/sp58/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Silvia Paracchini&lt;/a&gt; from the School of Medicine for the great hospitality!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>David participated at MICAD 2024 in Manchester، UK</title>
-      <link>https://albarqouni.github.io/talk/micad_david_2024/</link>
-      <pubDate>Tue, 19 Nov 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/micad_david_2024/</guid>
-      <description>&lt;p&gt;At MICAD 2024 in Manchester, UK, David presented our research, &lt;em&gt;Deep Learning for Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma.&lt;/em&gt; This study introduces an innovative two-stage deep learning framework to improve the detection of lymph node metastases (LNM) in PDAC. Utilizing 3D CT scans and integrating imaging with clinical features, our model achieves enhanced performance without relying on lymph node segmentation.&lt;/p&gt;
-&lt;p&gt;Our study underscores the significance of combining imaging data with non-imaging clinical attributes, such as tumor size, anatomical location, and CA-19-9 tumor marker levels. The model demonstrated a 35.32% relative improvement in balanced accuracy, highlighting the impact of holistic data integration in LNM detection. Notably, the inclusion of straightforward automated segmentation priors further optimized performance, marking a pivotal step forward in preoperative diagnostics for PDAC.&lt;/p&gt;
-&lt;p&gt;Engaging with the MICAD community gave us a valuable platform to showcase these advancements, fostering discussions on multi-institutional collaboration and addressing challenges like domain shifts and data heterogeneity. The feedback and interest from peers emphasized the relevance of our findings, opening avenues for potential collaborations to refine and expand this work.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Moderator at the MIB Future Panel 2024</title>
-      <link>https://albarqouni.github.io/talk/mib2024/</link>
-      <pubDate>Wed, 06 Nov 2024 09:10:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/mib2024/</guid>
-      <description>&lt;p&gt;It was a pleasure moderating the Symposium on AI in Medicine and sharing our recent works, which have recently been accepted at hashtag#MICAD and hashtag#MICCAI Workshops! Thanks to the team members Sarah Schaab, David D. Gaviria, and Elyes Farjallah for their great efforts! Thanks to the co-moderator Prof. Valentin S. Schäfer, and the organizing team behind the MIB Future Panel; Lisa Mona Marie Senner, Prof. Frank G. Holz, and the dean, Prof. Bernd Weber, among others! Congrats to the winners!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>David participated at the MIB Future Panel in Bonn</title>
-      <link>https://albarqouni.github.io/talk/mib_panel_david/</link>
-      <pubDate>Wed, 06 Nov 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/mib_panel_david/</guid>
-      <description>&lt;p&gt;It was an exciting to present our research on Lymph Node Metastasis Detection in &lt;em&gt;Pancreatic Ductal Adenocarcinoma&lt;/em&gt; at the MIB Future Panel 2024. Hosted by the &lt;em&gt;Medical Imaging Center Bonn&lt;/em&gt; in partnership with &lt;em&gt;Universitätsklinikum Bonn&lt;/em&gt; and the Medical Faculty of &lt;em&gt;Rheinische Friedrich-Wilhelms-Universität Bonn&lt;/em&gt;, this symposium united thought leaders from both academia and industry. The event highlighted the critical importance of multi-center collaborations for the development of robust Computer-Aided Diagnosis (CAD) systems, which are essential for providing radiologists with reliable tools suited for real-world clinical application.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>David participated with a poster presentation at the Student Retreat from BIGS Clinical and Population Science PhD program</title>
-      <link>https://albarqouni.github.io/talk/student_retreat_david/</link>
-      <pubDate>Mon, 04 Nov 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/student_retreat_david/</guid>
-      <description>&lt;p&gt;David participated in the &lt;em&gt;Student Retreat 2024&lt;/em&gt; organized by the BIGS Clinical and Population Science PhD program in Bonn, Germany. This event was an invaluable opportunity to present my research in a poster format, engage with fellow scholars, and exchange scientific knowledge. The retreat provided a platform to receive constructive feedback on my work, expand my network, and enhance my understanding of diverse research topics within clinical and population science.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Elodie attended and presented at the 2024 International Conference on Image Processing (ICIP) in Abu Dhabi, UAE</title>
-      <link>https://albarqouni.github.io/talk/icip2024/</link>
-      <pubDate>Wed, 30 Oct 2024 14:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/icip2024/</guid>
-      <description>&lt;p&gt;Elodie had the chance to attend the 2024 IEEE International Conference on Image Processing in Abu Dhabi, Emirates. She presented her work during an oral session about &lt;em&gt;Medical Image Analysis&lt;/em&gt;. This work was part of her Ph.D. projects and was entitled &lt;em&gt;Uncovering communities of pipelines in the task fMRI analytical space&lt;/em&gt;. In this work, she used graph representations to explore the relationships between fMRI pipelines results and the stability of their relationships across different study contexts. The results were useful to evaluate the &lt;em&gt;potential generalisability and robustness to unseen context&lt;/em&gt; of methods to mitigate analytical variability, for instance, &lt;em&gt;style transfer between statistic maps&lt;/em&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Keynote at the 1st International NEU DESAM Biotechnology Congress in Nicosia</title>
-      <link>https://albarqouni.github.io/talk/desam2024/</link>
-      <pubDate>Fri, 18 Oct 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/desam2024/</guid>
-      <description>&lt;p&gt;I had the pleasure to give a talk at the DESAM Congress at the Near East University in Nicosia. I had the chance to meet and discuss further collaboration with 
-&lt;a href=&#34;https://neu.edu.tr/about-us/management/rectorate/?lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rectorate&lt;/a&gt; reprsented by the rector, Prof. Dr. Tamer ŞANLIDAĞ, vice rector; Prof. Dr. Umut AKSOY, and his advisors; Prof. Dr. Murat SAYAN  and Assoc. Prof. Dr. Dilber UZUN ÖZŞAHİN at the Near East University.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the World Health Summit in Berlin</title>
-      <link>https://albarqouni.github.io/talk/whs2024/</link>
-      <pubDate>Sun, 13 Oct 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/whs2024/</guid>
-      <description>&lt;p&gt;At the World Health Summit, I had the opportunity to participate in key sessions moderated by GLOHRA, such as &amp;ldquo;Stronger Together: Improving Research Partnerships with LMICs,&amp;rdquo; where we heard from influential figures, including parliament members, and sessions like &amp;ldquo;Bridging Policy and Research: Translating the EU Global Health Strategy into Action&amp;rdquo; and &amp;ldquo;Building Success: On the Road to the &amp;lsquo;Nutrition for Growth&amp;rsquo;.&amp;rdquo; A few key takeaways from these discussions included the importance of: i) fostering communication that respects diverse cultures, ii) upholding the 3Es—engagement, equity, and ethics—in our partnerships, and iii) delivering impact and ensuring its sustainability in LMIC research collaborations. Moreover, the focus on nutrition for all, especially through affordable diet programs in LMICs, is critical. Capacity building in nutrition, potentially through AI and technology, also emerged as a vital strategy for driving progress.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</title>
-      <link>https://albarqouni.github.io/talk/miccai2024/</link>
-      <pubDate>Sun, 06 Oct 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/miccai2024/</guid>
-      <description>&lt;p&gt;Despite the difficult circumstances, we are proud to contribute to MICCAI 2024 with the following papers and events:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Our paper on Affordable DL for common and inherited retinal diseases will be presented at the 11th Ophthalmology Image Analysis (OMIA) Workshop on 10th October, AM Session, Cristal Room - Palmeraie Palace. Further details can be found here: 
-&lt;a href=&#34;http://hdmilab.cn/omia11&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://hdmilab.cn/omia11&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;with Elyes Farjallah, Razieh Rezaei, Philipp Herrmann, Sandrine Kuenzel, Frank G. Holz from Universitätsklinikum Bonn, and Said El Shamieh from Beirut Arab University.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Our paper on Leveraging Planning annotations in Adaptive Radiation Therapy will be presented at #CLIP Workshop on 6th October, AM Session, Conference Center.  Further details can be found here: 
-&lt;a href=&#34;https://miccai-clip.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miccai-clip.org/&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;with Francesca De Benetti, Yousef Yaganeh, Claus Belka, Stefanie Corradini, Nassir Navab, Christopher Kurz, Guillaume Landry, and Thomas Wendler&lt;/p&gt;
-&lt;p&gt;Other exciting events during the conference include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;#RISE Networking Event where Nassir Navab will deliver an inspiring talk on the democratization of healthcare (
-&lt;a href=&#34;https://lnkd.in/dM6y89JU%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://lnkd.in/dM6y89JU)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Our 5th workshop on Distributed, Collaborative, and Federated Learning (#DeCaF) &amp;ndash; will be held on 10th October, PM Session (
-&lt;a href=&#34;https://lnkd.in/ex5sQ_ga%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://lnkd.in/ex5sQ_ga)&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;On a personal note, serving as Challenges Co-Chair at #MICCAI2024 has been incredibly difficult, especially with my family being under threat in #Gaza during these troubling times. However, I’ve pushed through, believing that #resilience in the face of adversity will make us stronger.&lt;/p&gt;
-&lt;p&gt;Looking ahead, I’m optimistic about the future and excited for a productive year filled with new achievements. I’m especially looking forward to meeting and interacting with #young #talents at #MICCAI in #Marrakech next week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Lecture for the GLOHRA Academy Series</title>
-      <link>https://albarqouni.github.io/talk/glohra2024_2/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/glohra2024_2/</guid>
-      <description>&lt;p&gt;Join us in our #GLOHRA session on Federated Learning with Medical Imaging! This is quite an important topic nowadays to tackle the data privacy issue while leveraging the collective intelligence we have in multi-national and diverse medical institutes around the globe! It is the way forward to bridge the gap between the global north and global south in medicine and healthcare! This aligns with our recent activities in organizing the 
-&lt;a href=&#34;https://decaf-workshop.github.io/decaf-2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;5th workshop on Collaborative and Federated Learning&lt;/a&gt; which will happen in Morocco in conjunction with MICCAI, and our recent 
-&lt;a href=&#34;https://ieeexplore.ieee.org/document/10169005&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE-TMI Special Issue on Federated Learning&lt;/a&gt;. I am looking forward to meeting you on 1st October!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Keynote at the First Arab Science Symposium in Hannover, Germany</title>
-      <link>https://albarqouni.github.io/talk/dsfg2024/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/dsfg2024/</guid>
-      <description>&lt;p&gt;I am deeply grateful to the organizers of this symposium for bringing together Syrian and Arab scholars in such a meaningful way. It is a privilege to have the opportunity to present on the topic of collective intelligence, highlighting the importance of interdisciplinary research in shaping a better future. Events like these foster collaboration and inspire innovative solutions that transcend boundaries, and I am honored to be a part of it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the Helmholtz Annual Meeting 2024 in Berlin</title>
-      <link>https://albarqouni.github.io/talk/helmholtz2024/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/helmholtz2024/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m truly honored and excited to be invited to participate in the Helmholtz Annual Meeting 2024. I was particularly inspired by the insightful talk on synaptic transmission by Nobel laureate and Stanford Professor 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Thomas_C._S%C3%BCdhof&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Thomas C. Südhof&lt;/a&gt;. His groundbreaking work continues to shape our understanding of neuroscience and opens new doors for innovation in the field. Additionally, the panel discussion led by BMBF Minister 
-&lt;a href=&#34;https://www.bmbf.de/bmbf/de/ueber-uns/die-leitung-des-hauses/bettina-stark-watzinger/bettina-stark-watzinger_node.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ms. Bettina Stark-Watzinger&lt;/a&gt; was highly thought-provoking, especially her emphasis on fostering research and development in Germany. These sessions highlight the critical role of science and policy in shaping our future.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the DAAD PRIME Alumni Seminar</title>
-      <link>https://albarqouni.github.io/talk/prime2024/</link>
-      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/prime2024/</guid>
-      <description>&lt;p&gt;I was fortunate enough to attend and participate at the DAAD PRIME Alumni Seminar where I had the chance to meet and re-connect with PRIME fellows and a couple of colleagues! We exchanged career paths and trajectories and heard several success stories in both academia and industries. Although I received the 
-&lt;a href=&#34;https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/prime/prime-fellows-201819/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PRIME fellowship&lt;/a&gt; 6 years ago, I felt it was just yesterday! Gratfeul to the DAAD for this fellowship and tremendous efforts to reconnect with our fellows!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at North American Imaging in MS Cooperative, USA</title>
-      <link>https://albarqouni.github.io/talk/aims2024/</link>
-      <pubDate>Wed, 11 Sep 2024 17:30:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/aims2024/</guid>
-      <description>&lt;p&gt;It is a pleasure to accept the invitation to deliver a talk at the The Artificial Intelligence and Machine-Learning (AIMS) working group of the North American Imaging in MS (NAIMS) Cooperative. I&amp;rsquo;ll present our Nature Machine Intelligence Paper on anomaly detection in MR Brain Imaging which includes MS Lesions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organzie the Summer School on Affordbale AI (SAAI -- سعي)</title>
-      <link>https://albarqouni.github.io/talk/saai2024/</link>
-      <pubDate>Mon, 22 Jul 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/saai2024/</guid>
-      <description>&lt;p&gt;We have just wrapped up an amazing week at the 
-&lt;a href=&#34;https://saai2024.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Summer School on Affordbale AI (SAAI &amp;ndash; سعي)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As the curtains close on an unforgettable week in Bonn, we reflect on the enriching experiences shared at the AGYA Summer School on Affordable AI. We were thrilled to host 60 guests, including 35 students from nations across the globe; 🇲🇷 Mauritania, 🇲🇦 Morocco, 🇹🇳 Tunisia, 🇩🇿 Algeria, 🇱🇾 Libya, 🇪🇬 Egypt, 🇵🇸 Palestine, 🇱🇧 Lebanon, 🇯🇴 Jordan, 🇸🇾 Syria, 🇮🇶 Iraq, 🇴🇲 Oman, 🇶🇦 Qatar, 🇰🇼 Kuwait, 🇸🇦Saudi, 🇦🇪 UAE, 🇾🇪 Yemen, 🇰🇲 Comoros, 🇩🇪 Germany, 🇷🇺 Russia, 🇮🇹 Italy, 🇺🇦 Ukraine, 🇫🇷 France, and 🇨🇴 Colombia alongside 15 faculty and AGYA members, and 6 dedicated tutors.&lt;/p&gt;
-&lt;p&gt;🚀 Our diverse participants engaged deeply with innovative AI concepts, learning from esteemed speakers, lecturers, and each other. The collaborative environment fostered not only education but also meaningful connections across cultural lines.&lt;/p&gt;
-&lt;p&gt;🌐 Social events at iconic locations like the Cologne Cathedral, Drachenburg Castle, and the Haus der Geschichte Museum provided fantastic backdrops for our participants to unwind and network, enhancing their cultural and academic experience.&lt;/p&gt;
-&lt;p&gt;Thanks to everyone who made this event a huge success—your enthusiasm and insights have truly shaped this summer school into a beacon of learning and international cooperation.&lt;/p&gt;
-&lt;p&gt;Special Thanks to the Arab-German Young Academy of Sciences and Humanities (AGYA) for the financial support. I would like to thank The University of Bonn, Universitätsklinikum Bonn, Helmholtz AI for the host and financial support as well.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>David participated at the SDS Summer School 2024</title>
-      <link>https://albarqouni.github.io/talk/sds_summer_school_david/</link>
-      <pubDate>Wed, 17 Jul 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/sds_summer_school_david/</guid>
-      <description>&lt;p&gt;David had a enriching experience at the SDS Summer School 2023, hosted by the Institut de Chirurgie guidée par l&amp;rsquo;Image (IHU Strasbourg) and Université de Strasbourg. This event showcased the exciting fusion of computer science and surgical data science, offering a platform for exploring the latest advancements in the field.&lt;/p&gt;
-&lt;p&gt;One of the highlights was leading a hands-on session on Federated Learning for Medical Image Analysis alongside Prof. Shadi Albarqouni. This session not only facilitated in-depth discussions among computer science experts but also garnered positive engagement from clinicians, who were keen on understanding the potential of federated learning in enhancing clinical workflows. The experience was both inspiring and immensely rewarding, reinforcing the importance of interdisciplinary collaboration in advancing healthcare technology.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the Summer School for Surgical Data Science</title>
-      <link>https://albarqouni.github.io/talk/sds2024/</link>
-      <pubDate>Wed, 17 Jul 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/sds2024/</guid>
-      <description>&lt;p&gt;Very much enjoyed the time in Strasbourg!&lt;/p&gt;
-&lt;p&gt;Great keynotes and lectures at the 
-&lt;a href=&#34;https://www.edu4sds.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;summer school for surgical data science&lt;/a&gt;. I was fortunate enough to meet a couple of brilliant minds at the school! It was also a pleasure meeting my mentor Prof. Nassir Navab!&lt;/p&gt;
-&lt;p&gt;Thanks for the invitation, organziation and the warm hospitality, Prof. Nicolas Padoy 🙏🙏&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the International Conference on Medical Imaging with Deep Learning (MIDL)</title>
-      <link>https://albarqouni.github.io/talk/midl2024/</link>
-      <pubDate>Wed, 03 Jul 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/midl2024/</guid>
-      <description>&lt;p&gt;Happy to see so many brilliant works at the hashtag#MIDL conference in Paris! It&amp;rsquo;s a fantastic opportunity to connect with colleagues and graduates passionate about medical imaging and deep learning.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Keynote Lecture on AI in Ophthalmology and Pathology</title>
-      <link>https://albarqouni.github.io/talk/eops2024/</link>
-      <pubDate>Sat, 15 Jun 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/eops2024/</guid>
-      <description>&lt;p&gt;I was invited to give a Keynote Lecture on AI in Ophthalmology and Pathology to present a few works on Histopathology; Mitotoc figure detection in Breast Cancer, Domain Adaptation from H&amp;amp;E Imaging to IHC imaging among others. Thanks Prof. Martina C. Herwig-Carl for the invitation and warm hospitality!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the Helmholtz AI Conference, Germany</title>
-      <link>https://albarqouni.github.io/talk/haicu2024/</link>
-      <pubDate>Wed, 12 Jun 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/haicu2024/</guid>
-      <description>&lt;p&gt;We have just participated at the Helmholtz AI conference and presented one of our Helmholtz AI projects!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Attending the general assembly of the Arab German Young Academy</title>
-      <link>https://albarqouni.github.io/talk/agya202404/</link>
-      <pubDate>Mon, 22 Apr 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/agya202404/</guid>
-      <description>&lt;p&gt;I had the pleasure to meet such brilliant scientists from all over the Arab world and Germany in the general assembly of the Arab-German Young Academy of Sciences and Humanities in Berlin!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Research Visit at the University of Sharjah, UAE</title>
-      <link>https://albarqouni.github.io/talk/agya202403/</link>
-      <pubDate>Sun, 14 Apr 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/agya202403/</guid>
-      <description>&lt;p&gt;I have just completed the research visit at the University of Sharjah, NYU Abu Dhabi, and other esteemed universities. This initiative aims to strengthen connections and foster collaboration between German and Emirati academic institutes in the field of health and medical sciences.
-I will soon return to the Emirates to organize a one-day workshop on AI and healthcare at a prestigious academic institute. Stay tuned for more details!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the AGYA Winter School on Quantum Materials</title>
-      <link>https://albarqouni.github.io/talk/agya202402/</link>
-      <pubDate>Mon, 12 Feb 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/agya202402/</guid>
-      <description>&lt;p&gt;It was a pleasure participating at the AGYA Winter School on &amp;lsquo;Quantum Materials for Energy and Environmental Technologies&amp;rsquo; at Sharjah, UAE. The school seamlessly integrates networking opportunities for both Arab and German students, alongside expert presentations focusing on new materials for sustainable energy technologies.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the Okinawa Institute of Science and Technology Graduate University, Japan</title>
-      <link>https://albarqouni.github.io/talk/oist2024/</link>
-      <pubDate>Fri, 09 Feb 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/oist2024/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invited to a Panel Discussion on AI in clinical routine at LMU, Munich, Germany</title>
-      <link>https://albarqouni.github.io/talk/lmu2024/</link>
-      <pubDate>Fri, 19 Jan 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/lmu2024/</guid>
-      <description>&lt;p&gt;I was excited to join a distinguished panel, including Prof. Dr. Wolfgang Böcker, Prof. Dr. Clemens Cyran, and Katharina Danhauser, moderated by Claus Belka, to explore AI&amp;rsquo;s readiness for clinical routine. Our discussion spotlighted crucial aspects: the current state of AI in clinics and strategic placement within workflows. Emphasis was placed on robust data governance and addressing development challenges.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community Engagement | Albarqouni Lab</title><link>https://albarqouni.github.io/talk/</link><atom:link href="https://albarqouni.github.io/talk/index.xml" rel="self" type="application/rss+xml"/><description>Community Engagement</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>Community Engagement</title><link>https://albarqouni.github.io/talk/</link></image><item><title>BONFOR Symposium &amp; Promotionsbörse in Bonn</title><link>https://albarqouni.github.io/talk/bonfor2026/</link><pubDate>Tue, 16 Jun 2026 14:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/bonfor2026/</guid><description>&lt;p>David represented our group at the BONFOR Symposium 2026 in Bonn, taking part in the Promotionsbörse (doctoral thesis fair) organized by the Medical Student Council alongside the symposium at the BMZ I. We have presented the work of the Computational Medical Imaging Research group (Albarqouni AG) at the Clinic for Diagnostic and Interventional Radiology and shared what doing a doctoral thesis with us looks like. It is a great opportunity to connect with the medical students looking for a thesis topic, walk them through our research directions in medical imaging and machine learning, and address their questions about getting started in research.&lt;/p></description></item><item><title>HAICON 2026 – AI for Science Conference</title><link>https://albarqouni.github.io/talk/haicon2026/</link><pubDate>Mon, 08 Jun 2026 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/haicon2026/</guid><description>&lt;p>
+&lt;a href="https://albarqouni.github.io/authors/malek-al-abed/" target="_blank" rel="noopener">Malek&lt;/a> and
+&lt;a href="https://albarqouni.github.io/authors/adea-nesturi/" target="_blank" rel="noopener">Adea&lt;/a> attended the Helmholtz AI conference &amp;ndash; HAICON 2026 &amp;ndash; where they presented posters of the lab&amp;rsquo;s recent accepted papers at ISBI 2026:
+&lt;a href="https://ieeexplore.ieee.org/document/11515815" target="_blank" rel="noopener">MRIQT&lt;/a>, and MICCAI 2026:
+&lt;a href="https://arxiv.org/pdf/2603.06340" target="_blank" rel="noopener">K-MaT&lt;/a> and
+&lt;a href="https://arxiv.org/abs/2603.07163" target="_blank" rel="noopener">PromptGate&lt;/a>. Beyond presenting the posters, Malek and Adea attended hands-on workshops, held during the first day, on &lt;em>Foundation Models&lt;/em>, &lt;em>Causal AI&lt;/em> and &lt;em>Quantum Machine Learning&lt;/em> where the organizers introduced the topics, presented the latest trends and gave tutorials. They participated in the side-coffee networking events, connecting with fellow researchers , engaging in interesting talks about &lt;em>Agentic AI&lt;/em>, &lt;em>Image Analysis&lt;/em> and the use of LLMs for Sciences. The &lt;em>AI World Café&lt;/em> featured speedy group discussions on hot-topics and concerning issues on AI like &lt;em>puplishing in the age of AI&lt;/em>, &lt;em>ML models lifecycle management beyond research&lt;/em> and the &lt;em>next wave of AI&lt;/em>. These interactions are essential for advancing interdisciplinary research and ensuring that scientific innovations can be translated into meaningful real-world impact. Highlights of the conference included keynote talks by
+&lt;a href="https://www.eee.columbia.edu/faculty-staff/directory/pierre-gentine" target="_blank" rel="noopener">Pierre Gentine&lt;/a> (Columbia University),
+&lt;a href="https://www.professoren.tum.de/rueckert-daniel" target="_blank" rel="noopener">Daniel Rückert&lt;/a> (Technical University of Munich), and
+&lt;a href="https://research.google/people/cordeliaschmid/?&amp;amp;type=google" target="_blank" rel="noopener">Cordelia Schmid&lt;/a> (Inria and Google). Their presentations covered AI applications in climate science, medicine, and robotics, respectively, showcasing the breadth of AI-driven innovation and its growing role in advancing scientific research. In the last day, Malek and Adea were invited to the State Reception at the Munich Residenz by the Deputy Bavarian Minister-President Hubert Aiwanger. Minister Aiwanger stressed on the importance of pushing the AI research while holding strong communication between the local community, politicians and scientists for better transparency, trust and economical value.&lt;/p></description></item><item><title>OMI Plenary Meeting in Erlangen</title><link>https://albarqouni.github.io/talk/omi_erlangen_2026/</link><pubDate>Thu, 23 Apr 2026 12:30:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/omi_erlangen_2026/</guid><description>&lt;p>David and Malek attended the OMI Plenary Meeting in Erlangen 2026, where partners from across the consortium gathered to share progress, discuss issues and fixes, and plan the next steps. The meeting hosted at the Digital Health Innovation Platform in Erlangen, featured an outstanding talk by Prof. Bernhard Kainz about the future of AI in healthcare and how OMI can be a great support, not only for researchers, but also a great potential for physcians. The breakout sessions featured intensive and insightful technical discussions, while the individual work package updates demonstrated that all partner sites are progressing according to schedule. A few key takeaways from the two days were: 1) Meeting everyone in person, along with side conversations and open group discussions, led to a deeper understanding of OMI and deepened understanding among partners, 2) key challenges include data and server hosting security, the responsibility and cost of hosting the service and safeguarding the data, and asynchornous updating of the individual components easily break compatibility with other components, 3) despite the regulatory and technical challenges, OMI shows strong potential to enable open yet secure data and knowledge sharing across partners, provided that the necessary security agreements and guarantees are established, 4) the commitment of everyone involved has driven the project to reach, to a large extent, the expected maturity level according to the timeline, allowing actual services to be tested.&lt;/p></description></item><item><title>Our first cohort of the BIGS block course on AI in Medicine</title><link>https://albarqouni.github.io/talk/aim_bigs/</link><pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/aim_bigs/</guid><description/></item><item><title>Three Oral Presentations at ISBI in London</title><link>https://albarqouni.github.io/talk/isbi2026/</link><pubDate>Wed, 08 Apr 2026 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/isbi2026/</guid><description/></item><item><title>Organzie the Symposium on AI in Medicine and Food Sciences</title><link>https://albarqouni.github.io/talk/symposium_daad_sanad/</link><pubDate>Tue, 09 Dec 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/symposium_daad_sanad/</guid><description>&lt;h2 id="sanad-symposium-on-ai-in-medicine--food-sciences">SANAD Symposium on AI in Medicine &amp;amp; Food Sciences&lt;/h2>
+&lt;p>Over the past two days, we had the pleasure of hosting our &lt;strong>SANAD symposium on AI in Medicine and Food Sciences&lt;/strong> within the framework of the &lt;strong>DAAD Ta’ziz project&lt;/strong>, welcoming a delegation from &lt;strong>Tunisia&lt;/strong>, &lt;strong>Lebanon&lt;/strong>, and &lt;strong>Iraq&lt;/strong>.&lt;br>
+Project link:
+&lt;a href="https://albarqouni.github.io/funded/symposium/" target="_blank" rel="noopener">https://albarqouni.github.io/funded/symposium/&lt;/a>&lt;/p>
+&lt;p>The symposium brought together colleagues from &lt;strong>Universitätsklinikum Bonn&lt;/strong>, &lt;strong>The University of Bonn&lt;/strong>, and our partner universities in the MENA region: &lt;strong>Lebanese American University&lt;/strong>, &lt;strong>University of Tunis El Manar&lt;/strong>, and &lt;strong>Duhok Polytechnic University&lt;/strong>. Together, we focused on strengthening &lt;strong>academic cooperation&lt;/strong>, &lt;strong>interdisciplinary exchange&lt;/strong>, and &lt;strong>capacity building&lt;/strong> under the &lt;strong>SANAD&lt;/strong> vision.&lt;/p>
+&lt;p>We extend our gratitude to &lt;strong>Prof. Björn Krüger&lt;/strong> for his excellent keynote, to all speakers and participants for their contributions, and to our dedicated team for their support.&lt;/p>
+&lt;p>Special thanks to &lt;strong>Dr. Ismail Acir&lt;/strong> and his team for co-organizing and hosting the &lt;strong>Food Sciences Day&lt;/strong> with great hospitality.&lt;/p>
+&lt;p>Beyond the academic program, our delegation enjoyed a rich cultural experience — from the &lt;strong>Christmas market in Bonn&lt;/strong> to the &lt;strong>Chocolate Museum&lt;/strong> and the &lt;strong>Cologne Cathedral&lt;/strong>.&lt;/p>
+&lt;p>We look forward to building on these connections and continuing our collaboration.&lt;/p></description></item><item><title>Invited Keynote at the 12th International Conference on Intelligent Computing and Information Systems (ICICIS) in Cairo, Egypt</title><link>https://albarqouni.github.io/talk/icicis2025/</link><pubDate>Tue, 25 Nov 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/icicis2025/</guid><description>&lt;p>I had the pleasure to give a keynote on Leveraging Collective Intelligence for Inclusive Global Healthcare at the 12th International Conference on Intelligent Computing and Information Systems (ICICIS) in Cairo, Egypt. I had the chance to meet and discuss further collaboration with the dean at the Ain Shams University Prof. Dr. Rasha Ismail, Prof. Dr. Hassan Abdalla from East London University, and Prof. Robert Sloan, from University of Illinois Chicago, and Prof. Huan Liu from Arizona Satet University.&lt;/p></description></item><item><title>Contributed to the GLOHRA’s fact-finding mission to Brussels</title><link>https://albarqouni.github.io/talk/glohra_eu_2025/</link><pubDate>Mon, 17 Nov 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/glohra_eu_2025/</guid><description>&lt;p>I recently had the privilege of joining the Steering Committee of the German Alliance for Global Health Research (GLOHRA) in Brussels for a fact-finding mission from &lt;strong>17–20 November 2025&lt;/strong>. Alongside colleagues from diverse research disciplines, we engaged in constructive dialogue with key European institutions and partners to better understand the EU’s policy and funding landscape for global health research. Over three days of meetings, we gained valuable insights into emerging priorities for research funding and the upcoming EU Framework Programme (FP10), identifying new opportunities for collaboration and coordinated action from the research community. This visit not only strengthened our understanding of how global health research can be supported at the EU level but also reinforced our collective commitment to advancing impactful, interdisciplinary research that addresses global health challenges.&lt;/p></description></item><item><title>David participated with an oral presentation at the 10th BIGS Clinical &amp; Population Science Student Retreat</title><link>https://albarqouni.github.io/talk/retreat_david_2025/</link><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/retreat_david_2025/</guid><description>&lt;p>On 27–28 Oct 2025 in Bonn, I attended the 10th BIGS Clinical &amp;amp; Population Science Student Retreat—a focused two-day program across the life sciences that highlighted post-PhD career pathways and the central role of human-in-the-loop AI in healthcare—featuring inspiring keynotes, the EnaCom “Research-to-Use-Case” workshop, and targeted networking.&lt;/p>
+&lt;p>In the oral presentation I showcased our work, “Multi-center Collaboration for Improved Lymph Node Metastasis Detection in PDAC.” Building on [1], commenting on the retrospective multicenter cohort of 652 PDAC patients (391 with lymph-node metastases; 59.97%), with the expanded two German sites—University Medicine Berlin (BER) and University Medical Center Göttingen (GÖT)—to include a more rigorously stress-test our two-stage deep-learning pipeline.&lt;/p>
+&lt;p>[1] David Dueñas Gaviria, Patrick Kupczyk, Belinda Lee, Peter Gibbs, Hyun Ko, Alexander Semaan, and Shadi Albarqouni. Deep learning for lymph node metastasis detection in pancreatic ductal adenocarcinoma. In Ruidan Su, Alejandro F. Frangi, and Yudong Zhang, editors, Proceedings of 2024 International Conference on Medical Imaging and Computer-Aided Diagnosis (MICAD 2024), pages 66–76, Singapore, 2025. Springer Nature Singapore.&lt;/p></description></item><item><title>Organzie the Summer School on Biomedical Imaging with Deep Learning (BiLD)</title><link>https://albarqouni.github.io/talk/bild2025/</link><pubDate>Mon, 01 Sep 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/bild2025/</guid><description>&lt;p>We have just wrapped up an inspiring week of the BILD Summer School 2025 in Tunis, and I could not be more grateful for the people and partnerships that made this possible.&lt;/p>
+&lt;p>A heartfelt thank you to the University of Tunis El Manar, represented by the Rector Prof. Moez CHAFRA and his vice rectors, for their warm welcome and strong support of this initiative. Your presence was an honor and an encouragement to all of us.&lt;/p>
+&lt;p>My sincere gratitude also goes to my co-organizers, Prof. Monia Najar, Bareen Haval, and Prof. Hussein F. HASSAN, PhD, for their trust and collaboration!&lt;/p>
+&lt;p>I would like to thank all the speakers and lecturers, Prof. Nassir Navab, Prof. Vasileios Belagiannis, Prof. Islem Rekik, Prof. Ezzeddine Zagrouba, Prof. Hanene Boussi, and Dr. Narjes Ben ameur, Dr. Aditya Rastogi, Dr. Lara Marie Reimer, Leon Nissen, and Rached Abdelkhalek for their amazing talks and lectures.&lt;/p>
+&lt;p>A special thanks to the tutors: David D. Gaviria, Diletta Chiaro, Ph.D., Elyes Farjallah, Hadil AFFES, and Sarra Guirat for preparing and tutoring a couple of exercises and hands-on sessions during the summer school.&lt;/p>
+&lt;p>Thanks to our participants, who made it from Lebanon, Iraq, Germany (Ulm, Essen, Munich, and Bonn), and multiple cities in Tunisia (Tunis, Bizerte, Sousse, Sfax, and Kebili), for their dedication and curiosity!&lt;/p>
+&lt;p>Each of you contributed your expertise, energy, and enthusiasm, turning this event into a true success story.&lt;/p>
+&lt;p>Highlights of the week:&lt;/p>
+&lt;ul>
+&lt;li>Engaging lectures that bridged theory and real-world applications in biomedical imaging and AI.&lt;/li>
+&lt;li>Hands-on sessions where students trained, tested, and discussed DL models—exploring both the challenges and opportunities of deep learning in medical imaging.&lt;/li>
+&lt;li>Special Hands-on Sessions on MONAI Labels from NVIDIA (Rached Abdelkhalek) and Mobile Medical AI App Development (Lara Marie Reimer and Leon Nissen)&lt;/li>
+&lt;li>Networking events that fostered meaningful connections and future collaborations across countries and disciplines.&lt;/li>
+&lt;/ul>
+&lt;p>This summer school once again underscored the core mission of the
+&lt;a href="../../funded/sanad/">SANAD Project:&lt;/a> knowledge exchange and building sustainable networks.&lt;/p>
+&lt;p>This won&amp;rsquo;t happen without the support of our medical faculty at the Universitätsklinikum Bonn, represented by the Dean, Prof. Bernd Weber, and the DAAD German Academic Exchange Service, with funds from the Auswärtiges Amt (Federal Foreign Office) Germany in Germany.&lt;/p>
+&lt;p>We look forward to seeing the seeds planted in Tunis grow into lasting collaborations and innovations!&lt;/p>
+&lt;p>Interested to learn more about the experience shared by our participants, feel free to visit the testimonials page here:
+&lt;a href="https://lnkd.in/dxVAnG75" target="_blank" rel="noopener">https://lnkd.in/dxVAnG75&lt;/a>.&lt;/p>
+&lt;p>Interested to join us for the upcoming summer/autumn schools, follow our homepage (
+&lt;a href="https://lnkd.in/dEANjkhs" target="_blank" rel="noopener">https://lnkd.in/dEANjkhs&lt;/a>) and LinkedIn
+&lt;a href="https://www.linkedin.com/posts/shadialbarqouni_bild-summer-school-activity-7370733915113848833-p8r_?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAAUGC60B9TGi2p-_iG9RWfbzteoiB8KQy8c" target="_blank" rel="noopener">Post&lt;/a>&lt;/p></description></item><item><title>Participated at the AI for Good Global Summit in Geneva, Switzerland</title><link>https://albarqouni.github.io/talk/ai4good/</link><pubDate>Tue, 08 Jul 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/ai4good/</guid><description>&lt;p>Just returned from my first AI for Good Global Summit in Geneva — an incredible experience!&lt;/p>
+&lt;p>I was especially inspired by the focus on AI in healthcare:&lt;/p>
+&lt;ul>
+&lt;li>Reversing diabetes and Parkinson’s with AI-powered stem cell therapies&lt;/li>
+&lt;li>Real-time, personalized health risk screening using AI&lt;/li>
+&lt;li>Tackling global health inequities with open, responsible, and equitable AI solutions&lt;/li>
+&lt;/ul>
+&lt;p>This summit reminded me that AI is not just about innovation — it&amp;rsquo;s about impact. Excited to keep learning and contributing to this global movement&lt;/p></description></item><item><title>Panelist at Applied Case Studies of AI in Health for WHO EMRO Workshop, Egypt</title><link>https://albarqouni.github.io/talk/whoemro/</link><pubDate>Wed, 02 Jul 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/whoemro/</guid><description>&lt;p>Honored to join an inspiring panel at the WHO EMRO AI Workshop on &lt;strong>Applied Case Studies of AI in Health,&lt;/strong> alongside brilliant colleagues working at the intersection of AI, public health, and policy. I shared insights from our work at the University of Bonn on building trustworthy and equitable AI models for medical imaging—especially in global health settings where data diversity and clinical applicability are key challenges. Grateful for the engaging discussion on how we can ensure that AI innovations serve not just high-resource settings, but also strengthen health systems worldwide&lt;/p></description></item><item><title>Invited Talk at the Andalusian Research Institute in Data Science and Computational Intelligence (DASCI), Spain</title><link>https://albarqouni.github.io/talk/dasci2025/</link><pubDate>Wed, 18 Jun 2025 16:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/dasci2025/</guid><description>&lt;p>I had the pleasure to give a talk on &lt;strong>Leveraging Collective Intelligence for Inclusive Global Healthcare&lt;/strong> at the
+&lt;a href="https://dasci.es/en/" target="_blank" rel="noopener">Andalusian Research Institute in Data Science and Computational Intelligence (DASCI)&lt;/a>! Thanks to Prof.
+&lt;a href="https://dasci.es/investigador/pablo-mesejo-santiago/" target="_blank" rel="noopener">Pablo Mesejo Santiago&lt;/a> for the invitation and great hospitality! The Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI Institute), is a research institute promoted by the universities of Granada (UGR), Jaén (UJA) and Córdoba (UCO).&lt;/p></description></item><item><title>Contributed to the GLOHRA SC Meeting and GLOHRA Day in Berlin, Germany</title><link>https://albarqouni.github.io/talk/glohra2025/</link><pubDate>Thu, 05 Jun 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/glohra2025/</guid><description>&lt;p>At this year’s GLOHRA Steering Committee Meeting and GLOHRA Day, I helped put AI’s real-world value for global health firmly on the agenda. Co-leading the SC round-table with Prof. Charlotte Koehler, I steered debate away from hype toward actionable next steps. Later, at the Bundestag Parliamentary Evening, we participated in an interesting veent on Global Health in LMICs.&lt;/p>
+&lt;p>The next day, Jana Fehr and I ran an “Ask the Community” session to crowd-source how we should measure &lt;strong>impactful AI.&lt;/strong> Participants mapped indicators for health outcomes, equity, and system sustainability, then agreed to co-develop a mixed-methods framework all projects can plug into—so evidence accumulates across diseases and settings. The experience clarified my role as a bridge between data science, health systems, and policy.&lt;/p></description></item><item><title>Poster presentation at Helmholtz AI Conference 2025: AI for Science</title><link>https://albarqouni.github.io/talk/haicon_david_2025/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/haicon_david_2025/</guid><description>&lt;p>From 3–5 June 2025, David attended the Helmholtz AI Conference 2025 (“HAICON25”) at Messe Karlsruhe, Germany. The Helmholtz AI Conference 2025: AI for Science brought together over 600 researchers, industry practitioners, and students from across Europe to explore cutting-edge applications of artificial intelligence in the sciences—featuring inspiring keynotes, focused sessions, poster, and interactive networking events.'&lt;/p>
+&lt;p>Over three days of full-track sessions, I had the opportunity to present and discuss our work on &lt;strong>Multi-center Collaboration for Improved Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma.&lt;/strong> Expanding our previous, with the new retrospective multicenter cohort of 652 PDAC patients (391 with lymph node metastases; 59.97 %), we incorporated two additional German data sources; University Medicine Berlin (BER) and University Medical Center Göttingen (GÖT), providing a more rigorous testbed for our two-stage deep learning framework.&lt;/p>
+&lt;p>While these results underscore the power of combining automated segmentation priors with clinical features for enhanced LNM detection, the center-specific variability also reinforces the necessity of external validation and domain-adaptation strategies to ensure robust, generalizable performance before clinical deployment.&lt;/p>
+&lt;p>David also engaged in interactive formats such as the AI World Café, and the Pitch &amp;amp; Networking Event, and gain new perspectives from other disciplines which sparked cross-disciplinary interest. Overall, HAICON25 provided an valuable forum for exchanging ideas with peers in both academic and industrial AI, and for exploring new partnerships that will drive our research forward. &lt;em>I am already looking forward to next year’s meeting, and to applying the insights gained toward our ongoing projects in medical imaging and beyond.&lt;/em> &amp;ndash; David&lt;/p></description></item><item><title>Participated at the GLOHRA Training on Public Affairs in Berlin, Germany</title><link>https://albarqouni.github.io/talk/glohra_training/</link><pubDate>Wed, 14 May 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/glohra_training/</guid><description>&lt;p>What an amazing two days in Berlin! 🇩🇪 I joined the GLOHRA Steering Committee’s public affairs training, sharpening skills in stakeholder mapping, policy briefs, and advocacy pitches.Great to see GlobalHealth in the Koalitionsvertrag—now let’s 1) cut bureaucracy in funding, 2) use development budgets for research, and 3) build sustainable international partnerships&lt;/p>
+&lt;p>Thanks to Boris Barth, German Alliance for Global Health Research (GLOHRA), and all participants for their insights and enthusiasm!&lt;/p></description></item><item><title>Contributed to the 23rd BONFOR Symposium in Bonn, Germany</title><link>https://albarqouni.github.io/talk/bonfor25/</link><pubDate>Wed, 07 May 2025 14:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/bonfor25/</guid><description>&lt;p>At the 23rd BONFOR Symposium on Wednesday, 7 May 2025, held in the DZNE Lecture Hall at University Hospital Bonn, Albarqouni Lab actively showcased its current research by delivering concise oral presentations during the afternoon’s Doctoral Promotion Fair. Our team highlighted a diverse portfolio of projects—ranging from advanced image‐analysis pipelines to AI-driven diagnostic tools—and outlined potential MD-thesis topics for interested students, fostering in-depth discussions about methodological approaches and future research directions. By engaging directly with medical students, the lab not only raised awareness of its work but also provided guidance on how to embark on cutting-edge thesis projects within our group, thereby strengthening the pipeline of young clinician-scientists&lt;/p></description></item><item><title>Invited Lecture at the Charité – Universitätsmedizin Berlin, Germany</title><link>https://albarqouni.github.io/talk/charite/</link><pubDate>Thu, 10 Apr 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/charite/</guid><description>&lt;p>As an Invited Lecturer for the Digital Health and Artificial Intelligence module at Charité – Universitätsmedizin Berlin’s Institute of International Health, I delivered a focused lecture on deep learning algorithms and their medical applications—highlighting federated learning—and had the privilege of engaging with a diverse, global cohort of brilliant medical professionals from Germany, other European countries and the U.S., Africa, the Eastern Mediterranean Region, Asia, and South America.&lt;/p></description></item><item><title>Invited Talk at the 3rd Symposium on International Pathways to Precision Medicine Symposium (P2M Symposium), Rouen, France</title><link>https://albarqouni.github.io/talk/p2m2025/</link><pubDate>Thu, 03 Apr 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/p2m2025/</guid><description>&lt;p>I had the honor of delivering an invited talk at the p2m Symposium, where I had the opportunity to share my work and connect with distinguished experts in the field. The event was an enriching platform that allowed me to engage directly with thought leaders, including Ellen GRANT from Harvard, Fouad CHEBIB from Mayo Clinic, and Ivana Dabaj from Rouen. I am particularly grateful to the event chairs, Soumaya and Abdellah from Rouen, whose exceptional leadership and support made this gathering truly memorable.&lt;/p></description></item><item><title>Participated at the Helmholtz-ELLIS Workshop on Foundation Models in Science</title><link>https://albarqouni.github.io/talk/helmholtzellisfm/</link><pubDate>Mon, 17 Mar 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/helmholtzellisfm/</guid><description>&lt;p>Elodie, David, and Shadi participated at the Helmholtz ELLIS Workshop on Foundation Models which took place in Berlin over two days, bringing together leading researchers and practitioners from academia and industry. The primary focus was to explore the transformative impact of large-scale AI models (\textit{Foundation Models}) across various scientific domains, including medical imaging, astrophysics, tabular data analysis, and beyond.&lt;/p></description></item><item><title>Invited Talk at the German University in Cairo and the American University in Cairo, Egypt</title><link>https://albarqouni.github.io/talk/guc_auc_cairo2025/</link><pubDate>Tue, 04 Mar 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/guc_auc_cairo2025/</guid><description>&lt;p>Just wrapped up two intense and inspiring days in Cairo at the The German University in Cairo and The American University in Cairo (AUC)! 🇪🇬&lt;/p>
+&lt;p>From invited talks and an engaging workshop to thesis defenses and valuable networking events, it was a fantastic opportunity to exchange ideas and connect with brilliant minds.&lt;/p>
+&lt;p>A big thank you to the hosts, Dr. Mohammed A.-Megeed Salem and Dr. Seif Eldawlatly and everyone who made this visit so enriching!&lt;/p>
+&lt;p>Looking forward to future hashtag#collaborations.&lt;/p></description></item><item><title>Organized the Seminar on Artificial Intelligence in Radiology: Applications and Research</title><link>https://albarqouni.github.io/talk/air_wise2425/</link><pubDate>Thu, 06 Feb 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/air_wise2425/</guid><description>&lt;p>We have just concluded the last session of our seminar course on Artificial Intelligence in Radiology: Applications and Research which was offered for our medical students at the Faculty of Medicine, University Hospital Bonn, who were keen on leveraging AI technologies to enhance their medical practice, specifically within diagnostic imaging&amp;quot;&lt;/p></description></item><item><title>Fact Finding Mission to Emirates and Qatar</title><link>https://albarqouni.github.io/talk/qu2025/</link><pubDate>Thu, 23 Jan 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/qu2025/</guid><description>&lt;p>As part of AGYA projects, I have been on a Fact Finding Mission (FFM) to a couple of universities in Emirates and Qatar. I had the pleasure to meet Dr. Henda Mahmoudi from ICBA, Dr. Nisreen Alwan from Abu Dhabi University, and Dr. Mohammed Yaqoubi from MBZUAI in Emirates and Dr. Sami Zaqout, Dr. Susu Zughaier and the dean of the Medical Faculty, Prof. Marwan Abu-Hijleh, at Qatar University in Qatar.&lt;/p></description></item><item><title>Invited Talk at BioMedIA, MBZUAI, UAE</title><link>https://albarqouni.github.io/talk/mbzuai2025/</link><pubDate>Wed, 22 Jan 2025 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/mbzuai2025/</guid><description>&lt;p>I had the pleasure to give an invited talk at the BioMedIA Lab in MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! I had the pleasure to meet
+&lt;a href="https://www.linkedin.com/in/mohammad-yaqub" target="_blank" rel="noopener">Dr Mohammad Yaqub&lt;/a>, his group members and a few familiar faces in our community. Thanks, Mohammad!&lt;/p></description></item><item><title>The lab contributes to the Organizing and Program Committees of MICCAI'25</title><link>https://albarqouni.github.io/talk/miccai25/</link><pubDate>Thu, 16 Jan 2025 14:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/miccai25/</guid><description>&lt;p>The lab is thrilled to contribute to the organization of
+&lt;a href="https://conferences.miccai.org/2025/en/default.asp" target="_blank" rel="noopener">MICCAI'25&lt;/a> in Daejon, South Korea. This conference is particularly relevant to the lab&amp;rsquo;s research focus, and we are honored to be part of this journey to advance innovation in AI in Healthcare!&lt;/p>
+&lt;p>Prof. Dr. Shadi Albarqouni is serving on the Outreach Committee, working to foster collaboration and engagement with the community. Dr. Elodie Germani will serve as an Area Chair, participating in managing the scientific review process and ensuring the quality of accepted papers.&lt;/p></description></item><item><title>Met our partners at Peter MacCallum, Melbourne, Australia</title><link>https://albarqouni.github.io/talk/melbourne2024/</link><pubDate>Thu, 19 Dec 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/melbourne2024/</guid><description>&lt;p>During my recent trip to Melbourne, Australia, supported by the
+&lt;a href="https://www.uni-bonn.de/en/research-and-teaching/support-for-researchers-and-teachers/research-funding/university-grants/university-of-melbourne-ref" target="_blank" rel="noopener">Bonn Melbourne Research Excellence Fund&lt;/a> from the University of Bonn, I had the pleasure of meeting with the lab members of
+&lt;a href="https://www.petermac.org/research/research-programs-and-labs/organogenesis-cancer-program/louise-cheng-labdiscussion" target="_blank" rel="noopener">Prof. Dr. Louise Cheng&lt;/a> and
+&lt;a href="https://www.petermac.org/expert-finder/details/hyun-ko" target="_blank" rel="noopener">Dr. Hyun Ko&lt;/a> at the
+&lt;a href="https://www.petermac.org/" target="_blank" rel="noopener">Peter MacCallum Cancer Centre&lt;/a>. The visit provided fascinating insights into their research themes, ranging from studying zebrafish to Drosophila. I was particularly intrigued by the parallels between these model organisms and the human body, as well as the short life cycle of Drosophila, which facilitates the study of diverse behavioral questions such as jet lag and emotional connections.&lt;/p>
+&lt;p>We also explored opportunities for collaboration in areas including pancreatic ductal adenocarcinoma (PDAC), breast cancer, and prostate cancer. This visit builds on the strong ties established during the delegation from Bonn to Melbourne in March 2023 (
+&lt;a href="https://www.petermac.org/about-us/news-and-events/news/details/collaborating-with-bonn-university-to-improve-patient-outcomes" target="_blank" rel="noopener">read more here&lt;/a>), further strengthening the foundation for impactful research collaborations. We have also discussed the closing repoty of our common project on
+&lt;a href="https://albarqouni.github.io/funded/bonnmelbourne/" target="_blank" rel="noopener">Cachexia Cancer&lt;/a>.&lt;/p></description></item><item><title>Participated as part of a delegation to the University of St. Andrews in Scotland, UK</title><link>https://albarqouni.github.io/talk/bonndelegation/</link><pubDate>Mon, 02 Dec 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/bonndelegation/</guid><description>&lt;p>As part of a delegation from the Faculty of Medicine of the University of Bonn, I had the privilege to visit the University of St. Andrews in Scotland, aimed at strengthening our partnership and shaping the future of our collaboration. The visit culminated in the signing of a joint vision statement between our medical faculties, reaffirming our shared commitment to advancing medical education and research.&lt;/p>
+&lt;p>This milestone represents a significant step forward in fostering a deeper connection between our institutions, laying the groundwork for impactful initiatives in the years to come.
+&lt;a href="https://medicine.st-andrews.ac.uk/news/st-andrews-and-bonn-commit-to-shared-vision-for-medical-education-and-research/" target="_blank" rel="noopener">Read more about the visit and the shared vision here&lt;/a>.&lt;/p></description></item><item><title>Potential Collaboration on organizing a Summer School on AI in Medicine, Tunisia</title><link>https://albarqouni.github.io/talk/tunis2024/</link><pubDate>Tue, 26 Nov 2024 10:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/tunis2024/</guid><description>&lt;p>Last week, I had the privilege of meeting Prof. Dr. Moez CHAFRA, President of the University of Tunis El Manar, and his esteemed colleagues. We had a productive discussion exploring potential collaborations, including the exciting possibility of organizing a Summer School on AI in Medicine in Tunisia, among other initiatives.&lt;/p>
+&lt;p>Excited to see what the future holds—stay tuned for updates!&lt;/p></description></item><item><title>Invited Lecture at Health Data Science Principles (GD5301) at St. Andrews University, UK</title><link>https://albarqouni.github.io/talk/standrews/</link><pubDate>Thu, 21 Nov 2024 10:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/standrews/</guid><description>&lt;p>I had the pleasure to give a lecture at the
+&lt;a href="https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_modulecode=GD5301" target="_blank" rel="noopener">Health Data Science Principles (GD5301)&lt;/a> course offered at St. Andrews University and interact with the briliant students there! Thanks to Prof.
+&lt;a href="https://www.st-andrews.ac.uk/medicine/people/sp58/" target="_blank" rel="noopener">Silvia Paracchini&lt;/a> from the School of Medicine for the great hospitality!&lt;/p></description></item><item><title>David participated at MICAD 2024 in Manchester، UK</title><link>https://albarqouni.github.io/talk/micad_david_2024/</link><pubDate>Tue, 19 Nov 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/micad_david_2024/</guid><description>&lt;p>At MICAD 2024 in Manchester, UK, David presented our research, &lt;em>Deep Learning for Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma.&lt;/em> This study introduces an innovative two-stage deep learning framework to improve the detection of lymph node metastases (LNM) in PDAC. Utilizing 3D CT scans and integrating imaging with clinical features, our model achieves enhanced performance without relying on lymph node segmentation.&lt;/p>
+&lt;p>Our study underscores the significance of combining imaging data with non-imaging clinical attributes, such as tumor size, anatomical location, and CA-19-9 tumor marker levels. The model demonstrated a 35.32% relative improvement in balanced accuracy, highlighting the impact of holistic data integration in LNM detection. Notably, the inclusion of straightforward automated segmentation priors further optimized performance, marking a pivotal step forward in preoperative diagnostics for PDAC.&lt;/p>
+&lt;p>Engaging with the MICAD community gave us a valuable platform to showcase these advancements, fostering discussions on multi-institutional collaboration and addressing challenges like domain shifts and data heterogeneity. The feedback and interest from peers emphasized the relevance of our findings, opening avenues for potential collaborations to refine and expand this work.&lt;/p></description></item><item><title>Moderator at the MIB Future Panel 2024</title><link>https://albarqouni.github.io/talk/mib2024/</link><pubDate>Wed, 06 Nov 2024 09:10:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/mib2024/</guid><description>&lt;p>It was a pleasure moderating the Symposium on AI in Medicine and sharing our recent works, which have recently been accepted at hashtag#MICAD and hashtag#MICCAI Workshops! Thanks to the team members Sarah Schaab, David D. Gaviria, and Elyes Farjallah for their great efforts! Thanks to the co-moderator Prof. Valentin S. Schäfer, and the organizing team behind the MIB Future Panel; Lisa Mona Marie Senner, Prof. Frank G. Holz, and the dean, Prof. Bernd Weber, among others! Congrats to the winners!&lt;/p></description></item><item><title>David participated at the MIB Future Panel in Bonn</title><link>https://albarqouni.github.io/talk/mib_panel_david/</link><pubDate>Wed, 06 Nov 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/mib_panel_david/</guid><description>&lt;p>It was an exciting to present our research on Lymph Node Metastasis Detection in &lt;em>Pancreatic Ductal Adenocarcinoma&lt;/em> at the MIB Future Panel 2024. Hosted by the &lt;em>Medical Imaging Center Bonn&lt;/em> in partnership with &lt;em>Universitätsklinikum Bonn&lt;/em> and the Medical Faculty of &lt;em>Rheinische Friedrich-Wilhelms-Universität Bonn&lt;/em>, this symposium united thought leaders from both academia and industry. The event highlighted the critical importance of multi-center collaborations for the development of robust Computer-Aided Diagnosis (CAD) systems, which are essential for providing radiologists with reliable tools suited for real-world clinical application.&lt;/p></description></item><item><title>David participated with a poster presentation at the Student Retreat from BIGS Clinical and Population Science PhD program</title><link>https://albarqouni.github.io/talk/student_retreat_david/</link><pubDate>Mon, 04 Nov 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/student_retreat_david/</guid><description>&lt;p>David participated in the &lt;em>Student Retreat 2024&lt;/em> organized by the BIGS Clinical and Population Science PhD program in Bonn, Germany. This event was an invaluable opportunity to present my research in a poster format, engage with fellow scholars, and exchange scientific knowledge. The retreat provided a platform to receive constructive feedback on my work, expand my network, and enhance my understanding of diverse research topics within clinical and population science.&lt;/p></description></item><item><title>Elodie attended and presented at the 2024 International Conference on Image Processing (ICIP) in Abu Dhabi, UAE</title><link>https://albarqouni.github.io/talk/icip2024/</link><pubDate>Wed, 30 Oct 2024 14:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/icip2024/</guid><description>&lt;p>Elodie had the chance to attend the 2024 IEEE International Conference on Image Processing in Abu Dhabi, Emirates. She presented her work during an oral session about &lt;em>Medical Image Analysis&lt;/em>. This work was part of her Ph.D. projects and was entitled &lt;em>Uncovering communities of pipelines in the task fMRI analytical space&lt;/em>. In this work, she used graph representations to explore the relationships between fMRI pipelines results and the stability of their relationships across different study contexts. The results were useful to evaluate the &lt;em>potential generalisability and robustness to unseen context&lt;/em> of methods to mitigate analytical variability, for instance, &lt;em>style transfer between statistic maps&lt;/em>.&lt;/p></description></item><item><title>Invited Keynote at the 1st International NEU DESAM Biotechnology Congress in Nicosia</title><link>https://albarqouni.github.io/talk/desam2024/</link><pubDate>Fri, 18 Oct 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/desam2024/</guid><description>&lt;p>I had the pleasure to give a talk at the DESAM Congress at the Near East University in Nicosia. I had the chance to meet and discuss further collaboration with
+&lt;a href="https://neu.edu.tr/about-us/management/rectorate/?lang=en" target="_blank" rel="noopener">rectorate&lt;/a> reprsented by the rector, Prof. Dr. Tamer ŞANLIDAĞ, vice rector; Prof. Dr. Umut AKSOY, and his advisors; Prof. Dr. Murat SAYAN and Assoc. Prof. Dr. Dilber UZUN ÖZŞAHİN at the Near East University.&lt;/p></description></item><item><title>Participate at the World Health Summit in Berlin</title><link>https://albarqouni.github.io/talk/whs2024/</link><pubDate>Sun, 13 Oct 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/whs2024/</guid><description>&lt;p>At the World Health Summit, I had the opportunity to participate in key sessions moderated by GLOHRA, such as &amp;ldquo;Stronger Together: Improving Research Partnerships with LMICs,&amp;rdquo; where we heard from influential figures, including parliament members, and sessions like &amp;ldquo;Bridging Policy and Research: Translating the EU Global Health Strategy into Action&amp;rdquo; and &amp;ldquo;Building Success: On the Road to the &amp;lsquo;Nutrition for Growth&amp;rsquo;.&amp;rdquo; A few key takeaways from these discussions included the importance of: i) fostering communication that respects diverse cultures, ii) upholding the 3Es—engagement, equity, and ethics—in our partnerships, and iii) delivering impact and ensuring its sustainability in LMIC research collaborations. Moreover, the focus on nutrition for all, especially through affordable diet programs in LMICs, is critical. Capacity building in nutrition, potentially through AI and technology, also emerged as a vital strategy for driving progress.&lt;/p></description></item><item><title>Participate at the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</title><link>https://albarqouni.github.io/talk/miccai2024/</link><pubDate>Sun, 06 Oct 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/miccai2024/</guid><description>&lt;p>Despite the difficult circumstances, we are proud to contribute to MICCAI 2024 with the following papers and events:&lt;/p>
+&lt;ul>
+&lt;li>Our paper on Affordable DL for common and inherited retinal diseases will be presented at the 11th Ophthalmology Image Analysis (OMIA) Workshop on 10th October, AM Session, Cristal Room - Palmeraie Palace. Further details can be found here:
+&lt;a href="http://hdmilab.cn/omia11" target="_blank" rel="noopener">http://hdmilab.cn/omia11&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>with Elyes Farjallah, Razieh Rezaei, Philipp Herrmann, Sandrine Kuenzel, Frank G. Holz from Universitätsklinikum Bonn, and Said El Shamieh from Beirut Arab University.&lt;/p>
+&lt;ul>
+&lt;li>Our paper on Leveraging Planning annotations in Adaptive Radiation Therapy will be presented at #CLIP Workshop on 6th October, AM Session, Conference Center. Further details can be found here:
+&lt;a href="https://miccai-clip.org/" target="_blank" rel="noopener">https://miccai-clip.org/&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>with Francesca De Benetti, Yousef Yaganeh, Claus Belka, Stefanie Corradini, Nassir Navab, Christopher Kurz, Guillaume Landry, and Thomas Wendler&lt;/p>
+&lt;p>Other exciting events during the conference include:&lt;/p>
+&lt;ul>
+&lt;li>#RISE Networking Event where Nassir Navab will deliver an inspiring talk on the democratization of healthcare (
+&lt;a href="https://lnkd.in/dM6y89JU%29" target="_blank" rel="noopener">https://lnkd.in/dM6y89JU)&lt;/a>.&lt;/li>
+&lt;li>Our 5th workshop on Distributed, Collaborative, and Federated Learning (#DeCaF) &amp;ndash; will be held on 10th October, PM Session (
+&lt;a href="https://lnkd.in/ex5sQ_ga%29" target="_blank" rel="noopener">https://lnkd.in/ex5sQ_ga)&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>On a personal note, serving as Challenges Co-Chair at #MICCAI2024 has been incredibly difficult, especially with my family being under threat in #Gaza during these troubling times. However, I’ve pushed through, believing that #resilience in the face of adversity will make us stronger.&lt;/p>
+&lt;p>Looking ahead, I’m optimistic about the future and excited for a productive year filled with new achievements. I’m especially looking forward to meeting and interacting with #young #talents at #MICCAI in #Marrakech next week.&lt;/p></description></item><item><title>Invited Lecture for the GLOHRA Academy Series</title><link>https://albarqouni.github.io/talk/glohra2024_2/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/glohra2024_2/</guid><description>&lt;p>Join us in our #GLOHRA session on Federated Learning with Medical Imaging! This is quite an important topic nowadays to tackle the data privacy issue while leveraging the collective intelligence we have in multi-national and diverse medical institutes around the globe! It is the way forward to bridge the gap between the global north and global south in medicine and healthcare! This aligns with our recent activities in organizing the
+&lt;a href="https://decaf-workshop.github.io/decaf-2024/" target="_blank" rel="noopener">5th workshop on Collaborative and Federated Learning&lt;/a> which will happen in Morocco in conjunction with MICCAI, and our recent
+&lt;a href="https://ieeexplore.ieee.org/document/10169005" target="_blank" rel="noopener">IEEE-TMI Special Issue on Federated Learning&lt;/a>. I am looking forward to meeting you on 1st October!&lt;/p></description></item><item><title>Invited Keynote at the First Arab Science Symposium in Hannover, Germany</title><link>https://albarqouni.github.io/talk/dsfg2024/</link><pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/dsfg2024/</guid><description>&lt;p>I am deeply grateful to the organizers of this symposium for bringing together Syrian and Arab scholars in such a meaningful way. It is a privilege to have the opportunity to present on the topic of collective intelligence, highlighting the importance of interdisciplinary research in shaping a better future. Events like these foster collaboration and inspire innovative solutions that transcend boundaries, and I am honored to be a part of it.&lt;/p></description></item><item><title>Participate at the Helmholtz Annual Meeting 2024 in Berlin</title><link>https://albarqouni.github.io/talk/helmholtz2024/</link><pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/helmholtz2024/</guid><description>&lt;p>I&amp;rsquo;m truly honored and excited to be invited to participate in the Helmholtz Annual Meeting 2024. I was particularly inspired by the insightful talk on synaptic transmission by Nobel laureate and Stanford Professor
+&lt;a href="https://en.wikipedia.org/wiki/Thomas_C._S%C3%BCdhof" target="_blank" rel="noopener">Thomas C. Südhof&lt;/a>. His groundbreaking work continues to shape our understanding of neuroscience and opens new doors for innovation in the field. Additionally, the panel discussion led by BMBF Minister
+&lt;a href="https://www.bmbf.de/bmbf/de/ueber-uns/die-leitung-des-hauses/bettina-stark-watzinger/bettina-stark-watzinger_node.html" target="_blank" rel="noopener">Ms. Bettina Stark-Watzinger&lt;/a> was highly thought-provoking, especially her emphasis on fostering research and development in Germany. These sessions highlight the critical role of science and policy in shaping our future.&lt;/p></description></item><item><title>Participate at the DAAD PRIME Alumni Seminar</title><link>https://albarqouni.github.io/talk/prime2024/</link><pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/prime2024/</guid><description>&lt;p>I was fortunate enough to attend and participate at the DAAD PRIME Alumni Seminar where I had the chance to meet and re-connect with PRIME fellows and a couple of colleagues! We exchanged career paths and trajectories and heard several success stories in both academia and industries. Although I received the
+&lt;a href="https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/prime/prime-fellows-201819/" target="_blank" rel="noopener">PRIME fellowship&lt;/a> 6 years ago, I felt it was just yesterday! Gratfeul to the DAAD for this fellowship and tremendous efforts to reconnect with our fellows!&lt;/p></description></item><item><title>Invited Talk at North American Imaging in MS Cooperative, USA</title><link>https://albarqouni.github.io/talk/aims2024/</link><pubDate>Wed, 11 Sep 2024 17:30:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/aims2024/</guid><description>&lt;p>It is a pleasure to accept the invitation to deliver a talk at the The Artificial Intelligence and Machine-Learning (AIMS) working group of the North American Imaging in MS (NAIMS) Cooperative. I&amp;rsquo;ll present our Nature Machine Intelligence Paper on anomaly detection in MR Brain Imaging which includes MS Lesions.&lt;/p></description></item><item><title>Organzie the Summer School on Affordbale AI (SAAI -- سعي)</title><link>https://albarqouni.github.io/talk/saai2024/</link><pubDate>Mon, 22 Jul 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/saai2024/</guid><description>&lt;p>We have just wrapped up an amazing week at the
+&lt;a href="https://saai2024.github.io/" target="_blank" rel="noopener">Summer School on Affordbale AI (SAAI &amp;ndash; سعي)&lt;/a>.&lt;/p>
+&lt;p>As the curtains close on an unforgettable week in Bonn, we reflect on the enriching experiences shared at the AGYA Summer School on Affordable AI. We were thrilled to host 60 guests, including 35 students from nations across the globe; 🇲🇷 Mauritania, 🇲🇦 Morocco, 🇹🇳 Tunisia, 🇩🇿 Algeria, 🇱🇾 Libya, 🇪🇬 Egypt, 🇵🇸 Palestine, 🇱🇧 Lebanon, 🇯🇴 Jordan, 🇸🇾 Syria, 🇮🇶 Iraq, 🇴🇲 Oman, 🇶🇦 Qatar, 🇰🇼 Kuwait, 🇸🇦Saudi, 🇦🇪 UAE, 🇾🇪 Yemen, 🇰🇲 Comoros, 🇩🇪 Germany, 🇷🇺 Russia, 🇮🇹 Italy, 🇺🇦 Ukraine, 🇫🇷 France, and 🇨🇴 Colombia alongside 15 faculty and AGYA members, and 6 dedicated tutors.&lt;/p>
+&lt;p>🚀 Our diverse participants engaged deeply with innovative AI concepts, learning from esteemed speakers, lecturers, and each other. The collaborative environment fostered not only education but also meaningful connections across cultural lines.&lt;/p>
+&lt;p>🌐 Social events at iconic locations like the Cologne Cathedral, Drachenburg Castle, and the Haus der Geschichte Museum provided fantastic backdrops for our participants to unwind and network, enhancing their cultural and academic experience.&lt;/p>
+&lt;p>Thanks to everyone who made this event a huge success—your enthusiasm and insights have truly shaped this summer school into a beacon of learning and international cooperation.&lt;/p>
+&lt;p>Special Thanks to the Arab-German Young Academy of Sciences and Humanities (AGYA) for the financial support. I would like to thank The University of Bonn, Universitätsklinikum Bonn, Helmholtz AI for the host and financial support as well.&lt;/p></description></item><item><title>David participated at the SDS Summer School 2024</title><link>https://albarqouni.github.io/talk/sds_summer_school_david/</link><pubDate>Wed, 17 Jul 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/sds_summer_school_david/</guid><description>&lt;p>David had a enriching experience at the SDS Summer School 2023, hosted by the Institut de Chirurgie guidée par l&amp;rsquo;Image (IHU Strasbourg) and Université de Strasbourg. This event showcased the exciting fusion of computer science and surgical data science, offering a platform for exploring the latest advancements in the field.&lt;/p>
+&lt;p>One of the highlights was leading a hands-on session on Federated Learning for Medical Image Analysis alongside Prof. Shadi Albarqouni. This session not only facilitated in-depth discussions among computer science experts but also garnered positive engagement from clinicians, who were keen on understanding the potential of federated learning in enhancing clinical workflows. The experience was both inspiring and immensely rewarding, reinforcing the importance of interdisciplinary collaboration in advancing healthcare technology.&lt;/p></description></item><item><title>Invited Talk at the Summer School for Surgical Data Science</title><link>https://albarqouni.github.io/talk/sds2024/</link><pubDate>Wed, 17 Jul 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/sds2024/</guid><description>&lt;p>Very much enjoyed the time in Strasbourg!&lt;/p>
+&lt;p>Great keynotes and lectures at the
+&lt;a href="https://www.edu4sds.org/" target="_blank" rel="noopener">summer school for surgical data science&lt;/a>. I was fortunate enough to meet a couple of brilliant minds at the school! It was also a pleasure meeting my mentor Prof. Nassir Navab!&lt;/p>
+&lt;p>Thanks for the invitation, organziation and the warm hospitality, Prof. Nicolas Padoy 🙏🙏&lt;/p></description></item><item><title>Participate at the International Conference on Medical Imaging with Deep Learning (MIDL)</title><link>https://albarqouni.github.io/talk/midl2024/</link><pubDate>Wed, 03 Jul 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/midl2024/</guid><description>&lt;p>Happy to see so many brilliant works at the hashtag#MIDL conference in Paris! It&amp;rsquo;s a fantastic opportunity to connect with colleagues and graduates passionate about medical imaging and deep learning.&lt;/p></description></item><item><title>Invited Keynote Lecture on AI in Ophthalmology and Pathology</title><link>https://albarqouni.github.io/talk/eops2024/</link><pubDate>Sat, 15 Jun 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/eops2024/</guid><description>&lt;p>I was invited to give a Keynote Lecture on AI in Ophthalmology and Pathology to present a few works on Histopathology; Mitotoc figure detection in Breast Cancer, Domain Adaptation from H&amp;amp;E Imaging to IHC imaging among others. Thanks Prof. Martina C. Herwig-Carl for the invitation and warm hospitality!&lt;/p></description></item><item><title>Participate at the Helmholtz AI Conference, Germany</title><link>https://albarqouni.github.io/talk/haicu2024/</link><pubDate>Wed, 12 Jun 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/haicu2024/</guid><description>&lt;p>We have just participated at the Helmholtz AI conference and presented one of our Helmholtz AI projects!&lt;/p></description></item><item><title>Attending the general assembly of the Arab German Young Academy</title><link>https://albarqouni.github.io/talk/agya202404/</link><pubDate>Mon, 22 Apr 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/agya202404/</guid><description>&lt;p>I had the pleasure to meet such brilliant scientists from all over the Arab world and Germany in the general assembly of the Arab-German Young Academy of Sciences and Humanities in Berlin!&lt;/p></description></item><item><title>Research Visit at the University of Sharjah, UAE</title><link>https://albarqouni.github.io/talk/agya202403/</link><pubDate>Sun, 14 Apr 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/agya202403/</guid><description>&lt;p>I have just completed the research visit at the University of Sharjah, NYU Abu Dhabi, and other esteemed universities. This initiative aims to strengthen connections and foster collaboration between German and Emirati academic institutes in the field of health and medical sciences.
+I will soon return to the Emirates to organize a one-day workshop on AI and healthcare at a prestigious academic institute. Stay tuned for more details!&lt;/p></description></item><item><title>Participate at the AGYA Winter School on Quantum Materials</title><link>https://albarqouni.github.io/talk/agya202402/</link><pubDate>Mon, 12 Feb 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/agya202402/</guid><description>&lt;p>It was a pleasure participating at the AGYA Winter School on &amp;lsquo;Quantum Materials for Energy and Environmental Technologies&amp;rsquo; at Sharjah, UAE. The school seamlessly integrates networking opportunities for both Arab and German students, alongside expert presentations focusing on new materials for sustainable energy technologies.&lt;/p></description></item><item><title>Invited Talk at the Okinawa Institute of Science and Technology Graduate University, Japan</title><link>https://albarqouni.github.io/talk/oist2024/</link><pubDate>Fri, 09 Feb 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/oist2024/</guid><description/></item><item><title>Invited to a Panel Discussion on AI in clinical routine at LMU, Munich, Germany</title><link>https://albarqouni.github.io/talk/lmu2024/</link><pubDate>Fri, 19 Jan 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/lmu2024/</guid><description>&lt;p>I was excited to join a distinguished panel, including Prof. Dr. Wolfgang Böcker, Prof. Dr. Clemens Cyran, and Katharina Danhauser, moderated by Claus Belka, to explore AI&amp;rsquo;s readiness for clinical routine. Our discussion spotlighted crucial aspects: the current state of AI in clinics and strategic placement within workflows. Emphasis was placed on robust data governance and addressing development challenges.
 The dialogue highlighted the importance of collaboration with stakeholders, involving regulatory bodies, and prioritizing education and training. Grateful for the opportunity to contribute to this pivotal conversation shaping the future of AI in healthcare.
-Thanks for the invitation, Guillaume Landry!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organize the Autumn School on AI (EEDA - ايدا)</title>
-      <link>https://albarqouni.github.io/talk/eeda2023/</link>
-      <pubDate>Thu, 14 Dec 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/eeda2023/</guid>
-      <description>&lt;p&gt;Thrilled to share the success of our EEDA Autumn School on AI – a global collaboration between Albarqouni Lab (Germany), Universitätsklinikum Bonn, The University of Bonn, and the Faculty of Health Sciences at Beirut Arab University (Lebanon). Over the weekend, a distinguished  Lebanese delegation from the Beirut Arab University ( BAU), American University of Beirut ( AUB), and Lebanese American University ( LAU) joined us for an immersive program blending cutting-edge AI with diverse disciplines.&lt;/p&gt;
-&lt;p&gt;Bridging Gaps, Fostering Excellence: This initiative, supported by the DAAD German Academic Exchange Service Ta’ziz Short Measures Grant, goes beyond an event – a testament to  global  collaboration.  Empowering minds and breaking barriers, we achieved an 80% female participation rate and a competitive 26% acceptance rate, highlighting our commitment to academic  excellence.&lt;/p&gt;
-&lt;p&gt;International Collaboration in Action: Thanks to  DAAD, the funding from the Auswärtiges Amt (Federal Foreign Office) Germany, and the endorsement of Arab-German Young Academy of Sciences and Humanities (AGYA), the EEDA Autumn School on AI has sparked meaningful collaborations, from curriculum integration to potential joint Master&amp;rsquo;s Programs. We are creating a ripple effect of international cooperation and academic brilliance.&lt;/p&gt;
-&lt;p&gt;Beyond Academia: Our journey surpassed the academic realm, fostering a profound cultural exchange. It&amp;rsquo;s not just about AI; it&amp;rsquo;s about building a global community that values diversity, mutual respect, and inclusive collaboration. The delegation enjoyed the social events from visiting the Christmas Market, Cathedral Kolner Döm, to the Haus der Geschichte.&lt;/p&gt;
-&lt;p&gt;Despite the challenging times, let&amp;rsquo;s continue breaking barriers, fostering innovation, and creating a better, more connected world. The success of this weekend is just the beginning – together, we can rise!&lt;/p&gt;
-&lt;p&gt;Photo credits to Paul Nuhn, Universitätsklinikum Bonn&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the Sino-German Symposium on AI in Medicine</title>
-      <link>https://albarqouni.github.io/talk/sinogerman2023/</link>
-      <pubDate>Sat, 11 Nov 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/sinogerman2023/</guid>
-      <description>&lt;p&gt;Very much enjoyed the time in Shanghai!&lt;/p&gt;
-&lt;p&gt;Great keynotes and lectures at the 
-&lt;a href=&#34;https://finance.sina.cn/2023-11-21/detail-imzvkwnk8116163.d.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sino-German Symposium on AI in Medicine&lt;/a&gt;. I was fortunate enough to meet a couple of brilliant minds at the school! It was also a pleasure meeting my mentor Prof. Nassir Navab!&lt;/p&gt;
-&lt;p&gt;Thanks for the invitation, organziation and the warm hospitality, Prof. Kuangyu Shi 🙏🙏&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</title>
-      <link>https://albarqouni.github.io/talk/miccai2023/</link>
-      <pubDate>Sun, 08 Oct 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/miccai2023/</guid>
-      <description>&lt;p&gt;I stand here, my heart heavy with emotion, as I find myself struggling to focus on the incredible work and learning opportunities at the MICCAI conference in Vancouver, Canada. I hope for the day when we can attend conferences and go about our academic pursuits without the weight of such heart-wrenching events on our minds. Until then, my thoughts and prayers are with my family in Gaza and with all those who yearn for a more peaceful world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>David attended ICCV 2023 in Paris</title>
-      <link>https://albarqouni.github.io/talk/iccv_david_2023/</link>
-      <pubDate>Mon, 02 Oct 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/iccv_david_2023/</guid>
-      <description>&lt;p&gt;David attended the International Conference on Computer Vision (ICCV) 2023 in Paris from October 2–6, 2023. This event brought together leading minds in computer vision and AI from all over the world. It was an incredible experience to immerse myself in the latest developments in the field and gain insight into cutting-edge research.&lt;/p&gt;
-&lt;p&gt;The conference covered a wide range of topics, from foundational deep learning techniques to applications in healthcare, autonomous systems, and beyond. The keynote talks were inspiring, and the technical sessions and poster presentations provided valuable ideas and perspectives. It was a fantastic opportunity to connect with the research community and stay up-to-date with the newest trends shaping computer vision.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate at the International Conference on Computer Vision</title>
-      <link>https://albarqouni.github.io/talk/iccv2023/</link>
-      <pubDate>Mon, 02 Oct 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/iccv2023/</guid>
-      <description>&lt;p&gt;I very much enjoyed the two days at the International Conference on Computer Vision (ICCV) in the lovely Paris 🇫🇷. I met a couple of students, colleagues and friends who are coming from Stanford 🇺🇸, Imperial 🇬🇧, Google and ETH Zurich 🇨🇭, and TU Munich, UniBonn, and University of Potsdam 🇩🇪! We discussed the possibilities of collaboration and exchange that might happen in the future!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at German Jordanian University (GIU), Amman, Jordan</title>
-      <link>https://albarqouni.github.io/talk/ieeeembs2023/</link>
-      <pubDate>Thu, 27 Jul 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/ieeeembs2023/</guid>
-      <description>&lt;p&gt;IEEE EMBS Jordan Chapter is pleased to invite faculty, students, fresh graduates, and professionals to attend the (virtual) EMBS Jordan Chapter Distinguished Lecture on Wednesday, July 26th, 2023, 6:00-7:30 PM (Jordan Local Time). This time we have a special guest PROF. Dr. Shadi Albarqouni, Professor of Computational Medical Imaging at the University of Bonn in Bonn, Germany. For registration, use the form below or the QR code. The seminar will take place on the ZOOM platform. Details for how to join the virtual meeting will be sent later for those who confirm their registration.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at DomGen2023 workshop, Warwick, UK</title>
-      <link>https://albarqouni.github.io/talk/domgen2023/</link>
-      <pubDate>Tue, 11 Jul 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/domgen2023/</guid>
-      <description>&lt;p&gt;I very much enjoyed the invited talk at the University of Warwick, United Kingdom! I met students from the UK 🇬🇧 , Korea 🇰🇷 , Iran 🇮🇷 , Pakistan 🇵🇰 , Saudi 🇸🇦 , and Egypt 🇪🇬 ! Incredibly amazing how international that place is!
-The talk was part of the 
-&lt;a href=&#34;https://warwick.ac.uk/fac/cross_fac/tia/domgen2023/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DomGen workshop&lt;/a&gt;. Thank you so much for the invitation and the warm welcome and hospitality, Mostafa Jahanifar and Nasir Rajpoot!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>David participates at the AI4Health Summer School</title>
-      <link>https://albarqouni.github.io/talk/summer_school_ai4health_david/</link>
-      <pubDate>Sat, 03 Jun 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/summer_school_ai4health_david/</guid>
-      <description>&lt;p&gt;David attended  the AI4Health Summer School 2023, organized collaboratively by the French Health Data Hub and French AI research institutions at PariSanté Campus, was an incredible experience. The program focused on advanced methods in medical AI, covering critical aspects of deep learning for medical imaging. I actively participated in two workshops:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Deep Learning for Medical Image Processing: Exploring innovative techniques for tumor segmentation and detection in whole-body 3D MRIs, focusing on patch-based approaches, denoising, contrast correction, and augmentations.&lt;/li&gt;
-&lt;li&gt;Fed-BioMed Workshop: Examining federated learning approaches tailored for biomedical applications, addressing challenges in privacy-preserving data sharing across institutions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The event was a truly remarkable opportunity to delve deeper into these cutting-edge topics and engage with peers and leaders in medical AI.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fact Finding Mission to the United Arab Emirates</title>
-      <link>https://albarqouni.github.io/talk/agya2023/</link>
-      <pubDate>Sun, 19 Feb 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/agya2023/</guid>
-      <description>&lt;p&gt;Just wrapped up an incredible 72-hour agya fact-finding mission with the brilliant Vice-Presidents and Provosts of top universities in Dubai and Abu Dhabi, UAE. The main goal of our fact-finding mission is to promote the call for membership of the Arab-German Young Academy of Sciences and Humanities (AGYA)!&lt;/p&gt;
-&lt;p&gt;Dr. Nada El Darra and I had the pleasure to meet Vice-President Sultan Al Haji, the Acting Provost Prof. Tim Baldwin at MBZUAI (Mohamed bin Zayed University of Artificial Intelligence), and the Acting Provost and Chief Academic Officer Prof. Michael Allen at Zayed University besides our brilliant colleagues Dr. Rania Dghaim, Dr. Fatme Al Anouti, and Dr. Omar Alfandi.&lt;/p&gt;
-&lt;p&gt;Thanks to our alumna, Dr. Henda Mahmoudi, and her colleagues Nour El Jundi and Evans Kioko, we very much enjoyed the wonderful field trip at International Center for Biosaline Agriculture (ICBA) where we discussed potential interdisciplinary research collaboration on AI and Food Safety!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at 3MT Competition at Beirut Arab University</title>
-      <link>https://albarqouni.github.io/talk/3mt/</link>
-      <pubDate>Fri, 10 Feb 2023 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/3mt/</guid>
-      <description>&lt;p&gt;Today I was privileged to give a keynote speech at the Beirut Arab University in Lebanon 🇱🇧. My talk was about the impact of AI in the field of Medicine and how AI is changing the way healthcare professionals diagnose, treat, and care for hashtag#patients. My presentation included a couple of examples from our hashtag#research on microscopic imaging, but I also looked at a couple of hashtag#startups that are taking this to the next level by transforming healthcare through their hashtag#innovative products. Having a fruitful discussion with the audience was a real pleasure for me! Thanks so much, Dr. Nada El Darra and Dr. Said El Shamieh, for the warm welcome and the invitation 🙏&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fact Finding Mission to Amman, Jordan</title>
-      <link>https://albarqouni.github.io/talk/agya202212/</link>
-      <pubDate>Wed, 21 Dec 2022 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/agya202212/</guid>
-      <description>&lt;p&gt;Just arrived from Amman, Jordan! It was just an amazing trip to Amman where I met our clinical partner King Hussein Cancer Foundation and Center for one of our projects supported by the Arab-German Young Academy of Sciences and Humanities (AGYA)! I was also happy to accept the invitation of my former PhD student, Tariq Bdair, and the head of his department, Dr. Serin Atiani, to deliver a talk at Princess Sumaya University for Technology! I was impressed by the level of their students, indeed! I would like also to thank Dr. Omar Al-Kadi from The University of Jordan for the invited talk and the great hospitality!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Co-Organizer of the Introduction of Bioinformatics to Arab Education System</title>
-      <link>https://albarqouni.github.io/talk/agya202211/</link>
-      <pubDate>Mon, 21 Nov 2022 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/agya202211/</guid>
-      <description>&lt;p&gt;I had the pleasure last week of co-organizing a workshop on Bioinformatics in Tunisia. The workshop was part of the working group activities supported by the Arab-German Young Academy of Sciences and Humanities! We had a great lineup of speakers from Germany/Switzerland and Arab countries! I had the pleasure to know a couple of Arab scholars from Egypt, Lebanon, Algeria, Tunisia, and Sudan.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at the Workshop on Collaborative Learning: From Theory to Practice</title>
-      <link>https://albarqouni.github.io/talk/mbzuai/</link>
-      <pubDate>Sat, 08 Oct 2022 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/mbzuai/</guid>
-      <description>&lt;p&gt;I had the pleasure to give an invited talk at the #Collaborative Learning workshop at MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! It was a wonderful weekend full of amazing talks and fruitful discussions! I had the pleasure to meet a few familiar faces in our community along with other great speakers from UC Berkeley, Harvard, MIT, KAUST, ETH Zurich, Nvidia, and EPFL, among others. I would like to thank Michael I. Jordan and the organizing team behind the workshop for the invitation and the excellent hospitality! For those who are interested in the talks, they will be made publicly available soon!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Invited Talk at AI 4 Imaging</title>
-      <link>https://albarqouni.github.io/talk/ai4i2022/</link>
-      <pubDate>Wed, 29 Jun 2022 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/ai4i2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Attending the general assembly of the Arab German Young Academy</title>
-      <link>https://albarqouni.github.io/talk/agya2022/</link>
-      <pubDate>Thu, 23 Jun 2022 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/agya2022/</guid>
-      <description>&lt;p&gt;I had the pleasure to meet such brilliant scientists from all over the Arab world and Germany in the general assembly of the Arab-German Young Academy of Sciences and Humanities in Berlin!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organizing the 2nd version of the MICCAI Workshop on aFfordable AI and healthcare</title>
-      <link>https://albarqouni.github.io/talk/fair2022/</link>
-      <pubDate>Thu, 23 Jun 2022 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/fair2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Co-Organizing the 10. DFG-#Nachwuchsakademie</title>
-      <link>https://albarqouni.github.io/talk/aim2022/</link>
-      <pubDate>Sun, 23 Jan 2022 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/aim2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Organizing a workshop on the Next Generation of AI in Medicine</title>
-      <link>https://albarqouni.github.io/talk/hida2021/</link>
-      <pubDate>Tue, 30 Nov 2021 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/hida2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Co-Organizing the workshop and training on Improving Job Market Skills of Graduates</title>
-      <link>https://albarqouni.github.io/talk/agya2021/</link>
-      <pubDate>Sun, 19 Sep 2021 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/agya2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Organizing the 1st MICCAI Workshop on aFfordable AI and healthcare</title>
-      <link>https://albarqouni.github.io/talk/fair2021/</link>
-      <pubDate>Wed, 23 Jun 2021 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/fair2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Medium Blog: Journey through COVID-19 RSNA Papers</title>
-      <link>https://albarqouni.github.io/talk/covid19/</link>
-      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/covid19/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Disclaimer: I am neither a radiologist nor a clinician. I am a computer scientist who have been working on medical image computing for a while. I tried to summairze the key findings reported in almost 15 papers published in the Radiology Society in North America (RSNA) in the last two months.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/novel-coronavirus-2019-ncov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Intro about COVID-19&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;ct-imaging-features&#34;&gt;&lt;strong&gt;CT Imaging features&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Key CT findings have been studied and investigated by Guan et al. [10] in a large cohort of 1099 patients with confirmed COVID-19, and Chung et al. [1] in a group of 21 patients infected with COVID-19 in China. Their key results that majority of RT-PCR confirmed patients (some are asymptomatic) show typical CT findings such as the presence of bilateral ground-glass opacities (GGO) and/or consolidation, with a rounded morphology and a peripheral lung distribution (cf. Fig.1). In another cohort of 104 patients, from the cruise ship “Diamond Princess”, Inui et al. [4] have reported similar findings of lung opacities and airway abnormalities in both asymptomatic and symptomatic cases. In addition to the key characteristics of peripheral GGO, Caruso et al. [7] have also observed an association with sub-segmental vessel enlargement (&amp;gt; 3 mm) in his cohort of 158 participants from Italy (cf Fig.2).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*j4iktyLv3cqyIh5LEcwf0A.png&#34; alt=&#34;img&#34;&gt;Fig.1: Image adopted from Chung et al. [1]&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Of 21 patients with the 2019 novel coronavirus, 15 (71%) had involvement of more than two lobes at chest CT, 12 (57%) had ground-glass opacities, seven (33%) had opacities with a rounded morphology, seven (33%) had a peripheral distribution of disease, six (29%) had consolidation with ground-glass opacities, and four (19%) had crazy-paving pattern. [1]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*fnIOZsThw7AR_XrVaiIyXA.png&#34; alt=&#34;img&#34;&gt;Fig.2: Image adopted from Caruso et al. [7]&lt;/p&gt;
-&lt;p&gt;Surprisingly, 14% of the patients (3 out of 21), studied by Chang et al. [1], show negative CT findings in their initial chest CT scan. Follow-up scans, however, show rounded peripheral ground-glass opacity (cf. Fig.3). Xie et al. [3] and Caruso et al. [7] have also reported similar percentages of 4% (7 out of 167), and 3% (2 out of 62), respectively, of their cohorts who show no findings in their CT scans.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*fq3JovfT6QlwCdCg9iaDhA.png&#34; alt=&#34;img&#34;&gt;Fig.3: Image adopted from Chung et al. [1]&lt;/p&gt;
-&lt;p&gt;Contrary, Xie et al. [3] found out that 3% of their cohort (5 out of 167), who had initially negative RT-PCR, show positive Chest CT with similar findings of viral pneumonia reported by Chung et al. [1] (cf Fig.4). A few days later, and after repeated swap tests, the RT-PCR had become positive. This has been. also confirmed in another cohort, reported by Fang et al. [8], where the percentage was around 29% (15 out of 51).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*TUkEdff20eeO6JBAmY7lfA.png&#34; alt=&#34;img&#34;&gt;Fig.4: Adopted from Xie et al. [3]&lt;/p&gt;
-&lt;h3 id=&#34;chest-ct-vs-rt-pcr&#34;&gt;&lt;strong&gt;Chest CT vs. RT-PCR&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Given the aforementioned key characteristics of COVID-19, the low sensitivity of the RT-PCR test (42–71%) [6], and the long mean interval time between the initial negative to positive RT-PCR (5.1 +/- 1.5 days), clinicians and researchers have investigated &lt;strong&gt;whether diagnostic imaging features could be used an alternative to RT-PCR in screening&lt;/strong&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In patients at high risk for 2019-nCoV infection, chest CT evidence of viral pneumonia may precede positive negative RT-PCR test results. [3]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A few recent studies (Ai et al. [6], Caruso et al. [7], Fang et al. [8]) have investigated the correlation of Chest CT findings and RT-PCR test reporting high sensitivity of 97–98% for Chest CT in diagnosing COVID-19. Detailed evaluation metrics against the RT-PCR are reported below. Interestingly, 98% of the patients (56 out of 57), reported by Ai et al. [6], who had initially positive CT findings show positive RT-PCR within 6 days (cf Fig.5). &lt;strong&gt;Such interesting results suggest chest CT could be considered for screening.&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In a series of 51 patients with chest CT and RT-PCR assay performed within 3 days, the sensitivity of CT for COVID-19 infection was 98% compared to RT-PCR sensitivity of 71% (p&amp;lt;.001) [2]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Papers&lt;/th&gt;
-&lt;th&gt;Sample Size&lt;/th&gt;
-&lt;th&gt;Country&lt;/th&gt;
-&lt;th&gt;Sensitivity&lt;/th&gt;
-&lt;th&gt;Specificity&lt;/th&gt;
-&lt;th&gt;Accuracy&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Caruso et al. [7]&lt;/td&gt;
-&lt;td&gt;58&lt;/td&gt;
-&lt;td&gt;Rome, Italy&lt;/td&gt;
-&lt;td&gt;97%&lt;/td&gt;
-&lt;td&gt;56%&lt;/td&gt;
-&lt;td&gt;72%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Ai et al. [6]&lt;/td&gt;
-&lt;td&gt;1014&lt;/td&gt;
-&lt;td&gt;Wuhan, China&lt;/td&gt;
-&lt;td&gt;97%&lt;/td&gt;
-&lt;td&gt;25%&lt;/td&gt;
-&lt;td&gt;68%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Fang et al. [8]&lt;/td&gt;
-&lt;td&gt;51&lt;/td&gt;
-&lt;td&gt;Shanghai, China&lt;/td&gt;
-&lt;td&gt;98%&lt;/td&gt;
-&lt;td&gt;N/A&lt;/td&gt;
-&lt;td&gt;N/A&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*c9DxSwH8gO2Wey-Ml6HfSQ.png&#34; alt=&#34;img&#34;&gt;Fig.5: Adopted from Ai et al. [6]&lt;/p&gt;
-&lt;p&gt;Discrepancy between CT findings and RT-PCR motivated clinicians and researchers to analyze the serial CT findings over time (Wang and Dong et al. [9], Pan et al. [12]) and study the relationship to duration of infection (Bernheim et al. [11]). As reported in their analysis (Fig. 6, 7,8), the appearance of GGO and Consolidations varies over time explaining the discrepancy in the sensitivity. &lt;strong&gt;Both studies suggest, however, pathology quantification might help in the prognosis.&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The extent of CT abnormalities progressed rapidly after the onset of symptoms, peaked around 6–11 days, and followed by persistence of high levels in lung abnormalities. The temporal changes of the diverse CT manifestations followed a specific pattern, which might indicate the progression and recovery of the illness. [7]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*s5erFY4_5HdFSxC5sSI9BQ.png&#34; alt=&#34;img&#34;&gt;Fig. 6: Adopted from Wang and Dong et al. [9]&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Recognizing imaging patterns based on infection time course is paramount for not only understanding the pathophysiology and natural history of infection, but also for helping to predict patient progression and potential complication development. [11]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*kp-Ce1GSU9YDuS14igqnAQ.png&#34; alt=&#34;img&#34;&gt;Fig. 7: Adopted from Bernheim et al. [11]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*GlNXjNXv7oAsm2MBJ1ivCA.png&#34; alt=&#34;img&#34;&gt;Fig.8: Adopted from Pan et al. [12]&lt;/p&gt;
-&lt;h3 id=&#34;chest-x-ray-vs-rt-pcr&#34;&gt;&lt;strong&gt;Chest X-ray vs. RT-PCR&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Given the limited resources, and to minimize the risk of cross-infection [14], and contamination, clinicians and researchers have investigated &lt;strong&gt;whether a readily available diagnostic imaging, namely X-ray, could be used as a first-line triage tool&lt;/strong&gt;, and help in detecting abnormalities associated with COVID-19 in Chest X-rays, in particular, for asymptomatic patients.&lt;/p&gt;
-&lt;p&gt;One of the interesting studies reported by Wong et al. [13] who have studied the appearance of COVID-19 in Chest X-ray, and its correlation with the key findings in the CT scans. Besides, they have investigated  the correlation of Chest X-ray and RT-PCR test.&lt;/p&gt;
-&lt;p&gt;In their cohort of 64 patients from Hong Kong, they observed similar key characteristics, appeared in CT scans, such as bilateral, peripheral ground-glass opacity, and/or consolidations (cf. Fig. 9).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*uJ-h7jvo2RNUD8A-IqO86w.png&#34; alt=&#34;img&#34;&gt;Fig. 9: Adapted from Wong et al. [13]&lt;/p&gt;
-&lt;p&gt;In contrast to the high sensitivity reported for the CT scans, Wong et al. [13] reported a sensitivity of 69% for Chest X-ray, compared to 91% for the initial RT-PCR. The Chest X-ray abnormalities preceded the positive RT-PCR only in 9% (6 out of 64 patients). Examples on the latter scenario are demonstrated in Fig. 10 (A, and B).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*FuB_zAuHcVmnYEmUJkoNdw.png&#34; alt=&#34;img&#34;&gt;Fig. 10: Adapted from Wong et al. [13]&lt;/p&gt;
-&lt;p&gt;The remarkable low sensitivity indicates a high number of False Negative suggesting further investigation of the abnormalities change over time. Fig.11 shows the changes of severity score in Chest X-ray, where the peak score was reported in 10–12 days since symptoms onset.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*8Y0vR85Wue5QMiaEaSz6JQ.png&#34; alt=&#34;img&#34;&gt;Fig.11: Adopted from Wong et al. [13]&lt;/p&gt;
-&lt;p&gt;Surprisingly, 86% of the patients (24 out of 28) who had initial positive Chest X-ray, show positive findings on the CT as well. Whereas only one patient of the rest shows no findings in the Chest X-ray, the CT shows peripheral GOO (cf. Fig.12). &lt;strong&gt;These results suggest Chest X-ray might be helpful in monitoring and prognosis, but not recommended for screening.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*iPWLY7G9dtwRfhrct4NHQw.png&#34; alt=&#34;img&#34;&gt;Fig. 12: Adapted from Wong et al. [13]&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;At this time, CT screening for the detection of COVID-19 is not recommended by most radiological societies. However, we anticipate that the use of CT in clinical management as well as incidental findings potentially attributable to COVID-19 will evolve. [15]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;community-acquired-pneumonia-cap-vs-covid-19&#34;&gt;&lt;strong&gt;Community Acquired Pneumonia (CAP) vs. COVID-19&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;So far, previous studies report high sensitivity in diagnosing COVID-19 from CT scans, however, with remarkable low specificity, e.g. 25%, and 56% in Ai et al. [6], and Caruso et al. [7], respectively. In other words, radiologists might misinterpret the CT scan and diagnose the patient with COVID-19.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;These studies have shown that COVID-19 often produces a CT pattern resembling organizing pneumonia, notably peripheral ground-glass opacities (GGO) and nodular or mass-like GGO that are often bilateral and multilobar (
-&lt;a href=&#34;https://pubs.rsna.org/doi/10.1148/ryct.2020200152#r11&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;11&lt;/a&gt;). However, additional imaging findings have also been reported including linear, curvilinear or perilobular opacities, consolidation, and diffuse GGO, which can mimic several disease processes including other infections, inhalational exposures, and drug toxicities (
-&lt;a href=&#34;https://pubs.rsna.org/doi/10.1148/ryct.2020200152#r12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;12&lt;/a&gt;
-&lt;a href=&#34;https://pubs.rsna.org/doi/10.1148/ryct.2020200152#r15&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;–15&lt;/a&gt;). [15]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;To assess the performance of radiologists in differentiating COVID-19 from other viral infections, Bai and Hsieh et al. [16] collected a cohort of 424 chest CT scans; 52% with positive COVID-19 by RT-PCR test, and 48% with positive Respiratory Pathogen Panel for viral pneumonia. The cohort was blindly reviewed by three radiologists from China, and a subset of 58 patients were reviewed by four radiologists from the US. Overall, their results demonstrate that &lt;strong&gt;radiologists can distinguish COVID-19 from other viral pneumonia with moderate to high sensitivity 67–93%, and high specificity 93–100%.&lt;/strong&gt; Misinterpreted cases show either subtle or atypical findings in their CT scans (cf. Fig. 13). Key differences have been also reported by the radiologists.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Compared to non-COVID-19 pneumonia, COVID-19 pneumonia was more likely to have a peripheral distribution (80% vs. 57%, p&amp;lt;0.001), ground-glass opacity (91% vs. 68%, p&amp;lt;0.001), fine reticular opacity (56% vs. 22%, p&amp;lt;0.001), and vascular thickening (59% vs. 22%, p&amp;lt;0.001), but less likely to have a central+peripheral distribution (14.% vs. 35%, p&amp;lt;0.001), pleural effusion (4.1 vs. 39%, p&amp;lt;0.001) and lymphadenopathy (2.7% vs. 10.2%, p&amp;lt;0.001).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*WWHZpIe7G8OnWhuHjaGIgw.png&#34; alt=&#34;img&#34;&gt;Fig.13:  Adapted from Bai and Hsieh et al. [16]&lt;/p&gt;
-&lt;p&gt;To reduce the reporting variability and uncertainty which might arise due to incidental findings with other viral infections, e.g. influenza-A, Simpson and Kay et al. [15] put together a nice piece of work and suggestions on &lt;strong&gt;standardized CT reporting language of COVID-19, which could be considered as a good reference for structured reporting&lt;/strong&gt;. Examples of suggested reporting languages along with a few chest CT images are demonstrated in Fig. 14–16.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*0oVLldjnqtvz00RHcBHKHw.jpeg&#34; alt=&#34;img&#34;&gt;Fig.14: Adopted from Simpson and Kay et al. [15]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*uhQ09ognFQ3QjGRf8BSoLg.png&#34; alt=&#34;img&#34;&gt;Fig. 15: Adapted from Simpson and Kay et al. [15]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*M5oT2KtuUWOX49RcO45kqg.png&#34; alt=&#34;img&#34;&gt;Fig. 16: Adapted from Simpson and Kay et al. [15]&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Future direction includes development of an artificial intelligence classifier that can further augment radiologist performance in combination with clinical information. [16]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;from-my-point-of-view-ai-has-the-potential-to&#34;&gt;From my point of view, AI has the potential to:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;identify the asymptomatic carriers of COVID-19&lt;/li&gt;
-&lt;li&gt;detect and quantify the abnormalities in serial Chest CT/X-rays scans for prognosis purpose&lt;/li&gt;
-&lt;li&gt;distinguish CAP from COVID-19 using Chest CT scans, and additional clinical information; age, gender, previous disorders, …etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;references&#34;&gt;References:&lt;/h3&gt;
-&lt;p&gt;[1] Chung, M., Bernheim, A., Mei, X., Zhang, N., Huang, M., Zeng, X., Cui, J., Xu, W., Yang, Y., Fayad, Z.A. and Jacobi, A., 2020. CT imaging features of 2019 novel coronavirus (2019-nCoV). &lt;em&gt;Radiology&lt;/em&gt;, &lt;em&gt;295&lt;/em&gt;(1), pp.202–207. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/pdf/10.1148/radiol.2020200230&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[2] Fang, Y., Zhang, H., Xie, J., Lin, M., Ying, L., Pang, P. and Ji, W., 2020. Sensitivity of chest CT for COVID-19: comparison to RT-PCR. &lt;em&gt;Radiology&lt;/em&gt;, p.200432. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/10.1148/radiol.2020200432?fbclid=IwAR2EyI4QVRos1SzZvFCl4oMIY0Da06XMbFW1TRmr4P7g3lLyO634O6tBgFs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[3] Xie, X., Zhong, Z., Zhao, W., Zheng, C., Wang, F. and Liu, J., 2020. Chest CT for typical 2019-nCoV pneumonia: relationship to negative RT-PCR testing. &lt;em&gt;Radiology&lt;/em&gt;, p.200343. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/abs/10.1148/radiol.2020200343&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[4] Inui S, Fujikawa A, Jitsu M, Kunishima N, Watanabe S, Suzuki Y, Umeda S, Uwabe Y. Chest CT findings in cases from the cruise ship “Diamond Princess” with coronavirus disease 2019 (COVID-19). Radiology: Cardiothoracic Imaging. 2020 Mar 17;2(2):e200110. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/full/10.1148/ryct.2020200110&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[5] Simpson, S., Kay, F.U., Abbara, S., Bhalla, S., Chung, J.H., Chung, M., Henry, T.S., Kanne, J.P., Kligerman, S., Ko, J.P. and Litt, H., 2020. Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Endorsed by the Society of Thoracic Radiology, the American College of Radiology, and RSNA. &lt;em&gt;Radiology: Cardiothoracic Imaging&lt;/em&gt;, &lt;em&gt;2&lt;/em&gt;(2), p.e200152. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/10.1148/ryct.2020200152&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[6] Ai, T., Yang, Z., Hou, H., Zhan, C., Chen, C., Lv, W., Tao, Q., Sun, Z. and Xia, L., 2020. Correlation of chest CT and RT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases. &lt;em&gt;Radiology&lt;/em&gt;, p.200642. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/abs/10.1148/radiol.2020200642&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[7] Caruso, D., Zerunian, M., Polici, M., Pucciarelli, F., Polidori, T., Rucci, C., Guido, G., Bracci, B., de Dominicis, C. and Laghi, A., 2020. Chest CT features of COVID-19 in Rome, Italy. &lt;em&gt;Radiology&lt;/em&gt;, p.201237. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/full/10.1148/radiol.2020201237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[8] Fang, Y., Zhang, H., Xie, J., Lin, M., Ying, L., Pang, P. and Ji, W., 2020. Sensitivity of chest CT for COVID-19: comparison to RT-PCR. &lt;em&gt;Radiology&lt;/em&gt;, p.200432. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/full/10.1148/radiol.2020200432&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[9] Wang, Y., Dong, C., Hu, Y., Li, C., Ren, Q., Zhang, X., Shi, H. and Zhou, M., 2020. Temporal changes of CT findings in 90 patients with COVID-19 pneumonia: a longitudinal study. &lt;em&gt;Radiology&lt;/em&gt;, p.200843. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/full/10.1148/radiol.2020200843&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[10] Guan, W.J., Ni, Z.Y., Hu, Y., Liang, W.H., Ou, C.Q., He, J.X., Liu, L., Shan, H., Lei, C.L., Hui, D.S. and Du, B., 2020. Clinical characteristics of coronavirus disease 2019 in China. &lt;em&gt;New England Journal of Medicine&lt;/em&gt;. (
-&lt;a href=&#34;https://www.nejm.org/doi/full/10.1056/NEJMoa2002032&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[11] Bernheim, A., Mei, X., Huang, M., Yang, Y., Fayad, Z.A., Zhang, N., Diao, K., Lin, B., Zhu, X., Li, K. and Li, S., 2020. Chest CT findings in coronavirus disease-19 (COVID-19): relationship to duration of infection. &lt;em&gt;Radiology&lt;/em&gt;, p.200463. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/full/10.1148/radiol.2020200463&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[12] Pan, F., Ye, T., Sun, P., Gui, S., Liang, B., Li, L., Zheng, D., Wang, J., Hesketh, R.L., Yang, L. and Zheng, C., 2020. Time course of lung changes on chest CT during recovery from 2019 novel coronavirus (COVID-19) pneumonia. &lt;em&gt;Radiology&lt;/em&gt;, p.200370. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/pdf/10.1148/radiol.2020200370&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[13] Wong, H.Y.F., Lam, H.Y.S., Fong, A.H.T., Leung, S.T., Chin, T.W.Y., Lo, C.S.Y., Lui, M.M.S., Lee, J.C.Y., Chiu, K.W.H., Chung, T. and Lee, E.Y.P., 2020. Frequency and distribution of chest radiographic findings in COVID-19 positive patients. &lt;em&gt;Radiology&lt;/em&gt;, p.201160. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/10.1148/radiol.2020201160&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[14] American College of Radiology, 2020. ACR recommendations for the use of chest radiography and computed tomography (CT) for suspected COVID-19 infection. 
-&lt;a href=&#34;https://www.acr.org/Advocacy-and-Economics/ACR-Position-Statements/Recommendations-for-Chest-Radiography-and-CT-for-Suspected-COVID19-Infection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;ACR website&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;[15] Simpson, S., Kay, F.U., Abbara, S., Bhalla, S., Chung, J.H., Chung, M., Henry, T.S., Kanne, J.P., Kligerman, S., Ko, J.P. and Litt, H., 2020. Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Endorsed by the Society of Thoracic Radiology, the American College of Radiology, and RSNA. &lt;em&gt;Radiology: Cardiothoracic Imaging&lt;/em&gt;, &lt;em&gt;2&lt;/em&gt;(2), p.e200152. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/10.1148/ryct.2020200152&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;[16] Bai, H.X., Hsieh, B., Xiong, Z., Halsey, K., Choi, J.W., Tran, T.M.L., Pan, I., Shi, L.B., Wang, D.C., Mei, J. and Jiang, X.L., 2020. Performance of radiologists in differentiating COVID-19 from viral pneumonia on chest CT. &lt;em&gt;Radiology&lt;/em&gt;, p.200823. (
-&lt;a href=&#34;https://pubs.rsna.org/doi/full/10.1148/radiol.2020200823&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Organizing Committee Member at MICCAI DART 2020</title>
-      <link>https://albarqouni.github.io/talk/dart2020/</link>
-      <pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/dart2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Organizing Committee Member at MICCAI DCL 2020</title>
-      <link>https://albarqouni.github.io/talk/dcl2020/</link>
-      <pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/dcl2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/talk/ulm2019/</link>
-      <pubDate>Fri, 17 Jan 2020 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/ulm2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modelling Labels Uncertainty in Medical Imaging</title>
-      <link>https://albarqouni.github.io/talk/eth2020/</link>
-      <pubDate>Wed, 15 Jan 2020 11:15:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/eth2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keynote Speaker: AI in Healthcare</title>
-      <link>https://albarqouni.github.io/talk/ai4h/</link>
-      <pubDate>Wed, 08 Jan 2020 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/ai4h/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invited Talk: Towards Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/talk/haicu2019/</link>
-      <pubDate>Mon, 16 Dec 2019 09:30:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/haicu2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/talk/guc2019/</link>
-      <pubDate>Wed, 27 Nov 2019 11:15:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/guc2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Organizing Committee Member at MICCAI DART 2019</title>
-      <link>https://albarqouni.github.io/talk/dart2019/</link>
-      <pubDate>Sun, 13 Oct 2019 16:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/dart2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Organizing Committee Member at MICCAI COMPAY 2019</title>
-      <link>https://albarqouni.github.io/talk/compay2019/</link>
-      <pubDate>Sun, 13 Oct 2019 13:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/compay2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/talk/icann2019/</link>
-      <pubDate>Thu, 19 Sep 2019 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/icann2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keynote Speaker: Deep Learning in Medical Imaging</title>
-      <link>https://albarqouni.github.io/talk/zeiss2019/</link>
-      <pubDate>Sun, 16 Jun 2019 13:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/zeiss2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keynote Speaker: Artificial Intelligence. Just Math?</title>
-      <link>https://albarqouni.github.io/talk/neocolam2019/</link>
-      <pubDate>Sat, 26 Jan 2019 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/neocolam2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Invited Talk: Can Deep Learning Models be Trained with Annotations Collected via Crowdsourcing?</title>
-      <link>https://albarqouni.github.io/talk/ecp2018/</link>
-      <pubDate>Sun, 09 Sep 2018 16:05:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/ecp2018/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+Thanks for the invitation, Guillaume Landry!&lt;/p></description></item><item><title>Organize the Autumn School on AI (EEDA - ايدا)</title><link>https://albarqouni.github.io/talk/eeda2023/</link><pubDate>Thu, 14 Dec 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/eeda2023/</guid><description>&lt;p>Thrilled to share the success of our EEDA Autumn School on AI – a global collaboration between Albarqouni Lab (Germany), Universitätsklinikum Bonn, The University of Bonn, and the Faculty of Health Sciences at Beirut Arab University (Lebanon). Over the weekend, a distinguished Lebanese delegation from the Beirut Arab University ( BAU), American University of Beirut ( AUB), and Lebanese American University ( LAU) joined us for an immersive program blending cutting-edge AI with diverse disciplines.&lt;/p>
+&lt;p>Bridging Gaps, Fostering Excellence: This initiative, supported by the DAAD German Academic Exchange Service Ta’ziz Short Measures Grant, goes beyond an event – a testament to global collaboration. Empowering minds and breaking barriers, we achieved an 80% female participation rate and a competitive 26% acceptance rate, highlighting our commitment to academic excellence.&lt;/p>
+&lt;p>International Collaboration in Action: Thanks to DAAD, the funding from the Auswärtiges Amt (Federal Foreign Office) Germany, and the endorsement of Arab-German Young Academy of Sciences and Humanities (AGYA), the EEDA Autumn School on AI has sparked meaningful collaborations, from curriculum integration to potential joint Master&amp;rsquo;s Programs. We are creating a ripple effect of international cooperation and academic brilliance.&lt;/p>
+&lt;p>Beyond Academia: Our journey surpassed the academic realm, fostering a profound cultural exchange. It&amp;rsquo;s not just about AI; it&amp;rsquo;s about building a global community that values diversity, mutual respect, and inclusive collaboration. The delegation enjoyed the social events from visiting the Christmas Market, Cathedral Kolner Döm, to the Haus der Geschichte.&lt;/p>
+&lt;p>Despite the challenging times, let&amp;rsquo;s continue breaking barriers, fostering innovation, and creating a better, more connected world. The success of this weekend is just the beginning – together, we can rise!&lt;/p>
+&lt;p>Photo credits to Paul Nuhn, Universitätsklinikum Bonn&lt;/p></description></item><item><title>Invited Talk at the Sino-German Symposium on AI in Medicine</title><link>https://albarqouni.github.io/talk/sinogerman2023/</link><pubDate>Sat, 11 Nov 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/sinogerman2023/</guid><description>&lt;p>Very much enjoyed the time in Shanghai!&lt;/p>
+&lt;p>Great keynotes and lectures at the
+&lt;a href="https://finance.sina.cn/2023-11-21/detail-imzvkwnk8116163.d.html" target="_blank" rel="noopener">Sino-German Symposium on AI in Medicine&lt;/a>. I was fortunate enough to meet a couple of brilliant minds at the school! It was also a pleasure meeting my mentor Prof. Nassir Navab!&lt;/p>
+&lt;p>Thanks for the invitation, organziation and the warm hospitality, Prof. Kuangyu Shi 🙏🙏&lt;/p></description></item><item><title>Participate at the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</title><link>https://albarqouni.github.io/talk/miccai2023/</link><pubDate>Sun, 08 Oct 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/miccai2023/</guid><description>&lt;p>I stand here, my heart heavy with emotion, as I find myself struggling to focus on the incredible work and learning opportunities at the MICCAI conference in Vancouver, Canada. I hope for the day when we can attend conferences and go about our academic pursuits without the weight of such heart-wrenching events on our minds. Until then, my thoughts and prayers are with my family in Gaza and with all those who yearn for a more peaceful world.&lt;/p></description></item><item><title>David attended ICCV 2023 in Paris</title><link>https://albarqouni.github.io/talk/iccv_david_2023/</link><pubDate>Mon, 02 Oct 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/iccv_david_2023/</guid><description>&lt;p>David attended the International Conference on Computer Vision (ICCV) 2023 in Paris from October 2–6, 2023. This event brought together leading minds in computer vision and AI from all over the world. It was an incredible experience to immerse myself in the latest developments in the field and gain insight into cutting-edge research.&lt;/p>
+&lt;p>The conference covered a wide range of topics, from foundational deep learning techniques to applications in healthcare, autonomous systems, and beyond. The keynote talks were inspiring, and the technical sessions and poster presentations provided valuable ideas and perspectives. It was a fantastic opportunity to connect with the research community and stay up-to-date with the newest trends shaping computer vision.&lt;/p></description></item><item><title>Participate at the International Conference on Computer Vision</title><link>https://albarqouni.github.io/talk/iccv2023/</link><pubDate>Mon, 02 Oct 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/iccv2023/</guid><description>&lt;p>I very much enjoyed the two days at the International Conference on Computer Vision (ICCV) in the lovely Paris 🇫🇷. I met a couple of students, colleagues and friends who are coming from Stanford 🇺🇸, Imperial 🇬🇧, Google and ETH Zurich 🇨🇭, and TU Munich, UniBonn, and University of Potsdam 🇩🇪! We discussed the possibilities of collaboration and exchange that might happen in the future!&lt;/p></description></item><item><title>Invited Talk at German Jordanian University (GIU), Amman, Jordan</title><link>https://albarqouni.github.io/talk/ieeeembs2023/</link><pubDate>Thu, 27 Jul 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/ieeeembs2023/</guid><description>&lt;p>IEEE EMBS Jordan Chapter is pleased to invite faculty, students, fresh graduates, and professionals to attend the (virtual) EMBS Jordan Chapter Distinguished Lecture on Wednesday, July 26th, 2023, 6:00-7:30 PM (Jordan Local Time). This time we have a special guest PROF. Dr. Shadi Albarqouni, Professor of Computational Medical Imaging at the University of Bonn in Bonn, Germany. For registration, use the form below or the QR code. The seminar will take place on the ZOOM platform. Details for how to join the virtual meeting will be sent later for those who confirm their registration.&lt;/p></description></item><item><title>Invited Talk at DomGen2023 workshop, Warwick, UK</title><link>https://albarqouni.github.io/talk/domgen2023/</link><pubDate>Tue, 11 Jul 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/domgen2023/</guid><description>&lt;p>I very much enjoyed the invited talk at the University of Warwick, United Kingdom! I met students from the UK 🇬🇧 , Korea 🇰🇷 , Iran 🇮🇷 , Pakistan 🇵🇰 , Saudi 🇸🇦 , and Egypt 🇪🇬 ! Incredibly amazing how international that place is!
+The talk was part of the
+&lt;a href="https://warwick.ac.uk/fac/cross_fac/tia/domgen2023/" target="_blank" rel="noopener">DomGen workshop&lt;/a>. Thank you so much for the invitation and the warm welcome and hospitality, Mostafa Jahanifar and Nasir Rajpoot!&lt;/p></description></item><item><title>David participates at the AI4Health Summer School</title><link>https://albarqouni.github.io/talk/summer_school_ai4health_david/</link><pubDate>Sat, 03 Jun 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/summer_school_ai4health_david/</guid><description>&lt;p>David attended the AI4Health Summer School 2023, organized collaboratively by the French Health Data Hub and French AI research institutions at PariSanté Campus, was an incredible experience. The program focused on advanced methods in medical AI, covering critical aspects of deep learning for medical imaging. I actively participated in two workshops:&lt;/p>
+&lt;ul>
+&lt;li>Deep Learning for Medical Image Processing: Exploring innovative techniques for tumor segmentation and detection in whole-body 3D MRIs, focusing on patch-based approaches, denoising, contrast correction, and augmentations.&lt;/li>
+&lt;li>Fed-BioMed Workshop: Examining federated learning approaches tailored for biomedical applications, addressing challenges in privacy-preserving data sharing across institutions.&lt;/li>
+&lt;/ul>
+&lt;p>The event was a truly remarkable opportunity to delve deeper into these cutting-edge topics and engage with peers and leaders in medical AI.&lt;/p></description></item><item><title>Fact Finding Mission to the United Arab Emirates</title><link>https://albarqouni.github.io/talk/agya2023/</link><pubDate>Sun, 19 Feb 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/agya2023/</guid><description>&lt;p>Just wrapped up an incredible 72-hour agya fact-finding mission with the brilliant Vice-Presidents and Provosts of top universities in Dubai and Abu Dhabi, UAE. The main goal of our fact-finding mission is to promote the call for membership of the Arab-German Young Academy of Sciences and Humanities (AGYA)!&lt;/p>
+&lt;p>Dr. Nada El Darra and I had the pleasure to meet Vice-President Sultan Al Haji, the Acting Provost Prof. Tim Baldwin at MBZUAI (Mohamed bin Zayed University of Artificial Intelligence), and the Acting Provost and Chief Academic Officer Prof. Michael Allen at Zayed University besides our brilliant colleagues Dr. Rania Dghaim, Dr. Fatme Al Anouti, and Dr. Omar Alfandi.&lt;/p>
+&lt;p>Thanks to our alumna, Dr. Henda Mahmoudi, and her colleagues Nour El Jundi and Evans Kioko, we very much enjoyed the wonderful field trip at International Center for Biosaline Agriculture (ICBA) where we discussed potential interdisciplinary research collaboration on AI and Food Safety!&lt;/p></description></item><item><title>Invited Talk at 3MT Competition at Beirut Arab University</title><link>https://albarqouni.github.io/talk/3mt/</link><pubDate>Fri, 10 Feb 2023 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/3mt/</guid><description>&lt;p>Today I was privileged to give a keynote speech at the Beirut Arab University in Lebanon 🇱🇧. My talk was about the impact of AI in the field of Medicine and how AI is changing the way healthcare professionals diagnose, treat, and care for hashtag#patients. My presentation included a couple of examples from our hashtag#research on microscopic imaging, but I also looked at a couple of hashtag#startups that are taking this to the next level by transforming healthcare through their hashtag#innovative products. Having a fruitful discussion with the audience was a real pleasure for me! Thanks so much, Dr. Nada El Darra and Dr. Said El Shamieh, for the warm welcome and the invitation 🙏&lt;/p></description></item><item><title>Fact Finding Mission to Amman, Jordan</title><link>https://albarqouni.github.io/talk/agya202212/</link><pubDate>Wed, 21 Dec 2022 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/agya202212/</guid><description>&lt;p>Just arrived from Amman, Jordan! It was just an amazing trip to Amman where I met our clinical partner King Hussein Cancer Foundation and Center for one of our projects supported by the Arab-German Young Academy of Sciences and Humanities (AGYA)! I was also happy to accept the invitation of my former PhD student, Tariq Bdair, and the head of his department, Dr. Serin Atiani, to deliver a talk at Princess Sumaya University for Technology! I was impressed by the level of their students, indeed! I would like also to thank Dr. Omar Al-Kadi from The University of Jordan for the invited talk and the great hospitality!&lt;/p></description></item><item><title>Co-Organizer of the Introduction of Bioinformatics to Arab Education System</title><link>https://albarqouni.github.io/talk/agya202211/</link><pubDate>Mon, 21 Nov 2022 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/agya202211/</guid><description>&lt;p>I had the pleasure last week of co-organizing a workshop on Bioinformatics in Tunisia. The workshop was part of the working group activities supported by the Arab-German Young Academy of Sciences and Humanities! We had a great lineup of speakers from Germany/Switzerland and Arab countries! I had the pleasure to know a couple of Arab scholars from Egypt, Lebanon, Algeria, Tunisia, and Sudan.&lt;/p></description></item><item><title>Invited Talk at the Workshop on Collaborative Learning: From Theory to Practice</title><link>https://albarqouni.github.io/talk/mbzuai/</link><pubDate>Sat, 08 Oct 2022 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/mbzuai/</guid><description>&lt;p>I had the pleasure to give an invited talk at the #Collaborative Learning workshop at MBZUAI (Mohamed bin Zayed University of Artificial Intelligence)! It was a wonderful weekend full of amazing talks and fruitful discussions! I had the pleasure to meet a few familiar faces in our community along with other great speakers from UC Berkeley, Harvard, MIT, KAUST, ETH Zurich, Nvidia, and EPFL, among others. I would like to thank Michael I. Jordan and the organizing team behind the workshop for the invitation and the excellent hospitality! For those who are interested in the talks, they will be made publicly available soon!&lt;/p></description></item><item><title>Invited Talk at AI 4 Imaging</title><link>https://albarqouni.github.io/talk/ai4i2022/</link><pubDate>Wed, 29 Jun 2022 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/ai4i2022/</guid><description/></item><item><title>Attending the general assembly of the Arab German Young Academy</title><link>https://albarqouni.github.io/talk/agya2022/</link><pubDate>Thu, 23 Jun 2022 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/agya2022/</guid><description>&lt;p>I had the pleasure to meet such brilliant scientists from all over the Arab world and Germany in the general assembly of the Arab-German Young Academy of Sciences and Humanities in Berlin!&lt;/p></description></item><item><title>Organizing the 2nd version of the MICCAI Workshop on aFfordable AI and healthcare</title><link>https://albarqouni.github.io/talk/fair2022/</link><pubDate>Thu, 23 Jun 2022 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/fair2022/</guid><description/></item><item><title>Co-Organizing the 10. DFG-#Nachwuchsakademie</title><link>https://albarqouni.github.io/talk/aim2022/</link><pubDate>Sun, 23 Jan 2022 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/aim2022/</guid><description/></item><item><title>Organizing a workshop on the Next Generation of AI in Medicine</title><link>https://albarqouni.github.io/talk/hida2021/</link><pubDate>Tue, 30 Nov 2021 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/hida2021/</guid><description/></item><item><title>Co-Organizing the workshop and training on Improving Job Market Skills of Graduates</title><link>https://albarqouni.github.io/talk/agya2021/</link><pubDate>Sun, 19 Sep 2021 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/agya2021/</guid><description/></item><item><title>Organizing the 1st MICCAI Workshop on aFfordable AI and healthcare</title><link>https://albarqouni.github.io/talk/fair2021/</link><pubDate>Wed, 23 Jun 2021 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/fair2021/</guid><description/></item><item><title>Medium Blog: Journey through COVID-19 RSNA Papers</title><link>https://albarqouni.github.io/talk/covid19/</link><pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/covid19/</guid><description>&lt;p>&lt;em>Disclaimer: I am neither a radiologist nor a clinician. I am a computer scientist who have been working on medical image computing for a while. I tried to summairze the key findings reported in almost 15 papers published in the Radiology Society in North America (RSNA) in the last two months.&lt;/em>&lt;/p>
+&lt;p>
+&lt;a href="http://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/novel-coronavirus-2019-ncov" target="_blank" rel="noopener">&lt;strong>Intro about COVID-19&lt;/strong> &lt;/a>&lt;/p>
+&lt;h3 id="ct-imaging-features">&lt;strong>CT Imaging features&lt;/strong>&lt;/h3>
+&lt;p>Key CT findings have been studied and investigated by Guan et al. [10] in a large cohort of 1099 patients with confirmed COVID-19, and Chung et al. [1] in a group of 21 patients infected with COVID-19 in China. Their key results that majority of RT-PCR confirmed patients (some are asymptomatic) show typical CT findings such as the presence of bilateral ground-glass opacities (GGO) and/or consolidation, with a rounded morphology and a peripheral lung distribution (cf. Fig.1). In another cohort of 104 patients, from the cruise ship “Diamond Princess”, Inui et al. [4] have reported similar findings of lung opacities and airway abnormalities in both asymptomatic and symptomatic cases. In addition to the key characteristics of peripheral GGO, Caruso et al. [7] have also observed an association with sub-segmental vessel enlargement (&amp;gt; 3 mm) in his cohort of 158 participants from Italy (cf Fig.2).&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*j4iktyLv3cqyIh5LEcwf0A.png" alt="img">Fig.1: Image adopted from Chung et al. [1]&lt;/p>
+&lt;blockquote>
+&lt;p>Of 21 patients with the 2019 novel coronavirus, 15 (71%) had involvement of more than two lobes at chest CT, 12 (57%) had ground-glass opacities, seven (33%) had opacities with a rounded morphology, seven (33%) had a peripheral distribution of disease, six (29%) had consolidation with ground-glass opacities, and four (19%) had crazy-paving pattern. [1]&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*fnIOZsThw7AR_XrVaiIyXA.png" alt="img">Fig.2: Image adopted from Caruso et al. [7]&lt;/p>
+&lt;p>Surprisingly, 14% of the patients (3 out of 21), studied by Chang et al. [1], show negative CT findings in their initial chest CT scan. Follow-up scans, however, show rounded peripheral ground-glass opacity (cf. Fig.3). Xie et al. [3] and Caruso et al. [7] have also reported similar percentages of 4% (7 out of 167), and 3% (2 out of 62), respectively, of their cohorts who show no findings in their CT scans.&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*fq3JovfT6QlwCdCg9iaDhA.png" alt="img">Fig.3: Image adopted from Chung et al. [1]&lt;/p>
+&lt;p>Contrary, Xie et al. [3] found out that 3% of their cohort (5 out of 167), who had initially negative RT-PCR, show positive Chest CT with similar findings of viral pneumonia reported by Chung et al. [1] (cf Fig.4). A few days later, and after repeated swap tests, the RT-PCR had become positive. This has been. also confirmed in another cohort, reported by Fang et al. [8], where the percentage was around 29% (15 out of 51).&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*TUkEdff20eeO6JBAmY7lfA.png" alt="img">Fig.4: Adopted from Xie et al. [3]&lt;/p>
+&lt;h3 id="chest-ct-vs-rt-pcr">&lt;strong>Chest CT vs. RT-PCR&lt;/strong>&lt;/h3>
+&lt;p>Given the aforementioned key characteristics of COVID-19, the low sensitivity of the RT-PCR test (42–71%) [6], and the long mean interval time between the initial negative to positive RT-PCR (5.1 +/- 1.5 days), clinicians and researchers have investigated &lt;strong>whether diagnostic imaging features could be used an alternative to RT-PCR in screening&lt;/strong>.&lt;/p>
+&lt;blockquote>
+&lt;p>In patients at high risk for 2019-nCoV infection, chest CT evidence of viral pneumonia may precede positive negative RT-PCR test results. [3]&lt;/p>
+&lt;/blockquote>
+&lt;p>A few recent studies (Ai et al. [6], Caruso et al. [7], Fang et al. [8]) have investigated the correlation of Chest CT findings and RT-PCR test reporting high sensitivity of 97–98% for Chest CT in diagnosing COVID-19. Detailed evaluation metrics against the RT-PCR are reported below. Interestingly, 98% of the patients (56 out of 57), reported by Ai et al. [6], who had initially positive CT findings show positive RT-PCR within 6 days (cf Fig.5). &lt;strong>Such interesting results suggest chest CT could be considered for screening.&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>In a series of 51 patients with chest CT and RT-PCR assay performed within 3 days, the sensitivity of CT for COVID-19 infection was 98% compared to RT-PCR sensitivity of 71% (p&amp;lt;.001) [2]&lt;/p>
+&lt;/blockquote>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Papers&lt;/th>
+&lt;th>Sample Size&lt;/th>
+&lt;th>Country&lt;/th>
+&lt;th>Sensitivity&lt;/th>
+&lt;th>Specificity&lt;/th>
+&lt;th>Accuracy&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Caruso et al. [7]&lt;/td>
+&lt;td>58&lt;/td>
+&lt;td>Rome, Italy&lt;/td>
+&lt;td>97%&lt;/td>
+&lt;td>56%&lt;/td>
+&lt;td>72%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ai et al. [6]&lt;/td>
+&lt;td>1014&lt;/td>
+&lt;td>Wuhan, China&lt;/td>
+&lt;td>97%&lt;/td>
+&lt;td>25%&lt;/td>
+&lt;td>68%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fang et al. [8]&lt;/td>
+&lt;td>51&lt;/td>
+&lt;td>Shanghai, China&lt;/td>
+&lt;td>98%&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*c9DxSwH8gO2Wey-Ml6HfSQ.png" alt="img">Fig.5: Adopted from Ai et al. [6]&lt;/p>
+&lt;p>Discrepancy between CT findings and RT-PCR motivated clinicians and researchers to analyze the serial CT findings over time (Wang and Dong et al. [9], Pan et al. [12]) and study the relationship to duration of infection (Bernheim et al. [11]). As reported in their analysis (Fig. 6, 7,8), the appearance of GGO and Consolidations varies over time explaining the discrepancy in the sensitivity. &lt;strong>Both studies suggest, however, pathology quantification might help in the prognosis.&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>The extent of CT abnormalities progressed rapidly after the onset of symptoms, peaked around 6–11 days, and followed by persistence of high levels in lung abnormalities. The temporal changes of the diverse CT manifestations followed a specific pattern, which might indicate the progression and recovery of the illness. [7]&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*s5erFY4_5HdFSxC5sSI9BQ.png" alt="img">Fig. 6: Adopted from Wang and Dong et al. [9]&lt;/p>
+&lt;blockquote>
+&lt;p>Recognizing imaging patterns based on infection time course is paramount for not only understanding the pathophysiology and natural history of infection, but also for helping to predict patient progression and potential complication development. [11]&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*kp-Ce1GSU9YDuS14igqnAQ.png" alt="img">Fig. 7: Adopted from Bernheim et al. [11]&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*GlNXjNXv7oAsm2MBJ1ivCA.png" alt="img">Fig.8: Adopted from Pan et al. [12]&lt;/p>
+&lt;h3 id="chest-x-ray-vs-rt-pcr">&lt;strong>Chest X-ray vs. RT-PCR&lt;/strong>&lt;/h3>
+&lt;p>Given the limited resources, and to minimize the risk of cross-infection [14], and contamination, clinicians and researchers have investigated &lt;strong>whether a readily available diagnostic imaging, namely X-ray, could be used as a first-line triage tool&lt;/strong>, and help in detecting abnormalities associated with COVID-19 in Chest X-rays, in particular, for asymptomatic patients.&lt;/p>
+&lt;p>One of the interesting studies reported by Wong et al. [13] who have studied the appearance of COVID-19 in Chest X-ray, and its correlation with the key findings in the CT scans. Besides, they have investigated the correlation of Chest X-ray and RT-PCR test.&lt;/p>
+&lt;p>In their cohort of 64 patients from Hong Kong, they observed similar key characteristics, appeared in CT scans, such as bilateral, peripheral ground-glass opacity, and/or consolidations (cf. Fig. 9).&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*uJ-h7jvo2RNUD8A-IqO86w.png" alt="img">Fig. 9: Adapted from Wong et al. [13]&lt;/p>
+&lt;p>In contrast to the high sensitivity reported for the CT scans, Wong et al. [13] reported a sensitivity of 69% for Chest X-ray, compared to 91% for the initial RT-PCR. The Chest X-ray abnormalities preceded the positive RT-PCR only in 9% (6 out of 64 patients). Examples on the latter scenario are demonstrated in Fig. 10 (A, and B).&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*FuB_zAuHcVmnYEmUJkoNdw.png" alt="img">Fig. 10: Adapted from Wong et al. [13]&lt;/p>
+&lt;p>The remarkable low sensitivity indicates a high number of False Negative suggesting further investigation of the abnormalities change over time. Fig.11 shows the changes of severity score in Chest X-ray, where the peak score was reported in 10–12 days since symptoms onset.&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*8Y0vR85Wue5QMiaEaSz6JQ.png" alt="img">Fig.11: Adopted from Wong et al. [13]&lt;/p>
+&lt;p>Surprisingly, 86% of the patients (24 out of 28) who had initial positive Chest X-ray, show positive findings on the CT as well. Whereas only one patient of the rest shows no findings in the Chest X-ray, the CT shows peripheral GOO (cf. Fig.12). &lt;strong>These results suggest Chest X-ray might be helpful in monitoring and prognosis, but not recommended for screening.&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*iPWLY7G9dtwRfhrct4NHQw.png" alt="img">Fig. 12: Adapted from Wong et al. [13]&lt;/p>
+&lt;blockquote>
+&lt;p>At this time, CT screening for the detection of COVID-19 is not recommended by most radiological societies. However, we anticipate that the use of CT in clinical management as well as incidental findings potentially attributable to COVID-19 will evolve. [15]&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="community-acquired-pneumonia-cap-vs-covid-19">&lt;strong>Community Acquired Pneumonia (CAP) vs. COVID-19&lt;/strong>&lt;/h3>
+&lt;p>So far, previous studies report high sensitivity in diagnosing COVID-19 from CT scans, however, with remarkable low specificity, e.g. 25%, and 56% in Ai et al. [6], and Caruso et al. [7], respectively. In other words, radiologists might misinterpret the CT scan and diagnose the patient with COVID-19.&lt;/p>
+&lt;blockquote>
+&lt;p>These studies have shown that COVID-19 often produces a CT pattern resembling organizing pneumonia, notably peripheral ground-glass opacities (GGO) and nodular or mass-like GGO that are often bilateral and multilobar (
+&lt;a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152#r11" target="_blank" rel="noopener">11&lt;/a>). However, additional imaging findings have also been reported including linear, curvilinear or perilobular opacities, consolidation, and diffuse GGO, which can mimic several disease processes including other infections, inhalational exposures, and drug toxicities (
+&lt;a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152#r12" target="_blank" rel="noopener">12&lt;/a>
+&lt;a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152#r15" target="_blank" rel="noopener">–15&lt;/a>). [15]&lt;/p>
+&lt;/blockquote>
+&lt;p>To assess the performance of radiologists in differentiating COVID-19 from other viral infections, Bai and Hsieh et al. [16] collected a cohort of 424 chest CT scans; 52% with positive COVID-19 by RT-PCR test, and 48% with positive Respiratory Pathogen Panel for viral pneumonia. The cohort was blindly reviewed by three radiologists from China, and a subset of 58 patients were reviewed by four radiologists from the US. Overall, their results demonstrate that &lt;strong>radiologists can distinguish COVID-19 from other viral pneumonia with moderate to high sensitivity 67–93%, and high specificity 93–100%.&lt;/strong> Misinterpreted cases show either subtle or atypical findings in their CT scans (cf. Fig. 13). Key differences have been also reported by the radiologists.&lt;/p>
+&lt;blockquote>
+&lt;p>Compared to non-COVID-19 pneumonia, COVID-19 pneumonia was more likely to have a peripheral distribution (80% vs. 57%, p&amp;lt;0.001), ground-glass opacity (91% vs. 68%, p&amp;lt;0.001), fine reticular opacity (56% vs. 22%, p&amp;lt;0.001), and vascular thickening (59% vs. 22%, p&amp;lt;0.001), but less likely to have a central+peripheral distribution (14.% vs. 35%, p&amp;lt;0.001), pleural effusion (4.1 vs. 39%, p&amp;lt;0.001) and lymphadenopathy (2.7% vs. 10.2%, p&amp;lt;0.001).&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*WWHZpIe7G8OnWhuHjaGIgw.png" alt="img">Fig.13: Adapted from Bai and Hsieh et al. [16]&lt;/p>
+&lt;p>To reduce the reporting variability and uncertainty which might arise due to incidental findings with other viral infections, e.g. influenza-A, Simpson and Kay et al. [15] put together a nice piece of work and suggestions on &lt;strong>standardized CT reporting language of COVID-19, which could be considered as a good reference for structured reporting&lt;/strong>. Examples of suggested reporting languages along with a few chest CT images are demonstrated in Fig. 14–16.&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*0oVLldjnqtvz00RHcBHKHw.jpeg" alt="img">Fig.14: Adopted from Simpson and Kay et al. [15]&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*uhQ09ognFQ3QjGRf8BSoLg.png" alt="img">Fig. 15: Adapted from Simpson and Kay et al. [15]&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1440/1*M5oT2KtuUWOX49RcO45kqg.png" alt="img">Fig. 16: Adapted from Simpson and Kay et al. [15]&lt;/p>
+&lt;blockquote>
+&lt;p>Future direction includes development of an artificial intelligence classifier that can further augment radiologist performance in combination with clinical information. [16]&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="from-my-point-of-view-ai-has-the-potential-to">From my point of view, AI has the potential to:&lt;/h3>
+&lt;ul>
+&lt;li>identify the asymptomatic carriers of COVID-19&lt;/li>
+&lt;li>detect and quantify the abnormalities in serial Chest CT/X-rays scans for prognosis purpose&lt;/li>
+&lt;li>distinguish CAP from COVID-19 using Chest CT scans, and additional clinical information; age, gender, previous disorders, …etc.&lt;/li>
+&lt;/ul>
+&lt;h3 id="references">References:&lt;/h3>
+&lt;p>[1] Chung, M., Bernheim, A., Mei, X., Zhang, N., Huang, M., Zeng, X., Cui, J., Xu, W., Yang, Y., Fayad, Z.A. and Jacobi, A., 2020. CT imaging features of 2019 novel coronavirus (2019-nCoV). &lt;em>Radiology&lt;/em>, &lt;em>295&lt;/em>(1), pp.202–207. (
+&lt;a href="https://pubs.rsna.org/doi/pdf/10.1148/radiol.2020200230" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[2] Fang, Y., Zhang, H., Xie, J., Lin, M., Ying, L., Pang, P. and Ji, W., 2020. Sensitivity of chest CT for COVID-19: comparison to RT-PCR. &lt;em>Radiology&lt;/em>, p.200432. (
+&lt;a href="https://pubs.rsna.org/doi/10.1148/radiol.2020200432?fbclid=IwAR2EyI4QVRos1SzZvFCl4oMIY0Da06XMbFW1TRmr4P7g3lLyO634O6tBgFs" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[3] Xie, X., Zhong, Z., Zhao, W., Zheng, C., Wang, F. and Liu, J., 2020. Chest CT for typical 2019-nCoV pneumonia: relationship to negative RT-PCR testing. &lt;em>Radiology&lt;/em>, p.200343. (
+&lt;a href="https://pubs.rsna.org/doi/abs/10.1148/radiol.2020200343" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[4] Inui S, Fujikawa A, Jitsu M, Kunishima N, Watanabe S, Suzuki Y, Umeda S, Uwabe Y. Chest CT findings in cases from the cruise ship “Diamond Princess” with coronavirus disease 2019 (COVID-19). Radiology: Cardiothoracic Imaging. 2020 Mar 17;2(2):e200110. (
+&lt;a href="https://pubs.rsna.org/doi/full/10.1148/ryct.2020200110" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[5] Simpson, S., Kay, F.U., Abbara, S., Bhalla, S., Chung, J.H., Chung, M., Henry, T.S., Kanne, J.P., Kligerman, S., Ko, J.P. and Litt, H., 2020. Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Endorsed by the Society of Thoracic Radiology, the American College of Radiology, and RSNA. &lt;em>Radiology: Cardiothoracic Imaging&lt;/em>, &lt;em>2&lt;/em>(2), p.e200152. (
+&lt;a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[6] Ai, T., Yang, Z., Hou, H., Zhan, C., Chen, C., Lv, W., Tao, Q., Sun, Z. and Xia, L., 2020. Correlation of chest CT and RT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases. &lt;em>Radiology&lt;/em>, p.200642. (
+&lt;a href="https://pubs.rsna.org/doi/abs/10.1148/radiol.2020200642" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[7] Caruso, D., Zerunian, M., Polici, M., Pucciarelli, F., Polidori, T., Rucci, C., Guido, G., Bracci, B., de Dominicis, C. and Laghi, A., 2020. Chest CT features of COVID-19 in Rome, Italy. &lt;em>Radiology&lt;/em>, p.201237. (
+&lt;a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020201237" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[8] Fang, Y., Zhang, H., Xie, J., Lin, M., Ying, L., Pang, P. and Ji, W., 2020. Sensitivity of chest CT for COVID-19: comparison to RT-PCR. &lt;em>Radiology&lt;/em>, p.200432. (
+&lt;a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020200432" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[9] Wang, Y., Dong, C., Hu, Y., Li, C., Ren, Q., Zhang, X., Shi, H. and Zhou, M., 2020. Temporal changes of CT findings in 90 patients with COVID-19 pneumonia: a longitudinal study. &lt;em>Radiology&lt;/em>, p.200843. (
+&lt;a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020200843" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[10] Guan, W.J., Ni, Z.Y., Hu, Y., Liang, W.H., Ou, C.Q., He, J.X., Liu, L., Shan, H., Lei, C.L., Hui, D.S. and Du, B., 2020. Clinical characteristics of coronavirus disease 2019 in China. &lt;em>New England Journal of Medicine&lt;/em>. (
+&lt;a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2002032" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[11] Bernheim, A., Mei, X., Huang, M., Yang, Y., Fayad, Z.A., Zhang, N., Diao, K., Lin, B., Zhu, X., Li, K. and Li, S., 2020. Chest CT findings in coronavirus disease-19 (COVID-19): relationship to duration of infection. &lt;em>Radiology&lt;/em>, p.200463. (
+&lt;a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020200463" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[12] Pan, F., Ye, T., Sun, P., Gui, S., Liang, B., Li, L., Zheng, D., Wang, J., Hesketh, R.L., Yang, L. and Zheng, C., 2020. Time course of lung changes on chest CT during recovery from 2019 novel coronavirus (COVID-19) pneumonia. &lt;em>Radiology&lt;/em>, p.200370. (
+&lt;a href="https://pubs.rsna.org/doi/pdf/10.1148/radiol.2020200370" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[13] Wong, H.Y.F., Lam, H.Y.S., Fong, A.H.T., Leung, S.T., Chin, T.W.Y., Lo, C.S.Y., Lui, M.M.S., Lee, J.C.Y., Chiu, K.W.H., Chung, T. and Lee, E.Y.P., 2020. Frequency and distribution of chest radiographic findings in COVID-19 positive patients. &lt;em>Radiology&lt;/em>, p.201160. (
+&lt;a href="https://pubs.rsna.org/doi/10.1148/radiol.2020201160" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[14] American College of Radiology, 2020. ACR recommendations for the use of chest radiography and computed tomography (CT) for suspected COVID-19 infection.
+&lt;a href="https://www.acr.org/Advocacy-and-Economics/ACR-Position-Statements/Recommendations-for-Chest-Radiography-and-CT-for-Suspected-COVID19-Infection" target="_blank" rel="noopener">&lt;em>ACR website&lt;/em>&lt;/a>&lt;em>.&lt;/em>&lt;/p>
+&lt;p>[15] Simpson, S., Kay, F.U., Abbara, S., Bhalla, S., Chung, J.H., Chung, M., Henry, T.S., Kanne, J.P., Kligerman, S., Ko, J.P. and Litt, H., 2020. Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Endorsed by the Society of Thoracic Radiology, the American College of Radiology, and RSNA. &lt;em>Radiology: Cardiothoracic Imaging&lt;/em>, &lt;em>2&lt;/em>(2), p.e200152. (
+&lt;a href="https://pubs.rsna.org/doi/10.1148/ryct.2020200152" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p>
+&lt;p>[16] Bai, H.X., Hsieh, B., Xiong, Z., Halsey, K., Choi, J.W., Tran, T.M.L., Pan, I., Shi, L.B., Wang, D.C., Mei, J. and Jiang, X.L., 2020. Performance of radiologists in differentiating COVID-19 from viral pneumonia on chest CT. &lt;em>Radiology&lt;/em>, p.200823. (
+&lt;a href="https://pubs.rsna.org/doi/full/10.1148/radiol.2020200823" target="_blank" rel="noopener">PDF&lt;/a>)&lt;/p></description></item><item><title>Organizing Committee Member at MICCAI DART 2020</title><link>https://albarqouni.github.io/talk/dart2020/</link><pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/dart2020/</guid><description/></item><item><title>Organizing Committee Member at MICCAI DCL 2020</title><link>https://albarqouni.github.io/talk/dcl2020/</link><pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/dcl2020/</guid><description/></item><item><title>Invited Talk: Towards Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/talk/ulm2019/</link><pubDate>Fri, 17 Jan 2020 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/ulm2019/</guid><description/></item><item><title>Modelling Labels Uncertainty in Medical Imaging</title><link>https://albarqouni.github.io/talk/eth2020/</link><pubDate>Wed, 15 Jan 2020 11:15:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/eth2020/</guid><description/></item><item><title>Keynote Speaker: AI in Healthcare</title><link>https://albarqouni.github.io/talk/ai4h/</link><pubDate>Wed, 08 Jan 2020 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/ai4h/</guid><description/></item><item><title>Invited Talk: Towards Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/talk/haicu2019/</link><pubDate>Mon, 16 Dec 2019 09:30:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/haicu2019/</guid><description/></item><item><title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/talk/guc2019/</link><pubDate>Wed, 27 Nov 2019 11:15:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/guc2019/</guid><description/></item><item><title>Organizing Committee Member at MICCAI DART 2019</title><link>https://albarqouni.github.io/talk/dart2019/</link><pubDate>Sun, 13 Oct 2019 16:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/dart2019/</guid><description/></item><item><title>Organizing Committee Member at MICCAI COMPAY 2019</title><link>https://albarqouni.github.io/talk/compay2019/</link><pubDate>Sun, 13 Oct 2019 13:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/compay2019/</guid><description/></item><item><title>Keynote Speaker: Towards Deep Federated Learning in Healthcare</title><link>https://albarqouni.github.io/talk/icann2019/</link><pubDate>Thu, 19 Sep 2019 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/icann2019/</guid><description/></item><item><title>Keynote Speaker: Deep Learning in Medical Imaging</title><link>https://albarqouni.github.io/talk/zeiss2019/</link><pubDate>Sun, 16 Jun 2019 13:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/zeiss2019/</guid><description/></item><item><title>Keynote Speaker: Artificial Intelligence. Just Math?</title><link>https://albarqouni.github.io/talk/neocolam2019/</link><pubDate>Sat, 26 Jan 2019 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/neocolam2019/</guid><description/></item><item><title>Invited Talk: Can Deep Learning Models be Trained with Annotations Collected via Crowdsourcing?</title><link>https://albarqouni.github.io/talk/ecp2018/</link><pubDate>Sun, 09 Sep 2018 16:05:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/ecp2018/</guid><description/></item></channel></rss>

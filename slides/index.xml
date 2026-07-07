@@ -1,424 +1,366 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Slides | Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/slides/</link>
-      <atom:link href="https://albarqouni.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
-    <description>Slides</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>AI meets COVID-19</title>
-      <link>https://albarqouni.github.io/slides/_example/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/slides/_example/</guid>
-      <description>&lt;h1 id=&#34;brief-progress-of&#34;&gt;Brief Progress of&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;pathology-quantification&#34;&gt;Pathology Quantification:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;To be able to quantify the pathologies in thorax CT scans, one needs to segment the pathologies, and probably classify them into common ones characterizing the COVID-19, &lt;em&gt;e.g.&lt;/em&gt;,
-&lt;ul&gt;
-&lt;li&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Slides | Albarqouni Lab</title><link>https://albarqouni.github.io/slides/</link><atom:link href="https://albarqouni.github.io/slides/index.xml" rel="self" type="application/rss+xml"/><description>Slides</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate><item><title>AI meets COVID-19</title><link>https://albarqouni.github.io/slides/_example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/slides/_example/</guid><description>&lt;h1 id="brief-progress-of">Brief Progress of&lt;/h1>
+&lt;p>
+&lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic&lt;/a> |
+&lt;a href="https://sourcethemes.com/academic/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="dataset">Dataset&lt;/h2>
+&lt;ul>
+&lt;li>Efficiently write slides in Markdown&lt;/li>
+&lt;li>3-in-1: Create, Present, and Publish your slides&lt;/li>
+&lt;li>Supports speaker notes&lt;/li>
+&lt;li>Mobile friendly slides&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="pathology-quantification">Pathology Quantification:&lt;/h2>
+&lt;ul>
+&lt;li>To be able to quantify the pathologies in thorax CT scans, one needs to segment the pathologies, and probably classify them into common ones characterizing the COVID-19, &lt;em>e.g.&lt;/em>,
+&lt;ul>
+&lt;li>
+&lt;span class="fragment " >
+&lt;/li>
+&lt;/ul>
 Ground Glass Opacity (GGO)
-&lt;/span&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/span>
+&lt;ul>
+&lt;li>
+&lt;span class="fragment " >
+&lt;/li>
+&lt;/ul>
 Consolidations
-&lt;/span&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/span>
+&lt;ul>
+&lt;li>
+&lt;span class="fragment " >
+&lt;/li>
+&lt;/ul>
 Scarr
-&lt;/span&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/span>
+&lt;ul>
+&lt;li>
+&lt;span class="fragment " >
+&lt;/li>
+&lt;/ul>
 Pleueral Effusion
-&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="code-highlighting">Code Highlighting&lt;/h2>
+&lt;p>Inline code: &lt;code>variable&lt;/code>&lt;/p>
+&lt;p>Code block:&lt;/p>
+&lt;pre>&lt;code class="language-python">porridge = &amp;quot;blueberry&amp;quot;
 if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
+print(&amp;quot;Eating...&amp;quot;)
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="math">Math&lt;/h2>
+&lt;p>In-line math: $x + y = z$&lt;/p>
+&lt;p>Block math:&lt;/p>
+&lt;p>$$
 f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+$$&lt;/p>
+&lt;hr>
+&lt;h2 id="fragments">Fragments&lt;/h2>
+&lt;p>Make content appear incrementally&lt;/p>
+&lt;pre>&lt;code>{{% fragment %}} One {{% /fragment %}}
 {{% fragment %}} **Two** {{% /fragment %}}
 {{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-   One 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-   **Two** 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-   Three 
-&lt;/span&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+&lt;/code>&lt;/pre>
+&lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
+&lt;span class="fragment " >
+One
+&lt;/span>
+&lt;span class="fragment " >
+**Two**
+&lt;/span>
+&lt;span class="fragment " >
+Three
+&lt;/span>
+&lt;hr>
+&lt;p>A fragment can accept two optional parameters:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>class&lt;/code>: use a custom style (requires definition in custom CSS)&lt;/li>
+&lt;li>&lt;code>weight&lt;/code>: sets the order in which a fragment appears&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="speaker-notes">Speaker Notes&lt;/h2>
+&lt;p>Add speaker notes to your presentation&lt;/p>
+&lt;pre>&lt;code class="language-markdown">{{% speaker_note %}}
 - Only the speaker can read these notes
 - Press `S` key to view
 {{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
+&lt;/code>&lt;/pre>
+&lt;p>Press the &lt;code>S&lt;/code> key to view the speaker notes!&lt;/p>
+&lt;aside class="notes">
+&lt;ul>
+&lt;li>Only the speaker can read these notes&lt;/li>
+&lt;li>Press &lt;code>S&lt;/code> key to view&lt;/li>
+&lt;/ul>
+&lt;/aside>
+&lt;hr>
+&lt;h2 id="themes">Themes&lt;/h2>
+&lt;ul>
+&lt;li>black: Black background, white text, blue links (default)&lt;/li>
+&lt;li>white: White background, black text, blue links&lt;/li>
+&lt;li>league: Gray background, white text, blue links&lt;/li>
+&lt;li>beige: Beige background, dark text, brown links&lt;/li>
+&lt;li>sky: Blue background, thin dark text, blue links&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>night: Black background, thick white text, orange links&lt;/li>
+&lt;li>serif: Cappuccino background, gray text, brown links&lt;/li>
+&lt;li>simple: White background, black text, blue links&lt;/li>
+&lt;li>solarized: Cream-colored background, dark green text, blue links&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/img/boards.jpg&#34;
-  &gt;
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+data-background-image="/img/boards.jpg"
+>
+&lt;h2 id="custom-slide">Custom Slide&lt;/h2>
+&lt;p>Customize the slide style and background&lt;/p>
+&lt;pre>&lt;code class="language-markdown">{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
 {{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
 {{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="custom-css-example">Custom CSS Example&lt;/h2>
+&lt;p>Let&amp;rsquo;s make headers navy colored.&lt;/p>
+&lt;p>Create &lt;code>assets/css/reveal_custom.css&lt;/code> with:&lt;/p>
+&lt;pre>&lt;code class="language-css">.reveal section h1,
 .reveal section h2,
 .reveal section h3 {
-  color: navy;
+color: navy;
 }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Preliminary Meeting for the seminar on Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/slides/federated/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/slides/federated/</guid>
-      <description>&lt;p&gt;Seminar on&lt;/p&gt;
-&lt;h2 id=&#34;span-stylecolororangefederated-learningspan-in-span-stylecolorgreenhealthcarespan&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Federated Learning&lt;/span&gt; in &lt;span style=&#34;color:green&#34;&gt;Healthcare&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://albarqouni.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadi Albarqouni&lt;/a&gt;, PhD&lt;/p&gt;
-&lt;p&gt;AI Young Investigator Group Leader at 
-&lt;a href=&#34;https://www.helmholtz.ai/themenmenue/our-research/research-groups/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz AI&lt;/a&gt; | TUM Junior Fellow at 
-&lt;a href=&#34;http://campar.in.tum.de/Main/ShadiAlbarqouni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU Munich&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;content&#34;&gt;Content&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Brief introduction about Federated Learning&lt;/li&gt;
-&lt;li&gt;It is the right thing at the right time!&lt;/li&gt;
-&lt;li&gt;Course structure&lt;/li&gt;
-&lt;li&gt;Registration&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://federated.withgoogle.com/#about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;FL_overview.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Deep Learning&lt;/strong&gt; &lt;/span&gt; success comes at the cost of collecting and processing a &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;massive amount of data&lt;/strong&gt; &lt;/span&gt;, which often are not accessible due to &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;privacy issues&lt;/strong&gt; &lt;/span&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;Federated Learning&lt;/strong&gt; &lt;/span&gt; has been recently introduced to allow training DL models &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;without sharing the data&lt;/strong&gt; &lt;/span&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;FL.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;
-&lt;sub&gt;Taken from Rieke, N., Hancox, J., Li, W., Milletari, F., Roth, H.R., Albarqouni, S., Bakas, S., Galtier, M.N., Landman, B.A., Maier-Hein, K. and Ourselin, S., 2020. The future of digital health with federated learning. &lt;em&gt;NPJ digital medicine&lt;/em&gt;, &lt;em&gt;3&lt;/em&gt;(1), pp.1-7. &lt;/sub&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;The principal &lt;span style=&#34;color:orange&#34;&gt;&lt;strong&gt;challenges&lt;/strong&gt; &lt;/span&gt;, to overcome, concern the nature of medical data, namely&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;span class=&#34;fragment &#34; &gt;
- &lt;span style=&#34;color:orange&#34;&gt;**Data heterogeneity**&lt;/span&gt;; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), and inter-/intra-observer variability (noisy annotations) 
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/span&gt;
-- &lt;span class=&#34;fragment &#34; &gt;
-   &lt;span style=&#34;color:orange&#34;&gt;**System Heterogeneity** &lt;/span&gt; 
-&lt;/span&gt;
-- &lt;span class=&#34;fragment &#34; &gt;
-   &lt;span style=&#34;color:orange&#34;&gt;**Privacy-Issues** &lt;/span&gt; 
-&lt;/span&gt;
-- &lt;span class=&#34;fragment &#34; &gt;
-   &lt;span style=&#34;color:orange&#34;&gt;**Communication Efficiency** &lt;/span&gt; 
-&lt;/span&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;right-thing-at-the-right-time&#34;&gt;Right thing at the right time&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;Google.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;SE1.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;
-&lt;img src=&#34;SE3.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;FL_Paper.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://federated-learning.org/fl-neurips-2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;NeurIPS.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://federated-learning.org/fl-icml-2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;ICML.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://dcl-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;DCL_MICCAI.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://icfl.cc/SpicyFL/2020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;NeurIPS20.png&#34; alt=&#34;https://federated.withgoogle.com/#about&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;course-structurehttpcamparintumdeviewchairteachingws20flhrequirements&#34;&gt;
-&lt;a href=&#34;http://campar.in.tum.de/view/Chair/TeachingWs20FLH#Requirements&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Course Structure&lt;/a&gt;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Basic Info.&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt;  Master Seminar (IN2107)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Language:&lt;/strong&gt; English&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SWS:&lt;/strong&gt; 2&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ECTS:&lt;/strong&gt; 5&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Webpage:&lt;/strong&gt; 
-&lt;a href=&#34;https://albarqouni.github.io/courses/flhsose2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://albarqouni.github.io/courses/flhsose2021/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; Fridays, 10 - 12&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Virtual Event&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Requirements:&lt;/strong&gt; Solid Background in Machine/Deep Learning&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Tutors&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;tutor.png&#34; alt=&#34;Team&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;
-Learn through &lt;span style=&#34;color:orange&#34;&gt;&lt;em&gt;read&lt;/em&gt;, &lt;em&gt;understand&lt;/em&gt;, &lt;em&gt;present&lt;/em&gt;, and &lt;em&gt;discuss&lt;/em&gt;&lt;/span&gt; many scientific papers&lt;sup&gt;1&lt;/sup&gt; tackling the challenges present in Federated Learning.&lt;/p&gt;
-&lt;p&gt;&lt;sub&gt;&lt;sup&gt;1&lt;/sup&gt;Our pool of papers includes the ones published in NeurIPS, ICML, ICLR, IEEE TMI, MedIA, MICCAI, MIDL, and ISBI.&lt;/sub&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;schedule&#34;&gt;Schedule:&lt;/h4&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;em&gt;Date&lt;/em&gt;&lt;/th&gt;
-&lt;th&gt;&lt;em&gt;Session&lt;/em&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;16.04.2021&lt;/td&gt;
-&lt;td&gt;Federated Learning; Challenges, Methods, and Future&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;30.04.2021&lt;/td&gt;
-&lt;td&gt;Data Heterogeneity I&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;14.05.2021&lt;/td&gt;
-&lt;td&gt;Data Heterogeneity II&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;28.05.2021&lt;/td&gt;
-&lt;td&gt;System Heterogeneity&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;11.06.2021&lt;/td&gt;
-&lt;td&gt;Privacy-Issues&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;25.06.2021&lt;/td&gt;
-&lt;td&gt;Explainability and Accountability&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;evaluation&#34;&gt;Evaluation:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;span style=&#34;color:orange&#34;&gt;**Presentation (60%)**:&lt;/span&gt; The selected paper is presented to the other participants (30 minutes presentation plus 10 minutes Q&amp;A) 
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/span&gt;
-- &lt;span class=&#34;fragment &#34; &gt;
-   &lt;span style=&#34;color:orange&#34;&gt;**Blog | Poster (30%)**:&lt;/span&gt; A blog post of 1000-1500 words excluding references should be submitted before the deadline 
-&lt;/span&gt;
-- &lt;span class=&#34;fragment &#34; &gt;
-   &lt;span style=&#34;color:orange&#34;&gt;**Attendance (10%)**:&lt;/span&gt; Students are expected  to participate actively in all seminar sessions 
-&lt;/span&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;insights-into-the-course-evaluation&#34;&gt;Insights into the course evaluation?&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p&gt;If you are interested in this seminsr course, please write a brief motivation paragraph (few lines) showing your interest and your background in Machine/Deep Learning and send it with a subject “FLH_Motivation”, to Shadi Albarqouni (
-&lt;a href=&#34;mailto:shadi.albarqouni@tum.de&#34;&gt;shadi.albarqouni@tum.de&lt;/a&gt;). Deadline is 16.02.2021.&lt;/p&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-   &lt;span style=&#34;color:orange&#34;&gt;Don’t forget to register at TUM matching system 11.02 to 16.02.2021: register via [matching.in.tum.de](matching.in.tum.de)&lt;/span&gt; 
-&lt;/span&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Preliminary Meeting for the seminar on Federated Learning in Healthcare</title>
-      <link>https://albarqouni.github.io/slides/pres/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/slides/pres/</guid>
-      <description>&lt;h2 id=&#34;span-stylecolororangepresentationspan-and-span-stylecolorgreenblog-post-spanguidelines&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Presentation&lt;/span&gt; and &lt;span style=&#34;color:green&#34;&gt;Blog Post &lt;/span&gt;Guidelines&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://albarqouni.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AI Young Investigator Group Leader at 
-&lt;a href=&#34;https://www.helmholtz.ai/themenmenue/our-research/research-groups/albarqounis-group/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Helmholtz AI&lt;/a&gt; | TUM Junior Fellow at 
-&lt;a href=&#34;http://campar.in.tum.de/Main/ShadiAlbarqouni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TU Munich&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;05.11.2020&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;span-stylecolororangepresentationspan-guidelines&#34;&gt;&lt;span style=&#34;color:orange&#34;&gt;Presentation&lt;/span&gt; Guidelines&lt;/h2&gt;
-&lt;hr&gt;
-&lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;
-&lt;span class=&#34;fragment &#34; &gt;
- &lt;span style=&#34;color:orange&#34;&gt;**First Slide**:&lt;/span&gt; Please have the title of the paper, authors (&lt;3), conference proceedings, or journal, and the name of the presenter. 
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/span&gt;
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h1 id="questions">Questions?&lt;/h1>
+&lt;p>
+&lt;a href="https://spectrum.chat/academic" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://sourcethemes.com/academic/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Preliminary Meeting for the seminar on Federated Learning in Healthcare</title><link>https://albarqouni.github.io/slides/federated/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/slides/federated/</guid><description>&lt;p>Seminar on&lt;/p>
+&lt;h2 id="span-stylecolororangefederated-learningspan-in-span-stylecolorgreenhealthcarespan">&lt;span style="color:orange">Federated Learning&lt;/span> in &lt;span style="color:green">Healthcare&lt;/span>&lt;/h2>
+&lt;p>
+&lt;a href="https://albarqouni.github.io" target="_blank" rel="noopener">Shadi Albarqouni&lt;/a>, PhD&lt;/p>
+&lt;p>AI Young Investigator Group Leader at
+&lt;a href="https://www.helmholtz.ai/themenmenue/our-research/research-groups/index.html" target="_blank" rel="noopener">Helmholtz AI&lt;/a> | TUM Junior Fellow at
+&lt;a href="http://campar.in.tum.de/Main/ShadiAlbarqouni" target="_blank" rel="noopener">TU Munich&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="content">Content&lt;/h2>
+&lt;ul>
+&lt;li>Brief introduction about Federated Learning&lt;/li>
+&lt;li>It is the right thing at the right time!&lt;/li>
+&lt;li>Course structure&lt;/li>
+&lt;li>Registration&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>
+&lt;a href="https://federated.withgoogle.com/#about" target="_blank" rel="noopener">&lt;img src="FL_overview.png" alt="https://federated.withgoogle.com/#about">&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>&lt;span style="color:orange">&lt;strong>Deep Learning&lt;/strong> &lt;/span> success comes at the cost of collecting and processing a &lt;span style="color:orange">&lt;strong>massive amount of data&lt;/strong> &lt;/span>, which often are not accessible due to &lt;span style="color:orange">&lt;strong>privacy issues&lt;/strong> &lt;/span>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;span style="color:orange">&lt;strong>Federated Learning&lt;/strong> &lt;/span> has been recently introduced to allow training DL models &lt;span style="color:orange">&lt;strong>without sharing the data&lt;/strong> &lt;/span>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;img src="FL.png" alt="https://federated.withgoogle.com/#about">
+&lt;sub>Taken from Rieke, N., Hancox, J., Li, W., Milletari, F., Roth, H.R., Albarqouni, S., Bakas, S., Galtier, M.N., Landman, B.A., Maier-Hein, K. and Ourselin, S., 2020. The future of digital health with federated learning. &lt;em>NPJ digital medicine&lt;/em>, &lt;em>3&lt;/em>(1), pp.1-7. &lt;/sub>&lt;/p>
+&lt;hr>
+&lt;p>The principal &lt;span style="color:orange">&lt;strong>challenges&lt;/strong> &lt;/span>, to overcome, concern the nature of medical data, namely&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;span class="fragment " >
+&lt;span style="color:orange">**Data heterogeneity**&lt;/span>; severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), and inter-/intra-observer variability (noisy annotations)
+&lt;/li>
+&lt;/ul>
+&lt;/span>
+- &lt;span class="fragment " >
+&lt;span style="color:orange">**System Heterogeneity** &lt;/span>
+&lt;/span>
+- &lt;span class="fragment " >
+&lt;span style="color:orange">**Privacy-Issues** &lt;/span>
+&lt;/span>
+- &lt;span class="fragment " >
+&lt;span style="color:orange">**Communication Efficiency** &lt;/span>
+&lt;/span>
+&lt;hr>
+&lt;h2 id="right-thing-at-the-right-time">Right thing at the right time&lt;/h2>
+&lt;p>&lt;img src="Google.png" alt="https://federated.withgoogle.com/#about">&lt;/p>
+&lt;hr>
+&lt;p>&lt;img src="SE1.png" alt="https://federated.withgoogle.com/#about">
+&lt;img src="SE3.png" alt="https://federated.withgoogle.com/#about">&lt;/p>
+&lt;hr>
+&lt;p>&lt;img src="FL_Paper.png" alt="https://federated.withgoogle.com/#about">&lt;/p>
+&lt;hr>
+&lt;p>
+&lt;a href="http://federated-learning.org/fl-neurips-2019/" target="_blank" rel="noopener">&lt;img src="NeurIPS.png" alt="https://federated.withgoogle.com/#about">&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>
+&lt;a href="http://federated-learning.org/fl-icml-2020/" target="_blank" rel="noopener">&lt;img src="ICML.png" alt="https://federated.withgoogle.com/#about">&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>
+&lt;a href="https://dcl-workshop.github.io/" target="_blank" rel="noopener">&lt;img src="DCL_MICCAI.png" alt="https://federated.withgoogle.com/#about">&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>
+&lt;a href="http://icfl.cc/SpicyFL/2020" target="_blank" rel="noopener">&lt;img src="NeurIPS20.png" alt="https://federated.withgoogle.com/#about">&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="course-structurehttpcamparintumdeviewchairteachingws20flhrequirements">
+&lt;a href="http://campar.in.tum.de/view/Chair/TeachingWs20FLH#Requirements" target="_blank" rel="noopener">Course Structure&lt;/a>&lt;/h2>
+&lt;hr>
+&lt;p>&lt;strong>Basic Info.&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Type:&lt;/strong> Master Seminar (IN2107)&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> English&lt;/li>
+&lt;li>&lt;strong>SWS:&lt;/strong> 2&lt;/li>
+&lt;li>&lt;strong>ECTS:&lt;/strong> 5&lt;/li>
+&lt;li>&lt;strong>Webpage:&lt;/strong>
+&lt;a href="https://albarqouni.github.io/courses/flhsose2021/" target="_blank" rel="noopener">https://albarqouni.github.io/courses/flhsose2021/&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Time:&lt;/strong> Fridays, 10 - 12&lt;/li>
+&lt;li>&lt;strong>Location:&lt;/strong> Virtual Event&lt;/li>
+&lt;li>&lt;strong>Requirements:&lt;/strong> Solid Background in Machine/Deep Learning&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Tutors&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="tutor.png" alt="Team">&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Objectives:&lt;/strong>
+Learn through &lt;span style="color:orange">&lt;em>read&lt;/em>, &lt;em>understand&lt;/em>, &lt;em>present&lt;/em>, and &lt;em>discuss&lt;/em>&lt;/span> many scientific papers&lt;sup>1&lt;/sup> tackling the challenges present in Federated Learning.&lt;/p>
+&lt;p>&lt;sub>&lt;sup>1&lt;/sup>Our pool of papers includes the ones published in NeurIPS, ICML, ICLR, IEEE TMI, MedIA, MICCAI, MIDL, and ISBI.&lt;/sub>&lt;/p>
+&lt;hr>
+&lt;h4 id="schedule">Schedule:&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;em>Date&lt;/em>&lt;/th>
+&lt;th>&lt;em>Session&lt;/em>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>16.04.2021&lt;/td>
+&lt;td>Federated Learning; Challenges, Methods, and Future&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>30.04.2021&lt;/td>
+&lt;td>Data Heterogeneity I&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14.05.2021&lt;/td>
+&lt;td>Data Heterogeneity II&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>28.05.2021&lt;/td>
+&lt;td>System Heterogeneity&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11.06.2021&lt;/td>
+&lt;td>Privacy-Issues&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>25.06.2021&lt;/td>
+&lt;td>Explainability and Accountability&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="evaluation">Evaluation:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;span class="fragment " >
+&lt;span style="color:orange">**Presentation (60%)**:&lt;/span> The selected paper is presented to the other participants (30 minutes presentation plus 10 minutes Q&amp;A)
+&lt;/li>
+&lt;/ul>
+&lt;/span>
+- &lt;span class="fragment " >
+&lt;span style="color:orange">**Blog | Poster (30%)**:&lt;/span> A blog post of 1000-1500 words excluding references should be submitted before the deadline
+&lt;/span>
+- &lt;span class="fragment " >
+&lt;span style="color:orange">**Attendance (10%)**:&lt;/span> Students are expected to participate actively in all seminar sessions
+&lt;/span>
+&lt;hr>
+&lt;h3 id="insights-into-the-course-evaluation">Insights into the course evaluation?&lt;/h3>
+&lt;hr>
+&lt;p>If you are interested in this seminsr course, please write a brief motivation paragraph (few lines) showing your interest and your background in Machine/Deep Learning and send it with a subject “FLH_Motivation”, to Shadi Albarqouni (
+&lt;a href="mailto:shadi.albarqouni@tum.de">shadi.albarqouni@tum.de&lt;/a>). Deadline is 16.02.2021.&lt;/p>
+&lt;span class="fragment " >
+&lt;span style="color:orange">Don’t forget to register at TUM matching system 11.02 to 16.02.2021: register via [matching.in.tum.de](matching.in.tum.de)&lt;/span>
+&lt;/span>
+&lt;hr>
+&lt;h1 id="questions">Questions?&lt;/h1></description></item><item><title>Preliminary Meeting for the seminar on Federated Learning in Healthcare</title><link>https://albarqouni.github.io/slides/pres/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/slides/pres/</guid><description>&lt;h2 id="span-stylecolororangepresentationspan-and-span-stylecolorgreenblog-post-spanguidelines">&lt;span style="color:orange">Presentation&lt;/span> and &lt;span style="color:green">Blog Post &lt;/span>Guidelines&lt;/h2>
+&lt;p>
+&lt;a href="https://albarqouni.github.io" target="_blank" rel="noopener">Shadi Albarqouni&lt;/a>&lt;/p>
+&lt;p>AI Young Investigator Group Leader at
+&lt;a href="https://www.helmholtz.ai/themenmenue/our-research/research-groups/albarqounis-group/index.html" target="_blank" rel="noopener">Helmholtz AI&lt;/a> | TUM Junior Fellow at
+&lt;a href="http://campar.in.tum.de/Main/ShadiAlbarqouni" target="_blank" rel="noopener">TU Munich&lt;/a>&lt;/p>
+&lt;p>05.11.2020&lt;/p>
+&lt;hr>
+&lt;h2 id="span-stylecolororangepresentationspan-guidelines">&lt;span style="color:orange">Presentation&lt;/span> Guidelines&lt;/h2>
+&lt;hr>
+&lt;ol start="0">
+&lt;li>
+&lt;span class="fragment " >
+&lt;span style="color:orange">**First Slide**:&lt;/span> Please have the title of the paper, authors (&lt;3), conference proceedings, or journal, and the name of the presenter.
+&lt;/li>
+&lt;/ol>
+&lt;/span>
 ```
-Example: 
-&lt;p&gt;The Future of Digital Health with Federated Learning&lt;/p&gt;
-&lt;p&gt;Rieke et al., Nature Digital Medicine, 2020&lt;/p&gt;
-&lt;p&gt;Presenter: Firstname Surname&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;
+Example:
+&lt;p>The Future of Digital Health with Federated Learning&lt;/p>
+&lt;p>Rieke et al., Nature Digital Medicine, 2020&lt;/p>
+&lt;p>Presenter: Firstname Surname&lt;/p>
+&lt;pre>&lt;code>
 ---
 1. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
-    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Introduction**:&amp;lt;/span&amp;gt; In the first few slides, you need to introduce the subject to the audience. A brief **background** (big picture) and a few **related works** (more concise) would help you to position your paper in the big picture. *It is quite important to talk about the key conclusions at the very beginning*.  The **rationale** for the paper, i.e. *why you did the work?*, has to be addressed by the end of the Intro. slides. 
+&amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Introduction**:&amp;lt;/span&amp;gt; In the first few slides, you need to introduce the subject to the audience. A brief **background** (big picture) and a few **related works** (more concise) would help you to position your paper in the big picture. *It is quite important to talk about the key conclusions at the very beginning*. The **rationale** for the paper, i.e. *why you did the work?*, has to be addressed by the end of the Intro. slides.
 &amp;lt;/span&amp;gt;
-
 ---
 2. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
-    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Methodology**:&amp;lt;/span&amp;gt; You need to explain the method in details, if possible. Start with an overview of the **framework** (e.g. flow chart); input, output, and core components, before you dive deeper into the **key contributions**; e.g. design architecture, objective functions, ...etc. Details that might distract the audience can be moved to the backup slides. In short, explain *how did you do it?*
+&amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Methodology**:&amp;lt;/span&amp;gt; You need to explain the method in details, if possible. Start with an overview of the **framework** (e.g. flow chart); input, output, and core components, before you dive deeper into the **key contributions**; e.g. design architecture, objective functions, ...etc. Details that might distract the audience can be moved to the backup slides. In short, explain *how did you do it?*
 &amp;lt;/span&amp;gt;
 ---
-
 3. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
-    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Experiments and Results**:&amp;lt;/span&amp;gt; You need to explain the **experimental designs**; datasets, evaluation metrics, and training setup, and the **rationale behind them**, before you show the **key results**.  The figures should be clearly labeled, e.g. explain the figures axes before you describe the results addressing the question *what did you find?*
+&amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Experiments and Results**:&amp;lt;/span&amp;gt; You need to explain the **experimental designs**; datasets, evaluation metrics, and training setup, and the **rationale behind them**, before you show the **key results**. The figures should be clearly labeled, e.g. explain the figures axes before you describe the results addressing the question *what did you find?*
 &amp;lt;/span&amp;gt;
 ---
-
 4. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
-    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Conclusion &amp;amp; Future Work**:&amp;lt;/span&amp;gt; Discuss the results (your interpretation), before you list the concluding reamrks, learned lessons, and future research directions. 
+&amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Conclusion &amp;amp; Future Work**:&amp;lt;/span&amp;gt; Discuss the results (your interpretation), before you list the concluding reamrks, learned lessons, and future research directions.
 &amp;lt;/span&amp;gt;
-
 ---
-
 5. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
-    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Group Discussion**:&amp;lt;/span&amp;gt; This is the most important part where you need to list a few major things that you need to discuss with the group, for example: 
-	- *How the paper could be improved?* e.g. critique on the proposed method, design choices, missing experiments, or inappropriate evaluation metrics. 
-	- *How the paper could be applied in medical domain?* e.g. challenges in healthcare. 
-	- Have a look at the reviewers feedback, if available, e.g. [openreview](https://openreview.net/)
- 
+&amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Group Discussion**:&amp;lt;/span&amp;gt; This is the most important part where you need to list a few major things that you need to discuss with the group, for example:
+- *How the paper could be improved?* e.g. critique on the proposed method, design choices, missing experiments, or inappropriate evaluation metrics.
+- *How the paper could be applied in medical domain?* e.g. challenges in healthcare.
+- Have a look at the reviewers feedback, if available, e.g. [openreview](https://openreview.net/)
 &amp;lt;/span&amp;gt;
-
 ---
-
 6. &amp;lt;span class=&amp;quot;fragment &amp;quot; &amp;gt;
-    &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Needless to Say**:&amp;lt;/span&amp;gt;  
-	- Read the paper carefully, and look for complementary materials; blog posts, videos, or code repo. to better understand the paper. 
-	- Be mindful of time.  You have 30 mins for points 1-4, and 15 mins for point 5. As a rule of thumb, # slides &amp;lt; given time slot in mins.
-	- Build a compelling story and try to engage your audience. 
-	- List the References in the footer of the corresponding slide 
-	- &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;Practice, practice, practice&amp;lt;/span&amp;gt;
-
+&amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;**Needless to Say**:&amp;lt;/span&amp;gt;
+- Read the paper carefully, and look for complementary materials; blog posts, videos, or code repo. to better understand the paper.
+- Be mindful of time. You have 30 mins for points 1-4, and 15 mins for point 5. As a rule of thumb, # slides &amp;lt; given time slot in mins.
+- Build a compelling story and try to engage your audience.
+- List the References in the footer of the corresponding slide
+- &amp;lt;span style=&amp;quot;color:orange&amp;quot;&amp;gt;Practice, practice, practice&amp;lt;/span&amp;gt;
 &amp;lt;/span&amp;gt;
-
 ---
 ## &amp;lt;span style=&amp;quot;color:green&amp;quot;&amp;gt;Blog Post &amp;lt;/span&amp;gt; Guidelines
-
 ---
-&amp;gt; The secret to getting into the deep learning community is high quality blogging. Read 5 different blog posts about the same subject and then try to synthesize your own view. Don’t just write something ok, either — take 3 or 4 full days on a post and try to make it as short and simple (yet complete) as possible. 
+&amp;gt; The secret to getting into the deep learning community is high quality blogging. Read 5 different blog posts about the same subject and then try to synthesize your own view. Don’t just write something ok, either — take 3 or 4 full days on a post and try to make it as short and simple (yet complete) as possible.
 -- [Andrew Trask](https://hackernoon.com/interview-with-deep-learning-researcher-and-leader-of-openmined-andrew-trask-77cd33570a8c), DeepMind
-
 ---
-
-This is a free-style blog post! One can hardly enforce guidelines. However, I personally liked the *Dos and Don&#39;ts* appeared in this [blog post](https://www.fast.ai/2019/05/13/blogging-advice/).  Here some examples
+This is a free-style blog post! One can hardly enforce guidelines. However, I personally liked the *Dos and Don'ts* appeared in this [blog post](https://www.fast.ai/2019/05/13/blogging-advice/). Here some examples
 - [What is Federated Learning?
 ](https://medium.com/@ODSC/what-is-federated-learning-99c7fc9bc4f5)
 - [Federated Learning: A Guide to Collaborative Training with Decentralized Sensitive Data – Part 1](https://www.inovex.de/blog/federated-learning-collaborative-training-part-1/)
 - [Do we need deep graph neural networks?](https://towardsdatascience.com/do-we-need-deep-graph-neural-networks-be62d3ec5c59)
 - [FACT Diagnostic: How to Better Understand Trade-offs Involving Group Fairness](https://blog.ml.cmu.edu/2020/10/12/fact-diagnostic-how-to-better-understand-trade-offs-involving-group-fairness/)
 - Other blog sites: [CMU ML Blog](https://blog.ml.cmu.edu/), [BAIR Blog](https://bair.berkeley.edu/blog/)
-
 ---
-## Helpful resourses 
+## Helpful resourses
 - [How to read a paper?](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) --Three-pass method
 - [How to read a research paper?](https://www.eecs.harvard.edu/~michaelm/postscripts/ReadPaper.pdf)
 - [How to Read Scientific Papers Quickly &amp;amp; Efficiently](https://medium.com/@drewdennis/how-to-read-scientific-papers-quickly-efficiently-e7030c4018fa)
 - [How to write a blog post from your journal article?](https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-to-write-a-blogpost-from-your-journal-article-6511a3837caa)
 - [Advice for Better Blog Posts](https://www.fast.ai/2019/05/13/blogging-advice/)
 ---
-
 ![PhDComics](PhDComics.png)
 Image source: [phdcomics.com](http://phdcomics.com/comics/archive.php?comicid=719). @Jorge Cham
-
 ---
 Should you have any questions, please drop me an email at shadi.albarqouni@tum.de
-
-[@ShadiAlbarqouni](https://twitter.com/ShadiAlbarqouni)&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+[@ShadiAlbarqouni](https://twitter.com/ShadiAlbarqouni)&lt;/code>&lt;/pre></description></item></channel></rss>

@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Surgical | Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/tags/surgical/</link>
-      <atom:link href="https://albarqouni.github.io/tags/surgical/index.xml" rel="self" type="application/rss+xml" />
-    <description>Surgical</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Wed, 17 Jul 2024 09:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>Surgical</title>
-      <link>https://albarqouni.github.io/tags/surgical/</link>
-    </image>
-    
-    <item>
-      <title>David participated at the SDS Summer School 2024</title>
-      <link>https://albarqouni.github.io/talk/sds_summer_school_david/</link>
-      <pubDate>Wed, 17 Jul 2024 09:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/talk/sds_summer_school_david/</guid>
-      <description>&lt;p&gt;David had a enriching experience at the SDS Summer School 2023, hosted by the Institut de Chirurgie guidée par l&amp;rsquo;Image (IHU Strasbourg) and Université de Strasbourg. This event showcased the exciting fusion of computer science and surgical data science, offering a platform for exploring the latest advancements in the field.&lt;/p&gt;
-&lt;p&gt;One of the highlights was leading a hands-on session on Federated Learning for Medical Image Analysis alongside Prof. Shadi Albarqouni. This session not only facilitated in-depth discussions among computer science experts but also garnered positive engagement from clinicians, who were keen on understanding the potential of federated learning in enhancing clinical workflows. The experience was both inspiring and immensely rewarding, reinforcing the importance of interdisciplinary collaboration in advancing healthcare technology.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Surgical | Albarqouni Lab</title><link>https://albarqouni.github.io/tags/surgical/</link><atom:link href="https://albarqouni.github.io/tags/surgical/index.xml" rel="self" type="application/rss+xml"/><description>Surgical</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Wed, 17 Jul 2024 09:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>Surgical</title><link>https://albarqouni.github.io/tags/surgical/</link></image><item><title>David participated at the SDS Summer School 2024</title><link>https://albarqouni.github.io/talk/sds_summer_school_david/</link><pubDate>Wed, 17 Jul 2024 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/sds_summer_school_david/</guid><description>&lt;p>David had a enriching experience at the SDS Summer School 2023, hosted by the Institut de Chirurgie guidée par l&amp;rsquo;Image (IHU Strasbourg) and Université de Strasbourg. This event showcased the exciting fusion of computer science and surgical data science, offering a platform for exploring the latest advancements in the field.&lt;/p>
+&lt;p>One of the highlights was leading a hands-on session on Federated Learning for Medical Image Analysis alongside Prof. Shadi Albarqouni. This session not only facilitated in-depth discussions among computer science experts but also garnered positive engagement from clinicians, who were keen on understanding the potential of federated learning in enhancing clinical workflows. The experience was both inspiring and immensely rewarding, reinforcing the importance of interdisciplinary collaboration in advancing healthcare technology.&lt;/p></description></item></channel></rss>

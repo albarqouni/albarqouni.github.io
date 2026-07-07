@@ -1,79 +1,198 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Albarqouni Lab</title>
-    <link>https://albarqouni.github.io/authors/malek-al-abed/</link>
-      <atom:link href="https://albarqouni.github.io/authors/malek-al-abed/index.xml" rel="self" type="application/rss+xml" />
-    <description>Albarqouni Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2025</copyright><lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://albarqouni.github.io/images/icon_hu681563d5489cbd6b4a3381f376416aae_52869_512x512_fill_lanczos_center_3.png</url>
-      <title>Albarqouni Lab</title>
-      <link>https://albarqouni.github.io/authors/malek-al-abed/</link>
-    </image>
-    
-    <item>
-      <title>MA Thesis: Deep Learning for Brain MRI Image Quality Transfer -- Not available</title>
-      <link>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</link>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Magnetic Resonance Imaging (MRI) plays a vital role in modern diagnostics, offering detailed, non-invasive insights into human anatomy [1-2]. High-field MRI (HF-MRI) systems, which operate at higher magnetic field strengths, provide superior image resolution and contrast compared to low-field MRI (LF-MRI) systems [3-4]. However, HF-MRI scanners are expensive and require significant maintenance, limiting their availability in resource-constrained environments where LF-MRI systems prevail. This disparity often leads to suboptimal diagnostic outcomes, underscoring the need to enhance the quality of LF-MRI images to the standard of HF-MRI [10].&lt;/p&gt;
-&lt;p&gt;Generative models, particularly diffusion models [5], have emerged as promising tools for image enhancement. They excel in generating high-fidelity, contextually coherent images by iteratively refining noisy data. Recent studies have demonstrated the potential of diffusion models in various imaging tasks, outperforming traditional techniques, including Generative Adversarial Networks (GANs). The proposed project aims to leverage diffusion models to improve LF-MRI image quality, bridging the gap between LF-MRI and HF-MRI and enhancing diagnostic accuracy [1-2].&lt;/p&gt;
-&lt;p&gt;The project aims to develop a 3D Conditional Diffusion Model specifically designed for enhancing LF-MRI images [6-8]. This model, named MagIQT, will integrate multiple innovative components that complement each other to address existing challenges in MRI image enhancement. The model will consist of a transformer-based encoder and a cross-batch mechanism, uniquely positioned to improve contextual information and reduce artifacts, thus advancing the current state-of-the-art. A recent review [9] summarizing the strengths and weaknesses of diffusion models in medical imaging will be further investigated.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Research Questions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Q1) How effectively can a 3D conditional diffusion model enhance low-field MRI images to high-field MRI quality in terms of diagnostic accuracy and image fidelity compared to existing generative models [11]?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Q2) What are the specific contributions of the transformer-based encoder and cross-batch mechanism to the overall performance of the 3D conditional diffusion model in reducing artifacts and preserving anatomical details in MRI image enhancement?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Q3) How does the application of the 3D conditional diffusion model impact the detection and diagnosis of anomalies in pediatric MRI scans, particularly in identifying subtle pathologies that may be missed in low-field MRI?&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;
-A total of 50 patients were scanned on portable 64mT and standard 3T scanners at the Clinic for Neonatology and Pediatric Intensive Care Medicine at the University Hospital Bonn with T1-weighted, T2-weighted, and FLAIR acquisitions. Brain Imaging sequences require registration as a pre-processing step. Another cohort of unpaired 100 patients was scanned on either 64mT or 3T, which might be used for the model development. Additional datasets might be requested from the authors of [11-12].&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Roadmap:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Familiarize yourself with the current literature [5-9]&lt;/li&gt;
-&lt;li&gt;Build the baseline supervised model and develop the anomaly detection model.&lt;/li&gt;
-&lt;li&gt;Run the necessary comparisons.&lt;/li&gt;
-&lt;li&gt;Run extensive experiments and analysis&lt;/li&gt;
-&lt;li&gt;Write up your thesis&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid background in Machine/Deep Learning&lt;/li&gt;
-&lt;li&gt;Familiar with deep learning models and SOTA architectures&lt;/li&gt;
-&lt;li&gt;Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Experience with a mainstream deep learning framework such as PyTorch.&lt;/li&gt;
-&lt;li&gt;Machine/Deep learning hands-on experience&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;
-&lt;font size = &#34;2&#34;&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Barkovich, A. James. Pediatric neuroimaging. Lippincott Williams &amp;amp; Wilkins, 2005.&lt;/li&gt;
-&lt;li&gt;Atlas, Scott W., ed. Magnetic resonance imaging of the brain and spine. Vol. 1. Lippincott Williams &amp;amp; Wilkins, 2009.&lt;/li&gt;
-&lt;li&gt;Campbell‐Washburn, Adrienne E., et al. &amp;ldquo;Low‐field MRI: a report on the 2022 ISMRM workshop.&amp;rdquo; Magnetic resonance in medicine 90.4 (2023): 1682-1694.&lt;/li&gt;
-&lt;li&gt;Arnold, Thomas Campbell, et al. &amp;ldquo;Low‐field MRI: clinical promise and challenges.&amp;rdquo; Journal of Magnetic Resonance Imaging 57.1 (2023): 25-44.&lt;/li&gt;
-&lt;li&gt;Ho, Jonathan, Ajay Jain, and Pieter Abbeel. &amp;ldquo;Denoising diffusion probabilistic models.&amp;rdquo; Advances in neural information processing systems 33 (2020): 6840-6851.&lt;/li&gt;
-&lt;li&gt;Kim, S., et al. &amp;ldquo;A 3D Conditional Diffusion Model for Image Quality Transfer - An Application to Low-Field MRI.&amp;rdquo; 1st Workshop on Deep Generative Models for Health at NeurIPS 2023. 
-&lt;a href=&#34;https://github.com/edshkim98/DiffusionIQT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt; .&lt;/li&gt;
-&lt;li&gt;Cechnicka, S., et al. &amp;ldquo;Ultra-Resolution Cascaded Diffusion Model for Gigapixel Image Synthesis in Histopathology.&amp;rdquo; NeurIPS 2023. 
-&lt;a href=&#34;https://arxiv.org/abs/2312.01152&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Islam, Kh Tohidul, et al. &amp;ldquo;Improving portable low-field MRI image quality through image-to-image translation using paired low-and high-field images.&amp;rdquo; Scientific Reports 13.1 (2023): 21183. [Link] (
-&lt;a href=&#34;https://github.com/khtohidulislam/LoHiResGAN%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/khtohidulislam/LoHiResGAN)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Kazerouni, Amirhossein, et al. &amp;ldquo;Diffusion models in medical imaging: A comprehensive survey.&amp;rdquo; Medical Image Analysis 88 (2023): 102846.&lt;/li&gt;
-&lt;li&gt;Kimberly, W. Taylor, et al. &amp;ldquo;Brain imaging with portable low-field MRI.&amp;rdquo; Nature reviews bioengineering 1.9 (2023): 617-630.&lt;/li&gt;
-&lt;li&gt;Lucas, Alfredo, et al. &amp;ldquo;Multi-contrast high-field quality image synthesis for portable low-field MRI using generative adversarial networks and paired data.&amp;rdquo; medRxiv (2023).&lt;/li&gt;
-&lt;li&gt;Arnold, T. Campbell, et al. &amp;ldquo;Sensitivity of portable low-field magnetic resonance imaging for multiple sclerosis lesions.&amp;rdquo; NeuroImage: Clinical 35 (2022): 103101.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/font&gt;
-&lt;p&gt;Interested, please contact 
-&lt;a href=&#34;mailto:shadi.albarqouni@ukbonn.de&#34;&gt;Prof. Dr. Shadi Albarqouni&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Albarqouni Lab</title><link>https://albarqouni.github.io/authors/malek-al-abed/</link><atom:link href="https://albarqouni.github.io/authors/malek-al-abed/index.xml" rel="self" type="application/rss+xml"/><description>Albarqouni Lab</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Mon, 08 Jun 2026 09:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>Albarqouni Lab</title><link>https://albarqouni.github.io/authors/malek-al-abed/</link></image><item><title>HAICON 2026 – AI for Science Conference</title><link>https://albarqouni.github.io/talk/haicon2026/</link><pubDate>Mon, 08 Jun 2026 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/haicon2026/</guid><description>&lt;p>
+&lt;a href="https://albarqouni.github.io/authors/malek-al-abed/" target="_blank" rel="noopener">Malek&lt;/a> and
+&lt;a href="https://albarqouni.github.io/authors/adea-nesturi/" target="_blank" rel="noopener">Adea&lt;/a> attended the Helmholtz AI conference &amp;ndash; HAICON 2026 &amp;ndash; where they presented posters of the lab&amp;rsquo;s recent accepted papers at ISBI 2026:
+&lt;a href="https://ieeexplore.ieee.org/document/11515815" target="_blank" rel="noopener">MRIQT&lt;/a>, and MICCAI 2026:
+&lt;a href="https://arxiv.org/pdf/2603.06340" target="_blank" rel="noopener">K-MaT&lt;/a> and
+&lt;a href="https://arxiv.org/abs/2603.07163" target="_blank" rel="noopener">PromptGate&lt;/a>. Beyond presenting the posters, Malek and Adea attended hands-on workshops, held during the first day, on &lt;em>Foundation Models&lt;/em>, &lt;em>Causal AI&lt;/em> and &lt;em>Quantum Machine Learning&lt;/em> where the organizers introduced the topics, presented the latest trends and gave tutorials. They participated in the side-coffee networking events, connecting with fellow researchers , engaging in interesting talks about &lt;em>Agentic AI&lt;/em>, &lt;em>Image Analysis&lt;/em> and the use of LLMs for Sciences. The &lt;em>AI World Café&lt;/em> featured speedy group discussions on hot-topics and concerning issues on AI like &lt;em>puplishing in the age of AI&lt;/em>, &lt;em>ML models lifecycle management beyond research&lt;/em> and the &lt;em>next wave of AI&lt;/em>. These interactions are essential for advancing interdisciplinary research and ensuring that scientific innovations can be translated into meaningful real-world impact. Highlights of the conference included keynote talks by
+&lt;a href="https://www.eee.columbia.edu/faculty-staff/directory/pierre-gentine" target="_blank" rel="noopener">Pierre Gentine&lt;/a> (Columbia University),
+&lt;a href="https://www.professoren.tum.de/rueckert-daniel" target="_blank" rel="noopener">Daniel Rückert&lt;/a> (Technical University of Munich), and
+&lt;a href="https://research.google/people/cordeliaschmid/?&amp;amp;type=google" target="_blank" rel="noopener">Cordelia Schmid&lt;/a> (Inria and Google). Their presentations covered AI applications in climate science, medicine, and robotics, respectively, showcasing the breadth of AI-driven innovation and its growing role in advancing scientific research. In the last day, Malek and Adea were invited to the State Reception at the Munich Residenz by the Deputy Bavarian Minister-President Hubert Aiwanger. Minister Aiwanger stressed on the importance of pushing the AI research while holding strong communication between the local community, politicians and scientists for better transparency, trust and economical value.&lt;/p></description></item><item><title>OMI Plenary Meeting in Erlangen</title><link>https://albarqouni.github.io/talk/omi_erlangen_2026/</link><pubDate>Thu, 23 Apr 2026 12:30:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/omi_erlangen_2026/</guid><description>&lt;p>David and Malek attended the OMI Plenary Meeting in Erlangen 2026, where partners from across the consortium gathered to share progress, discuss issues and fixes, and plan the next steps. The meeting hosted at the Digital Health Innovation Platform in Erlangen, featured an outstanding talk by Prof. Bernhard Kainz about the future of AI in healthcare and how OMI can be a great support, not only for researchers, but also a great potential for physcians. The breakout sessions featured intensive and insightful technical discussions, while the individual work package updates demonstrated that all partner sites are progressing according to schedule. A few key takeaways from the two days were: 1) Meeting everyone in person, along with side conversations and open group discussions, led to a deeper understanding of OMI and deepened understanding among partners, 2) key challenges include data and server hosting security, the responsibility and cost of hosting the service and safeguarding the data, and asynchornous updating of the individual components easily break compatibility with other components, 3) despite the regulatory and technical challenges, OMI shows strong potential to enable open yet secure data and knowledge sharing across partners, provided that the necessary security agreements and guarantees are established, 4) the commitment of everyone involved has driven the project to reach, to a large extent, the expected maturity level according to the timeline, allowing actual services to be tested.&lt;/p></description></item><item><title>Three Oral Presentations at ISBI in London</title><link>https://albarqouni.github.io/talk/isbi2026/</link><pubDate>Wed, 08 Apr 2026 09:00:00 +0000</pubDate><guid>https://albarqouni.github.io/talk/isbi2026/</guid><description/></item><item><title>Block Course: AI in Medicine (AiM): Foundations, Methods, and Critical Perspectives</title><link>https://albarqouni.github.io/students/courses/aim/</link><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/courses/aim/</guid><description>&lt;h2 id="block-course-ai-in-medicine-aim">Block Course: AI in Medicine (AiM)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Lecturers:&lt;/strong>
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Tutors:&lt;/strong>
+&lt;a href="../../../authors/adea-nesturi/">Adea Nesturi&lt;/a>,
+&lt;a href="../../../authors/david-gaviria/">David Gaviria&lt;/a>,
+&lt;a href="../../../authors/jiajun-zeng">Jiajun Zeng&lt;/a>,
+&lt;a href="../../../authors/malek-al-abed">Malek Al-Abed&lt;/a>,
+&lt;a href="../../../authors/elodie-germani">Elodie Germani&lt;/a>,
+&lt;a href="../../../authors/aditya-rastogi">Aditya Rastogi&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Module:&lt;/strong> CM1659&lt;/li>
+&lt;li>&lt;strong>Credits:&lt;/strong> 2 SWS&lt;/li>
+&lt;li>&lt;strong>Programme:&lt;/strong> PhD Candidates at BIGC CPS and NeuroScience&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> English&lt;/li>
+&lt;li>&lt;strong>Format:&lt;/strong> Block Course (2 SWS)&lt;/li>
+&lt;li>&lt;strong>Time:&lt;/strong> Tuesday to Thursday, 14-16 April 2026, 09:00 &amp;ndash; 17:00&lt;/li>
+&lt;li>&lt;strong>Location:&lt;/strong> UKB, Venusberg-Campus 1, building C66, 1st floor, seminar room 101&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="description">Description&lt;/h3>
+&lt;p>This block course offers an intensive introduction to artificial intelligence in medicine, with a focus on modern deep learning methods for biomedical and clinical applications. Designed as an interdisciplinary format, the course combines concept-driven lectures with interactive labs, allowing students to engage both with the theoretical foundations of AI and with practical challenges in medical data analysis.&lt;/p>
+&lt;p>The course is structured around a series of core topics that are central to contemporary AI in medicine. It begins with an introduction to deep learning, providing the conceptual basis for understanding neural networks and their role in medical applications. Building on this foundation, students are introduced to key tasks such as detection and classification, as well as segmentation, which are essential in areas such as diagnostic imaging, image-guided analysis, and automated clinical decision support. The course then expands to quality control in AI systems, with a particular emphasis on uncertainty estimation and interpretability, highlighting how trustworthy and transparent models can be developed and assessed. Further sessions address bias and causality, encouraging students to critically examine fairness, generalizability, and the difference between correlation-driven prediction and clinically meaningful reasoning. Finally, the course introduces vision-language models and their emerging role in connecting medical images, clinical text, and multimodal reasoning.&lt;/p>
+&lt;p>Each lecture is followed by an interactive lab in which students apply, explore, and critically reflect on the methods discussed. These labs are designed to deepen understanding through hands-on experimentation, collaborative problem-solving, and discussion of real-world medical use cases. In this way, the course not only introduces students to the technical building blocks of AI in medicine but also emphasizes the broader methodological and ethical questions that arise when such systems are developed for healthcare.&lt;/p>
+&lt;p>By the end of the course, students will have gained a structured overview of important AI methods in medicine, an understanding of their main areas of application, and a critical perspective on their limitations, risks, and clinical potential.&lt;/p>
+&lt;hr>
+&lt;h3 id="learning-goals">Learning Goals&lt;/h3>
+&lt;h4 id="technical-skills">Technical Skills&lt;/h4>
+&lt;ul>
+&lt;li>Understand and critically appraise current research in AI in Medicine.&lt;/li>
+&lt;li>Deepen expertise in medical image segmentation, registration, classification, uncertainty quantification, and bias/causality.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="topics-and-focus-areas">Topics and Focus Areas&lt;/h3>
+&lt;p>Seminar topics are drawn from recent publications in top-tier venues and may include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Deep Learning Architectures&lt;/strong> (U-Nets, GANs, Vision Transformers)&lt;/li>
+&lt;li>&lt;strong>Segmentation &amp;amp; Classification&lt;/strong> (e.g., anatomical structure delineation, lesion detection)&lt;/li>
+&lt;li>&lt;strong>Uncertainty Quantification &amp;amp; Bias&lt;/strong> (Bayesian learning, causal inference, dataset shift)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-block-course-schedule-14-16-april-2026">🗓 Block Course Schedule (14-16 April 2026)&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Date&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Time&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Topic&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Tuesday, April 14&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 09:30&lt;/td>
+&lt;td>&lt;strong>Intro&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>09:30 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Detection and Classification&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Detection and Classification&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Quality Control: Interpretbility&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA Interpretability algorithms&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Detection and Classification&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Detection and Classification&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Wednesday, April 15&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Segmentation&lt;/strong>&lt;/td>
+&lt;td>Introduction to deep learning concepts specific to medical imaging.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Quality Control: Uncertiantity&lt;/strong>&lt;/td>
+&lt;td>Introduction to uncertainty and quantification methods&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Segmentation and Interpretbility&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Segmentation and Interpretability&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Thursday, April 16&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Bias and Causality&lt;/strong>&lt;/td>
+&lt;td>Introduction to Bias and Causality in Medical Imaging&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Vision-Language Models&lt;/strong>&lt;/td>
+&lt;td>Introduction to Vision-Language Models&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Segmentation (Cont.)&lt;/strong>&lt;/td>
+&lt;td>Free time to complete the labs.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="recommended-prerequisites">Recommended Prerequisites&lt;/h3>
+&lt;p>At least one of the following:&lt;/p>
+&lt;ul>
+&lt;li>Familiarity with fundamental medical imaging techniques and an interest in AI applications.&lt;/li>
+&lt;li>Understanding of medical diagnostics and clinical data interpretation.&lt;/li>
+&lt;li>A solid background in &lt;strong>Python programming&lt;/strong>, &lt;strong>linear algebra&lt;/strong>, &lt;strong>probability&lt;/strong>, and &lt;strong>numerical algorithms&lt;/strong> is recommended.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="references-and-resources">References and Resources&lt;/h3>
+&lt;ul>
+&lt;li>[1] Litjens, Geert, et al. “A survey on deep learning in medical image analysis.” Medical image analysis 42 (2017): 60-88.&lt;/li>
+&lt;li>[2] Shen, Dinggang, Guorong Wu, and Heung-Il Suk. “Deep learning in medical image analysis.” Annual review of biomedical engineering 19.1 (2017): 221-248.&lt;/li>
+&lt;li>[3] Chen, Xuxin, et al. “Recent advances and clinical applications of deep learning in medical image analysis.” Medical image analysis 79 (2022): 102444.&lt;/li>
+&lt;li>[4] Tajbakhsh, Nima, et al. “Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.” Medical image analysis 63 (2020):101693.&lt;/li>
+&lt;li>[5] Wang, Ge, Jong Chul Ye, and Bruno De Man. “Deep learning for tomographic image reconstruction.” Nature machine intelligence 2.12 (2020): 737-748.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="registration">Registration&lt;/h3>
+&lt;p>Registration takes place via
+&lt;a href="https://intern.bigs-clinpopscience.de/teachers/showCourse/1659" target="_blank" rel="noopener">BIGS CPS Portal&lt;/a> or by contacting
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>.&lt;/p></description></item><item><title>MA Thesis: Deep Learning for Brain MRI Image Quality Transfer -- Not available</title><link>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</link><pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/theses/ma_thesis_on_image_quality_transfer/</guid><description>&lt;p>&lt;strong>Abstract.&lt;/strong> Magnetic Resonance Imaging (MRI) plays a vital role in modern diagnostics, offering detailed, non-invasive insights into human anatomy [1-2]. High-field MRI (HF-MRI) systems, which operate at higher magnetic field strengths, provide superior image resolution and contrast compared to low-field MRI (LF-MRI) systems [3-4]. However, HF-MRI scanners are expensive and require significant maintenance, limiting their availability in resource-constrained environments where LF-MRI systems prevail. This disparity often leads to suboptimal diagnostic outcomes, underscoring the need to enhance the quality of LF-MRI images to the standard of HF-MRI [10].&lt;/p>
+&lt;p>Generative models, particularly diffusion models [5], have emerged as promising tools for image enhancement. They excel in generating high-fidelity, contextually coherent images by iteratively refining noisy data. Recent studies have demonstrated the potential of diffusion models in various imaging tasks, outperforming traditional techniques, including Generative Adversarial Networks (GANs). The proposed project aims to leverage diffusion models to improve LF-MRI image quality, bridging the gap between LF-MRI and HF-MRI and enhancing diagnostic accuracy [1-2].&lt;/p>
+&lt;p>The project aims to develop a 3D Conditional Diffusion Model specifically designed for enhancing LF-MRI images [6-8]. This model, named MagIQT, will integrate multiple innovative components that complement each other to address existing challenges in MRI image enhancement. The model will consist of a transformer-based encoder and a cross-batch mechanism, uniquely positioned to improve contextual information and reduce artifacts, thus advancing the current state-of-the-art. A recent review [9] summarizing the strengths and weaknesses of diffusion models in medical imaging will be further investigated.&lt;/p>
+&lt;p>&lt;strong>Research Questions:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Q1) How effectively can a 3D conditional diffusion model enhance low-field MRI images to high-field MRI quality in terms of diagnostic accuracy and image fidelity compared to existing generative models [11]?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Q2) What are the specific contributions of the transformer-based encoder and cross-batch mechanism to the overall performance of the 3D conditional diffusion model in reducing artifacts and preserving anatomical details in MRI image enhancement?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Q3) How does the application of the 3D conditional diffusion model impact the detection and diagnosis of anomalies in pediatric MRI scans, particularly in identifying subtle pathologies that may be missed in low-field MRI?&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Dataset:&lt;/strong>
+A total of 50 patients were scanned on portable 64mT and standard 3T scanners at the Clinic for Neonatology and Pediatric Intensive Care Medicine at the University Hospital Bonn with T1-weighted, T2-weighted, and FLAIR acquisitions. Brain Imaging sequences require registration as a pre-processing step. Another cohort of unpaired 100 patients was scanned on either 64mT or 3T, which might be used for the model development. Additional datasets might be requested from the authors of [11-12].&lt;/p>
+&lt;p>&lt;strong>Roadmap:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Familiarize yourself with the current literature [5-9]&lt;/li>
+&lt;li>Build the baseline supervised model and develop the anomaly detection model.&lt;/li>
+&lt;li>Run the necessary comparisons.&lt;/li>
+&lt;li>Run extensive experiments and analysis&lt;/li>
+&lt;li>Write up your thesis&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Requirements:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Solid background in Machine/Deep Learning&lt;/li>
+&lt;li>Familiar with deep learning models and SOTA architectures&lt;/li>
+&lt;li>Sufficient knowledge of Python programming language and libraries (Scikit-learn)&lt;/li>
+&lt;li>Experience with a mainstream deep learning framework such as PyTorch.&lt;/li>
+&lt;li>Machine/Deep learning hands-on experience&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>References:&lt;/strong>
+&lt;font size = "2">&lt;/p>
+&lt;ol>
+&lt;li>Barkovich, A. James. Pediatric neuroimaging. Lippincott Williams &amp;amp; Wilkins, 2005.&lt;/li>
+&lt;li>Atlas, Scott W., ed. Magnetic resonance imaging of the brain and spine. Vol. 1. Lippincott Williams &amp;amp; Wilkins, 2009.&lt;/li>
+&lt;li>Campbell‐Washburn, Adrienne E., et al. &amp;ldquo;Low‐field MRI: a report on the 2022 ISMRM workshop.&amp;rdquo; Magnetic resonance in medicine 90.4 (2023): 1682-1694.&lt;/li>
+&lt;li>Arnold, Thomas Campbell, et al. &amp;ldquo;Low‐field MRI: clinical promise and challenges.&amp;rdquo; Journal of Magnetic Resonance Imaging 57.1 (2023): 25-44.&lt;/li>
+&lt;li>Ho, Jonathan, Ajay Jain, and Pieter Abbeel. &amp;ldquo;Denoising diffusion probabilistic models.&amp;rdquo; Advances in neural information processing systems 33 (2020): 6840-6851.&lt;/li>
+&lt;li>Kim, S., et al. &amp;ldquo;A 3D Conditional Diffusion Model for Image Quality Transfer - An Application to Low-Field MRI.&amp;rdquo; 1st Workshop on Deep Generative Models for Health at NeurIPS 2023.
+&lt;a href="https://github.com/edshkim98/DiffusionIQT" target="_blank" rel="noopener">Link&lt;/a> .&lt;/li>
+&lt;li>Cechnicka, S., et al. &amp;ldquo;Ultra-Resolution Cascaded Diffusion Model for Gigapixel Image Synthesis in Histopathology.&amp;rdquo; NeurIPS 2023.
+&lt;a href="https://arxiv.org/abs/2312.01152" target="_blank" rel="noopener">Link&lt;/a>&lt;/li>
+&lt;li>Islam, Kh Tohidul, et al. &amp;ldquo;Improving portable low-field MRI image quality through image-to-image translation using paired low-and high-field images.&amp;rdquo; Scientific Reports 13.1 (2023): 21183. [Link] (
+&lt;a href="https://github.com/khtohidulislam/LoHiResGAN%29" target="_blank" rel="noopener">https://github.com/khtohidulislam/LoHiResGAN)&lt;/a>.&lt;/li>
+&lt;li>Kazerouni, Amirhossein, et al. &amp;ldquo;Diffusion models in medical imaging: A comprehensive survey.&amp;rdquo; Medical Image Analysis 88 (2023): 102846.&lt;/li>
+&lt;li>Kimberly, W. Taylor, et al. &amp;ldquo;Brain imaging with portable low-field MRI.&amp;rdquo; Nature reviews bioengineering 1.9 (2023): 617-630.&lt;/li>
+&lt;li>Lucas, Alfredo, et al. &amp;ldquo;Multi-contrast high-field quality image synthesis for portable low-field MRI using generative adversarial networks and paired data.&amp;rdquo; medRxiv (2023).&lt;/li>
+&lt;li>Arnold, T. Campbell, et al. &amp;ldquo;Sensitivity of portable low-field magnetic resonance imaging for multiple sclerosis lesions.&amp;rdquo; NeuroImage: Clinical 35 (2022): 103101.&lt;/li>
+&lt;/ol>
+&lt;/font>
+&lt;p>Interested, please contact
+&lt;a href="mailto:shadi.albarqouni@ukbonn.de">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/p></description></item></channel></rss>

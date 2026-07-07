@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Albarqouni Lab</title><link>https://albarqouni.github.io/authors/jiajun-zeng/</link><atom:link href="https://albarqouni.github.io/authors/jiajun-zeng/index.xml" rel="self" type="application/rss+xml"/><description>Albarqouni Lab</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Shadi Albarqouni 2026</copyright><lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate><image><url>https://albarqouni.github.io/images/icon_huf1b71a7982912cafca682279316bdbb0_68034_512x512_fill_lanczos_center_3.png</url><title>Albarqouni Lab</title><link>https://albarqouni.github.io/authors/jiajun-zeng/</link></image><item><title>Block Course: AI in Medicine (AiM): Foundations, Methods, and Critical Perspectives</title><link>https://albarqouni.github.io/students/courses/aim/</link><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate><guid>https://albarqouni.github.io/students/courses/aim/</guid><description>&lt;h2 id="block-course-ai-in-medicine-aim">Block Course: AI in Medicine (AiM)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Lecturers:&lt;/strong>
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Tutors:&lt;/strong>
+&lt;a href="../../../authors/adea-nesturi/">Adea Nesturi&lt;/a>,
+&lt;a href="../../../authors/david-gaviria/">David Gaviria&lt;/a>,
+&lt;a href="../../../authors/jiajun-zeng">Jiajun Zeng&lt;/a>,
+&lt;a href="../../../authors/malek-al-abed">Malek Al-Abed&lt;/a>,
+&lt;a href="../../../authors/elodie-germani">Elodie Germani&lt;/a>,
+&lt;a href="../../../authors/aditya-rastogi">Aditya Rastogi&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Module:&lt;/strong> CM1659&lt;/li>
+&lt;li>&lt;strong>Credits:&lt;/strong> 2 SWS&lt;/li>
+&lt;li>&lt;strong>Programme:&lt;/strong> PhD Candidates at BIGC CPS and NeuroScience&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> English&lt;/li>
+&lt;li>&lt;strong>Format:&lt;/strong> Block Course (2 SWS)&lt;/li>
+&lt;li>&lt;strong>Time:&lt;/strong> Tuesday to Thursday, 14-16 April 2026, 09:00 &amp;ndash; 17:00&lt;/li>
+&lt;li>&lt;strong>Location:&lt;/strong> UKB, Venusberg-Campus 1, building C66, 1st floor, seminar room 101&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="description">Description&lt;/h3>
+&lt;p>This block course offers an intensive introduction to artificial intelligence in medicine, with a focus on modern deep learning methods for biomedical and clinical applications. Designed as an interdisciplinary format, the course combines concept-driven lectures with interactive labs, allowing students to engage both with the theoretical foundations of AI and with practical challenges in medical data analysis.&lt;/p>
+&lt;p>The course is structured around a series of core topics that are central to contemporary AI in medicine. It begins with an introduction to deep learning, providing the conceptual basis for understanding neural networks and their role in medical applications. Building on this foundation, students are introduced to key tasks such as detection and classification, as well as segmentation, which are essential in areas such as diagnostic imaging, image-guided analysis, and automated clinical decision support. The course then expands to quality control in AI systems, with a particular emphasis on uncertainty estimation and interpretability, highlighting how trustworthy and transparent models can be developed and assessed. Further sessions address bias and causality, encouraging students to critically examine fairness, generalizability, and the difference between correlation-driven prediction and clinically meaningful reasoning. Finally, the course introduces vision-language models and their emerging role in connecting medical images, clinical text, and multimodal reasoning.&lt;/p>
+&lt;p>Each lecture is followed by an interactive lab in which students apply, explore, and critically reflect on the methods discussed. These labs are designed to deepen understanding through hands-on experimentation, collaborative problem-solving, and discussion of real-world medical use cases. In this way, the course not only introduces students to the technical building blocks of AI in medicine but also emphasizes the broader methodological and ethical questions that arise when such systems are developed for healthcare.&lt;/p>
+&lt;p>By the end of the course, students will have gained a structured overview of important AI methods in medicine, an understanding of their main areas of application, and a critical perspective on their limitations, risks, and clinical potential.&lt;/p>
+&lt;hr>
+&lt;h3 id="learning-goals">Learning Goals&lt;/h3>
+&lt;h4 id="technical-skills">Technical Skills&lt;/h4>
+&lt;ul>
+&lt;li>Understand and critically appraise current research in AI in Medicine.&lt;/li>
+&lt;li>Deepen expertise in medical image segmentation, registration, classification, uncertainty quantification, and bias/causality.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="topics-and-focus-areas">Topics and Focus Areas&lt;/h3>
+&lt;p>Seminar topics are drawn from recent publications in top-tier venues and may include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Deep Learning Architectures&lt;/strong> (U-Nets, GANs, Vision Transformers)&lt;/li>
+&lt;li>&lt;strong>Segmentation &amp;amp; Classification&lt;/strong> (e.g., anatomical structure delineation, lesion detection)&lt;/li>
+&lt;li>&lt;strong>Uncertainty Quantification &amp;amp; Bias&lt;/strong> (Bayesian learning, causal inference, dataset shift)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-block-course-schedule-14-16-april-2026">🗓 Block Course Schedule (14-16 April 2026)&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Date&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Time&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Topic&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Tuesday, April 14&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 09:30&lt;/td>
+&lt;td>&lt;strong>Intro&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>09:30 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Detection and Classification&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Detection and Classification&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Quality Control: Interpretbility&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA Interpretability algorithms&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Detection and Classification&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Detection and Classification&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Wednesday, April 15&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Segmentation&lt;/strong>&lt;/td>
+&lt;td>Introduction to deep learning concepts specific to medical imaging.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Quality Control: Uncertiantity&lt;/strong>&lt;/td>
+&lt;td>Introduction to uncertainty and quantification methods&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Segmentation and Interpretbility&lt;/strong>&lt;/td>
+&lt;td>Introduction to SoTA algorithms for Segmentation and Interpretability&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Thursday, April 16&lt;/strong>&lt;/td>
+&lt;td>09:00 &amp;ndash; 10:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Bias and Causality&lt;/strong>&lt;/td>
+&lt;td>Introduction to Bias and Causality in Medical Imaging&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>11:00 &amp;ndash; 12:30&lt;/td>
+&lt;td>&lt;strong>Lecture: Vision-Language Models&lt;/strong>&lt;/td>
+&lt;td>Introduction to Vision-Language Models&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>14:00 &amp;ndash; 17:00&lt;/td>
+&lt;td>&lt;strong>Lab: Segmentation (Cont.)&lt;/strong>&lt;/td>
+&lt;td>Free time to complete the labs.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="recommended-prerequisites">Recommended Prerequisites&lt;/h3>
+&lt;p>At least one of the following:&lt;/p>
+&lt;ul>
+&lt;li>Familiarity with fundamental medical imaging techniques and an interest in AI applications.&lt;/li>
+&lt;li>Understanding of medical diagnostics and clinical data interpretation.&lt;/li>
+&lt;li>A solid background in &lt;strong>Python programming&lt;/strong>, &lt;strong>linear algebra&lt;/strong>, &lt;strong>probability&lt;/strong>, and &lt;strong>numerical algorithms&lt;/strong> is recommended.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="references-and-resources">References and Resources&lt;/h3>
+&lt;ul>
+&lt;li>[1] Litjens, Geert, et al. “A survey on deep learning in medical image analysis.” Medical image analysis 42 (2017): 60-88.&lt;/li>
+&lt;li>[2] Shen, Dinggang, Guorong Wu, and Heung-Il Suk. “Deep learning in medical image analysis.” Annual review of biomedical engineering 19.1 (2017): 221-248.&lt;/li>
+&lt;li>[3] Chen, Xuxin, et al. “Recent advances and clinical applications of deep learning in medical image analysis.” Medical image analysis 79 (2022): 102444.&lt;/li>
+&lt;li>[4] Tajbakhsh, Nima, et al. “Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation.” Medical image analysis 63 (2020):101693.&lt;/li>
+&lt;li>[5] Wang, Ge, Jong Chul Ye, and Bruno De Man. “Deep learning for tomographic image reconstruction.” Nature machine intelligence 2.12 (2020): 737-748.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="registration">Registration&lt;/h3>
+&lt;p>Registration takes place via
+&lt;a href="https://intern.bigs-clinpopscience.de/teachers/showCourse/1659" target="_blank" rel="noopener">BIGS CPS Portal&lt;/a> or by contacting
+&lt;a href="../../../authors/shadi-albarqouni/">Prof. Dr. Shadi Albarqouni&lt;/a>.&lt;/p></description></item></channel></rss>
