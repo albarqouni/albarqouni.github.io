@@ -1,0 +1,15 @@
+
+.tiles[data-v-827ae07e] { height: 21rem;
+}
+.donut[data-v-827ae07e] { height: 100%;
+}
+.donut .d1[data-v-827ae07e] { font: 700 13px 'Source Sans 3', sans-serif; fill: #173869;
+}
+.donut .d2[data-v-827ae07e] { font: 9px 'IBM Plex Mono', monospace; fill: #5f6670;
+}
+.dots[data-v-827ae07e] { display: grid; grid-template-columns: repeat(10, 0.62rem); gap: 0.22rem;
+}
+.dots span[data-v-827ae07e] { width: 0.62rem; height: 0.62rem; border-radius: 50%; background: var(--rubin); opacity: 0.85;
+}
+.dots span.last[data-v-827ae07e] { background: var(--grau-t);
+}

@@ -1,0 +1,21 @@
+
+.author[data-v-8c76101e] { display: flex; gap: 1rem; align-items: center; margin-top: 2.2rem;
+}
+.author img[data-v-8c76101e] { width: 7rem; height: 7rem; object-fit: cover; object-position: center 20%; border-radius: 50%; border: 3px solid var(--teal); filter: grayscale(1);
+}
+.author .name[data-v-8c76101e] { font: 1.3rem 'Source Serif 4', serif;
+}
+.author .name b[data-v-8c76101e] { font-weight: 700;
+}
+.author .role[data-v-8c76101e] { font-size: 0.85rem; color: #cfe0f0;
+}
+.author .role span[data-v-8c76101e] { color: var(--teal); font-style: italic;
+}
+.author .aff[data-v-8c76101e] { font-size: 0.85rem; color: var(--teal); font-weight: 600; margin-top: 0.15rem;
+}
+.cred[data-v-8c76101e] { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 1.1rem;
+}
+.cred span[data-v-8c76101e] { font-size: 0.66rem; color: #cfe0f0; border: 1px solid rgba(255,255,255,0.25); border-radius: 99px; padding: 0.1rem 0.6rem;
+}
+.cred b[data-v-8c76101e] { color: #fff;
+}

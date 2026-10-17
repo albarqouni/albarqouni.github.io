@@ -1,0 +1,17 @@
+
+.pt[data-v-1682465e] { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; height: 100%;
+}
+.media[data-v-1682465e] { background: #fff; border-bottom: 1px solid var(--line); height: 9.2rem; display: flex; align-items: center; justify-content: center; padding: 0.35rem;
+}
+.media img[data-v-1682465e] { width: 100%; height: 100%;
+}
+.txt[data-v-1682465e] { padding: 0.55rem 0.8rem 0.55rem; display: flex; flex-direction: column; gap: 0.15rem; flex: 1;
+}
+.tag[data-v-1682465e] { font: 600 0.58rem 'IBM Plex Mono', monospace; letter-spacing: 0.1em; text-transform: uppercase; color: var(--rubin-d);
+}
+.stat[data-v-1682465e] { font: 700 1.35rem/1.1 'Source Sans 3', sans-serif; color: var(--navy); font-variant-numeric: tabular-nums;
+}
+.body[data-v-1682465e] { font-size: 0.78rem; line-height: 1.36; color: var(--ink);
+}
+.src[data-v-1682465e] { margin-top: auto; padding-top: 0.25rem; font: italic 0.64rem 'Source Serif 4', serif; color: var(--muted);
+}

@@ -1,0 +1,21 @@
+
+.ab[data-v-2d26ea31] { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem;
+}
+.ex[data-v-2d26ea31] { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 0.8rem 0.95rem; display: flex; flex-direction: column; gap: 0.3rem; min-height: 13rem;
+}
+.ex .st[data-v-2d26ea31] { align-self: flex-start; font: 600 0.58rem 'IBM Plex Mono', monospace; letter-spacing: 0.1em; text-transform: uppercase; color: #fff; background: var(--navy); padding: 0.14rem 0.5rem; border-radius: 99px;
+}
+.ex .who[data-v-2d26ea31] { font: 600 1.15rem 'Source Serif 4', serif; color: var(--navy); margin-top: 0.2rem;
+}
+.ex .num[data-v-2d26ea31] { font: 700 1.2rem 'Source Sans 3', sans-serif; color: var(--teal-d);
+}
+.ex .num small[data-v-2d26ea31] { font-size: 0.72rem; font-weight: 600; color: var(--muted);
+}
+.ex p[data-v-2d26ea31] { margin: 0; font-size: 0.84rem; line-height: 1.4;
+}
+.ex .src[data-v-2d26ea31] { margin-top: auto; font: italic 0.68rem 'Source Serif 4', serif; color: var(--muted);
+}
+.reality[data-v-2d26ea31] { background: var(--gelb-t); border-radius: 10px; padding: 0.55rem 0.95rem; font-size: 0.9rem;
+}
+.reality b[data-v-2d26ea31] { color: var(--gelb-d); margin-right: 0.5rem;
+}
