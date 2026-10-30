@@ -88,6 +88,42 @@ melba:
   type: journal
   issn: ["2766-905X"]
 
+npj-dm:
+  name: npj Digital Medicine
+  short: npj Digit. Med.
+  match: ["npj digital medicine"]
+  type: journal
+  issn: ["2398-6352"]
+  logo: venues/npjdm.png
+ieee-jbhi:
+  name: IEEE Journal of Biomedical and Health Informatics
+  short: IEEE JBHI
+  match: ["journal of biomedical and health informatics", "ieee jbhi"]
+  type: journal
+  issn: ["2168-2194", "2168-2208"]
+  logo: venues/jbhi.png
+ard:
+  name: Annals of the Rheumatic Diseases
+  short: Ann. Rheum. Dis.
+  match: ["annals of the rheumatic diseases"]
+  type: journal
+  issn: ["0003-4967", "1468-2060"]
+  logo: venues/ard.png
+phiro:
+  name: Physics and Imaging in Radiation Oncology
+  short: phiRO
+  match: ["physics and imaging in radiation oncology"]
+  type: journal
+  issn: ["2405-6316"]
+  logo: venues/phiro.png
+jcm:
+  name: Journal of Clinical Medicine
+  short: J. Clin. Med.
+  match: ["journal of clinical medicine"]
+  type: journal
+  issn: ["2077-0383"]
+  logo: venues/jcm.png
+
 # ------------------------------------------------------------------ conferences
 neurips:
   name: Advances in Neural Information Processing Systems (NeurIPS)
@@ -119,6 +155,7 @@ eccv:
   short: ECCV
   match: ["european conference on computer vision", "eccv"]
   type: conference
+  logo: venues/eccv.png
   core_rank: A*
   acceptance: {}
 iccv:

@@ -205,11 +205,8 @@ supervision:
   - Christoph Fueboeck (TU Wien)
   examiner: University of Bonn, TU Munich, University of Potsdam, University College London, Sorbonne University, IIT Kharagpur, German University in Cairo, German International University, Qatar University, Beirut Arab University
 metrics:
+  live: true                 # citations, h-index, i10 and publication count are filled in from the publication sync
   source: Google Scholar / Scopus (CV, 2026)
-  publications: 152
-  citations: 16930
-  h_index: 42
-  i10_index: 81
   fwci: 4.73
   international_collab: 87%
   funding_total: ~2.5 M€

@@ -10,6 +10,7 @@ Usage: .tools/venv/bin/python scripts/scholar_fill.py TODO.json [--new NEW.json]
   TODO.json: [{"slug": ..., "gs_id": ...}]   NEW.json: [{"id": gs_id, "title": ...}] → creates new pages
 """
 import argparse
+import datetime as dt
 import json
 import random
 import re
@@ -27,6 +28,17 @@ TYPE = {"journal": "article-journal", "conference": "paper-conference", "book": 
 def load_profile():
     a = scholarly.fill(scholarly.search_author_id(sp.load_params().get("scholar_id", "CPuApzoAAAAJ")), sections=["publications"])
     return {p["author_pub_id"]: p for p in a["publications"]}
+
+
+def refresh_stats():
+    """Profile totals (citations, h-index, i10) → data/scholar.json, which the banner and the PI profile read."""
+    a = scholarly.fill(scholarly.search_author_id(sp.load_params().get("scholar_id", "CPuApzoAAAAJ")), sections=["basics", "indices"])
+    if not a.get("citedby"):
+        return
+    stats = {"citations": a["citedby"], "h_index": a.get("hindex"), "i10_index": a.get("i10index"),
+             "source": "Google Scholar", "updated": dt.date.today().isoformat()}
+    (sp.ROOT / "data/scholar.json").write_text(json.dumps(stats, indent=2))
+    print(f"scholar.json: {stats['citations']} citations, h {stats['h_index']}, i10 {stats['i10_index']}")
 
 
 def details(pub):
@@ -50,6 +62,10 @@ def main():
     todo = [t for t in json.loads(Path(args.todo).read_text()) if t.get("gs_id")]
     new = json.loads(Path(args.new).read_text()) if args.new else []
     wanted = [t["gs_id"] for t in todo] + [n["id"] for n in new]
+    try:
+        refresh_stats()
+    except Exception as e:  # noqa: BLE001 — keep the previous snapshot
+        print(f"! scholar stats not refreshed: {e}")
     if any(w not in cache for w in wanted):
         pubs = load_profile()
         for gid in wanted:

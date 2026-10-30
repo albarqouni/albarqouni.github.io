@@ -34,6 +34,7 @@ hugoblox: {}
 sync:
   source: legacy
   openalex: ''
-  scholar: ''
+  scholar: CPuApzoAAAAJ:kzcrU_BdoSEC
   locked: []
+  citations: 2
 ---

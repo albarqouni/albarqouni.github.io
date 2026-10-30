@@ -27,14 +27,18 @@ projects: []
 datasets: []
 tags: []
 featured: false
-links: []
+links:
+- type: source
+  url: https://scholar.google.com/scholar?cluster=2677476658841702007&hl=en&oi=scholarr
+  name: Publisher
 slidev: ''
 hugoblox: {}
 sync:
   source: legacy
   openalex: ''
-  scholar: ''
+  scholar: CPuApzoAAAAJ:WC23djZS0W4C
   locked: []
+  citations: 73
 image:
   caption: ''
   focal_point: Smart

@@ -13,7 +13,7 @@ publication_types:
 - article-journal
 publication:
   name: The future of digital health with federated learning. NPJ Digital Medicine
-venue: ''
+venue: npj-dm
 doi: ''
 abstract: ''
 themes:
@@ -22,14 +22,18 @@ projects: []
 datasets: []
 tags: []
 featured: false
-links: []
+links:
+- type: source
+  url: https://scholar.google.com/scholar?cluster=11646754185158951606&hl=en&oi=scholarr
+  name: Publisher
 slidev: ''
 hugoblox: {}
 sync:
   source: legacy
   openalex: ''
-  scholar: ''
+  scholar: CPuApzoAAAAJ:ALROH1vI_8AC
   locked: []
+  citations: 131
 image:
   caption: ''
   focal_point: Smart

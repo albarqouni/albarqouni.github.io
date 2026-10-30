@@ -48,5 +48,4 @@ sync:
   source_type: ''
   merged:
   - hasan-2020-fairness
-  - sarhan-2020-fairness-2
 ---

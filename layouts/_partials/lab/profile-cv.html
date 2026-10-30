@@ -2,13 +2,17 @@
      awards, organising, governance, service (reviewing), supervision, hosted speakers. Arg: profile data map */}}
 {{- $p := . -}}
 {{ with $p.metrics }}
+{{- /* live: true → citations/h/i10 come from data/scholar.json (refreshed by every publication sync) and the
+       publication count from the site itself; the remaining figures stay hand-curated */ -}}
+{{- $m := . -}}
+{{- if .live }}{{ with site.Data.scholar }}{{ $m = merge $m (dict "citations" .citations "h_index" .h_index "i10_index" (.i10_index | default $m.i10_index) "updated" .updated) }}{{ end }}{{ $m = merge $m (dict "publications" $p._pubs) }}{{ end -}}
 <section class="lab-stats-grid lab-section !mt-8">
-  <div class="lab-stat"><span class="lab-stat-n">{{ lang.FormatNumber 0 .citations }}</span><span class="lab-stat-l">citations · h-index {{ .h_index }}</span></div>
-  <div class="lab-stat"><span class="lab-stat-n">{{ .publications }}</span><span class="lab-stat-l">publications · i10 {{ .i10_index }}</span></div>
-  <div class="lab-stat"><span class="lab-stat-n">{{ .fwci }}</span><span class="lab-stat-l">field-weighted citation impact (Scopus)</span></div>
-  <div class="lab-stat"><span class="lab-stat-n">{{ .funding_total }}</span><span class="lab-stat-l">competitive funding · {{ .international_collab }} international co-authorship</span></div>
+  <div class="lab-stat"><span class="lab-stat-n">{{ lang.FormatNumber 0 $m.citations }}</span><span class="lab-stat-l">citations · h-index {{ $m.h_index }}</span></div>
+  <div class="lab-stat"><span class="lab-stat-n">{{ $m.publications }}</span><span class="lab-stat-l">publications · i10 {{ $m.i10_index }}</span></div>
+  <div class="lab-stat"><span class="lab-stat-n">{{ $m.fwci }}</span><span class="lab-stat-l">field-weighted citation impact (Scopus)</span></div>
+  <div class="lab-stat"><span class="lab-stat-n">{{ $m.funding_total }}</span><span class="lab-stat-l">competitive funding · {{ $m.international_collab }} international co-authorship</span></div>
 </section>
-<p class="lab-meta">Source: {{ .source }}.</p>
+<p class="lab-meta">{{ if $m.live }}Citations, h-index and i10: Google Scholar{{ with $m.updated }} (updated {{ time.Format "2 Jan 2006" . }}){{ end }}; publications: listed on this site; FWCI: Scopus.{{ else }}Source: {{ $m.source }}.{{ end }}</p>
 {{ end }}
 
 <div class="lab-cv-grid">

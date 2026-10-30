@@ -14,23 +14,27 @@ publication:
   name: ''
 venue: ''
 doi: ''
-abstract: ''
+abstract: Conclusion• Coherency between misclassification and uncertainty scores-high uncertainty score means high risk for error in prediction.• Uncertainty measures mimicking the actual radiologist’s uncertainty for challenging and complex examples reflected on intra-and interexperts variability.
 themes:
 - computational-imaging
 projects: []
 datasets: []
 tags: []
 featured: false
-links: []
+links:
+- type: source
+  url: https://2023.midl.io/virtual/poster/S082.pdf
+  name: Publisher
 slidev: ''
 hugoblox: {}
 sync:
   source: legacy
   openalex: ''
-  scholar: ''
+  scholar: CPuApzoAAAAJ:mNrWkgRL2YcC
   locked: []
   merged:
   - frenneruncertainty
+  citations: 0
 image:
   caption: ''
   focal_point: Smart

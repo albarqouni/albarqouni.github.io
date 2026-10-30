@@ -34,8 +34,9 @@ hugoblox: {}
 sync:
   source: legacy
   openalex: ''
-  scholar: ''
+  scholar: CPuApzoAAAAJ:AHdEip9mkN0C
   locked: []
+  citations: 0
 image:
   caption: ''
   focal_point: Smart

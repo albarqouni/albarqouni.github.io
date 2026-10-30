@@ -26,7 +26,7 @@
       {{ with uniq $themes }}<h3>Research themes</h3><div class="lab-row">{{ range . }}{{ with site.GetPage (printf "/themes/%s" .) }}<a class="lab-chip lab-chip-theme" style="--c: {{ .Params.color }}" href="{{ .RelPermalink }}">{{ .Params.short }}</a>{{ end }}{{ end }}</div>{{ end }}
     </aside>
   </div>
-  {{ partial "lab/profile-cv.html" $p }}
+  {{ partial "lab/profile-cv.html" (merge $p (dict "_pubs" (len (where (where .Pages "Section" "publications") "Draft" false)))) }}
   {{ partial "lab/grouped-sections.html" (dict "pages" .Pages "facet" "author" "value" $slug "limit" 20) }}
 </div>
 {{ end }}

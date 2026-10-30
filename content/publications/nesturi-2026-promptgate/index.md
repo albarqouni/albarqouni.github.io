@@ -13,7 +13,7 @@ publication:
   name: Medical Image Computing and Computer Assisted Intervention – MICCAI 2026, Lecture Notes in Computer Science
 venue: miccai
 doi: 10.1007/978-3-032-38062-3_47
-abstract: ''
+abstract: 'Deploying medical AI across resource-constrained institutions demands data-efficient learning pipelines that respect patient privacy. Federated Learning (FL) enables collaborative medical AI without centralizing data. Yet, real-world clinical pools are inherently open-set: beyond the in-distribution (ID) target classes, the unlabeled pool also holds out-of-distribution (OOD), non-target samples such as imaging artifacts, background tissue, and other pathologies. Standard Active Learning (AL) query strategies mistake this noise for informative samples, wasting scarce annotation budgets. We propose PromptGate, a dynamic VLM-gated framework for Open-Set Federated AL that purifies unlabeled pools before querying. PromptGate introduces a federated Class-Specific Context Optimization: lightweight, learnable prompt vectors that adapt a frozen BiomedCLIP backbone to local clinical domains and aggregate globally via …'
 themes:
 - computational-imaging
 - federated-learning
@@ -32,7 +32,7 @@ hugoblox:
 sync:
   source: legacy
   openalex: W7134806975
-  scholar: ''
+  scholar: CPuApzoAAAAJ:nRpfm8aw39MC
   locked:
   - date
   - publication

@@ -28,8 +28,9 @@ hugoblox: {}
 sync:
   source: legacy
   openalex: ''
-  scholar: ''
+  scholar: CPuApzoAAAAJ:2tRrZ1ZAMYUC
   locked: []
+  citations: 0
 image:
   caption: ''
   focal_point: Smart

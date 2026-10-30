@@ -29,11 +29,15 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/abs/1906.02191
+- type: source
+  url: https://proceedings.mlr.press/v121/soberanis-mukul20a.html
+  name: Publisher
 slidev: ''
 hugoblox: {}
 sync:
   source: legacy
   openalex: ''
-  scholar: ''
+  scholar: CPuApzoAAAAJ:BwyfMAYsbu0C
   locked: []
+  citations: 64
 ---

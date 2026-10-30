@@ -33,6 +33,7 @@ slidev: ''
 hugoblox:
   ids:
     doi: 10.48550/arxiv.2205.11096
+    arxiv: '2205.11096'
 sync:
   source: legacy
   openalex: W4281478539
@@ -45,7 +46,8 @@ sync:
   source_id: S4306400194
   source_type: repository
   citations: 17
+  teaser: pdf:https://arxiv.org/pdf/2205.11096
 image:
-  caption: ''
-  focal_point: Smart
+  caption: Figure 1 of the paper.
+  focal_point: Center
 ---

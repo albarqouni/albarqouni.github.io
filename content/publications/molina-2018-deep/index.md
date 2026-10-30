@@ -15,21 +15,25 @@ publication:
   name: ISMRM Annual Meeting 2018 (Proc. Intl. Soc. Mag. Reson. Med.)
 venue: ''
 doi: ''
-abstract: ''
+abstract: Diffusion metrics are typically biased by Cerebrospinal fluid (CSF) contamination. In this work, we present a deep learning based solution to remove the CSF contribution. First, we train an artificial neural network with synthetic data to estimate the tissue volume fraction. Second, we use the resulting network to predict estimates of the tissue volume fraction for real data, and use them to correct for CSF contamination. Results show corrected CSF contribution which, in turn, indicates that the...»
 themes:
 - computational-imaging
 projects: []
 datasets: []
 tags: []
 featured: false
-links: []
+links:
+- type: source
+  url: https://mediatum.ub.tum.de/1630395
+  name: Publisher
 slidev: ''
 hugoblox: {}
 sync:
   source: legacy
   openalex: ''
-  scholar: ''
+  scholar: CPuApzoAAAAJ:J-pR_7NvFogC
   locked:
   - publication
   - publication_types
+  citations: 5
 ---

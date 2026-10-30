@@ -31,16 +31,20 @@ projects: []
 datasets: []
 tags: []
 featured: true
-links: []
+links:
+- type: source
+  url: https://www.bmj.com/content/388/bmj-2024-081554.abstract
+  name: Publisher
 slidev: ''
 hugoblox: {}
 sync:
   source: legacy
   openalex: ''
-  scholar: ''
+  scholar: CPuApzoAAAAJ:3htObqc8RwsC
   locked: []
   merged:
   - lekadir-2023-future
+  citations: 1296
 image:
   caption: ''
   focal_point: Smart

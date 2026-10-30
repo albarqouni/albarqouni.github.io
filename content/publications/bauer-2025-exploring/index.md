@@ -45,7 +45,7 @@ publication_types:
 - article-journal
 publication:
   name: Annals of the rheumatic diseases
-venue: ''
+venue: ard
 doi: 10.1016/j.ard.2025.05.010
 abstract: 'OBJECTIVES
 

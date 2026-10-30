@@ -34,6 +34,7 @@ slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/tmi.2020.2974159
+    arxiv: '1906.10089'
 sync:
   source: legacy
   openalex: W2952587392
@@ -47,4 +48,8 @@ sync:
   source_id: S58069681
   source_type: journal
   citations: 108
+  teaser: pdf:https://arxiv.org/pdf/1906.10089
+image:
+  caption: Figure 1 of the paper.
+  focal_point: Center
 ---

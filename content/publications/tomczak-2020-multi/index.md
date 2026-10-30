@@ -37,7 +37,7 @@ hugoblox:
 sync:
   source: legacy
   openalex: W3113432628
-  scholar: ''
+  scholar: CPuApzoAAAAJ:e_rmSamDkqQC
   locked: []
   verified: '2026-10-29'
   verified_by: openalex
@@ -46,7 +46,7 @@ sync:
   - 1558-254X
   source_id: S58069681
   source_type: journal
-  citations: 29
+  citations: 36
 image:
   caption: ''
   focal_point: Smart

@@ -79,7 +79,7 @@ def from_arxiv_html(aid, dest):
 
 def from_pdf(data, dest):
     doc = fitz.open(stream=data, filetype="pdf")
-    for page in list(doc)[:3]:
+    for page in list(doc)[:5]:  # method overviews often sit on pages 3–5
         blocks = page.get_text("blocks")
         cap = next((b for b in blocks if CAPTION.match(b[4] or "")), None)
         if not cap:
