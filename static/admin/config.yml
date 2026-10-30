@@ -19,7 +19,7 @@ backend:
     update: "Update {{collection}} “{{slug}}” (via CMS, {{author-login}})"
 publish_mode: editorial_workflow
 site_url: https://albarqouni.github.io
-logo_url: https://albarqouni.github.io/media/icon.png
+logo_url: https://albarqouni.github.io/admin/logo.png
 media_folder: static/uploads
 public_folder: /uploads
 
