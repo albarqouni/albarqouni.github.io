@@ -1,0 +1,13 @@
+
+.authors[data-v-6970d4cc] { display: flex; gap: 2.2rem; margin-top: 2rem;
+}
+.authors .a[data-v-6970d4cc] { display: flex; gap: 0.8rem; align-items: center;
+}
+.authors img[data-v-6970d4cc] { width: 4.4rem; height: 4.4rem; object-fit: cover; object-position: center 20%; border-radius: 50%; border: 3px solid var(--teal); filter: grayscale(1);
+}
+.authors .name[data-v-6970d4cc] { font: 1.1rem 'Source Serif 4', serif;
+}
+.authors .name b[data-v-6970d4cc] { font-weight: 700;
+}
+.authors .aff[data-v-6970d4cc] { font-size: 0.8rem; color: var(--teal); font-weight: 600;
+}

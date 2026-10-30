@@ -22,7 +22,7 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2609.31637
-slidev: ''
+slidev: /talks/fidal/
 hugoblox:
   ids:
     doi: 10.48550/arxiv.2609.31637

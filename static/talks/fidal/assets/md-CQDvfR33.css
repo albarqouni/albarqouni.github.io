@@ -1,0 +1,54 @@
+
+.fg[data-v-69ade411] { display: grid; grid-template-columns: 1.55fr 1fr; gap: 1.2rem; align-items: center;
+}
+.plot[data-v-69ade411] { width: 100%;
+}
+.id[data-v-69ade411] { fill: var(--blau); opacity: 0.75;
+}
+.ood[data-v-69ade411] { fill: var(--rubin); opacity: 0.6;
+}
+.reject[data-v-69ade411] { fill: var(--rubin-t);
+}
+.cut[data-v-69ade411] { stroke: var(--navy); stroke-width: 2.5;
+}
+.pct[data-v-69ade411] { stroke: var(--grau); stroke-width: 1.5; stroke-dasharray: 4 3;
+}
+.lbl[data-v-69ade411] { font: 600 11px 'IBM Plex Mono', monospace; fill: var(--navy);
+}
+.lbl.muted[data-v-69ade411] { fill: var(--grau);
+}
+.axis[data-v-69ade411] { font: 10px 'Source Sans 3', sans-serif; fill: var(--muted);
+}
+.side[data-v-69ade411] { display: flex; flex-direction: column; gap: 0.7rem; font-size: 0.8rem;
+}
+.side label[data-v-69ade411] { display: flex; flex-direction: column; gap: 0.2rem; color: var(--ink);
+}
+.side label b[data-v-69ade411] { color: var(--teal-d);
+}
+.side input[type='range'][data-v-69ade411] { accent-color: var(--teal); width: 100%;
+}
+table[data-v-69ade411] { border-collapse: collapse; font-size: 0.78rem; width: 100%;
+}
+th[data-v-69ade411] { font: 600 0.62rem 'IBM Plex Mono', monospace; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); text-align: right; padding: 0.15rem 0.3rem;
+}
+td[data-v-69ade411] { padding: 0.25rem 0.3rem; border-top: 1px solid var(--line); text-align: right; font-variant-numeric: tabular-nums;
+}
+td[data-v-69ade411]:first-child { text-align: left;
+}
+tr.o td[data-v-69ade411] { font-weight: 700; color: var(--navy);
+}
+.key[data-v-69ade411] { font-size: 0.7rem; color: var(--muted); display: flex; align-items: center; gap: 0.3rem; flex-wrap: wrap;
+}
+.sw[data-v-69ade411] { display: inline-block; width: 0.7rem; height: 0.7rem; border-radius: 2px;
+}
+.sw.id[data-v-69ade411] { background: var(--blau);
+}
+.sw.ood[data-v-69ade411] { background: var(--rubin); opacity: 0.6;
+}
+.sw.rej[data-v-69ade411] { background: var(--rubin-t); border: 1px solid var(--rubin);
+}
+.note[data-v-69ade411] { font: italic 0.64rem 'Source Serif 4', serif; color: var(--muted);
+}
+
+.expl[data-v-5cdbce5e] { margin-top: 0.9rem; font-size: 0.82rem; line-height: 1.45; color: var(--ink); max-width: 52rem;
+}

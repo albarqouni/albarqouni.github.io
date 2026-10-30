@@ -1,0 +1,11 @@
+
+.fig[data-v-9fde0b5d] { display: block; margin: 0.5rem auto 0; max-height: 15.5rem; max-width: 100%;
+}
+.tbl[data-v-9fde0b5d] { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem; margin-top: 0.6rem; font-size: 0.85rem;
+}
+.tbl > div[data-v-9fde0b5d] { border-left: 4px solid var(--teal); padding: 0.2rem 0.6rem;
+}
+.tbl span[data-v-9fde0b5d] { display: block; font: 600 0.6rem 'IBM Plex Mono', monospace; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted);
+}
+.tbl b[data-v-9fde0b5d] { color: var(--navy);
+}
