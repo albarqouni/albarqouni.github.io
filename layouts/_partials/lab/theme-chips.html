@@ -1,0 +1,4 @@
+{{/* Research-theme chips for a page */}}
+{{- range .GetTerms "themes" -}}
+  <a href="{{ .RelPermalink }}" class="lab-chip lab-chip-theme" style="--c: {{ .Params.color | default "#173869" }}; --ink: {{ .Params.ink | default .Params.color }}">{{ .Params.short | default .Title }}</a>
+{{- end -}}

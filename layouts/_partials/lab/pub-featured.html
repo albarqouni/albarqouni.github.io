@@ -1,0 +1,15 @@
+{{/* Featured publication card: venue logo up front (as on the previous site), teaser as fallback. */}}
+{{- $v := index site.Data.venues (.Params.venue | default "") -}}
+<a href="{{ .RelPermalink }}" class="lab-featured-pub">
+  <span class="lab-featured-logo">
+    {{- $logo := partial "lab/venue-logo.html" (dict "page" . "class" "") -}}
+    {{- if $logo }}{{ $logo }}
+    {{- else if partial "functions/get_featured_image.html" . }}{{ partial "lab/thumb.html" (dict "page" . "w" 480 "h" 270 "class" "") }}
+    {{- else }}<span class="lab-venue-word">{{ with $v }}{{ .short | default .name }}{{ else }}{{ .Params.publication.name | default "Publication" }}{{ end }}</span>{{ end -}}
+  </span>
+  <span class="lab-featured-body">
+    <span class="lab-kicker">{{ with $v }}{{ .short | default .name }}{{ else }}{{ .Params.publication.name }}{{ end }} · {{ .Date.Year }}</span>
+    <span class="lab-featured-title">{{ .Title }}</span>
+    <span class="lab-row">{{ partial "lab/venue-badges.html" . }}{{ with .Params.doi }}<span class="lab-badge lab-badge-cite" data-doi="{{ . }}" hidden>❝ <span data-cite-value></span></span>{{ end }}</span>
+  </span>
+</a>

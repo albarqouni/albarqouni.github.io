@@ -1,0 +1,15 @@
+{{/* Venue quality badges for a publication: SJR quartile, JIF (or OpenAlex 2-yr citedness), CORE rank, acceptance rate */}}
+{{- $v := index site.Data.venues (.Params.venue | default "") -}}
+{{- $year := .Date.Year -}}
+{{- with $v -}}
+  {{- with .quartile }}<span class="lab-badge lab-badge-{{ lower . }}" title="SCImago (SJR) journal quartile">{{ . }}</span>{{ end -}}
+  {{- with .impact_factor -}}
+    <span class="lab-badge lab-badge-if" title="Journal Impact Factor {{ .year }} (Clarivate JCR){{ if not .verified }} — not yet verified in JCR{{ end }}">IF {{ .value }}</span>
+  {{- else -}}
+    {{- with .openalex }}{{ with .citedness_2yr }}<span class="lab-badge lab-badge-if" title="2-year mean citedness (OpenAlex) — an open, impact-factor-like metric">Cit. {{ lang.FormatNumber 1 . }}</span>{{ end }}{{ end -}}
+  {{- end -}}
+  {{- with .core_rank }}<span class="lab-badge lab-badge-core" title="CORE conference rank">CORE {{ . }}</span>{{ end -}}
+  {{- with .acceptance -}}
+    {{- with index . (string $year) }}<span class="lab-badge lab-badge-acc" title="Acceptance rate {{ $year }}">{{ . }}% acc.</span>{{ end -}}
+  {{- end -}}
+{{- end -}}

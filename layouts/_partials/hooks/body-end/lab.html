@@ -1,0 +1,3 @@
+{{- with resources.Get "js/lab.js" | js.Build (dict "minify" (not hugo.IsDevelopment)) | fingerprint -}}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+{{- end -}}

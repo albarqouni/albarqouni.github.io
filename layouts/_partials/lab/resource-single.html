@@ -1,0 +1,32 @@
+<article class="lab-page lab-narrow">
+  <nav class="lab-crumbs"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></nav>
+  <p class="lab-kicker">{{ delimit (.Params.modality | default slice) " · " }}</p>
+  <h1 class="lab-title">{{ .Title }}{{ with .Params.acronym }} <span class="lab-muted">({{ . }})</span>{{ end }}</h1>
+  {{ with .Params.summary }}<p class="lab-lead">{{ . | markdownify }}</p>{{ end }}
+  {{ if and .Params.status (not .Params.demo_url) }}<p class="lab-notice"><span class="lab-status lab-status-{{ urlize .Params.status }}">{{ .Params.status }}</span> The live demo is in preparation — check back soon.</p>{{ end }}
+  <div class="lab-row my-4">
+    {{ with .Params.demo_url }}<a class="lab-btn" href="{{ . }}" target="_blank" rel="noopener">Open demo ↗</a>{{ end }}
+    {{ with .Params.data_url }}<a class="lab-btn" href="{{ . }}" target="_blank" rel="noopener">Access data ↗</a>{{ end }}
+    {{ with .Params.repository }}<a class="lab-btn lab-btn-alt" href="{{ . }}" target="_blank" rel="noopener">Code repository ↗</a>{{ end }}
+    {{ with .Params.doi }}<a class="lab-btn lab-btn-alt" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI ↗</a>{{ end }}
+    {{ with .Params.video }}<a class="lab-btn lab-btn-alt" href="{{ . }}" target="_blank" rel="noopener">Video ↗</a>{{ end }}
+  </div>
+  {{ if and .Params.demo_url .Params.embed }}<div class="lab-embed lab-embed-tall"><iframe src="{{ .Params.demo_url }}" title="{{ .Title }} demo" loading="lazy" allow="camera; microphone; clipboard-write" allowfullscreen></iframe></div>
+  {{ else }}{{ with partial "functions/get_featured_image.html" . }}<figure class="lab-teaser">{{ if reflect.IsImageResourceProcessable . }}{{ $r := .Fit "1400x800 webp" }}<img src="{{ $r.RelPermalink }}" alt="" width="{{ $r.Width }}" height="{{ $r.Height }}">{{ else }}<img src="{{ .RelPermalink }}" alt="">{{ end }}{{ with $.Params.image.caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}</figure>{{ end }}{{ end }}
+  <section class="lab-section lab-facts">
+    {{ with .Params.access }}<div><h3>Access</h3><p>{{ . }}</p></div>{{ end }}
+    {{ with .Params.license }}<div><h3>License</h3><p>{{ . }}</p></div>{{ end }}
+    {{ with .Params.size }}<div><h3>Size</h3><p>{{ . }}</p></div>{{ end }}
+    {{ with .Params.sources }}<div><h3>{{ if eq $.Section "datasets" }}Collected at{{ else }}Partners{{ end }}</h3><div class="lab-logos">{{ range . }}{{ partial "lab/org.html" (dict "key" .) }}{{ end }}</div></div>{{ end }}
+    {{ with .GetTerms "themes" }}<div><h3>Research themes</h3><div class="lab-row">{{ partial "lab/theme-chips.html" $ }}</div></div>{{ end }}
+    {{ with .Params.projects }}<div><h3>Projects</h3><div class="lab-row">{{ partial "lab/project-chips.html" . }}</div></div>{{ end }}
+    {{ with .Params.authors }}<div><h3>People</h3><div class="lab-row">{{ range . }}{{ partial "lab/person.html" . }}{{ end }}</div></div>{{ end }}
+  </section>
+  {{ with .Content }}<section class="lab-section prose dark:prose-invert max-w-none">{{ . }}</section>{{ end }}
+  {{- $slug := .File.ContentBaseName -}}
+  {{- $pubs := slice -}}
+  {{- range .Params.publications }}{{ with site.GetPage (printf "/publications/%s" .) }}{{ $pubs = $pubs | append . }}{{ end }}{{ end -}}
+  {{- if eq .Section "datasets" }}{{ $pubs = $pubs | append (partial "lab/linked.html" (dict "section" "publications" "param" "datasets" "value" $slug)) }}{{ end -}}
+  {{ with uniq $pubs }}<section class="lab-section"><h2 class="lab-h2">Related publications</h2>{{ range . }}{{ partial "lab/pub-item.html" . }}{{ end }}</section>{{ end }}
+  {{ with .Params.citation }}<details class="lab-section lab-bib" open><summary>How to cite</summary><pre><code>{{ . }}</code></pre></details>{{ end }}
+</article>

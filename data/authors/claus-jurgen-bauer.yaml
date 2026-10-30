@@ -1,0 +1,30 @@
+schema: hugoblox/author/v1
+slug: claus-jurgen-bauer
+is_owner: false
+name:
+  display: Claus-Jürgen Bauer
+role: Dr. med., Oberarzt and Deputy Head of the Rheumatology Section, Clinic of Internal Medicine III, University Hospital Bonn
+group: collaborators
+bio: Dr. med. Claus-Jürgen Bauer is Oberarzt and Deputy Head of the Rheumatology Section at the University Hospital Bonn, and a specialist in internal medicine and rheumatology. He is our clinical partner in GCA-US-AI, the deep-learning project on ultrasound diagnosis of giant cell arteritis.
+affiliations:
+- name: University Hospital Bonn (UKB), Medizinische Klinik III — Rheumatology
+  url: https://www.ukbonn.de/haematologie-und-onkologie/team/oberarzte/
+links:
+- icon: hero/link
+  url: https://www.ukbonn.de/haematologie-und-onkologie/team/oberarzte/
+  label: UKB profile
+- icon: academicons/researchgate
+  url: https://www.researchgate.net/profile/Claus-Juergen-Bauer
+  label: ResearchGate
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/claus-j%C3%BCrgen-bauer-a40814273/
+  label: LinkedIn
+interests: []
+education: []
+github: ''
+aliases:
+- CJ Bauer
+- Claus-Juergen Bauer
+tags:
+- clinical
+photo_credit: Universitätsklinikum Bonn (UKB)

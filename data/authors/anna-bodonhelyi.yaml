@@ -1,0 +1,37 @@
+schema: hugoblox/author/v1
+slug: anna-bodonhelyi
+is_owner: false
+name:
+  display: Anna Bodonhelyi
+role: Research Assistant (Helmholtz AI, 2020)
+group: alumni
+bio: '# Biography
+
+  Anna Bodonhelyi is a Robotics, Cognition, Intelligence M.Sc. student at the Technical University of Munich (TUM) and works with Dr. Shadi Albarqouni at Helmholtz AI as a research assistant (HiWi). Bodonhelyi started her studies at the Budapest University of Technology and Economics, where she studied mechatronics. She studied for a semester in Karlsruhe with the help of a scholarship by the Tempus Pubic Foundation. During her bachelor studies she participated in the National Student'' Science Conference (2019) with her work on "Pneumatic hardness measurement of elastomers" and achieved the 2nd place. Parallel to her studies at TUM, she is also a Mechatronics M.Sc. student at TU Budapest, where she is writing her master thesis in "Deep learning-based classification of left ventricular hypertrophy". Bodonhelyi will be working on developing a web interface for the lab and developing a Computer Vision and Machine Learning algorithm for Estimating Corrosion Imprints (Helmholtz AI Project 2020).'
+affiliations:
+- name: Helmholtz AI
+  url: https://www.helmholtz.ai/
+- name: Technical University of Munich
+  url: https://www.tum.de/
+links:
+- icon: at-symbol
+  url: mailto:anna.bodonhelyi@helmholtz-muenchen.de
+- icon: academicons/google-scholar
+  url: https://scholar.google.com
+interests: []
+education:
+- degree: M.Sc. in Robotics, Cognition, Intelligence
+  institution: Technical University of Munich, Germany
+  end: present-12-31
+- degree: M.Sc. in Mechatronics Engineering
+  institution: Budapest University of Technology and Economics, Hungary
+  end: present-12-31
+- degree: Erasmus Semester
+  institution: Karlsruhe Institute of Technology, Germany
+  end: '2019-12-31'
+- degree: B.Sc. in Mechatronics Engineering
+  institution: Budapest University of Technology and Economics, Hungary
+  end: '2020-12-31'
+github: ''
+aliases: []
+now: PhD candidate, Chair for Human-Centered Technologies for Learning, TU Munich

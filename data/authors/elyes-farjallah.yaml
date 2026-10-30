@@ -1,0 +1,28 @@
+schema: hugoblox/author/v1
+slug: elyes-farjallah
+is_owner: false
+name:
+  display: Elyes Farjallah
+role: B.Sc. thesis (KIT, 2023)
+group: alumni
+bio: '# Biography
+
+  Elyes is a Mechatronics and Information Technology student at KIT Karlsruhe, currently pursuing his bachelor''s thesis at the University of Bonn under the supervision of Prof. Dr. Shadi Albarqouni. His research focuses on AI for detecting inherited retinal diseases in fundus images. Previously, he gained practical experience as a research assistant in data science at the University Hospital Heidelberg, evaluating clinical and anatomical data.'
+affiliations:
+- name: KIT Karlsruhe, Germany
+  url: https://www.kit.edu/english/
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.de/
+interests: []
+education:
+- degree: B.Sc. Mechatronics and Information Technology
+  institution: KIT Karlsruhe, Germany
+  end: '2024-12-31'
+github: ''
+aliases: []
+now: Student researcher in machine learning, Heidelberg Institute for Theoretical Studies (HITS)
+now_source:
+  source: OpenAlex (paper 2026)
+  url: https://doi.org/10.1186/s12873-026-01527-6
+  checked: '2026-10-30'

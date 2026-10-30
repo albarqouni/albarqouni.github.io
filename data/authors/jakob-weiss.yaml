@@ -1,0 +1,24 @@
+schema: hugoblox/author/v1
+slug: jakob-weiss
+is_owner: false
+name:
+  display: Jakob Weiß
+role: Prof. Dr. Dr., Managing Senior Physician for Research; Head of the Cross-Sectional Imaging Center and the Section of Abdominal and Oncologic Radiology, University Medical Center Freiburg
+group: collaborators
+bio: Prof. Dr. Dr. Jakob Weiß is Managing Senior Physician for Research (Geschäftsführender Oberarzt Wissenschaft) at the Department of Diagnostic and Interventional Radiology, University Medical Center Freiburg, where he heads the Cross-Sectional Imaging Center and the Section of Abdominal and Oncologic Radiology. He develops AI-derived imaging biomarkers of biological ageing (previously at Massachusetts General Hospital, where he co-developed CXR-Age) and is co-PI of our DFG project on estimating ageing from chest imaging.
+affiliations:
+- name: Department of Diagnostic and Interventional Radiology, University Medical Center Freiburg
+  url: https://www.uniklinik-freiburg.de/radiologie/team/aerztlicher-dienst.html
+links:
+- icon: hero/link
+  url: https://www.uniklinik-freiburg.de/radiologie/team/aerztlicher-dienst.html
+  label: Freiburg radiology team
+interests: []
+education: []
+github: ''
+aliases:
+- J Weiß
+- Jakob Weiß
+tags:
+- clinical
+photo_credit: Universitätsklinikum Freiburg

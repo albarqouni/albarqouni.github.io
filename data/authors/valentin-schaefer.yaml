@@ -1,0 +1,22 @@
+schema: hugoblox/author/v1
+slug: valentin-schaefer
+is_owner: false
+name:
+  display: Valentin Schäfer
+role: Professor and Head of the Department of Rheumatology and Clinical Immunology at the Clinic of Internal Medicine III at Universitätsklinikum Bonn
+group: collaborators
+bio: Valentin S.Schäfer, M.D., is a consultant and serves as Head of the Department of Rheumatology and Clinical Immunology at the Clinic of Internal Medicine III at the University Hospital Bonn in Germany. Dr.Schäfer also serves as Head of the Ultrasound Diagnostic Unit and as Speaker of the Center for Rare Rheumatological Diseases. He holds the academic rank of a University Professor at the Medical Faculty of the University Bonn, Germany. He has a focus on imaging and immunology in psoriatic arthritis and rheumatoid arthritis as well as vasculitis.
+affiliations:
+- name: Universitätsklinikum Bonn
+  url: https://www.ukbonn.de/
+links:
+- icon: hero/link
+  url: https://www.ukbonn.de/experimentelle-ophthalmologie/ag-herwig-carl/
+interests: []
+education: []
+github: ''
+aliases:
+- VS Schäfer
+- Valentin Schäfer
+tags:
+- clinical

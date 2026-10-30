@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{- $items := .RegularPages.ByDate.Reverse -}}
+{{- $years := slice -}}{{- range $items }}{{ $years = $years | append (string .Date.Year) }}{{ end -}}
+<div class="lab-page" data-filter-root>
+  <header class="lab-hero-sm"><p class="lab-kicker">In the media</p><h1>{{ .Title }}</h1>{{ with .Content }}<div class="lab-lead">{{ . }}</div>{{ end }}</header>
+  {{- $yOpts := slice -}}{{- range sort (uniq $years) "value" "desc" }}{{ $yOpts = $yOpts | append (dict "value" . "label" .) }}{{ end -}}
+  {{- $tOpts := slice -}}{{- range site.Taxonomies.themes.Alphabetical }}{{ $tOpts = $tOpts | append (dict "value" (urlize .Name) "label" .Page.Title) }}{{ end -}}
+  <div class="lab-filterbar" data-list>
+    <input type="search" data-search placeholder="Search media coverage…" class="lab-input" aria-label="Search media coverage">
+    {{ partial "lab/select.html" (dict "facet" "year" "label" "Any year" "options" $yOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "category" "label" "Any category" "options" (slice (dict "value" "press" "label" "Press articles") (dict "value" "interview" "label" "Interviews") (dict "value" "video" "label" "Videos & TV"))) }}
+    {{ partial "lab/select.html" (dict "facet" "theme" "label" "Any theme" "options" $tOpts) }}
+    <span class="lab-count"><b data-count>{{ len $items }}</b> shown</span>
+  </div>
+  <div class="lab-mini-grid">
+    {{ range $items }}<div data-item data-f-year="{{ .Date.Year }}" data-f-category="{{ .Params.category | default "press" }}" data-f-theme="{{ delimit (.Params.themes | default slice) "|" }}" data-text="{{ .Title }}">{{ partial "lab/mini-card.html" . }}</div>{{ end }}
+  </div>
+  <p data-empty hidden class="lab-empty">Nothing matches these filters.</p>
+</div>
+{{ end }}

@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{- $items := .RegularPages.ByDate.Reverse -}}
+{{- $years := slice -}}{{- $places := slice -}}{{- $projs := slice -}}{{- $people := slice -}}
+{{- range $items }}{{ $years = $years | append (string .Date.Year) }}{{ with .Params.place }}{{ $places = $places | append . }}{{ end }}{{ $projs = $projs | append (.Params.projects | default slice) }}{{ $people = $people | append (.Params.authors | default slice) }}{{ end -}}
+{{- $home := site.Params.lab.home -}}
+{{- $pts := slice (dict "name" $home.name "lat" $home.lat "lon" $home.lon) -}}
+{{- range uniq $places }}{{ with index site.Data.places . }}{{ if .lat }}{{ $pts = $pts | append (dict "name" .name "lat" .lat "lon" .lon) }}{{ end }}{{ end }}{{ end -}}
+<div class="lab-page" data-filter-root>
+  <header class="lab-hero-sm">
+    <p class="lab-kicker">Community &amp; outreach</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="lab-lead">{{ . }}</div>{{ end }}
+  </header>
+  <section class="lab-stats-grid">
+    {{- range $k, $c := site.Data.community_categories }}
+    <button type="button" data-set-facet="category={{ $k }}" class="lab-stat text-left" style="--c: {{ $c.color }}"><span class="lab-stat-n" style="color: {{ $c.color }}">{{ len (where $items "Params.category" $k) }}</span><span class="lab-stat-l">{{ lower $c.label }}</span></button>
+    {{- end }}
+    {{- $countries := slice -}}{{- range uniq $places }}{{ with index site.Data.places . }}{{ with .country }}{{ $countries = $countries | append . }}{{ end }}{{ end }}{{ end -}}
+
+  </section>
+  <p class="lab-meta">Across {{ len (uniq $places) }} cities in {{ len (uniq $countries) }} countries, involving {{ len (uniq $people) }} people.</p>
+  {{ partial "lab/map.html" $pts }}
+  {{- $yOpts := slice -}}{{- range sort (uniq $years) "value" "desc" }}{{ $yOpts = $yOpts | append (dict "value" . "label" .) }}{{ end -}}
+  {{- $plOpts := slice -}}{{- range $k := uniq $places }}{{ with index site.Data.places $k }}{{ $plOpts = $plOpts | append (dict "value" $k "label" .name) }}{{ end }}{{ end -}}
+  {{- $prOpts := slice -}}{{- range uniq $projs }}{{ with site.GetPage (printf "/projects/%s" .) }}{{ $prOpts = $prOpts | append (dict "value" .File.ContentBaseName "label" (.Params.acronym | default (truncate 36 .Title))) }}{{ end }}{{ end -}}
+  {{- $peOpts := slice -}}{{- range $k := uniq $people }}{{ with index site.Data.authors $k }}{{ $peOpts = $peOpts | append (dict "value" $k "label" .name.display) }}{{ end }}{{ end -}}
+  {{- $tOpts := slice -}}{{- range site.Taxonomies.themes.Alphabetical }}{{ $tOpts = $tOpts | append (dict "value" (urlize .Name) "label" .Page.Title) }}{{ end -}}
+  <div class="lab-filterbar mt-6" data-list>
+    <input type="search" data-search placeholder="Search events…" class="lab-input" aria-label="Search events">
+    {{- $catOpts := slice -}}{{- range $k, $c := site.Data.community_categories }}{{ $catOpts = $catOpts | append (dict "value" $k "label" $c.label "count" (len (where $items "Params.category" $k))) }}{{ end -}}
+    {{ partial "lab/select.html" (dict "facet" "category" "label" "All categories" "options" $catOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "year" "label" "Any year" "options" $yOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "place" "label" "Any place" "options" (sort $plOpts "label")) }}
+    {{ partial "lab/select.html" (dict "facet" "project" "label" "Any project" "options" (sort $prOpts "label")) }}
+    {{ partial "lab/select.html" (dict "facet" "theme" "label" "Any theme" "options" $tOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "person" "label" "Anyone" "options" (sort $peOpts "label")) }}
+    <button type="button" data-reset class="lab-btn-ghost">Reset</button>
+    <span class="lab-count"><b data-count>{{ len $items }}</b> shown</span>
+  </div>
+  <div class="lab-photo-grid">
+    {{- range $items }}
+    <a href="{{ .RelPermalink }}" class="lab-photo" data-item data-f-category="{{ .Params.category | default "event" }}" data-f-year="{{ .Date.Year }}" data-f-place="{{ .Params.place }}" data-f-project="{{ delimit (.Params.projects | default slice) "|" }}"
+       data-f-theme="{{ delimit (.Params.themes | default slice) "|" }}" data-f-person="{{ delimit (.Params.authors | default slice) "|" }}" data-text="{{ .Title }} {{ .Params.location }} {{ .Params.event_name }}">
+      {{ partial "lab/thumb.html" (dict "page" . "w" 600 "h" 420 "class" "w-full h-full object-cover" "fallback" true) }}
+      {{ with index site.Data.community_categories (.Params.category | default "event") }}<span class="lab-status" style="background: {{ .color }}; color: #fff">{{ .label | strings.TrimSuffix "s" }}</span>{{ end }}<span class="lab-photo-cap"><small>{{ .Date.Format "Jan 2006" }}{{ with .Params.location }} · {{ . }}{{ end }}</small>{{ .Title }}</span>
+    </a>
+    {{- end }}
+  </div>
+  <p data-empty hidden class="lab-empty">Nothing matches these filters.</p>
+</div>
+{{ end }}

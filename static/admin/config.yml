@@ -1,0 +1,299 @@
+# Decap CMS configuration — https://decapcms.org/docs/configuration-options/
+#
+# Access model (non-admin editing):
+#   * Members log in with their GitHub account.
+#   * `open_authoring` lets members WITHOUT write access edit: Decap forks the repo for them and opens a pull request.
+#   * `editorial_workflow` turns every save into a draft PR (Draft → In review → Ready).
+#   * Only the PI (see .github/CODEOWNERS + branch protection on `main`) can approve and merge.
+#   => Members can update their profile, news, community photos and courses, but nothing goes live without review.
+backend:
+  name: github
+  repo: albarqouni/albarqouni.github.io   # the live site's repository (see docs/LAUNCH.md)
+  branch: main
+  base_url: https://decap-oauth.albarqouni.workers.dev   # GitHub sign-in relay — set up once, see docs/EDITING.md "Team login"
+  auth_endpoint: /auth
+  open_authoring: true
+  squash_merges: true
+  commit_messages:
+    create: "Create {{collection}} “{{slug}}” (via CMS, {{author-login}})"
+    update: "Update {{collection}} “{{slug}}” (via CMS, {{author-login}})"
+publish_mode: editorial_workflow
+site_url: https://albarqouni.github.io
+logo_url: https://albarqouni.github.io/media/icon.png
+media_folder: static/uploads
+public_folder: /uploads
+
+collections:
+  # ------------------------------------------------------------------ team profiles
+  - name: people
+    label: Team profiles
+    label_singular: Profile
+    description: Your own profile. The file name must be your slug (firstname-lastname). Upload your photo as assets/media/authors/<slug>.jpg (ask the PI) or link it in the PR.
+    folder: data/authors
+    extension: yaml
+    format: yaml
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: slug
+    summary: "{{name.display}} — {{group}}"
+    fields:
+      - {label: Schema, name: schema, widget: hidden, default: hugoblox/author/v1}
+      - {label: "Slug (firstname-lastname)", name: slug, widget: string, pattern: ['^[a-z0-9-]+$', 'lower-case letters, digits and dashes only']}
+      - label: Name
+        name: name
+        widget: object
+        fields: [{label: Display name, name: display, widget: string}]
+      - {label: Role / position, name: role, widget: string}
+      - label: Group
+        name: group
+        widget: select
+        options:
+          - {label: Principal Investigator, value: pi}
+          - {label: Postdoc, value: postdocs}
+          - {label: PhD student, value: phd}
+          - {label: Researcher, value: researchers}
+          - {label: Student assistant / Master student, value: students}
+          - {label: Affiliated researcher, value: affiliated}
+          - {label: Collaborator (clinical or academic), value: collaborators}
+          - {label: Alumni, value: alumni}
+      - {label: GitHub username, name: github, widget: string, required: false}
+      - {label: Tags (e.g. clinical), name: tags, widget: list, required: false}
+      - {label: Biography, name: bio, widget: markdown, required: false}
+      - label: Affiliations
+        name: affiliations
+        widget: list
+        required: false
+        fields: [{label: Name, name: name, widget: string}, {label: URL, name: url, widget: string, required: false}]
+      - label: Links
+        name: links
+        widget: list
+        required: false
+        summary: "{{fields.icon}} {{fields.url}}"
+        fields:
+          - label: Icon
+            name: icon
+            widget: select
+            options: [at-symbol, academicons/google-scholar, academicons/orcid, brands/github, brands/linkedin, brands/x, brands/bluesky, hero/link]
+          - {label: URL (mailto:… for email), name: url, widget: string}
+      - {label: Research interests, name: interests, widget: list, required: false}
+      - label: Education
+        name: education
+        widget: list
+        required: false
+        fields: [{label: Degree, name: degree, widget: string}, {label: Institution, name: institution, widget: string}, {label: End date, name: end, widget: datetime, format: YYYY-MM-DD, required: false}]
+      - {label: "Name variants in papers (e.g. J Doe)", name: aliases, widget: list, required: false}
+
+  # ------------------------------------------------------------------ news
+  - name: media
+    label: Media (press, interviews, videos)
+    label_singular: Media item
+    folder: content/media
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    slug: "{{year}}-{{month}}-{{slug}}"
+    summary: "{{date | date('YYYY-MM-DD')}} — {{title}}"
+    sortable_fields: [date, title]
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime, format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false}
+      - {label: Category, name: category, widget: select, options: [press, interview, video], default: press}
+      - {label: "Authors (your slugs)", name: authors, widget: list, hint: "e.g. shadi-albarqouni — the item will appear on these profiles"}
+      - {label: Funded projects, name: projects, widget: relation, collection: projects, search_fields: [title, acronym], value_field: "{{slug}}", display_fields: [title], multiple: true, required: false}
+      - {label: Research themes, name: themes, widget: select, multiple: true, required: false, options: [{label: Computational Medical Imaging, value: computational-imaging}, {label: Affordable & Responsible AI, value: responsible-ai}, {label: Federated Learning, value: federated-learning}]}
+      - {label: "Place key (data/places.yaml, e.g. bonn)", name: place, widget: string, required: false}
+      - {label: Link to the article / video, name: external_link, widget: string, required: false}
+      - {label: Photo credit, name: image, widget: object, required: false, fields: [{label: "Caption (e.g. Photo: Jane Doe / UKB)", name: caption, widget: string, required: false}], hint: "Upload the photo as featured.jpg; always credit the photographer or outlet"}
+      - {label: Body, name: body, widget: markdown}
+
+  # ------------------------------------------------------------------ community
+  - name: community
+    label: Community & events
+    label_singular: Event
+    folder: content/community
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    slug: "{{year}}-{{slug}}"
+    summary: "{{date | date('YYYY-MM-DD')}} [{{category}}] {{title}}"
+    sortable_fields: [date, title, category]
+    view_filters:
+      - {label: Talks, field: category, pattern: talk}
+      - {label: Conferences, field: category, pattern: conference}
+      - {label: Meetings, field: category, pattern: meeting}
+      - {label: Events, field: category, pattern: event}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - label: Category
+        name: category
+        widget: select
+        options: [{label: Talk, value: talk}, {label: Conference, value: conference}, {label: Meeting, value: meeting}, {label: Event / school, value: event}]
+      - {label: Date, name: date, widget: datetime, format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false}
+      - {label: End date, name: date_end, widget: datetime, format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false, required: false}
+      - {label: Event name, name: event_name, widget: string, required: false}
+      - {label: Event URL, name: event_url, widget: string, required: false}
+      - {label: Location (free text), name: location, widget: string}
+      - {label: "Place key (data/places.yaml — puts it on the map/globe)", name: place, widget: string, required: false}
+      - {label: Summary, name: summary, widget: text}
+      - {label: "People (slugs)", name: authors, widget: list}
+      - {label: Funded projects, name: projects, widget: relation, collection: projects, search_fields: [title, acronym], value_field: "{{slug}}", display_fields: [title], multiple: true, required: false}
+      - {label: Research themes, name: themes, widget: select, multiple: true, required: false, options: [{label: Computational Medical Imaging, value: computational-imaging}, {label: Affordable & Responsible AI, value: responsible-ai}, {label: Federated Learning, value: federated-learning}]}
+      - {label: Featured, name: featured, widget: boolean, default: false}
+      - {label: Featured image caption, name: image, widget: object, required: false, fields: [{label: Caption, name: caption, widget: string, required: false}]}
+      - {label: "Body (add more photos here — they appear in the gallery)", name: body, widget: markdown, required: false}
+
+  # ------------------------------------------------------------------ teaching
+  - name: teaching
+    label: Teaching (semester offerings)
+    label_singular: Offering
+    folder: content/teaching
+    nested: {depth: 3, summary: "{{title}}"}
+    meta: {path: {widget: string, label: "Path (course/semester, e.g. air/ws2627)", index_file: index}}
+    filter: {field: semester, pattern: "^(WS|SS)"}
+    create: true
+    media_folder: ""
+    public_folder: ""
+    summary: "{{semester}} — {{title}}"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: "Semester (WS2627 / SS27)", name: semester, widget: string, pattern: ['^(WS\d{4}|SS\d{2})$', 'Use WS2627 or SS27']}
+      - {label: "Semester (taxonomy)", name: semesters, widget: list}
+      - {label: Start date, name: date, widget: datetime, format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false}
+      - {label: Draft, name: draft, widget: boolean, default: true, required: false}
+      - {label: "Lecturers (slugs)", name: lecturers, widget: list}
+      - {label: "Tutors (slugs)", name: tutors, widget: list, required: false}
+      - {label: "Everyone involved (slugs, shown on profiles)", name: authors, widget: list}
+      - {label: Schedule, name: schedule, widget: string, required: false, hint: "e.g. Thursdays 14:15–15:45"}
+      - {label: Room, name: room, widget: string, required: false}
+      - {label: BASIS link, name: basis_url, widget: string, required: false}
+      - {label: eCampus link, name: ecampus_url, widget: string, required: false}
+      - {label: Registration link, name: registration, widget: string, required: false}
+      - {label: Summary, name: summary, widget: text, required: false}
+      - label: Grading
+        name: grading
+        widget: list
+        required: false
+        fields: [{label: Item, name: item, widget: string}, {label: Weight (%), name: weight, widget: number}]
+      - label: Timeline / syllabus
+        name: timeline
+        widget: list
+        required: false
+        summary: "{{fields.date}} — {{fields.topic}}"
+        fields: [{label: Date, name: date, widget: string}, {label: Topic, name: topic, widget: string}, {label: Speaker slug, name: speaker, widget: string, required: false}, {label: Material URL, name: material, widget: string, required: false}]
+      - {label: "Funding (organisation keys)", name: funding, widget: list, required: false}
+      - {label: Body, name: body, widget: markdown, required: false}
+
+  # ------------------------------------------------------------------ projects (PI)
+  - name: projects
+    label: Projects & collaborations (PI)
+    folder: content/projects
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    identifier_field: title
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Acronym, name: acronym, widget: string, required: false}
+      - {label: Type, name: project_type, widget: select, options: [{label: Funded project, value: funded}, {label: Research collaboration, value: collaboration}], default: funded}
+      - {label: Summary, name: summary, widget: text}
+      - {label: Start (YYYY-MM), name: start, widget: string}
+      - {label: Grant number, name: grant_number, widget: string, required: false}
+      - {label: End (YYYY-MM), name: end, widget: string, required: false}
+      - {label: "Funders (keys in data/organizations.yaml)", name: funders, widget: list}
+      - {label: "Partners (keys in data/organizations.yaml)", name: partners, widget: list}
+      - {label: Funding website, name: funding_url, widget: string, required: false}
+      - {label: Our role, name: role, widget: string, required: false}
+      - {label: "PIs (slugs)", name: pis, widget: list}
+      - label: External co-PIs
+        name: co_pis
+        widget: list
+        required: false
+        fields: [{label: Name, name: name, widget: string}, {label: URL, name: url, widget: string, required: false}, {label: Org key, name: org, widget: string, required: false}]
+      - {label: "Team members (slugs)", name: authors, widget: list}
+      - label: Work packages
+        name: work_packages
+        widget: list
+        required: false
+        summary: "{{fields.id}} {{fields.title}}"
+        fields: [{label: ID, name: id, widget: string}, {label: Title, name: title, widget: string}, {label: Lead (org key), name: lead, widget: string, required: false}, {label: Our role, name: our_role, widget: select, options: [Lead, Co-lead, Contributor]}, {label: Summary, name: summary, widget: text, required: false}]
+      - {label: Research themes, name: themes, widget: select, multiple: true, options: [{label: Computational Medical Imaging, value: computational-imaging}, {label: Affordable & Responsible AI, value: responsible-ai}, {label: Federated Learning, value: federated-learning}]}
+      - {label: "Datasets (slugs)", name: datasets, widget: list, required: false}
+      - {label: Abstract, name: body, widget: markdown}
+
+  # ------------------------------------------------------------------ publications (curation only)
+  - name: publications
+    label: Publications (curate)
+    description: Publications are created automatically from Google Scholar. Use this to add links, themes, projects, datasets and the Slidev explainer.
+    folder: content/publications
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: false
+    delete: false
+    summary: "{{date | date('YYYY')}} — {{title}}"
+    sortable_fields: [date, title]
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Type, name: publication_types, widget: select, multiple: true, max: 1, options: [{label: Journal article, value: article-journal}, {label: Conference / workshop paper, value: paper-conference}, {label: "Abstract (clinical congress, poster, talk)", value: abstract}, {label: Preprint, value: preprint}, {label: Book chapter, value: chapter}, {label: Book, value: book}, {label: Patent, value: patent}, {label: Thesis, value: thesis}]}
+      - {label: Research themes, name: themes, widget: select, multiple: true, options: [{label: Computational Medical Imaging, value: computational-imaging}, {label: Affordable & Responsible AI, value: responsible-ai}, {label: Federated Learning, value: federated-learning}]}
+      - {label: Funded projects, name: projects, widget: relation, collection: projects, search_fields: [title, acronym], value_field: "{{slug}}", display_fields: [title], multiple: true, required: false}
+      - {label: "Datasets (slugs)", name: datasets, widget: list, required: false}
+      - {label: Featured, name: featured, widget: boolean, required: false}
+      - {label: Slidev explainer URL, name: slidev, widget: string, required: false}
+      - label: Links
+        name: links
+        widget: list
+        required: false
+        fields: [{label: Type, name: type, widget: select, options: [pdf, code, dataset, slides, video, poster, project]}, {label: URL, name: url, widget: string}]
+      - {label: Abstract, name: abstract, widget: text, required: false}
+
+  # ------------------------------------------------------------------ datasets & demos
+  - name: datasets
+    label: Datasets
+    folder: content/datasets
+    path: "{{slug}}/index"
+    create: true
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Acronym, name: acronym, widget: string, required: false}
+      - {label: Date, name: date, widget: datetime, format: YYYY-MM-DD, time_format: false}
+      - {label: Summary, name: summary, widget: text}
+      - {label: Modality, name: modality, widget: list}
+      - {label: Size, name: size, widget: string, required: false}
+      - {label: Access, name: access, widget: select, options: [Open, On request, Restricted]}
+      - {label: License, name: license, widget: string, required: false}
+      - {label: Data access URL, name: data_url, widget: string, required: false}
+      - {label: DOI, name: doi, widget: string, required: false}
+      - {label: "Collected at (org keys)", name: sources, widget: list, required: false}
+      - {label: Research themes, name: themes, widget: select, multiple: true, options: [{label: Computational Medical Imaging, value: computational-imaging}, {label: Affordable & Responsible AI, value: responsible-ai}, {label: Federated Learning, value: federated-learning}]}
+      - {label: "Projects (slugs)", name: projects, widget: list, required: false}
+      - {label: "People (slugs)", name: authors, widget: list}
+      - {label: How to cite, name: citation, widget: text, required: false}
+      - {label: Body, name: body, widget: markdown, required: false}
+  - name: demos
+    label: Demos
+    folder: content/demos
+    path: "{{slug}}/index"
+    create: true
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime, format: YYYY-MM-DD, time_format: false}
+      - {label: Summary, name: summary, widget: text}
+      - {label: Modality, name: modality, widget: list, required: false}
+      - {label: "Demo URL (e.g. Hugging Face Space)", name: demo_url, widget: string, required: false}
+      - {label: "Status (shown while there is no demo URL)", name: status, widget: select, options: ["Coming soon", "Beta"], required: false}
+      - {label: "Order in list", name: weight, widget: number, required: false}
+      - {label: Embed in page, name: embed, widget: boolean, default: true}
+      - {label: Code repository, name: repository, widget: string, required: false}
+      - {label: Video, name: video, widget: string, required: false}
+      - {label: Research themes, name: themes, widget: select, multiple: true, options: [{label: Computational Medical Imaging, value: computational-imaging}, {label: Affordable & Responsible AI, value: responsible-ai}, {label: Federated Learning, value: federated-learning}]}
+      - {label: "Publications (slugs)", name: publications, widget: list, required: false}
+      - {label: "People (slugs)", name: authors, widget: list}
+      - {label: Body, name: body, widget: markdown, required: false}

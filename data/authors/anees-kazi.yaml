@@ -1,0 +1,34 @@
+schema: hugoblox/author/v1
+slug: anees-kazi
+is_owner: false
+name:
+  display: Anees Kazi
+role: PhD (TU Munich)
+group: alumni
+bio: Anees Kazi did her PhD and a short postdoc at the Chair for Computer Aided Medical Procedures (CAMP), TU Munich, working with Shadi Albarqouni and Nassir Navab on deep learning for proximal femur fracture classification and on graph convolutional networks for disease prediction — InceptionGCN, attention-based and self-attention graph convolutions, and inductive graph networks — as well as federated learning for histopathology. She is now a Research Fellow in Radiology at Massachusetts General Hospital and Harvard Medical School (Laboratories for Computational Neuroimaging, Martinos Center), applying graph deep learning to diffusion-MRI brain connectomes.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links:
+- icon: hero/link
+  url: https://lcn.martinos.org/people/anees-kazi/
+  label: MGH profile
+interests:
+- Graph deep learning
+- Disease prediction
+- Brain connectomics
+education:
+- degree: PhD
+  institution: Technical University of Munich
+  end: ''
+github: ''
+aliases:
+- A Kazi
+- A. Kazi
+tags: []
+now: Research Fellow in Radiology, Massachusetts General Hospital & Harvard Medical School
+now_source:
+  source: MGH lab page
+  url: https://lcn.martinos.org/people/anees-kazi/
+  checked: '2026-10-30'
+photo_credit: MICCAI MSB EMERGE (miccaimsb.github.io)

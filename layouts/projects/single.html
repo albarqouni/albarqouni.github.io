@@ -1,0 +1,82 @@
+{{ define "main" }}
+{{- $slug := .File.ContentBaseName -}}
+{{- $per := partial "lab/period.html" . -}}
+{{- $pubs := partial "lab/linked.html" (dict "section" "publications" "param" "projects" "value" $slug) -}}
+{{- $news := partial "lab/linked.html" (dict "section" "media" "param" "projects" "value" $slug) -}}
+{{- $events := partial "lab/linked.html" (dict "section" "community" "param" "projects" "value" $slug) -}}
+{{- $courses := partial "lab/linked.html" (dict "section" "teaching" "param" "projects" "value" $slug) -}}
+{{- $home := site.Params.lab.home -}}
+{{- $pts := slice (dict "name" $home.name "lat" $home.lat "lon" $home.lon) -}}
+{{- range .Params.partners }}{{ with index site.Data.organizations . }}{{ $pts = $pts | append (dict "name" .name "lat" .lat "lon" .lon "url" .url) }}{{ end }}{{ end -}}
+<article class="lab-page">
+  <nav class="lab-crumbs"><a href="{{ "/projects/" | relLangURL }}">Projects</a> / {{ .Params.acronym | default .Title }}</nav>
+  <header class="lab-project-head">
+    <div>
+      <div class="lab-row mb-3"><span class="lab-status lab-status-{{ $per.status }} static">{{ $per.status }}</span><span class="lab-badge">{{ $per.label }}</span>{{ with .Params.role }}<span class="lab-badge lab-badge-if">Our role: {{ . }}</span>{{ end }}</div>
+      {{ with .Params.acronym }}<p class="lab-acronym">{{ . }}</p>{{ end }}
+      <h1 class="lab-title">{{ .Title }}</h1>
+      {{ with .Params.summary }}<p class="lab-lead">{{ . | markdownify }}</p>{{ end }}
+      <div class="lab-row mt-4">
+        {{ with .Params.funding_url }}<a class="lab-btn" href="{{ . }}" target="_blank" rel="noopener">Project / funder website ↗</a>{{ end }}
+        {{ partial "lab/theme-chips.html" . }}
+      </div>
+    </div>
+    <aside class="lab-facts-box">
+      {{ if .Params.funders }}<h3>Funded by</h3>
+      <div class="lab-logos lab-logos-lg">{{ range .Params.funders }}{{ partial "lab/org.html" (dict "key" . "size" "lg") }}{{ end }}</div>
+      {{ else }}<h3>Research collaboration</h3><div class="lab-logos lab-logos-lg">{{ range first 4 (.Params.partners | default slice) }}{{ partial "lab/org.html" (dict "key" . "size" "lg") }}{{ end }}</div>{{ end }}
+      {{ with .Params.grant_number }}<p><b>Grant:</b> {{ . }}</p>{{ end }}
+      <p><b>Period:</b> {{ .Params.start }} – {{ .Params.end | default "ongoing" }}</p>
+    </aside>
+  </header>
+
+  {{- with partial "functions/get_featured_image.html" . }}
+  <figure class="lab-teaser">{{ if reflect.IsImageResourceProcessable . }}{{ $r := .Fit "1600x800 webp" }}<img src="{{ $r.RelPermalink }}" alt="Project teaser" width="{{ $r.Width }}" height="{{ $r.Height }}">{{ else }}<img src="{{ .RelPermalink }}" alt="Project teaser">{{ end }}
+    {{ with $.Params.image.caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}</figure>
+  {{- end }}
+
+  <div class="lab-two-col">
+    <div class="prose dark:prose-invert max-w-none">
+      <h2>Abstract</h2>
+      {{ .Content }}
+    </div>
+    <aside class="lab-side">
+      <h3>Principal investigators</h3>
+      <div class="lab-row">{{ range .Params.pis }}{{ partial "lab/person.html" . }}{{ end }}</div>
+      {{ with .Params.co_pis }}<h3>Co-PIs &amp; collaborators</h3>
+      <ul class="lab-plain">{{ range . }}<li>{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ partial "lab/person.html" .name }}{{ end }}{{ with .org }}{{ with index site.Data.organizations . }} — {{ .short }}{{ end }}{{ end }}</li>{{ end }}</ul>{{ end }}
+      {{- $team := slice -}}{{- range .Params.authors }}{{ if not (in $.Params.pis .) }}{{ $team = $team | append . }}{{ end }}{{ end -}}
+      {{ with $team }}<h3>People involved</h3><div class="lab-row">{{ range . }}{{ partial "lab/person.html" . }}{{ end }}</div>{{ end }}
+      {{ with .Params.datasets }}<h3>Datasets</h3><div class="lab-row">{{ range . }}{{ with site.GetPage (printf "/datasets/%s" .) }}<a class="lab-chip" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}</div>{{ end }}
+    </aside>
+  </div>
+
+  {{ with .Params.work_packages }}
+  <section class="lab-section">
+    <h2 class="lab-h2">Work packages</h2>
+    <div class="overflow-x-auto"><table class="lab-table">
+      <thead><tr><th>WP</th><th>Title</th><th>Lead</th><th>Our role</th></tr></thead>
+      <tbody>{{ range . }}<tr class="{{ if eq (lower (.our_role | default "")) "lead" }}lab-tr-lead{{ end }}"><td><b>{{ .id }}</b></td><td>{{ .title }}{{ with .summary }}<br><small>{{ . | markdownify }}</small>{{ end }}</td><td>{{ $lead := .lead | default "" }}{{ with index site.Data.organizations $lead }}{{ .short }}{{ else }}{{ $lead }}{{ end }}</td><td>{{ .our_role }}</td></tr>{{ end }}</tbody>
+    </table></div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.partners }}
+  <section class="lab-section">
+    <h2 class="lab-h2">Partner institutions</h2>
+    <div class="lab-partner-grid">{{ range . }}{{ partial "lab/org.html" (dict "key" . "size" "lg" "show_name" true) }}{{ end }}</div>
+    {{ partial "lab/map.html" $pts }}
+  </section>
+  {{ end }}
+
+  {{ with $pubs }}
+  <section class="lab-section"><h2 class="lab-h2">Publications <span class="lab-count-pill">{{ len . }}</span></h2>
+    <div>{{ range sort . "Date" "desc" }}{{ partial "lab/pub-item.html" . }}{{ end }}</div></section>
+  {{ end }}
+  {{ $more := $news | append $events | append $courses }}
+  {{ with $more }}
+  <section class="lab-section"><h2 class="lab-h2">News, events &amp; teaching</h2>
+    <div class="lab-mini-grid">{{ range sort . "Date" "desc" }}{{ partial "lab/mini-card.html" . }}{{ end }}</div></section>
+  {{ end }}
+</article>
+{{ end }}

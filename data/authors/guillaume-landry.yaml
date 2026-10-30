@@ -1,0 +1,22 @@
+schema: hugoblox/author/v1
+slug: guillaume-landry
+is_owner: false
+name:
+  display: Guillaume Landry
+role: W2 Professor of Image-Guided Radiotherapy, Department of Radiation Oncology, LMU University Hospital Munich
+group: collaborators
+bio: Guillaume Landry has been W2 Professor at the Department of Radiation Oncology of LMU University Hospital since 2019 and leads its physics research group on image guidance in radiotherapy, with a focus on deep learning. He is a co-PI of our DFG project on MRI-guided online adaptive radiotherapy.
+affiliations:
+- name: LMU University Hospital Munich
+  url: https://www.lmu-klinikum.de/strahlentherapie-und-radioonkologie/forschung/physikalische-forschung/team/561c5ea565aaad13
+links:
+- icon: hero/link
+  url: https://lmu-art-lab.userweb.mwn.de/author/guillaume-landry
+  label: LMU ART Lab
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- academic
+photo_credit: © LMU Klinikum

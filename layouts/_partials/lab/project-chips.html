@@ -1,0 +1,6 @@
+{{/* Funded-project chips. Arg: slice of project slugs */}}
+{{- range . -}}
+  {{- with site.GetPage (printf "/projects/%s" .) -}}
+    <a href="{{ .RelPermalink }}" class="lab-chip lab-chip-project" title="{{ .Title }}">{{ .Params.acronym | default (truncate 28 .Title) }}</a>
+  {{- end -}}
+{{- end -}}

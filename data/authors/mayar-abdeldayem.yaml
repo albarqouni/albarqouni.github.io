@@ -1,0 +1,28 @@
+schema: hugoblox/author/v1
+slug: mayar-abdeldayem
+is_owner: false
+name:
+  display: Mayar Abdeldayem
+role: Master Thesis Student
+group: researchers
+bio: '# Biography
+
+
+  Mayar Abdeldayem is a Data Science Master’s student and Teaching Assistant at the German International University. Her research interests and experience include Artificial Intelligence, Deep Learning, Computer Vision, and Medical Image Analysis, with a focus on developing automated and clinically relevant AI solutions for healthcare.
+
+
+  Her experience includes contributing to deep learning–based applications for dental X-ray analysis, oral cancer detection, brain tumor classification, and Alzheimer’s disease classification, as well as receiving hands-on training in brain and colon tumor segmentation at CORELIA. She has also co-supervised undergraduate theses on automated spinal posture analysis and Cobb angle detection. She is currently writing up her MA thesis at Prof. Dr. Shadi Albarqouni’s Lab at University Hospital Bonn (UKB), where she is exploring multimodal learning and AI-driven approaches for early disease detection under the supervision of Prof. Dr. Shadi Albarqouni, in collaboration with Assoc. Prof. Nada Sharaf, German International University.'
+affiliations:
+- name: Universitätsklinikum Bonn, Klinik für Diagnostische und Interventionelle Radiologie
+  url: https://www.ukbonn.de/radiologie/unser-team/
+- name: German International University
+  url: https://giu-uni.de/
+links:
+- icon: at-symbol
+  url: mailto:Mayar.Abdeldayem@ukbonn.de
+- icon: brands/github
+  url: https://github.com/
+interests: []
+education: []
+github: ''
+aliases: []

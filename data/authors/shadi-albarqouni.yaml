@@ -1,0 +1,315 @@
+schema: hugoblox/author/v1
+slug: shadi-albarqouni
+is_owner: true
+name:
+  display: Shadi Albarqouni
+role: W2 Professor of Computational Medical Imaging, Faculty of Medicine, University Hospital Bonn, University of Bonn
+group: pi
+bio: "Shadi Albarqouni is a Palestinian-German Professor of Computational Medical Imaging Research. He received his B.Sc. and M.Sc. in Electrical Engineering from the IU Gaza, Palestine, in 2005, and 2010, respectively. In 2012, he received the [DAAD](www.daad.de) research grant to pursue his Ph.D. at the [Chair for Computer Aided Medical Procedures (CAMP)](https://www.in.tum.de/campar/start/), [Technical University of Munich (TUM)](https://www.tum.de/), Germany. During his Ph.D., Albarqouni worked with [Prof. Nassir Navab](https://scholar.google.de/citations?user=kzoVUPYAAAAJ&hl=en) on developing machine learning algorithms to handle noisy labels, coming from crowdsourcing, in medical imaging. His [AggNet](https://ieeexplore.ieee.org/document/7405343) paper, published at the [Special Issue on Deep Learning](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7463083) at the [IEEE Transaction on Medcial Imaging](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42) (IF: 10.048),\
+  \ was among the first ones on Medical Imaging with Deep Learning and has been featured as the [top downloaded article](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8700676) for a couple of years at IEEEXplore. \n\nRight before he received his Ph.D. in Computer Science with *summa cum laude* in 2017, Albarqouni worked as a [Senior Research Scientist & Team Lead](https://www.in.tum.de/campar/members/senior-affiliates/shadi-albarqouni/) at [CAMP](https://www.in.tum.de/campar/start/) leading the [Medical Image Analysis (MedIA)](http://campar.in.tum.de/Chair/ResearchIssueMedicalImage). Together with his team addressed the common challenges concern the nature of medical data, namely heterogeneity, severe class-imbalance, few amounts of annotated data, inter-/intra-scanners variability (domain shift), inter-/intra-observer disagreement (noisy annotations). In 2019, Albarqouni received the prestigious [P.R.I.M.E. fellowship](https://www.daad.de/en/study-and-research-in-germany/scholarships/prime-fellows-201819/)\
+  \ for a one-year international mobility, where he worked as a [Visiting Scientist](https://bmic.ee.ethz.ch/people/person-details.shadi-alberqouni.html) at the [Department of Information Technology and Electrical Engineering (D-ITET)](https://ee.ethz.ch/) at [ETH Zürich](https://ethz.ch/en.html), Switzerland. He worked with [Prof. Ender Konukoglu](http://people.ee.ethz.ch/~kender/) on [Modeling Uncertainty in Medical Imaging](project/uncertainty/), in particular, the one associated with inter-/intra-raters variability. Afterwards, Albarqouni worked as a Visting Scientist with [Prof. Daniel Rueckert](http://wp.doc.ic.ac.uk/dr/) at the [Department of Computing](https://www.imperial.ac.uk/computing) at [Imperial College London](http://www.imperial.ac.uk/), United Kingdom. \n\nSince Nov. 2020, Albarqouni has been appointed as an [AI Young Investigator Group Leader](https://www.helmholtz.ai/themenmenue/our-research/research-groups/albarqouni-group/index.html) at [Helmholtz AI](https://www.helmholtz.ai/).\
+  \  The aim of Albarqouni's Lab. is to develop innovative deep [Federated Learning](project/federated-learning) algorithms that can distill and share the knowledge among AI agents in a robust and privacy-preserved fashion. Since Jan. 2022, Albarqouni has been appointed as a W2 Professor of Computational Medical Imaging Research at the [Faculty of Medicine](https://www.medfak.uni-bonn.de/de), [University of Bonn](https://www.uni-bonn.de/en). \n\nAlbarqouni has more than 100 peer-reviewed publications in both Medical Imaging Computing and Computer Vision published in high impacted journals and top-tier conferences. He serves as a reviewer for many journals, *e.g.*, [IEEE TPAMI](https://www.computer.org/csdl/journal/tp), [MedIA](https://www.journals.elsevier.com/medical-image-analysis), [IEEE TMI](https://www.embs.org/tmi/), [IEEE JBHI](https://www.embs.org/jbhi/), [IJCARS](https://www.springer.com/journal/11548) and [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition),\
+  \ and top-tier conferences, *e.g.,* [ECCV](https://eccv2020.eu/), [MICCAI](https://www.miccai2020.org/en/), [MIDL](https://2020.midl.io/), [BMVC](https://britishmachinevisionassociation.github.io/bmvc), [IPCAI](http://www.ipcai.org/), and [ISBI](http://2020.biomedicalimaging.org/) among others. He is also an active member of [MICCAI](http://www.miccai.org/members), [BMVA](http://www.bmva.org/), [IEEE EMBS](https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEMEMB018), [IEEE CS](https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEMC016), and [ESR](https://www.myesr.org/) society. Recently, Albarqouni has been elected as a member for the European Lab for Learning and Intelligent Systems ([ELLIS](https://ellis.eu/members)), the Arab German Young Academy ([AGYA](http://www.agya.info/)), and the Higher Council for Innovation and Excellence‎ in Diaspora ([HCIE](https://hcie.ps/?lang=en)). Since 2015, he has been serving\
+  \ as a PC member for a couple of MICCAI workshops, *e.g.*, [COMPAY](https://compay19.grand-challenge.org/organizers/),  [DART](https://sites.google.com/view/dart2020/organization), [DCL](https://dcl-workshop.github.io/), [FAIR](https://sites.google.com/view/fair-workshop-2021/home) among others. Since 2019, Albarqouni has been serving as an [Area Chair](https://www.miccai2019.org/committee/) in Advance Machine Learning Theory at [MICCAI](http://www.miccai.org/). Recently, he has been serving as a Program Co-Chair at [MIDL'22](https://2022.midl.io/organization.html) in Swizterland, and as an Organizing Committee Member at [ISBI'22](https://biomedicalimaging.org/2022/organizing-committee/) in India, MICCAI'24 in Morocco. \n\nHis current research interests include Interpretable ML, Robustness, Uncertainty, and Federated Learning. He is also interested in Entrepreneurship and Startups for Innovative Medical Solutions with limited resources."
+affiliations:
+- name: University Hospital Bonn (UKB), University of Bonn
+  url: https://www.ukbonn.de
+- name: Bonn International Graduate School for Clinical and Population Science (BIGS) — Faculty member
+  url: https://www.bigs-cps.uni-bonn.de
+- name: Technical University of Munich — Senior Affiliate
+  url: https://www.tum.de
+links:
+- icon: at-symbol
+  url: mailto:shadi.albarqouni@ukbonn.de
+- icon: brands/x
+  url: https://twitter.com/ShadiAlbarqouni
+- icon: academicons/google-scholar
+  url: https://scholar.google.de/citations?user=CPuApzoAAAAJ&hl=en
+- icon: brands/github
+  url: https://github.com/albarqouni
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/shadialbarqouni/
+- icon: academicons/orcid
+  url: https://orcid.org/0000-0003-2157-2211
+- icon: hero/link
+  url: https://albarqouni.github.io/
+- icon: academicons/orcid
+  url: https://orcid.org/0000-0003-2157-2211
+interests:
+- Computational medical imaging & medical foundation models
+- Federated and collaborative learning
+- Affordable, responsible and equitable AI for global health
+education:
+- degree: Ph.D. in Computer Science (summa cum laude)
+  institution: 'Technical University of Munich — "Machine Learning for Biomedical Applications: From Crowdsourcing to Deep Learning", advisor Prof. Nassir Navab'
+  end: '2017-12-31'
+- degree: M.Sc. in Electrical Engineering (ranked 1st)
+  institution: Islamic University of Gaza, Palestine
+  end: '2010-12-31'
+- degree: B.Sc. in Electrical Engineering
+  institution: Islamic University of Gaza, Palestine
+  end: '2005-12-31'
+github: ''
+aliases:
+- S Albarqouni
+- S. Albarqouni
+- Shadi Albarquoni
+- Shadi N Albarqouni
+experience:
+- role: W2 Professor of Computational Medical Imaging
+  org: Faculty of Medicine, University Hospital Bonn, University of Bonn
+  start: '2022-01-01'
+- role: AI Young Investigator Group Leader
+  org: Helmholtz AI, Helmholtz Munich
+  start: '2020-01-01'
+  end: '2025-12-31'
+- role: Visiting Scientist
+  org: Imperial College London, Computing Department
+  start: '2020-01-01'
+  end: '2020-12-31'
+- role: Visiting Scientist
+  org: ETH Zurich, Information Technology and Electrical Engineering
+  start: '2019-01-01'
+  end: '2020-12-31'
+- role: Postdoctoral Research Fellow and Team Leader
+  org: Computer-Aided Medical Procedures, TU Munich
+  start: '2017-01-01'
+  end: '2020-12-31'
+- role: Research Fellow
+  org: Computer-Aided Medical Procedures, TU Munich
+  start: '2013-01-01'
+  end: '2016-12-31'
+- role: Visiting Researcher
+  org: German Center for Neurodegenerative Diseases (DZNE), Bonn
+  start: '2013-01-01'
+  end: '2016-12-31'
+awards:
+- title: Helmholtz AI Young Investigator Grant
+  date: '2020'
+  summary: 2020–2025, ~1.8 M€; acceptance rate ~5%
+- title: DAAD PRIME Fellowship
+  date: '2019'
+  summary: International mobility fellowship (ETH Zurich, Imperial College London); acceptance rate ~12%
+- title: DAAD PhD Scholarship
+  date: '2012'
+  summary: 2012–2016; acceptance rate ~3%
+- title: Merit Scholarship for High Technology
+  date: '2012'
+  summary: Islamic Development Bank
+- title: Best paper / poster awards
+  date: ''
+  summary: Several publications awarded at MICCAI and related venues
+memberships:
+- role: Elected Member
+  org: Global Young Academy (GYA)
+  period: 2025 – present
+  logo: act/c-gya.png
+- role: Elected Member
+  org: European Laboratory for Learning and Intelligent Systems (ELLIS)
+  period: 2020 – present
+  logo: act/c-ellis.png
+- role: Elected Member; Steering Committee (2022–2023)
+  org: Arab-German Young Academy of Sciences and Humanities (AGYA)
+  period: 2020 – present
+  logo: act/c-agya.png
+- role: Steering Committee Member
+  org: German Alliance for Global Health Research (GLOHRA)
+  period: 2024 – present
+  logo: act/c-glohra.png
+- role: Founder and Board Deputy
+  org: MICCAI-RISE (mentoring for early-career researchers)
+  period: 2021 – 2024
+  logo: act/c-miccai-rise.png
+- role: Co-founder and Member
+  org: Palestine Young Academy (PYA)
+  period: 2019 – present
+  logo: act/c-pya.png
+- role: Founding Member
+  org: Palestinian Higher Council for Innovation and Excellence in Diaspora
+  period: 2021 – present
+  logo: act/c-hcie.png
+- role: Senior Member
+  org: IEEE (EMBS; Computer Society)
+  period: 2020 – present
+  logo: act/c-ieee.png
+- role: Member
+  org: European Society of Radiology (ESR)
+  period: 2020 – present
+  logo: act/c-esr.png
+- role: Member
+  org: MICCAI Society
+  period: 2012 – present
+  logo: act/c-miccai.png
+editorial:
+- role: Associate Editor
+  venue: IEEE Transactions on Medical Imaging
+  period: since Apr 2026
+  logo: act/j-tmi.png
+- role: Associate Editor
+  venue: ACM Transactions on Intelligent Systems and Technology (TIST)
+  period: since Oct 2025
+  logo: act/j-tist.png
+- role: Editorial Board Member
+  venue: International Journal of Computer Vision (IJCV)
+  period: since 2024
+  logo: act/j-cv.png
+- role: Guest Editor, Special Issue
+  venue: Medical Image Analysis
+  period: '2024'
+  logo: act/j-media.png
+- role: Guest Editor, Special Issue
+  venue: IEEE Transactions on Medical Imaging
+  period: '2023'
+  logo: act/j-tmi.png
+- role: Editor / Co-editor
+  venue: 'Lecture Notes in Computer Science (MICCAI workshop proceedings: DART, FAIR, DeCaF, LABELS, …)'
+  period: ''
+service:
+- 'Program Committee / Area Chair / Senior Reviewer: MICCAI, MIDL'
+- 'Reviewer: Nature Machine Intelligence, Nature Communications, IEEE TMI, Medical Image Analysis, NeurIPS'
+- 'Grant evaluator: DFG, BMFTR, DAAD, SNSF, EU Horizon'
+- 'External assessor for promotions to professor: University of Sydney (Australia), UAEU (UAE)'
+supervision:
+  summary:
+  - - '3'
+    - PhD candidates (primary supervisor, since 2022)
+  - - '3'
+    - external PhDs completed (primary scientific supervisor)
+  - - '6'
+    - Master's theses since 2022
+  - - '3'
+    - Bachelor's theses since 2022
+  - - 40+
+    - theses supervised before 2022
+  - - 20+
+    - PhD/MSc defence committees as external examiner
+  phd:
+  - jiajun-zeng
+  - adea-nesturi
+  - david-gaviria
+  phd_completed:
+  - name: Hasan Sarhan
+    org: TU Munich
+    year: 2024
+  - name: Agnieszka Tomczak
+    org: TU Munich
+    year: 2023
+  - name: Tariq Bdair
+    org: TU Munich
+    year: 2023
+  tac:
+  - Salam Ullah (UniBonn)
+  - Elena Soriato (UniBonn)
+  - Achille Fourtoy (UniBonn)
+  - Markus Bujotzek (DKFZ)
+  - Christoph Fueboeck (TU Wien)
+  examiner: University of Bonn, TU Munich, University of Potsdam, University College London, Sorbonne University, IIT Kharagpur, German University in Cairo, German International University, Qatar University, Beirut Arab University
+metrics:
+  source: Google Scholar / Scopus (CV, 2026)
+  publications: 152
+  citations: 16930
+  h_index: 42
+  i10_index: 81
+  fwci: 4.73
+  international_collab: 87%
+  funding_total: ~2.5 M€
+hosted_speakers:
+- Bjoern Krueger, University of Bonn (Dec 2025)
+- Hussein Hassan, Lebanese American University (Dec 2025)
+- Rached Abdelkhalak, NVIDIA (Sep 2025)
+- Islem Rekik, Imperial College London (Sep 2025)
+- Vasileios Belagiannis, FAU Erlangen-Nürnberg (Sep 2025)
+- Nassir Navab, TU Munich (Sep 2025)
+- Dawud Ansari, SWP Berlin (Jul 2024)
+- Mohamad Bdiwi, Fraunhofer IWU (Jul 2024)
+- Hanan Aldarmaki, MBZUAI (Jul 2024)
+- Nada El Darra, Beirut Arab University (Oct 2023)
+- Stefan D. Anker, Charité Berlin (Sep 2023)
+- Mauricio Berriel Diaz, Helmholtz Munich (Sep 2023)
+- Syed Zulqarnain Gilani, Edith Cowan University (Sep 2023)
+- Mazen Soufi, NAIST (Nov 2022)
+- Djamel Djenouri, University of the West of England (Oct 2022)
+governance:
+- role: Appeals Committee Member
+  org: Faculty of Medicine, University of Bonn
+  logo: logos/uni-bonn.png
+- role: Expert Member (Artificial Intelligence)
+  org: Ethics Committee, Medical Faculty Bonn
+  logo: logos/uni-bonn.png
+- role: Substitute Member
+  org: Quality Improvement Commission (QVK), Medical Faculty Bonn
+  logo: logos/uni-bonn.png
+- role: Steering Committee Member
+  org: Bonn International Graduate School for Clinical and Population Science (BIGS)
+  logo: act/c-bigs.png
+organizing:
+- year: 2026
+  role: Workshop Chair
+  event: MICCAI 2026, Strasbourg
+  logo: act/m-miccai26.png
+- year: 2026
+  role: Co-organiser
+  event: SAFER workshop @ MICCAI 2026
+  logo: act/w-safer.png
+- year: 2026
+  role: Co-organiser
+  event: DeCaF workshop @ MICCAI 2026
+  logo: act/w-decaf.png
+- year: 2025
+  role: Organiser
+  event: Symposium on AI in Medicine and Food Sciences (DAAD SANAD), Bonn
+- year: 2025
+  role: Organiser
+  event: Summer School on Biomedical Imaging with Deep Learning (BiLD), Bonn
+- year: 2025
+  role: Outreach Committee
+  event: MICCAI 2025, Daejeon
+  logo: act/c-miccai.png
+- year: 2024
+  role: Challenges Co-Chair
+  event: MICCAI 2024, Marrakesh
+  logo: act/m-miccai24.png
+- year: 2024
+  role: Co-organiser
+  event: DeCaF workshop @ MICCAI 2024
+  logo: act/w-decaf.png
+- year: 2024
+  role: Organiser
+  event: Summer School on Affordable AI (SAAI), with AGYA
+  logo: act/c-agya.png
+- year: 2023
+  role: Co-organiser & proceedings editor
+  event: DeCaF workshop @ MICCAI 2023
+  logo: act/m-miccai23.png
+- year: 2023
+  role: Organiser
+  event: Autumn School on AI (EEDA)
+- year: 2022
+  role: Organiser
+  event: 2nd MICCAI Workshop on aFfordable AI and healthcare (FAIR)
+  logo: act/w-fair.png
+- year: 2022
+  role: Co-organiser
+  event: 10th DFG Nachwuchsakademie (AI in Medicine)
+- year: 2021
+  role: Organiser
+  event: 1st MICCAI Workshop on aFfordable AI and healthcare (FAIR)
+  logo: act/w-fair.png
+- year: 2021
+  role: Co-organiser & proceedings editor
+  event: DART 2021 and DCL 2021 @ MICCAI
+- year: 2021
+  role: Organiser
+  event: HIDA workshop on the Next Generation of AI in Medicine
+- year: 2020
+  role: Organising Committee
+  event: DART 2020 and DCL 2020 @ MICCAI
+- year: 2019
+  role: Organising Committee
+  event: DART 2019 and COMPAY 2019 @ MICCAI
+- year: 2018
+  role: Co-organiser & proceedings editor
+  event: LABELS 2018 @ MICCAI
+- year: 2016
+  role: Co-organiser & proceedings editor
+  event: LABELS 2016 @ MICCAI

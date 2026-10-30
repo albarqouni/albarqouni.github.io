@@ -1,0 +1,31 @@
+schema: hugoblox/author/v1
+slug: christoph-baur
+is_owner: false
+name:
+  display: Christoph Baur
+role: PhD (TU Munich, 2021)
+group: alumni
+bio: 'Christoph Baur did his PhD at the Chair for Computer Aided Medical Procedures (CAMP), TU Munich, working closely with Shadi Albarqouni. His thesis, "Anomaly Detection in Brain MRI: From Supervised to Unsupervised Deep Learning", helped establish unsupervised anomaly segmentation with deep autoencoders, including the widely used comparative study of autoencoders in Medical Image Analysis. He also worked on generative models for medical image synthesis, semi-supervised learning, multiple sclerosis lesion segmentation, catheter detection in X-ray images and mitosis detection in histology. He is now Director of Software Imaging Products at Rohde & Schwarz.'
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links: []
+interests:
+- Unsupervised anomaly detection
+- Generative models
+- Brain MRI
+education:
+- degree: PhD in Computer Science
+  institution: Technical University of Munich
+  end: '2021-12-31'
+github: ''
+aliases:
+- C Baur
+- C. Baur
+tags: []
+now: Director of Software Imaging Products, Rohde & Schwarz
+photo_credit: TUM CAMP (archived staff page)
+now_source:
+  source: OpenAlex (paper 2025)
+  url: https://doi.org/10.23919/eurad65285.2025.11233971
+  checked: '2026-10-30'

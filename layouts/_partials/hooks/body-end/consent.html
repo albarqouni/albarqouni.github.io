@@ -1,0 +1,33 @@
+{{/* Opt-in consent for Google Analytics (GA4). Nothing is loaded or stored by Google before "Accept".
+     The choice is kept in localStorage ("lab-consent": "granted" | "denied"); footer link "Cookie settings" reopens this. */}}
+{{- $ga := site.Params.lab.ga4_id -}}
+{{- if and $ga hugo.IsProduction -}}
+<div class="lab-consent" id="lab-consent" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden>
+  <p><b>Privacy</b> — With your consent we use Google Analytics to understand how our website is used (IP addresses anonymised).
+     You can change your choice at any time via “Cookie settings” in the footer. <a href="{{ "/privacy/" | relLangURL }}">Privacy policy</a></p>
+  <div class="lab-row"><button type="button" class="lab-btn" data-consent="granted">Accept analytics</button><button type="button" class="lab-btn lab-btn-alt" data-consent="denied">Decline</button></div>
+</div>
+<script>
+(function () {
+  var KEY = "lab-consent", ID = "{{ $ga }}", box = document.getElementById("lab-consent");
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  function load() {
+    if (window.__labGa) return; window.__labGa = true;
+    var s = document.createElement("script"); s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + ID;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || []; window.gtag = function () { dataLayer.push(arguments); };
+    gtag("js", new Date()); gtag("config", ID, { anonymize_ip: true });
+  }
+  var c = get();
+  if (c === "granted") load(); else if (c !== "denied") box.hidden = false;
+  box.addEventListener("click", function (e) {
+    var v = e.target.getAttribute("data-consent"); if (!v) return;
+    set(v); box.hidden = true; if (v === "granted") load();
+  });
+  document.addEventListener("click", function (e) {
+    if (e.target.closest && e.target.closest("[data-consent-open]")) { e.preventDefault(); box.hidden = false; }
+  });
+})();
+</script>
+{{- end -}}

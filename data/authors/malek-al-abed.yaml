@@ -1,0 +1,32 @@
+schema: hugoblox/author/v1
+slug: malek-al-abed
+is_owner: false
+name:
+  display: Malek Al Abed
+role: Research Associate
+group: researchers
+bio: '# Biography
+
+
+  Malek is a Research Associate at the University Hospital Bonn under the supervision of Prof. Dr. Shadi Albarqouni. He holds an M.Sc. in Biomedical Computing from TU Munich and completed his master’s thesis at the University Hospital Bonn and TU Munich under the same supervision. His master’s thesis focused on image quality transfer for ultra-low-field MRI, with particular emphasis on the Hyperfine SWOOP system. Previously, he completed his undergraduate studies in Electrical Engineering at Kuwait University and undertook a research internship at Sony Stuttgart as a deep learning researcher, where he worked on audio recognition and human avatar technologies. Currently, his research focuses on the use of medical imaging in radiation therapy (iMRT and VMAT), particularly for dose optimization and personalized treatment planning. In addition, he works on developing an AI service and its corresponding API as part of the OMI protocol.'
+affiliations:
+- name: Universitätsklinikum Bonn, Klinik für Diagnostische und Interventionelle Radiologie
+  url: https://www.ukbonn.de/radiologie/unser-team/
+links:
+- icon: at-symbol
+  url: mailto:malek.alabed98@gmail.com
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/alabed-malek/
+interests:
+- Artificial Intelligence for Healthcare
+- Deep Learning
+- Computer Vision
+education:
+- degree: M.Sc. Biomedical Computing (AI in Medical Imaging)
+  institution: Technical University of Munich, Germany
+  end: '2025-12-31'
+- degree: B.Sc. Electrical Engineering
+  institution: Kuwait University, Kuwait
+  end: '2020-12-31'
+github: ''
+aliases: []

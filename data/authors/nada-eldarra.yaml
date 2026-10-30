@@ -1,0 +1,34 @@
+schema: hugoblox/author/v1
+slug: nada-eldarra
+is_owner: false
+name:
+  display: Nada El Darra
+role: Visiting Scientist (Beirut Arab University, 2023)
+group: alumni
+bio: '# Biography
+
+  Dr. Nada El Darra is an accomplished Lebanese Associate Professor of Food Safety and Technology, currently serving as the Coordinator of the MSc program in Food Safety & Technology at Beirut Arab University. With a distinguished career, Dr. El Darra holds the esteemed position of being an active member of the Arab-German Young Academy for Sciences and Humanities. In recognition of her expertise, she has been appointed as an expert in the Food Safety committee by the Ministry of Public Health in Lebanon.
+
+
+
+  Dr. El Darra''s contributions to the field are highly regarded, evident through her extensive publication record of over 60 papers in esteemed journals. Her scholarly work has received notable citations, amounting to 1249, with an impressive h-index of 20. Committed to advancing academic discourse, she actively engages in various academic capacities, including peer-reviewing papers and organizing workshops and conferences.
+
+
+
+  Recognized for her research excellence, Dr. El Darra has secured grants from both national and international funding bodies to support her investigations. Her research interests primarily revolve around food safety and technology, collaborating with esteemed partners from renowned research institutions. Notable international collaborations include working with the Institute of Sciences of Food Production (ISPA) and the National Research Council of Italy on a project focused on screening mycotoxins in spices and herbs commercialized in Lebanon and Italy. Additionally, she collaborated with the School of Engineering at the University of Glasgow on the development of decontamination systems for spices. Furthermore, Dr. El Darra''s collaboration with the Institute of Food Science, National Research Council, Italy, resulted in the development of an advanced rapid technique for quantifying antibiotic residues in food samples.
+
+
+
+  Presently, Dr. El Darra is engaged in innovative projects centered on the valorization of food by-products, demonstrating her commitment to sustainable practices and resource optimization. Her extensive research portfolio exemplifies her dedication to advancing food safety and technology and her profound impact on the scientific community.'
+affiliations:
+- name: Beirut Arab University, Lebanon
+  url: https://www.bau.edu.lb/
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=IsVVAYAAAAAJ&hl=en
+interests: []
+education: []
+github: ''
+aliases:
+- Nada El Darra
+now_locked: true

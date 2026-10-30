@@ -1,0 +1,34 @@
+schema: hugoblox/author/v1
+slug: tarek-shaban
+is_owner: false
+name:
+  display: M. Tarek Shaban
+role: M.Sc. thesis (TU Munich, 2018)
+group: alumni
+bio: M. Tarek Shaban did his master's thesis at the Chair for Computer Aided Medical Procedures (CAMP), TU Munich, supervised by Shadi Albarqouni, Christoph Baur and Nassir Navab. The thesis became StainGAN (ISBI 2019), which removes stain colour variation between labs and scanners in digital histology by unpaired image-to-image translation with cycle-consistent GANs, so that no pathologist has to pick a reference slide. StainGAN is one of the most widely used stain-normalisation methods, with more than 400 citations, and its code is available on GitHub.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=y40NdM8AAAAJ
+  label: Google Scholar
+- icon: brands/github
+  url: https://github.com/xtarx
+  label: GitHub
+interests:
+- Digital pathology
+- Stain normalisation
+- Generative models
+education:
+- degree: M.Sc. thesis
+  institution: Technical University of Munich
+  end: '2018-12-31'
+github: xtarx
+aliases:
+- M Tarek Shaban
+- Tarek Shaban
+- MT Shaban
+- M. T. Shaban
+tags: []
+photo_credit: Google Scholar profile

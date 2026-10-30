@@ -1,0 +1,22 @@
+schema: hugoblox/author/v1
+slug: charbel-mourad
+is_owner: false
+name:
+  display: Charbel Mourad
+role: Assistant Professor of Radiology, Lebanese Hospital Geitaoui – University Medical Center (LHG-UMC), Beirut
+group: collaborators
+bio: Dr. Charbel Mourad is Assistant Professor of Radiology at the Lebanese Hospital Geitaoui – University Medical Center in Beirut. He is our clinical partner on bias-aware foundation models for equitable breast cancer screening, contributing the biopsy-confirmed Lebanese mammography cohort.
+affiliations:
+- name: Lebanese Hospital Geitaoui – University Medical Center, Beirut, Lebanon
+  url: ''
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=HyOsJwMAAAAJ&hl=en
+  label: Google Scholar
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- clinical
+photo_credit: Google Scholar profile of Charbel Mourad

@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{- $order := slice "pi" "postdocs" "phd" "researchers" "students" "affiliated" "collaborators" "alumni" -}}
+<div class="lab-page">
+  <header class="lab-hero-sm"><p class="lab-kicker">People</p><h1>Our Team</h1><p class="lab-lead">{{ .Params.summary }}</p></header>
+  {{ with where (where site.RegularPages "Section" "positions") "Params.status" "!=" "closed" }}
+  <section class="lab-cta !mt-2" id="join">
+    <div><h2>Join our team</h2><p>{{ len . }} open position{{ if gt (len .) 1 }}s{{ end }}: {{ range $i, $p := . }}{{ if $i }} · {{ end }}<a class="underline" href="{{ $p.RelPermalink }}">{{ $p.Params.position_id | default $p.Title }}</a>{{ end }}</p></div>
+    <a class="lab-btn" href="{{ "/positions/" | relLangURL }}">All open positions →</a>
+  </section>
+  {{ else }}
+  <section class="lab-cta !mt-2" id="join"><div><h2>Join our team</h2><p>No open positions right now — outstanding candidates are always welcome to get in touch.</p></div><a class="lab-btn" href="mailto:shadi.albarqouni@ukbonn.de">Get in touch →</a></section>
+  {{ end }}
+  {{- range $g := $order -}}
+  {{- $members := slice -}}
+  {{- range $slug, $a := site.Data.authors }}{{ if eq ($a.group | default "collaborators") $g }}{{ $members = $members | append (dict "slug" $slug "a" $a "name" $a.name.display) }}{{ end }}{{ end -}}
+  {{- with $members }}
+  <section class="lab-section">
+    <h2 class="lab-h2">{{ index site.Data.groups $g }} <span class="lab-count-pill">{{ len . }}</span></h2>
+    <div class="lab-people">
+      {{- range sort . "name" }}
+      <a class="lab-person" href="{{ printf "/authors/%s/" .slug | relLangURL }}">
+        {{ partial "lab/avatar.html" (dict "slug" .slug "name" .name "size" 120) }}
+        <span class="lab-person-name">{{ .name }}</span>
+        {{ if in (.a.tags | default slice) "clinical" }}<span class="lab-badge lab-badge-acc">clinical</span>{{ end }}
+        <span class="lab-person-role">{{ .a.role | markdownify | plainify | truncate 90 }}</span>
+        {{ if eq $g "alumni" }}{{ with .a.now }}<span class="lab-person-aff">Now: {{ . | markdownify | plainify | truncate 100 }}</span>{{ else }}{{ with index (.a.affiliations | default slice) 0 }}<span class="lab-person-aff">{{ .name | truncate 70 }}</span>{{ end }}{{ end }}{{ end }}
+      </a>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+  {{- end }}
+</div>
+{{ end }}

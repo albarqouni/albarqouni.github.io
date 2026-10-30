@@ -1,0 +1,28 @@
+schema: hugoblox/author/v1
+slug: nassir-navab
+is_owner: false
+name:
+  display: Nassir Navab
+role: Full Professor and Director, Chair for Computer Aided Medical Procedures (CAMP), Technical University of Munich
+group: collaborators
+bio: Nassir Navab is Full Professor and Director of the Chair for Computer Aided Medical Procedures and Augmented Reality (CAMP) at TUM, where he has been a full professor since 2003, and an adjunct professor at Johns Hopkins University. He is an IEEE Fellow and ELLIS Fellow; honours include the MICCAI Enduring Impact Award (2021). He was the PhD advisor of Shadi Albarqouni.
+affiliations:
+- name: Technical University of Munich (TUM)
+  url: https://www.professoren.tum.de/en/navab-nassir
+- name: Johns Hopkins University (adjunct)
+  url: ''
+links:
+- icon: hero/link
+  url: https://www.professoren.tum.de/en/navab-nassir
+  label: TUM profile
+- icon: hero/link
+  url: https://campar.in.tum.de
+  label: CAMP
+interests: []
+education: []
+github: ''
+aliases:
+- N Navab
+tags:
+- academic
+photo_credit: Technical University of Munich

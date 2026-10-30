@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: parinishtha-bhalla
+is_owner: false
+name:
+  display: Parinishtha Bhalla
+role: M.Sc. thesis (University of Bonn, 2025)
+group: alumni
+bio: '# Biography
+
+
+  "Parinishtha is a master''s student studying Life Science Informatics at the University of Bonn. She is currently conducting her master''s thesis under the supervision of Prof. Dr. Shadi Albarqouni, on *Deep Learning for Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma*. During her thesis she will also work on exploring scalability through Federated Learning across multiple institutions."'
+affiliations:
+- name: University of Bonn, Germany
+  url: https://www.uni-bonn.de/de
+links:
+- icon: at-symbol
+  url: mailto:parinishtha.bhalla@ukbonn.de
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/parinishtha-bhalla/
+interests: []
+education:
+- degree: M.Sc. Life Science Informatics
+  institution: University of Bonn, Germany
+  end: present-12-31
+- degree: B.Tech. Biotechnology
+  institution: India
+  end: '2020-12-31'
+github: ''
+aliases: []

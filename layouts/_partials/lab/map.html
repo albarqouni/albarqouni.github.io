@@ -1,0 +1,23 @@
+{{/* Leaflet map. Arg: slice of dict {name, lat, lon, url, kind}. First point is the home marker. */}}
+{{- $pts := where . "lat" "!=" nil -}}
+{{- if $pts -}}
+{{- $id := printf "map-%d" (len (printf "%v" $pts)) -}}
+<div id="{{ $id }}" class="lab-map" role="img" aria-label="Map of partner institutions"></div>
+<link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}">
+<script src="{{ "vendor/leaflet/leaflet.js" | relURL }}"></script>
+<script>
+(function () {
+  var pts = {{ $pts | jsonify | safeJS }};
+  var map = L.map({{ $id }}, { scrollWheelZoom: false, worldCopyJump: true });
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 12, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+  var home = pts[0], bounds = [];
+  pts.forEach(function (p, i) {
+    var m = L.circleMarker([p.lat, p.lon], { radius: i === 0 ? 8 : 6, color: i === 0 ? "#07529a" : "#b45309", fillColor: i === 0 ? "#07529a" : "#fbba00", fillOpacity: 0.9, weight: 2 }).addTo(map);
+    m.bindPopup(p.url ? '<a href="' + p.url + '" target="_blank" rel="noopener">' + p.name + "</a>" : p.name);
+    if (i > 0) L.polyline([[home.lat, home.lon], [p.lat, p.lon]], { color: "#07529a", weight: 1, opacity: 0.4, dashArray: "4 4" }).addTo(map);
+    bounds.push([p.lat, p.lon]);
+  });
+  if (bounds.length > 1) map.fitBounds(bounds, { padding: [30, 30] }); else map.setView(bounds[0], 6);
+})();
+</script>
+{{- end -}}

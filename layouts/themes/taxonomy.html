@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="lab-page">
+  <header class="lab-hero-sm"><p class="lab-kicker">Research</p><h1>{{ .Title }}</h1>{{ with .Params.summary }}<p class="lab-lead">{{ . }}</p>{{ end }}</header>
+  <div class="lab-venn-wrap">{{ partial "lab/venn.html" (dict "size" "lg") }}</div>
+  <div class="lab-theme-grid">
+    {{ range sort .Pages "Weight" }}{{ partial "lab/theme-card.html" . }}{{ end }}
+  </div>
+</div>
+{{ end }}

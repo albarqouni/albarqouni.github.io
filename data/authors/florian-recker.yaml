@@ -1,0 +1,22 @@
+schema: hugoblox/author/v1
+slug: florian-recker
+is_owner: false
+name:
+  display: Florian Recker
+role: PD Dr. med., MME — Specialist in Obstetrics and Gynaecology (Special Obstetrics and Prenatal Medicine), MVZ Uniklinik Köln
+group: collaborators
+bio: PD Dr. med. Florian Recker, MME, is a specialist in obstetrics and gynaecology with a focus on special obstetrics and prenatal medicine at the MVZ of the University Hospital Cologne. Previously at the University Hospital Bonn, where he headed the Center for Ultrasound Research and Innovations in Obstetrical Science (CURIOS), he collaborates with us on AI for obstetric ultrasound.
+affiliations:
+- name: Prenatal Medicine, MVZ Uniklinik Köln (University Hospital Cologne)
+  url: https://mvz.uk-koeln.de/fachbereiche/praenatalmedizin/team/
+links:
+- icon: hero/link
+  url: https://mvz.uk-koeln.de/fachbereiche/praenatalmedizin/team/
+  label: Uniklinik Köln profile
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- clinical
+photo_credit: Uniklinik Köln

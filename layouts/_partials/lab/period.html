@@ -1,0 +1,14 @@
+{{/* Returns dict {label, status, years} for a page with start/end (YYYY-MM). */}}
+{{- $start := .Params.start | default (.Date.Format "2006-01") | string -}}
+{{- $end := .Params.end | default "" | string -}}
+{{- $now := now.Format "2006-01" -}}
+{{- $status := .Params.status | default "" -}}
+{{- if not $status -}}
+  {{- if gt $start $now }}{{ $status = "upcoming" }}{{ else if and $end (lt $end $now) }}{{ $status = "completed" }}{{ else }}{{ $status = "active" }}{{ end -}}
+{{- end -}}
+{{- $y0 := int (substr $start 0 4) -}}
+{{- $y1 := cond (ne $end "") (int (substr $end 0 4)) now.Year -}}
+{{- $years := slice -}}{{- range seq $y0 $y1 }}{{ $years = $years | append (string .) }}{{ end -}}
+{{- $label := printf "%s – %s" (substr $start 0 4) (cond (ne $end "") (substr $end 0 4) "ongoing") -}}
+{{- if eq (substr $start 0 4) (substr $end 0 4) }}{{ $label = substr $start 0 4 }}{{ end -}}
+{{- return (dict "label" $label "status" $status "years" $years) -}}

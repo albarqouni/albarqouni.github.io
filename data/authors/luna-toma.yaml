@@ -1,0 +1,17 @@
+schema: hugoblox/author/v1
+slug: luna-toma
+is_owner: false
+name:
+  display: Luna Toma
+role: Medical student researcher (University Hospital Bonn, 2024)
+group: alumni
+bio: ''
+affiliations:
+- name: University Hospital Bonn
+  url: ''
+links: []
+interests: []
+education: []
+github: ''
+aliases: []
+tags: []

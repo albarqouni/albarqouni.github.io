@@ -1,0 +1,26 @@
+schema: hugoblox/author/v1
+slug: pranav-kirti
+is_owner: false
+name:
+  display: Pranav Kirti
+role: Fulbright Visiting Researcher (2025)
+group: alumni
+bio: '# Biography
+
+  "Pranav is a visiting researcher from the USA on a Fulbright Study/Research scholarship. He recently earned his bachelor''s degree in Data Science from Washington University in St. Louis, and he hopes to pursue a career in academic medicine. His project is titled *Multimodal, Explainable Deep Learning for Rapid and Affordable Diagnosis of Retinal Diseases in LMICs*."'
+affiliations:
+- name: University of Bonn, Germany
+  url: https://www.uni-bonn.de/de
+links:
+- icon: at-symbol
+  url: mailto:pkirti33@gmail.com
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/pranav-kirti/
+interests: []
+education:
+- degree: B.S in Data Science
+  institution: Washington University in St. Louis
+  end: '2025-12-31'
+github: ''
+aliases: []
+now: Medical student, Perelman School of Medicine, University of Pennsylvania

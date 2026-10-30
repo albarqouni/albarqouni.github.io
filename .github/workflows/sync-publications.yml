@@ -1,0 +1,61 @@
+name: Sync publications (Google Scholar → OpenAlex)
+
+# Weekly: discover new papers on the Google Scholar profile, enrich them (DOI, abstract, links, venue,
+# citations, teaser figure) and open a pull request for review. Nothing is published without a merge.
+on:
+  schedule:
+    - cron: '17 4 * * 1'   # Mondays 04:17 UTC
+  workflow_dispatch:
+    inputs:
+      sjr_csv_url:
+        description: 'Optional URL of a SCImago journal-rank CSV to refresh quartiles'
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-publications
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install pyyaml scholarly pymupdf
+      - name: Download SJR table (optional)
+        if: ${{ github.event.inputs.sjr_csv_url != '' && github.event.inputs.sjr_csv_url != null }}
+        run: curl -sSL "${{ github.event.inputs.sjr_csv_url }}" -o /tmp/sjr.csv
+      - name: Sync
+        env:
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+        run: |
+          ARGS=""
+          [ -f /tmp/sjr.csv ] && ARGS="--sjr /tmp/sjr.csv"
+          python scripts/sync_publications.py $ARGS | tee /tmp/sync.log
+          echo 'SYNC_LOG<<EOF' >> $GITHUB_ENV; tail -n 80 /tmp/sync.log >> $GITHUB_ENV; echo 'EOF' >> $GITHUB_ENV
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/sync-publications
+          delete-branch: true
+          commit-message: 'Sync publications from Google Scholar / OpenAlex'
+          title: 'Publications sync — ${{ github.run_started_at }}'
+          labels: publications, automated
+          body: |
+            Automated weekly sync. New papers are marked `sync.needs_review: true` —
+            please check authors, assign `projects`, `datasets` and `themes`, add code/dataset links, and remove the flag.
+
+            ```
+            ${{ env.SYNC_LOG }}
+            ```

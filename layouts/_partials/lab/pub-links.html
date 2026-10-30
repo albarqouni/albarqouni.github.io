@@ -1,0 +1,18 @@
+{{/* Action links of a publication: publisher (DOI), PDF, code, dataset, slides, interactive explainer, BibTeX. */}}
+{{- $p := .page -}}
+{{- $links := $p.Params.links | default slice -}}
+<div class="lab-links">
+  {{- with $p.Params.doi }}<a class="lab-link" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">Publisher</a>{{ end -}}
+  {{- range $links -}}
+    {{- if .url -}}
+      {{- $label := .name | default (title (.type | default "link")) -}}
+      {{- if eq .type "pdf" }}{{ $label = "PDF" }}{{ else if eq .type "code" }}{{ $label = "Code" }}{{ else if eq .type "dataset" }}{{ $label = "Dataset" }}{{ end -}}
+      <a class="lab-link lab-link-{{ .type | default "other" }}" href="{{ .url }}" target="_blank" rel="noopener">{{ $label }}</a>
+    {{- end -}}
+  {{- end -}}
+  {{- range $p.Params.datasets | default slice -}}
+    {{- with site.GetPage (printf "/datasets/%s" .) }}<a class="lab-link lab-link-dataset" href="{{ .RelPermalink }}">Dataset: {{ .Params.acronym | default .Title }}</a>{{ end -}}
+  {{- end -}}
+  {{- with $p.Params.slidev }}<a class="lab-link lab-link-slidev" href="{{ . }}" target="_blank" rel="noopener">Interactive explainer</a>{{ else }}{{ if not $.compact }}<span class="lab-link lab-link-soon" title="An interactive Slidev explainer for this paper is planned">Interactive explainer · soon</span>{{ end }}{{ end -}}
+  {{- with $p.Resources.GetMatch "cite.bib" }}<a class="lab-link" href="{{ .RelPermalink }}" download>BibTeX</a>{{ end -}}
+</div>

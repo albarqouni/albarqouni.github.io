@@ -1,0 +1,40 @@
+schema: hugoblox/author/v1
+slug: barbara-wichtmann
+is_owner: false
+name:
+  display: Barbara Wichtmann
+role: Fachärztin für Radiologie at Universitätsklinikum Bonn
+group: collaborators
+bio: '# Biography
+
+
+  Barbara Wichtmann is a radiology resident who is very passionate about quantitative MRI and Deep Learning for medical image analysis. As an outstanding medical student at her home university, the University of Heidelberg in Germany, she was privileged to pursue a master''s degree in medical physics parallel to her medical studies. Funded by the German Academic Scholarship Foundation and a medical engineering scholarship from the Klee Family Foundation, she was granted the opportunity to conduct her master’s thesis at the MGH/HST Athinoula A. Martinos Center for Biomedical Imaging in Boston, USA. There, she was very fortunate to carry out DWI experiments on the Connectome MRI scanner in Larry Wald''s research group and eventually completed her master''s thesis on microstructure imaging in 2017 with highest distinction. Barbara Wichtmann aspires to work at the forefront of oncologic MRI and, as a future radiologist and medical physicist at the research-clinical interface, to advocate for
+  an expedited translation of pivotal innovations such as Deep Learning into the clinic.'
+affiliations:
+- name: Universitätsklinikum Bonn
+  url: https://www.ukbonn.de/neuroradiologie/unser-team/fach-und-assistenzaerzt-innen/
+links:
+- icon: at-symbol
+  url: mailto:Barbara.Wichtmann@ukbonn.de
+- icon: academicons/google-scholar
+  url: https://scholar.google.de/citations?user=Tc9Q8fMAAAAJ&hl=en&oi=ao
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/barbara-wichtmann-069820210
+interests: []
+education:
+- degree: Radiology resident
+  institution: Univ. Hospital Bonn, Dept. of Diagnostic and Interventional Radiology
+  end: 2020-today-12-31
+- degree: Radiology resident
+  institution: Univ. Medical Center Mannheim, Inst. for Clinical Radiology and Nuclear Medicine
+  end: 2018-2020-12-31
+- degree: Study of human medicine
+  institution: Heidelberg University, Medical Faculty Mannheim, Germany
+  end: '2018-12-31'
+- degree: M.Sc. in Medical Physics
+  institution: Heidelberg University, Medical Faculty Mannheim, Germany
+  end: '2017-12-31'
+github: ''
+aliases: []
+tags:
+- clinical

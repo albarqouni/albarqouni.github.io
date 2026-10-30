@@ -1,0 +1,38 @@
+schema: hugoblox/author/v1
+slug: somayeh-zamani
+is_owner: false
+name:
+  display: Somayeh Zamani
+role: Research Associate
+group: researchers
+bio: '# Biography
+
+
+
+
+  Somayeh Zamani is a researcher at the Albarqouni Lab at the University Hospital Bonn. Her research focuses on machine learning and AI-driven clinical systems using real-world healthcare data. She works on developing reliable and explainable AI methods, including graph-based and deep learning approaches, for building intelligent clinical AI assistants that support medical decision-making. Before her doctoral research, she worked as a machine learning engineer and data scientist in both academia and industry, contributing to applied AI solutions. She holds an M.Sc. in Computer Engineering from the University of Tehran.'
+affiliations:
+- name: Universitätsklinikum Bonn, Klinik für Diagnostische und Interventionelle Radiologie
+  url: https://www.ukbonn.de/radiologie/unser-team/
+links:
+- icon: at-symbol
+  url: mailto:somayeh.zamani@ukbonn.de
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/somayehzamani
+interests:
+- Clinical AI Assistants for Healthcare
+- Machine Learning for Medical Applications
+- Graph Neural Networks
+- Explainable AI
+education:
+- degree: PhD Candidate in Computer Engineering (Data Science)
+  institution: University of Siegen, Germany
+  end: null
+- degree: M.Sc. in Computer Engineering (Algorithms)
+  institution: University of Tehran, Iran
+  end: null
+- degree: B.Sc. in Computer Engineering (Software)
+  institution: Shariaty Technical University, Iran
+  end: null
+github: ''
+aliases: []

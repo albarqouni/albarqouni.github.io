@@ -1,0 +1,11 @@
+{{- $course := .Parent -}}
+{{- $sem := partial "lab/semester.html" .Params.semester -}}
+<tr data-item data-date="{{ .Date.Format "2006-01-02" }}" data-f-year="{{ delimit $sem.years "|" }}" data-f-semester="{{ $sem.code }}"
+    data-f-course="{{ $course.File.ContentBaseName }}" data-f-faculty="{{ $course.Params.faculty }}" data-f-format="{{ urlize ($course.Params.format | default "") }}"
+    data-f-person="{{ delimit (.Params.authors | default slice) "|" }}" data-text="{{ $course.Title }} {{ $course.Params.acronym }} {{ $sem.label }} {{ $course.Params.program }}">
+  <td><a href="{{ .RelPermalink }}"><b>{{ $sem.label }}</b></a></td>
+  <td><a href="{{ $course.RelPermalink }}">{{ $course.Title }}</a> <span class="lab-muted">({{ $course.Params.acronym }})</span></td>
+  <td>{{ $course.Params.format }}</td>
+  <td>{{ partial "lab/faculty.html" $course.Params.faculty }}</td>
+  <td class="lab-row">{{ range .Params.authors }}{{ partial "lab/person.html" . }}{{ end }}</td>
+</tr>

@@ -1,0 +1,24 @@
+schema: hugoblox/author/v1
+slug: thomas-schultz
+is_owner: false
+name:
+  display: Thomas Schultz
+role: Professor, Visualization and Medical Image Analysis, University of Bonn (b-it / Institute of Computer Science)
+group: collaborators
+bio: Thomas Schultz has been Professor at the University of Bonn since 2013, heading the Visualization and Medical Image Analysis group at b-it and the Institute of Computer Science, and is a Principal Investigator at the Lamarr Institute. His research addresses uncertainty, domain generalisation and explainability of deep learning for neuroradiology and ophthalmology.
+affiliations:
+- name: University of Bonn
+  url: https://www.uni-bonn.de/en/research-and-teaching/research-profile/transdisciplinary-research-areas/tra-3-life-and-health/members-directory/thomas-schultz
+- name: Lamarr Institute for ML and AI
+  url: https://lamarr-institute.org/person/prof-dr-thomas-schultz/
+links:
+- icon: hero/link
+  url: https://lamarr-institute.org/person/prof-dr-thomas-schultz/
+  label: Lamarr profile
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- academic
+photo_credit: Lamarr Institute

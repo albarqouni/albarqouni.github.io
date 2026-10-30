@@ -1,0 +1,1767 @@
+[
+ {
+  "slug": "al-2026-mriqt",
+  "title": "MRIQT: Physics-Aware Diffusion Model for Image Quality Transfer in Neonatal Ultra-Low-Field MRI",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2009-steps",
+  "title": "Steps towards Establishing Telemedicine Center in Palestine",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "albarqouni-2015-gradient",
+  "title": "Gradient projection for regularized cryo-electron tomographic reconstruction",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2015-multi",
+  "title": "Multi-scale Graph-based Guided Filter for De-noising Cryo-Electron Tomographic Data",
+  "status": "verified",
+  "changes": [
+   "venue: bmvc"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2016-aggnet",
+  "title": "Aggnet: deep learning from crowds for mitosis detection in breast cancer histology images",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2016-playsourcing",
+  "title": "Playsourcing: a novel concept for knowledge creation in biomedical research",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2016-single",
+  "title": "Single-view X-ray depth recovery: toward a novel concept for image-guided interventions",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2017-machine",
+  "title": "Machine Learning for Biomedical Applications: From Crowdsourcing to Deep Learning",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "albarqouni-2017-x",
+  "title": "X-ray in-depth decomposition: Revealing the latent structures",
+  "status": "verified",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2018-determination",
+  "title": "Determination of the pose of an x-ray unit relative to an object using a digital model of the object",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "albarqouni-2018-fine",
+  "title": "Fine-Tuning Deep Learning by Crowd Participation",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2020-domain",
+  "title": "Domain Adaptation and Representation Transfer, and Distributed and Collaborative Learning",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "albarqouni-2021-domain",
+  "title": "Domain Adaptation and Representation Transfer and Distributed and Collaborative Learning: Third MICCAI Workshop, DART 2021, and First MICCAI Workshop, FAIR 2021, Held in Conjunction with MICCAI 2021, Strasbourg, France, September 27 and October 1, 2021: Proceedings",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "albarqouni-2022-distributed",
+  "title": "Distributed, collaborative, and federated learning, and affordable AI and healthcare for resource diverse global health",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2023-ascertaining",
+  "title": "Ascertaining the pose of an x-ray unit relative to an object on the basis of a digital model of the object",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "albarqouni-2024-editorial",
+  "title": "Editorial for the Special Issue on the 2022 Medical Imaging with Deep Learning Conference",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "albarqouni-2025-leveraging",
+  "title": "Leveraging Collective Intelligence for Inclusive Global Healthcare",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "ali-2020-objective",
+  "title": "An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "alkhaldi-2026-mapping",
+  "title": "Mapping the integration of artificial intelligence and digital technologies in health technology assessment: a scoping review protocol of global knowledge and practices",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "ayyad-2021-semi",
+  "title": "Semi-Supervised Few-Shot Learning with Prototypical Random Walks",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "bauer-2025-exploring",
+  "title": "Exploring the limit of image resolution for human expert classification of vascular ultrasound images in giant cell arteritis and healthy subjects: the GCA-US-AI project",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bauer-2025-investigation",
+  "title": "Investigation of the image resolution limit for human interpretation of ultrasound images in giant cell arteritis and healthy subjects-the GCA-US-AI project",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "bauer-2025-op-0343",
+  "title": "OP0343 THE CLAUDICAITIO MODEL: ULTRASOUND IMAGE CLASSIFICATION IN GIANT CELL ARTERITIS BY APPLICATION OF ARTIFICIAL INTELLIGENCE",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bauer-2026-artificial",
+  "title": "Artificial intelligence for ultrasound-based detection of giant cell arteritis",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "baur-2016-cathnets",
+  "title": "Cathnets: detection and single-view depth prediction of catheter electrodes",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "baur-2017-semi",
+  "title": "Semi-supervised deep learning for fully convolutional networks",
+  "status": "verified",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "baur-2018-deep",
+  "title": "Deep autoencoding models for unsupervised anomaly segmentation in brain MR images",
+  "status": "verified",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "baur-2018-generating",
+  "title": "Generating highly realistic images of skin lesions with GANs",
+  "status": "verified",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "baur-2019-fusing",
+  "title": "Fusing unsupervised and supervised deep learning for white matter lesion segmentation",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "baur-2020-bayesian",
+  "title": "Bayesian Skip-Autoencoders for Unsupervised Hyperintense Anomaly Detection in High Resolution Brain Mri",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "baur-2020-scale",
+  "title": "Scale-Space Autoencoders for Unsupervised Anomaly Segmentation in Brain MRI",
+  "status": "verified",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "baur-2020-steganomaly",
+  "title": "SteGANomaly: Inhibiting CycleGAN Steganography for Unsupervised Anomaly Detection in Brain MRI",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "baur-2021-autoencoders",
+  "title": "Autoencoders for Unsupervised Anomaly Segmentation in Brain MR Images: A Comparative Study",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "baur-2021-modeling",
+  "title": "Modeling Healthy Anatomy with Artificial Intelligence for Unsupervised Anomaly Detection in Brain MRI",
+  "status": "verified",
+  "changes": [
+   "venue: radiology-ai"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bdair-2021-fedperl",
+  "title": "FedPerl: Semi-Supervised Peer Learning for Skin Lesion Classification",
+  "status": "verified",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bdair-2022-roam",
+  "title": "ROAM: Random layer mixup for semi-supervised learning in medical images",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bdair-2022-trimix",
+  "title": "TriMix: Virtual embeddings and self-consistency for self-supervised learning",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 0.952
+ },
+ {
+  "slug": "bejnordi-2017-diagnostic",
+  "title": "Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "belagiannis-2016-parsing",
+  "title": "Parsing human skeletons in an operating room",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "ben-2016-deep",
+  "title": "Deep learning and data labeling for medical applications",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "bercea-2021-feddis",
+  "title": "FedDis: Disentangled Federated Learning for Unsupervised Brain Pathology Segmentation",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bercea-2022-federated",
+  "title": "Federated disentangled representation learning for unsupervised brain anomaly detection",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bercea-2022-spa",
+  "title": "SPA: Shape-Prior Variational Autoencoders for Unsupervised Brain Pathology Segmentation",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "bernecker-2022-fednorm",
+  "title": "FedNorm: Modality-Based Normalization in Federated Learning for Multi-Modal Liver Segmentation",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bhalla-2026-federated",
+  "title": "Federated CT foundation models for multi-center detection of lymph node metastasis in pancreatic cancer",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "breininger-2018-intraoperative",
+  "title": "Intraoperative stent segmentation in X-ray fluoroscopy for endovascular aortic repair",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "breininger-2018-multiple",
+  "title": "Multiple device segmentation for fluoroscopic imaging using multi-task learning",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bui-2017-x",
+  "title": "X-Ray PoseNet: 6 DoF pose estimation for mobile X-Ray devices",
+  "status": "verified",
+  "changes": [
+   "venue: wacv"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bui-2018-regression",
+  "title": "When regression meets manifold learning for object recognition and pose estimation",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bui-2018-scene",
+  "title": "Scene coordinate and correspondence learning for image-based localization",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bui-2019-adversarial",
+  "title": "Adversarial Networks for Camera Pose Regression and Refinement",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "bui-2019-method",
+  "title": "Method for determining a pose of an object in an environment of the object using multi task learning and control device",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "bui-20206-d",
+  "title": "6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "burwinkel-2019-adaptive",
+  "title": "Adaptive image-feature learning for disease classification using inductive graph networks",
+  "status": "verified",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "cardoso-2017-intravascular",
+  "title": "Intravascular Imaging and Computer Assisted Stenting, and Large-Scale Annotation of Biomedical Data and Expert Label Synthesis",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "carneiro-2016-deep",
+  "title": "Deep Learning and Data Labeling for Medical Applications: First International Workshop, LABELS 2016, and Second International Workshop, DLMIA 2016, Held in Conjunction with MICCAI 2016, Athens, Greece, October 21, 2016, Proceedings",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "celebi-2023-medical",
+  "title": "Medical Image Computing and Computer Assisted Intervention--MICCAI 2023 Workshops: ISIC 2023, Care-AI 2023, MedAGI 2023, DeCaF 2023, Held in Conjunction with MICCAI 2023, Vancouver, BC, Canada, October 8--12, 2023, Proceedings",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "coerper-2026-ki",
+  "title": "KI-gestützte datenschutzkonforme multizentrische Vorhersage lymphogener Metastasierung beim Pankreaskarzinom mittels eines föderierter CT-Foundation-Modelle",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "de-2024-clovernet",
+  "title": "CloverNet--Leveraging Planning Annotations for Enhanced Procedural MR Segmentation: An Application to Adaptive Radiation Therapy",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "de-2025-enhancing",
+  "title": "Enhancing patient-specific deep learning based segmentation for abdominal magnetic resonance imaging-guided radiation therapy: a framework conditioned on prior segmentation",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "degel-2018-domain",
+  "title": "Domain and geometry agnostic CNNs for left atrium segmentation in 3D ultrasound",
+  "status": "verified",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "del-2024-robust",
+  "title": "Robust Federated Learning Methodology for Automatic Chest X-Ray Diagnosis",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "delopoulos-2025-implementation",
+  "title": "Implementation and clinical evaluation of an in-house thoracic auto-segmentation model for 0.35 T magnetic resonance imaging guided radiotherapy",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "demirci-2018-x",
+  "title": "X-ray Depthmaps: Revealing the Hidden Structures",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "dephysics",
+  "title": "Physics and Imaging in Radiation Oncology",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "ding-2024-segstrong",
+  "title": "SegSTRONG-C: Segmenting Surgical Tools Robustly On Non-adversarial Generated Corruptions--An EndoVis' 24 Challenge",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "elgebaly-2026-prosona",
+  "title": "ProSona: Prompt-Guided Personalization for Multi-Expert Medical Image Segmentation",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "eslami-2020-image",
+  "title": "Image-to-Images Translation for Multi-Task Organ Segmentation and Bone Suppression in Chest X-Ray Radiography",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "farjallah-2024-affordable",
+  "title": "Affordable Deep Learning for Diagnosing Inherited and Common Retinal Diseases via Color Fundus Photography",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "farjallahba",
+  "title": "BA/MA Thesis: Deep Learning for Inherited Retinal Diseases Detection--Not available",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "gaviria-2025-deep",
+  "title": "Deep Learning for Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "germani-2025-bias",
+  "title": "Bias and generalizability of foundation models across datasets in breast mammography",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "germani-2026-multi",
+  "title": "When multi-institutional dataset aggregation masks shortcut-like behavior in Foundation Models for medical imaging",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "ghannoum-2025-unleashing",
+  "title": "Unleashing the power of AI in predicting the technological and phenolic maturity of pomegranates cultivated in Lebanon",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "ghorbel-2022-transformer",
+  "title": "Transformer based models for unsupervised anomaly segmentation in brain MR images",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "guerractfsh",
+  "title": "CTFSH: Full Head CT Anomaly Detection with Unsupervised Learning",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "hariharan-2018-photon",
+  "title": "A photon recycling approach to the denoising of ultra-low dose X-ray sequences",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "hariharan-2019-learning",
+  "title": "Learning-based x-ray image denoising utilizing model-based image simulations",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "hariharan-2019-preliminary",
+  "title": "Preliminary results of DSA denoising based on a weighted low-rank approach using an advanced neurovascular replication system",
+  "status": "check",
+  "changes": [],
+  "issues": [
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "heer-2021-ood",
+  "title": "The OOD Blind Spot of Unsupervised Anomaly Detection",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "hussein-2010-developing",
+  "title": "Developing empirical models for estimating global solar radiation in Gaza Strip, Palestine",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "hussein-2010-re",
+  "title": "Re-evaluation and re-design stand-alone PV solar lighting projects in Gaza Strip, Palestine",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "hussein-2010-study",
+  "title": "Study on the Optimum Tilt Angle and Orientation for Photovoltaic Panels and Feasibility Study of One axis-two positions tracking Solar PV in Palestine",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "hussein-2013-developing",
+  "title": "Developing MATLAB software for PV and battery sizing for lighting projects in Gaza Strip, Palestine",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "ikinci-2026-interact",
+  "title": "INTERACT-CMIL: Multi-Task Shared Learning and Inter-Task Consistency for Conjunctival Melanocytic Intraepithelial Lesion Grading",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "ingenhoff-2025-stronger",
+  "title": "Stronger together: advancing equity in global health research partnerships",
+  "status": "verified",
+  "changes": [
+   "abstract"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "jiao-2023-lysto",
+  "title": "LYSTO: The lymphocyte assessment hackathon and benchmark dataset",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "jimenez-2018-capsule",
+  "title": "Capsule networks against medical imaging data challenges",
+  "status": "verified",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "jimenez-2018-weakly",
+  "title": "Weakly-supervised localization and classification of proximal femur fractures",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "jimenez-2019-towards",
+  "title": "Towards an Interactive and Interpretable CAD System to Support Proximal Femur Fracture Classification",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "jimenez-2020-precise",
+  "title": "Precise proximal femur fracture classification for interactive training and surgical planning.",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "venue: ijcars",
+   "abstract",
+   "links.pdf"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "jost-2023-evolving",
+  "title": "Evolving the era of 5D ultrasound? A systematic literature review on the applications for artificial intelligence ultrasound imaging in obstetrics and gynecology",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "kaiser-2019-mri",
+  "title": "MRI to CT Translation with GANs",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "kayser-2019-focal",
+  "title": "Focal loss for artefact detection in medical endoscopy",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "kayser-2020-understanding",
+  "title": "Understanding the effects of artifacts on automated polyp detection and incorporating that knowledge via learning without forgetting",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "kazeminia-2020-gans",
+  "title": "GANs for medical image analysis",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract",
+   "links.pdf"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "kazeminia-2022-anomaly",
+  "title": "Anomaly-aware multiple instance learning for rare anemia disorder classification",
+  "status": "check",
+  "changes": [
+   "publication.name",
+   "links.pdf"
+  ],
+  "issues": [
+   "venue differs: site='International Conference on Medical Image Computing and Computer-Assisted Intervention' vs openalex='Lecture notes in computer science' (updated)",
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "kazi-2017-automatic",
+  "title": "Automatic classification of proximal femur fractures based on attention models",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "venue differs: site='International Workshop on Machine Learning in Medical Imaging' vs openalex='Lecture notes in computer science' (updated)",
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "kazi-2019-graph",
+  "title": "Graph Convolution Based Attention Model for Personalized Disease Prediction",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "kazi-2019-inceptiongcn",
+  "title": "InceptionGCN: receptive field aware graph convolutional network for disease prediction",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "kazi-2019-self",
+  "title": "Self-attention equipped graph convolutions for disease prediction",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "authors: 6 → 6"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "khakzar-2019-learning",
+  "title": "Learning Interpretable Features via Adversarially Robust Optimization",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "klymenko-2021-butterfly",
+  "title": "Butterfly-Net: Spatial-Temporal Architecture For Medical Image Segmentation",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "ko-2024-enhancing",
+  "title": "Enhancing oncological care: A guide to setting up a new multidisciplinary cancer cachexia clinic within a tertiary centre",
+  "status": "verified",
+  "changes": [
+   "abstract"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "lahiani-2018-generalizing",
+  "title": "Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "venue differs: site='arXiv preprint arXiv:1805.06958' vs openalex='IET Image Processing' (updated)"
+  ],
+  "source": "openalex",
+  "similarity": 0.936
+ },
+ {
+  "slug": "lahiani-2019-european",
+  "title": "European Congress on Digital Pathology",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "lahiani-2019-perceptual",
+  "title": "Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "lahiani-2019-virtualization",
+  "title": "Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "lahiani-2020-seamless",
+  "title": "Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency",
+  "status": "check",
+  "changes": [
+   "date"
+  ],
+  "issues": [
+   "year differs: site=2021 record=2020 (updated)"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "lekadir-2025-future",
+  "title": "FUTURE-AI: International consensus guideline for trustworthy and deployable artificial intelligence in healthcare",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "liao-2019-machine",
+  "title": "Machine Learning and Medical Engineering for Cardiovascular Health and Intravascular Imaging and Computer Assisted Stenting: First International Workshop, MLMECH 2019, and 8th Joint International Workshop, CVII-STENT 2019, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13, 2019, Proceedings",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "lotfy-2019-investigation",
+  "title": "Investigation of Focal Loss in Deep Learning Models For Femur Fractures Classification",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "lotfyuncertainty",
+  "title": "Uncertainty for Proximal Femur Fractures Classification",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "mandal-2018-imaging",
+  "title": "Imaging intelligence: AI is transforming medical imaging across the imaging spectrum",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "melba-2022-011-bdair",
+  "title": "Semi-Supervised Federated Peer Learning for Skin Lesion Classification",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "venue: melba",
+   "abstract"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "mh-2023-lvm",
+  "title": "Lvm-med: Learning large-scale self-supervised vision models for medical imaging via second-order graph matching",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "molina-2018-deep",
+  "title": "Deep learning with synthetic data for free water elimination in diffusion MRI",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "mouhebeur",
+  "title": "EUR Research Information Portal",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "navab-2019-semi",
+  "title": "Semi-Supervised Few-Shot Learning with Local and Global Consistency",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "nesturi-2026-promptgate",
+  "title": "PromptGate Client Adaptive Vision Language Gating for Open Set Federated Active Learning",
+  "status": "check",
+  "changes": [
+   "publication.name",
+   "links.pdf"
+  ],
+  "issues": [
+   "venue differs: site='arXiv preprint arXiv:2603.07163' vs openalex='Lecture notes in computer science' (updated)",
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "nguyen-2023-joint",
+  "title": "Joint self-supervised image-volume representation learning with intra-inter contrastive clustering",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "venue: aaai",
+   "abstract"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "ogier-2022-flamby",
+  "title": "Flamby: Datasets and benchmarks for cross-silo federated learning in realistic healthcare settings",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "parida-2019-learn",
+  "title": "Learn to Segment Organs with a Few Bounding Boxes",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "pati-2021-federated",
+  "title": "The Federated Tumor Segmentation (FeTS) Challenge",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "rieke-2020-future",
+  "title": "The Future of Digital Health with Federated Learning",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "authors: 11 → 17"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "rieke-3-cardoso",
+  "title": "& Cardoso, MJ (2020)",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "riekefuture",
+  "title": "The future of digital health with federated learning. NPJ Digit Med. 2020; 3: 119",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "roth-2023-guest",
+  "title": "Guest Editorial Special Issue on Federated Learning for Medical Imaging: Enabling Collaborative Development of Robust AI Models",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "sadafi-2020-attention",
+  "title": "Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract",
+   "links.pdf"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "sadafi-2021-fourier",
+  "title": "Fourier Transform of Percoll Gradients Boosts CNN Classification of Hereditary Hemolytic Anemias",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract",
+   "links.pdf"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "sadafi-2021-sickle",
+  "title": "Sickle Cell Disease Severity Prediction from Percoll Gradient Images using Graph Convolutional Networks",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract",
+   "links.pdf"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "salehi-2022-unsupervised",
+  "title": "Unsupervised Cross-Domain Feature Extraction for Single Blood Cell Image Classification",
+  "status": "check",
+  "changes": [
+   "publication.name",
+   "links.pdf"
+  ],
+  "issues": [
+   "venue differs: site='International Conference on Medical Image Computing and Computer-Assisted Intervention' vs openalex='Lecture notes in computer science' (updated)",
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "sarhan-2019-learning",
+  "title": "Learning interpretable disentangled representations using adversarial vaes",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "sarhan-2019-multi",
+  "title": "Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "sarhan-2020-fairness",
+  "title": "Fairness by Learning Orthogonal Disentangled Representations",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "sarhan-2021-microaneurysms",
+  "title": "Microaneurysms segmentation and diabetic retinopathy detection by learning discriminative representations",
+  "status": "verified",
+  "changes": [],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "schaab-2024-artery",
+  "title": "Artery-Fusion Deep Learning for Enhanced Ultrasound Diagnosis of Giant Cell Arteritis",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "venue differs: site='International Conference on Medical Imaging and Computer-Aided Diagnosis' vs openalex='Lecture notes in electrical engineering' (updated)",
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "shaban-2019-staingan",
+  "title": "Staingan: Stain style transfer for digital histological images",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "shapira-2020-benefit",
+  "title": "Benefit of dual energy CT for lesion localization and classification with convolutional neural networks",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "authors: 11 → 16"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "shapira-2020-liver",
+  "title": "Liver lesion localisation and classification with convolutional neural networks: a comparison between conventional and spectral computed tomography",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract",
+   "authors: 11 → 15"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "shubeitah-2024-two",
+  "title": "Two-Steps Approach for Breast Cancer Detection and Classification Using Convolutional Neural Networks.",
+  "status": "verified",
+  "changes": [
+   "abstract"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "soberanis-2019-uncertainty",
+  "title": "Uncertainty-based graph convolutional networks for organ segmentation refinement",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "soberanis-2020-learning",
+  "title": "A learning without forgetting approach to incorporate artifact knowledge in polyp localization tasks",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "soberanis-2020-polyp",
+  "title": "Polyp-artifact relationship analysis using graph inductive learned representations",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "soberanis-2020-uncertainty",
+  "title": "An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "venue: melba"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "song-2025-efficient",
+  "title": "An efficient screening of dissolution modulators of Mg alloys: Combining high-throughput multi-well exposure with topographical quantification of volume loss and pitting corrosion",
+  "status": "verified",
+  "changes": [
+   "abstract"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "stoyanov-2018-intravascular",
+  "title": "Intravascular Imaging and Computer Assisted Stenting and Large-scale Annotation of Biomedical Data and Expert Label Synthesis: 7th Joint International Workshop, CVII-STENT 2018 and Third International Workshop, LABELS 2018, Held in Conjunction with MICCAI 2018, Granada, Spain, September 16, 2018, Proceedings",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "sznitman-2018-labels",
+  "title": "LABELS 2018 Preface",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "taher-2021-domain",
+  "title": "Domain adaptation and representation transfer, and affordable healthcare and AI for resource diverse global health",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "tomczack-2019-learn",
+  "title": "Learn to estimate labels uncertainty for quality assurance",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "tomczak-2020-multi",
+  "title": "Multi-task multi-domain learning for digital staining and classification of leukocytes",
+  "status": "check",
+  "changes": [
+   "date"
+  ],
+  "issues": [
+   "year differs: site=2021 record=2020 (updated)",
+   "site abstract differs from the record — kept the site version, please check"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "tomczak-2022-can",
+  "title": "What can we learn about a generated image corrupting its latent representation?",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "tomczak-2023-digital",
+  "title": "Digital staining of white blood cells with confidence estimation",
+  "status": "verified",
+  "changes": [
+   "doi: set"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "tran-2020-retinal",
+  "title": "Retinal Layer Segmentation Reformulated as OCT Language Processing",
+  "status": "check",
+  "changes": [
+   "publication.name"
+  ],
+  "issues": [
+   "venue differs: site='International Conference on Medical Image Computing and Computer-Assisted Intervention' vs openalex='Lecture notes in computer science' (updated)",
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "vahadane-2015-structure",
+  "title": "Structure-preserved color normalization for histological images",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "vahadane-2016-structure",
+  "title": "Structure-preserving color normalization and sparse stain separation for histological images",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "wang-2019-domain",
+  "title": "Domain Adaptation and Representation Transfer and Medical Image Learning with Less Labels and Imperfect Data: First MICCAI Workshop, DART 2019, and First International Workshop, MIL3ID 2019, Shenzhen, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13 and 17, 2019, Proceedings",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "wichtmannmr",
+  "title": "MR Fingerprinting and Apparent Diffusion Coefficient Mapping for quantitative characterization of clinically significant Prostate Cancer",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "authors: 12 → 13"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "wiestler-2017-fully",
+  "title": "Fully Automated Multiple Sclerosis lesion detection on multi-channel subtraction images through an integrated Computer Vision-Machine Learning pipeline",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "yeganeh-2020-inverse",
+  "title": "Inverse Distance Aggregation for Federated Learning with Non-IID Data",
+  "status": "verified",
+  "changes": [
+   "doi: set",
+   "abstract",
+   "links.pdf"
+  ],
+  "issues": [],
+  "source": "crossref",
+  "similarity": 1.0
+ },
+ {
+  "slug": "zakharov-2022-determining",
+  "title": "Determining a pose of an object in the surroundings of the object by means of multi-task learning",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "zamzmi-2025-bridging",
+  "title": "Bridging Regulatory Science and Medical Imaging Evaluation; and Distributed, Collaborative, and Federated Learning: First International Workshop, BRIDGE 2025, and 6th International Workshop, DeCaF 2025, Held in Conjunction with MICCAI 2025, Daejeon, South Korea, September 23 and September 27, 2025, Proceedings",
+  "status": "not found",
+  "changes": [],
+  "issues": [
+   "no matching record in OpenAlex/Crossref — check title or add the DOI manually"
+  ],
+  "source": ""
+ },
+ {
+  "slug": "zeng-2026-k",
+  "title": "K-MaT: Knowledge-Anchored Manifold Transport for Cross-Modal Prompt Learning in Medical Imaging",
+  "status": "check",
+  "changes": [
+   "publication.name",
+   "links.pdf"
+  ],
+  "issues": [
+   "venue differs: site='arXiv preprint arXiv:2603.06340' vs openalex='Lecture notes in computer science' (updated)",
+   "no abstract available from any source — add it by hand"
+  ],
+  "source": "openalex",
+  "similarity": 1.0
+ },
+ {
+  "slug": "zvereva-2021-computergestutzte",
+  "title": "Eine computergestützte automatische Polypencharakterisierung von Hyperplasten, Adenomen und Serratierten Adenomen im Kolorektum-Ergebnisse der CASSANDRA Studie",
+  "status": "verified",
+  "changes": [
+   "abstract"
+  ],
+  "issues": [],
+  "source": "openalex",
+  "similarity": 1.0
+ }
+]

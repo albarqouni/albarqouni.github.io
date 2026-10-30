@@ -1,0 +1,106 @@
+{{/* Home banner: three Schwerpunkte (Venn) on shared pillars (tabs), each pillar lighting up its pins on the globe.
+     Content: content/themes (circles), data/pillars.yaml (tabs), data/organizations.yaml + data/places.yaml (pins). */}}
+{{- $home := site.Params.lab.home -}}
+{{- $orgs := site.Data.organizations -}}
+{{- $pubs := where (where site.RegularPages "Section" "publications") "Draft" false -}}
+{{- $projects := where site.RegularPages "Section" "projects" -}}
+{{- $community := where site.RegularPages "Section" "community" -}}
+{{- $offerings := where site.RegularPages "Section" "teaching" -}}
+{{- $courses := where site.Sections "Section" "teaching" -}}
+{{- $snapshot := site.Data.scholar | default dict -}}
+
+{{/* ---------- numbers used by {tokens} in data/pillars.yaml ---------- */}}
+{{- $members := 0 -}}{{- $alumni := 0 -}}
+{{- range site.Data.authors }}{{ if eq .group "alumni" }}{{ $alumni = add $alumni 1 }}{{ else if not (in (slice "guests") .group) }}{{ $members = add $members 1 }}{{ end }}{{ end -}}
+{{- $journals := 0 -}}{{- $confPubs := 0 -}}{{- $q1 := 0 -}}{{- $venueCount := dict -}}
+{{- range $pubs -}}
+  {{- $t := partial "lab/pub-type.html" . -}}
+  {{- if eq $t "journal" }}{{ $journals = add $journals 1 }}{{ end -}}
+  {{- if in (slice "conference" "workshop") $t }}{{ $confPubs = add $confPubs 1 }}{{ end -}}
+  {{- with .Params.venue -}}
+    {{- $venueCount = merge $venueCount (dict . (add (index $venueCount . | default 0) 1)) -}}
+    {{- with index site.Data.venues . }}{{ if eq .quartile "Q1" }}{{ $q1 = add $q1 1 }}{{ end }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- $active := 0 -}}{{- $fundedPartners := slice -}}
+{{- range $projects -}}
+  {{- if eq (partial "lab/period.html" .).status "active" }}{{ $active = add $active 1 }}{{ end -}}
+  {{- $fundedPartners = $fundedPartners | append (.Params.partners | default slice) -}}
+{{- end -}}
+{{- $fundedPartners = uniq $fundedPartners -}}
+{{- $partnerKeys := slice -}}{{- $countries := slice -}}
+{{- range $k, $o := $orgs }}{{ if and (ne $o.kind "funder") (ne $k "uni-bonn") (ne $k "ukb") }}{{ $partnerKeys = $partnerKeys | append $k }}{{ with $o.country }}{{ $countries = $countries | append . }}{{ end }}{{ end }}{{ end -}}
+{{- $places := slice -}}{{- range $community }}{{ with .Params.place }}{{ $places = $places | append . }}{{ end }}{{ end -}}
+{{- range uniq $places }}{{ with index site.Data.places . }}{{ with .country }}{{ $countries = $countries | append . }}{{ end }}{{ end }}{{ end -}}
+{{- $countries = uniq $countries -}}
+{{- $cat := dict -}}{{- range $community }}{{ $c := .Params.category | default "event" }}{{ $cat = merge $cat (dict $c (add (index $cat $c | default 0) 1)) }}{{ end -}}
+{{- $schools := 0 -}}{{- range $courses }}{{ if or (eq .Params.faculty "schools") (eq .Params.format "Block course") }}{{ $schools = add $schools 1 }}{{ end }}{{ end -}}
+{{- $tokens := dict
+  "members" $members "alumni" $alumni "publications" (len $pubs) "journals" $journals "q1" $q1 "conferences_pubs" $confPubs
+  "projects" (len $projects) "active_projects" $active "partners" (len $partnerKeys) "countries" (len $countries)
+  "offerings" (len $offerings) "courses" (len $courses) "schools" $schools
+  "talks" (index $cat "talk" | default 0) "conferences" (index $cat "conference" | default 0) "meetings" (index $cat "meeting" | default 0) "events" (index $cat "event" | default 0)
+  "datasets" (len (where site.RegularPages "Section" "datasets")) "demos" (len (where site.RegularPages "Section" "demos")) -}}
+
+{{/* ---------- pins per pillar ---------- */}}
+{{- $orgPin := dict -}}
+{{- range $k, $o := $orgs }}{{ if $o.lat }}{{ $orgPin = merge $orgPin (dict $k (dict "name" $o.name "lat" $o.lat "lon" $o.lon "url" ($o.url | default ""))) }}{{ end }}{{ end -}}
+{{- $tabs := slice -}}
+{{- range $i, $p := site.Data.pillars -}}
+  {{- $pins := slice -}}
+  {{- with $p.pins -}}
+    {{- range .orgs }}{{ with index $orgPin . }}{{ $pins = $pins | append . }}{{ end }}{{ end -}}
+    {{- range .places }}{{ with index site.Data.places . }}{{ if .lat }}{{ $pins = $pins | append (dict "name" .name "lat" .lat "lon" .lon) }}{{ end }}{{ end }}{{ end -}}
+    {{- range .list }}{{ $pins = $pins | append (dict "name" .n "lat" .lat "lon" .lon) }}{{ end -}}
+    {{- if eq .auto "funded-partners" }}{{ range $fundedPartners }}{{ with index $orgPin . }}{{ $pins = $pins | append . }}{{ end }}{{ end }}{{ end -}}
+    {{- if eq .auto "network" }}{{ range $partnerKeys }}{{ with index $orgPin . }}{{ $pins = $pins | append . }}{{ end }}{{ end }}{{ end -}}
+    {{- if eq .auto "community" }}{{ range uniq $places }}{{ with index site.Data.places . }}{{ if .lat }}{{ $pins = $pins | append (dict "name" .name "lat" .lat "lon" .lon) }}{{ end }}{{ end }}{{ end }}{{ end -}}
+  {{- end -}}
+  {{- $tabs = $tabs | append (dict "key" $p.key "color" $p.color "pins" $pins "inflows" ($p.inflows | default slice) "label" (printf "%d %s" (len $pins) ($p.pin_label | default "")) "inflow_label" ($p.inflow_label | default "")) -}}
+{{- end -}}
+{{- $themes := sort site.Taxonomies.themes "Page.Weight" -}}
+
+<section class="lab-banner" data-banner>
+  {{ with resources.Get "media/brand/comi-bee-transparent.png" }}{{ $w := .Resize "900x webp" }}<div class="lab-banner-mark" aria-hidden="true"><img src="{{ $w.RelPermalink }}" alt=""></div>{{ end }}
+  <div class="lab-banner-inner lab-hero2">
+    <div class="lab-banner-text">
+      {{ with resources.Get "media/brand/t-comi-white.png" }}{{ $l := .Resize "800x webp" }}<img class="lab-banner-logo" src="{{ $l.RelPermalink }}" alt="Computational Medical Imaging Research (CoMI)" width="400" height="143">{{ end }}
+      <h1 class="sr-only">Albarqouni Lab — Computational Medical Imaging Research (CoMI), University of Bonn</h1>
+      <p class="lab-banner-headline">Collective Intelligence for <span>Inclusive Medical&nbsp;AI</span></p>
+      <p class="lab-banner-lead">We build medical-imaging AI that is reliable enough for the clinic, learns across hospitals without moving patient data, and works where resources are scarce — across three interconnected themes{{ range $i, $t := $themes }}{{ if $i }}{{ if eq $i 2 }} and{{ else }},{{ end }}{{ else }}:{{ end }} <a class="lab-theme-inline" href="{{ $t.Page.RelPermalink }}" style="--c: {{ $t.Page.Params.color }}"><b>{{ $t.Page.Title }}</b></a>{{ end }}. At the University of Bonn &amp; University Hospital Bonn.</p>
+      <div class="lab-hero-cta"><a class="lab-btn lab-btn-gelb" href="{{ "/themes/" | relLangURL }}">Explore our research</a><a class="lab-btn lab-btn-ghost-w" href="{{ "/positions/" | relLangURL }}">Join the lab →</a></div>
+      <dl class="lab-hero-strip">
+        <div><dt>{{ len $pubs }}</dt><dd>publications</dd></div>
+        <div><dt data-total-citations data-snapshot="{{ $snapshot.citations | default 0 }}">{{ with $snapshot.citations }}{{ lang.FormatNumber 0 . }}{{ else }}—{{ end }}</dt><dd>citations{{ with $snapshot.h_index }} · h-index {{ . }}{{ end }}</dd></div>
+        <div><dt>{{ len $projects }}</dt><dd>projects · {{ $active }} active</dd></div>
+        <div><dt>{{ len $partnerKeys }}</dt><dd>partners · {{ len $countries }} countries</dd></div>
+      </dl>
+    </div>
+    <div class="lab-pillar-tabs" role="tablist" aria-label="Pillars">
+      {{- range $i, $p := site.Data.pillars }}
+      <button type="button" role="tab" data-pillar="{{ $i }}" style="--c: {{ $p.color }}" aria-selected="false">
+        {{ with resources.Get (printf "media/%s" $p.icon) }}{{ $ic := .Fit "96x96 webp" }}<img src="{{ $ic.RelPermalink }}" alt="" width="26" height="26">{{ end }}<span>{{ $p.label }}</span>
+      </button>
+      {{- end }}
+    </div>
+    <div class="lab-globe-col">
+      <div class="lab-globe-wrap">
+        <div id="lab-globe" class="lab-globe" aria-label="Interactive globe: pins change with the selected pillar"></div>
+        <p class="lab-globe-legend" data-globe-legend></p>
+      </div>
+      {{- range $i, $p := site.Data.pillars }}
+      <div class="lab-pillar-caption" role="tabpanel" data-pillar-panel="{{ $i }}" style="--c: {{ $p.color }}" hidden>
+        <p>{{- range $j, $st := $p.stats -}}
+        {{- $v := index $st 0 -}}{{- $l := index $st 1 -}}
+        {{- range $k, $n := $tokens }}{{ $v = replace $v (printf "{%s}" $k) (string $n) }}{{ $l = replace $l (printf "{%s}" $k) (string $n) }}{{ end -}}
+        {{ if $j }}<span class="lab-dot" aria-hidden="true">·</span>{{ end }}<b>{{ $v }}</b> {{ $l }}
+        {{- end -}}</p>
+        {{ with $p.link }}<a href="{{ . | relLangURL }}">Explore {{ lower $p.label }} →</a>{{ end }}
+      </div>
+      {{- end }}
+    </div>
+  </div>
+  <script type="application/json" id="lab-globe-data">{{ dict "home" (dict "lat" $home.lat "lon" $home.lon "name" $home.name) "tabs" $tabs | jsonify | safeJS }}</script>
+  <script src="{{ "vendor/globe/globe.gl.min.js" | relURL }}" defer></script>
+  <div hidden>{{ range $pubs }}{{ with .Params.doi }}<span data-doi="{{ . }}"></span>{{ end }}{{ end }}</div>
+</section>

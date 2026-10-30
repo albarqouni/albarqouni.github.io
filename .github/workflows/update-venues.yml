@@ -1,0 +1,46 @@
+name: Update venue statistics (yearly)
+
+# Every July (after Clarivate's JCR release in June): refresh OpenAlex citedness, conference acceptance rates and,
+# optionally, SJR quartiles; re-assign venues on publications; open a PR whose body lists journals whose
+# Impact Factor still needs to be checked in JCR.
+on:
+  schedule:
+    - cron: '0 5 3 7 *'
+  workflow_dispatch:
+    inputs:
+      sjr_csv_url:
+        description: 'Optional: URL of a SCImago journal-rank CSV (download it manually from scimagojr.com, e.g. into a release asset)'
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  venues:
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - name: Download SJR table (optional)
+        if: ${{ github.event.inputs.sjr_csv_url != '' && github.event.inputs.sjr_csv_url != null }}
+        run: curl -sSL "${{ github.event.inputs.sjr_csv_url }}" -o /tmp/sjr.csv
+      - name: Update
+        env:
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          ARGS=""; [ -f /tmp/sjr.csv ] && ARGS="--sjr /tmp/sjr.csv"
+          python scripts/update_venues.py $ARGS
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/update-venues
+          delete-branch: true
+          commit-message: 'Yearly venue statistics update'
+          title: 'Venue statistics — yearly update'
+          labels: publications, automated
+          body-path: docs/venue-report.md

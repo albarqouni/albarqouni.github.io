@@ -1,0 +1,26 @@
+schema: hugoblox/author/v1
+slug: diletta-chiaro
+is_owner: false
+name:
+  display: Diletta Chiaro
+role: Visiting PhD Student (University of Naples Federico II, 2024)
+group: alumni
+bio: '# Biography
+
+  Diletta is currently pursuing her PhD at the M.O.D.A.L. research group @University of Naples Federico II, under the supervision of Prof. Francesco Piccialli, the lab''s head and scientific director. She holds a master’s degree in Statistical Sciences, completed in 2021 from the same university.
+
+  With over two years of research experience, particularly in Federated Learning, and collaborations with industries on AI models for Industry and Education 4.0, Diletta aims to leverage her expertise to address open issues in Federated Learning, such as solving statistical and device heterogeneity, making significant contributions to this field of AI.'
+affiliations:
+- name: M.O.D.A.L., University Naples Federico II, Italy
+  url: https://www.labdma.unina.it/
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.de/
+interests: []
+education:
+- degree: M.Sc. in Statistical Sciences
+  institution: University of Naples Federico II, Italy
+  end: '2021-12-31'
+github: ''
+aliases: []
+now: PhD; AI researcher at Latitudo 40, Naples

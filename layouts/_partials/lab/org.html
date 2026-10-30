@@ -1,0 +1,17 @@
+{{/* Organisation badge with logo (or initials). Args: key, size ("sm"|"lg"), show_name (bool) */}}
+{{- $o := index site.Data.organizations .key -}}
+{{- if $o -}}
+  {{- $logo := cond (isset $o "logo") (resources.Get (printf "media/logos/%s" $o.logo)) nil -}}
+  <a href="{{ $o.url }}" target="_blank" rel="noopener" class="lab-org lab-org-{{ .size | default "sm" }}" title="{{ $o.name }} ({{ $o.country }})">
+    {{- $dark := cond (isset $o "logo_dark") (resources.Get (printf "media/logos/%s" $o.logo_dark)) nil -}}
+    {{- if $logo -}}
+      {{- if reflect.IsImageResourceProcessable $logo }}{{ $l := $logo.Fit "240x96 webp" }}<img src="{{ $l.RelPermalink }}" alt="{{ $o.name }}" loading="lazy" class="{{ if $dark }}lab-logo-light{{ end }}">{{ else }}<img src="{{ $logo.RelPermalink }}" alt="{{ $o.name }}" loading="lazy">{{ end -}}
+      {{- with $dark }}{{ $d := .Fit "240x96 webp" }}<img src="{{ $d.RelPermalink }}" alt="{{ $o.name }}" loading="lazy" class="lab-logo-dark lab-logo-white">{{ end -}}
+    {{- else -}}
+      <span class="lab-org-initials">{{ $o.short | default (substr $o.name 0 3) }}</span>
+    {{- end -}}
+    {{- if .show_name }}<span class="lab-org-name">{{ $o.name }}<small>{{ $o.country }}</small></span>{{ end -}}
+  </a>
+{{- else -}}
+  <span class="lab-chip lab-chip-ext">{{ .key }}</span>
+{{- end -}}

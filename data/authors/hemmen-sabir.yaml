@@ -1,0 +1,22 @@
+schema: hugoblox/author/v1
+slug: hemmen-sabir
+is_owner: false
+name:
+  display: Hemmen Sabir
+role: Professor and Head of Experimental Neonatology
+group: collaborators
+bio: ''
+affiliations:
+- name: Experimental Neonatal Neurology, University Hospital Bonn
+  url: ''
+links:
+- icon: at-symbol
+  url: mailto:hemmen.sabir@ukbonn.de
+- icon: hero/link
+  url: https://www.neonatologie-bonn.de/experimentelle-neonatologie/
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- clinical

@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{- $slug := .Data.Term | urlize -}}
+{{- $p := index site.Data.authors $slug | default dict -}}
+{{- $name := $p.name.display | default .Title -}}
+<div class="lab-page">
+  <header class="lab-profile">
+    <figure class="lab-profile-photo">
+      {{ partial "lab/avatar.html" (dict "slug" $slug "name" $name "size" 168) }}
+      {{ with $p.photo_credit }}<figcaption>Photo: {{ . }}</figcaption>{{ end }}
+    </figure>
+    <div>
+      <p class="lab-kicker">{{ index site.Data.groups ($p.group | default "") | default "" }}</p>
+      <h1 class="lab-title">{{ $name }}</h1>
+      {{ with $p.role }}<p class="lab-lead !mt-1">{{ . | markdownify }}</p>{{ end }}
+      {{ with $p.now }}<p class="lab-muted !mt-1"><b>Now:</b> {{ . | markdownify }}</p>{{ end }}
+      {{ with $p.affiliations }}<p class="lab-muted">{{ range $i, $o := . }}{{ if $i }} · {{ end }}{{ if $o.url }}<a href="{{ $o.url }}" target="_blank" rel="noopener">{{ $o.name }}</a>{{ else }}{{ $o.name }}{{ end }}{{ end }}</p>{{ end }}
+      {{ with $p.links }}<div class="lab-row mt-3">{{ range . }}<a class="lab-icon-link" href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .label | default .icon }}">{{ partial "functions/get_icon" (dict "name" .icon "attributes" "class=\"w-5 h-5\"") }}</a>{{ end }}</div>{{ end }}
+    </div>
+  </header>
+  <div class="lab-two-col">
+    <div class="prose dark:prose-invert max-w-none">{{ with $p.bio }}{{ . | markdownify }}{{ end }}</div>
+    <aside class="lab-side">
+      {{ with $p.interests }}<h3>Interests</h3><ul class="lab-plain">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+      {{ with $p.education }}<h3>Education</h3><ul class="lab-plain">{{ range . }}<li><b>{{ .degree }}</b>{{ with .end }}, {{ substr (string .) 0 4 }}{{ end }}<br><small>{{ .institution }}</small></li>{{ end }}</ul>{{ end }}
+      {{- $themes := slice -}}{{- range .Pages }}{{ range .Params.themes }}{{ $themes = $themes | append . }}{{ end }}{{ end -}}
+      {{ with uniq $themes }}<h3>Research themes</h3><div class="lab-row">{{ range . }}{{ with site.GetPage (printf "/themes/%s" .) }}<a class="lab-chip lab-chip-theme" style="--c: {{ .Params.color }}" href="{{ .RelPermalink }}">{{ .Params.short }}</a>{{ end }}{{ end }}</div>{{ end }}
+    </aside>
+  </div>
+  {{ partial "lab/profile-cv.html" $p }}
+  {{ partial "lab/grouped-sections.html" (dict "pages" .Pages "facet" "author" "value" $slug "limit" 20) }}
+</div>
+{{ end }}

@@ -1,0 +1,57 @@
+schema: hugoblox/author/v1
+slug: hyun-ko
+is_owner: false
+name:
+  display: Hyun Ko
+role: Radiology Clinician Reseacher at Peter MacCallum Cancer Centre, Australia
+group: collaborators
+bio: '# Biography
+
+  Dr Ko is a multilingual German and Australian board-certified radiologist and clinician researcher with 20+ years international radiology experience with subspecialist knowledge in oncological, body, breast and pediatric imaging.
+
+
+  Dr Ko’s focus has been on harnessing clinical and research data to advance translational medicine. Her most recent research includes higher computational analysis, artificial intelligence, and radiomics to develop predictive imaging biomarkers.
+
+
+  In recognition of her contribution, Dr Ko was chosen as one of six finalists at the 19th Annual Research Australia Award 2022 (category: Data & Innovation). She is an active member of RANZCR Advisory Committee on Artificial Intelligence and of the German Roentgen Society (DRG) Working Party Methodology and Research.
+
+
+  Dr Ko is passionate about supporting aspiring researchers. Over recent years she has supervised several MD candidates as well as medical and biomedical research students. A strong supporter of evidence-based medicine, Dr Ko believes in the strengths of multidisciplinarity and inclusiveness as key ingredients of research innovation and impact.'
+affiliations:
+- name: Universitätsklinikum Bonn, Klinik für Diagnostische und Interventionelle Radiologie
+  url: https://www.ukbonn.de/radiologie/unser-team/
+- name: Peter MacCallum Cancer Centre
+  url: https://www.petermac.org/staff-details/hyun-ko
+- name: University of Melbourne, The Sir Peter MacCallum Dept of Oncology
+  url: https://findanexpert.unimelb.edu.au/profile/882669-hyun-ko
+links:
+- icon: at-symbol
+  url: mailto:hyun.ko@petermac.org
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=RFiPx5gAAAAJ&hl=en
+- icon: brands/linkedin
+  url: https://au.linkedin.com/in/hyun-ko-40554291
+interests: []
+education:
+- degree: Fellowship Breast Imaging
+  institution: St Vincent’s Hospital, Melbourne, Australia
+  end: '2017-12-31'
+- degree: Fellowship Clinical Research
+  institution: Hospital for Sick Children, Toronto, Canada
+  end: '2010-12-31'
+- degree: Australian Board Certification in Diagnostic Radiology
+  institution: null
+  end: '2009-12-31'
+- degree: German Board Certification in Diagnostic Radiology
+  institution: null
+  end: '2005-12-31'
+- degree: Fellowship pediatric radiology
+  institution: University Hospital Heidelberg, Germany
+  end: '2005-12-31'
+- degree: Dr med (MD)
+  institution: University of Heidelberg, Germany ((University of Montpellier, France, Mt Sinai Medical School, NY, USA)
+  end: '2000-12-31'
+github: ''
+aliases: []
+tags:
+- clinical

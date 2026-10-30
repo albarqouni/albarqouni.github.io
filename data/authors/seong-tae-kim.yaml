@@ -1,0 +1,22 @@
+schema: hugoblox/author/v1
+slug: seong-tae-kim
+is_owner: false
+name:
+  display: Seong Tae Kim
+role: Associate Professor and Head of the School of Computing, Kyung Hee University; Director, Augmented Intelligence Lab
+group: collaborators
+bio: Seong Tae Kim directs the Augmented Intelligence (AMI) Lab at Kyung Hee University, where he is Associate Professor in the School of Computing. He received his PhD from KAIST (2019) and was previously a senior research scientist at CAMP, TUM. His research covers explainable and reliable deep learning and medical image analysis.
+affiliations:
+- name: Kyung Hee University, Korea
+  url: https://ami.khu.ac.kr/people/pi
+links:
+- icon: hero/link
+  url: https://ami.khu.ac.kr
+  label: AMI Lab
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- academic
+photo_credit: AMI Lab, Kyung Hee University

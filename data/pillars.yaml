@@ -1,0 +1,175 @@
+# Home-page banner: the three Schwerpunkte (content/themes) sit on these pillars.
+# Each pillar becomes a tab with headline stats, a photo/logo mosaic and its own pins on the globe.
+#
+# stats:  [value, label]. Values in {braces} are computed from the site at build time:
+#         {members} {alumni} {publications} {journals} {q1} {projects} {active_projects} {partners} {countries}
+#         {offerings} {courses} {schools} {talks} {conferences} {meetings} {events} {datasets} {demos}
+# media:  files in assets/media/ (photos are resized automatically). `w: 2` spans two columns.
+# pins:   orgs: [keys in data/organizations.yaml] | places: [keys in data/places.yaml]
+#         | auto: funded-partners | community | network | omi
+# inflows: [[lon, lat], ...] arcs drawn *into* Bonn (e.g. home countries of school participants)
+- key: team
+  label: Team
+  icon: brand/comi-bee-white.png
+  color: "#173869"
+  link: /team/
+  stats:
+    - ["{members}", "team members & collaborators today"]
+    - [">30", "researchers trained over 5 years"]
+    - ["6 PIs", "Computational AG at BonnJour"]
+  media:
+    - {src: act/team-researchers.jpg, cap: Researchers, w: 2}
+    - {src: act/team-collab.jpg, cap: Clinical collaborators, w: 2}
+    - {src: act/bonnjour.jpg, cap: "BonnJour, Sep. 2025"}
+    - {src: act/bonnjour-office.jpg, cap: Our space}
+  pins: {orgs: [uni-bonn, ukb]}
+  pin_label: BonnJour, Bonn
+
+- key: data
+  label: Datasets
+  icon: icons/datasets.png
+  color: "#2d9d9b"
+  link: /datasets/
+  stats:
+    - ["{datasets}", "curated clinical datasets & benchmarks"]
+    - ["13", "institutions · 6 clinics"]
+    - ["4K", "patients"]
+  media:
+    - {src: act/d-mammo.jpg, cap: "200K · Mammography"}
+    - {src: act/d-us-gca.jpg, cap: "1,030 US · GCA"}
+    - {src: act/d-mri-neo.jpg, cap: "300 MRI · neonatal uLF"}
+    - {src: act/d-wsi.jpg, cap: "236 WSI · histology"}
+    - {src: act/d-ct-pdac.jpg, cap: "546 CT · PDAC"}
+    - {src: act/d-cfp.jpg, cap: ">8K CFP · retina"}
+    - {src: act/d-msk.jpg, cap: "176 CT · musculoskeletal"}
+    - {src: act/d-mr-prostate.jpg, cap: "500 MR · csPCa"}
+  pins: {orgs: [ukb, charite, umg, ukhd, ukt, uker, tum, lmu, usz-zurich, hug-geneva, gemelli-rome, osaka, unimelb]}
+  pin_label: clinical and data partners
+
+- key: infra
+  label: Infrastructure
+  icon: icons/infrastructure.png
+  color: "#004e9f"
+  link: /projects/omi/
+  stats:
+    - ["8× A100", "GPUs, 64 GB, at Bonn"]
+    - ["12", "AI services in the CoMI marketplace (internal)"]
+    - ["16", "OMI partners across Germany, 4 MII consortia"]
+  media:
+    - {src: act/gpu1.jpg, cap: GPU server, w: 2}
+    - {src: act/marketplace.jpg, cap: CoMI AI marketplace, w: 2}
+    - {src: omi/mii-omi.jpg, cap: "OMI · Medical Informatics Initiative", w: 2}
+  pins:
+    list:
+      - {n: "Essen (coordinator)", lat: 51.44, lon: 7.01}
+      - {n: Bonn, lat: 50.73, lon: 7.10}
+      - {n: Charité Berlin, lat: 52.52, lon: 13.38}
+      - {n: Erlangen, lat: 49.59, lon: 11.00}
+      - {n: Cologne, lat: 50.92, lon: 6.92}
+      - {n: Freiburg, lat: 47.99, lon: 7.84}
+      - {n: Frankfurt, lat: 50.09, lon: 8.65}
+      - {n: Hannover, lat: 52.38, lon: 9.80}
+      - {n: Würzburg, lat: 49.80, lon: 9.93}
+      - {n: Rostock, lat: 54.09, lon: 12.10}
+      - {n: Heidelberg, lat: 49.42, lon: 8.67}
+      - {n: Ulm, lat: 48.42, lon: 9.95}
+      - {n: Düsseldorf, lat: 51.20, lon: 6.79}
+      - {n: TUM Munich, lat: 48.14, lon: 11.60}
+      - {n: MOLIT Heilbronn, lat: 49.14, lon: 9.22}
+      - {n: HHN Heilbronn, lat: 49.12, lon: 9.21}
+  pin_label: OMI partner sites
+
+- key: teach
+  label: Teaching
+  icon: icons/teaching.png
+  color: "#8a6500"
+  link: /teaching/
+  stats:
+    - [">50", "students over 5 years"]
+    - ["{schools}", "block courses and schools: EEDA, SAAI, BiLD, AiM"]
+    - ["{offerings}", "course offerings · joint teaching with GUC and LAU"]
+  media:
+    - {src: act/school-saai24.jpg, cap: "SAAI 2024 · >50 Arab and German scholars", w: 2}
+    - {src: act/school-bild25.jpg, cap: "BiLD 2025 · >40 scholars", w: 2}
+    - {src: act/school-autumn23.jpg, cap: "Autumn School on AI 2023", w: 2}
+    - {src: act/poster-eeda.jpg, cap: EEDA}
+    - {src: act/poster-saai.jpg, cap: SAAI}
+    - {src: act/poster-bild.jpg, cap: BiLD}
+    - {src: act/sem-air.png, cap: AiR seminar}
+  pins: {orgs: [uni-bonn, ucl, guc, lau, lmu, kit, uni-tuebingen, dkfz, dfki, hpi-potsdam]}
+  pin_label: teaching and mentoring partners
+  inflows: [[-15.98, 18.09], [-6.84, 34.02], [3.06, 36.75], [10.18, 36.81], [13.19, 32.89], [31.24, 30.04], [35.20, 31.90], [35.50, 33.89], [35.93, 31.95], [44.37, 33.31], [47.98, 29.37], [46.72, 24.71], [54.37, 24.45], [58.41, 23.59]]
+  inflow_label: school participants from 14 Arab countries → Bonn
+
+- key: fund
+  label: Funding
+  icon: icons/funding.png
+  color: "#5f6670"
+  link: /projects/
+  stats:
+    - ["{projects}", "funded projects · {active_projects} active"]
+    - ["1 agenda", "imaging, responsible and federated AI"]
+    - ["DFG · BMFTR · MKW NRW · AGYA", "funders of our ongoing projects"]
+  media:
+    - {src: act/fund-635.jpg}
+    - {src: act/fund-640.jpg}
+    - {src: act/fund-648.jpg}
+    - {src: act/fund-654.jpg}
+    - {src: act/fund-661.jpg}
+    - {src: act/fund-669.jpg}
+    - {src: act/fund-675.jpg}
+    - {src: act/fund-680.jpg}
+  pins: {auto: funded-partners}
+  pin_label: partners of funded projects
+
+- key: venues
+  label: Venues
+  icon: icons/visibility.png
+  color: "#3c3489"
+  link: /publications/
+  venues: true   # mosaic = venue logos with their latest metrics from data/venues.yaml
+  stats:
+    - ["{publications}", "publications · {q1} in Q1 journals"]
+    - ["{journals}", "journal articles"]
+    - ["{conferences_pubs}", "conference papers (MICCAI, NeurIPS, AAAI, ISBI…)"]
+  pins: {orgs: [uni-bonn]}
+  pin_label: Bonn
+
+- key: comm
+  label: Community
+  icon: icons/visibility.png
+  color: "#e30617"
+  link: /community/
+  stats:
+    - ["{talks}", "invited talks"]
+    - ["{conferences}", "conferences · 10+ organising committees"]
+    - ["{countries}", "countries, 5 continents"]
+  media:
+    - {src: act/m-miccai22.png}
+    - {src: act/m-miccai23.png}
+    - {src: act/m-miccai24.png}
+    - {src: act/m-miccai26.png}
+    - {src: act/m-isbi22.png}
+    - {src: act/w-fair.png}
+    - {src: act/c-agya.png}
+    - {src: act/c-gya.png}
+    - {src: act/c-glohra.png}
+    - {src: act/c-ellis.png}
+    - {src: act/j-media.png}
+    - {src: act/j-tmi.png}
+  logos: true
+  pins: {auto: community}
+  pin_label: places of our talks and events
+
+- key: partners
+  label: Partners
+  icon: icons/datasets.png
+  color: "#0f6e56"
+  link: /projects/
+  stats:
+    - ["{partners}", "partner institutions"]
+    - ["{countries}", "countries"]
+    - ["{projects}", "joint projects"]
+  logo_wall: true   # mosaic = partner logos
+  pins: {auto: network}
+  pin_label: partners

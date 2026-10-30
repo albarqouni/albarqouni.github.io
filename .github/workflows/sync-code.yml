@@ -1,0 +1,52 @@
+name: Sync code repositories (GitHub org → Code section)
+
+# Weekly: every public, non-fork repository of the lab's GitHub organisation (params.yaml → lab.github_org)
+# gets/updates a page under content/code/ (description, README overview, teaser figure, linked papers, stars).
+# New repositories appear automatically. Changes arrive as a pull request for review — nothing is published without a merge.
+on:
+  schedule:
+    - cron: '41 4 * * 1'   # Mondays 04:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-code
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install pyyaml
+      - name: Sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/sync_code_repos.py | tee /tmp/sync.log
+          echo 'SYNC_LOG<<EOF' >> $GITHUB_ENV; cat /tmp/sync.log >> $GITHUB_ENV; echo 'EOF' >> $GITHUB_ENV
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/sync-code
+          delete-branch: true
+          commit-message: 'Sync code repositories from GitHub'
+          title: 'Code repositories sync — ${{ github.run_started_at }}'
+          labels: code, automated
+          body: |
+            Automated weekly sync of the public repositories of the lab's GitHub organisation
+            (`+` new page, `~` updated). Please check new pages: summary, teaser figure, linked `publications`,
+            `projects` and `themes`. To keep a manual edit, add the field name (or `body` / `image`) to `sync.locked`.
+
+            ```
+            ${{ env.SYNC_LOG }}
+            ```

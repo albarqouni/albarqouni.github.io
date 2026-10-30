@@ -1,0 +1,24 @@
+schema: hugoblox/author/v1
+slug: carsten-marr
+is_owner: false
+name:
+  display: Carsten Marr
+role: Director, Institute of AI for Health, Helmholtz Munich; Professor of AI in Hematology and Cell Therapy, LMU University Hospital
+group: collaborators
+bio: Carsten Marr is founding director of the Institute of AI for Health at Helmholtz Munich and, since July 2025, Professor of AI in Hematology and Cell Therapy at LMU University Hospital. His lab develops AI for the diagnosis and treatment of blood disorders such as leukaemia. Awards include an ERC Consolidator Grant and the 2024 Eugen Münch Prize.
+affiliations:
+- name: Helmholtz Munich
+  url: https://www.helmholtz-munich.de/en/aih/carsten-marr
+- name: LMU University Hospital Munich
+  url: ''
+links:
+- icon: hero/link
+  url: https://www.helmholtz-munich.de/en/aih/carsten-marr
+  label: Helmholtz Munich profile
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- academic
+photo_credit: Helmholtz Munich

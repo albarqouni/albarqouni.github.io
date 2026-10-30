@@ -1,0 +1,30 @@
+{{- $items := cond (eq .Section "demos") .RegularPages.ByWeight .RegularPages.ByDate.Reverse -}}
+{{- $mods := slice -}}{{- range $items }}{{ $mods = $mods | append (.Params.modality | default slice) }}{{ end -}}
+<div class="lab-page" data-filter-root>
+  <header class="lab-hero-sm"><p class="lab-kicker">Open science</p><h1>{{ .Title }}</h1>{{ with .Content }}<div class="lab-lead">{{ . }}</div>{{ end }}</header>
+  {{ partial "lab/resource-nav.html" . }}
+  {{- $tOpts := slice -}}{{- range site.Taxonomies.themes.Alphabetical }}{{ $tOpts = $tOpts | append (dict "value" (urlize .Name) "label" .Page.Title) }}{{ end -}}
+  {{- $mOpts := slice -}}{{- range sort (uniq $mods) }}{{ $mOpts = $mOpts | append (dict "value" (urlize .) "label" .) }}{{ end -}}
+  <div class="lab-filterbar" data-list>
+    <input type="search" data-search placeholder="Search…" class="lab-input" aria-label="Search">
+    {{ partial "lab/select.html" (dict "facet" "theme" "label" "All themes" "options" $tOpts) }}
+    {{ with $mOpts }}{{ partial "lab/select.html" (dict "facet" "modality" "label" "Any modality" "options" .) }}{{ end }}
+    <span class="lab-count"><b data-count>{{ len $items }}</b> shown</span>
+  </div>
+  <div class="lab-card-grid">
+    {{- range $items }}
+    {{- $mod := slice -}}{{- range .Params.modality }}{{ $mod = $mod | append (urlize .) }}{{ end -}}
+    <article class="lab-card" data-item data-f-theme="{{ delimit (.Params.themes | default slice) "|" }}" data-f-modality="{{ delimit $mod "|" }}" data-text="{{ .Title }} {{ .Params.summary }} {{ delimit (.Params.tags | default slice) " " }}">
+      <a href="{{ .RelPermalink }}" class="lab-card-img">{{ partial "lab/thumb.html" (dict "page" . "w" 720 "h" 400 "class" "w-full h-full object-cover" "fallback" true) }}
+        {{ with .Params.access | default .Params.status }}<span class="lab-status lab-status-{{ urlize . }}">{{ . }}</span>{{ end }}</a>
+      <div class="lab-card-body">
+        <p class="lab-kicker">{{ delimit (.Params.modality | default slice) " · " }}{{ with .Params.language }}{{ . }}{{ end }}</p>
+        <h3 class="lab-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ with .Params.summary }}<p class="lab-card-text">{{ . | markdownify | plainify | truncate 150 }}</p>{{ end }}
+        <div class="lab-row mt-2">{{ partial "lab/theme-chips.html" . }}{{ partial "lab/project-chips.html" (.Params.projects | default slice) }}</div>
+      </div>
+    </article>
+    {{- end }}
+  </div>
+  <p data-empty hidden class="lab-empty">{{ if $items }}Nothing matches these filters.{{ else }}Coming soon.{{ end }}</p>
+</div>

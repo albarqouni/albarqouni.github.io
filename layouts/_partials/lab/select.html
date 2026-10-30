@@ -1,0 +1,7 @@
+{{/* Facet dropdown. Args: facet, label, options (slice of dict value/label/count) */}}
+<label class="lab-select"><span class="sr-only">{{ .label }}</span>
+  <select data-facet="{{ .facet }}" aria-label="{{ .label }}">
+    <option value="">{{ .label }}</option>
+    {{- range .options }}<option value="{{ .value }}">{{ .label }}{{ with .count }} ({{ . }}){{ end }}</option>{{ end -}}
+  </select>
+</label>

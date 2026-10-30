@@ -1,0 +1,44 @@
+{{/* Application form → Web3Forms → email. Nothing is stored by the site. Arg: position page */}}
+{{- $cfg := site.Data.application_form -}}
+{{- $key := site.Params.lab.web3forms_key -}}
+{{- $ptype := .Params.position_type | default "phd" -}}
+{{- $pid := .Params.position_id | default (index (findRE `[A-Z]+/\d+/\d{4}` .Title 1) 0) | default .Title -}}
+<section class="lab-section lab-form-wrap" id="apply">
+  <h2 class="lab-h2">Apply for this position</h2>
+  <p class="lab-muted">{{ $cfg.intro }}</p>
+  {{ if not $key }}<p class="lab-warn">The application form is not active yet (missing Web3Forms access key in <code>params.yaml → lab.web3forms_key</code>).</p>{{ end }}
+  <form class="lab-form" data-lab-form data-subject="{{ $cfg.subject }}" data-success="{{ $cfg.success }}" novalidate>
+    <input type="hidden" name="access_key" value="{{ $key }}">
+    <input type="hidden" name="from_name" value="{{ $cfg.from_name }}">
+    <input type="hidden" name="position" value="{{ $pid }}">
+    <input type="hidden" name="position_type" value="{{ $ptype }}">
+    <input type="hidden" name="position_title" value="{{ .Title }}">
+    <input type="hidden" name="position_url" value="{{ .Permalink }}">
+    <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
+    {{- range $cfg.sections }}{{ if or (not .only) (in .only $ptype) }}
+    <fieldset><legend>{{ .title }}</legend><div class="lab-form-grid">
+      {{- range .fields }}{{ if or (not .only) (in .only $ptype) }}
+      {{- $id := printf "f-%s" .name -}}
+      <div class="lab-field {{ if eq .width "half" }}lab-half{{ end }}">
+        {{- if eq .type "checkbox" }}
+          <label class="lab-check"><input type="checkbox" id="{{ $id }}" name="{{ .name }}" value="yes" {{ if .required }}required{{ end }}> <span>{{ .label }}</span></label>
+        {{- else if eq .type "checkboxes" }}
+          <span class="lab-label">{{ .label }}</span>
+          <div class="lab-row">{{ $n := .name }}{{ range sort site.Taxonomies.themes.Alphabetical }}<label class="lab-check"><input type="checkbox" name="{{ $n }}" value="{{ .Page.Title }}"> <span>{{ .Page.Title }}</span></label>{{ end }}</div>
+        {{- else }}
+          <label class="lab-label" for="{{ $id }}">{{ .label }}{{ if .required }} <abbr title="required">*</abbr>{{ end }}</label>
+          {{- if eq .type "textarea" }}
+            <textarea id="{{ $id }}" name="{{ .name }}" rows="7" {{ with .max }}maxlength="{{ . }}"{{ end }} placeholder="{{ .placeholder }}" {{ if .required }}required{{ end }}></textarea>
+          {{- else if eq .type "select" }}
+            <select id="{{ $id }}" name="{{ .name }}" {{ if .required }}required{{ end }}><option value="">Please choose…</option>{{ range .options }}<option>{{ . }}</option>{{ end }}</select>
+          {{- else }}
+            <input id="{{ $id }}" type="{{ .type }}" name="{{ .name }}" placeholder="{{ .placeholder }}" {{ with .autocomplete }}autocomplete="{{ . }}"{{ end }} {{ if .required }}required{{ end }}>
+          {{- end }}
+        {{- end }}
+      </div>
+      {{- end }}{{ end }}
+    </div></fieldset>
+    {{- end }}{{ end }}
+    <div class="lab-row mt-4"><button type="submit" class="lab-btn" {{ if not $key }}disabled{{ end }}>Send application</button><span data-form-status role="status" aria-live="polite"></span></div>
+  </form>
+</section>

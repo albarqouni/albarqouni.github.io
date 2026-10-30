@@ -1,0 +1,23 @@
+schema: hugoblox/author/v1
+slug: mohammad-taha
+is_owner: false
+name:
+  display: Mohammad Taha
+role: B.Sc. thesis (LMU Munich, 2025)
+group: alumni
+bio: '# Biography
+
+  Mohammad Taha is a Computer Science student at Ludwig Maximilian University of Munich (LMU), currently pursuing his bachelor''s thesis at the University of Bonn under the supervision of Prof. Dr. Shadi Albarqouni. His research focuses on AI-driven detection of Developmental Dysplasia of the Hip (DDH), exploring how AI can assist clinicians in identifying hip abnormalities in infants from medical imaging.'
+affiliations:
+- name: Ludwig Maximilian University of Munich, Germany
+  url: https://www.lmu.de/en/
+links: []
+interests: []
+education:
+- degree: B.Sc. Computer Science
+  institution: Ludwig Maximilian University of Munich, Germany
+  end: '2026-12-31'
+github: ''
+aliases:
+- Hamdo Taha
+- Mohammad (Hamdo) Taha

@@ -1,0 +1,38 @@
+schema: hugoblox/author/v1
+slug: simone-loehlein
+is_owner: false
+name:
+  display: Simone Löhlein
+role: M.Sc. thesis (TU Munich, 2022)
+group: alumni
+bio: '# Biography
+
+
+  Simone Löhlein is a Neuroengineering M. Sc. Student at the Technical University of Munich (TUM). She is currently writing up her MA thesis with Dr. Shadi Albarqouni at Helmholtz AI. Löhlein started her studies at the Eberhard-Karls University Tübingen, where she studied biology, including one semester abroad at the University of Oslo with the help of an Erasmus scholarship. In 2019, she finished her first Master’s degree in Neurosciences at the University of Bonn. Afterwards, Löhlein worked in the field of imaging genetics at the lab of Prof. Dr. Gruber at the center of psychosocial medicine at Heidelberg before she started her second degree at TUM. Parallel to her studies, she collaborated in two research projects, which will be published in autumn 2021 at ICAR and EMBC. In her master thesis at Helmholtz AI she will be working on developing a deep learning model for volumetric anomaly detection in MR Images.'
+affiliations:
+- name: Helmholtz AI
+  url: https://www.helmholtz.ai/
+- name: Technical University of Munich
+  url: https://www.tum.de/
+links:
+- icon: at-symbol
+  url: mailto:simone.loehlein@helmholtz-muenchen.de
+- icon: academicons/google-scholar
+  url: https://scholar.google.com
+interests: []
+education:
+- degree: M.Sc. in Neuroengineering, present
+  institution: Technical University of Munich, Germany
+  end: present-12-31
+- degree: M.Sc. in Neuroscience
+  institution: University of Bonn, Germany
+  end: '2019-12-31'
+- degree: Erasmus Semester
+  institution: University of Oslo, Norway
+  end: '2015-12-31'
+- degree: B.Sc. in Biology
+  institution: Eberhard-Karls University of Tübingen, Germany
+  end: '2016-12-31'
+github: ''
+aliases: []
+now: PhD student, Institute of Flight Systems, Universität der Bundeswehr München

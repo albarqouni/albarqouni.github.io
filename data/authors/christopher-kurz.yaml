@@ -1,0 +1,22 @@
+schema: hugoblox/author/v1
+slug: christopher-kurz
+is_owner: false
+name:
+  display: Christopher Kurz
+role: Group Leader, MR-guided Radiotherapy, Department of Radiation Oncology, LMU University Hospital Munich
+group: collaborators
+bio: PD Dr. Christopher Kurz is a medical physicist and leads the MR-guided radiotherapy group at the LMU Department of Radiation Oncology. His research covers deep learning for online adaptive MR-guided radiotherapy and motion management. He is a co-PI of our DFG radiotherapy project.
+affiliations:
+- name: LMU University Hospital Munich
+  url: https://www.lmu-klinikum.de/strahlentherapie-und-radioonkologie/forschung/physikalische-forschung/team/561c5ea565aaad13
+links:
+- icon: hero/link
+  url: https://www.lmu-klinikum.de/strahlentherapie-und-radioonkologie/forschung/physikalische-forschung/team/561c5ea565aaad13
+  label: LMU Klinikum profile
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- academic
+photo_credit: © LMU Klinikum

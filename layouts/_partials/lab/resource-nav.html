@@ -1,0 +1,5 @@
+<nav class="lab-tabs" aria-label="Resources">
+  {{- range slice "datasets" "demos" "code" }}{{ with site.GetPage (printf "/%s" .) }}
+  <a href="{{ .RelPermalink }}" class="{{ if eq .Section $.Section }}lab-tab-active{{ end }}">{{ .Title }} <span class="lab-count-pill">{{ len .RegularPages }}</span></a>
+  {{- end }}{{ end }}
+</nav>

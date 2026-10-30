@@ -1,0 +1,15 @@
+{{/* The three research themes as overlapping circles with the CoMI bee in the middle.
+     Used on the home page (agenda) and the Research page. Arg: dict "size" ("md" | "lg"). */}}
+{{- $themes := sort site.Taxonomies.themes "Page.Weight" -}}
+<div class="lab-venn lab-venn-{{ .size | default "md" }}" aria-label="Our three research themes">
+  {{- range $i, $t := $themes -}}
+  {{- $pg := $t.Page -}}
+  <a href="{{ $pg.RelPermalink }}" class="lab-venn-c lab-venn-{{ $i }}" style="--c: {{ $pg.Params.color }}" title="{{ $pg.Params.summary }}">
+    {{ with resources.Get (printf "media/%s" ($pg.Params.icon_image | default "icons/comi-bee.png")) }}{{ $ic := .Fit "192x192 webp" }}<img src="{{ $ic.RelPermalink }}" alt="" width="64" height="64">{{ end }}
+    <b>{{ $pg.Title }}</b>
+    <small>{{ index (split $pg.Params.summary " — ") 0 }}</small>
+    <em>{{ len (where $t.Pages "Section" "publications") }} papers · {{ len (where $t.Pages "Section" "projects") }} projects</em>
+  </a>
+  {{- end -}}
+  <span class="lab-venn-hub">{{ with resources.Get "media/icons/comi-bee.png" }}{{ $b := .Fit "200x200 webp" }}<img src="{{ $b.RelPermalink }}" alt="CoMI" width="64" height="64">{{ end }}</span>
+</div>

@@ -1,0 +1,4 @@
+{{- $slug := .slug -}}{{- $size := .size | default 160 -}}
+{{- $a := resources.GetMatch (printf "media/authors/%s.*" $slug) -}}
+{{- if and $a (reflect.IsImageResourceProcessable $a) -}}{{ $t := $a.Fill (printf "%dx%d webp center" (mul $size 2) (mul $size 2)) }}<img src="{{ $t.RelPermalink }}" width="{{ $size }}" height="{{ $size }}" alt="{{ .name }}" class="lab-avatar" loading="lazy">
+{{- else -}}<span class="lab-avatar lab-avatar-empty" style="width:{{ $size }}px;height:{{ $size }}px">{{ substr (.name | default "?") 0 1 }}</span>{{- end -}}

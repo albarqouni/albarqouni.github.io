@@ -1,0 +1,99 @@
+{{ define "main" }}
+{{- if .Parent.IsHome -}}
+{{/* ===================== /teaching/ — all courses and all offerings ===================== */}}
+{{- $courses := .Sections.ByWeight -}}
+{{- $offerings := sort (where site.RegularPages "Section" "teaching") "Date" "desc" -}}
+{{- $years := slice -}}{{- $sems := slice -}}{{- $people := slice -}}
+{{- range $offerings }}{{ $s := partial "lab/semester.html" .Params.semester }}{{ $years = $years | append $s.years }}{{ $sems = $sems | append $s }}{{ $people = $people | append (.Params.authors | default slice) }}{{ end -}}
+<div class="lab-page" data-filter-root>
+  <header class="lab-hero-sm">
+    <p class="lab-kicker">Teaching</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="lab-lead">{{ . }}</div>{{ end }}
+  </header>
+  <section class="lab-stats-grid">
+    <div class="lab-stat"><span class="lab-stat-n">{{ len $courses }}</span><span class="lab-stat-l">courses &amp; schools</span></div>
+    <div class="lab-stat"><span class="lab-stat-n">{{ len $offerings }}</span><span class="lab-stat-l">semester offerings</span></div>
+    <div class="lab-stat"><span class="lab-stat-n">{{ len (where $courses "Params.faculty" "medicine") }}</span><span class="lab-stat-l">for medical students</span></div>
+    <div class="lab-stat"><span class="lab-stat-n">{{ len (where $courses "Params.faculty" "informatics") }}</span><span class="lab-stat-l">for informatics students</span></div>
+  </section>
+
+  {{- range $fac := slice "medicine" "informatics" "schools" -}}
+  {{- with where $courses "Params.faculty" $fac }}
+  <section class="lab-section">
+    <h2 class="lab-h2">{{ partial "lab/faculty.html" $fac }}</h2>
+    <div class="lab-card-grid">
+      {{- range . }}
+      {{- $last := index (sort .RegularPages "Date" "desc") 0 -}}
+      <a class="lab-card" href="{{ .RelPermalink }}">
+        <span class="lab-card-img">{{ partial "lab/thumb.html" (dict "page" . "w" 720 "h" 360 "class" "w-full h-full object-cover" "fallback" true) }}</span>
+        <span class="lab-card-body"><span class="lab-kicker">{{ .Params.format }} · {{ .Params.acronym }}{{ with .Params.ects }} · {{ . }} ECTS{{ end }}</span>
+          <span class="lab-card-title">{{ .Title }}</span>
+          <span class="lab-card-text">{{ len .RegularPages }} offering{{ if ne (len .RegularPages) 1 }}s{{ end }}{{ with $last }} · latest: {{ (partial "lab/semester.html" .Params.semester).label }}{{ end }}</span></span>
+      </a>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+  {{- end }}
+
+  <section class="lab-section">
+    <h2 class="lab-h2">All offerings</h2>
+    {{- $yOpts := slice -}}{{- range sort (uniq $years) "value" "desc" }}{{ $yOpts = $yOpts | append (dict "value" . "label" .) }}{{ end -}}
+    {{- $sOpts := slice -}}{{- $seen := slice -}}{{- range sort $sems "sort" "desc" }}{{ if not (in $seen .code) }}{{ $seen = $seen | append .code }}{{ $sOpts = $sOpts | append (dict "value" .code "label" .label) }}{{ end }}{{ end -}}
+    {{- $cOpts := slice -}}{{- range $courses.ByTitle }}{{ $cOpts = $cOpts | append (dict "value" .File.ContentBaseName "label" (printf "%s (%s)" .Title .Params.acronym)) }}{{ end -}}
+    {{- $pOpts := slice -}}{{- range $k := uniq $people }}{{ with index site.Data.authors $k }}{{ $pOpts = $pOpts | append (dict "value" $k "label" .name.display) }}{{ end }}{{ end -}}
+    <div class="lab-filterbar" data-list>
+      <input type="search" data-search placeholder="Search courses…" class="lab-input" aria-label="Search courses">
+      {{ partial "lab/select.html" (dict "facet" "year" "label" "Any year" "options" $yOpts) }}
+      {{ partial "lab/select.html" (dict "facet" "semester" "label" "Any semester" "options" $sOpts) }}
+      {{ partial "lab/select.html" (dict "facet" "course" "label" "All courses" "options" $cOpts) }}
+      {{ partial "lab/select.html" (dict "facet" "faculty" "label" "All faculties" "options" (slice (dict "value" "medicine" "label" "Medical Faculty") (dict "value" "informatics" "label" "Informatics") (dict "value" "schools" "label" "Schools"))) }}
+      {{ partial "lab/select.html" (dict "facet" "person" "label" "Any lecturer/tutor" "options" (sort $pOpts "label")) }}
+      <button type="button" data-reset class="lab-btn-ghost">Reset</button>
+      <span class="lab-count"><b data-count>{{ len $offerings }}</b> shown</span>
+    </div>
+    <div class="overflow-x-auto"><table class="lab-table">
+      <thead><tr><th>Semester</th><th>Course</th><th>Format</th><th>Audience</th><th>Lecturers &amp; tutors</th></tr></thead>
+      <tbody>{{ range $offerings }}{{ partial "lab/offering-row.html" . }}{{ end }}</tbody>
+    </table></div>
+    <p data-empty hidden class="lab-empty">No offerings match these filters.</p>
+  </section>
+</div>
+
+{{- else -}}
+{{/* ===================== /teaching/<course>/ — one course, all semesters ===================== */}}
+{{- $offerings := sort .RegularPages "Date" "desc" -}}
+<article class="lab-page">
+  <nav class="lab-crumbs"><a href="{{ "/teaching/" | relLangURL }}">Teaching</a> / {{ .Params.acronym }}</nav>
+  <header class="lab-project-head">
+    <div>
+      <p class="lab-kicker">{{ .Params.format }} · {{ partial "lab/faculty.html" .Params.faculty }}</p>
+      <h1 class="lab-title">{{ .Title }} <span class="lab-muted">({{ .Params.acronym }})</span></h1>
+      {{ with .Params.summary }}<p class="lab-lead">{{ . | markdownify }}</p>{{ end }}
+      <div class="lab-row mt-3">{{ partial "lab/theme-chips.html" . }}{{ partial "lab/project-chips.html" (.Params.projects | default slice) }}</div>
+    </div>
+    <aside class="lab-facts-box">
+      {{ with .Params.program }}<p><b>Programme:</b> {{ . }}</p>{{ end }}
+      {{ with .Params.institution }}<p><b>Offered at:</b> {{ partial "lab/org.html" (dict "key" . "show_name" true) }}</p>{{ end }}
+      {{ with .Params.sws }}<p><b>Workload:</b> {{ . }} SWS{{ with $.Params.ects }}, {{ . }} ECTS{{ end }}</p>{{ end }}
+      {{ with .Params.language }}<p><b>Language:</b> {{ . }}</p>{{ end }}
+      <div class="lab-row mt-2">
+        {{ with .Params.module_url }}<a class="lab-btn" href="{{ . }}" target="_blank" rel="noopener">Module handbook ↗</a>{{ end }}
+        {{ with .Params.ecampus_url }}<a class="lab-btn lab-btn-alt" href="{{ . }}" target="_blank" rel="noopener">eCampus ↗</a>{{ end }}
+      </div>
+    </aside>
+  </header>
+  {{ with .Params.learning_objectives }}<section class="lab-section"><h2 class="lab-h2">Learning objectives</h2><ul class="lab-checks">{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ul></section>{{ end }}
+  {{ with .Params.prerequisites }}<section class="lab-section"><h2 class="lab-h2">Prerequisites</h2><ul class="lab-plain">{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ul></section>{{ end }}
+  {{ with .Content }}<section class="lab-section prose dark:prose-invert max-w-none">{{ . }}</section>{{ end }}
+  <section class="lab-section">
+    <h2 class="lab-h2">Offerings</h2>
+    <div class="overflow-x-auto"><table class="lab-table">
+      <thead><tr><th>Semester</th><th>Course</th><th>Format</th><th>Audience</th><th>Lecturers &amp; tutors</th></tr></thead>
+      <tbody>{{ range $offerings }}{{ partial "lab/offering-row.html" . }}{{ end }}</tbody>
+    </table></div>
+  </section>
+</article>
+{{- end -}}
+{{ end }}

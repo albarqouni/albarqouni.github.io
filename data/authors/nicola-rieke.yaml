@@ -1,0 +1,26 @@
+schema: hugoblox/author/v1
+slug: nicola-rieke
+is_owner: false
+name:
+  display: Nicola Rieke
+role: Senior Deep Learning Solution Architect
+group: guests
+bio: '# Biography
+
+
+  Nicola Rieke is a senior solution architect at NVIDIA for deep learning in healthcare and an active member of the medical imaging research community (e.g. Area Chair for MICCAI and IPCAI, organizer of various academic workshops). Throughout her studies and professional career, she has been working in the intersection of mathematics, medicine and computer science. In particular, she investigates real-time machine learning approaches for computer-assisted surgical interventions and federated learning for digital health. She holds a PhD from the Technical University of Munich, published various peer reviewed papers and was honored with the MICCAI Young Scientist Award.'
+affiliations:
+- name: NVIDIA
+  url: https://www.nvidia.com/en-us/
+links:
+- icon: at-symbol
+  url: mailto:nrieke@nvidia.com
+- icon: academicons/google-scholar
+  url: https://scholar.google.de/citations?user=4wvRrK4AAAAJ&hl=en
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/nicola-rieke
+interests: []
+education: []
+github: ''
+aliases:
+- N Rieke

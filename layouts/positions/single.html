@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="lab-page lab-narrow">
+  <nav class="lab-crumbs"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></nav>
+  <p class="lab-kicker">{{ with .Params.deadline }}Application deadline: {{ . }}{{ else }}Open until filled{{ end }}</p>
+  <h1 class="lab-title">{{ .Title }}</h1>
+  {{ with .Params.summary }}<p class="lab-lead">{{ . | markdownify }}</p>{{ end }}
+  <div class="lab-row my-4">{{ partial "lab/theme-chips.html" . }}{{ partial "lab/project-chips.html" (.Params.projects | default slice) }}{{ if ne .Params.status "closed" }}<a class="lab-btn" href="#apply">Apply now ↓</a>{{ end }}</div>
+  {{ with partial "functions/get_featured_image.html" . }}<figure class="lab-teaser">{{ if reflect.IsImageResourceProcessable . }}{{ $r := .Fit "1400x700 webp" }}<img src="{{ $r.RelPermalink }}" alt="" width="{{ $r.Width }}" height="{{ $r.Height }}">{{ else }}<img src="{{ .RelPermalink }}" alt="">{{ end }}</figure>{{ end }}
+  <div class="prose dark:prose-invert max-w-none">{{ .Content }}</div>
+  {{ if ne .Params.status "closed" }}{{ partial "lab/application-form.html" . }}{{ else }}<p class="lab-placeholder-box mt-8">This position has been filled.</p>{{ end }}
+</article>
+{{ end }}

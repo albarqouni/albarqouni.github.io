@@ -1,0 +1,20 @@
+schema: hugoblox/author/v1
+slug: anne-groteklaes
+is_owner: false
+name:
+  display: Anne Groteklaes
+role: Kinderärztin
+group: collaborators
+bio: ''
+affiliations:
+- name: University Hospital Bonn
+  url: ''
+links:
+- icon: at-symbol
+  url: mailto:anne.groteklaes@ukbonn.de
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- clinical

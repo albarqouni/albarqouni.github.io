@@ -1,0 +1,28 @@
+schema: hugoblox/author/v1
+slug: amal-lahiani
+is_owner: false
+name:
+  display: Amal Lahiani
+role: External PhD (TU Munich & Roche, 2020)
+group: alumni
+bio: Amal Lahiani did her PhD (2016–2020) as an external PhD student at the Chair for Computer Aided Medical Procedures (CAMP), TU Munich, and Roche Diagnostics in Penzberg, working with Shadi Albarqouni. Her work on digital pathology introduced virtual staining of whole slide images with unsupervised GANs — synthesising immunohistochemistry stains from H&E — together with perceptual embedding consistency for seamless tile-wise style transfer, and one-shot colour-deconvolution networks for multistain tissue segmentation. She continued at Roche working on deep learning for pathology.
+affiliations:
+- name: Roche Diagnostics, Penzberg
+  url: ''
+links: []
+interests:
+- Digital pathology
+- Virtual staining
+- Generative models
+education:
+- degree: PhD
+  institution: Technical University of Munich & Roche Diagnostics
+  end: '2020-12-31'
+- degree: Engineering degree
+  institution: MINES ParisTech
+  end: '2016-12-31'
+github: ''
+aliases: []
+tags: []
+now: Roche
+photo_credit: TUM CAMP (archived staff page)

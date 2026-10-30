@@ -1,0 +1,4 @@
+{{/* Logo of a publication's venue (data/venues.yaml → logo), or nothing. Args: page, class */}}
+{{- with index site.Data.venues (.page.Params.venue | default "") -}}{{- with .logo -}}{{- with resources.Get (printf "media/%s" .) -}}
+  {{- if reflect.IsImageResourceProcessable . }}{{ $l := .Fit "480x240 webp" }}<img src="{{ $l.RelPermalink }}" alt="" class="{{ $.class }}" loading="lazy">{{ else }}<img src="{{ .RelPermalink }}" alt="" class="{{ $.class }}" loading="lazy">{{ end -}}
+{{- end -}}{{- end -}}{{- end -}}

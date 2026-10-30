@@ -1,0 +1,39 @@
+schema: hugoblox/author/v1
+slug: david-gaviria
+is_owner: false
+name:
+  display: David D. Gaviria
+role: PhD Candidate
+group: phd
+bio: '# Biography
+
+  David is currently pursuing his PhD at the University Hospital Bonn, under the guidance of Prof. Dr. Shadi Albarqouni. With a background in engineering and informatics, he completed his interuniversity master''s degree in AI in 2022 from the Facultat d''Informàtica de Barcelona (FIB), which is a joint program of Universitat Politècnica de Catalunya, Universitat de Barcelona, and Universitat Rovira i Virgili. With over two years of industry experience in software development, David secured the first position in the live SIIM-ISIC 2019 competition for skin lesion classification and published a full paper at the International Conference VISAPP 2023. His goal is to leverage his skills and knowledge to make valuable contributions to the field of AI in medicine at the Albarqouni Lab.'
+affiliations:
+- name: Universitätsklinikum Bonn, Klinik für Diagnostische und Interventionelle Radiologie
+  url: https://www.ukbonn.de/radiologie/unser-team/
+- name: University of Bonn, Germany
+  url: https://www.uni-bonn.de/de
+links:
+- icon: at-symbol
+  url: mailto:david.gaviria@ukbonn.de
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=dkgphi4AAAAJ&hl
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/david-d-gaviria-313288161/
+- icon: brands/github
+  url: https://github.com/blobquiet/
+interests:
+- Machine Learning for Medical Imaging
+- Computer Vision
+education:
+- degree: M.Sc. in Artificial Intelligence
+  institution: Universitat Politècnica de Catalunya, Universitat de Barcelona and Universitat Rovira i Virgili, Faculty of Informatics, Barcelona
+  end: '2022-12-31'
+- degree: B.Eng. in Multimedia Engineering
+  institution: Universidad Autónoma de Occidente, Faculty of Engineering, Colombia
+  end: '2019-12-31'
+github: ''
+aliases:
+- David D Gaviria
+- David D. Gaviria
+- David Dueñas Gaviria

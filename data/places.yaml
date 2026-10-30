@@ -1,0 +1,48 @@
+# Gazetteer used to put events, news and community photos on the globe.
+# Content can either reference a key here (`place: bonn`) or give `coordinates: {lat, lon}` directly.
+# `aliases` are case-insensitive substrings the migration/sync scripts use to resolve free-text locations.
+bonn:        {name: "Bonn, Germany", lat: 50.7374, lon: 7.0982, country: Germany, aliases: [bonn, birlinghoven]}
+berlin:      {name: "Berlin, Germany", lat: 52.5200, lon: 13.4050, country: Germany, aliases: [berlin]}
+munich:      {name: "Munich, Germany", lat: 48.1351, lon: 11.5820, country: Germany, aliases: [munich, münchen, martinsried]}
+duesseldorf: {name: "Düsseldorf, Germany", lat: 51.2277, lon: 6.7735, country: Germany, aliases: [düsseldorf, dusseldorf]}
+hannover:    {name: "Hannover, Germany", lat: 52.3759, lon: 9.7320, country: Germany, aliases: [hannover]}
+karlsruhe:   {name: "Karlsruhe, Germany", lat: 49.0069, lon: 8.4037, country: Germany, aliases: [karlsruhe]}
+erlangen:    {name: "Erlangen, Germany", lat: 49.5897, lon: 11.0040, country: Germany, aliases: [erlangen]}
+ulm:         {name: "Ulm, Germany", lat: 48.4011, lon: 9.9876, country: Germany, aliases: [ulm]}
+oberkochen:  {name: "Oberkochen, Germany", lat: 48.7833, lon: 10.1000, country: Germany, aliases: [oberkochen]}
+freiburg:    {name: "Freiburg, Germany", lat: 47.9990, lon: 7.8421, country: Germany, aliases: [freiburg]}
+paris:       {name: "Paris, France", lat: 48.8566, lon: 2.3522, country: France, aliases: [paris]}
+strasbourg:  {name: "Strasbourg, France", lat: 48.5734, lon: 7.7521, country: France, aliases: [strasbourg]}
+rouen:       {name: "Rouen, France", lat: 49.4432, lon: 1.0999, country: France, aliases: [rouen]}
+brussels:    {name: "Brussels, Belgium", lat: 50.8503, lon: 4.3517, country: Belgium, aliases: [brussels]}
+maastricht:  {name: "Maastricht, Netherlands", lat: 50.8514, lon: 5.6910, country: Netherlands, aliases: [maastricht, masstricht]}
+zurich:      {name: "Zurich, Switzerland", lat: 47.3769, lon: 8.5417, country: Switzerland, aliases: [zurich, zürich]}
+geneva:      {name: "Geneva, Switzerland", lat: 46.2044, lon: 6.1432, country: Switzerland, aliases: [geneva]}
+london:      {name: "London, UK", lat: 51.5072, lon: -0.1276, country: United Kingdom, aliases: [london]}
+manchester:  {name: "Manchester, UK", lat: 53.4808, lon: -2.2426, country: United Kingdom, aliases: [manchester]}
+warwick:     {name: "Warwick, UK", lat: 52.2819, lon: -1.5849, country: United Kingdom, aliases: [warwick]}
+standrews:   {name: "St Andrews, UK", lat: 56.3398, lon: -2.7967, country: United Kingdom, aliases: [st. andrews, st.andrews, st andrews]}
+bilbao:      {name: "Bilbao, Spain", lat: 43.2630, lon: -2.9350, country: Spain, aliases: [bilbao]}
+nicosia:     {name: "Nicosia, Cyprus", lat: 35.1856, lon: 33.3823, country: Cyprus, aliases: [nicosia]}
+tunis:       {name: "Tunis, Tunisia", lat: 36.8065, lon: 10.1815, country: Tunisia, aliases: [tunis]}
+cairo:       {name: "Cairo, Egypt", lat: 30.0444, lon: 31.2357, country: Egypt, aliases: [cairo]}
+marrakesh:   {name: "Marrakesh, Morocco", lat: 31.6295, lon: -7.9811, country: Morocco, aliases: [marrakesh, marrakech]}
+beirut:      {name: "Beirut, Lebanon", lat: 33.8938, lon: 35.5018, country: Lebanon, aliases: [beirut]}
+amman:       {name: "Amman, Jordan", lat: 31.9454, lon: 35.9284, country: Jordan, aliases: [amman]}
+gaza:        {name: "Gaza, Palestine", lat: 31.5017, lon: 34.4668, country: Palestine, aliases: [gaza, hebron, palestine]}
+duhok:       {name: "Duhok, Iraq", lat: 36.8669, lon: 42.9503, country: Iraq, aliases: [duhok]}
+abudhabi:    {name: "Abu Dhabi, UAE", lat: 24.4539, lon: 54.3773, country: United Arab Emirates, aliases: [abu dhabi]}
+dubai:       {name: "Dubai, UAE", lat: 25.2048, lon: 55.2708, country: United Arab Emirates, aliases: [dubai]}
+sharjah:     {name: "Sharjah, UAE", lat: 25.3463, lon: 55.4209, country: United Arab Emirates, aliases: [sharjah]}
+doha:        {name: "Doha, Qatar", lat: 25.2854, lon: 51.5310, country: Qatar, aliases: [doha]}
+singapore:   {name: "Singapore", lat: 1.3521, lon: 103.8198, country: Singapore, aliases: [singapore]}
+shanghai:    {name: "Shanghai, China", lat: 31.2304, lon: 121.4737, country: China, aliases: [shanghai]}
+shenzhen:    {name: "Shenzhen, China", lat: 22.5431, lon: 114.0579, country: China, aliases: [shenzhen]}
+okinawa:     {name: "Okinawa, Japan", lat: 26.2124, lon: 127.6809, country: Japan, aliases: [okinawa]}
+daejeon:     {name: "Daejeon, South Korea", lat: 36.3504, lon: 127.3845, country: South Korea, aliases: [daejon, daejeon]}
+melbourne:   {name: "Melbourne, Australia", lat: -37.8136, lon: 144.9631, country: Australia, aliases: [melbourne]}
+vancouver:   {name: "Vancouver, Canada", lat: 49.2827, lon: -123.1207, country: Canada, aliases: [vancouver]}
+buffalo:     {name: "Buffalo, USA", lat: 42.8864, lon: -78.8784, country: United States, aliases: [buffalo]}
+newyork:     {name: "New York, USA", lat: 40.7128, lon: -74.0060, country: United States, aliases: [new york]}
+lima:        {name: "Lima, Peru", lat: -12.0464, lon: -77.0428, country: Peru, aliases: [lima]}
+online:      {name: "Online", lat: null, lon: null, country: "", aliases: [virtual, online]}

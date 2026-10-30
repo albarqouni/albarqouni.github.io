@@ -1,0 +1,176 @@
+# Venue registry — quality indicators shown as badges on publications and in the home-page "Venues" pillar.
+#
+# Updated every July by scripts/update_venues.py (.github/workflows/update-venues.yml):
+#   openalex:        AUTOMATIC — 2-year mean citedness (an open, impact-factor-like metric) and h-index from OpenAlex
+#   acceptance:      AUTOMATIC for CV/ML conferences (community dataset lixin4ever/Conference-Acceptance-Rate);
+#                    values already present here are never overwritten (hand-curated values win)
+#   quartile:        SJR quartile — refreshed when a SCImago CSV is supplied (SCImago blocks automated downloads)
+#   impact_factor:   Clarivate JIF — proprietary; seeded from the sources below. The yearly PR lists every journal
+#                    whose JIF is older than the latest JCR release so it can be checked in JCR (UniBonn licence).
+# Badges prefer the JIF; journals without one show the OpenAlex citedness instead (clearly labelled).
+#
+# match: case-insensitive substrings used to assign `venue:` to a publication; issn: used to look up OpenAlex/SJR.
+
+# ------------------------------------------------------------------ journals
+bmj:
+  name: The BMJ
+  short: The BMJ
+  match: ["^bmj$", "the bmj", "british medical journal"]
+  type: journal
+  issn: ["0959-8138", "1756-1833"]
+  logo: venues/bmj.png
+  quartile: Q1
+  impact_factor: {value: 42.7, year: 2025, source: "Journal Metrics (JCR June 2026) · ANNU slide", verified: false}
+nature-mi:
+  name: Nature Machine Intelligence
+  short: Nature Mach. Intell.
+  match: ["nature machine intelligence"]
+  type: journal
+  issn: ["2522-5839"]
+  logo: venues/natmi.png
+  quartile: Q1
+  impact_factor: {value: 23.9, year: 2025, source: "ANNU slide; SciJournal lists 22.3 — check JCR", verified: false}
+radiology-ai:
+  name: "Radiology: Artificial Intelligence"
+  short: "Radiology: AI"
+  match: ["radiology: artificial intelligence", "radiology artificial intelligence"]
+  type: journal
+  issn: ["2638-6100"]
+  quartile: Q1
+  impact_factor: {value: 20.1, year: 2025, source: "https://www.rsna.org/news/2026/june/2025-journals-impact-factors", verified: true}
+ieee-tmi:
+  name: IEEE Transactions on Medical Imaging
+  short: IEEE TMI
+  match: ["transactions on medical imaging", "ieee tmi"]
+  type: journal
+  issn: ["0278-0062", "1558-254X"]
+  logo: venues/tmi.png
+  quartile: Q1
+  impact_factor: {value: 12.4, year: 2025, source: "https://ieeetmi.org/", verified: true}
+media:
+  name: Medical Image Analysis
+  short: Medical Image Analysis
+  match: ["^medical image analysis$", "^medical image analysis,"]
+  type: journal
+  issn: ["1361-8415", "1361-8423"]
+  logo: venues/media.png
+  quartile: Q1
+  impact_factor: {value: 11.8, year: 2024, source: "ANNU slide; aggregators disagree on the 2025 value — check JCR", verified: false}
+jacr:
+  name: Journal of the American College of Radiology
+  short: JACR
+  match: ["journal of the american college of radiology"]
+  type: journal
+  issn: ["1546-1440", "1558-349X"]
+  logo: venues/jacr.png
+  quartile: Q1
+  impact_factor: {value: 5.3, year: 2025, source: "ANNU slide · https://www.acr.org/News-and-Publications/2026/jacr-impact-factor-increase", verified: false}
+sci-rep:
+  name: Scientific Reports
+  short: Scientific Reports
+  match: ["scientific reports"]
+  type: journal
+  issn: ["2045-2322"]
+  logo: venues/scirep.png
+  quartile: Q1
+  impact_factor: {value: 4.9, year: 2025, source: "ANNU slide — check JCR", verified: false}
+ijcars:
+  name: International Journal of Computer Assisted Radiology and Surgery
+  short: IJCARS
+  match: ["computer assisted radiology and surgery", "ijcars", "int. j. comput. assist. radiol. surg"]
+  type: journal
+  issn: ["1861-6410", "1861-6429"]
+  quartile: Q2
+melba:
+  name: Machine Learning for Biomedical Imaging (MELBA)
+  short: MELBA
+  match: ["machine learning for biomedical imaging", "melba"]
+  type: journal
+  issn: ["2766-905X"]
+
+# ------------------------------------------------------------------ conferences
+neurips:
+  name: Advances in Neural Information Processing Systems (NeurIPS)
+  short: NeurIPS
+  match: ["neural information processing systems", "neurips", "nips"]
+  type: conference
+  logo: venues/neurips.png
+  core_rank: A*
+  acceptance: {2022: 25.7, 2023: 26.1, 2025: 24.5}
+  acceptance_sources: ["ANNU slide (2022, 2023)", "NeurIPS 2025 program-chair post-mortem via https://intuitionlabs.ai/articles/neurips-2025-conference-summary-trends"]
+aaai:
+  name: AAAI Conference on Artificial Intelligence
+  short: AAAI
+  match: ["aaai"]
+  type: conference
+  logo: venues/aaai.png
+  core_rank: A*
+  acceptance: {2023: 19.6, 2026: 17.6}
+  acceptance_sources: ["ANNU slide (2023)", "AAAI 2026 decision emails (4,167 / 23,680) as reported by forum.cspaper.org"]
+cvpr:
+  name: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+  short: CVPR
+  match: ["computer vision and pattern recognition", "cvpr"]
+  type: conference
+  core_rank: A*
+  acceptance: {}
+eccv:
+  name: European Conference on Computer Vision (ECCV)
+  short: ECCV
+  match: ["european conference on computer vision", "eccv"]
+  type: conference
+  core_rank: A*
+  acceptance: {}
+iccv:
+  name: IEEE/CVF International Conference on Computer Vision (ICCV)
+  short: ICCV
+  match: ["international conference on computer vision", "iccv"]
+  type: conference
+  core_rank: A*
+  acceptance: {}
+miccai:
+  name: Medical Image Computing and Computer-Assisted Intervention (MICCAI)
+  short: MICCAI
+  match: ["miccai", "medical image computing and computer assisted", "medical image computing and computer-assisted"]
+  type: conference
+  logo: venues/miccai.png
+  core_rank: A
+  acceptance: {2022: 31, 2025: 29, 2026: 26.5}
+  acceptance_sources: ["ANNU slide (2022, 2025)", "MICCAI 2026 programme book: 1,167 accepted of 4,402 fully reviewed — https://conferences.miccai.org/2026/files/downloads/MICCAI2026-Program-Book.pdf"]
+ipmi:
+  name: Information Processing in Medical Imaging (IPMI)
+  short: IPMI
+  match: ["information processing in medical imaging", "ipmi"]
+  type: conference
+  core_rank: A
+isbi:
+  name: IEEE International Symposium on Biomedical Imaging (ISBI)
+  short: IEEE ISBI
+  match: ["international symposium on biomedical imaging", "isbi"]
+  type: conference
+  logo: venues/isbi.png
+  core_rank: B
+  acceptance: {2026: 51}
+  acceptance_sources: ["ISBI 2026 programme (all formats): https://confcats-event-sessions.s3.us-east-1.amazonaws.com/isbi26/uploads/ISBI_2026_Program_v11b.pdf"]
+midl:
+  name: Medical Imaging with Deep Learning (MIDL)
+  short: MIDL
+  match: ["medical imaging with deep learning", "midl"]
+  type: conference
+wacv:
+  name: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+  short: WACV
+  match: ["winter conference on applications of computer vision", "wacv"]
+  type: conference
+  acceptance: {}
+bmvc:
+  name: British Machine Vision Conference (BMVC)
+  short: BMVC
+  match: ["british machine vision conference", "bmvc"]
+  type: conference
+  acceptance: {}
+arxiv:
+  name: arXiv preprint
+  short: arXiv
+  match: ["arxiv"]
+  type: preprint

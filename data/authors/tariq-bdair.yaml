@@ -1,0 +1,38 @@
+schema: hugoblox/author/v1
+slug: tariq-bdair
+is_owner: false
+name:
+  display: Tariq Bdair
+role: PhD (TU Munich, 2023)
+group: alumni
+bio: '# Biography
+
+
+  Tariq Bdair is a Software Architect & Technical Leader. He possesses vast experience in software development in the industry for more than 8 years.  He has developed a large number of applications using different programming languages using state-of-art technologies, software engineering methodologies, and software-development-life-cycle (SDLC). Since 2018 he is pursuing his Ph.D. at the Chair for Computer Aided Medical Procedures (CAMP), Technical University of Munich (TUM), Germany, under the supervision of  Prof. Nassir Navab and Dr. Shadi Albarqouni. His research interest includes Semi-Supervised Learning, Medical Images Segmentation, and Federated Learning.'
+affiliations:
+- name: Technical University of Munich
+  url: https://www.tum.de/
+links:
+- icon: at-symbol
+  url: mailto:t.bdair@tum.de
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=Wo_ApmgAAAAJ&hl=en
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/tariq-b-5a85381a/
+- icon: brands/x
+  url: https://twitter.com/tmab1900
+interests: []
+education:
+- degree: M.Sc. in Computer Engineering
+  institution: German Jordanian University, Jordan
+  end: '2016-12-31'
+- degree: B.Sc. in Computer Engineering
+  institution: Jordan University of Science & Technology, Jordan
+  end: '2005-12-31'
+github: ''
+aliases: []
+now: Faculty member, School of Computing Sciences, Princess Sumaya University for Technology, Amman
+now_source:
+  source: OpenAlex (paper 2025)
+  url: https://doi.org/10.1109/ictcs65341.2025.10989360
+  checked: '2026-10-30'

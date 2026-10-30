@@ -1,0 +1,37 @@
+schema: hugoblox/author/v1
+slug: jiajun-zeng
+is_owner: false
+name:
+  display: Jiajun Zeng
+role: PhD Candidate
+group: phd
+bio: '# Biography
+
+
+  Jiajun Zeng is a PhD candidate at the University of Bonn, supervised by Prof. Shadi Albarqouni. He holds an MSc in Biomedical Engineering from Shenzhen University. During his master’s studies, he focused on AI for ultrasound image computing under the supervision of Assoc. Prof. Ruobing Huang and Prof. Dong Ni. His research interests span AI for healthcare, particularly in enhancing radiologists’ workflows through anatomical structure segmentation, disease diagnosis, and treatment support — with a focus on scenarios involving limited annotations and scarce computational resources. Currently, he is exploring efficient vision-language models and multimodal large language models for applications in the healthcare domain.'
+affiliations:
+- name: Universitätsklinikum Bonn, Klinik für Diagnostische und Interventionelle Radiologie
+  url: https://www.ukbonn.de/radiologie/unser-team/
+- name: University of Bonn, Germany
+  url: https://www.uni-bonn.de/de
+links:
+- icon: at-symbol
+  url: mailto:jiajun.zeng@ukbonn.de
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=ePNMLpAAAAAJ
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/jiajun-zeng92/
+interests:
+- AI4Health
+- Computer vision
+- Vision language models
+- Machine learning
+education:
+- degree: M.Sc. in Biomedical Engineering
+  institution: Shenzhen University
+  end: '2025-12-31'
+- degree: B.Sc. in Biomedical Engineering
+  institution: Tiangong University
+  end: '2020-12-31'
+github: ''
+aliases: []

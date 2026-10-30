@@ -1,0 +1,17 @@
+schema: hugoblox/author/v1
+slug: niklas-kerkfeld
+is_owner: false
+name:
+  display: Niklas Kerkfeld
+role: B.Sc. thesis (University of Bonn, 2023)
+group: alumni
+bio: ''
+affiliations:
+- name: University of Bonn
+  url: ''
+links: []
+interests: []
+education: []
+github: ''
+aliases: []
+tags: []

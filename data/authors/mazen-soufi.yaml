@@ -1,0 +1,36 @@
+schema: hugoblox/author/v1
+slug: mazen-soufi
+is_owner: false
+name:
+  display: Mazen Soufi
+role: Visiting Scientist (NAIST, 2022)
+group: alumni
+bio: '# Biography
+
+
+  Mazen Soufi is an Assistant Professor at the Imaging-based Computational Biomedicine Laboratory at Nara Institute of Science and Technology since 2018. He obtained his Bachelor’s degree in Biomedical Engineering, from Damascus University (Syria) in 2011, and his Master’s and Ph.D. degrees in Health Sciences from Kyushu University (Japan) in 2014 and 2017, respectively under the Japanese Government Scholarship (MEXT). During his Ph.D., he was awarded the Fellowship for Young Scientists from the Japan Society for the Promotion of Science (JSPS; DC2). His research interests include the application of data science and deep learning for medical image analysis and disease modeling. His current research focuses on musculoskeletal system analysis from medical images in collaboration with several medical institutes in Japan.
+
+
+  During his research stay (December 2022) at the University Hospital Bonn, he will be working closely with [Prof. Dr. Shadi Albarqouni](https://albarqouni.github.io/authors/shadi-albarqouni/) on Multi-national/multi-institutional 3D musculoskeletal analysis in CT images for muscle assessment based on federated learning.'
+affiliations:
+- name: Nara Institute of Science and Technology
+  url: icb-lab.naist.jp/english/index.html
+links:
+- icon: at-symbol
+  url: mailto:msoufi@is.naist.jp
+- icon: academicons/google-scholar
+  url: https://scholar.google.co.jp/citations?user=QTkbI48AAAAJ&hl=en
+interests: []
+education:
+- degree: Ph.D. in Health Sciences
+  institution: Kyushu University, Japan
+  end: '2017-12-31'
+- degree: M.Sc. in Health Sciences
+  institution: Kyushu University, Japan
+  end: '2014-12-31'
+- degree: B.Sc. in Biomedical Engineering
+  institution: Damascus University, Syria
+  end: '2011-12-31'
+github: ''
+aliases: []
+now: Assistant Professor, Faculty of Engineering, University of Miyazaki

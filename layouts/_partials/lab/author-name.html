@@ -1,0 +1,3 @@
+{{/* Display name for an authors[] entry: team-member slug → profile name, anything else unchanged. */}}
+{{- $d := index site.Data.authors (urlize .) -}}
+{{- return (cond (and $d (isset $d "name")) $d.name.display .) -}}

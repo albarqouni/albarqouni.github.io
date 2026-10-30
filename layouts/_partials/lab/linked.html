@@ -1,0 +1,6 @@
+{{/* Pages in a section whose front-matter list `param` contains `value`. Returns a page collection. */}}
+{{- $out := slice -}}
+{{- range where site.RegularPages "Section" .section -}}
+  {{- if in (index .Params $.param | default slice) $.value }}{{ $out = $out | append . }}{{ end -}}
+{{- end -}}
+{{- return $out -}}

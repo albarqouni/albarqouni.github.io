@@ -1,0 +1,13 @@
+{{- $c := dict -}}
+{{- range .Pages }}{{ $c = merge $c (dict .Section (add (index $c .Section | default 0) 1)) }}{{ end -}}
+<a href="{{ .RelPermalink }}" class="lab-theme-card" style="--c: {{ .Params.color }}; --ink: {{ .Params.ink | default .Params.color }}">
+  {{ partial "lab/theme-icon.html" (dict "page" . "size" 56) }}
+  <span class="lab-theme-title">{{ .Title }}</span>
+  <span class="lab-theme-text">{{ .Params.summary }}</span>
+  <span class="lab-theme-counts">
+    {{ with index $c "publications" }}<span><b>{{ . }}</b> papers</span>{{ end }}
+    {{ with index $c "projects" }}<span><b>{{ . }}</b> projects</span>{{ end }}
+    {{ with index $c "teaching" }}<span><b>{{ . }}</b> courses</span>{{ end }}
+    {{ with add (index $c "datasets" | default 0) (add (index $c "code" | default 0) (index $c "demos" | default 0)) }}<span><b>{{ . }}</b> resources</span>{{ end }}
+  </span>
+</a>

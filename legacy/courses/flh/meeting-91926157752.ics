@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20201105T125414Z
+DTSTART;TZID=Europe/Berlin:20201109T100000
+DTEND;TZID=Europe/Berlin:20201109T121500
+SUMMARY:Seminar on Federated Learning in Healthcare
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20210125T111500;INTERVAL=1;BYDAY=MO
+UID:ZOOM91926157752
+TZID:Europe/Berlin
+DESCRIPTION:Shadi Albarqouni is inviting you to a scheduled Zoom meeting.
+ \n\nJoin Zoom Meeting\nhttps://tum-conf.zoom.us/j/91926157752\n\nMeeting
+  ID: 919 2615 7752\nPasscode: FLHWiSe20\nOne tap mobile\n+493056795800\,
+ \,91926157752#\,\,\,\,\,\,0#\,\,871451164# Germany\n+496938079883\,\,919
+ 26157752#\,\,\,\,\,\,0#\,\,871451164# Germany\n\nDial by your location\n
+         +49 30 5679 5800 Germany\n        +49 69 3807 9883 Germany\n    
+     +49 695 050 2596 Germany\n        +49 69 7104 9922 Germany\n        
+ +1 253 215 8782 US (Tacoma)\n        +1 301 715 8592 US (Washington D.C)
+ \n        +1 312 626 6799 US (Chicago)\n        +1 346 248 7799 US (Hous
+ ton)\n        +1 646 558 8656 US (New York)\n        +1 669 900 9128 US 
+ (San Jose)\nMeeting ID: 919 2615 7752\nPasscode: 871451164\nFind your lo
+ cal number: https://tum-conf.zoom.us/u/aS3Vex4H8\n\nJoin by SIP\n9192615
+ 7752@zoomcrc.com\n\nJoin by H.323\n162.255.37.11 (US West)\n162.255.36.1
+ 1 (US East)\n213.19.144.110 (Amsterdam Netherlands)\n213.244.140.110 (Ge
+ rmany)\nMeeting ID: 919 2615 7752\nPasscode: 871451164\n\n
+LOCATION:https://tum-conf.zoom.us/j/91926157752
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

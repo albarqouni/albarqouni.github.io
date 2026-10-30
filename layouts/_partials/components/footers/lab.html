@@ -1,0 +1,20 @@
+{{/* Centred lab footer: bee + name, links, host institutions, address, copyright. */}}
+{{- $addr := site.Params.hugoblox.seo.location.address -}}
+<footer class="lab-footer" aria-labelledby="footer-heading">
+  <h2 id="footer-heading" class="sr-only">Footer</h2>
+  <nav class="lab-footer-nav" aria-label="Main menu">
+    {{- range site.Menus.main }}<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>{{ $u := .URL }}{{ range .Children }}{{ if ne .URL $u }}<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>{{ end }}{{ end }}{{ end -}}
+  </nav>
+  <div class="lab-footer-hosts">
+    {{- range $h := slice (dict "key" "comi" "light" "brand/t-comi-navy.png" "dark" "brand/t-comi-white.png") (dict "key" "uni-bonn" "light" "brand/unibonn-color.png" "dark" "brand/unibonn-white.png") (dict "key" "ukb" "light" "brand/ukb-color.png" "dark" "brand/ukb-white.png") }}
+    {{- $o := index site.Data.organizations $h.key | default (dict "name" "Computational Medical Imaging Research (CoMI)" "url" site.Home.Permalink) }}
+    <a href="{{ $o.url }}" {{ if ne $h.key "comi" }}target="_blank" rel="noopener"{{ end }} title="{{ $o.name }}" class="lab-host-{{ $h.key }}">
+      {{ with resources.Get (printf "media/%s" $h.light) }}{{ $l := .Fit "360x120 webp" }}<img class="lab-logo-light" src="{{ $l.RelPermalink }}" alt="{{ $o.name }}">{{ end }}
+      {{ with resources.Get (printf "media/%s" $h.dark) }}{{ $l := .Fit "360x120 webp" }}<img class="lab-logo-dark" src="{{ $l.RelPermalink }}" alt="{{ $o.name }}">{{ end }}
+    </a>
+    {{- end }}
+  </div>
+  <p class="lab-footer-addr">{{ with $addr }}{{ .street }} · {{ .postal_code }} {{ .city }} · {{ .country }}{{ end }}</p>
+  <nav class="lab-footer-legal" aria-label="Legal"><a href="{{ "/contact/" | relLangURL }}">Contact</a> · <a href="{{ "/impressum/" | relLangURL }}">Impressum</a> · <a href="{{ "/privacy/" | relLangURL }}">Privacy / Datenschutz</a> · <a href="#" data-consent-open>Cookie settings</a> · <a href="{{ "/admin/" | relLangURL }}">Team login</a></nav>
+  <p class="lab-footer-copy">© {{ now.Year }} Albarqouni Lab — Computational Medical Imaging Research, University of Bonn &amp; University Hospital Bonn · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> · Built with <a href="https://hugoblox.com">Hugo Blox</a></p>
+</footer>

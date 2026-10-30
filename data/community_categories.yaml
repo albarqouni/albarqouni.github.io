@@ -1,0 +1,5 @@
+# Categories for community entries (`category:` in content/community/*/index.md). Order = filter order.
+talk: {label: Talks, color: "#07529a"}
+conference: {label: Conferences, color: "#0f766e"}
+meeting: {label: Meetings, color: "#7c3aed"}
+event: {label: Events & schools, color: "#b45309"}

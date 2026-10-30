@@ -1,0 +1,6 @@
+{{/* Theme icon from the CoMI slide set (assets/media/<icon_image>), drawn white on the theme colour. Args: page, size */}}
+{{- $size := .size | default 48 -}}
+{{- with resources.Get (printf "media/%s" (.page.Params.icon_image | default "icons/comi-bee.png")) -}}
+  {{- $i := .Fit (printf "%dx%d webp" (mul $size 2) (mul $size 2)) -}}
+  <span class="lab-theme-icon" style="width:{{ $size }}px;height:{{ $size }}px"><img src="{{ $i.RelPermalink }}" alt="" width="{{ div $size 1.6 }}" height="{{ div $size 1.6 }}"></span>
+{{- end -}}

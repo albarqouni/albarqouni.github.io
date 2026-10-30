@@ -1,0 +1,38 @@
+schema: hugoblox/author/v1
+slug: ashkan-shakarami
+is_owner: false
+name:
+  display: Ashkan Shakarami
+role: Postdoctoral Fellow
+group: researchers
+bio: '# Biography
+
+
+  Ashkan Shakarami is a Computer Scientist and Postdoctoral Fellow in Artificial Intelligence at the Histology Lab, Department of Ophthalmology ([Prof. Martina Herwig-carl](../martina-herwigcarl/)) at the University Hospital Bonn. His research focuses on Artificial General Intelligence (AGI), Computer Vision, Neural Networks, Computer-Aided Diagnosis, Histopathology, and Ophthalmology. Ashkan specializes in the design of Computer-Aided Diagnosis (CAD) systems for Medical Disease Diagnosis. He obtained his PhD from the University of Padova and was a visiting PhD researcher at the Technical University of Munich.'
+affiliations:
+- name: Universitätsklinikum Bonn, Department of Ophthalmology
+  url: https://www.ukbonn.de
+links:
+- icon: at-symbol
+  url: mailto:Ashkan.Shakarami@ukbonn.de
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/ashkanshakarami/
+interests:
+- Artificial General Intelligence
+- Computer Vision
+- Neural Networks
+- Computer-Aided Diagnosis
+- Histopathology
+- Ophthalmology
+education:
+- degree: Postdoctoral Fellow in Artificial Intelligence
+  institution: University of Bonn, Germany
+  end: null
+- degree: PhD Visitor in Artificial Intelligence
+  institution: Technical University of Munich, Germany
+  end: null
+- degree: PhD in Artificial Intelligence
+  institution: University of Padova, Italy
+  end: null
+github: ''
+aliases: []

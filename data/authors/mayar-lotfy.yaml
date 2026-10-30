@@ -1,0 +1,34 @@
+schema: hugoblox/author/v1
+slug: mayar-lotfy
+is_owner: false
+name:
+  display: Mayar Lotfy
+role: M.Sc. thesis (TU Munich, 2019)
+group: alumni
+bio: Mayar Lotfy (Mayar Lotfy Mostafa) worked with Shadi Albarqouni at the Chair for Computer Aided Medical Procedures (CAMP), TU Munich, on proximal femur fracture classification in X-ray images — investigating focal loss for class-imbalanced fracture classification and uncertainty estimation for fracture grading. She went on to a doctorate with TUM CAMP and Carl Zeiss on AI for surgical and hyperspectral imaging, including graph neural networks for robust tumour segmentation and masked autoencoders for surgical event recognition.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=sRdB9xUAAAAJ
+  label: Google Scholar
+interests:
+- Medical image classification
+- Surgical data science
+- Hyperspectral imaging
+education:
+- degree: PhD (TU Munich & Carl Zeiss)
+  institution: Technical University of Munich
+  end: ''
+github: ''
+aliases:
+- Mayar Lotfy Mostafa
+- Mayar Mostafa
+- M Lotfy
+tags: []
+now: ZEISS Group
+now_source:
+  source: LinkedIn headline / Google Scholar
+  url: https://scholar.google.com/citations?user=sRdB9xUAAAAJ
+  checked: '2026-10-30'

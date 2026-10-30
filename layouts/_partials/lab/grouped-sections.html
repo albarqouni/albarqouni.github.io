@@ -1,0 +1,30 @@
+{{/* Render pages grouped by section. Args: pages, facet (e.g. "theme"), value — for "see all" links */}}
+{{- $pages := .pages -}}
+{{- $ctx := . -}}
+{{- $order := slice
+  (slice "projects" "Funded projects")
+  (slice "publications" "Publications")
+  (slice "datasets" "Datasets")
+  (slice "demos" "Demos")
+  (slice "code" "Code")
+  (slice "teaching" "Teaching")
+  (slice "media" "In the media")
+  (slice "community" "Community & events") -}}
+{{- range $order -}}
+  {{- $sec := index . 0 -}}{{- $title := index . 1 -}}
+  {{- $list := sort (where $pages "Section" $sec) "Date" "desc" -}}
+  {{- with $list }}
+  <section class="lab-section" id="{{ $sec }}">
+    <h2 class="lab-h2">{{ $title }} <span class="lab-count-pill">{{ len . }}</span>
+      {{ if and $ctx.facet (in (slice "publications" "projects") $sec) }}<a class="lab-see-all" href="{{ printf "/%s/?%s=%s" $sec $ctx.facet $ctx.value | relLangURL }}">filter all →</a>{{ end }}</h2>
+    {{ if eq $sec "publications" }}
+      <div>{{ range first ($ctx.limit | default 12) . }}{{ partial "lab/pub-item.html" . }}{{ end }}</div>
+      {{ if gt (len .) ($ctx.limit | default 12) }}<p class="mt-3"><a class="lab-btn lab-btn-alt" href="{{ printf "/publications/?%s=%s" $ctx.facet $ctx.value | relLangURL }}">All {{ len . }} publications →</a></p>{{ end }}
+    {{ else if eq $sec "projects" }}
+      <div class="lab-card-grid">{{ range . }}{{ partial "lab/project-card.html" . }}{{ end }}</div>
+    {{ else }}
+      <div class="lab-mini-grid">{{ range first 12 . }}{{ partial "lab/mini-card.html" . }}{{ end }}</div>
+    {{ end }}
+  </section>
+  {{- end -}}
+{{- end -}}

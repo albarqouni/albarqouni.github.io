@@ -1,0 +1,36 @@
+schema: hugoblox/author/v1
+slug: amine-ben-dhiab
+is_owner: false
+name:
+  display: Amine Ben Dhiab
+role: Master Thesis Student
+group: researchers
+bio: '# Biography
+
+  Amine Ben Dhiab is a Master''s student in Robotics, Cognition and Intelligence at the Technical University of Munich (TUM), currently pursuing his master''s thesis at the University of Bonn under the supervision of Prof. Dr. Shadi Albarqouni.
+
+
+  His work focuses on AI in medicine, machine learning, computer vision, and multimodal learning. He has worked on projects in medical imaging, vision-language modeling, graph-based learning, and clinical natural language processing.
+
+
+  His recent work includes MRI-based intervertebral disc degeneration analysis, biomedical vision-language modeling, and LLM-based structuring of radiology reports. He is interested in building robust and clinically relevant AI systems for healthcare.'
+affiliations:
+- name: Technical University of Munich, Germany
+  url: https://www.tum.de
+links:
+- icon: at-symbol
+  url: mailto:amine.ben-dhiab@tum.de
+- icon: brands/github
+  url: https://github.com/AmineBDhiab
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/amine-ben-dhiab/
+interests: []
+education:
+- degree: M.Sc. Robotics, Cognition and Intelligence
+  institution: Technical University of Munich, Germany
+  end: '2026-12-31'
+- degree: B.Sc. Electrical Engineering and Information Technology
+  institution: Technical University of Munich, Germany
+  end: '2022-12-31'
+github: ''
+aliases: []

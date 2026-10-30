@@ -1,0 +1,14 @@
+{{/* Featured/teaser image of a page, cropped to w×h. Args: page, w, h, class, fallback (bool: show gradient placeholder) */}}
+{{- $p := .page -}}
+{{- $w := .w | default 640 -}}{{- $h := .h | default 360 -}}
+{{- $img := partial "functions/get_featured_image.html" $p -}}
+{{- if $img -}}
+  {{- if reflect.IsImageResourceProcessable $img -}}
+    {{- $r := cond (eq $p.Section "publications") ($img.Fit (printf "%dx%d webp" (mul $w 2) (mul $h 2))) ($img.Fill (printf "%dx%d webp %s" $w $h (lower ($p.Params.image.focal_point | default "smart")))) -}}
+    <img src="{{ $r.RelPermalink }}" width="{{ $r.Width }}" height="{{ $r.Height }}" alt="{{ $p.Title }}" loading="lazy" class="{{ .class }}">
+  {{- else -}}
+    <img src="{{ $img.RelPermalink }}" alt="{{ $p.Title }}" loading="lazy" class="{{ .class }} object-cover">
+  {{- end -}}
+{{- else if .fallback -}}
+  <div class="{{ .class }} lab-placeholder flex items-center justify-center" aria-hidden="true"><span>{{ $p.Params.acronym | default (substr $p.Title 0 1) }}</span></div>
+{{- end -}}

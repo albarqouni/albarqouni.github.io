@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: said-el-shamieh
+is_owner: false
+name:
+  display: Said El Shamieh
+role: Professor of Human Genetics, Faculty of Health Sciences, Beirut Arab University
+group: collaborators
+bio: Said El Shamieh is Professor of Human Genetics at the Faculty of Health Sciences, Beirut Arab University, and Adjunct Researcher at the Institut de la Vision, Sorbonne Université, Paris. His research covers the genetics of inherited retinal diseases, pharmacogenomics in Middle Eastern populations, statistical genetics of cardiovascular and metabolic traits, and multi-omics integration.
+affiliations:
+- name: Faculty of Health Sciences, Beirut Arab University, Lebanon
+  url: https://www.bau.edu.lb/staff/Health-Sciences/Said-Shamieh/435
+links:
+- icon: hero/link
+  url: https://www.bau.edu.lb/staff/Health-Sciences/Said-Shamieh/435
+  label: BAU profile
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=HxhMCdcAAAAJ
+  label: Google Scholar
+interests:
+- Human genetics
+- Inherited retinal diseases
+- Pharmacogenomics
+- Statistical genetics
+education: []
+github: ''
+aliases: []
+tags:
+- academic
+photo_credit: Beirut Arab University

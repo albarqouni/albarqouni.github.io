@@ -1,0 +1,14 @@
+{{/* Returns a coarse publication category used for filters and statistics. */}}
+{{- $t := index (.Params.publication_types | default (slice "manuscript")) 0 -}}
+{{- $venue := lower (.Params.publication.name | default "") -}}
+{{- $r := "other" -}}
+{{- if .Params.edited_volume }}{{ $r = "edited" }}
+{{- else if eq $t "patent" }}{{ $r = "patent" }}
+{{- else if eq $t "abstract" }}{{ $r = "abstract" }}
+{{- else if eq $t "article-journal" }}{{ $r = "journal" }}
+{{- else if eq $t "paper-conference" }}{{ $r = cond (or (in $venue "workshop") (in $venue "challenge")) "workshop" "conference" }}
+{{- else if in (slice "preprint" "manuscript") $t }}{{ $r = cond (or (in $venue "arxiv") (in $venue "medrxiv") (in $venue "biorxiv") (eq $t "preprint")) "preprint" "other" }}
+{{- else if in (slice "chapter" "book") $t }}{{ $r = "book" }}
+{{- else if eq $t "thesis" }}{{ $r = "thesis" }}
+{{- end -}}
+{{- return $r -}}

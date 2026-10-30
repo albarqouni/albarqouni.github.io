@@ -1,0 +1,11 @@
+{{/* Parse a semester code (WS2526 / SS26) → dict {code, label, years, sort} */}}
+{{- $c := upper (string .) -}}
+{{- $r := dict "code" $c "label" $c "years" (slice) "sort" "0" -}}
+{{- if hasPrefix $c "WS" -}}
+  {{- $a := add 2000 (int (substr $c 2 2)) -}}
+  {{- $r = dict "code" $c "label" (printf "Winter %d/%s" $a (substr $c 4 2)) "years" (slice (string $a) (string (add $a 1))) "sort" (printf "%d-2" $a) -}}
+{{- else if hasPrefix $c "SS" -}}
+  {{- $a := add 2000 (int (substr $c 2 2)) -}}
+  {{- $r = dict "code" $c "label" (printf "Summer %d" $a) "years" (slice (string $a)) "sort" (printf "%d-1" $a) -}}
+{{- end -}}
+{{- return $r -}}

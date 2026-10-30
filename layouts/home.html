@@ -1,0 +1,41 @@
+{{ define "main" }}
+{{- $pubs := where (where site.RegularPages "Section" "publications") "Draft" false -}}
+{{- $projects := where site.RegularPages "Section" "projects" -}}
+{{- $community := where site.RegularPages "Section" "community" -}}
+{{- $offerings := where site.RegularPages "Section" "teaching" -}}
+
+{{ partial "lab/banner.html" . }}
+
+<div class="lab-page">
+  <section class="lab-section">
+    <div class="lab-section-head"><h2 class="lab-h2">Research themes</h2><a class="lab-see-all" href="{{ "/themes/" | relLangURL }}">All themes →</a></div>
+    <div class="lab-theme-grid">{{ range sort site.Taxonomies.themes "Page.Weight" }}{{ partial "lab/theme-card.html" .Page }}{{ end }}</div>
+  </section>
+
+  <section class="lab-section">
+    <div class="lab-section-head"><h2 class="lab-h2">Latest news &amp; media</h2><a class="lab-see-all" href="{{ "/media/" | relLangURL }}">All media coverage →</a></div>
+    {{- $latest := first 8 (sort ((where site.RegularPages "Section" "media") | append $community) "Date" "desc") -}}
+    <div class="lab-mini-grid">{{ range $latest }}{{ partial "lab/mini-card.html" . }}{{ end }}</div>
+  </section>
+
+  <section class="lab-section">
+    <div class="lab-section-head"><h2 class="lab-h2">Active projects</h2><a class="lab-see-all" href="{{ "/projects/" | relLangURL }}">All projects →</a></div>
+    {{- $act := slice -}}{{- range $projects.ByDate.Reverse }}{{ if eq (partial "lab/period.html" .).status "active" }}{{ $act = $act | append . }}{{ end }}{{ end -}}
+    <div class="lab-card-grid">{{ range first 6 $act }}{{ partial "lab/project-card.html" . }}{{ end }}</div>
+  </section>
+
+  <section class="lab-section">
+    <div class="lab-section-head"><h2 class="lab-h2">Featured publications</h2></div>
+    <div class="lab-featured-grid mb-10">{{ range first 6 (where $pubs.ByDate.Reverse "Params.featured" true) }}{{ partial "lab/pub-featured.html" . }}{{ end }}</div>
+    <div class="lab-section-head"><h2 class="lab-h2">Recent publications</h2><a class="lab-see-all" href="{{ "/publications/" | relLangURL }}">All publications →</a></div>
+    <div>{{ range first 6 $pubs.ByDate.Reverse }}{{ partial "lab/pub-item.html" . }}{{ end }}</div>
+  </section>
+
+  {{ with where (where site.RegularPages "Section" "positions") "Params.status" "!=" "closed" }}
+  <section class="lab-cta">
+    <div><h2>We are hiring</h2><p>{{ len . }} open position{{ if gt (len .) 1 }}s{{ end }} — join us in Bonn.</p></div>
+    <a class="lab-btn" href="{{ "/positions/" | relLangURL }}">See open positions →</a>
+  </section>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,32 @@
+schema: hugoblox/author/v1
+slug: cosmin-bercea
+is_owner: false
+name:
+  display: Cosmin Bercea
+role: Researcher (Helmholtz Munich, 2021–2022)
+group: alumni
+bio: "# Biography\n\nCosmin Ionuț Bercea is a Researcher at the Albarqouni Lab led by [Shadi Albarqouni](https://albarqouni.github.io) at [Helmholtz AI](https://www.helmholtz.ai) and the [Technical University of Munich (TUM)](https://www.tum.de). \n\nHe was granted a study scholarship by the [e.V. Villigst](https://www.evstudienwerk.de) and received his B.Sc. and M.Sc. in Computer Science from the [Friedrich-Alexander University of Erlangen-Nuremberg (FAU)](https://www.fau.de), Germany, in 2015, and 2018, respectively. During his master, Bercea did an internship abroad at the [Computer Vision Centre (CVC)](http://www.cvc.uab.es) in Barcelona, Spain, where he developed machine learning algorithms for action recognition. He completed his master thesis at [Siemens Healthineers](https://www.siemens-healthineers.com), where he worked with [Olivier Pauly](https://scholar.google.com/citations?user=32cZkQEAAAAJ&hl=en), [Florin C. Ghesu](https://scholar.google.com/citations?hl=en&user=Z1-KZ8RoM6YC)\
+  \ and [Prof. Andreas K. Maier](https://scholar.google.com/citations?hl=en&user=MA6SDuEAAAAJ) on developing novel machine learning algorithms using [shared memory](https://www.springerprofessional.de/en/shamann-shared-memory-augmented-neural-networks/16739794) for medical imaging. Since then, Bercea has worked as a research engineer at [Bosch Corporate Research](https://www.bosch.com/research/) where he developed perception and behaviour prediction machine learning algorithms for self-driving cars. His current research interests include Precision Medicine, Anomaly Detection, Image Understanding and Federated Learning."
+affiliations:
+- name: Helmholtz AI
+  url: https://www.helmholtz.ai/
+- name: Technical University of Munich
+  url: https://www.tum.de/
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.de/
+interests: []
+education:
+- degree: M.Sc. in Computer Science
+  institution: Friedrich-Alexander Universität Erlangen-Nürnberg (FAU), Germany
+  end: '2018-12-31'
+- degree: (Exchange Semester) in Computer Science
+  institution: Universitat Autonoma de Barcelona (UAB), Spain
+  end: '2016-12-31'
+- degree: B.Sc. in Computer Science
+  institution: Friedrich-Alexander Universität Erlangen-Nürnberg (FAU), Germany
+  end: '2015-12-31'
+github: ''
+aliases:
+- Cosmin I Bercea
+now: Postdoctoral researcher, Chair for Computational Imaging and AI in Medicine, TU Munich

@@ -1,0 +1,42 @@
+{{/* SEO extras: Google Analytics, Search Console verification, Google Scholar (Highwire) tags and schema.org JSON-LD. */}}
+{{- $lab := site.Params.lab -}}
+{{ if .Params.archived }}<meta name="robots" content="noindex">{{ end }}
+
+{{/* --- Analytics: loaded by the consent banner (hooks/body-end/consent.html) only after opt-in. --- */}}
+{{/* --- Google Scholar / Highwire Press tags on publication pages --- */}}
+{{- if and (eq .Section "publications") .IsPage -}}
+<meta name="citation_title" content="{{ .Title }}">
+{{- range .Params.authors }}<meta name="citation_author" content="{{ partial "lab/author-name.html" . }}">{{ end }}
+<meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}">
+{{- with .Params.publication.name }}
+{{- $t := index ($.Params.publication_types | default (slice "")) 0 }}
+<meta name="{{ if eq $t "article-journal" }}citation_journal_title{{ else }}citation_conference_title{{ end }}" content="{{ . }}">{{ end }}
+{{- with .Params.doi }}<meta name="citation_doi" content="{{ . }}">{{ end }}
+{{- range .Params.links }}{{ if eq .type "pdf" }}<meta name="citation_pdf_url" content="{{ .url }}">{{ end }}{{ end }}
+{{- with .Params.abstract }}<meta name="citation_abstract" content="{{ . | plainify | truncate 2000 }}">{{ end }}
+{{- end -}}
+
+{{/* --- schema.org JSON-LD --- */}}
+{{- $ld := dict -}}
+{{- if .IsHome -}}
+  {{- $ld = dict "@context" "https://schema.org" "@type" "ResearchOrganization" "name" "Albarqouni Lab — Computational Medical Imaging Research (CoMI)" "url" site.BaseURL
+        "logo" (absURL "media/icon.png") "parentOrganization" (dict "@type" "CollegeOrUniversity" "name" "University of Bonn" "url" "https://www.uni-bonn.de")
+        "address" (dict "@type" "PostalAddress" "streetAddress" "Venusberg-Campus 1" "postalCode" "53127" "addressLocality" "Bonn" "addressCountry" "DE")
+        "founder" (dict "@type" "Person" "name" "Shadi Albarqouni" "url" (absURL "authors/shadi-albarqouni/")) -}}
+{{- else if and (eq .Section "publications") .IsPage -}}
+  {{- $authors := slice -}}{{- range .Params.authors }}{{ $authors = $authors | append (dict "@type" "Person" "name" (partial "lab/author-name.html" .)) }}{{ end -}}
+  {{- $ld = dict "@context" "https://schema.org" "@type" "ScholarlyArticle" "headline" (.Title | truncate 110) "name" .Title "author" $authors
+        "datePublished" (.Date.Format "2006-01-02") "url" .Permalink "abstract" (.Params.abstract | default "" | plainify) -}}
+  {{- with .Params.doi }}{{ $ld = merge $ld (dict "identifier" (printf "https://doi.org/%s" .) "sameAs" (printf "https://doi.org/%s" .)) }}{{ end -}}
+  {{- with .Params.publication.name }}{{ $ld = merge $ld (dict "isPartOf" (dict "@type" "Periodical" "name" .)) }}{{ end -}}
+  {{- with partial "functions/get_featured_image.html" . }}{{ $ld = merge $ld (dict "image" .Permalink) }}{{ end -}}
+{{- else if eq .Kind "term" -}}{{- if eq .Data.Plural "authors" -}}
+  {{- $p := index site.Data.authors (.Data.Term | urlize) -}}
+  {{- if $p -}}
+    {{- $same := slice -}}{{- range $p.links }}{{ if hasPrefix .url "http" }}{{ $same = $same | append .url }}{{ end }}{{ end -}}
+    {{- $ld = dict "@context" "https://schema.org" "@type" "Person" "name" $p.name.display "url" .Permalink "jobTitle" ($p.role | plainify)
+          "affiliation" (dict "@type" "Organization" "name" "University of Bonn / University Hospital Bonn") "sameAs" $same -}}
+    {{- with resources.GetMatch (printf "media/authors/%s.*" (.Data.Term | urlize)) }}{{ $ld = merge $ld (dict "image" .Permalink) }}{{ end -}}
+  {{- end -}}
+{{- end -}}{{- end -}}
+{{- if $ld }}<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>{{ end -}}

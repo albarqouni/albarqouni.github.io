@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: qiongkai-xu
+is_owner: false
+name:
+  display: Qiongkai Xu
+role: Visiting Research Fellow (University of Melbourne, 2023)
+group: alumni
+bio: '# Biography
+
+  Dr Qiongkai Xu is a research fellow on Security in NLP at the University of Melbourne. His research lies in among Privacy & Security, Natural Language Processing, Machine Learning and Data Mining. Lately, his attention has been directed towards auditing machine learning models, specifically in two areas: 1) uncovering privacy and security concerns in ML/NLP models and 2) developing evaluation theory and methods for ML/NLP models from various perspectives.
+
+
+  He is currently awarded DAAD Net AI fellowship and visiting Bonn Univeristy for a week (18-22 Sep. 23) to investigate possible collaboration.'
+affiliations:
+- name: University of Melbourne, Natural Language Processing
+  url: https://xuqiongkai.github.io
+links:
+- icon: at-symbol
+  url: mailto:qiongkai.xu@unimelb.edu.au
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=wCer2WUAAAAJ
+interests: []
+education:
+- degree: PhD on Privacy Protection in Conversations
+  institution: The Australian National University, Canberra, Australia
+  end: 2017-2022-12-31
+github: ''
+aliases: []
+now: Lecturer (Assistant Professor), School of Computing, Macquarie University

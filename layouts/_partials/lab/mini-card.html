@@ -1,0 +1,7 @@
+{{/* Compact card for news, community events and courses */}}
+<a href="{{ with .Params.external_link }}{{ . }}{{ else }}{{ $.RelPermalink }}{{ end }}" class="lab-mini">
+  <span class="lab-mini-img">{{ partial "lab/thumb.html" (dict "page" . "w" 360 "h" 220 "class" "w-full h-full object-cover" "fallback" true) }}
+    {{- if partial "functions/get_featured_image.html" . }}{{ with .Params.image.caption }}{{ if hasPrefix . "Photo" }}<span class="lab-photo-credit">{{ . | plainify }}</span>{{ end }}{{ end }}{{ end -}}
+  </span>
+  <span class="lab-mini-body"><span class="lab-kicker">{{ .Date.Format "Jan 2006" }}{{ with .Params.location }} · {{ . }}{{ end }}</span><span class="lab-mini-title">{{ .Title }}</span></span>
+</a>

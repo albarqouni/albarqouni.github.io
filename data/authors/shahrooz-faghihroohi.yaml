@@ -1,0 +1,18 @@
+schema: hugoblox/author/v1
+slug: shahrooz-faghihroohi
+is_owner: false
+name:
+  display: Shahrooz Faghihroohi
+role: Research Scinetist
+group: collaborators
+bio: ''
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links:
+- icon: at-symbol
+  url: mailto:ge37toz@mytum.de
+interests: []
+education: []
+github: ''
+aliases: []

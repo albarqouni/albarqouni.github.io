@@ -1,0 +1,8 @@
+{{/* Inline author list for citations: team members are linked and highlighted. Arg: slice of names/slugs */}}
+{{- $n := len . -}}
+{{- range $i, $a := . -}}
+  {{- $slug := urlize $a -}}
+  {{- $d := index site.Data.authors $slug -}}
+  {{- if $d -}}<a class="lab-author" href="{{ printf "/authors/%s/" $slug | relLangURL }}">{{ $d.name.display | default $a }}</a>{{- else -}}<span>{{ $a }}</span>{{- end -}}
+  {{- if lt (add $i 1) $n }}, {{ end -}}
+{{- end -}}

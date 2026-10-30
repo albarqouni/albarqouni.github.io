@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{- $place := index site.Data.places (.Params.place | default "") -}}
+{{- $photos := .Resources.ByType "image" -}}
+<article class="lab-page lab-narrow">
+  <nav class="lab-crumbs"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a> / {{ .Date.Format "2006" }}</nav>
+  <p class="lab-kicker">{{ .Date.Format "2 January 2006" }}{{ with .Params.date_end }}{{ if ne . ($.Date.Format "2006-01-02") }} – {{ (time .).Format "2 January 2006" }}{{ end }}{{ end }}{{ with .Params.location }} · {{ . }}{{ end }}</p>
+  <h1 class="lab-title">{{ .Title }}</h1>
+  {{ with .Params.event_name }}<p class="lab-lead">{{ with $.Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $.Params.event_name }} ↗</a>{{ else }}{{ . }}{{ end }}</p>{{ end }}
+  <div class="lab-row my-4">{{ range .Params.authors }}{{ partial "lab/person.html" . }}{{ end }}{{ partial "lab/theme-chips.html" . }}{{ partial "lab/project-chips.html" (.Params.projects | default slice) }}</div>
+  {{- with partial "functions/get_featured_image.html" . }}<figure class="lab-teaser">{{ if reflect.IsImageResourceProcessable . }}{{ $r := .Fit "1600x1000 webp" }}<img src="{{ $r.RelPermalink }}" alt="{{ $.Title }}" width="{{ $r.Width }}" height="{{ $r.Height }}">{{ else }}<img src="{{ .RelPermalink }}" alt="{{ $.Title }}">{{ end }}{{ with $.Params.image.caption }}<figcaption>{{ . | markdownify }}{{ with $.Params.image_credit }}{{ with .url }} · <a href="{{ . }}" target="_blank" rel="noopener">{{ $.Params.image_credit.source | default "source" }}</a>{{ end }}{{ end }}</figcaption>{{ end }}</figure>{{ end }}
+  {{ with .Params.summary }}<div class="prose dark:prose-invert max-w-none mb-6">{{ . | markdownify }}</div>{{ end }}
+  {{ with .Content }}<div class="prose dark:prose-invert max-w-none">{{ . }}</div>{{ end }}
+  {{- $gallery := slice -}}{{- range $photos }}{{ if not (in .Name "featured") }}{{ $gallery = $gallery | append . }}{{ end }}{{ end -}}
+  {{ with $gallery }}
+  <section class="lab-section"><h2 class="lab-h2">Photos</h2>
+    <div class="lab-gallery">{{ range . }}{{ if reflect.IsImageResourceProcessable . }}{{ $t := .Fill "480x360 webp smart" }}{{ $b := .Fit "1800x1800 webp" }}<a href="{{ $b.RelPermalink }}" target="_blank"><img src="{{ $t.RelPermalink }}" alt="" loading="lazy" width="480" height="360"></a>{{ end }}{{ end }}</div>
+  </section>
+  {{ end }}
+  {{ with $place }}{{ if .lat }}<section class="lab-section"><h2 class="lab-h2">Where</h2>{{ partial "lab/map.html" (slice (dict "name" $.Params.location "lat" .lat "lon" .lon)) }}</section>{{ end }}{{ end }}
+</article>
+{{ end }}

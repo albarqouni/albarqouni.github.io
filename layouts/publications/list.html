@@ -1,0 +1,98 @@
+{{ define "main" }}
+{{- $pubs := where .RegularPages.ByDate.Reverse "Draft" false -}}
+{{- $types := slice "journal" "conference" "workshop" "abstract" "preprint" "book" "edited" "patent" "thesis" "other" -}}
+{{- $byType := dict -}}{{- $years := slice -}}{{- $yearCount := dict -}}{{- $venueKeys := slice -}}
+{{- $q1 := 0 -}}
+{{- range $pubs -}}
+  {{- $t := partial "lab/pub-type.html" . -}}
+  {{- $byType = merge $byType (dict $t (add (index $byType $t | default 0) 1)) -}}
+  {{- $y := string .Date.Year -}}
+  {{- $yearCount = merge $yearCount (dict $y (add (index $yearCount $y | default 0) 1)) -}}
+  {{- with index site.Data.venues (.Params.venue | default "") }}{{ if eq .quartile "Q1" }}{{ $q1 = add $q1 1 }}{{ end }}{{ end -}}
+{{- end -}}
+{{- range $y, $_ := $yearCount }}{{ $years = $years | append $y }}{{ end -}}
+{{- $years = sort $years "value" "desc" -}}
+{{- $maxYear := 1 -}}{{- range $yearCount }}{{ if gt . $maxYear }}{{ $maxYear = . }}{{ end }}{{ end -}}
+{{- $snapshot := site.Data.scholar | default dict -}}
+
+<div class="lab-page" data-filter-root>
+  <header class="lab-hero-sm">
+    <p class="lab-kicker">Research output</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="lab-lead">{{ . }}</div>{{ end }}
+    <p class="lab-meta">Synced weekly from <a href="https://scholar.google.com/citations?user={{ site.Params.lab.scholar_id }}" target="_blank" rel="noopener">Google Scholar</a>; metadata enriched from OpenAlex &amp; Crossref.{{ with $snapshot.updated }} Last sync: {{ . }}.{{ end }}</p>
+  </header>
+
+  {{/* ---------- Featured ---------- */}}
+  {{ with where $pubs "Params.featured" true }}
+  <section class="lab-section !mt-2">
+    <h2 class="lab-h2">Featured publications</h2>
+    <div class="lab-featured-grid">{{ range first 9 . }}{{ partial "lab/pub-featured.html" . }}{{ end }}</div>
+  </section>
+  {{ end }}
+
+  {{/* ---------- Summary ---------- */}}
+  <section class="lab-stats-grid">
+    <div class="lab-stat"><span class="lab-stat-n">{{ len $pubs }}</span><span class="lab-stat-l">publications</span></div>
+    <div class="lab-stat"><span class="lab-stat-n" data-total-citations data-snapshot="{{ $snapshot.citations | default 0 }}">{{ $snapshot.citations | default "—" }}</span><span class="lab-stat-l">citations{{ with $snapshot.h_index }} · h-index {{ . }}{{ end }}</span></div>
+    <div class="lab-stat"><span class="lab-stat-n">{{ index $byType "journal" | default 0 }}</span><span class="lab-stat-l">journal articles · {{ $q1 }} in Q1</span></div>
+    <div class="lab-stat"><span class="lab-stat-n">{{ add (index $byType "conference" | default 0) (index $byType "workshop" | default 0) }}</span><span class="lab-stat-l">conference &amp; workshop papers</span></div>
+  </section>
+
+  <section class="lab-summary">
+    <div>
+      <h2 class="lab-h3">By type</h2>
+      <div class="lab-bars-h">
+        {{- range $t := $types }}{{ with index $byType $t }}
+        <button type="button" data-set-facet="type={{ $t }}" class="lab-bar-h"><span>{{ i18n (printf "lab_type_%s" $t) }}</span><i style="width: {{ div (mul . 100.0) (len $pubs) }}%"></i><b>{{ . }}</b></button>
+        {{- end }}{{ end -}}
+      </div>
+      <h2 class="lab-h3 mt-6">By research theme</h2>
+      <div class="lab-bars-h">
+        {{- range (site.Taxonomies.themes.ByCount) }}
+        {{- $n := len (where .Pages "Section" "publications") -}}
+        {{- if $n }}<button type="button" data-set-facet="theme={{ .Page.File.ContentBaseName | default (urlize .Name) }}" class="lab-bar-h" style="--c: {{ .Page.Params.color }}"><span>{{ .Page.Params.short | default .Page.Title }}</span><i style="width: {{ div (mul $n 100.0) (len $pubs) }}%"></i><b>{{ $n }}</b></button>{{ end -}}
+        {{- end }}
+      </div>
+    </div>
+    <div>
+      <h2 class="lab-h3">By year</h2>
+      <div class="lab-bars-v" role="list">
+        {{- range sort $years "value" "asc" -}}
+        {{- $n := index $yearCount . -}}
+        <button type="button" role="listitem" data-set-facet="year={{ . }}" class="lab-bar-v" title="{{ . }}: {{ $n }} publications"><i style="height: {{ div (mul $n 100.0) $maxYear }}%"></i><span>{{ substr . 2 2 }}</span></button>
+        {{- end -}}
+      </div>
+    </div>
+  </section>
+
+  {{/* ---------- Filters ---------- */}}
+  {{- $yearOpts := slice -}}{{- range $years }}{{ $yearOpts = $yearOpts | append (dict "value" . "label" . "count" (index $yearCount .)) }}{{ end -}}
+  {{- $typeOpts := slice -}}{{- range $t := $types }}{{ with index $byType $t }}{{ $typeOpts = $typeOpts | append (dict "value" $t "label" (i18n (printf "lab_type_%s" $t)) "count" .) }}{{ end }}{{ end -}}
+  {{- $themeOpts := slice -}}{{- range site.Taxonomies.themes.Alphabetical }}{{ $themeOpts = $themeOpts | append (dict "value" (urlize .Name) "label" .Page.Title) }}{{ end -}}
+  {{- $projOpts := slice -}}{{- range (where site.RegularPages "Section" "projects").ByTitle }}{{ $projOpts = $projOpts | append (dict "value" .File.ContentBaseName "label" (.Params.acronym | default (truncate 40 .Title))) }}{{ end -}}
+  {{- $authOpts := slice -}}{{- range $slug, $a := site.Data.authors }}{{ if in (slice "pi" "researchers" "postdocs" "phd" "students" "alumni") ($a.group | default "") }}{{ $authOpts = $authOpts | append (dict "value" $slug "label" $a.name.display) }}{{ end }}{{ end -}}
+  <div class="lab-filterbar" data-list>
+    <input type="search" data-search placeholder="Search title, author, venue…" class="lab-input" aria-label="Search publications">
+    {{ partial "lab/select.html" (dict "facet" "year" "label" "All years" "options" $yearOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "type" "label" "All types" "options" $typeOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "theme" "label" "All themes" "options" $themeOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "project" "label" "All projects" "options" $projOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "author" "label" "All team members" "options" (sort $authOpts "label")) }}
+    <label class="lab-select"><select data-sort aria-label="Sort"><option value="date">Newest first</option><option value="citations">Most cited</option></select></label>
+    <button type="button" data-reset class="lab-btn-ghost">Reset</button>
+    <span class="lab-count"><b data-count>{{ len $pubs }}</b> shown</span>
+  </div>
+
+  <div class="lab-pub-list">
+    {{- range $pubs.GroupByDate "2006" -}}
+    <section data-group="{{ .Key }}">
+      <h2 class="lab-year">{{ .Key }}</h2>
+      <div data-group-items>{{ range .Pages }}{{ partial "lab/pub-item.html" . }}{{ end }}</div>
+    </section>
+    {{- end -}}
+    <div data-flat-list></div>
+    <p data-empty hidden class="lab-empty">No publications match these filters.</p>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,28 @@
+schema: hugoblox/author/v1
+slug: mai-bui
+is_owner: false
+name:
+  display: Mai Bui
+role: PhD (TU Munich)
+group: alumni
+bio: Mai Bui did her PhD at the Chair for Computer Aided Medical Procedures (CAMP), TU Munich, working with Shadi Albarqouni, on learning-based camera and object pose estimation — from X-Ray PoseNet for mobile X-ray devices and scene-coordinate learning for image-based localization (BMVC 2018) to multimodal 6D camera relocalization in ambiguous scenes (ECCV 2020). She later worked as a researcher at the German Heart Center Munich and now works in computational pathology at AstraZeneca.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links: []
+interests:
+- Pose estimation
+- Camera relocalization
+- Computational pathology
+education:
+- degree: PhD in Computer Science
+  institution: Technical University of Munich
+  end: ''
+github: ''
+aliases:
+- Linda Mai Bui
+- M Bui
+- M. Bui
+tags: []
+now: Researcher, Computational Pathology, AstraZeneca
+photo_credit: TUM CAMP (archived staff page)

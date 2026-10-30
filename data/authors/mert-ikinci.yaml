@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: mert-ikinci
+is_owner: false
+name:
+  display: Mert Ikinci
+role: M.Sc. thesis (TU Munich, 2025)
+group: alumni
+bio: '# Biography
+
+
+  Mert is currently pursuing an M.Sc. in Informatics at the Technical University of Munich, specializing in Computer Vision and Machine Learning. He is currently working on his master''s thesis, *Development of a Machine Learning Algorithm for Histopathological Classification of Conjunctival Melanocytic Intraepithelial Lesions*. Also he is working as a Computer Vision and Deep Learning Engineer at Signatrix in Berlin, focusing on real-time segmentation applied research in retail. Previously, he gained experience as a Computer Vision Engineer at the Turkish Defence Industry, working on applied research for remote sensing and object tracking with UAV''s.  He holds a Bachelor''s degree in Computer Science from TOBB University of Economics and Technology, Ankara.'
+affiliations:
+- name: Technical University of Munich, Germany
+  url: https://www.tum.de/
+links:
+- icon: at-symbol
+  url: mailto:mertikinci@gmail.com
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/mertikinci
+interests: []
+education:
+- degree: M.Sc. Informatics (Computer Graphics & Vision)
+  institution: Technical University of Munich, Germany
+  end: present-12-31
+- degree: B.Sc. Computer Science
+  institution: TOBB University of Economics and Technology, Ankara, Turkey
+  end: '2021-12-31'
+github: ''
+aliases: []

@@ -1,0 +1,17 @@
+{{- $per := partial "lab/period.html" . -}}
+{{- $countries := slice -}}{{- range .Params.partners }}{{ with index site.Data.organizations . }}{{ $countries = $countries | append .country }}{{ end }}{{ end -}}
+<article class="lab-card" data-item data-date="{{ .Date.Format "2006-01-02" }}"
+  data-f-kind="{{ .Params.project_type | default "funded" }}" data-f-year="{{ delimit $per.years "|" }}" data-f-status="{{ $per.status }}" data-f-funder="{{ delimit (.Params.funders | default slice) "|" }}"
+  data-f-theme="{{ delimit (.Params.themes | default slice) "|" }}" data-f-country="{{ delimit (uniq $countries) "|" }}"
+  data-f-partner="{{ delimit (.Params.partners | default slice) "|" }}"
+  data-text="{{ .Title }} {{ .Params.acronym }} {{ .Params.summary }} {{ delimit (.Params.partners | default slice) " " }}">
+  <a href="{{ .RelPermalink }}" class="lab-card-img">{{ partial "lab/thumb.html" (dict "page" . "w" 720 "h" 400 "class" "w-full h-full object-cover" "fallback" true) }}
+    <span class="lab-status lab-status-{{ $per.status }}">{{ $per.status }}</span></a>
+  <div class="lab-card-body">
+    <p class="lab-kicker">{{ if eq .Params.project_type "collaboration" }}Research collaboration{{ else }}Funded{{ end }} · {{ $per.label }}{{ with .Params.acronym }} · {{ . }}{{ end }}</p>
+    <h3 class="lab-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .Params.summary }}<p class="lab-card-text">{{ . | markdownify | plainify | truncate 160 }}</p>{{ end }}
+    <div class="lab-logos">{{ range (.Params.funders | default slice) | append (cond (eq .Params.project_type "collaboration") (first 4 (.Params.partners | default slice)) slice) }}{{ partial "lab/org.html" (dict "key" .) }}{{ end }}</div>
+    <div class="lab-row mt-2">{{ partial "lab/theme-chips.html" . }}</div>
+  </div>
+</article>

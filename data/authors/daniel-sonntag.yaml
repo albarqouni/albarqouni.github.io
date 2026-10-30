@@ -1,0 +1,24 @@
+schema: hugoblox/author/v1
+slug: daniel-sonntag
+is_owner: false
+name:
+  display: Daniel Sonntag
+role: Scientific Director, Interactive Machine Learning, DFKI; Professor of Applied Artificial Intelligence, University of Oldenburg
+group: collaborators
+bio: Daniel Sonntag is Scientific Director of Interactive Machine Learning at DFKI and has held the endowed chair of Applied Artificial Intelligence at the University of Oldenburg since 2020. His work centres on interactive machine learning with human feedback for industrial and medical applications.
+affiliations:
+- name: German Research Center for Artificial Intelligence (DFKI)
+  url: https://www.dfki.de/~daso02/
+- name: University of Oldenburg
+  url: https://uol.de/en/newly-appointed/person/daniel-sonntag
+links:
+- icon: hero/link
+  url: https://www.dfki.de/~daso02/
+  label: DFKI profile
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- academic
+photo_credit: University of Oldenburg

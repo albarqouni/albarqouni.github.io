@@ -1,0 +1,26 @@
+schema: hugoblox/author/v1
+slug: agnieszka-tomczak
+is_owner: false
+name:
+  display: Agnieszka Tomczak
+role: PhD (TU Munich, 2023)
+group: alumni
+bio: Agnieszka Tomczak did her PhD at the Technical University of Munich and Siemens AG (2023), co-supervised in our group, on deep learning for the analysis of white blood cells — including digital staining of leukocytes with confidence estimation, multi-task multi-domain learning for leukocyte classification, and label-uncertainty estimation for quality assurance. She is now a postdoctoral researcher at the German Heart Center Munich, working on deep-learning-based 3D reconstruction of cardiac vasculature.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links: []
+interests:
+- Hematology image analysis
+- Uncertainty estimation
+- Cardiac imaging
+education:
+- degree: PhD
+  institution: Technical University of Munich & Siemens AG
+  end: '2023-12-31'
+github: ''
+aliases:
+- Agnieszka Tomczack
+tags: []
+now: Postdoc, German Heart Center Munich
+photo_credit: EEDA 2023 workshop (eeda2023.github.io)

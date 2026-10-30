@@ -1,0 +1,27 @@
+{{/* One publication in a list. Context: publication page. */}}
+{{- $type := partial "lab/pub-type.html" . -}}
+{{- $authors := slice -}}{{- range .Params.authors }}{{ $authors = $authors | append (urlize .) }}{{ end -}}
+{{- $themes := slice -}}{{- range .Params.themes }}{{ $themes = $themes | append . }}{{ end -}}
+{{- $doi := .Params.doi | default "" -}}
+<article class="lab-pub" data-item data-date="{{ .Date.Format "2006-01-02" }}" data-home="{{ .Date.Year }}"
+  data-f-year="{{ .Date.Year }}" data-f-type="{{ $type }}" data-f-theme="{{ delimit $themes "|" }}"
+  data-f-project="{{ delimit (.Params.projects | default slice) "|" }}" data-f-author="{{ delimit $authors "|" }}"
+  data-f-venue="{{ .Params.venue }}" data-text="{{ .Title }} {{ range .Params.authors }}{{ partial "lab/author-name.html" . }} {{ end }} {{ .Params.publication.name }} {{ delimit (.Params.tags | default slice) " " }}">
+  <a href="{{ .RelPermalink }}" class="lab-pub-thumb" tabindex="-1" aria-hidden="true">
+    {{- if partial "functions/get_featured_image.html" . }}{{ partial "lab/thumb.html" (dict "page" . "w" 400 "h" 250 "class" "w-full h-full object-contain bg-white") }}
+    {{- else }}{{ with partial "lab/venue-logo.html" (dict "page" . "class" "w-full h-full object-contain p-3 bg-white") }}{{ . }}{{ else }}<span class="lab-venue-word lab-venue-word-sm">{{ with index site.Data.venues ($.Params.venue | default "") }}{{ .short | default .name }}{{ else }}{{ $.Params.publication.name | default "—" | truncate 60 }}{{ end }}</span>{{ end }}{{ end -}}
+  </a>
+  <div class="min-w-0">
+    <h3 class="lab-pub-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="lab-pub-authors">{{ partial "lab/author-list.html" (.Params.authors | default slice) }}</p>
+    <p class="lab-pub-venue"><em>{{ .Params.publication.name | default "—" }}</em>, {{ .Date.Year }}</p>
+    <div class="lab-row">
+      <span class="lab-badge lab-badge-type">{{ i18n (printf "lab_type_%s" $type) | default (title $type) }}</span>
+      {{ partial "lab/venue-badges.html" . }}
+      {{ with $doi }}<span class="lab-badge lab-badge-cite" data-doi="{{ . }}" hidden title="Citations (OpenAlex, live)">❝ <span data-cite-value></span></span>{{ end }}
+      {{ partial "lab/theme-chips.html" . }}
+      {{ partial "lab/project-chips.html" (.Params.projects | default slice) }}
+    </div>
+    {{ partial "lab/pub-links.html" (dict "page" . "compact" true) }}
+  </div>
+</article>

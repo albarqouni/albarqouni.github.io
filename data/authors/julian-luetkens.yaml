@@ -1,0 +1,22 @@
+schema: hugoblox/author/v1
+slug: julian-luetkens
+is_owner: false
+name:
+  display: Julian Luetkens
+role: Director, Clinic for Diagnostic and Interventional Radiology, University Hospital Bonn
+group: collaborators
+bio: Prof. Julian Luetkens is Director of the Clinic for Diagnostic and Interventional Radiology at the University Hospital Bonn, an expert in modern MRI techniques and cardiovascular imaging, and leads the quantitative imaging lab (QILaB).
+affiliations:
+- name: University Hospital Bonn (UKB)
+  url: https://www.ukbonn.de/radiologie/
+links:
+- icon: hero/link
+  url: https://www.trr259.uni-bonn.de/en/personenverzeichnis-trr259/julian-luetkens
+  label: TRR 259 profile
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- clinical
+photo_credit: © Universitätsklinikum Bonn (UKB) / Aljoscha Haupt

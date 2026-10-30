@@ -1,0 +1,27 @@
+schema: hugoblox/author/v1
+slug: sarah-schaab
+is_owner: false
+name:
+  display: Sarah Schaab
+role: M.Sc. thesis (LMU Munich, 2023)
+group: alumni
+bio: '# Biography
+
+  Sarah is currently conducting her master''s thesis at the University of Bonn on AI for medical imaging under the supervision of Prof. Dr. Shadi Albarqouni. She is a Master student in Computer Science at the LMU Munich, specialising in Artificial Intelligence. During her studies, she gained practical experience as a working student in software engineering, where she developed mobile applications to help people with aphasia and dyslexia.'
+affiliations:
+- name: LMU Munich, Germany
+  url: https://www.lmu.de/en/
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.de/
+interests: []
+education:
+- degree: M.Sc. Computer Science
+  institution: LMU Munich, Germany
+  end: '2023-12-31'
+- degree: B.Sc. Media Informatics
+  institution: LMU Munich, Germany
+  end: '2021-12-31'
+github: ''
+aliases:
+- S Schaab

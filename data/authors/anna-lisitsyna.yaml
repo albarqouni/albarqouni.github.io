@@ -1,0 +1,33 @@
+schema: hugoblox/author/v1
+slug: anna-lisitsyna
+is_owner: false
+name:
+  display: Anna Lisitsyna
+role: Postdoc (Helmholtz Munich, 2022–2024)
+group: alumni
+bio: '# Biography
+
+  Anna Lisitsyna works with Dr. Shadi Albarqouni at Helmholtz AI as a research scientist. Lisitsyna has acquired a programming and mathematical background at Lomonosov Moscow State Universtity, before relocating to Munich to get a Master''s and learn to apply programming and mathematics to medicine. During the Masters program, she learns Machine Learning, specifically in application to medical imaging data. Her PhD project was conncerned with the application of machine learning to chemical datasets, metabolomics in particular, and developing algorithms and pipelines for data analysis, including neural networks and genetic algorithms.'
+affiliations:
+- name: Helmholtz AI
+  url: https://www.helmholtz.ai/
+- name: Technical University of Munich
+  url: https://www.tum.de/
+links:
+- icon: at-symbol
+  url: mailto:anna.lisitsyna@helmholtz-muenchen.de
+- icon: academicons/google-scholar
+  url: https://scholar.google.com
+interests: []
+education:
+- degree: Ph.D. in Computational Methods in Discovery-Oriented Metabolomics
+  institution: TU Munich and Helmholtz Zentrum München, Germany
+  end: '2022-12-31'
+- degree: M.Sc. in Biomedical Computing
+  institution: Technical University Munich
+  end: '2017-12-31'
+- degree: Diploma in Applied Mathematics and Cybernetics
+  institution: Lomonosov Moscow State University
+  end: '2015-12-31'
+github: ''
+aliases: []

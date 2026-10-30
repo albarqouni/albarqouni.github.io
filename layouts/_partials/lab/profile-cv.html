@@ -1,0 +1,76 @@
+{{/* Optional CV sections of a profile (data/authors/<slug>.yaml): metrics, experience, editorial, memberships,
+     awards, organising, governance, service (reviewing), supervision, hosted speakers. Arg: profile data map */}}
+{{- $p := . -}}
+{{ with $p.metrics }}
+<section class="lab-stats-grid lab-section !mt-8">
+  <div class="lab-stat"><span class="lab-stat-n">{{ lang.FormatNumber 0 .citations }}</span><span class="lab-stat-l">citations · h-index {{ .h_index }}</span></div>
+  <div class="lab-stat"><span class="lab-stat-n">{{ .publications }}</span><span class="lab-stat-l">publications · i10 {{ .i10_index }}</span></div>
+  <div class="lab-stat"><span class="lab-stat-n">{{ .fwci }}</span><span class="lab-stat-l">field-weighted citation impact (Scopus)</span></div>
+  <div class="lab-stat"><span class="lab-stat-n">{{ .funding_total }}</span><span class="lab-stat-l">competitive funding · {{ .international_collab }} international co-authorship</span></div>
+</section>
+<p class="lab-meta">Source: {{ .source }}.</p>
+{{ end }}
+
+<div class="lab-cv-grid">
+  {{ with $p.experience }}
+  <section class="lab-section"><h2 class="lab-h2">Positions</h2>
+    <ol class="lab-timeline">{{ range . }}<li><span>{{ substr (string .start) 0 4 }}{{ with .end }} – {{ substr (string .) 0 4 }}{{ else }} – today{{ end }}</span><b>{{ .role }}</b><small>{{ .org }}</small></li>{{ end }}</ol>
+  </section>
+  {{ end }}
+  {{ with $p.education }}
+  <section class="lab-section"><h2 class="lab-h2">Education</h2>
+    <ol class="lab-timeline">{{ range . }}<li><span>{{ with .end }}{{ substr (string .) 0 4 }}{{ end }}</span><b>{{ .degree }}</b><small>{{ .institution }}</small></li>{{ end }}</ol>
+  </section>
+  {{ end }}
+</div>
+
+{{ with $p.editorial }}
+<section class="lab-section"><h2 class="lab-h2">Editorial roles</h2>
+  <div class="lab-role-grid">{{ range . }}
+    <div class="lab-role">{{ with .logo }}{{ with resources.Get (printf "media/%s" .) }}{{ $l := .Fit "200x100 webp" }}<img src="{{ $l.RelPermalink }}" alt="">{{ end }}{{ end }}
+      <span><b>{{ .role }}</b><small>{{ .venue }}</small><em>{{ .period }}</em></span></div>{{ end }}</div>
+</section>
+{{ end }}
+{{ with $p.memberships }}
+<section class="lab-section"><h2 class="lab-h2">Academies, networks &amp; societies</h2>
+  <div class="lab-role-grid">{{ range . }}
+    <div class="lab-role">{{ with .logo }}{{ with resources.Get (printf "media/%s" .) }}{{ $l := .Fit "200x100 webp" }}<img src="{{ $l.RelPermalink }}" alt="">{{ end }}{{ end }}
+      <span><b>{{ .org }}</b><small>{{ .role }}</small><em>{{ .period }}</em></span></div>{{ end }}</div>
+</section>
+{{ end }}
+{{ with $p.awards }}
+<section class="lab-section"><h2 class="lab-h2">Awards &amp; fellowships</h2>
+  <ul class="lab-checks">{{ range . }}<li><b>{{ .title }}</b>{{ with .date }} ({{ . }}){{ end }} — {{ .summary }}</li>{{ end }}</ul>
+</section>
+{{ end }}
+{{ with $p.supervision }}
+<section class="lab-section"><h2 class="lab-h2">Supervision &amp; mentoring</h2>
+  <div class="lab-stats-grid">{{ range .summary }}<div class="lab-stat"><span class="lab-stat-n">{{ index . 0 }}</span><span class="lab-stat-l">{{ index . 1 }}</span></div>{{ end }}</div>
+  <div class="lab-cv-grid mt-4">
+    <div>{{ with .phd }}<h3 class="lab-h3">Current PhD candidates</h3><div class="lab-row">{{ range . }}{{ partial "lab/person.html" . }}{{ end }}</div>{{ end }}
+      {{ with .phd_completed }}<h3 class="lab-h3 mt-4">Completed PhDs (primary scientific supervisor)</h3><ul class="lab-plain">{{ range . }}<li>{{ partial "lab/person.html" .name }} <span class="lab-muted">{{ .org }}, {{ .year }}</span></li>{{ end }}</ul>{{ end }}</div>
+    <div>{{ with .tac }}<h3 class="lab-h3">Thesis advisory committees</h3><p>{{ delimit . " · " }}</p>{{ end }}
+      {{ with .examiner }}<h3 class="lab-h3 mt-4">External examiner</h3><p>{{ . }}</p>{{ end }}</div>
+  </div>
+</section>
+{{ end }}
+{{ with $p.organizing }}
+<section class="lab-section"><h2 class="lab-h2">Community service: conferences, workshops &amp; schools organised</h2>
+  <div class="lab-role-grid">{{ range . }}
+    <div class="lab-role">{{ with .logo }}{{ with resources.Get (printf "media/%s" .) }}{{ $l := .Fit "200x100 webp" }}<img src="{{ $l.RelPermalink }}" alt="">{{ end }}{{ else }}<i class="lab-role-noimg" aria-hidden="true">{{ .year }}</i>{{ end }}
+      <span><b>{{ .role }}</b><small>{{ .event }}</small><em>{{ .year }}</em></span></div>{{ end }}</div>
+</section>
+{{ end }}
+{{ with $p.governance }}
+<section class="lab-section"><h2 class="lab-h2">Academic governance</h2>
+  <div class="lab-role-grid">{{ range . }}
+    <div class="lab-role">{{ with .logo }}{{ with resources.Get (printf "media/%s" .) }}{{ $l := .Fit "200x100 webp" }}<img src="{{ $l.RelPermalink }}" alt="">{{ end }}{{ end }}
+      <span><b>{{ .role }}</b><small>{{ .org }}</small></span></div>{{ end }}</div>
+</section>
+{{ end }}
+{{ with $p.service }}
+<section class="lab-section"><h2 class="lab-h2">Reviewing &amp; evaluation</h2><ul class="lab-checks">{{ range . }}<li>{{ . }}</li>{{ end }}</ul></section>
+{{ end }}
+{{ with $p.hosted_speakers }}
+<section class="lab-section"><h2 class="lab-h2">Invited speakers hosted in Bonn</h2><div class="lab-row">{{ range . }}<span class="lab-chip lab-chip-ext">{{ . }}</span>{{ end }}</div></section>
+{{ end }}

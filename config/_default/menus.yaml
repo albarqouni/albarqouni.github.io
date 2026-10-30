@@ -1,0 +1,28 @@
+main:
+  - name: Research
+    url: themes/
+    weight: 10
+  - name: Publications
+    url: publications/
+    weight: 20
+  - name: Projects
+    url: projects/
+    weight: 30
+  - name: Team
+    url: team/
+    weight: 40
+  - name: Community
+    url: community/
+    weight: 50
+  - name: Teaching
+    url: teaching/
+    weight: 60
+  - name: Resources
+    url: datasets/
+    weight: 70
+  - name: Media
+    url: media/
+    weight: 80
+  - name: Join
+    url: positions/
+    weight: 90

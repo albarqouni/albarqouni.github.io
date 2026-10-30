@@ -1,0 +1,24 @@
+schema: hugoblox/author/v1
+slug: daniel-rueckert
+is_owner: false
+name:
+  display: Daniel Rueckert
+role: Alexander von Humboldt Professor of Artificial Intelligence in Healthcare and Medicine, TUM; Professor of Visual Information Processing, Imperial College London
+group: collaborators
+bio: Daniel Rückert holds the Alexander von Humboldt Professorship for AI in Healthcare and Medicine at TUM (since 2020) and directs the Institute for AI and Informatics in Medicine at Klinikum rechts der Isar; he is also Professor of Visual Information Processing at Imperial College London. His research develops AI methods for biomedical image acquisition, analysis and interpretation. Honours include the Leibniz Prize (2025), Fellowship of the Royal Society (2025) and the MICCAI Enduring Impact Award (2024).
+affiliations:
+- name: Technical University of Munich (TUM)
+  url: https://www.professoren.tum.de/en/rueckert-daniel
+- name: Imperial College London
+  url: https://profiles.imperial.ac.uk/d.rueckert
+links:
+- icon: hero/link
+  url: https://www.professoren.tum.de/en/rueckert-daniel
+  label: TUM profile
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- academic
+photo_credit: Technical University of Munich

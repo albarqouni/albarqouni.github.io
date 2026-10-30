@@ -1,0 +1,108 @@
+---
+title: AIR — Winter 2024/25
+semester: WS2425
+semesters:
+- WS2425
+date: '2024-10-14'
+start: '2024-10-14'
+end: ''
+status: ''
+lecturers:
+- shadi-albarqouni
+authors:
+- shadi-albarqouni
+- david-gaviria
+- elodie-germani
+tutors:
+- david-gaviria
+- elodie-germani
+schedule: ''
+room: ''
+registration: ''
+basis_url: ''
+ecampus_url: ''
+grading: []
+timeline: []
+funding: []
+themes:
+- computational-imaging
+projects: []
+summary: 'The Computational Imaging Research (Albarqouni Lab) at the Clinic of Diagnostic and Interventional Radiology at the University Hospital Bonn is pleased to present a seminar on *Artificial Intelligence in Radiology: Applications and Research.* This cutting-edge seminar, spanning two semester hours per week (2 SWS), is specially curated for medical students to explore the transformative role of deep learning in medical imaging, with a focus on tasks such as classification, detection, segmentation, reconstruction, tracking, and disease progression.'
+image:
+  caption: Image created with assistance from DALL-E, utilizing design elements provided by OpenAI ChatGPT, and finalized by Shadi Albarqouni
+  focal_point: Center
+---
+## Seminar (2 SWS): Artificial Intelligence in Radiology: Applications and Research (Artifizielle Intelligenz in der Radiologie: Anwendungen und Forschung)
+
+**Lecturers:** [Prof. Dr. Shadi Albarqouni](../../../authors/admin/)
+
+**Tutors:** [Dr. Elodie Germani](../../../authors/elodie-germani/), [David Gaviria](../../../authors/david-gaviria/)
+
+**Time:** November 15 – Jan 31 (every Friday, <s>11:30 AM - 1:00 PM</s> 16:00 - 17:30)
+
+**Format:** Online (Zoom Meeting) with potential face-to-face meetings, if participants interested! Link was provided via email. 
+
+**Language:** English 
+
+**eCampus:** [Link](https://ecampus.uni-bonn.de/goto.php?target=crs_3579292&client_id=ecampus) to eCampus
+
+
+
+### Description
+
+The Computational Imaging Research (Albarqouni Lab) at the Clinic of Diagnostic and Interventional Radiology at the University Hospital Bonn is pleased to present a seminar on *Artificial Intelligence in Radiology: Applications and Research.* This cutting-edge seminar, spanning two semester hours per week (2 SWS), is specially curated for medical students to explore the transformative role of deep learning in medical imaging, with a focus on tasks such as classification, detection, segmentation, reconstruction, tracking, and disease progression.
+
+### Course Objectives
+
+Upon completing this seminar, students will be able to:
+- Grasp deep learning concepts and their specific applications in medical imaging.
+- Analyze advanced image analysis tasks, including classification, detection, segmentation, and disease progression modeling.
+- Evaluate ethical and regulatory considerations in the deployment of AI within healthcare.
+- Discuss the future potential of AI-driven solutions in personalized medicine and patient care.
+
+### Target Audience
+
+This seminar is designed for medical students at the Faculty of Medicine, University Hospital Bonn, who are keen on leveraging AI technologies to enhance their medical practice, specifically within diagnostic imaging.
+
+### Prerequisites and Desired Knowledge
+
+- **Prerequisites:** Familiarity with fundamental medical imaging techniques and an interest in AI applications.
+- **Desired:** Understanding of medical diagnostics and clinical data interpretation.
+
+
+### Seminar Topics and Schedule (Tentative)
+
+| **Date**             | **Topic**                                    | **Description**                                                                                      | **Presenter** | **Materials** | 
+|----------------------|----------------------------------------------|------------------------------------------------------------------------------------------------------|---|--| 
+| **Nov 22**           | **Deep Learning Foundations**                | Introduction to deep learning concepts specific to medical imaging.                                   |  |  Meskó, Bertalan, and Marton Görög. "A short guide for medical professionals in the era of artificial intelligence." NPJ digital medicine 3.1 (2020): 126. [(PDF}](https://www.nature.com/articles/s41746-020-00333-z) |
+| **Nov 29**           | **Detection and Classification in Medical Imaging**        | Exploring detection and classification techniques in diagnosing diseases from medical images.                       | [David Gaviria](../../../authors/david-gaviria/) | Litjens, Geert, et al. "A survey on deep learning in medical image analysis." Medical image analysis 42 (2017): 60-88. [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841517301135?casa_token=0EKKPg-JAL8AAAAA:CjbQzL7k-8_VF4g6VXgtrN_r7Ai1xbSDos_f_4yp_YAi3EEEu6wXoBw7Z3eYPLnGB_avgXkzLGk), Chen, Xuxin, et al. "Recent advances and clinical applications of deep learning in medical image analysis." Medical image analysis 79 (2022): 102444. [(PDF)](https://www.sciencedirect.com/science/article/am/pii/S1361841522000913), |
+| **Dec 6**            | **Segmentation**               | Deep learning methods for segmenting key structures in medical images.                    | | Tajbakhsh, Nima, et al. "Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation." Medical image analysis 63 (2020):101693. [(PDF)](https://www.sciencedirect.com/science/article/pii/S136184152030058X?casa_token=CEnq-3mHEtoAAAAA:TAzIDSKtwOxS0j3CatirvKvpq17nxyy2Tg0LZfdxxzho_FDxH5eqLHTatVjYe7xHPHxLrVOpLnE) |
+| **Dec 13**           | **Causality and Bias**          | Causality and Bias in deep learning with medical imaging.                                 | [Dr. Elodie Germani](../../../authors/elodie-germani/) | Castro, Daniel C., Ian Walker, and Ben Glocker. "Causality matters in medical imaging." Nature Communications 11.1 (2020): 3673. [(PDF)](https://www.nature.com/articles/s41467-020-17478-w.pdf), Jones, Charles, et al. "A causal perspective on dataset bias in machine learning for medical imaging." Nature Machine Intelligence 6.2 (2024): 138-146 [(PDF)](https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/s42256-024-00797-8&casa_token=Da6WexFt42oAAAAA:yZN-4FKxwBz6by4QicC1neuiGFCcur8StH0I_0FTO3SVASKgzuNPhX0PnXrXCmJaib1UjVClSzB-BkXBJCE) |
+| **Dec 20**           | **<s>Uncertainity Quantification</s>**         | Moved to the next year due to holiday season                      |  |  |
+| **Jan 10**           | **Q&A Session**    |  Students should prepare questions for their assigned papers and discuss them with the tutors | | |
+| **Jan 17**           | **Uncertainity Quantification**         | Quanitifying Uncertainty in Deep Learning Models                      | [David Gaviria](../../../authors/david-gaviria/) | Huang, Ling, et al. "A review of uncertainty quantification in medical image analysis: probabilistic and non-probabilistic methods." Medical Image Analysis (2024): 103223. [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841524001488) |
+| **Jan 24**           | **Student Paper Presentations (1)**          | Student presentations.                                                                | | |
+| **Jan 31**            | **Student Paper Presentations (2) and Course Wrap-Up**  | Wrap-up, feedback, and discussion on future AI applications in medical practice.          | | |
+
+
+### Learning Format
+
+One of the seminar’s unique teaching concepts is “Teach It to Yourself.” Participants (limited to 20 partisipants) will present selected chapter and papers, engage in discussions, and critically analyze case studies on deep learning applications in medical imaging.
+
+### Registration (**closed**)
+
+Interested in this seminar, please register via email to [Dr. Elodie Germani](../../../authors/elodie-germani/) and [Prof. Dr. Shadi Albarqouni](../../../authors/admin/)
+
+### References
+
+- [1] Litjens, Geert, et al. "A survey on deep learning in medical image analysis." Medical image analysis 42 (2017): 60-88. [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841517301135?casa_token=0EKKPg-JAL8AAAAA:CjbQzL7k-8_VF4g6VXgtrN_r7Ai1xbSDos_f_4yp_YAi3EEEu6wXoBw7Z3eYPLnGB_avgXkzLGk)
+- [2] Shen, Dinggang, Guorong Wu, and Heung-Il Suk. "Deep learning in medical image analysis." Annual review of biomedical engineering 19.1 (2017): 221-248.
+- [3] Chen, Xuxin, et al. "Recent advances and clinical applications of deep learning in medical image analysis." Medical image analysis 79 (2022): 102444. [(PDF)](https://www.sciencedirect.com/science/article/am/pii/S1361841522000913)
+- [4] Tajbakhsh, Nima, et al. "Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation." Medical image analysis 63 (2020):101693. [(PDF)](https://www.sciencedirect.com/science/article/pii/S136184152030058X?casa_token=CEnq-3mHEtoAAAAA:TAzIDSKtwOxS0j3CatirvKvpq17nxyy2Tg0LZfdxxzho_FDxH5eqLHTatVjYe7xHPHxLrVOpLnE)
+- [5] Wang, Ge, Jong Chul Ye, and Bruno De Man. "Deep learning for tomographic image reconstruction." Nature machine intelligence 2.12 (2020): 737-748. [(PDF)](https://www.nature.com/articles/s42256-020-00273-z)
+- [6] Ben Yedder, Hanene, Ben Cardoen, and Ghassan Hamarneh. "Deep learning for biomedical image reconstruction: A survey." Artificial intelligence review 54.1 (2021): 215-251. [(PDF)](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/article/10.1007/s10462-020-09861-2&casa_token=ckLy9XB_kJAAAAAA:kIEg6GqC0Jk9nDBDO5Lzh_2QXXyBw3gFDMuE5gzgFZuR-JvmIqhS2dN2QNhK_eCggtgZakZen-PGNc_OrOo)
+- [7] Huang, Ling, et al. "A review of uncertainty quantification in medical image analysis: probabilistic and non-probabilistic methods." Medical Image Analysis (2024): 103223. [(PDF)](https://www.sciencedirect.com/science/article/pii/S1361841524001488)
+- [8] Castro, Daniel C., Ian Walker, and Ben Glocker. "Causality matters in medical imaging." Nature Communications 11.1 (2020): 3673. [(PDF)](https://www.nature.com/articles/s41467-020-17478-w.pdf)
+- [9] Jones, Charles, et al. "A causal perspective on dataset bias in machine learning for medical imaging." Nature Machine Intelligence 6.2 (2024): 138-146. [(PDF)](https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/s42256-024-00797-8&casa_token=Da6WexFt42oAAAAA:yZN-4FKxwBz6by4QicC1neuiGFCcur8StH0I_0FTO3SVASKgzuNPhX0PnXrXCmJaib1UjVClSzB-BkXBJCE)
+- [10] Thirunavukarasu, Arun James, et al. "Large language models in medicine." Nature medicine 29.8 (2023): 1930-1940. [(PDF)](https://www.nature.com/articles/s41591-023-02448-8)
+- [11] Zhang, Jingyi, et al. "Vision-language models for vision tasks: A survey." IEEE Transactions on Pattern Analysis and Machine Intelligence (2024). [(PDF)](https://ieeexplore.ieee.org/iel7/34/4359286/10445007.pdf?casa_token=YkE-Ce1otfoAAAAA:nzxMsIoQekzVQlRvR7AvTxQzOpdaBIXJNVfv8P9XGpkscrrbxMXfAYLrF4b2eJTfAEFFKss7UmE8LUM)

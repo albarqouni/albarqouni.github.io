@@ -1,0 +1,20 @@
+schema: hugoblox/author/v1
+slug: sebiha-demir
+is_owner: false
+name:
+  display: Sebiha Demir
+role: Kinderärztin
+group: collaborators
+bio: ''
+affiliations:
+- name: University Hospital Bonn
+  url: ''
+links:
+- icon: at-symbol
+  url: mailto:sebiha.demir@ukbonn.de
+interests: []
+education: []
+github: ''
+aliases: []
+tags:
+- clinical

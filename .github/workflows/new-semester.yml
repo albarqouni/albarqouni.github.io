@@ -1,0 +1,38 @@
+name: Prepare next semester's courses
+
+# On 1 March (→ winter semester) and 1 September (→ summer semester) clone the latest offering of every
+# recurring course into draft pages for the coming semester and open a pull request.
+on:
+  schedule:
+    - cron: '0 6 1 3,9 *'
+  workflow_dispatch:
+    inputs:
+      semester:
+        description: 'Semester code, e.g. WS2627 or SS27 (empty = next)'
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  semester:
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - run: python scripts/new_semester.py ${{ github.event.inputs.semester }}
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/new-semester
+          delete-branch: true
+          commit-message: 'Create draft course offerings for the next semester'
+          title: 'Teaching: draft offerings for the next semester'
+          labels: teaching, automated
+          body: |
+            Draft course pages were cloned from the previous offerings. Lecturers and tutors: please fill in
+            dates, room, BASIS/eCampus links and the timeline, then set `draft: false`.

@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: tobias-bernecker
+is_owner: false
+name:
+  display: Tobias Bernecker
+role: M.Sc. thesis (TU Munich, 2022)
+group: alumni
+bio: '# Biography
+
+  Tobias Bernecker is a Master Student at [Helmholtz AI](https://www.helmholtz.ai/) and the [Technical University of Munich (TUM)](https://www.tum.de/). He is in the team of the [Albarqouni Lab](https://www.helmholtz.ai/themenmenue/our-research/research-groups/albarqouni-group/index.html), where he aims to develop algorithms that can handle the data heterogeneity in [Federated Learning](https://albarqouni.github.io/project/federated-learning/) with medical imaging. Previously, Tobias did his master''s degree in Robotics, Cognition, Intelligence and his bachelor''s degree in Informatics at TUM. During his master studies, Tobias worked on multiple university-related and private research projects in the areas of Deep Learning for Computer Vision, Deep Reinforcement Learning and Geometric Deep Learning. Additionally, his research interests include Federated Learning and Domain Adaptation.'
+affiliations:
+- name: Helmholtz AI
+  url: https://www.helmholtz.ai/
+- name: Technical University of Munich
+  url: https://www.tum.de/
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.de/
+interests: []
+education:
+- degree: M.Sc. in Robotics, Cognition, Intelligence
+  institution: Technical University of Munich (TUM), Germany
+  end: '2021-12-31'
+- degree: B.Sc. in Informatics
+  institution: Technical University of Munich (TUM), Germany
+  end: '2018-12-31'
+github: ''
+aliases: []
+now: PhD student, Helmholtz Munich & TU Munich

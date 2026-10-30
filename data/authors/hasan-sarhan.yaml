@@ -1,0 +1,30 @@
+schema: hugoblox/author/v1
+slug: hasan-sarhan
+is_owner: false
+name:
+  display: Hasan Sarhan
+role: PhD (TU Munich, 2024)
+group: alumni
+bio: Hasan Sarhan did his PhD at the Technical University of Munich (2024), co-supervised in our group, on representation learning and fair AI for medical imaging. His work covered disentangled representations with adversarial VAEs, fairness through orthogonal disentangled representations (ECCV 2020), and microaneurysm segmentation for diabetic retinopathy screening. He is now a Senior Data Scientist at Johnson & Johnson, working on AI for surgery, and is committed to sharing AI and data-science knowledge with middle-income countries.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links: []
+interests:
+- Representation learning
+- Fairness in AI
+- Medical image analysis
+education:
+- degree: PhD in Computer Science
+  institution: Technical University of Munich
+  end: '2024-12-31'
+- degree: M.Sc.
+  institution: Technical University of Munich
+  end: '2016-12-31'
+github: ''
+aliases:
+- Mhd Hasan Sarhan
+- M H Sarhan
+- MH Sarhan
+tags: []
+now: Senior Data Scientist, Johnson & Johnson

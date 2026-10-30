@@ -1,0 +1,30 @@
+schema: hugoblox/author/v1
+slug: razieh-rezaei
+is_owner: false
+name:
+  display: Razieh Rezaei
+role: Researcher (University Hospital Bonn, 2023–2024)
+group: alumni
+bio: '# Biography
+
+  Razieh is currently working as an ML researcher at Prof. Dr. Shadi Albarqouni''s lab. She earned her Master''s degree in Computational Science and Engineering from TU-Munich. While pursuing her Master''s, she completed an internship at BMW, where she worked on ML projects, and concurrently conducted her thesis in AI. Later, she worked at LMU-Klinikum as an AI researcher working on the medical applications of Graph Neural Networks, Transformers, and Explainable AI. She aspires to have meaningful contributions to the intersection of AI and medicine while working at Albarqouni Lab.'
+affiliations:
+- name: Universitätsklinikum Bonn, Klinik für Diagnostische und Interventionelle Radiologie
+  url: https://www.ukbonn.de/radiologie/unser-team/
+links:
+- icon: at-symbol
+  url: mailto:Razieh.Rezaei@ukbonn.de
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=jMqjuBwAAAAJ&hl
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/razieh-rezaei/
+interests: []
+education:
+- degree: M.Sc. in Computational Science and Engineering
+  institution: Computer Science Department, Technical University of Munich, Germany
+  end: '2019-12-31'
+- degree: B.Sc. in Engineering
+  institution: Amirkabir University of Technology (Tehran Polytechnique), Iran
+  end: '2015-12-31'
+github: ''
+aliases: []

@@ -1,0 +1,37 @@
+schema: hugoblox/author/v1
+slug: adea-nesturi
+is_owner: false
+name:
+  display: Adea Nesturi
+role: PhD Candidate
+group: phd
+bio: '# Biography
+
+
+  Adea is currently a PhD candidate under the supervision of Prof. Dr. Shadi Albarqouni. She earned her master’s degree in Health Data Science from the University of St Andrews, Scotland, in 2024, where her research focused on the application of deep learning techniques for cancer detection. During her master’s program, she also contributed to the BraTS 2021 challenge, working on the segmentation of brain tumors (gliomas), which provided her with valuable experience in medical image analysis and collaborative research in international competitions.Adea’s research interests are centered on harnessing the power of deep learning to solve real-world medical challenges. She is particularly passionate about developing innovative technologies and AI-driven solutions that can directly improve patient care, enhance diagnostic accuracy, and optimize healthcare outcomes. Through her work at the Albarqouni Lab, she aims to bridge the gap between cutting-edge computational methods and practical applications
+  in clinical settings, advancing the field of medical AI while addressing critical healthcare needs.'
+affiliations:
+- name: Universitätsklinikum Bonn, Klinik für Diagnostische und Interventionelle Radiologie
+  url: https://www.ukbonn.de/radiologie/unser-team/
+- name: University of Bonn, Germany
+  url: https://www.uni-bonn.de/de
+links:
+- icon: at-symbol
+  url: mailto:adea.nesturi@ukbonn.de
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/adea-nesturi-43624923a/
+- icon: brands/github
+  url: https://github.com/adeanesturi1
+interests:
+- Deep Learning for Medical Image Analysis.
+- AI for Healthcare.
+- Computer Vision
+education:
+- degree: M.Sc. in Health Data Science
+  institution: University of St Andrews, Scotland.
+  end: '2024-12-31'
+- degree: B.Sc. in Computer Science
+  institution: Polis University, Tirana, Albania.
+  end: '2020-12-31'
+github: ''
+aliases: []

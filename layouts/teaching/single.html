@@ -1,0 +1,56 @@
+{{ define "main" }}
+{{- $course := .Parent -}}
+{{- $sem := partial "lab/semester.html" .Params.semester -}}
+{{- $siblings := sort $course.RegularPages "Date" "desc" -}}
+<article class="lab-page">
+  <nav class="lab-crumbs"><a href="{{ "/teaching/" | relLangURL }}">Teaching</a> / <a href="{{ $course.RelPermalink }}">{{ $course.Params.acronym }}</a> / {{ $sem.code }}</nav>
+  <header class="lab-project-head">
+    <div>
+      <p class="lab-kicker">{{ $course.Params.format }} · {{ partial "lab/faculty.html" $course.Params.faculty }} · {{ $sem.label }}</p>
+      <h1 class="lab-title">{{ $course.Title }}</h1>
+      {{ with .Params.summary | default $course.Params.summary }}<p class="lab-lead">{{ . | markdownify }}</p>{{ end }}
+      <div class="lab-row mt-3">
+        {{ with .Params.basis_url | default $course.Params.module_url }}<a class="lab-btn" href="{{ . }}" target="_blank" rel="noopener">BASIS / module ↗</a>{{ end }}
+        {{ with .Params.ecampus_url | default $course.Params.ecampus_url }}<a class="lab-btn lab-btn-alt" href="{{ . }}" target="_blank" rel="noopener">eCampus ↗</a>{{ end }}
+        {{ with .Params.registration }}<a class="lab-btn lab-btn-alt" href="{{ . }}" target="_blank" rel="noopener">Register ↗</a>{{ end }}
+      </div>
+    </div>
+    <aside class="lab-facts-box">
+      <p><b>Semester:</b> {{ $sem.label }}</p>
+      {{ with .Params.schedule }}<p><b>Time:</b> {{ . }}</p>{{ end }}
+      {{ with .Params.room }}<p><b>Room:</b> {{ . }}</p>{{ end }}
+      {{ with $course.Params.sws }}<p><b>Workload:</b> {{ . }} SWS{{ with $course.Params.ects }}, {{ . }} ECTS{{ end }}</p>{{ end }}
+      <h3>Lecturers</h3><div class="lab-row">{{ range .Params.lecturers }}{{ partial "lab/person.html" . }}{{ end }}</div>
+      {{ with .Params.tutors }}<h3>Tutors</h3><div class="lab-row">{{ range . }}{{ partial "lab/person.html" . }}{{ end }}</div>{{ end }}
+      {{ with .Params.funding }}<h3>Supported by</h3><div class="lab-logos">{{ range . }}{{ partial "lab/org.html" (dict "key" .) }}{{ end }}</div>{{ end }}
+    </aside>
+  </header>
+
+  {{- with partial "functions/get_featured_image.html" . }}
+  <figure class="lab-teaser">{{ if reflect.IsImageResourceProcessable . }}{{ $r := .Fit "1600x700 webp" }}<img src="{{ $r.RelPermalink }}" alt="" width="{{ $r.Width }}" height="{{ $r.Height }}">{{ else }}<img src="{{ .RelPermalink }}" alt="">{{ end }}
+  {{ with $.Params.image.caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}</figure>
+  {{- end }}
+
+  {{ with $course.Params.learning_objectives }}<section class="lab-section"><h2 class="lab-h2">Learning objectives</h2><ul class="lab-checks">{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ul></section>{{ end }}
+
+  {{ with .Content }}<section class="lab-section prose dark:prose-invert max-w-none">{{ . }}</section>{{ end }}
+
+  {{ with .Params.timeline }}
+  <section class="lab-section"><h2 class="lab-h2">Syllabus &amp; timeline</h2>
+    <div class="overflow-x-auto"><table class="lab-table">
+      <thead><tr><th>Date</th><th>Topic</th><th>Speaker / tutor</th><th>Material</th></tr></thead>
+      <tbody>{{ range . }}<tr><td class="whitespace-nowrap">{{ .date }}</td><td>{{ .topic | markdownify }}</td><td>{{ with .speaker }}{{ partial "lab/person.html" . }}{{ end }}</td><td>{{ with .material }}<a href="{{ . }}">slides</a>{{ end }}</td></tr>{{ end }}</tbody>
+    </table></div></section>
+  {{ end }}
+
+  {{ with .Params.grading }}
+  <section class="lab-section"><h2 class="lab-h2">Grading</h2>
+    <div class="lab-grading">{{ range . }}<div><b>{{ .weight }}%</b><span>{{ .item }}</span></div>{{ end }}</div></section>
+  {{ end }}
+
+  {{ if gt (len $siblings) 1 }}
+  <section class="lab-section"><h2 class="lab-h2">Other semesters</h2>
+    <div class="lab-row">{{ range $siblings }}{{ $s := partial "lab/semester.html" .Params.semester }}<a class="lab-chip {{ if eq .Permalink $.Permalink }}lab-chip-theme{{ end }}" href="{{ .RelPermalink }}">{{ $s.label }}</a>{{ end }}</div></section>
+  {{ end }}
+</article>
+{{ end }}

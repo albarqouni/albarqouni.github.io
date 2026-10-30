@@ -1,0 +1,20 @@
+- id: lab_type_journal
+  translation: Journal
+- id: lab_type_conference
+  translation: Conference
+- id: lab_type_workshop
+  translation: Workshop
+- id: lab_type_abstract
+  translation: Abstract
+- id: lab_type_preprint
+  translation: Preprint
+- id: lab_type_book
+  translation: Book / Chapter
+- id: lab_type_thesis
+  translation: Thesis
+- id: lab_type_other
+  translation: Other
+- id: lab_type_edited
+  translation: Edited volume
+- id: lab_type_patent
+  translation: Patent

@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{- $projects := .RegularPages.ByDate.Reverse -}}
+{{- $active := 0 -}}{{- $partners := slice -}}{{- $funders := slice -}}{{- $years := slice -}}{{- $countries := slice -}}
+{{- range $projects -}}
+  {{- $per := partial "lab/period.html" . -}}
+  {{- if eq $per.status "active" }}{{ $active = add $active 1 }}{{ end -}}
+  {{- $years = $years | append $per.years -}}
+  {{- range .Params.partners }}{{ $partners = $partners | append . }}{{ with index site.Data.organizations . }}{{ $countries = $countries | append .country }}{{ end }}{{ end -}}
+  {{- range .Params.funders }}{{ $funders = $funders | append . }}{{ end -}}
+{{- end -}}
+{{- $partners = uniq $partners -}}{{- $funders = uniq $funders -}}{{- $countries = uniq $countries -}}
+<div class="lab-page" data-filter-root>
+  <header class="lab-hero-sm">
+    <p class="lab-kicker">Funded projects &amp; research collaborations</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="lab-lead">{{ . }}</div>{{ end }}
+  </header>
+  <section class="lab-stats-grid">
+    <button type="button" data-set-facet="kind=funded" class="lab-stat text-left"><span class="lab-stat-n">{{ len (where $projects "Params.project_type" "funded") }}</span><span class="lab-stat-l">funded projects</span></button>
+    <button type="button" data-set-facet="kind=collaboration" class="lab-stat text-left"><span class="lab-stat-n">{{ len (where $projects "Params.project_type" "collaboration") }}</span><span class="lab-stat-l">research collaborations</span></button>
+    <div class="lab-stat"><span class="lab-stat-n">{{ $active }}</span><span class="lab-stat-l">currently active</span></div>
+    <div class="lab-stat"><span class="lab-stat-n">{{ len $partners }}</span><span class="lab-stat-l">partner institutions in {{ len $countries }} countries</span></div>
+  </section>
+  <section class="lab-logo-wall" aria-label="Funding agencies">
+    {{ range $funders }}<button type="button" data-set-facet="funder={{ . }}" class="lab-logo-btn" title="Show projects funded by {{ (index site.Data.organizations .).name }}">{{ partial "lab/org.html" (dict "key" . "size" "lg") }}</button>{{ end }}
+  </section>
+
+  {{- $yearOpts := slice -}}{{- range sort (uniq $years) "value" "desc" }}{{ $yearOpts = $yearOpts | append (dict "value" . "label" .) }}{{ end -}}
+  {{- $fOpts := slice -}}{{- range $k := $funders }}{{ with index site.Data.organizations $k }}{{ $fOpts = $fOpts | append (dict "value" $k "label" .short) }}{{ end }}{{ end -}}
+  {{- $cOpts := slice -}}{{- range sort $countries }}{{ $cOpts = $cOpts | append (dict "value" . "label" .) }}{{ end -}}
+  {{- $tOpts := slice -}}{{- range site.Taxonomies.themes.Alphabetical }}{{ $tOpts = $tOpts | append (dict "value" (urlize .Name) "label" .Page.Title) }}{{ end -}}
+  <div class="lab-filterbar" data-list>
+    <input type="search" data-search placeholder="Search projects, partners…" class="lab-input" aria-label="Search projects">
+    {{ partial "lab/select.html" (dict "facet" "kind" "label" "Funded & collaborations" "options" (slice (dict "value" "funded" "label" "Funded projects") (dict "value" "collaboration" "label" "Research collaborations"))) }}
+    {{ partial "lab/select.html" (dict "facet" "year" "label" "Any year" "options" $yearOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "funder" "label" "All funders" "options" (sort $fOpts "label")) }}
+    {{ partial "lab/select.html" (dict "facet" "theme" "label" "All themes" "options" $tOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "country" "label" "All partner countries" "options" $cOpts) }}
+    {{ partial "lab/select.html" (dict "facet" "status" "label" "Any status" "options" (slice (dict "value" "active" "label" "Active") (dict "value" "completed" "label" "Completed") (dict "value" "upcoming" "label" "Upcoming"))) }}
+    <button type="button" data-reset class="lab-btn-ghost">Reset</button>
+    <span class="lab-count"><b data-count>{{ len $projects }}</b> shown</span>
+  </div>
+  <div class="lab-card-grid">{{ range $projects }}{{ partial "lab/project-card.html" . }}{{ end }}</div>
+  <p data-empty hidden class="lab-empty">No projects match these filters.</p>
+</div>
+{{ end }}

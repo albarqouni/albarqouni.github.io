@@ -1,0 +1,59 @@
+# Application form for open positions. Edit this list to add/remove/reorder fields.
+#   type: text | email | tel | url | date | textarea | select | checkboxes | checkbox
+#   width: full | half      required: true/false      max: max characters (textarea)
+#   only: [phd, postdoc, thesis, hiwi, visiting] — show the field only for these position types
+#         (set `position_type:` on the position page; default phd)
+subject: "[Application] {position} – {last_name}, {first_name}"
+from_name: "Albarqouni Lab website"
+intro: >
+  Please complete the form below. Your application is sent directly by email to the PI — it is not stored on this website
+  or in any database. Share your CV and certificates as a link (e.g. Sciebo, Google Drive, Dropbox).
+success: "Thank you — your application has been sent. You will receive a reply from the lab once we have reviewed it."
+sections:
+  - title: 1 · About you
+    fields:
+      - {name: first_name, label: First name, type: text, required: true, width: half, autocomplete: given-name}
+      - {name: last_name, label: Last name, type: text, required: true, width: half, autocomplete: family-name}
+      - {name: email, label: Email, type: email, required: true, width: half, autocomplete: email}
+      - {name: phone, label: Phone (optional), type: tel, width: half, autocomplete: tel}
+      - {name: current_position, label: Current position & affiliation, type: text, required: true, width: half, placeholder: "e.g. M.Sc. student, University of …"}
+      - {name: location, label: Current city & country, type: text, width: half}
+  - title: 2 · Academic background
+    fields:
+      - {name: degree, label: Highest degree (completed or in progress), type: select, required: true, width: half, options: ["B.Sc.", "M.Sc.", "Medical degree (MD / Staatsexamen)", "Ph.D.", "Other"]}
+      - {name: field, label: Field of study, type: text, required: true, width: half}
+      - {name: university, label: University, type: text, required: true, width: half}
+      - {name: graduation, label: Graduation date (or expected), type: date, required: true, width: half}
+      - {name: grade, label: Final or current grade / GPA (optional), type: text, width: half}
+      - {name: thesis_title, label: Title of your latest thesis (optional), type: text, width: half}
+  - title: 3 · Skills & experience
+    fields:
+      - {name: skills, label: Programming and deep-learning experience, type: textarea, required: true, max: 1000, width: full, placeholder: "Languages, frameworks (e.g. Python, PyTorch, MONAI), GPUs/clusters, medical-imaging tools — and how long you have used them"}
+      - {name: experience, label: Relevant research experience or publications (optional), type: textarea, max: 1500, width: full, placeholder: "Projects, internships, papers, code you are proud of (links welcome)"}
+  - title: 4 · Research fit
+    fields:
+      - {name: themes, label: Which research themes interest you most?, type: checkboxes, options_from: themes, width: full}
+      - {name: motivation, label: Motivation statement, type: textarea, required: true, max: 3000, width: full, placeholder: "Why this position, why our lab, and what you would bring (max. 3000 characters)"}
+  - title: 5 · Availability
+    fields:
+      - {name: start_date, label: Earliest possible start date, type: date, required: true, width: half}
+      - {name: hours, label: Hours per week you can commit, type: select, width: half, options: ["< 10", "10–19", "20 (HiWi maximum)", "Full time"], only: [hiwi, thesis, visiting]}
+      - {name: duration, label: Planned duration, type: text, width: half, placeholder: "e.g. 6 months", only: [thesis, visiting, hiwi]}
+      - {name: funding, label: Do you have your own funding (scholarship, fellowship)?, type: select, width: half, options: ["No", "Yes", "Applied / pending"], only: [phd, postdoc, visiting]}
+  - title: 6 · Documents & links
+    fields:
+      - {name: cv_link, label: Link to CV and transcripts (PDF), type: url, required: true, width: full, placeholder: "https://… (Sciebo, Google Drive, Dropbox)"}
+      - {name: scholar, label: Google Scholar / ORCID (optional), type: url, width: half}
+      - {name: github, label: GitHub / GitLab (optional), type: url, width: half}
+      - {name: linkedin, label: LinkedIn or personal website (optional), type: url, width: full}
+  - title: 7 · Referees
+    only: [phd, postdoc]
+    fields:
+      - {name: referee1_name, label: Referee 1 — name & affiliation, type: text, required: true, width: half}
+      - {name: referee1_email, label: Referee 1 — email, type: email, required: true, width: half}
+      - {name: referee2_name, label: Referee 2 — name & affiliation, type: text, width: half}
+      - {name: referee2_email, label: Referee 2 — email, type: email, width: half}
+  - title: 8 · Final step
+    fields:
+      - {name: heard_from, label: How did you hear about this position?, type: select, width: full, options: ["Lab website", "University job portal", "LinkedIn", "Mailing list", "Conference", "Colleague / word of mouth", "Other"]}
+      - {name: consent, label: "I consent to the processing of the data in this form for the purpose of this application, in accordance with the GDPR. The data is emailed to the PI and deleted after the selection process.", type: checkbox, required: true, width: full}

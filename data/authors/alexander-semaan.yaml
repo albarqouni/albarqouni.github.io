@@ -1,0 +1,23 @@
+schema: hugoblox/author/v1
+slug: alexander-semaan
+is_owner: false
+name:
+  display: Alexander Semaan
+role: PD Dr. med., Leitender Oberarzt (Senior Consultant), Department of General and Visceral Surgery, Charité – Universitätsmedizin Berlin
+group: collaborators
+bio: PD Dr. med. Alexander Semaan is Leitender Oberarzt (senior consultant) at the Department of General and Visceral Surgery, Charité – Universitätsmedizin Berlin (Campus Benjamin Franklin). Previously at the University Hospital Bonn, he is a clinical partner in our multi-center federated learning project on CT-based staging of pancreatic cancer (PDAC).
+affiliations:
+- name: Charité – Universitätsmedizin Berlin, Campus Benjamin Franklin
+  url: https://chi.charite.de/metas/person/person/address_detail/pd_dr_med_alexander_semaan/
+links:
+- icon: hero/link
+  url: https://chi.charite.de/metas/person/person/address_detail/pd_dr_med_alexander_semaan/
+  label: Charité profile
+interests: []
+education: []
+github: ''
+aliases:
+- A Semaan
+tags:
+- clinical
+photo_credit: Charité – Universitätsmedizin Berlin

@@ -1,0 +1,45 @@
+schema: hugoblox/author/v1
+slug: amelia-jimenez-sanchez
+is_owner: false
+name:
+  display: Amelia Jiménez-Sánchez
+role: M.Sc. thesis (TU Munich, 2017)
+group: alumni
+bio: Amelia Jiménez-Sánchez studied Biomedical Computing (M.Sc.) at the Technical University of Munich, where she worked with Shadi Albarqouni and Diana Mateus at the Chair for Computer Aided Medical Procedures (CAMP) on the automatic classification of proximal femur fractures in X-ray images, together with the Klinikum rechts der Isar. She continued the collaboration during her PhD at Pompeu Fabra University, Barcelona (INPhINIT "la Caixa" fellow), on weakly-supervised and interpretable fracture classification and on capsule networks for medical imaging data challenges. After a postdoc at the PURRlab, IT University of Copenhagen, she joined the BCN-AIM lab at the University of Barcelona in 2025 to work on multimodal foundation models for cardiology.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links:
+- icon: hero/link
+  url: https://ameliajimenez.github.io/
+  label: Homepage
+- icon: academicons/orcid
+  url: https://orcid.org/0000-0001-7870-0603
+  label: ORCID
+interests:
+- Medical image classification
+- Weak supervision
+- Fair and robust ML evaluation
+education:
+- degree: PhD
+  institution: Pompeu Fabra University, Barcelona
+  end: '2021-12-31'
+- degree: M.Sc. in Biomedical Computing
+  institution: Technical University of Munich
+  end: ''
+- degree: Telecommunications Engineering
+  institution: University of Granada
+  end: ''
+github: ''
+aliases:
+- Amelia Jimenez Sanchez
+- Amelia Jimenez-Sanchez
+- A Jiménez-Sánchez
+- A Jimenez-Sanchez
+tags: []
+now: Postdoctoral researcher, BCN-AIM lab, University of Barcelona
+now_source:
+  source: ORCID / homepage
+  url: https://orcid.org/0000-0001-7870-0603
+  checked: '2026-10-30'
+photo_credit: Personal homepage (ameliajimenez.github.io)

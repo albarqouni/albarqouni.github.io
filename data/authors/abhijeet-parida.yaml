@@ -1,0 +1,46 @@
+schema: hugoblox/author/v1
+slug: abhijeet-parida
+is_owner: false
+name:
+  display: Abhijeet Parida
+role: M.Sc. thesis (TU Munich, 2019)
+group: alumni
+bio: Abhijeet Parida did his M.Sc. in Computational Science and Engineering at the Technical University of Munich (2019), with a master's thesis on data-efficient semantic segmentation in collaboration with Allianz, working with Shadi Albarqouni. Its medical spin-off, "Learn to Segment Organs with a Few Bounding Boxes", trains organ segmentation from a handful of box annotations. After working on AI for medical imaging at deepc GmbH (including full-head CT anomaly detection, CTFSH), he became an R&D DevOps Engineer at Children's National Hospital, Washington DC, where he works on MRI harmonisation, brain tumour segmentation, federated learning and foundation models for paediatric imaging, and is pursuing a PhD at Universidad Politécnica de Madrid.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links:
+- icon: hero/link
+  url: https://a-parida12.github.io/
+  label: Homepage
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=sWYYUzkAAAAJ
+  label: Google Scholar
+- icon: brands/github
+  url: https://github.com/a-parida12
+  label: GitHub
+interests:
+- Few-shot segmentation
+- MRI harmonisation
+- Federated learning
+education:
+- degree: PhD candidate, Electronic Systems Engineering
+  institution: Universidad Politécnica de Madrid
+  end: ''
+- degree: M.Sc. in Computational Science and Engineering
+  institution: Technical University of Munich
+  end: '2019-12-31'
+- degree: B.Tech. in Mechanical Engineering
+  institution: Amrita Vishwa Vidyapeetham
+  end: '2016-12-31'
+github: a-parida12
+aliases:
+- A Parida
+- A. Parida
+tags: []
+photo_credit: Google Scholar profile
+now: R&D DevOps Engineer, Children's National Hospital, Washington DC; PhD candidate, Universidad Politécnica de Madrid
+now_source:
+  source: personal homepage
+  url: https://a-parida12.github.io/
+  checked: '2026-10-30'

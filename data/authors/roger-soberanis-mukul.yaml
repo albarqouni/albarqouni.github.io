@@ -1,0 +1,40 @@
+schema: hugoblox/author/v1
+slug: roger-soberanis-mukul
+is_owner: false
+name:
+  display: Roger D. Soberanis-Mukul
+role: PhD (TU Munich, 2022)
+group: alumni
+bio: Roger D. Soberanis-Mukul did his PhD (2016–2022) at the Chair for Computer Aided Medical Procedures (CAMP), TU Munich, working with Shadi Albarqouni and Nassir Navab on uncertainty-driven graph convolutional networks for refining organ segmentation (MIDL 2020, MELBA) and on artefact-aware polyp detection in endoscopy (EAD challenge). After a postdoc at the ARCADE Lab, Johns Hopkins University (2022–2025), he became a researcher at ICube and IHU Strasbourg, University of Strasbourg.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links:
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=7soRur0AAAAJ
+  label: Google Scholar
+- icon: hero/link
+  url: https://www.cs.cit.tum.de/en/camp/members/alumni/roger-soberanis-mukul/
+  label: TUM CAMP alumni page
+interests:
+- Medical image segmentation
+- Graph convolutional networks
+- Uncertainty
+- Surgical data science
+education:
+- degree: PhD in Computer Science
+  institution: Technical University of Munich
+  end: '2022-12-31'
+github: ''
+aliases:
+- RD Soberanis-Mukul
+- Roger D Soberanis-Mukul
+- R.D. Soberanis-Mukul
+- Roger David Soberanis-Mukul
+tags: []
+now: Researcher, ICube & IHU Strasbourg, University of Strasbourg
+now_source:
+  source: Google Scholar / alphaXiv
+  url: https://scholar.google.com/citations?user=7soRur0AAAAJ
+  checked: '2026-10-30'
+photo_credit: TUM CAMP (archived staff page)

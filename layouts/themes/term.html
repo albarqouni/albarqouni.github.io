@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="lab-page">
+  <header class="lab-theme-hero" style="--c: {{ .Params.color }}; --ink: {{ .Params.ink | default .Params.color }}">
+    <nav class="lab-crumbs"><a href="{{ "/themes/" | relLangURL }}">Research themes</a></nav>
+    {{ partial "lab/theme-icon.html" (dict "page" . "size" 72) }}
+    <h1 class="lab-title">{{ .Title }}</h1>
+    <p class="lab-lead">{{ .Params.summary }}</p>
+  </header>
+  <div class="lab-two-col">
+    <div class="prose dark:prose-invert max-w-none">{{ .Content }}</div>
+    <aside class="lab-side">
+      <h3>Other themes</h3>
+      {{ range site.Taxonomies.themes }}{{ if ne .Page.Permalink $.Permalink }}<a class="lab-chip lab-chip-theme mb-2" style="--c: {{ .Page.Params.color }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>{{ end }}{{ end }}
+      {{- $people := slice -}}{{- range .Pages }}{{ range .Params.authors }}{{ if index site.Data.authors (urlize .) }}{{ $people = $people | append (urlize .) }}{{ end }}{{ end }}{{ end -}}
+      {{ with uniq $people }}<h3>People</h3><div class="lab-row">{{ range first 24 . }}{{ partial "lab/person.html" . }}{{ end }}</div>{{ end }}
+    </aside>
+  </div>
+  {{ partial "lab/grouped-sections.html" (dict "pages" .Pages "facet" "theme" "value" (urlize .Data.Term)) }}
+</div>
+{{ end }}

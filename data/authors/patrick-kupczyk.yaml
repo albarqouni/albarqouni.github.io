@@ -1,0 +1,23 @@
+schema: hugoblox/author/v1
+slug: patrick-kupczyk
+is_owner: false
+name:
+  display: Patrick Kupczyk
+role: PD Dr., Leitender Oberarzt (Senior Consultant) and Head of the Section of Interventional Radiology, Clinic for Diagnostic and Interventional Radiology, University Hospital Bonn
+group: collaborators
+bio: Priv.-Doz. Dr. Patrick Kupczyk is Leitender Oberarzt (senior consultant) and Head of the Section of Interventional Radiology at the Clinic for Diagnostic and Interventional Radiology, University Hospital Bonn. He is our clinical partner in the multi-center federated learning project on CT-based staging of pancreatic cancer (PDAC).
+affiliations:
+- name: University Hospital Bonn (UKB), Clinic for Diagnostic and Interventional Radiology
+  url: https://www.ukbonn.de/radiologie/unser-team/oberaerzt-innen/
+links:
+- icon: hero/link
+  url: https://www.ukbonn.de/radiologie/unser-team/oberaerzt-innen/
+  label: UKB radiology team
+interests: []
+education: []
+github: ''
+aliases:
+- Patrick Arthur Kupczyk
+tags:
+- clinical
+photo_credit: Universitätsklinikum Bonn (UKB)

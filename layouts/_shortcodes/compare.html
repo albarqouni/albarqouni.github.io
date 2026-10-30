@@ -1,0 +1,27 @@
+{{- /* Before/after image slider. Usage:
+  {{< compare before="a.png" after="b.png" before_label="uLF" after_label="MRIQT" />}}
+  Several cases: before="a1.png|a2.png" after="b1.png|b2.png" cases="Case A|Case B"
+  Images are page resources (page bundle) or site paths. */ -}}
+{{- $p := .Page -}}
+{{- $before := slice -}}{{- range split (.Get "before") "|" }}{{ $u := . }}{{ with $p.Resources.Get . }}{{ $u = .RelPermalink }}{{ end }}{{ $before = $before | append $u }}{{ end -}}
+{{- $after := slice -}}{{- range split (.Get "after") "|" }}{{ $u := . }}{{ with $p.Resources.Get . }}{{ $u = .RelPermalink }}{{ end }}{{ $after = $after | append $u }}{{ end -}}
+{{- $cases := cond (ne (.Get "cases") "") (split (.Get "cases") "|") slice -}}
+{{- $bl := .Get "before_label" | default "Before" -}}{{- $al := .Get "after_label" | default "After" -}}
+<figure class="lab-compare" data-compare>
+  <div class="lab-compare-stage" style="--pos:50%">
+    <img class="lab-compare-img" data-before src="{{ index $before 0 }}" alt="{{ $bl }}">
+    <img class="lab-compare-img lab-compare-top" data-after src="{{ index $after 0 }}" alt="{{ $al }}">
+    <span class="lab-compare-label lab-compare-label-l">{{ $al }}</span>
+    <span class="lab-compare-label lab-compare-label-r">{{ $bl }}</span>
+    <span class="lab-compare-line" aria-hidden="true"></span>
+    <input class="lab-compare-range" type="range" min="0" max="100" value="50" aria-label="Slide to compare {{ $bl }} and {{ $al }}">
+  </div>
+  {{- if gt (len $cases) 1 }}
+  <div class="lab-row lab-compare-cases" role="group" aria-label="Example">
+    {{- range $i, $c := $cases }}
+    <button type="button" class="lab-chip{{ if eq $i 0 }} is-active{{ end }}" data-before-src="{{ index $before $i }}" data-after-src="{{ index $after $i }}">{{ $c }}</button>
+    {{- end }}
+  </div>
+  {{- end }}
+  {{ with .Inner }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

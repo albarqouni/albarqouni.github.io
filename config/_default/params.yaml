@@ -1,0 +1,314 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# HUGO BLOX CONFIGURATION
+# Schema: hugoblox.com/schema/v2
+# Tutorial: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# ══════════════════════════════════════════════════════════════════════════════
+hugoblox:
+  schema: "2.0"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # IDENTITY
+  # Site-level branding (for people/profiles, use the author system in content/authors/)
+  # ────────────────────────────────────────────────────────────────────────────
+  identity:
+    # Site name - shown in navbar, footer, copyright, and browser title by default
+    name: "Albarqouni Lab"
+    # Legal entity for copyright notices (defaults to name if not set)
+    organization: "University of Bonn & University Hospital Bonn"
+    # Schema.org type for structured data
+    type: organization # person | organization | local_business
+    # Short tagline displayed on your site
+    tagline: "Collective Intelligence for Inclusive Medical AI"
+    # Site meta description for search engines and social sharing
+    description: "Albarqouni Lab — Computational Medical Imaging Research (CoMI), Prof. Shadi Albarqouni, University of Bonn and University Hospital Bonn."
+    # Social accounts (used for meta tags like Twitter Cards)
+    social:
+      twitter: "ShadiAlbarqouni" # Twitter/X handle for Twitter Cards (without @)
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # Color and visual design system
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    # Mode: 'light', 'dark', or 'system' (follows OS preference)
+    mode: dark  # dark (slide navy) by default; visitors can still switch with the theme toggle
+    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
+    pack: "default"
+    # Optional: Override theme pack colors
+    colors:
+      primary: "#173869" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#2d9d9b"
+      neutral: "slate" # Affects gray utilities (text-gray-*, bg-gray-*)
+    # Optional: Mode-specific color overrides
+    colors_light: {}
+    colors_dark: {}
+    # Optional: Semantic surface color overrides
+    surfaces:
+      background: ""
+      foreground: ""
+      header:
+        background: ""
+        foreground: ""
+      footer:
+        background: ""
+        foreground: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY
+  # Font and text sizing
+  # ────────────────────────────────────────────────────────────────────────────
+  typography:
+    # Theme pack: name from data/fonts/
+    pack: "system"  # fonts are self-hosted (assets/css/hbx/blocks/shared/fonts.css): no request to Google Fonts
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # LAYOUT
+  # Spacing and shape tokens
+  # ────────────────────────────────────────────────────────────────────────────
+  layout:
+    # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
+    radius: "md"
+    # Spacing density: 'compact', 'comfortable', or 'spacious'
+    spacing: "spacious"
+    # Avatar shape in author profiles
+    avatar_shape: circle # circle | square | rounded
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # HEADER
+  # Site header and navigation bar
+  # ────────────────────────────────────────────────────────────────────────────
+  header:
+    title: "Albarqouni Lab"
+    enable: true
+    # Header style variant
+    style: navbar # navbar | navbar-simple | minimal
+    # Stick to top on scroll
+    sticky: true
+    # Menu alignment
+    align: center # left | center | right
+    # Feature toggles
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    # Call-to-action button
+    cta:
+      enable: false
+      text: ""
+      url: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # FOOTER
+  # Site footer
+  # ────────────────────────────────────────────────────────────────────────────
+  footer:
+    # Footer style variant
+    style: lab # custom centred footer: layouts/_partials/components/footers/lab.html
+    language_switcher: false
+    # Custom footer text (HTML supported)
+    text: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # COPYRIGHT
+  # Legal notices and licensing
+  # ────────────────────────────────────────────────────────────────────────────
+  copyright:
+    # Copyright notice - supports {year}, {name}, {license} placeholders
+    notice: "© {year} Computational Medical Imaging Research (CoMI) Lab — Albarqouni Lab, University of Bonn. Content licensed under {license}"
+    license:
+      type: cc # cc | custom
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEO
+  # Search engine optimization - overrides and technical settings
+  # ────────────────────────────────────────────────────────────────────────────
+  seo:
+    # Browser tab title override (defaults to identity.name if not set)
+    title: ""
+    # For local_business identity type only
+    location:
+      address:
+        street: "Venusberg-Campus 1"
+        city: "Bonn"
+        region: ""
+        postal_code: "53127"
+        country: "Germany"
+      coordinates:
+        latitude: 50.7005
+        longitude: 7.0985
+      phone: ""
+    # AI/LLM crawler guidance (llms.txt)
+    ai:
+      allow:
+        - /
+      disallow: []
+      note: "Guidance for AI crawlers - customize to match your public content."
+      contact: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # CONTENT
+  # Content rendering and behavior
+  # ────────────────────────────────────────────────────────────────────────────
+  content:
+    # Math rendering
+    math:
+      enable: true
+    # Table of contents
+    toc:
+      enable: true
+    # Reading time estimates
+    reading_time:
+      enable: true
+    # Academic citations
+    citations:
+      style: apa # apa | mla | chicago | ieee
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEARCH
+  # Site search
+  # ────────────────────────────────────────────────────────────────────────────
+  search:
+    enable: true
+    # Trending/suggested search terms
+    suggestions: []
+    # Quick action shortcuts in search modal
+    quick_actions: []
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # COMMENTS
+  # User comments system
+  # ────────────────────────────────────────────────────────────────────────────
+  comments:
+    enable: false
+    provider: "" # giscus | disqus
+    giscus:
+      repo: ""
+      repo_id: ""
+      category: ""
+      category_id: ""
+    disqus:
+      shortname: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # ANALYTICS
+  # Traffic and behavior analytics
+  # ────────────────────────────────────────────────────────────────────────────
+  analytics:
+    google:
+      measurement_id: "" # GA4 is loaded by our consent banner instead — see lab.ga4_id
+    google_tag_manager:
+      container_id: "" # GTM-XXXXXXX
+    plausible:
+      domain: ""
+    fathom:
+      site_id: ""
+    pirsch:
+      site_id: ""
+    clarity:
+      project_id: ""
+    baidu:
+      site_id: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # VERIFICATION
+  # Search engine site verification codes
+  # ────────────────────────────────────────────────────────────────────────────
+  verification:
+    google: "uvcWC8RMHgOIKAwkwAToclbYpKUwAZZDZxc08F0KT6Q"
+    bing: ""
+    baidu: ""
+    yandex: ""
+    pinterest: ""
+    naver: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # REPOSITORY
+  # Source code repository for "Edit this page" links
+  # ────────────────────────────────────────────────────────────────────────────
+  repository:
+    enable: true
+    url: "https://github.com/albarqouni/albarqouni.github.io"
+    branch: main
+    content_dir: content
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # LOCALE
+  # Regional formatting preferences
+  # ────────────────────────────────────────────────────────────────────────────
+  locale:
+    date_format: "Jan 2, 2006" # Go time format
+    time_format: "3:04 PM"
+    address_format: en-us
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SECURITY
+  # Security headers and policies (requires Netlify integration)
+  # ────────────────────────────────────────────────────────────────────────────
+  security:
+    csp:
+      policy: ""
+      report_only: false
+    frame_options: allow # deny | sameorigin | allow - allow enables iframe embedding
+    permissions_policy: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # PRIVACY
+  # Privacy and compliance features
+  # ────────────────────────────────────────────────────────────────────────────
+  privacy:
+    enable: false
+    anonymize_analytics: true
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # DEBUG
+  # Development and debugging (hidden in production)
+  # ────────────────────────────────────────────────────────────────────────────
+  debug:
+    enable: false
+    hud:
+      position: bottom-left # top-left | top-right | bottom-left | bottom-right
+      opacity: 1.0
+    export_logs: true
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # PREMIUM
+  # Premium features and creator program (affiliates)
+  # ────────────────────────────────────────────────────────────────────────────
+  pro:
+    # Hide "Powered by HugoBlox" attribution
+    # Requires: HugoBlox Premium to support HugoBlox via alternative means
+    # Note: Even with Premium, you can keep this false to support open source!
+    # Get Premium: https://hugoblox.com/premium
+    hide_attribution: false
+
+    # Affiliate referral code for rewards program
+    # Join affiliate program: https://hugoblox.com/affiliates
+    affiliate_code: ""
+
+# ---------------------------------------------------------------------------
+# Albarqouni Lab custom settings (used by layouts in /layouts and /scripts)
+# ---------------------------------------------------------------------------
+lab:
+  scholar_id: "CPuApzoAAAAJ"
+  github_org: "albarqounilab"   # public repos here are synced into the Code section (scripts/sync_code_repos.py)
+  openalex_author: "A5038615871"   # OpenAlex id of the PI — auto-detected, please verify at openalex.org
+  orcid: ""                    # optional fallback source for publications
+  home: {name: "Albarqouni Lab, Bonn", lat: 50.7005, lon: 7.0985}
+  live_citations: true
+  # Old Universal Analytics tag, kept until a GA4 measurement ID (G-…) is set under hugoblox.analytics.google.measurement_id.
+  # The GA4 property 399488622 ("GitHub Blog - GA4") receives these hits via connected site tags.
+  legacy_ua_id: "UA-73880662-2"
+  # GA4 web stream of property 399488622 ("GitHub Blog - GA4"). Loaded ONLY after the visitor accepts analytics
+  # in the consent banner (layouts/_partials/hooks/body-end/consent.html), as required by § 25 TDDDG / GDPR.
+  ga4_id: "G-2YWNN9YME7"         # fetch per-paper citation counts from OpenAlex in the browser
+  ecampus_url: "https://ecampus.uni-bonn.de"
+  basis_url: "https://basis.uni-bonn.de"
+  # Application form for open positions (layouts/positions/single.html, fields in data/application_form.yaml).
+  # Submissions are relayed by Web3Forms (https://web3forms.com) straight to the inbox bound to this key;
+  # nothing is stored by this website. Create the key once with shadi.albarqouni@ukbonn.de and paste it here.
+  # Web3Forms access keys are designed to be public.
+  web3forms_key: "f2f034bd-c523-49a0-badd-cd38eee3ff76"

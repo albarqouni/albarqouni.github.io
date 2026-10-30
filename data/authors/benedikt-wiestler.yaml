@@ -1,0 +1,27 @@
+schema: hugoblox/author/v1
+slug: benedikt-wiestler
+is_owner: false
+name:
+  display: Benedikt Wiestler
+role: Professor of AI for Image-Guided Diagnosis and Therapy, TUM; Senior Physician, Neuroradiology, Klinikum rechts der Isar
+group: collaborators
+bio: Benedikt Wiestler is a physician-scientist and, since 2024, Professor of AI for Image-Guided Diagnosis and Therapy at TUM, with his lab embedded in TUM Neuroradiology and Radiation Oncology. His work focuses on multimodal AI for brain tumours and multiple sclerosis.
+affiliations:
+- name: Technical University of Munich (TUM) / Klinikum rechts der Isar
+  url: https://www.professoren.tum.de/en/wiestler-benedikt
+links:
+- icon: hero/link
+  url: https://www.professoren.tum.de/en/wiestler-benedikt
+  label: TUM profile
+- icon: hero/link
+  url: https://ai-idt.github.io
+  label: AI-IDT Lab
+interests: []
+education: []
+github: ''
+aliases:
+- B Wiestler
+- Benedict Wiestler
+tags:
+- clinical
+photo_credit: Technical University of Munich

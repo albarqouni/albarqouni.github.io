@@ -1,0 +1,39 @@
+schema: hugoblox/author/v1
+slug: ziqi-wang
+is_owner: false
+name:
+  display: Ziqi Wang
+role: Visiting PhD Student (FAU Erlangen-Nürnberg)
+group: alumni
+bio: '# Biography
+
+
+  Ziqi Wang is a Ph.D. candidate in Mathematics at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), where he works at the Chair for Dynamics, Control, Machine Learning and Numerics--Alexander von Humboldt Professorship, under the supervision of Prof. Dr. Enrique Zuazua.
+
+
+  His research focuses on federated learning, distributed optimization, and dynamical systems. He is particularly interested in federated learning from a multi-level perspective: 1) server-side fair and robust aggregation; 2) client-side drift control and local optimization; 3) system-level game-theoretic incentives; and 4) privacy risks in distributed training.
+
+
+  During his visit with Prof. Dr. Shadi Albarqouni''s group, he is exploring how conflict-resolved, fairness-aware aggregation algorithms for federated learning can support privacy-preserving collaborative learning in healthcare.'
+affiliations:
+- name: Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany
+  url: https://www.fau.eu
+links:
+- icon: at-symbol
+  url: mailto:ziqi.wang@fau.de
+- icon: hero/link
+  url: https://iziqi.github.io
+- icon: brands/github
+  url: https://github.com/iziqi
+- icon: academicons/google-scholar
+  url: https://scholar.google.com.hk/citations?user=ZQLIopYAAAAJ&hl=en-CN&oi=ao
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/ziqiwang7/
+interests: []
+education:
+- degree: Ph.D. candidate in Mathematics
+  institution: Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany
+  end: 2022-present-12-31
+github: ''
+aliases: []
+now: PhD candidate, Chair for Dynamics, Control, Machine Learning and Numerics, FAU Erlangen-Nürnberg

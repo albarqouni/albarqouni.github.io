@@ -1,0 +1,10 @@
+# Team-page groups, in display order. `group:` in data/authors/<slug>.yaml must be one of these keys.
+pi: Principal Investigator
+postdocs: Postdoctoral Researchers
+phd: PhD Students
+researchers: Researchers
+students: Student Assistants & Master Students
+affiliated: Affiliated Researchers
+collaborators: Clinical & Academic Collaborators
+guests: Guests & Speakers
+alumni: Alumni

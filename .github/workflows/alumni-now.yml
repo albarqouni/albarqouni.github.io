@@ -1,0 +1,53 @@
+name: Alumni current positions (yearly)
+
+# Once a year: refresh the "Now: …" line of alumni from public sources (ORCID, GitHub) and list leads from their latest
+# papers (OpenAlex) in docs/alumni-now.md. Changes arrive as a pull request for review — nothing is published without a merge.
+on:
+  schedule:
+    - cron: '23 5 15 1 *'   # 15 January, 05:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: alumni-now
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install pyyaml
+      - name: Refresh
+        env:
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/alumni_now.py | tee /tmp/alumni.log
+          echo 'ALUMNI_LOG<<EOF' >> $GITHUB_ENV; grep -E '^[~?]|updated' /tmp/alumni.log >> $GITHUB_ENV; echo 'EOF' >> $GITHUB_ENV
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/alumni-now
+          delete-branch: true
+          commit-message: 'Refresh alumni current positions'
+          title: 'Alumni current positions — ${{ github.run_started_at }}'
+          labels: team, automated
+          body: |
+            Yearly check of where our alumni are now. `~` = updated from the person's own ORCID/GitHub record;
+            `?` = lead from their latest paper (not applied — see `docs/alumni-now.md`, check and edit `now:` by hand).
+            Please also look at LinkedIn / Google Scholar yourself for anyone still without a current position.
+
+            ```
+            ${{ env.ALUMNI_LOG }}
+            ```

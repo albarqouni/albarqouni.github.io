@@ -1,0 +1,26 @@
+schema: hugoblox/author/v1
+slug: aditya-rastogi
+is_owner: false
+name:
+  display: Aditya Rastogi
+role: Postdoctoral researcher at the Department of Neuroradiology, [Universitätsklinikum Bonn](https://www.ukbonn.de/), Bonn, Germany
+group: guests
+bio: '# Biography
+
+
+
+  Dr. Aditya Rastogi is a postdoctoral researcher in the Department of Neuroradiology at Universitätsklinikum Bonn, where he works with Prof. Philipp Vollmuth and leads AI research within the Division of Computational Radiology and Clinical AI. His research focuses on developing advanced computational methods for medical image reconstruction, solving inverse problems, and integrating multi-modal neuroimaging.
+
+
+  His current research interests lie in designing AI algorithms for ultra-low-field MRI and MRI scan-time reduction with a focus on generative modelling and human-in-the-loop optimisation. He earned his M.Tech and Ph.D. from the Indian Institute of Science (IISc), Bangalore, under the supervision of Prof. Phaneendra Yalavarthy, with a specialisation in computational medical imaging. During his doctoral studies, he was awarded the prestigious Prime Minister’s Research Fellowship (PMRF) by the Government of India in recognition of his research potential.
+
+
+  Prior to joining Universitätsklinikum Bonn, he held a postdoctoral position at Universitätsklinikum Heidelberg. He is also engaged in mentoring graduate students and contributing to open-source initiatives in medical AI.'
+affiliations:
+- name: Universitätsklinikum Bonn
+  url: https://www.ukbonn.de/
+links: []
+interests: []
+education: []
+github: ''
+aliases: []

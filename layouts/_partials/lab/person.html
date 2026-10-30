@@ -1,0 +1,13 @@
+{{/* A person chip. Arg: a slug ("shadi-albarqouni") or a display name ("Jane Doe"). Team members link to their profile. */}}
+{{- $raw := . -}}
+{{- $slug := urlize $raw -}}
+{{- $data := index site.Data.authors $slug -}}
+{{- if $data -}}
+  {{- $name := $data.name.display | default $raw -}}
+  {{- $avatar := resources.GetMatch (printf "media/authors/%s.*" $slug) -}}
+  <a href="{{ printf "/authors/%s/" $slug | relLangURL }}" class="lab-chip lab-chip-person" title="{{ $data.role | plainify }}">
+    {{- with $avatar }}{{ $t := .Fill "48x48 webp center" }}<img src="{{ $t.RelPermalink }}" alt="" width="20" height="20" class="rounded-full">{{ end -}}
+    <span>{{ $name }}</span></a>
+{{- else -}}
+  <span class="lab-chip lab-chip-ext">{{ $raw }}</span>
+{{- end -}}

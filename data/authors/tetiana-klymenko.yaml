@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: tetiana-klymenko
+is_owner: false
+name:
+  display: Tetiana Klymenko
+role: M.Sc. thesis (TU Munich)
+group: alumni
+bio: Tetiana Klymenko studied at the Technical University of Munich and worked with Shadi Albarqouni at the Chair for Computer Aided Medical Procedures (CAMP), in collaboration with the LMU radiation-oncology team (Guillaume Landry, Christopher Kurz, Kirsten Lauber). Her work led to Butterfly-Net (ISBI 2021), a spatial-temporal memory network that segments tumours in longitudinal CT scans by using earlier time points and clinical factors.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links:
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/tetiana-klymenko-440148182/
+  label: LinkedIn
+interests:
+- Medical image segmentation
+- Spatio-temporal deep learning
+education: []
+github: ''
+aliases:
+- T Klymenko
+- T. Klymenko
+tags: []
+now: Lobster
+now_source:
+  source: LinkedIn headline
+  url: https://www.linkedin.com/in/tetiana-klymenko-440148182/
+  checked: '2026-10-30'

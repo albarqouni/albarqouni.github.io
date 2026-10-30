@@ -1,0 +1,32 @@
+schema: hugoblox/author/v1
+slug: matthaeus-heer
+is_owner: false
+name:
+  display: Matthäus Heer
+role: M.Sc. thesis (ETH Zurich, 2020)
+group: alumni
+bio: Matthäus Heer did his master's thesis at the Computer Vision Lab of ETH Zurich (Ender Konukoglu), co-supervised by Shadi Albarqouni at Helmholtz AI, on quantifying trust in pathology segmentation from brain MRI with little supervision. The work became "The OOD Blind Spot of Unsupervised Anomaly Detection" (MIDL 2021), which showed that unsupervised anomaly detectors can fail on out-of-distribution inputs. He was then affiliated with the Physics Institute of the University of Zurich.
+affiliations:
+- name: ETH Zurich
+  url: ''
+links:
+- icon: brands/github
+  url: https://github.com/matthaeusheer
+  label: GitHub
+- icon: hero/link
+  url: https://github.com/matthaeusheer/uncertify
+  label: Thesis code
+interests:
+- Unsupervised anomaly detection
+- Out-of-distribution detection
+- Brain MRI
+education:
+- degree: M.Sc. thesis
+  institution: ETH Zurich
+  end: '2020-12-31'
+github: matthaeusheer
+aliases:
+- Matthaeus Heer
+- M Heer
+- Matthaus Heer
+tags: []

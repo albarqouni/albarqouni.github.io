@@ -1,0 +1,36 @@
+schema: hugoblox/author/v1
+slug: aya-elgebaly
+is_owner: false
+name:
+  display: Aya ELGebaly
+role: M.Sc. thesis (MAIA, University of Cassino, 2024)
+group: alumni
+bio: '# Biography
+
+
+  Aya Elgebaly is a Master’s Thesis Student at Albarqouni Lab, where she works on multi-rater medical image segmentation using probabilistic modeling and deep learning. Her research addresses challenges in clinical imaging—such as annotation ambiguities and observer-related uncertainties—with the aim of developing robust and reliable segmentation models for practical healthcare applications.
+
+
+  Aya is currently pursuing an Erasmus Mundus Joint Master’s in Medical Imaging and Applications (MAIA), an interdisciplinary program offered in collaboration with the University of Girona (Spain), the University of Bourgogne (France), and the University of Cassino (Italy). With a solid background in medical image analysis, she has contributed to several projects, including semi-supervised learning for breast lesion detection, multi-modality stroke lesion segmentation, surgical video anonymization for hospital integration, and skin image classification using knowledge distillation. Her work on chest CT image registration for lung imaging further demonstrates her diverse expertise in medical AI.
+
+
+  Her research interests encompass medical image segmentation, and uncertainty modeling, with a focus on developing AI-driven tools that support diagnostic accuracy and improve patient outcomes. Through her efforts at Albarqouni Lab, Aya is committed to bridging the gap between research and clinical practice.'
+affiliations:
+- name: Erasmus Mundus Joint Master’s in Medical Imaging and Applications (MAIA)
+  url: https://maiamaster.udg.edu/
+links:
+- icon: at-symbol
+  url: mailto:aya122010@gmail.com
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/aya-e-24778299/
+interests: []
+education:
+- degree: M.Sc. Erasmus Mundus Joint Master’s in Medical Imaging and Applications (MAIA)
+  institution: University of Girona (Spain), the University of Bourgogne (France), and the University of Cassino (Italy)
+  end: present-12-31
+- degree: B.Sc. Biomedical Engineering
+  institution: Yildiz Technical University, Istanbul
+  end: '2023-12-31'
+github: ''
+aliases: []
+now: PhD student, Technical University of Denmark (DTU)

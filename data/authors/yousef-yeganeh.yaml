@@ -1,0 +1,34 @@
+schema: hugoblox/author/v1
+slug: yousef-yeganeh
+is_owner: false
+name:
+  display: Yousef Yeganeh
+role: PhD (TU Munich, 2025)
+group: alumni
+bio: Yousef Yeganeh did his PhD (2020–2025) at the Chair for Computer Aided Medical Procedures (CAMP), TU Munich, on machine learning for medical imaging under data heterogeneity. With Shadi Albarqouni he introduced Inverse Distance Aggregation (IDA) for federated learning with non-IID data (DART/DCL 2020), and his later work includes shape-aware masking for inpainting, the Y-Net dual-encoder segmentation network and latent drifting in diffusion models for counterfactual medical image synthesis (CVPR 2025). He is now a lecturer at Aalto University and a researcher at TU Munich.
+affiliations:
+- name: Technical University of Munich
+  url: ''
+links:
+- icon: hero/link
+  url: https://www.alphaxiv.org/@yousef-yeganeh
+  label: Profile
+interests:
+- Federated learning
+- Medical image segmentation
+- Generative models
+education:
+- degree: PhD in Computer Science
+  institution: Technical University of Munich
+  end: '2025-12-31'
+github: ''
+aliases:
+- Y Yeganeh
+- Y. Yeganeh
+tags: []
+now: Lecturer, Aalto University; researcher, TU Munich
+now_source:
+  source: alphaXiv profile
+  url: https://www.alphaxiv.org/@yousef-yeganeh
+  checked: '2026-10-30'
+photo_credit: Google Scholar profile (via alphaXiv)

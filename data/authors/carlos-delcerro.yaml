@@ -1,0 +1,35 @@
+schema: hugoblox/author/v1
+slug: carlos-delcerro
+is_owner: false
+name:
+  display: Carlos Fernández Del Cerro
+role: Visiting PhD Student (UC3M Madrid, 2022–2023)
+group: alumni
+bio: '# Biography
+
+
+  Carlos studied a Bachelor''s degree in Telecommunication Technologies at University Carlos III of Madrid (UC3M) and then decided to complement his education with a Master''s degree in Telecommunications Engineering at the same university. He combined these last studies with a research grant at the Imdea Networks Institute. After that, he started working in a startup focused mainly on the application of artificial intelligence techniques in the railway sector with renowned companies such as London Underground or Deutsche Bahn. At the end of 2019, he was hired as a research engineer in the Department of Bioengineering at UC3M to work on the improvement of radiology systems. After two years working on different projects he has started his PhD under the supervision of [Prof. Dr. Monica Abella](https://image.hggm.es/en/en-monica-abella). His thesis studies the application of Deep Learning methods in X-ray systems, from image acquisition to tomographic image reconstruction. This work is done
+  in collaboration with one of the main hospitals in Spain (Hospital Universitario Gregorio Marañón) and the company SEDECAL. Currently, Carlos is doing a six-month research internship (Nov. 2022 - Apr. 2023) at Albarqouni Lab at the University Hospital Bonn. He is working under the supervision of [Prof. Dr. Shadi Albarqouni](https://albarqouni.github.io/authors/shadi-albarqouni) on the topic [Weakly-Supervised Federated Learning for Chest X-ray Imaging](https://albarqouni.github.io/students/theses/MA_Thesis_Weakly_Supervised_Federated_Learning_for_Chest_X-ray_Imaging.pdf).'
+affiliations:
+- name: University Carlos III of Madrid
+  url: uc3m.es/Home
+- name: University Hospital Bonn
+  url: ukb.uni-bonn.de
+links:
+- icon: at-symbol
+  url: mailto:carlosfe@pa.uc3m.es
+- icon: academicons/google-scholar
+  url: https://scholar.google.com/citations?user=X7O7ldQAAAAJ&hl=es&authuser=3
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/carlos-fern%C3%A1ndez-del-cerro-b35799139/
+interests: []
+education:
+- degree: M.Sc. in Telecommunications Engineering
+  institution: University Carlos III of Madrid, Spain
+  end: '2019-12-31'
+- degree: B.Sc. in Telecommunication Technologies Engineering
+  institution: University Carlos III of Madrid, Spain
+  end: '2017-12-31'
+github: ''
+aliases: []
+now: Senior AI Scientist, Spanish National Center for Cardiovascular Research (CNIC)

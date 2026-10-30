@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: ilayda-tuerk
+is_owner: false
+name:
+  display: İlayda Selin Türk
+role: M.Sc. thesis (TU Munich)
+group: alumni
+bio: '# Biography
+
+
+  İlayda is currently pursuing her master''s degree in Informatics at the Technical University of Munich, with a specialization in Machine Learning, Computer Vision, Digital Biology and Digital Medicine. She is currently working on her master’s thesis *Investigating Bias in AI Algorithms for Breast Cancer Detection from Mammography Imaging: A Focus on Generalization to Unseen Populations*. Alongside her studies, she is also working as a Data Engineering/Machine Learning Engineering Working Student, focusing on researching and implementing state-of-the-art machine learning methods as well as developing data engineering solutions for efficient data processing and integration. She completed her undergraduate study in Computer Engineering at Cankaya University in Turkey.'
+affiliations:
+- name: Technical University of Munich, Germany
+  url: https://www.tum.de/
+links:
+- icon: at-symbol
+  url: mailto:ilaydaselinturk@gmail.com
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/ilaydaselinturk/
+interests: []
+education:
+- degree: M.Sc. Informatics
+  institution: Technical University of Munich, Germany
+  end: present-12-31
+- degree: B.Sc. Computer Engineering
+  institution: Cankaya University, Turkey
+  end: '2020-12-31'
+github: ''
+aliases: []

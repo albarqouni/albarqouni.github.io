@@ -1,0 +1,2 @@
+{{- $f := . | default "" -}}
+{{- return (index (dict "medicine" "Medical Faculty" "informatics" "Informatics / Mathematics & Natural Sciences" "schools" "Summer & Autumn Schools") $f | default (title $f)) -}}
