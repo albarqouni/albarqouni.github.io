@@ -61,5 +61,11 @@ code for a token; it stores nothing.
    app once, and the collections (Team profiles, Media, Community, …) appear. A “repository not found” error means
    `backend.repo` is wrong or the repository is private.
 
+**Our relay is patched (two lines in `decap-proxy/src/index.ts`, kept locally and on Cloudflare):**
+- the login redirect is a non-cached `302` (the original `301` is cached by browsers, so a wrong Client ID would stick);
+- the GitHub callback URL is exactly `RELAY_URL/callback` (GitHub rejects the original `…/callback?provider=github`
+  unless *Allow wildcard matching* is ticked in the OAuth app). If you reinstall the relay from upstream, re-apply both
+  or tick *Allow wildcard matching*.
+
 Team members need nothing but a GitHub account: with `open_authoring` the editor forks the repository for them and
 opens a pull request that you review.
