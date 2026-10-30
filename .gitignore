@@ -72,3 +72,4 @@ npm-debug.log*
 # Local tooling
 .claude/
 .hugo_build.lock
+decap-proxy/

@@ -10,7 +10,7 @@ backend:
   name: github
   repo: albarqouni/albarqouni.github.io   # the live site's repository (see docs/LAUNCH.md)
   branch: main
-  base_url: https://decap-oauth.albarqouni.workers.dev   # GitHub sign-in relay — set up once, see docs/EDITING.md "Team login"
+  base_url: https://decap-oauth.sbaraqouni.workers.dev   # GitHub sign-in relay — set up once, see docs/EDITING.md "Team login"
   auth_endpoint: /auth
   open_authoring: true
   squash_merges: true
