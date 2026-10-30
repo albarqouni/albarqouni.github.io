@@ -1,0 +1,13 @@
+
+.lr[data-v-0051a658] { display: grid; grid-template-columns: 0.8fr 1.6fr; gap: 0.9rem; align-items: start;
+}
+.lr .c[data-v-0051a658] { background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;
+}
+.lr .c img[data-v-0051a658] { width: 100%; height: 17.5rem; object-fit: cover; display: block; background: #fff;
+}
+.lr .c.w img[data-v-0051a658] { object-fit: contain;
+}
+.lr b[data-v-0051a658] { font: 600 1.1rem 'Source Serif 4', serif; color: var(--navy); padding: 0.45rem 0.7rem 0;
+}
+.lr span[data-v-0051a658] { font-size: 0.84rem; line-height: 1.4; padding: 0.15rem 0.7rem 0.55rem;
+}

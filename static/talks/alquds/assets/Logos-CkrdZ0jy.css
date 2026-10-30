@@ -1,0 +1,17 @@
+
+.logos[data-v-794d68e4] {
+  position: absolute; top: 0.9rem; right: 1.6rem; z-index: 5;
+  display: flex; align-items: center; gap: 0.9rem;
+}
+.logos img[data-v-794d68e4] { display: block; object-fit: contain; object-position: center;
+}
+.comi[data-v-794d68e4] { width: 5.57rem; height: 2rem;
+}
+.ukb[data-v-794d68e4] { width: 6.75rem; height: 1.5rem;
+}
+.ub[data-v-794d68e4] { width: 5.1rem; height: 2rem;
+}
+.daad[data-v-794d68e4] { position: absolute; top: 1.15rem; left: 1.6rem; z-index: 5; height: 1.5rem; width: auto; display: block;
+}
+.daad.dark[data-v-794d68e4] { filter: brightness(0) invert(1);
+}

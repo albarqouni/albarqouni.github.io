@@ -1,0 +1,11 @@
+
+.sc[data-v-b3eed041] { position: absolute; top: 3.25rem; right: 1.6rem; z-index: 6; display: flex; align-items: center; gap: 0.5rem; background: #fff; border: 1px solid var(--line); border-radius: 99px; padding: 0.15rem 0.7rem 0.15rem 0.15rem; box-shadow: 0 3px 10px rgba(23,56,105,0.12);
+}
+.sc img[data-v-b3eed041] { width: 2.2rem; height: 2.2rem; border-radius: 50%; object-fit: cover; border: 2px solid var(--teal);
+}
+.sc div[data-v-b3eed041] { display: flex; flex-direction: column; line-height: 1.15;
+}
+.sc b[data-v-b3eed041] { font: 600 0.78rem 'Source Serif 4', serif; color: var(--navy); white-space: nowrap;
+}
+.sc span[data-v-b3eed041] { font: 0.5rem 'IBM Plex Mono', monospace; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); white-space: nowrap;
+}
