@@ -1,4 +1,6 @@
 ---
 title: Nada El Darra
-description: Nada El Darra — Visiting Scientist, Beirut Arab University, Lebanon. Albarqouni Lab, Computational Medical Imaging Research, University of Bonn.
+# Hidden profile: data kept in data/hidden_authors/ — move it back to data/authors/ and delete these build lines to restore.
+build: {render: never, list: never}
+sitemap: {disable: true}
 ---
