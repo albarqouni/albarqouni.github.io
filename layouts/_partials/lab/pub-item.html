@@ -9,7 +9,7 @@
   data-f-venue="{{ .Params.venue }}" data-text="{{ .Title }} {{ range .Params.authors }}{{ partial "lab/author-name.html" . }} {{ end }} {{ .Params.publication.name }} {{ delimit (.Params.tags | default slice) " " }}">
   <a href="{{ .RelPermalink }}" class="lab-pub-thumb" tabindex="-1" aria-hidden="true">
     {{- if partial "functions/get_featured_image.html" . }}{{ partial "lab/thumb.html" (dict "page" . "w" 400 "h" 250 "class" "w-full h-full object-contain bg-white") }}
-    {{- else }}{{ with partial "lab/venue-logo.html" (dict "page" . "class" "w-full h-full object-contain p-3 bg-white") }}{{ . }}{{ else }}<span class="lab-venue-word lab-venue-word-sm">{{ with index site.Data.venues ($.Params.venue | default "") }}{{ .short | default .name }}{{ else }}{{ $.Params.publication.name | default "—" | truncate 60 }}{{ end }}</span>{{ end }}{{ end -}}
+    {{- else }}{{ with partial "lab/venue-logo.html" (dict "page" . "class" "w-full h-full object-contain p-3 bg-white") }}{{ . }}{{ else }}<span class="lab-venue-word lab-venue-word-sm">{{ with index site.Data.venues ($.Params.venue | default "") }}{{ .short | default .name }}{{ if eq .type "conference" }} {{ $.Date.Year }}{{ end }}{{ else }}{{ $.Params.publication.name | default "—" | truncate 60 }}{{ end }}</span>{{ end }}{{ end -}}
   </a>
   <div class="min-w-0">
     <h3 class="lab-pub-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

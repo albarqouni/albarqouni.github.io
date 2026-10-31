@@ -24,6 +24,7 @@
     <aside class="lab-facts-box">
       {{ if .Params.funders }}<h3>Funded by</h3>
       <div class="lab-logos lab-logos-lg">{{ range .Params.funders }}{{ partial "lab/org.html" (dict "key" . "size" "lg") }}{{ end }}</div>
+      {{ if .Params.show_partners }}<h3>Partners</h3><div class="lab-logos lab-logos-lg">{{ range first 4 (.Params.partners | default slice) }}{{ partial "lab/org.html" (dict "key" . "size" "lg") }}{{ end }}</div>{{ end }}
       {{ else }}<h3>Research collaboration</h3><div class="lab-logos lab-logos-lg">{{ range first 4 (.Params.partners | default slice) }}{{ partial "lab/org.html" (dict "key" . "size" "lg") }}{{ end }}</div>{{ end }}
       {{ with .Params.grant_number }}<p><b>Grant:</b> {{ . }}</p>{{ end }}
       <p><b>Period:</b> {{ .Params.start }} – {{ .Params.end | default "ongoing" }}</p>

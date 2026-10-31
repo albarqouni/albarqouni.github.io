@@ -53,7 +53,7 @@ uni-melbourne: {name: University of Melbourne, short: University, url: '', count
 dnipro-state-medical-university: {name: Dnipro State Medical University, short: Dnipro, url: '', country: Ukraine, lat: 48.46, lon: 35.05, kind: university, logo: dnipro-state-medical-university.png, network: true}
 qatar-university: {name: Qatar University, short: Qatar, url: '', country: Qatar, lat: 25.38, lon: 51.49, kind: university, logo: qatar-university.png, network: true}
 german-international-university: {name: German International University, short: German, url: '', country: Egypt, lat: 30.03, lon: 31.68, kind: university, logo: german-international-university.png, network: true}
-helmholtz-zentrum-hereon: {name: Helmholtz-Zentrum hereon, short: Helmholtz-Zentrum, url: '', country: Germany, lat: 53.41, lon: 10.43, kind: university, logo: helmholtz-zentrum-hereon.png, network: true}
+helmholtz-zentrum-hereon: {name: Helmholtz-Zentrum Hereon, short: Hereon, url: 'https://www.hereon.de/index.php.en', country: Germany, lat: 53.41, lon: 10.43, kind: university, logo: helmholtz-zentrum-hereon.png, network: true}
 world-health-organization: {name: World Health Organization, short: World, url: '', country: Switzerland, lat: 46.23, lon: 6.13, kind: university, logo: world-health-organization.png, network: true}
 inria: {name: Inria, short: Inria, url: '', country: France, lat: 43.62, lon: 7.05, kind: university, logo: inria.png, network: true}
 ip-paris: {name: École Polytechnique · IP Paris, short: École, url: '', country: France, lat: 48.71, lon: 2.21, kind: university, logo: ip-paris.png, network: true}

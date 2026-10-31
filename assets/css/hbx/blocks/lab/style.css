@@ -665,3 +665,7 @@ html:not(.dark) .page-header nav a:hover { color: #2d9d9b; }
 @media (max-width: 900px) { .lab-banner-mark { right: -25%; width: 130vw; opacity: .1; } }
 .lab-hero2 .lab-banner-logo { width: min(100%, 23rem); }
 .lab-banner-mark { width: min(64vw, 880px); right: -2%; top: -4%; }
+
+/* paper page without a teaser figure: the journal cover / conference logo instead */
+.lab-teaser-venue { display: flex; justify-content: center; }
+.lab-teaser-venue img { max-height: 14rem; width: auto; max-width: min(100%, 26rem); background: #fff; padding: 1rem; border-radius: 0.75rem; }

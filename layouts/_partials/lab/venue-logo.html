@@ -1,4 +1,7 @@
-{{/* Logo of a publication's venue (data/venues.yaml → logo), or nothing. Args: page, class */}}
-{{- with index site.Data.venues (.page.Params.venue | default "") -}}{{- with .logo -}}{{- with resources.Get (printf "media/%s" .) -}}
+{{/* Logo of a publication's venue, or nothing. Conferences use the logo of the paper's year (data/venues.yaml → logos),
+     journals a single logo (→ logo). Args: page, class */}}
+{{- with index site.Data.venues (.page.Params.venue | default "") -}}
+{{- $src := .logo -}}{{- with .logos }}{{ $src = index . (string $.page.Date.Year) }}{{ end -}}
+{{- with $src -}}{{- with resources.Get (printf "media/%s" .) -}}
   {{- if reflect.IsImageResourceProcessable . }}{{ $l := .Fit "480x240 webp" }}<img src="{{ $l.RelPermalink }}" alt="" class="{{ $.class }}" loading="lazy">{{ else }}<img src="{{ .RelPermalink }}" alt="" class="{{ $.class }}" loading="lazy">{{ end -}}
 {{- end -}}{{- end -}}{{- end -}}

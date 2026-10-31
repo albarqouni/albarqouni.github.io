@@ -20,7 +20,9 @@
     {{ if reflect.IsImageResourceProcessable . }}{{ $r := .Fit "1400x900 webp" }}<img src="{{ $r.RelPermalink }}" alt="Teaser figure" width="{{ $r.Width }}" height="{{ $r.Height }}">{{ else }}<img src="{{ .RelPermalink }}" alt="Teaser figure">{{ end }}
     {{ with $.Params.image.caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
   </figure>
-  {{- end }}
+  {{- else }}{{ with partial "lab/venue-logo.html" (dict "page" . "class" "") }}
+  <figure class="lab-teaser lab-teaser-venue">{{ . }}</figure>
+  {{- end }}{{- end }}
 
   {{ with .Params.abstract }}
   <section class="lab-section"><h2 class="lab-h2">Abstract</h2><div class="prose dark:prose-invert max-w-none">{{ . | markdownify }}</div></section>
@@ -32,7 +34,7 @@
       <div class="lab-embed"><iframe src="{{ . }}" title="Interactive explainer" loading="lazy" allowfullscreen></iframe></div>
     {{ else }}
       <div class="lab-placeholder-box">
-        <strong>Coming soon.</strong> An interactive <a href="https://sli.dev" target="_blank" rel="noopener">Slidev</a> walkthrough of this paper — with live, explorable figures — will appear here.
+        <strong>Coming soon.</strong> An interactive Slidev walkthrough of this paper — with live, explorable figures — will appear here.
         <span class="block text-sm opacity-70 mt-1">Authors: set <code>slidev:</code> in this page's front matter to the deployed deck URL.</span>
       </div>
     {{ end }}

@@ -11,7 +11,7 @@
     <p class="lab-kicker">{{ if eq .Params.project_type "collaboration" }}Research collaboration{{ else }}Funded{{ end }} · {{ $per.label }}{{ with .Params.acronym }} · {{ . }}{{ end }}</p>
     <h3 class="lab-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     {{ with .Params.summary }}<p class="lab-card-text">{{ . | markdownify | plainify | truncate 160 }}</p>{{ end }}
-    <div class="lab-logos">{{ range (.Params.funders | default slice) | append (cond (eq .Params.project_type "collaboration") (first 4 (.Params.partners | default slice)) slice) }}{{ partial "lab/org.html" (dict "key" .) }}{{ end }}</div>
+    <div class="lab-logos">{{ range (.Params.funders | default slice) | append (cond (or (eq .Params.project_type "collaboration") .Params.show_partners) (first 4 (.Params.partners | default slice)) slice) }}{{ partial "lab/org.html" (dict "key" .) }}{{ end }}</div>
     <div class="lab-row mt-2">{{ partial "lab/theme-chips.html" . }}</div>
   </div>
 </article>

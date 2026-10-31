@@ -155,7 +155,7 @@ eccv:
   short: ECCV
   match: ["european conference on computer vision", "eccv"]
   type: conference
-  logo: venues/eccv.png
+  logos: {2020: venues/eccv-2020.png, 2026: venues/eccv-2026.png}
   core_rank: A*
   acceptance: {}
 iccv:
@@ -170,7 +170,7 @@ miccai:
   short: MICCAI
   match: ["miccai", "medical image computing and computer assisted", "medical image computing and computer-assisted"]
   type: conference
-  logo: venues/miccai.png
+  logos: {2018: venues/miccai-2018.png, 2019: venues/miccai-2019.png, 2020: venues/miccai-2020.png, 2021: venues/miccai-2021.png, 2022: venues/miccai-2022.png, 2025: venues/miccai-2025.png, 2026: venues/miccai-2026.png}
   core_rank: A
   acceptance: {2022: 31, 2025: 29, 2026: 26.5}
   acceptance_sources: ["ANNU slide (2022, 2025)", "MICCAI 2026 programme book: 1,167 accepted of 4,402 fully reviewed — https://conferences.miccai.org/2026/files/downloads/MICCAI2026-Program-Book.pdf"]
@@ -185,7 +185,7 @@ isbi:
   short: IEEE ISBI
   match: ["international symposium on biomedical imaging", "isbi"]
   type: conference
-  logo: venues/isbi.png
+  logos: {2019: venues/isbi-2019.png, 2020: venues/isbi-2020.png, 2021: venues/isbi-2021.png, 2022: venues/isbi-2022.png, 2025: venues/isbi-2025.png, 2026: venues/isbi-2026.png}
   core_rank: B
   acceptance: {2026: 51}
   acceptance_sources: ["ISBI 2026 programme (all formats): https://confcats-event-sessions.s3.us-east-1.amazonaws.com/isbi26/uploads/ISBI_2026_Program_v11b.pdf"]

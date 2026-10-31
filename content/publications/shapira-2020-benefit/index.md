@@ -16,7 +16,7 @@ authors:
 - Alexander A. Fingerle
 - Andrew D. A. Maidment
 - Ernst J. Rummeny
-- Shadi Aalbarqouni
+- shadi-albarqouni
 - nassir-navab
 - Peter B. Noël
 publication_types:

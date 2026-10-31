@@ -24,7 +24,8 @@ abstract: Experimental exploration of the vast number of potentially effective o
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- eyesight-to-ai
 datasets: []
 tags: []
 featured: false
