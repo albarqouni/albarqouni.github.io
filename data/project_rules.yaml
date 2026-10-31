@@ -65,9 +65,6 @@ digital-staining:
 computational-hematology:
   keywords: ['leukocyte', 'white blood cell', 'hematolog', 'blood smear', 'sickle', 'red blood cell', 'myeloid']
 
-fetal-cdh:
-  keywords: ['diaphragmatic hernia']
-
 interact-cmil:
   keywords: ['conjunctival']
 
@@ -104,6 +101,8 @@ siemens-cad-tracking:
 
 fetal-cdh:
   any_authors: [Florian Becker]
+  keywords: ['diaphragmatic hernia']
+  match: either
 
 telemedicine:
   include: [albarqouni-2009-steps]

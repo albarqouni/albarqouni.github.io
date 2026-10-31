@@ -84,6 +84,10 @@ def main():
     ap.add_argument("--only")
     args = ap.parse_args()
 
+    keys = re.findall(r"^([A-Za-z0-9_-]+):", RULES.read_text(), re.M)
+    dupes = sorted({k for k in keys if keys.count(k) > 1})
+    if dupes:  # Hugo refuses to build with duplicate keys in data files
+        raise SystemExit(f"duplicate project rules in {RULES.relative_to(ROOT)}: {', '.join(dupes)}")
     rules = yaml.safe_load(RULES.read_text()) or {}
     projects = {p.parent.name: front(p)[0] for p in PROJECTS.glob("*/index.md")}
     proposals = {}  # project -> [(slug, title, date, reason, already)]
