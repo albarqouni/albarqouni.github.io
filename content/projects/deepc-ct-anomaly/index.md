@@ -22,7 +22,10 @@ authors:
 - daniel-rueckert
 partners:
 - deepc
+- helmholtz-ai
+- ukb
 - tum
+show_partners: true
 work_packages: []
 themes:
 - computational-imaging
@@ -32,6 +35,9 @@ tags:
 - head CT
 - emergency radiology
 featured: false
+image:
+  caption: 'Full-head versus skull-stripped head CT — keeping the skull lets anomaly detection catch fractures. Illustration from a normal head CT by Mikael Häggström ([Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CT_of_a_normal_brain,_axial_22.png), CC0).'
+  focal_point: Center
 ---
 In the emergency room, head CT scans must be read and prioritised quickly — and the findings range from bleeds to fractures. Supervised detectors need labelled examples of every pathology; unsupervised anomaly detection (UAD) instead learns what normal anatomy looks like and flags everything else, an inexpensive way to bring triage to the clinical workflow. Most UAD work, however, addressed 2D slices of brain MRI rather than volumetric CT.
 

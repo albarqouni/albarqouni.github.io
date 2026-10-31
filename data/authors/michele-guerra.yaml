@@ -1,0 +1,22 @@
+schema: hugoblox/author/v1
+slug: michele-guerra
+is_owner: false
+name:
+  display: Michele Guerra
+role: M.Sc. thesis (TU Munich, 2022)
+group: alumni
+bio: Michele Guerra wrote his M.Sc. thesis at the Technical University of Munich (2021–2022) in our academia–industry collaboration with deepc, co-supervised with Abhijeet Parida and Mehmet Yigitsoy (deepc). His thesis compared unsupervised anomaly-detection baselines for full-head CT and showed that keeping the skull lets the model detect fractures (CTFSH); it also released supplementary labels for the public CQ500 dataset.
+affiliations:
+- name: Technical University of Munich
+  url: https://www.tum.de/
+links: []
+interests:
+- Unsupervised anomaly detection
+- Head CT
+education:
+- degree: M.Sc. thesis
+  institution: Technical University of Munich, Germany
+  end: '2022-12-31'
+github: pederismo
+aliases: []
+tags: []

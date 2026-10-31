@@ -38,7 +38,8 @@ _No rule yet._
 - ✓ `tomczak-2020-multi` (2020-12) Multi-task multi-domain learning for digital staining and classification of leukocytes — _keyword /leukocyte/, /white blood cell/_
 - ✓ `sadafi-2020-attention` (2020-01) Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders — _keyword /red blood cell/_
 
-## deepc-ct-anomaly — Unsupervised anomaly detection in full-head CT for emergency triage  (0 papers, 0 new)
+## deepc-ct-anomaly — Unsupervised anomaly detection in full-head CT for emergency triage  (1 papers, 0 new)
+- ✓ `guerractfsh` (2022-01) CTFSH: Full Head CT Anomaly Detection with Unsupervised Learning — _listed in include_
 
 ## digital-staining — AI for Hematology: Trustworthy digital staining and classification of white blood cells  (3 papers, 0 new)
 - ✓ `tomczak-2023-digital` (2023-01) Digital staining of white blood cells with confidence estimation — _co-author agnieszka-tomczak, slobodan-ilic; keyword /digital staining/_
@@ -142,11 +143,11 @@ _No rule yet._
 - ✓ `de-2024-clovernet` (2024-01) CloverNet--Leveraging Planning Annotations for Enhanced Procedural MR Segmentation: An Application to Adaptive Radiation Therapy — _co-author christopher-kurz, claus-belka, guillaume-landry_
 - ✓ `klymenko-2021-butterfly` (2021-01) Butterfly-Net: Spatial-Temporal Architecture For Medical Image Segmentation — _co-author christopher-kurz, guillaume-landry_
 
-## roche-virtual-staining — Virtual staining in digital pathology: GAN-based stain virtualization of whole slide images  (4 papers, 4 new)
-- + `lahiani-2020-seamless` (2020-02) Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency — _co-author amal-lahiani_
-- + `lahiani-2018-generalizing` (2019-01) Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks — _co-author amal-lahiani_
-- + `lahiani-2019-perceptual` (2019-01) Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer — _co-author amal-lahiani_
-- + `lahiani-2019-virtualization` (2019-01) Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach — _co-author amal-lahiani_
+## roche-virtual-staining — Virtual staining in digital pathology: GAN-based stain virtualization of whole slide images  (4 papers, 0 new)
+- ✓ `lahiani-2020-seamless` (2020-02) Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency — _co-author amal-lahiani_
+- ✓ `lahiani-2018-generalizing` (2019-01) Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks — _co-author amal-lahiani_
+- ✓ `lahiani-2019-perceptual` (2019-01) Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer — _co-author amal-lahiani_
+- ✓ `lahiani-2019-virtualization` (2019-01) Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach — _co-author amal-lahiani_
 
 ## saai — Summer School on Affordable AI (SAAI)  (0 papers, 0 new)
 _No rule yet._
@@ -183,3 +184,10 @@ _No rule yet._
 - ✓ `soberanis-2019-uncertainty` (2020-04) Uncertainty-based graph convolutional networks for organ segmentation refinement — _keyword /uncertaint/_
 - ✓ `baur-2020-bayesian` (2020-01) Bayesian Skip-Autoencoders for Unsupervised Hyperintense Anomaly Detection in High Resolution Brain Mri — _keyword /bayesian/_
 - ✓ `tomczack-2019-learn` (2019-01) Learn to estimate labels uncertainty for quality assurance — _keyword /uncertaint/_
+
+## zeiss-representation — Disentangled, fair and discriminative representations for ophthalmic imaging  (5 papers, 0 new)
+- ✓ `sarhan-2020-fairness` (2020-08) Fairness by Learning Orthogonal Disentangled Representations — _co-author abouzar-eslami, hasan-sarhan_
+- ✓ `sarhan-2020-fairness-2` (2020-01) On the Fairness of Privacy-Preserving Representations in Medical Applications — _co-author abouzar-eslami, hasan-sarhan_
+- ✓ `sarhan-2021-microaneurysms` (2020-01) Microaneurysms segmentation and diabetic retinopathy detection by learning discriminative representations — _listed in include_
+- ✓ `sarhan-2019-learning` (2019-01) Learning interpretable disentangled representations using adversarial vaes — _co-author abouzar-eslami, hasan-sarhan_
+- ✓ `sarhan-2019-multi` (2019-01) Multi-scale Microaneurysms Segmentation Using Embedding Triplet Loss — _co-author abouzar-eslami, hasan-sarhan_

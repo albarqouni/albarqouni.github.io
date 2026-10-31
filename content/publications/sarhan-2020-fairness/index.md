@@ -19,7 +19,8 @@ themes:
 - computational-imaging
 - responsible-ai
 - federated-learning
-projects: []
+projects:
+- zeiss-representation
 datasets: []
 tags:
 - Deep Learning

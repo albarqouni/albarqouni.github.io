@@ -18,7 +18,8 @@ abstract: Deep learning techniques are recently being used in fundus image analy
   segmentation is incorporated in a classification model to solve two downstream tasks for diabetic retinopathy detection and referable diabetic retinopathy detection. The classification tasks are trained on the Kaggle diabetic retinopathy challenge data set and evaluated on the Messidor data. The authors show that adding the segmentation enhances the classification performance and achieves comparable performance to the state‐of‐the‐art models.
 themes:
 - computational-imaging
-projects: []
+projects:
+- zeiss-representation
 datasets: []
 tags: []
 featured: false

@@ -3,7 +3,7 @@ title: Preliminary results of DSA denoising based on a weighted low-rank approac
 date: '2019-01-01'
 draft: false
 authors:
-- Sai Gokul Hariharan
+- sai-gokul-hariharan
 - Christian Kaethner
 - Norbert Strobel
 - Markus Kowarschik

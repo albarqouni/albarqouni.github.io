@@ -1,0 +1,30 @@
+schema: hugoblox/author/v1
+slug: sai-gokul-hariharan
+is_owner: false
+name:
+  display: Sai Gokul Hariharan
+role: PhD (TU Munich, 2023)
+group: alumni
+bio: Sai Gokul Hariharan did his industrial PhD at the Technical University of Munich (Dr. rer. nat., 2023) jointly with Advanced Therapies, Siemens Healthineers (Forchheim), supervised by Nassir Navab and Norbert Strobel and mentored in our group. His thesis, "Novel analytical and learning-based image processing techniques for dose reduction in interventional X-ray imaging", introduced noise-model-driven spatio-temporal denoising of low-dose fluoroscopy and digital subtraction angiography, and a real-time learning-based denoiser trained only on simulated low-dose images. He continued this work at Siemens Healthineers, where he is a named inventor on several patents on X-ray noise reduction.
+affiliations:
+- name: Siemens Healthineers
+  url: https://www.siemens-healthineers.com
+- name: Technical University of Munich
+  url: https://www.tum.de/
+links:
+- icon: academicons/orcid
+  url: https://orcid.org/0000-0002-4446-6799
+interests:
+- Low-dose X-ray imaging
+- Image denoising
+- Interventional imaging
+education:
+- degree: Dr. rer. nat. (PhD) in Informatics
+  institution: Technical University of Munich, Germany
+  end: '2023-05-18'
+github: ''
+aliases:
+- S. G. Hariharan
+- Sai G. Hariharan
+tags: []
+now: Siemens Healthineers, Innovations, Advanced Therapies (Forchheim)

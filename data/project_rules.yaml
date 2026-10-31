@@ -117,3 +117,7 @@ roche-virtual-staining:
 deepc-ct-anomaly:
   all_authors: [Mehmet Yigitsoy, abhijeet-parida]
   include: [guerractfsh]
+
+zeiss-representation:
+  all_authors: [hasan-sarhan, Abouzar Eslami]
+  include: [sarhan-2021-microaneurysms]   # author listed as "Eslami Abouzar"

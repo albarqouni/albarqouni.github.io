@@ -19,6 +19,7 @@ themes:
 - federated-learning
 projects:
 - federated-learning
+- zeiss-representation
 datasets: []
 tags: []
 featured: false

@@ -7,9 +7,12 @@ tum: {name: Technical University of Munich, short: TUM, url: 'https://www.tum.de
 lmu: {name: LMU University Hospital Munich, short: LMU, url: 'https://www.lmu-klinikum.de', country: Germany, lat: 48.1106, lon: 11.4697, kind: hospital, logo: lmu.png}
 uk-freiburg: {name: University Medical Center Freiburg, short: UKF, url: 'https://www.uniklinik-freiburg.de', country: Germany, lat: 48.0047, lon: 7.8394, kind: hospital, logo: uk-freiburg.png}
 helmholtz-munich: {name: Helmholtz Munich, short: Helmholtz, url: 'https://www.helmholtz-munich.de', country: Germany, lat: 48.2216, lon: 11.5946, kind: university, logo: helmholtz-munich.png}
+helmholtz-ai: {name: Helmholtz AI, short: Helmholtz AI, url: 'https://www.helmholtz.ai', country: Germany, lat: 48.2216, lon: 11.5946, kind: university, logo: helmholtz-ai.png}
 siemens: {name: Siemens AG, short: Siemens, url: 'https://www.siemens.com', country: Germany, lat: 48.1351, lon: 11.582, kind: industry, logo: siemens.png}
+siemens-healthineers: {name: Siemens Healthineers AG, short: Siemens Healthineers, url: 'https://www.siemens-healthineers.com', country: Germany, lat: 49.7203, lon: 11.0581, kind: industry, logo: siemens-healthineers.png}
 roche: {name: Roche Diagnostics GmbH, short: Roche, url: 'https://www.roche.de', country: Germany, lat: 47.7519, lon: 11.3775, kind: industry, logo: roche.png}
 deepc: {name: deepc GmbH, short: deepc, url: 'https://www.deepc.ai', country: Germany, lat: 48.1374, lon: 11.5755, kind: industry, logo: deepc.png}
+zeiss: {name: Carl Zeiss Meditec AG, short: ZEISS, url: 'https://www.zeiss.com/meditec', country: Germany, lat: 48.1067, lon: 11.5992, kind: industry, logo: zeiss.png}
 owkin: {name: Owkin, short: Owkin, url: 'https://owkin.com', country: France, lat: 48.8566, lon: 2.3522, kind: industry, logo: owkin.png}
 ethz: {name: ETH Zurich, short: ETH, url: 'https://ethz.ch/en.html', country: Switzerland, lat: 47.3763, lon: 8.5477, kind: university, logo: ethz.png}
 imperial: {name: Imperial College London, short: Imperial, url: 'https://www.imperial.ac.uk', country: United Kingdom, lat: 51.4988, lon: -0.1749, kind: university, logo: imperial.png}
@@ -28,6 +31,7 @@ dfg: {name: German Research Foundation, short: DFG, url: 'https://www.dfg.de/en'
 daad: {name: German Academic Exchange Service, short: DAAD, url: 'https://www.daad.de/en/', country: Germany, lat: 50.7036, lon: 7.1503, kind: funder, logo: daad.png}
 bmbf: {name: 'Federal Ministry of Research, Technology and Space (BMFTR)', Technology and Space: null, short: BMFTR, url: 'https://www.bmftr.bund.de', country: Germany, lat: 50.718, lon: 7.121, kind: funder, logo: bmbf.png}
 helmholtz: {name: Helmholtz Association, short: Helmholtz, url: 'https://www.helmholtz.de/en/', country: Germany, lat: 52.517, lon: 13.3889, kind: funder, logo: helmholtz.png}
+giz: {name: Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, short: GIZ, url: 'https://www.giz.de/en', country: Germany, lat: 50.7206, lon: 7.1246, kind: funder, logo: giz.png}
 imi: {name: Innovative Medicines Initiative (EU / EFPIA), short: IMI, url: 'https://www.imi.europa.eu', country: Belgium, lat: 50.8503, lon: 4.3517, kind: funder, logo: imi.png}
 eu: {name: European Union — Horizon Europe, short: EU, url: 'https://research-and-innovation.ec.europa.eu', country: Belgium, lat: 50.8436, lon: 4.3826, kind: funder, logo: eu.png}
 bacatec: {name: Bavaria California Technology Center, short: BaCaTeC, url: 'https://www.bacatec.de/en/', country: Germany, lat: 49.5978, lon: 11.004, kind: funder, logo: bacatec.png}

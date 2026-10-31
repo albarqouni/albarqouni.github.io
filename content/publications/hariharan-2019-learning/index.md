@@ -3,7 +3,7 @@ title: Learning-based x-ray image denoising utilizing model-based image simulati
 date: '2019-01-01'
 draft: false
 authors:
-- Sai Gokul Hariharan
+- sai-gokul-hariharan
 - Christian Kaethner
 - Norbert Strobel
 - Markus Kowarschik

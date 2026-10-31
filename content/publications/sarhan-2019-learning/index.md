@@ -17,7 +17,8 @@ abstract: Learning Interpretable representation in medical applications is becom
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- zeiss-representation
 datasets: []
 tags:
 - Medical Imaging

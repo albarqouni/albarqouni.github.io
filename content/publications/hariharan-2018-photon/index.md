@@ -3,7 +3,7 @@ title: A photon recycling approach to the denoising of ultra-low dose X-ray sequ
 date: '2018-01-01'
 draft: false
 authors:
-- Sai Gokul Hariharan
+- sai-gokul-hariharan
 - Norbert Strobel
 - Christian Kaethner
 - Markus Kowarschik
