@@ -22,7 +22,6 @@ links:
 - type: source
   url: https://arxiv.org/abs/1901.05259
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

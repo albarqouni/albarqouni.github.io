@@ -40,7 +40,6 @@ featured: false
 links:
 - type: pdf
   url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11312/113121Q/Benefit-of-dual-energy-CT-for-lesion-localization-and-classification/10.1117/12.2549291.short?webSyncID=46e9e6ec-7a49-dab6-a0cb-ad059329ad88&sessionGUID=3c9d902b-c999-3ced-268b-ead49a28531a&SSO=1
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1117/12.2549291

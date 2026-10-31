@@ -27,7 +27,6 @@ links:
 - type: source
   url: https://research.tue.nl/en/publications/labels-2018-preface/
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

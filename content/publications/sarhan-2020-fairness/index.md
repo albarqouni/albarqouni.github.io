@@ -8,7 +8,7 @@ authors:
 - Abouzar Eslami
 - shadi-albarqouni
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: 16th European Conference on Computer Vision (ECCV)
 venue: eccv
@@ -30,7 +30,6 @@ featured: true
 links:
 - type: pdf
   url: http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740732.pdf
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-58526-6_44

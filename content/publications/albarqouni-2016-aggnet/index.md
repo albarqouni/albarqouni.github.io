@@ -30,7 +30,6 @@ featured: false
 links:
 - type: pdf
   url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7405343
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/tmi.2016.2528120

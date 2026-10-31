@@ -24,7 +24,6 @@ featured: false
 links:
 - type: pdf
   url: https://doi.org/10.1016/j.ejvs.2018.06.079
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1016/j.ejvs.2018.06.079

@@ -1,0 +1,35 @@
+
+.dro[data-v-72a9e2cc] { display: flex; flex-direction: column; gap: 0.4rem; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.55rem 0.7rem;
+}
+.tg[data-v-72a9e2cc] { display: flex; flex-wrap: wrap; gap: 0.3rem;
+}
+.tg button[data-v-72a9e2cc] { font: 600 0.62rem 'Source Sans 3', sans-serif; padding: 0.12rem 0.55rem; border-radius: 99px; border: 1px solid var(--line); background: #fff; color: var(--navy); cursor: pointer;
+}
+.tg button.on[data-v-72a9e2cc] { background: var(--navy); color: #fff; border-color: var(--navy);
+}
+.tg .go[data-v-72a9e2cc] { background: var(--teal); color: #fff; border-color: var(--teal); margin-left: auto;
+}
+.tg .rs[data-v-72a9e2cc] { color: var(--muted);
+}
+.bars[data-v-72a9e2cc] { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.4rem; height: 8.5rem;
+}
+.b[data-v-72a9e2cc] { display: flex; flex-direction: column; gap: 0.2rem;
+}
+.tr[data-v-72a9e2cc] { flex: 1; position: relative; border-bottom: 1px solid #c9d3de;
+}
+.tr i[data-v-72a9e2cc] { position: absolute; left: 18%; right: 18%; bottom: 0; background: #9fb3cc; border-radius: 5px 5px 0 0; transition: height 0.5s ease;
+}
+.tr i.w[data-v-72a9e2cc] { background: var(--rubin);
+}
+.tr i span[data-v-72a9e2cc] { position: absolute; top: -1rem; left: 50%; transform: translateX(-50%); font: 700 0.6rem 'IBM Plex Mono', monospace; color: var(--navy);
+}
+.lb[data-v-72a9e2cc] { text-align: center; font-size: 0.54rem; color: var(--muted); line-height: 1.25;
+}
+.lb b[data-v-72a9e2cc] { display: block; font-size: 0.64rem; color: var(--navy);
+}
+.leq[data-v-72a9e2cc] .katex-display { margin: 0.2rem 0;
+}
+.leq[data-v-72a9e2cc] .katex { font-size: 0.92em;
+}
+.ft[data-v-72a9e2cc] { font: 0.52rem 'IBM Plex Mono', monospace; color: var(--muted);
+}

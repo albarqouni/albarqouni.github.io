@@ -33,7 +33,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/abs/1902.01338
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

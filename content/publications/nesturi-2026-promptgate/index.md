@@ -24,7 +24,7 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2603.07163
-slidev: ''
+slidev: /talks/promptgate/
 hugoblox:
   ids:
     arxiv: '2603.07163'

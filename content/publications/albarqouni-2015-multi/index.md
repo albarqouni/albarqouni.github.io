@@ -27,7 +27,6 @@ featured: false
 links:
 - type: pdf
   url: https://dx.doi.org/10.5244/C.29.17
-slidev: ''
 hugoblox:
   ids:
     doi: 10.5244/c.29.17

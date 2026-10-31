@@ -30,7 +30,6 @@ featured: false
 links:
 - type: pdf
   url: https://ieeexplore.ieee.org/abstract/document/7926703/
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/wacv.2017.120

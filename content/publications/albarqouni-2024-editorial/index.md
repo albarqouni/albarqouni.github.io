@@ -25,7 +25,6 @@ featured: true
 links:
 - type: pdf
   url: https://www.zora.uzh.ch/id/eprint/269362/1/2024_Elsevier.pdf
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1016/j.media.2024.103308

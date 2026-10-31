@@ -25,7 +25,6 @@ links:
 - type: source
   url: https://openreview.net/forum?id=f3dmKk50hI
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

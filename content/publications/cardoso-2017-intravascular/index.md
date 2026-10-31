@@ -34,7 +34,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-01364-6

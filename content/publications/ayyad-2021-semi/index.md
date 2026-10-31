@@ -33,7 +33,6 @@ links:
   url: arxiv.org/abs/1903.02164
 - type: code
   url: sites.google.com/view/mtlrl
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

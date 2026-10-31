@@ -1,0 +1,11 @@
+
+.cl[data-v-c41b6b42] { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem;
+}
+.cl .c[data-v-c41b6b42] { background: var(--card); border: 1px solid var(--line); border-top: 5px solid var(--teal); border-radius: 14px; padding: 1.3rem 1.3rem; min-height: 15rem;
+}
+.cl .k[data-v-c41b6b42] { font: 600 0.65rem 'IBM Plex Mono', monospace; letter-spacing: 0.1em; text-transform: uppercase; color: var(--rubin-d);
+}
+.cl .n[data-v-c41b6b42] { font: 700 2.5rem/1.1 'Source Sans 3', sans-serif; color: var(--navy); margin: 0.4rem 0 0.5rem;
+}
+.cl p[data-v-c41b6b42] { font-size: 0.95rem; line-height: 1.4; margin: 0;
+}

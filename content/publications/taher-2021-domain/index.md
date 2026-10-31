@@ -15,7 +15,7 @@ authors:
 - Bishesh Khanal
 - others
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: Springer International Publishing
 venue: ''
@@ -29,7 +29,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

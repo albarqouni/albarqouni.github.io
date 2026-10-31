@@ -30,7 +30,6 @@ links:
 - type: source
   url: https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aidi.70168
   name: Publisher
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1002/aidi.70168

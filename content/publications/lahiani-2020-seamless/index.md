@@ -31,7 +31,6 @@ featured: true
 links:
 - type: pdf
   url: https://www.ncbi.nlm.nih.gov/pubmed/32086223
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/jbhi.2020.2975151

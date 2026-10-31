@@ -28,7 +28,7 @@ authors:
 - Marc Tommasi
 - Mathieu Andreux
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: Advances in Neural Information Processing Systems
 venue: neurips
@@ -50,7 +50,6 @@ links:
   url: https://infoscience.epfl.ch/bitstreams/6151cb52-ccd3-439e-a7bc-b693b2531716/download
 - type: code
   url: www.github.com/owkin/flamby
-slidev: ''
 hugoblox:
   ids:
     doi: 10.52202/068431-0384

@@ -1,0 +1,16 @@
+
+.bonn-section[data-v-bcab422e] {
+  position: relative; height: 100%; overflow: hidden;
+  background: var(--navy); color: #fff;
+  padding: 3rem 3.2rem 2rem;
+}
+.bee[data-v-bcab422e] {
+  position: absolute; right: -3.5rem; bottom: -3rem; height: 118%;
+  opacity: 0.09; pointer-events: none;
+}
+.body[data-v-bcab422e] { position: relative; height: 100%; display: flex; flex-direction: column; justify-content: center;
+}
+[data-v-bcab422e] h1 { color: #fff; font-size: 3rem;
+}
+[data-v-bcab422e] h1 em { color: var(--teal); font-style: normal;
+}

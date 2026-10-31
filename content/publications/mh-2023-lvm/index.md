@@ -16,7 +16,7 @@ authors:
 - daniel-sonntag
 - Mathias Niepert
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: Advances in Neural Information Processing Systems
 venue: neurips
@@ -35,7 +35,6 @@ links:
   url: https://proceedings.neurips.cc/paper_files/paper/2023/file/58cc11cda2a2679e8af5c6317aed0af8-Paper-Conference.pdf
 - type: code
   url: https://github.com/duyhominhnguyen/LVM-Med
-slidev: ''
 hugoblox:
   ids:
     doi: 10.52202/075280-1212

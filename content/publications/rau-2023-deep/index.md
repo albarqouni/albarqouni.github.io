@@ -10,7 +10,6 @@ links:
 - type: source
   url: https://doi.org/10.1055/s-0043-1762979
   name: RöFo abstract (German, Röntgenkongress 2023)
-slidev: ''
 hugoblox: {}
 datasets: []
 projects: []

@@ -23,7 +23,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2207.02059
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-031-33842-7_3

@@ -32,7 +32,6 @@ links:
 - name: URL
   url: https://doi.org/10.1038/s42256-022-00515-2
   icon: hero/link
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1038/s42256-022-00515-2

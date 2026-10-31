@@ -32,7 +32,6 @@ featured: false
 links:
 - type: pdf
   url: https://ieeexplore.ieee.org/document/7164042
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/tmi.2016.2529665

@@ -38,7 +38,6 @@ featured: false
 links:
 - type: pdf
   url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jcsm.13360
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1002/jcsm.13360

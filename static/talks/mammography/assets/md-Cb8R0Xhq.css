@@ -1,0 +1,83 @@
+
+.row2[data-v-5b7e1d62] { display: grid; grid-template-columns: 1.2fr 1fr; gap: 0.8rem; align-items: start;
+}
+.right[data-v-5b7e1d62] { display: flex; flex-direction: column; gap: 0.4rem;
+}
+.exstrip[data-v-5b7e1d62] { width: 100%; height: 5.4rem; object-fit: contain; border-radius: 10px; border: 1px solid var(--line); background: #fff;
+}
+.dens[data-v-5b7e1d62] { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.4rem 0.75rem; display: flex; flex-direction: column; gap: 0.1rem;
+}
+.db[data-v-5b7e1d62] { display: grid; grid-template-columns: 6.2rem 1fr; align-items: center; gap: 0.4rem;
+}
+.dn[data-v-5b7e1d62] { font-size: 0.64rem; font-weight: 600; color: var(--navy);
+}
+.dn i[data-v-5b7e1d62] { font-style: normal; font-weight: 400; color: var(--muted); font-size: 0.6rem;
+}
+.bar[data-v-5b7e1d62] { display: flex; height: 0.55rem; border-radius: 4px; overflow: hidden; background: #fff;
+}
+.bar i[data-v-5b7e1d62], .lg i[data-v-5b7e1d62] { display: block; height: 100%;
+}
+.c0[data-v-5b7e1d62] { background: #fcba00;
+}
+.c1[data-v-5b7e1d62] { background: #8fc9c7;
+}
+.c2[data-v-5b7e1d62] { background: #2d9d9b;
+}
+.c3[data-v-5b7e1d62] { background: #173869;
+}
+.lg[data-v-5b7e1d62] { display: flex; gap: 0.7rem; font-size: 0.58rem; color: var(--muted); margin-top: 0.15rem;
+}
+.lg i[data-v-5b7e1d62] { display: inline-block; width: 0.6rem; height: 0.6rem; border-radius: 2px; margin-right: 0.25rem; vertical-align: -1px;
+}
+.warn[data-v-5b7e1d62] { background: var(--gelb-t); border-radius: 10px; padding: 0.35rem 0.65rem; font-size: 0.68rem; line-height: 1.32;
+}
+.warn b[data-v-5b7e1d62] { display: block; color: var(--gelb-d); font-size: 0.84rem;
+}
+.note[data-v-5b7e1d62] { font-size: 0.68rem; color: var(--muted); background: #fff; border: 1px dashed #c8c8c2; border-radius: 8px; padding: 0.3rem 0.6rem;
+}
+.mset[data-v-5b7e1d62] { display: flex; flex-direction: column; gap: 0.5rem;
+}
+.flow[data-v-5b7e1d62] { display: grid; grid-template-columns: 1.6fr auto 1fr auto 1fr; gap: 0.5rem; align-items: stretch;
+}
+.step[data-v-5b7e1d62] { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.45rem 0.75rem; display: flex; flex-direction: column; gap: 0.25rem;
+}
+.arrow[data-v-5b7e1d62] { align-self: center; color: var(--teal); font-size: 1.4rem; font-weight: 700;
+}
+.ds[data-v-5b7e1d62] { display: flex; flex-wrap: wrap; gap: 0.3rem;
+}
+.ds span[data-v-5b7e1d62] { font-size: 0.66rem; font-weight: 600; color: var(--navy); background: #fff; border: 1px solid var(--line); border-radius: 99px; padding: 0.12rem 0.5rem;
+}
+.ds span i[data-v-5b7e1d62] { font-style: normal; font-weight: 400; color: var(--muted); font-size: 0.64rem; margin-left: 0.2rem;
+}
+.ds span.own[data-v-5b7e1d62] { background: var(--gelb-t); border-color: transparent;
+}
+.nums[data-v-5b7e1d62] { font-size: 0.82rem; color: var(--muted);
+}
+.nums b[data-v-5b7e1d62] { color: var(--navy); font-size: 1rem;
+}
+.fm[data-v-5b7e1d62] { display: flex; flex-wrap: wrap; gap: 0.3rem;
+}
+.fm span[data-v-5b7e1d62] { font-size: 0.76rem; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 0.15rem 0.5rem;
+}
+.fm span.hl[data-v-5b7e1d62] { background: var(--teal-t); border-color: transparent; font-weight: 700; color: var(--teal-d);
+}
+.sm[data-v-5b7e1d62] { font-size: 0.8rem; line-height: 1.35;
+}
+.sm b[data-v-5b7e1d62] { color: var(--navy);
+}
+.reg[data-v-5b7e1d62] { display: flex; flex-direction: column; gap: 0.25rem; margin-top: 0.2rem;
+}
+.reg span[data-v-5b7e1d62] { font-size: 0.74rem; background: var(--aqua); color: var(--blau); border-radius: 8px; padding: 0.15rem 0.5rem; font-weight: 600;
+}
+.mit[data-v-5b7e1d62] { background: var(--navy); color: #fff; border-radius: 12px; padding: 0.7rem 1rem; display: grid; grid-template-columns: 1fr; align-content: center; gap: 0.3rem 1rem; align-items: center;
+}
+.mit .eyebrow[data-v-5b7e1d62] { color: var(--gelb); margin-bottom: 0.2rem;
+}
+.mit .row[data-v-5b7e1d62] { display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap;
+}
+.mit .row span[data-v-5b7e1d62] { font-size: 0.8rem; background: rgba(255,255,255,0.12); padding: 0.15rem 0.55rem; border-radius: 8px;
+}
+.mit .row .grp[data-v-5b7e1d62] { background: transparent; font-weight: 700; color: #9fd8d6; width: 7.6rem; padding-left: 0;
+}
+.mit .row .grp.f[data-v-5b7e1d62] { color: var(--gelb);
+}

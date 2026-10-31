@@ -33,7 +33,6 @@ links:
 - type: source
   url: https://arxiv.org/abs/2105.05874
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

@@ -26,7 +26,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2007.11641
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-59722-1_24

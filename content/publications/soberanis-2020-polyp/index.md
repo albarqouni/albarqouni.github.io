@@ -24,7 +24,6 @@ links:
 - type: source
   url: https://arxiv.org/abs/2009.07109
   name: Publisher
-slidev: ''
 hugoblox:
   ids:
     arxiv: '2009.07109'

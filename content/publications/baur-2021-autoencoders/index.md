@@ -25,7 +25,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2004.03271
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1016/j.media.2020.101952

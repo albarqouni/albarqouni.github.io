@@ -8,7 +8,7 @@ authors:
 - shadi-albarqouni
 - nassir-navab
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: Proceedings of the 2019 Challenge on Endoscopy Artefacts Detection (EAD2019), Venice, Italy, 8th April
 venue: ''
@@ -25,7 +25,6 @@ links:
 - type: source
   url: https://scholar.google.com/scholar?cluster=11596128922683704003&hl=en&oi=scholarr
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

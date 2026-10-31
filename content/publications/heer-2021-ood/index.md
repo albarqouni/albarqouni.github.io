@@ -26,7 +26,6 @@ links:
 - type: source
   url: https://proceedings.mlr.press/v143/heer21a.html
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

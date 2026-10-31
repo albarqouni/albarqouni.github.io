@@ -20,7 +20,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.15866/irea.v12i6.24446

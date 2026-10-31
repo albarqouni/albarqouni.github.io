@@ -31,7 +31,6 @@ featured: false
 links:
 - type: pdf
   url: http://infoscience.epfl.ch/record/220170
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/s00138-016-0792-4

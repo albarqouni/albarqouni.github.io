@@ -27,7 +27,6 @@ links:
 - type: source
   url: https://www.sciencedirect.com/science/article/pii/S1546144026004898
   name: Publisher
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1016/j.jacr.2026.09.023

@@ -19,7 +19,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1504/ijret.2013.051068

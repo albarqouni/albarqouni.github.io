@@ -24,7 +24,6 @@ featured: false
 links:
 - type: pdf
   url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/ipr2.12511
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1049/ipr2.12511

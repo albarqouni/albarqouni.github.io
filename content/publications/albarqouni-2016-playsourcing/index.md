@@ -26,7 +26,6 @@ featured: false
 links:
 - type: video
   url: albarqouni-2016-playsourcing.mp4
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-319-46976-8_28

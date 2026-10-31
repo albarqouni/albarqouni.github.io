@@ -29,7 +29,6 @@ featured: false
 links:
 - type: pdf
   url: https://www.springerprofessional.de/en/multi-scale-microaneurysms-segmentation-using-embedding-triplet-/17254860
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-32239-7_20

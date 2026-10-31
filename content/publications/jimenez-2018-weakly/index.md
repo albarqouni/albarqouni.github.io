@@ -33,7 +33,6 @@ links:
 - type: source
   url: https://arxiv.org/abs/1809.10692
   name: Publisher
-slidev: ''
 hugoblox:
   ids:
     arxiv: '1809.10692'

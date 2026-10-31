@@ -36,7 +36,6 @@ links:
 - type: source
   url: https://proceedings.mlr.press/v102/baur19a.html
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

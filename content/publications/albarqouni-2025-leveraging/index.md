@@ -20,7 +20,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/icicis66182.2025.11313202

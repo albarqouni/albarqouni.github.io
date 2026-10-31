@@ -30,7 +30,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/1809.06222
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1016/j.artmed.2020.101938

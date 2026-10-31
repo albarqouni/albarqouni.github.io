@@ -25,7 +25,6 @@ links:
 - type: source
   url: https://link.springer.com/chapter/10.1007/978-3-030-60548-3_14
   name: Publisher
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-60548-3_14

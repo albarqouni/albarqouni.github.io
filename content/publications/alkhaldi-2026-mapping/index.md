@@ -33,7 +33,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1186/s13643-026-03120-1

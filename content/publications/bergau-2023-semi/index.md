@@ -7,7 +7,6 @@ links:
 - type: source
   url: https://fcai.fi/eds2023/review
   name: ELLIS Doctoral Symposium 2023
-slidev: ''
 hugoblox: {}
 datasets: []
 projects: []

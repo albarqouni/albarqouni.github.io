@@ -31,7 +31,6 @@ featured: false
 links:
 - type: pdf
   url: https://doi.org/10.1016/j.corsci.2025.112903
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1016/j.corsci.2025.112903

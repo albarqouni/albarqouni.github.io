@@ -17,7 +17,7 @@ authors:
 - shadi-albarqouni
 - julian-luetkens
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: Proc. Intl. Soc. Mag. Reson. Med. 32 (2024)
 venue: ''
@@ -39,7 +39,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.58530/2024/4322

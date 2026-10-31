@@ -31,7 +31,6 @@ links:
 - type: source
   url: https://pure.eur.nl/ws/portalfiles/portal/219408846/Federated_Fine-tuning_of_SAM-Med3D_for.pdf
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

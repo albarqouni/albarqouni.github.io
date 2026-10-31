@@ -29,7 +29,6 @@ links:
 - type: source
   url: https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0046-1823530
   name: Publisher
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1055/s-0046-1823530

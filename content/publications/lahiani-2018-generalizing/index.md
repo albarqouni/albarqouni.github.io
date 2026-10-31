@@ -26,7 +26,6 @@ tags:
 - Medical Imaging
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1049/iet-ipr.2018.6513

@@ -25,7 +25,6 @@ tags:
 - Radiology
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-32226-7_61

@@ -10,7 +10,7 @@ authors:
 - nassir-navab
 - Eldad Klaiman
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: Springer
 venue: ''
@@ -23,7 +23,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

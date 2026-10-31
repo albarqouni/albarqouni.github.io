@@ -20,7 +20,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     arxiv: '1903.02164'

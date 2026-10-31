@@ -25,7 +25,6 @@ links:
 - type: source
   url: https://scholar.google.com/scholar?cluster=17086524379230952271&hl=en&oi=scholarr
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

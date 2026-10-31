@@ -24,7 +24,7 @@ featured: true
 links:
 - type: pdf
   url: https://inserm.hal.science/inserm-05727793
-slidev: ''
+slidev: /talks/mammography/
 hugoblox:
   ids:
     doi: 10.1016/j.media.2026.104258

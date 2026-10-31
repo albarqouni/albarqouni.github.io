@@ -22,7 +22,6 @@ links:
 - type: source
   url: https://www.academia.edu/download/51053060/53efbb5b0cf23733e812d7e8.pdf
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

@@ -23,7 +23,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2008.07665
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-60548-3_15

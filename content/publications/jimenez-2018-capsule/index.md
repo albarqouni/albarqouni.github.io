@@ -28,7 +28,6 @@ links:
   url: https://link.springer.com/chapter/10.1007/978-3-030-01364-6_17
 - type: code
   url: https://github.com/ameliajimenez/capsule-networks-medical-data-challenges
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-01364-6_17

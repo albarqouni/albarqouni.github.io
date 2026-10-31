@@ -1,0 +1,15 @@
+
+.authors[data-v-a073d91f] { display: grid; grid-template-columns: repeat(2, auto); justify-content: start; gap: 1rem 2.2rem; margin-top: 1.6rem;
+}
+.authors .a[data-v-a073d91f] { display: flex; gap: 0.7rem; align-items: center;
+}
+.authors img[data-v-a073d91f], .authors .ini[data-v-a073d91f] { width: 3.6rem; height: 3.6rem; object-fit: cover; object-position: center 20%; border-radius: 50%; border: 3px solid var(--teal); filter: grayscale(1);
+}
+.authors .ini[data-v-a073d91f] { display: grid; place-items: center; background: var(--navy-2); color: var(--teal); font-weight: 700;
+}
+.authors .name[data-v-a073d91f] { font: 1rem 'Source Serif 4', serif;
+}
+.authors .name b[data-v-a073d91f] { font-weight: 700;
+}
+.authors .aff[data-v-a073d91f] { font-size: 0.76rem; color: var(--teal); font-weight: 600;
+}

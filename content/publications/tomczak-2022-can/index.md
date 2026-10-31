@@ -30,7 +30,6 @@ featured: true
 links:
 - type: pdf
   url: https://link.springer.com/chapter/10.1007/978-3-031-16446-0_48
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-031-16446-0_48

@@ -31,7 +31,6 @@ featured: false
 links:
 - type: pdf
   url: https://ieeexplore.ieee.org/abstract/document/8460654/
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/icra.2018.8460654

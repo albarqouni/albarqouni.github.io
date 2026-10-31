@@ -23,7 +23,6 @@ links:
 - type: source
   url: https://albarqouni.github.io/students/theses/ma_thesis_on_deep_learning_for_ird_fundus_imaging/
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

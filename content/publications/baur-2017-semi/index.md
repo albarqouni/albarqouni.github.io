@@ -30,7 +30,6 @@ links:
   url: https://arxiv.org/pdf/1703.06000.pdf
 - type: code
   url: https://github.com/bumuckl/SemiSupervisedDLForFCNs
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-319-66179-7_36

@@ -27,7 +27,6 @@ featured: false
 links:
 - type: pdf
   url: https://www.nature.com/articles/s41598-025-01936-w.pdf
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1038/s41598-025-01936-w

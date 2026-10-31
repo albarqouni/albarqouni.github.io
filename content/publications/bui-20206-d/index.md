@@ -11,7 +11,7 @@ authors:
 - Slobodan Ilic
 - nassir-navab
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: 16th European Conference on Computer Vision (ECCV)
 venue: eccv
@@ -30,7 +30,6 @@ featured: false
 links:
 - type: pdf
   url: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630137.pdf
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-58523-5_9

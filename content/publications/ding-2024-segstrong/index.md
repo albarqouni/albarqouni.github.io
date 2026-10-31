@@ -31,7 +31,6 @@ links:
 - type: source
   url: https://ieeexplore.ieee.org/abstract/document/11737612/
   name: Publisher
-slidev: ''
 hugoblox:
   ids:
     arxiv: '2407.11906'

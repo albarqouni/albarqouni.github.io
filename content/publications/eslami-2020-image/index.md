@@ -30,7 +30,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/abs/1906.10089
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/tmi.2020.2974159

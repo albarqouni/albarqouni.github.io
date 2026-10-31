@@ -29,7 +29,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/abs/2012.03352v1
-slidev: ''
 hugoblox:
   ids:
     doi: 10.59275/j.melba.2020-8e2b

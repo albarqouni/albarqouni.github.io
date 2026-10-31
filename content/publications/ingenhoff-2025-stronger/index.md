@@ -29,7 +29,6 @@ featured: false
 links:
 - type: pdf
   url: https://gh.bmj.com/content/10/6/e019601.full.pdf
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1136/bmjgh-2025-019601

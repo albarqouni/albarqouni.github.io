@@ -22,7 +22,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-319-18431-9_5

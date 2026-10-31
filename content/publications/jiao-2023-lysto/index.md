@@ -41,7 +41,6 @@ featured: false
 links:
 - type: pdf
   url: https://ieeexplore.ieee.org/ielx7/6221020/6363502/10296868.pdf
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/jbhi.2023.3327489

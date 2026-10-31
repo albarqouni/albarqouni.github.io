@@ -1,0 +1,25 @@
+
+.km[data-v-4cf80ce0] { display: flex; flex-direction: column; gap: 0.3rem; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.5rem 0.7rem;
+}
+.tg[data-v-4cf80ce0] { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem; font-size: 0.6rem; color: var(--muted);
+}
+.tg button[data-v-4cf80ce0] { font: 600 0.62rem 'Source Sans 3', sans-serif; padding: 0.12rem 0.55rem; border-radius: 99px; border: 1px solid var(--line); background: #fff; color: var(--navy); cursor: pointer;
+}
+.tg button.on[data-v-4cf80ce0] { background: var(--navy); color: #fff; border-color: var(--navy);
+}
+svg[data-v-4cf80ce0] { width: 100%; height: auto; display: block;
+}
+.mv[data-v-4cf80ce0] { transition: all 0.6s ease;
+}
+.hd[data-v-4cf80ce0] { font: 600 9px 'IBM Plex Mono', monospace; fill: #5f6670;
+}
+.cl[data-v-4cf80ce0] { font: 600 8px 'Source Sans 3', sans-serif; fill: #1e2a3a;
+}
+.lg text[data-v-4cf80ce0] { font: 8px 'Source Sans 3', sans-serif; fill: #5f6670;
+}
+.leq[data-v-4cf80ce0] .katex-display { margin: 0.15rem 0;
+}
+.leq[data-v-4cf80ce0] .katex { font-size: 0.9em;
+}
+.ft[data-v-4cf80ce0] { font: italic 0.6rem 'Source Serif 4', serif; color: var(--muted);
+}

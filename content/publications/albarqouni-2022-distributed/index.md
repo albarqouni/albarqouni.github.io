@@ -17,7 +17,7 @@ authors:
 - Debdoot Sheet
 - Daguang Xu
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: 'Lecture Notes in Computer Science. Cham: Springer Nature'
 venue: ''
@@ -31,7 +31,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-031-18523-6

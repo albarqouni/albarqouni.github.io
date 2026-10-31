@@ -27,7 +27,6 @@ links:
 - name: URL
   url: https://link.springer.com/chapter/10.1007/978-981-96-3863-5_7
   icon: hero/link
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-981-96-3863-5_7

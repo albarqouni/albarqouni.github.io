@@ -29,7 +29,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/1902.01338
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/s11548-020-02150-x

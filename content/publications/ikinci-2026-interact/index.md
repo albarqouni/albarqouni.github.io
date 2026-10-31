@@ -29,7 +29,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2512.22666
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/isbi61048.2026.11515389

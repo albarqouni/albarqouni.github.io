@@ -94,7 +94,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/abs/2003.09439
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1001/jama.2017.14585

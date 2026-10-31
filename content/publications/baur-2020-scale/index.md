@@ -24,7 +24,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2006.12852
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-030-59719-1_54

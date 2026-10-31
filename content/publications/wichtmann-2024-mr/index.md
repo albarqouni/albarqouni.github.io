@@ -7,7 +7,6 @@ links:
 - type: source
   url: https://www.ismrm.org/24/pf/D-39.htm
   name: ISMRM 2024
-slidev: ''
 hugoblox: {}
 datasets: []
 projects: []

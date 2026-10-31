@@ -28,7 +28,6 @@ featured: false
 links:
 - type: pdf
   url: https://www.ncbi.nlm.nih.gov/pubmed/29779153
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/s11548-018-1779-6

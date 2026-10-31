@@ -24,7 +24,6 @@ links:
 - type: source
   url: https://patents.google.com/patent/US11244475B2/en
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

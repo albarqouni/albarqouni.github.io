@@ -34,7 +34,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2511.08046
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/isbi61048.2026.11515434

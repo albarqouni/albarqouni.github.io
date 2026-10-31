@@ -39,7 +39,6 @@ featured: false
 links:
 - type: pdf
   url: https://iopscience.iop.org/article/10.1088/2057-1976/ab6e18
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1088/2057-1976/ab6e18

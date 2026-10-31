@@ -31,7 +31,6 @@ featured: false
 links:
 - type: code
   url: https://github.com/rodsom22/lwf_polyps
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

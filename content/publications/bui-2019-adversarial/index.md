@@ -28,7 +28,6 @@ featured: false
 links:
 - type: pdf
   url: http://openaccess.thecvf.com/content_ICCVW_2019/papers/DL4VSLAM/Bui_Adversarial_Networks_for_Camera_Pose_Regression_and_Refinement_ICCVW_2019_paper.pdf
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/iccvw.2019.00470

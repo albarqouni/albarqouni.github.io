@@ -35,7 +35,6 @@ links:
 - type: source
   url: https://www.bmj.com/content/388/bmj-2024-081554.abstract
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

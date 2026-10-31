@@ -30,7 +30,6 @@ featured: true
 links:
 - type: pdf
   url: https://ieeexplore.ieee.org/document/9301322
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/tmi.2020.3046334

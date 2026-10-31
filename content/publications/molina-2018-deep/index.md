@@ -26,7 +26,6 @@ links:
 - type: source
   url: https://mediatum.ub.tum.de/1630395
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

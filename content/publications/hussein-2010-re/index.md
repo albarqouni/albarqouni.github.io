@@ -22,7 +22,6 @@ links:
 - type: source
   url: https://www.researchgate.net/profile/Shadi-Albarqouni/publication/202631385_Re-Evaluation_and_Re-Design_Stand-Alone_PV_Solar_Lighting_Projects_In_Gaza_Strip_Palestine/links/53efbb5b0cf23733e812d7e7/Re-Evaluation-and-Re-Design-Stand-Alone-PV-Solar-Lighting-Projects-In-Gaza-Strip-Palestine.pdf
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

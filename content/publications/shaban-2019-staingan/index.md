@@ -32,7 +32,6 @@ links:
   url: https://ieeexplore.ieee.org/document/8759152
 - type: code
   url: github.com/xtarx/StainGAN
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/isbi.2019.8759152

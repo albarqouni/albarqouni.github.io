@@ -78,7 +78,6 @@ featured: true
 links:
 - type: pdf
   url: https://ard.eular.org/action/showPdf?pii=S0003496725009690
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1016/j.ard.2025.05.010

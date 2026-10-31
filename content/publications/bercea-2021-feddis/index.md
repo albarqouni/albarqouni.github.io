@@ -25,7 +25,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2103.03705
-slidev: ''
 hugoblox:
   ids:
     doi: 10.48550/arxiv.2103.03705

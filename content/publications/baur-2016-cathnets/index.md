@@ -31,7 +31,6 @@ links:
   url: https://link.springer.com/chapter/10.1007/978-3-319-43775-0_4
 - type: video
   url: baur-2016-cathnets.mp4
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1007/978-3-319-43775-0_4

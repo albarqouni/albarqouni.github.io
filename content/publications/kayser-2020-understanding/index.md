@@ -27,7 +27,6 @@ links:
 - type: source
   url: https://arxiv.org/abs/2002.02883
   name: Publisher
-slidev: ''
 hugoblox:
   ids:
     arxiv: '2002.02883'

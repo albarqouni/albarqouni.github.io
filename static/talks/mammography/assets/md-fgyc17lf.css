@@ -1,0 +1,28 @@
+
+.it[data-v-24b366c1] { display: flex; flex-direction: column; gap: 0.3rem;
+}
+.tg[data-v-24b366c1] { display: flex; align-items: center; gap: 0.3rem; flex-wrap: wrap; font: 600 0.54rem 'IBM Plex Mono', monospace; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
+}
+.tg button[data-v-24b366c1] { font: 600 0.64rem 'Source Sans 3', sans-serif; letter-spacing: 0; text-transform: none; padding: 0.12rem 0.55rem; border-radius: 99px; border: 1px solid var(--line); background: #fff; color: var(--navy); cursor: pointer;
+}
+.tg button.on[data-v-24b366c1] { background: var(--navy); color: #fff; border-color: var(--navy);
+}
+.box[data-v-24b366c1] { position: relative; aspect-ratio: 1; border-radius: 8px; border: 1px solid var(--line); background: #fff; overflow: hidden;
+}
+.box img[data-v-24b366c1] { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity 0.4s ease; border: none !important; border-radius: 0 !important;
+}
+.box img.on[data-v-24b366c1] { opacity: 1;
+}
+
+.tg[data-v-0b7dc51a] { display: grid; grid-template-columns: 1.3fr 1fr; gap: 1.2rem; align-items: center;
+}
+.tg .side[data-v-0b7dc51a] { display: flex; flex-direction: column; gap: 0.6rem;
+}
+.tg .k[data-v-0b7dc51a] { background: var(--teal-t); border-radius: 10px; padding: 0.6rem 0.85rem; font-size: 0.85rem; line-height: 1.45;
+}
+.tg .k b[data-v-0b7dc51a] { display: block; color: var(--navy); font-size: 0.92rem;
+}
+.tg .k.n[data-v-0b7dc51a] { background: var(--navy); color: #dbe6f2;
+}
+.tg .k.n b[data-v-0b7dc51a] { color: var(--gelb);
+}

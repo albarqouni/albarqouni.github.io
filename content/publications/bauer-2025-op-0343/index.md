@@ -29,7 +29,6 @@ tags:
 - abstract
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1016/j.ard.2025.05.345

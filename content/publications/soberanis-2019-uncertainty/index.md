@@ -7,7 +7,7 @@ authors:
 - nassir-navab
 - shadi-albarqouni
 publication_types:
-- article-journal
+- paper-conference
 publication:
   name: To appear in the International Conference in Medical Imaging with Deep Learning, 2020
 venue: midl
@@ -32,7 +32,6 @@ links:
 - type: source
   url: https://proceedings.mlr.press/v121/soberanis-mukul20a.html
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

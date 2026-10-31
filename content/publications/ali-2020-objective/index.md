@@ -53,7 +53,6 @@ featured: false
 links:
 - type: pdf
   url: https://www.nature.com/articles/s41598-020-59413-5
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1038/s41598-020-59413-5

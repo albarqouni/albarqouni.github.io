@@ -21,7 +21,7 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/pdf/2603.06340
-slidev: ''
+slidev: /talks/kmat/
 hugoblox:
   ids:
     doi: 10.1007/978-3-032-38062-3_28

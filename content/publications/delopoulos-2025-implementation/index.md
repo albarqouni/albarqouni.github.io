@@ -32,7 +32,6 @@ featured: false
 links:
 - type: pdf
   url: https://www.phiro.science/article/S2405-6316(25)00124-1/pdf
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1016/j.phro.2025.100819

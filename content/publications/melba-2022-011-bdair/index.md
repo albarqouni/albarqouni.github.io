@@ -25,7 +25,6 @@ links:
 - name: URL
   url: https://melba-journal.org/papers/2022:011.html
   icon: hero/link
-slidev: ''
 hugoblox:
   ids:
     doi: 10.59275/j.melba.2022-8g82

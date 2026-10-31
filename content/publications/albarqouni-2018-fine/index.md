@@ -21,7 +21,6 @@ tags:
 - crowdsourcing
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/mpul.2018.2866356

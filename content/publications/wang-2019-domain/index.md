@@ -29,7 +29,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

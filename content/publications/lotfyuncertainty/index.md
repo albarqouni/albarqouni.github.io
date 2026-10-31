@@ -25,7 +25,6 @@ links:
 - type: source
   url: https://2023.midl.io/virtual/poster/S082.pdf
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

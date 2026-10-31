@@ -25,7 +25,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/isbi48211.2021.9433939

@@ -25,7 +25,6 @@ links:
 - type: source
   url: https://link.springer.com/content/pdf/10.1007/978-3-030-60548-3.pdf
   name: Publisher
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

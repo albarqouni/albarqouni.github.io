@@ -40,7 +40,6 @@ featured: true
 links:
 - type: pdf
   url: https://www.nature.com/articles/s41746-020-00323-1
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1038/s41746-020-00323-1

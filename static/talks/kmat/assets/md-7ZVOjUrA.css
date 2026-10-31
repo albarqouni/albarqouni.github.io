@@ -1,0 +1,79 @@
+
+.kx[data-v-2eed3a4a] { display: flex; flex-direction: column; gap: 0.5rem;
+}
+.ctl[data-v-2eed3a4a] { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap;
+}
+.tabs[data-v-2eed3a4a] { display: inline-flex; background: var(--card); border: 1px solid var(--line); border-radius: 99px; padding: 0.15rem; gap: 0.1rem;
+}
+.tabs button[data-v-2eed3a4a] { font: 600 0.74rem 'Source Sans 3', sans-serif; color: var(--muted); padding: 0.22rem 0.75rem; border-radius: 99px; cursor: pointer;
+}
+.tabs button.on[data-v-2eed3a4a] { background: var(--navy); color: #fff;
+}
+.tabs button[data-v-2eed3a4a]:hover:not(.on) { color: var(--navy);
+}
+.tabs button[data-v-2eed3a4a]:focus-visible { outline: 2px solid var(--teal); outline-offset: 1px;
+}
+.body[data-v-2eed3a4a] { display: grid; grid-template-columns: 1.65fr 1fr; gap: 0.8rem; align-items: start;
+}
+.chart[data-v-2eed3a4a] { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 0.45rem 0.6rem 0.4rem;
+}
+.pair[data-v-2eed3a4a] { font: 600 0.82rem 'Source Sans 3', sans-serif; color: var(--navy);
+}
+.pair span[data-v-2eed3a4a] { font-weight: 400; color: var(--muted); font-size: 0.72rem;
+}
+svg[data-v-2eed3a4a] { width: 100%; display: block;
+}
+.ax[data-v-2eed3a4a] { font: 9px 'IBM Plex Mono', monospace; fill: #5f6670;
+}
+.v[data-v-2eed3a4a] { font: 600 9.5px 'Source Sans 3', sans-serif; fill: #1e2a3a;
+}
+.hv[data-v-2eed3a4a] { font: 700 8.5px 'Source Sans 3', sans-serif; fill: #8a6500; paint-order: stroke; stroke: #fff; stroke-width: 2.5px;
+}
+.m[data-v-2eed3a4a] { font: 600 10.5px 'Source Sans 3', sans-serif; fill: #5f6670;
+}
+.hl .m[data-v-2eed3a4a] { fill: #173869; font-weight: 700;
+}
+.bar[data-v-2eed3a4a] { transition: y 0.5s cubic-bezier(.4,0,.2,1), height 0.5s cubic-bezier(.4,0,.2,1);
+}
+.dia[data-v-2eed3a4a] { transition: transform 0.5s cubic-bezier(.4,0,.2,1), d 0.5s cubic-bezier(.4,0,.2,1);
+}
+.legend[data-v-2eed3a4a] { display: flex; gap: 0.9rem; font-size: 0.68rem; color: var(--muted); padding-left: 0.3rem;
+}
+.legend i[data-v-2eed3a4a] { display: inline-block; width: 0.65rem; height: 0.65rem; border-radius: 2px; margin-right: 0.3rem; vertical-align: -1px;
+}
+.legend i.d[data-v-2eed3a4a] { background: #fcba00; transform: rotate(45deg) scale(0.8); border: 1px solid #8a6500;
+}
+.abl[data-v-2eed3a4a] { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.6rem 0.75rem; display: flex; flex-direction: column; gap: 0.45rem;
+}
+.eyebrow[data-v-2eed3a4a] { font: 600 0.58rem 'IBM Plex Mono', monospace; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
+}
+.toggles[data-v-2eed3a4a] { display: flex; flex-direction: column; gap: 0.25rem;
+}
+.toggles label[data-v-2eed3a4a] { display: flex; align-items: center; gap: 0.45rem; font-size: 0.78rem; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 0.25rem 0.5rem; cursor: pointer; color: var(--muted);
+}
+.toggles label.on[data-v-2eed3a4a] { border-color: var(--teal); color: var(--teal-d); font-weight: 600; background: var(--teal-t);
+}
+.toggles input[data-v-2eed3a4a] { accent-color: #2d9d9b;
+}
+.res[data-v-2eed3a4a] { display: grid; grid-template-columns: 1fr 1fr; gap: 0.35rem;
+}
+.res > div[data-v-2eed3a4a] { background: #fff; border-radius: 8px; padding: 0.3rem 0.5rem; display: flex; flex-direction: column;
+}
+.res small[data-v-2eed3a4a] { font-size: 0.64rem; color: var(--muted);
+}
+.res b[data-v-2eed3a4a] { font: 700 1.15rem 'Source Sans 3', sans-serif; color: var(--navy); font-variant-numeric: tabular-nums;
+}
+.res .h[data-v-2eed3a4a] { grid-column: 1 / -1; background: var(--gelb-t);
+}
+.res .h b[data-v-2eed3a4a] { color: var(--gelb-d);
+}
+.res em[data-v-2eed3a4a] { font-style: normal; font-size: 0.7rem; font-weight: 600;
+}
+.res em.up[data-v-2eed3a4a] { color: var(--teal-d);
+}
+.res em.down[data-v-2eed3a4a] { color: var(--rubin-d);
+}
+.res.none[data-v-2eed3a4a] { display: block; font-size: 0.78rem; color: var(--muted); background: #fff; border: 1.5px dashed #c8c8c2; border-radius: 8px; padding: 0.6rem;
+}
+.foot[data-v-2eed3a4a] { font-size: 0.64rem; color: var(--muted);
+}

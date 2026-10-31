@@ -23,7 +23,6 @@ tags:
 - Endoscopy
 featured: false
 links: []
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy

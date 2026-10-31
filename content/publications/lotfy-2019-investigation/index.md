@@ -21,7 +21,6 @@ datasets: []
 tags: []
 featured: false
 links: []
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/icecta48151.2019.8959770

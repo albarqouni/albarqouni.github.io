@@ -1,0 +1,13 @@
+
+.authors[data-v-fd5fb31c] { display: grid; grid-template-columns: repeat(2, auto); justify-content: start; gap: 1rem 2.2rem; margin-top: 1.6rem;
+}
+.authors .a[data-v-fd5fb31c] { display: flex; gap: 0.7rem; align-items: center;
+}
+.authors img[data-v-fd5fb31c] { width: 3.6rem; height: 3.6rem; object-fit: cover; object-position: center 20%; border-radius: 50%; border: 3px solid var(--teal); filter: grayscale(1);
+}
+.authors .name[data-v-fd5fb31c] { font: 1rem 'Source Serif 4', serif;
+}
+.authors .name b[data-v-fd5fb31c] { font-weight: 700;
+}
+.authors .aff[data-v-fd5fb31c] { font-size: 0.76rem; color: var(--teal); font-weight: 600;
+}

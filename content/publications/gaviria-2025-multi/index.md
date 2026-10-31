@@ -4,7 +4,6 @@ featured: false
 tags:
 - abstract
 links: []
-slidev: ''
 hugoblox: {}
 datasets: []
 projects:

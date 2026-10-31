@@ -28,7 +28,6 @@ featured: false
 links:
 - type: pdf
   url: https://www.zora.uzh.ch/id/eprint/211014/1/Sadafi_ISBI_2103.09671_2021.pdf
-slidev: ''
 hugoblox:
   ids:
     doi: 10.1109/isbi48211.2021.9433788

@@ -29,7 +29,6 @@ featured: false
 links:
 - type: pdf
   url: https://arxiv.org/abs/1909.07809
-slidev: ''
 hugoblox: {}
 sync:
   source: legacy
