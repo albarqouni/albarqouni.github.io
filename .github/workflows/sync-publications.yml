@@ -44,6 +44,12 @@ jobs:
           [ -f /tmp/sjr.csv ] && ARGS="--sjr /tmp/sjr.csv"
           python scripts/sync_publications.py $ARGS | tee /tmp/sync.log
           echo 'SYNC_LOG<<EOF' >> $GITHUB_ENV; tail -n 80 /tmp/sync.log >> $GITHUB_ENV; echo 'EOF' >> $GITHUB_ENV
+      - name: Impact & reach statistics
+        env:
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          ALTMETRIC_API_KEY: ${{ secrets.ALTMETRIC_API_KEY }}
+        run: python scripts/impact_stats.py || echo "impact stats skipped"
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7
         with:

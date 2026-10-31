@@ -39,15 +39,11 @@
     <div class="lab-stat"><span class="lab-stat-n">{{ add (index $byType "conference" | default 0) (index $byType "workshop" | default 0) }}</span><span class="lab-stat-l">conference &amp; workshop papers</span></div>
   </section>
 
+  {{ partial "lab/impact.html" (dict "byType" $byType "total" (len $pubs)) }}
+
   <section class="lab-summary">
     <div>
-      <h2 class="lab-h3">By type</h2>
-      <div class="lab-bars-h">
-        {{- range $t := $types }}{{ with index $byType $t }}
-        <button type="button" data-set-facet="type={{ $t }}" class="lab-bar-h"><span>{{ i18n (printf "lab_type_%s" $t) }}</span><i style="width: {{ div (mul . 100.0) (len $pubs) }}%"></i><b>{{ . }}</b></button>
-        {{- end }}{{ end -}}
-      </div>
-      <h2 class="lab-h3 mt-6">By research theme</h2>
+      <h2 class="lab-h3">By research theme</h2>
       <div class="lab-bars-h">
         {{- range (site.Taxonomies.themes.ByCount) }}
         {{- $n := len (where .Pages "Section" "publications") -}}

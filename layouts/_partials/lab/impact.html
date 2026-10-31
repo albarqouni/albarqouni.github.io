@@ -1,0 +1,138 @@
+{{/* Reach & impact of the lab's publications (data/impact.json, refreshed by scripts/impact_stats.py). Args: byType (dict type → count), total */}}
+{{- with site.Data.impact -}}
+{{- $d := . -}}
+{{- $fwci := index (index (index site.Data.authors "shadi-albarqouni") "metrics" | default dict) "fwci" -}}
+{{- $cc := site.Data.country_centroids -}}
+{{- $intl := div (mul $d.international 100.0) $d.works | math.Round -}}
+{{- $oa := div (mul $d.open_access 100.0) $d.works | math.Round -}}
+{{- $sdg3 := index $d.sdg "Good health and well-being" | default 0 -}}
+<section class="lab-section lab-impact">
+  <h2 class="lab-h2">Impact &amp; reach</h2>
+  <div class="lab-impact-tiles">
+    <div class="lab-impact-tile lab-impact-hero">
+      <span class="lab-stat-n">{{ with $fwci }}{{ . }}{{ else }}{{ $d.fwci_mean }}{{ end }}</span>
+      <span class="lab-impact-k">Field-weighted citation impact</span>
+      <span class="lab-stat-l">Our papers are cited {{ with $fwci }}{{ . }}{{ else }}{{ $d.fwci_mean }}{{ end }}× the world average for publications of the same field, year and type (1.0).</span>
+    </div>
+    <div class="lab-impact-tile">
+      <span class="lab-stat-n">{{ $d.top10 }}</span>
+      <span class="lab-impact-k">Papers in the global top 10%</span>
+      <span class="lab-stat-l">most cited in their field and year — {{ $d.top1 }} of them in the top 1%.</span>
+    </div>
+    <div class="lab-impact-tile">
+      <span class="lab-stat-n">{{ len $d.citing_countries }}</span>
+      <span class="lab-impact-k">Countries citing our work</span>
+      <span class="lab-stat-l">Researchers from {{ len $d.citing_countries }} countries build on our publications.</span>
+    </div>
+    <div class="lab-impact-tile">
+      <span class="lab-stat-n">{{ $intl }}%</span>
+      <span class="lab-impact-k">Internationally co-authored</span>
+      <span class="lab-stat-l">of our papers have co-authors in more than one country.</span>
+    </div>
+    <div class="lab-impact-tile">
+      <span class="lab-stat-n">{{ sub (len $d.coauthor_countries) 1 }}</span>
+      <span class="lab-impact-k">Partner countries</span>
+      <span class="lab-stat-l">{{ $d.institutions }} institutions have co-authored with us.</span>
+    </div>
+    <div class="lab-impact-tile">
+      <span class="lab-stat-n">{{ $oa }}%</span>
+      <span class="lab-impact-k">Open access</span>
+      <span class="lab-stat-l">of our papers are free to read.</span>
+    </div>
+    {{- with $sdg3 }}
+    <div class="lab-impact-tile">
+      <span class="lab-stat-n">{{ . }}</span>
+      <span class="lab-impact-k">Papers on UN SDG 3</span>
+      <span class="lab-stat-l">Good health and well-being{{ with sub (len $d.sdg) 1 }} — plus {{ . }} further Sustainable Development Goals{{ end }}.</span>
+    </div>
+    {{- end }}
+    {{- with $d.altmetric }}
+    <div class="lab-impact-tile">
+      <span class="lab-stat-n">{{ .papers_in_policy }}</span>
+      <span class="lab-impact-k">Papers cited in policy documents</span>
+      <span class="lab-stat-l">{{ .policy_mentions }} mentions in government and NGO policy documents.</span>
+    </div>
+    <div class="lab-impact-tile">
+      <span class="lab-stat-n">{{ .papers_in_patents }}</span>
+      <span class="lab-impact-k">Papers cited in patents</span>
+      <span class="lab-stat-l">{{ .patent_mentions }} patent citations — technology transfer.</span>
+    </div>
+    {{- end }}
+  </div>
+
+  <div class="lab-impact-grid">
+    <figure class="lab-impact-map">
+      <div class="lab-impact-head">
+        <h3 class="lab-h3">Where our work travels</h3>
+        <div class="lab-seg" role="group" aria-label="Map layer">
+          <button type="button" data-layer="cite" aria-pressed="true">Cited from</button>
+          <button type="button" data-layer="coauth" aria-pressed="false">Co-authored with</button>
+        </div>
+      </div>
+      {{- $cite := slice -}}{{- range $k, $n := $d.citing_countries }}{{ with index $cc $k }}{{ $cite = $cite | append (dict "c" $k "n" $n "name" .name "lat" .lat "lon" .lon) }}{{ end }}{{ end -}}
+      {{- $co := slice -}}{{- range $k, $n := $d.coauthor_countries }}{{ with index $cc $k }}{{ $co = $co | append (dict "c" $k "n" $n "name" .name "lat" .lat "lon" .lon) }}{{ end }}{{ end -}}
+      <div id="lab-impact-map" class="lab-map" role="img" aria-label="World map: countries citing and co-authoring our publications"></div>
+      <figcaption class="lab-meta">Bubble area ∝ number of citing works (or co-authored papers) per country. Source: {{ $d.source }}, updated {{ $d.updated }}.</figcaption>
+      <details class="lab-meta mt-1"><summary>Table: top countries</summary>
+        <table class="lab-table"><thead><tr><th>Country</th><th>Citing works</th></tr></thead><tbody>
+        {{- range first 15 (sort $cite "n" "desc") }}<tr><td>{{ .name }}</td><td>{{ .n }}</td></tr>{{ end -}}
+        </tbody></table>
+      </details>
+      <link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}">
+      <script src="{{ "vendor/leaflet/leaflet.js" | relURL }}"></script>
+      <script>
+      (function () {
+        var layers = { cite: {{ $cite | jsonify | safeJS }}, coauth: {{ $co | jsonify | safeJS }} };
+        var label = { cite: "citing works", coauth: "co-authored papers" };
+        var map = L.map("lab-impact-map", { scrollWheelZoom: false, worldCopyJump: true, minZoom: 1, zoomSnap: 0.25 }).fitBounds([[-40, -130], [65, 150]]);
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 6, attribution: "&copy; OpenStreetMap contributors", className: "lab-tiles-muted" }).addTo(map);
+        var group = L.layerGroup().addTo(map);
+        function draw(kind) {
+          group.clearLayers();
+          var pts = layers[kind], max = Math.max.apply(null, pts.map(function (p) { return p.n; }));
+          var col = kind === "cite" ? "#21998b" : "#2f63b0";
+          pts.slice().sort(function (a, b) { return b.n - a.n; }).forEach(function (p) {
+            L.circleMarker([p.lat, p.lon], { radius: 3 + 22 * Math.sqrt(p.n / max), color: "#fff", weight: 1.5, fillColor: col, fillOpacity: 0.75 })
+              .bindTooltip("<b>" + p.name + "</b><br>" + p.n.toLocaleString() + " " + label[kind], { direction: "top" }).addTo(group);
+          });
+        }
+        draw("cite");
+        document.querySelectorAll(".lab-impact-map [data-layer]").forEach(function (b) {
+          b.addEventListener("click", function () {
+            document.querySelectorAll(".lab-impact-map [data-layer]").forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
+            draw(b.dataset.layer);
+          });
+        });
+      })();
+      </script>
+    </figure>
+
+    {{- /* donut of publication types: five largest groups + "Books & other" */ -}}
+    {{- $groups := slice
+      (dict "k" "journal" "l" "Journal" "c" "var(--cat-1)" "n" (index $.byType "journal" | default 0))
+      (dict "k" "conference" "l" "Conference" "c" "var(--cat-2)" "n" (index $.byType "conference" | default 0))
+      (dict "k" "preprint" "l" "Preprint" "c" "var(--cat-3)" "n" (index $.byType "preprint" | default 0))
+      (dict "k" "workshop" "l" "Workshop" "c" "var(--cat-4)" "n" (index $.byType "workshop" | default 0))
+      (dict "k" "abstract" "l" "Abstract" "c" "var(--cat-5)" "n" (index $.byType "abstract" | default 0))
+      (dict "k" "" "l" "Books, patents & other" "c" "var(--cat-other)" "n" (add (index $.byType "book" | default 0) (index $.byType "edited" | default 0) (index $.byType "patent" | default 0) (index $.byType "thesis" | default 0) (index $.byType "other" | default 0))) -}}
+    <figure class="lab-donut-wrap">
+      <h3 class="lab-h3">By type</h3>
+      {{- $r := 15.915 -}}{{- $off := 25.0 -}}
+      <svg viewBox="0 0 42 42" class="lab-donut" role="img" aria-label="Publications by type">
+        {{- range $groups }}{{ if .n }}
+        {{- $p := div (mul .n 100.0) $.total -}}
+        <circle cx="21" cy="21" r="{{ $r }}" fill="none" stroke="{{ .c }}" stroke-width="6" stroke-dasharray="{{ sub $p 0.6 }} {{ sub 100 (sub $p 0.6) }}" stroke-dashoffset="{{ $off }}"><title>{{ .l }}: {{ .n }} ({{ math.Round $p }}%)</title></circle>
+        {{- $off = sub $off $p -}}
+        {{- end }}{{ end }}
+        <text x="21" y="21" class="lab-donut-n">{{ $.total }}</text>
+        <text x="21" y="26" class="lab-donut-l">publications</text>
+      </svg>
+      <ul class="lab-donut-legend">
+        {{- range $groups }}{{ if .n }}
+        <li>{{ if .k }}<button type="button" data-set-facet="type={{ .k }}">{{ else }}<span>{{ end }}<i style="background: {{ .c }}"></i>{{ .l }}<b>{{ .n }}</b><em>{{ math.Round (div (mul .n 100.0) $.total) }}%</em>{{ if .k }}</button>{{ else }}</span>{{ end }}</li>
+        {{- end }}{{ end }}
+      </ul>
+    </figure>
+  </div>
+</section>
+{{- end -}}
