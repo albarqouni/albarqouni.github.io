@@ -107,7 +107,7 @@
   color: "#5f6670"
   link: /projects/
   stats:
-    - ["{projects}", "funded projects · {active_projects} active"]
+    - ["{projects}", "research collaborations & funded projects · {active_projects} active"]
     - ["1 agenda", "imaging, responsible and federated AI"]
     - ["DFG · BMFTR · MKW NRW · AGYA", "funders of our ongoing projects"]
   media:
@@ -120,7 +120,7 @@
     - {src: act/fund-675.jpg}
     - {src: act/fund-680.jpg}
   pins: {auto: funded-partners}
-  pin_label: partners of funded projects
+  pin_label: partners of our collaborations & funded projects
 
 - key: venues
   label: Venues

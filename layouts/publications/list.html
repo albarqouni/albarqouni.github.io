@@ -23,14 +23,6 @@
     <p class="lab-meta">Synced weekly from <a href="https://scholar.google.com/citations?user={{ site.Params.lab.scholar_id }}" target="_blank" rel="noopener">Google Scholar</a>; metadata enriched from OpenAlex &amp; Crossref.{{ with $snapshot.updated }} Last sync: {{ . }}.{{ end }}</p>
   </header>
 
-  {{/* ---------- Featured ---------- */}}
-  {{ with where $pubs "Params.featured" true }}
-  <section class="lab-section !mt-2">
-    <h2 class="lab-h2">Featured publications</h2>
-    <div class="lab-featured-grid">{{ range first 9 . }}{{ partial "lab/pub-featured.html" . }}{{ end }}</div>
-  </section>
-  {{ end }}
-
   {{/* ---------- Summary ---------- */}}
   <section class="lab-stats-grid">
     <div class="lab-stat"><span class="lab-stat-n">{{ len $pubs }}</span><span class="lab-stat-l">publications</span></div>
@@ -61,6 +53,14 @@
       </div>
     </div>
   </section>
+
+  {{/* ---------- Featured ---------- */}}
+  {{ with where $pubs "Params.featured" true }}
+  <section class="lab-section">
+    <h2 class="lab-h2">Featured publications</h2>
+    <div class="lab-featured-grid">{{ range first 9 . }}{{ partial "lab/pub-featured.html" . }}{{ end }}</div>
+  </section>
+  {{ end }}
 
   {{/* ---------- Filters ---------- */}}
   {{- $yearOpts := slice -}}{{- range $years }}{{ $yearOpts = $yearOpts | append (dict "value" . "label" . "count" (index $yearCount .)) }}{{ end -}}
