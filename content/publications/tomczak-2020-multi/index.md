@@ -4,7 +4,7 @@ date: '2020-12-21'
 draft: false
 authors:
 - agnieszka-tomczak
-- Slobodan Ilic
+- slobodan-ilic
 - Gaby Marquardt
 - Thomas Engel
 - Frank Forster

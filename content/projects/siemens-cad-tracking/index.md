@@ -14,9 +14,13 @@ funding_url: ''
 role: Scientific Lead (with N. Navab)
 pis:
 - shadi-albarqouni
-co_pis: []
+co_pis:
+- name: slobodan-ilic
+  org: siemens
 authors:
 - shadi-albarqouni
+- slobodan-ilic
+- mai-bui
 partners:
 - siemens
 - tum

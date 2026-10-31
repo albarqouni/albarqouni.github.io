@@ -5,7 +5,7 @@ draft: false
 authors:
 - mai-bui
 - shadi-albarqouni
-- Slobodan Ilic
+- slobodan-ilic
 - nassir-navab
 publication_types:
 - preprint

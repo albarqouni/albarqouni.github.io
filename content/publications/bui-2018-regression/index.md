@@ -6,7 +6,7 @@ authors:
 - mai-bui
 - Sergey Zakharov
 - shadi-albarqouni
-- Slobodan Ilic
+- slobodan-ilic
 - nassir-navab
 publication_types:
 - paper-conference

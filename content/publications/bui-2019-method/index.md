@@ -6,7 +6,7 @@ authors:
 - mai-bui
 - Sergey Zakharov
 - shadi-albarqouni
-- Slobodan Ilic
+- slobodan-ilic
 publication_types:
 - patent
 publication:

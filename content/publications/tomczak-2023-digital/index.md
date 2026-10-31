@@ -4,7 +4,7 @@ date: '2023-01-01'
 draft: false
 authors:
 - agnieszka-tomczak
-- Slobodan Ilic
+- slobodan-ilic
 - Gaby Marquardt
 - Thomas Engel
 - nassir-navab

@@ -38,9 +38,10 @@ _No rule yet._
 - ✓ `tomczak-2020-multi` (2020-12) Multi-task multi-domain learning for digital staining and classification of leukocytes — _keyword /leukocyte/, /white blood cell/_
 - ✓ `sadafi-2020-attention` (2020-01) Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders — _keyword /red blood cell/_
 
-## digital-staining — Digital staining with confidence estimation for hematological imaging  (2 papers, 0 new)
-- ✓ `tomczak-2023-digital` (2023-01) Digital staining of white blood cells with confidence estimation — _keyword /digital staining/_
-- ✓ `tomczak-2020-multi` (2020-12) Multi-task multi-domain learning for digital staining and classification of leukocytes — _keyword /digital staining/_
+## digital-staining — AI for Hematology: Trustworthy digital staining and classification of white blood cells  (3 papers, 1 new)
+- ✓ `tomczak-2023-digital` (2023-01) Digital staining of white blood cells with confidence estimation — _co-author agnieszka-tomczak, slobodan-ilic; keyword /digital staining/_
+- + `tomczak-2022-can` (2022-01) What can we learn about a generated image corrupting its latent representation? — _co-author agnieszka-tomczak, slobodan-ilic_
+- ✓ `tomczak-2020-multi` (2020-12) Multi-task multi-domain learning for digital staining and classification of leukocytes — _co-author agnieszka-tomczak, slobodan-ilic; keyword /digital staining/_
 
 ## eeda — Affordable AI and Collaborative Federated Learning for Global Healthcare (EEDA)  (3 papers, 0 new)
 - ✓ `germani-2026-multi` (2026-09) When multi-institutional dataset aggregation masks shortcut-like behavior in Foundation Models for medical imaging — _co-author charbel-mourad_

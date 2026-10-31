@@ -6,7 +6,7 @@ authors:
 - mai-bui
 - christoph-baur
 - nassir-navab
-- Slobodan Ilic
+- slobodan-ilic
 - shadi-albarqouni
 publication_types:
 - paper-conference

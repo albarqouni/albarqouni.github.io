@@ -5,7 +5,7 @@ draft: false
 authors:
 - agnieszka-tomczak
 - Aarushi Gupta
-- Slobodan Ilic
+- slobodan-ilic
 - nassir-navab
 - shadi-albarqouni
 publication_types:
@@ -19,7 +19,8 @@ abstract: 'Generative adversarial networks (GANs) offer an effective solution to
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- digital-staining
 datasets: []
 tags:
 - Deep Learning

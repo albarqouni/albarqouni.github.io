@@ -59,8 +59,10 @@ lvm-med:
 feddis:
   keywords: ['federated disentangled']
 
-digital-staining:
+digital-staining:   # AI for Hematology (Siemens × TUM)
+  all_authors: [agnieszka-tomczak, slobodan-ilic]
   keywords: ['digital staining']
+  match: either
 
 computational-hematology:
   keywords: ['leukocyte', 'white blood cell', 'hematolog', 'blood smear', 'sickle', 'red blood cell', 'myeloid']

@@ -7,7 +7,7 @@ authors:
 - shadi-albarqouni
 - Michael Schrapp
 - nassir-navab
-- Slobodan Ilic
+- slobodan-ilic
 publication_types:
 - paper-conference
 publication:

@@ -1,0 +1,32 @@
+schema: hugoblox/author/v1
+slug: slobodan-ilic
+is_owner: false
+name:
+  display: Slobodan Ilic
+role: Senior Key Expert Research Scientist, Siemens AG; Adjunct Professor, Technical University of Munich
+group: collaborators
+bio: Slobodan Ilic is a Senior Key Expert Research Scientist at Siemens AG in Munich (since 2014) and Adjunct Professor at the Chair for Computer Aided Medical Procedures (CAMP), TU Munich, where he led the Computer Vision Group from 2009 to 2014. He received his PhD from EPFL under Pascal Fua. His research covers model-based computer vision, 3D reconstruction, and the detection, tracking and pose estimation of rigid and deformable objects. With our lab he co-supervised industry-academic PhD projects on CAD-based pose estimation for mobile X-ray devices and on digital staining of blood cells.
+affiliations:
+- name: Siemens AG
+  url: https://www.siemens.com
+- name: Technical University of Munich (CAMP)
+  url: https://cs.cit.tum.de/camp/members/senior-affiliates/slobodan-ilic
+links:
+- icon: hero/link
+  url: https://cs.cit.tum.de/camp/members/senior-affiliates/slobodan-ilic
+  label: TUM CAMP profile
+interests:
+- 3D computer vision
+- Object detection, tracking and pose estimation
+- Generative models for medical imaging
+education:
+- degree: PhD in Computer Science
+  institution: EPFL, Switzerland.
+  end: '2005-12-31'
+github: ''
+aliases:
+- Slobodan Ilić
+tags:
+- academic
+- industry
+photo_credit: TUM CAMP

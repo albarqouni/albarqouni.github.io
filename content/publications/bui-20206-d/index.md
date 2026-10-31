@@ -8,7 +8,7 @@ authors:
 - Haowen Deng
 - shadi-albarqouni
 - Leonidas Guibas
-- Slobodan Ilic
+- slobodan-ilic
 - nassir-navab
 publication_types:
 - paper-conference

@@ -6,7 +6,7 @@ authors:
 - shadi-albarqouni
 - mai-bui
 - Michael Schrapp
-- Slobodan Ilic
+- slobodan-ilic
 publication_types:
 - patent
 publication:

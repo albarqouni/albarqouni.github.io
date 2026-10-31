@@ -5,7 +5,7 @@ draft: false
 authors:
 - shadi-albarqouni
 - mai-bui
-- Slobodan Ilic
+- slobodan-ilic
 - Michael Schrapp
 publication_types:
 - patent

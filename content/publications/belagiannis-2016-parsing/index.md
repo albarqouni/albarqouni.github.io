@@ -12,7 +12,7 @@ authors:
 - Michael Kranzfelder
 - Armin Schneider
 - Pascal Fua
-- Slobodan Ilić
+- slobodan-ilic
 - Hubertus Feußner
 - nassir-navab
 publication_types:
