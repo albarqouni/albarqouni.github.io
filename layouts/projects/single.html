@@ -44,9 +44,11 @@
     <aside class="lab-side">
       <h3>Principal investigators</h3>
       <div class="lab-row">{{ range .Params.pis }}{{ partial "lab/person.html" . }}{{ end }}</div>
+      {{- /* A co-PI written as "Prof. Jane Doe" resolves to the profile jane-doe, so they link there and are not repeated under People involved. */ -}}
+      {{- $coSlugs := slice -}}
       {{ with .Params.co_pis }}<h3>Co-PIs &amp; collaborators</h3>
-      <ul class="lab-plain">{{ range . }}<li>{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ partial "lab/person.html" .name }}{{ end }}{{ with .org }}{{ with index site.Data.organizations . }} — {{ .short }}{{ end }}{{ end }}</li>{{ end }}</ul>{{ end }}
-      {{- $team := slice -}}{{- range .Params.authors }}{{ if not (in $.Params.pis .) }}{{ $team = $team | append . }}{{ end }}{{ end -}}
+      <ul class="lab-plain">{{ range . }}{{ $s := urlize (replaceRE `^((Prof|Dr|PD|Assoc|Ass|Jun)\.?\s+)+` "" .name) }}{{ $who := cond (isset site.Data.authors $s) $s .name }}{{ if isset site.Data.authors $s }}{{ $coSlugs = $coSlugs | append $s }}{{ end }}<li>{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ partial "lab/person.html" $who }}{{ end }}{{ with .org }}{{ with index site.Data.organizations . }} — {{ .short }}{{ end }}{{ end }}</li>{{ end }}</ul>{{ end }}
+      {{- $team := slice -}}{{- range .Params.authors }}{{ if not (or (in $.Params.pis .) (in $coSlugs .)) }}{{ $team = $team | append . }}{{ end }}{{ end -}}
       {{ with $team }}<h3>People involved</h3><div class="lab-row">{{ range . }}{{ partial "lab/person.html" . }}{{ end }}</div>{{ end }}
       {{ with .Params.datasets }}<h3>Datasets</h3><div class="lab-row">{{ range . }}{{ with site.GetPage (printf "/datasets/%s" .) }}<a class="lab-chip" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}</div>{{ end }}
     </aside>

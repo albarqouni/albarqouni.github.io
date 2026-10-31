@@ -12,6 +12,7 @@ summary: 'We have just wrapped up an amazing week at the [Summer School on Affor
   As the curtains close on an unforgettable week in Bonn, we reflect on the enriching experiences shared at the AGYA Summer School on Affordable AI. We were thrilled to host 60 guests, including 35 students from nations across the globe; 🇲🇷 Mauritania, 🇲🇦 Morocco, 🇹🇳 Tunisia, 🇩🇿 Algeria, 🇱🇾 Libya, 🇪🇬 Egypt, 🇵🇸 Palestine, 🇱🇧 Lebanon, 🇯🇴 Jordan, 🇸🇾 Syria, 🇮🇶 Iraq, 🇴🇲 Oman, 🇶🇦 Qatar, 🇰🇼 Kuwait, 🇸🇦Saudi, 🇦🇪 UAE, 🇾🇪 Yemen, 🇰🇲 Comoros, 🇩🇪 Germany, 🇷🇺 Russia, 🇮🇹 Italy, 🇺🇦 Ukraine, 🇫🇷 France, and 🇨🇴 Colombia alongside 15 faculty and AGYA members, and 6 dedicated tutors.'
 authors:
 - shadi-albarqouni
+- diletta-chiaro
 projects: []
 themes:
 - computational-imaging

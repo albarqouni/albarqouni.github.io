@@ -16,6 +16,8 @@ pis:
 co_pis: []
 authors:
 - shadi-albarqouni
+- malek-al-abed
+- david-gaviria
 partners:
 - ukb
 - omi-consortium

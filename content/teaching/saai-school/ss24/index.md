@@ -11,7 +11,9 @@ lecturers:
 - shadi-albarqouni
 authors:
 - shadi-albarqouni
-tutors: []
+- diletta-chiaro
+tutors:
+- diletta-chiaro
 schedule: ''
 room: ''
 registration: ''

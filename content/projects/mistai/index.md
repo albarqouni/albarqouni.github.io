@@ -20,6 +20,7 @@ co_pis:
   org: dnipro-state-medical-university
 authors:
 - shadi-albarqouni
+- nina-bondarenko
 partners:
 - ukb
 - dnipro-state-medical-university

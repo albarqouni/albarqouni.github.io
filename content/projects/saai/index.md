@@ -16,6 +16,7 @@ pis:
 co_pis: []
 authors:
 - shadi-albarqouni
+- diletta-chiaro
 partners:
 - agya
 - lau
