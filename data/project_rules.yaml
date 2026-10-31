@@ -108,3 +108,12 @@ fetal-cdh:
 
 telemedicine:
   include: [albarqouni-2009-steps]
+
+roche-virtual-staining:
+  any_authors: [amal-lahiani]
+  from: 2016
+  exclude: [lahiani-2019-european]   # duplicate record (title is the venue name)
+
+deepc-ct-anomaly:
+  all_authors: [Mehmet Yigitsoy, abhijeet-parida]
+  include: [guerractfsh]

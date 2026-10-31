@@ -18,7 +18,8 @@ abstract: Unsupervised Anomaly Detection (UAD) is an inexpensive and effective m
   the CT volumes allowed the algorithm to efficiently classify fractures. To the best of our knowledge, this is the first work to show a comparison regarding the usage of skull-stripping. To facilitate further research in UAD for Head CT, we publish supplementary labels for the publicly available CQ500 dataset. The code for this study can be found in a GitHub repository athttps://github.com/pederismo/CTFSH
 themes:
 - computational-imaging
-projects: []
+projects:
+- deepc-ct-anomaly
 datasets: []
 tags: []
 featured: false

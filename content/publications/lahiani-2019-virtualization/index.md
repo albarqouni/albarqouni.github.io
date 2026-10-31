@@ -20,7 +20,8 @@ abstract: Histopathological evaluation of tissue samples is a key practice in pa
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- roche-virtual-staining
 datasets: []
 tags:
 - Stain Normalization

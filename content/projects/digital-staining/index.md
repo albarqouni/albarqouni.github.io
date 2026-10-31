@@ -7,8 +7,9 @@ date: '2020-01-01'
 start: 2020-01
 end: 2023-12
 funders: []
+role: Scientific Lead
 pis:
-- shadi-albarqouni
+- nassir-navab
 co_pis:
 - name: slobodan-ilic
   org: siemens

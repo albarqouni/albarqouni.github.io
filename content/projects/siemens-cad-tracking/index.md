@@ -11,14 +11,15 @@ funders:
 - siemens
 grant_number: ''
 funding_url: ''
-role: Scientific Lead (with N. Navab)
+role: Scientific Lead (Postdoc at TUM CAMP)
 pis:
-- shadi-albarqouni
+- nassir-navab
 co_pis:
 - name: slobodan-ilic
   org: siemens
 authors:
 - shadi-albarqouni
+- nassir-navab
 - slobodan-ilic
 - mai-bui
 partners:

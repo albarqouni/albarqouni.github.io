@@ -19,7 +19,8 @@ abstract: A key challenge in cancer immunotherapy biomarker research is quantifi
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- roche-virtual-staining
 datasets: []
 tags:
 - Histology

@@ -17,7 +17,8 @@ abstract: Style transfer is a field with growing interest and use cases in deep 
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- roche-virtual-staining
 datasets: []
 tags:
 - Stain Normalization

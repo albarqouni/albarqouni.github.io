@@ -8,6 +8,8 @@ lmu: {name: LMU University Hospital Munich, short: LMU, url: 'https://www.lmu-kl
 uk-freiburg: {name: University Medical Center Freiburg, short: UKF, url: 'https://www.uniklinik-freiburg.de', country: Germany, lat: 48.0047, lon: 7.8394, kind: hospital, logo: uk-freiburg.png}
 helmholtz-munich: {name: Helmholtz Munich, short: Helmholtz, url: 'https://www.helmholtz-munich.de', country: Germany, lat: 48.2216, lon: 11.5946, kind: university, logo: helmholtz-munich.png}
 siemens: {name: Siemens AG, short: Siemens, url: 'https://www.siemens.com', country: Germany, lat: 48.1351, lon: 11.582, kind: industry, logo: siemens.png}
+roche: {name: Roche Diagnostics GmbH, short: Roche, url: 'https://www.roche.de', country: Germany, lat: 47.7519, lon: 11.3775, kind: industry, logo: roche.png}
+deepc: {name: deepc GmbH, short: deepc, url: 'https://www.deepc.ai', country: Germany, lat: 48.1374, lon: 11.5755, kind: industry, logo: deepc.png}
 owkin: {name: Owkin, short: Owkin, url: 'https://owkin.com', country: France, lat: 48.8566, lon: 2.3522, kind: industry, logo: owkin.png}
 ethz: {name: ETH Zurich, short: ETH, url: 'https://ethz.ch/en.html', country: Switzerland, lat: 47.3763, lon: 8.5477, kind: university, logo: ethz.png}
 imperial: {name: Imperial College London, short: Imperial, url: 'https://www.imperial.ac.uk', country: United Kingdom, lat: 51.4988, lon: -0.1749, kind: university, logo: imperial.png}

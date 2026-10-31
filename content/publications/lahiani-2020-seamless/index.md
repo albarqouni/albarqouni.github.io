@@ -19,7 +19,8 @@ abstract: Stain virtualization is an application with growing interest in digita
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- roche-virtual-staining
 datasets: []
 tags:
 - Stain Normalization

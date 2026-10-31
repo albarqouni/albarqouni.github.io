@@ -38,9 +38,11 @@ _No rule yet._
 - ✓ `tomczak-2020-multi` (2020-12) Multi-task multi-domain learning for digital staining and classification of leukocytes — _keyword /leukocyte/, /white blood cell/_
 - ✓ `sadafi-2020-attention` (2020-01) Attention Based Multiple Instance Learning for Classification of Blood Cell Disorders — _keyword /red blood cell/_
 
-## digital-staining — AI for Hematology: Trustworthy digital staining and classification of white blood cells  (3 papers, 1 new)
+## deepc-ct-anomaly — Unsupervised anomaly detection in full-head CT for emergency triage  (0 papers, 0 new)
+
+## digital-staining — AI for Hematology: Trustworthy digital staining and classification of white blood cells  (3 papers, 0 new)
 - ✓ `tomczak-2023-digital` (2023-01) Digital staining of white blood cells with confidence estimation — _co-author agnieszka-tomczak, slobodan-ilic; keyword /digital staining/_
-- + `tomczak-2022-can` (2022-01) What can we learn about a generated image corrupting its latent representation? — _co-author agnieszka-tomczak, slobodan-ilic_
+- ✓ `tomczak-2022-can` (2022-01) What can we learn about a generated image corrupting its latent representation? — _co-author agnieszka-tomczak, slobodan-ilic_
 - ✓ `tomczak-2020-multi` (2020-12) Multi-task multi-domain learning for digital staining and classification of leukocytes — _co-author agnieszka-tomczak, slobodan-ilic; keyword /digital staining/_
 
 ## eeda — Affordable AI and Collaborative Federated Learning for Global Healthcare (EEDA)  (3 papers, 0 new)
@@ -139,6 +141,12 @@ _No rule yet._
 - ✓ `delopoulos-2025-implementation` (2025-01) Implementation and clinical evaluation of an in-house thoracic auto-segmentation model for 0.35 T magnetic resonance imaging guided radiotherapy — _co-author christopher-kurz, claus-belka, guillaume-landry_
 - ✓ `de-2024-clovernet` (2024-01) CloverNet--Leveraging Planning Annotations for Enhanced Procedural MR Segmentation: An Application to Adaptive Radiation Therapy — _co-author christopher-kurz, claus-belka, guillaume-landry_
 - ✓ `klymenko-2021-butterfly` (2021-01) Butterfly-Net: Spatial-Temporal Architecture For Medical Image Segmentation — _co-author christopher-kurz, guillaume-landry_
+
+## roche-virtual-staining — Virtual staining in digital pathology: GAN-based stain virtualization of whole slide images  (4 papers, 4 new)
+- + `lahiani-2020-seamless` (2020-02) Seamless Virtual Whole Slide Image Synthesis and Validation Using Perceptual Embedding Consistency — _co-author amal-lahiani_
+- + `lahiani-2018-generalizing` (2019-01) Generalizing multistain immunohistochemistry tissue segmentation using one-shot color deconvolution deep neural networks — _co-author amal-lahiani_
+- + `lahiani-2019-perceptual` (2019-01) Perceptual Embedding Consistency for Seamless Reconstruction of Tilewise Style Transfer — _co-author amal-lahiani_
+- + `lahiani-2019-virtualization` (2019-01) Virtualization of tissue staining in digital pathology using an unsupervised deep learning approach — _co-author amal-lahiani_
 
 ## saai — Summer School on Affordable AI (SAAI)  (0 papers, 0 new)
 _No rule yet._
