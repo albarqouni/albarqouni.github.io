@@ -206,6 +206,11 @@ bmvc:
   match: ["british machine vision conference", "bmvc"]
   type: conference
   acceptance: {}
+dog:
+  name: DOG Congress (Deutsche Ophthalmologische Gesellschaft)
+  short: DOG
+  match: ["dog congress", "dog-kongress", "deutsche ophthalmologische gesellschaft"]
+  type: conference
 arxiv:
   name: arXiv preprint
   short: arXiv

@@ -51,6 +51,9 @@ _No rule yet._
 - ✓ `germani-2025-bias` (2025-01) Bias and generalizability of foundation models across datasets in breast mammography — _co-author charbel-mourad_
 - ✓ `ghannoum-2025-unleashing` (2025-01) Unleashing the power of AI in predicting the technological and phenolic maturity of pomegranates cultivated in Lebanon — _co-author nada-el-darra_
 
+## eyelid-tumor-ai — KI-gestützte Diagnostik von Tumoren am Auge: Dignitätseinordnung von Lidtumoren mittels KI zur optimierten Patienteneinbestellung  (1 papers, 0 new)
+- ✓ `shakarami-2026-eyelid` (2026-09) Eyelid Tumor Triage using Uncertainty-Aware and Explainable Artificial Intelligence — _keyword /eyelid/_
+
 ## eyesight-to-ai — Eyesight to AI: Discovery of efficient corrosion modulators via predictive machine learning models  (2 papers, 0 new)
 - ✓ `dammann-2026-unet` (2026-10) U-Net-Based Prediction of Concealed Volume Loss in AZ31 From Optical Corrosion Imprints and As-Exposed Surface Topography — _co-author christian-feiler_
 - ✓ `song-2025-efficient` (2025-01) An efficient screening of dissolution modulators of Mg alloys: Combining high-throughput multi-well exposure with topographical quantification of volume loss and pitting corrosion — _co-author christian-feiler_
@@ -107,6 +110,7 @@ _No rule yet._
 
 ## interact-cmil — INTERACT-CMIL: Interpretable multi-task grading of conjunctival melanocytic lesions  (1 papers, 0 new)
 - ✓ `ikinci-2026-interact` (2026-01) INTERACT-CMIL: Multi-Task Shared Learning and Inter-Task Consistency for Conjunctival Melanocytic Intraepithelial Lesion Grading — _keyword /conjunctival/_
+- ✓ `toma-2026-histopathologische` (2026-09) Histopathologische Klassifikation konjunktivaler melanozytärer intraepithelialer Läsionen (CMIL) mit einem Deep-Learning-Algorithmus — _linked by hand, not matched by the rule_
 
 ## lvm-med — Large vision models for robust and trustworthy medical image understanding  (1 papers, 0 new)
 - ✓ `mh-2023-lvm` (2023-01) Lvm-med: Learning large-scale self-supervised vision models for medical imaging via second-order graph matching — _keyword /lvm-med/, /large(-| )scale self-supervised vision models/_
@@ -184,6 +188,7 @@ _No rule yet._
 - ✓ `soberanis-2019-uncertainty` (2020-04) Uncertainty-based graph convolutional networks for organ segmentation refinement — _keyword /uncertaint/_
 - ✓ `baur-2020-bayesian` (2020-01) Bayesian Skip-Autoencoders for Unsupervised Hyperintense Anomaly Detection in High Resolution Brain Mri — _keyword /bayesian/_
 - ✓ `tomczack-2019-learn` (2019-01) Learn to estimate labels uncertainty for quality assurance — _keyword /uncertaint/_
+- ✓ `shakarami-2026-eyelid` (2026-09) Eyelid Tumor Triage using Uncertainty-Aware and Explainable Artificial Intelligence — _linked by hand, not matched by the rule_
 
 ## zeiss-representation — Disentangled, fair and discriminative representations for ophthalmic imaging  (5 papers, 0 new)
 - ✓ `sarhan-2020-fairness` (2020-08) Fairness by Learning Orthogonal Disentangled Representations — _co-author abouzar-eslami, hasan-sarhan_
