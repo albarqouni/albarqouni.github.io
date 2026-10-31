@@ -3,70 +3,70 @@
 # `network: true` = partner from the lab's wider collaboration network (shown on the globe) even if not on a funded project.
 uni-bonn: {name: University of Bonn, short: UniBonn, url: 'https://www.uni-bonn.de/en', country: Germany, lat: 50.7339, lon: 7.1022, kind: university, logo: uni-bonn.png, logo_dark: uni-bonn-white.png}
 ukb: {name: University Hospital Bonn, short: UKB, url: 'https://www.ukbonn.de', country: Germany, lat: 50.6998, lon: 7.1019, kind: hospital, logo: ukb.png, logo_dark: ukb-white.png}
-tum: {name: Technical University of Munich, short: TUM, url: 'https://www.tum.de', country: Germany, lat: 48.1497, lon: 11.5679, kind: university, logo: tum.png}
-lmu: {name: LMU University Hospital Munich, short: LMU, url: 'https://www.lmu-klinikum.de', country: Germany, lat: 48.1106, lon: 11.4697, kind: hospital, logo: lmu.png}
-uk-freiburg: {name: University Medical Center Freiburg, short: UKF, url: 'https://www.uniklinik-freiburg.de', country: Germany, lat: 48.0047, lon: 7.8394, kind: hospital, logo: uk-freiburg.png}
-helmholtz-munich: {name: Helmholtz Munich, short: Helmholtz, url: 'https://www.helmholtz-munich.de', country: Germany, lat: 48.2216, lon: 11.5946, kind: university, logo: helmholtz-munich.png}
-helmholtz-ai: {name: Helmholtz AI, short: Helmholtz AI, url: 'https://www.helmholtz.ai', country: Germany, lat: 48.2216, lon: 11.5946, kind: university, logo: helmholtz-ai.png}
-siemens: {name: Siemens AG, short: Siemens, url: 'https://www.siemens.com', country: Germany, lat: 48.1351, lon: 11.582, kind: industry, logo: siemens.png}
-siemens-healthineers: {name: Siemens Healthineers AG, short: Siemens Healthineers, url: 'https://www.siemens-healthineers.com', country: Germany, lat: 49.7203, lon: 11.0581, kind: industry, logo: siemens-healthineers.png}
-roche: {name: Roche Diagnostics GmbH, short: Roche, url: 'https://www.roche.de', country: Germany, lat: 47.7519, lon: 11.3775, kind: industry, logo: roche.png}
+tum: {name: Technical University of Munich, short: TUM, url: 'https://www.tum.de', country: Germany, lat: 48.1497, lon: 11.5679, kind: university, logo: tum.png, logo_dark: tum-white.png}
+lmu: {name: LMU University Hospital Munich, short: LMU, url: 'https://www.lmu-klinikum.de', country: Germany, lat: 48.1106, lon: 11.4697, kind: hospital, logo: lmu.png, logo_dark: lmu-white.png}
+uk-freiburg: {name: University Medical Center Freiburg, short: UKF, url: 'https://www.uniklinik-freiburg.de', country: Germany, lat: 48.0047, lon: 7.8394, kind: hospital, logo: uk-freiburg.png, logo_dark: uk-freiburg-white.png}
+helmholtz-munich: {name: Helmholtz Munich, short: Helmholtz, url: 'https://www.helmholtz-munich.de', country: Germany, lat: 48.2216, lon: 11.5946, kind: university, logo: helmholtz-munich.png, logo_dark: helmholtz-munich-white.png}
+helmholtz-ai: {name: Helmholtz AI, short: Helmholtz AI, url: 'https://www.helmholtz.ai', country: Germany, lat: 48.2216, lon: 11.5946, kind: university, logo: helmholtz-ai.png, logo_dark: helmholtz-ai-white.png}
+siemens: {name: Siemens AG, short: Siemens, url: 'https://www.siemens.com', country: Germany, lat: 48.1351, lon: 11.582, kind: industry, logo: siemens.png, logo_dark: siemens-white.png}
+siemens-healthineers: {name: Siemens Healthineers AG, short: Siemens Healthineers, url: 'https://www.siemens-healthineers.com', country: Germany, lat: 49.7203, lon: 11.0581, kind: industry, logo: siemens-healthineers.png, logo_dark: siemens-healthineers-white.png}
+roche: {name: Roche Diagnostics GmbH, short: Roche, url: 'https://www.roche.de', country: Germany, lat: 47.7519, lon: 11.3775, kind: industry, logo: roche.png, logo_dark: roche-white.png}
 deepc: {name: deepc GmbH, short: deepc, url: 'https://www.deepc.ai', country: Germany, lat: 48.1374, lon: 11.5755, kind: industry, logo: deepc.png}
 zeiss: {name: Carl Zeiss Meditec AG, short: ZEISS, url: 'https://www.zeiss.com/meditec', country: Germany, lat: 48.1067, lon: 11.5992, kind: industry, logo: zeiss.png}
-owkin: {name: Owkin, short: Owkin, url: 'https://owkin.com', country: France, lat: 48.8566, lon: 2.3522, kind: industry, logo: owkin.png}
-ethz: {name: ETH Zurich, short: ETH, url: 'https://ethz.ch/en.html', country: Switzerland, lat: 47.3763, lon: 8.5477, kind: university, logo: ethz.png}
-imperial: {name: Imperial College London, short: Imperial, url: 'https://www.imperial.ac.uk', country: United Kingdom, lat: 51.4988, lon: -0.1749, kind: university, logo: imperial.png}
-stanford: {name: Stanford University, short: Stanford, url: 'https://www.stanford.edu', country: United States, lat: 37.4275, lon: -122.1697, kind: university, logo: stanford.png}
-weill-cornell: {name: Weill Cornell Medicine, short: WCM, url: 'https://weill.cornell.edu', country: United States, lat: 40.7648, lon: -73.9547, kind: hospital, logo: weill-cornell.png}
-unimelb: {name: University of Melbourne / Peter MacCallum Cancer Centre, short: Melbourne, url: 'https://www.petermac.org', country: Australia, lat: -37.7989, lon: 144.9561, kind: hospital, logo: unimelb.png}
-lau: {name: Lebanese American University, short: LAU, url: 'https://www.lau.edu.lb', country: Lebanon, lat: 33.8932, lon: 35.4782, kind: university, logo: lau.png}
-bau: {name: Beirut Arab University, short: BAU, url: 'https://www.bau.edu.lb', country: Lebanon, lat: 33.8738, lon: 35.4949, kind: university, logo: bau.png}
-utm: {name: University of Tunis El Manar, short: UTM, url: 'https://utm.rnu.tn', country: Tunisia, lat: 36.838, lon: 10.146, kind: university, logo: utm.png}
-dpu: {name: Duhok Polytechnic University, short: DPU, url: 'https://www.dpu.edu.krd', country: Iraq, lat: 36.8669, lon: 42.9503, kind: university, logo: dpu.png}
-iugaza: {name: Islamic University of Gaza, short: IUG, url: 'https://www.iugaza.edu.ps', country: Palestine, lat: 31.5136, lon: 34.44, kind: university, logo: iugaza.png}
-guc: {name: German University in Cairo, short: GUC, url: 'https://www.guc.edu.eg', country: Egypt, lat: 30.0187, lon: 31.5, kind: university, logo: guc.png}
-radboud: {name: Radboud University Medical Center, short: Radboudumc, url: 'https://www.radboudumc.nl', country: Netherlands, lat: 51.8247, lon: 5.8614, kind: hospital, logo: radboud.png}
-agya: {name: Arab-German Young Academy of Sciences and Humanities, short: AGYA, url: 'https://agya.info', country: Germany, lat: 52.5141, lon: 13.3923, kind: network, logo: agya.png}
-dfg: {name: German Research Foundation, short: DFG, url: 'https://www.dfg.de/en', country: Germany, lat: 50.699, lon: 7.1446, kind: funder, logo: dfg.png}
-daad: {name: German Academic Exchange Service, short: DAAD, url: 'https://www.daad.de/en/', country: Germany, lat: 50.7036, lon: 7.1503, kind: funder, logo: daad.png}
-bmbf: {name: 'Federal Ministry of Research, Technology and Space (BMFTR)', Technology and Space: null, short: BMFTR, url: 'https://www.bmftr.bund.de', country: Germany, lat: 50.718, lon: 7.121, kind: funder, logo: bmbf.png}
-helmholtz: {name: Helmholtz Association, short: Helmholtz, url: 'https://www.helmholtz.de/en/', country: Germany, lat: 52.517, lon: 13.3889, kind: funder, logo: helmholtz.png}
-giz: {name: Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, short: GIZ, url: 'https://www.giz.de/en', country: Germany, lat: 50.7206, lon: 7.1246, kind: funder, logo: giz.png}
-imi: {name: Innovative Medicines Initiative (EU / EFPIA), short: IMI, url: 'https://www.imi.europa.eu', country: Belgium, lat: 50.8503, lon: 4.3517, kind: funder, logo: imi.png}
+owkin: {name: Owkin, short: Owkin, url: 'https://owkin.com', country: France, lat: 48.8566, lon: 2.3522, kind: industry, logo: owkin.png, logo_dark: owkin-white.png}
+ethz: {name: ETH Zurich, short: ETH, url: 'https://ethz.ch/en.html', country: Switzerland, lat: 47.3763, lon: 8.5477, kind: university, logo: ethz.png, logo_dark: ethz-white.png}
+imperial: {name: Imperial College London, short: Imperial, url: 'https://www.imperial.ac.uk', country: United Kingdom, lat: 51.4988, lon: -0.1749, kind: university, logo: imperial.png, logo_dark: imperial-white.png}
+stanford: {name: Stanford University, short: Stanford, url: 'https://www.stanford.edu', country: United States, lat: 37.4275, lon: -122.1697, kind: university, logo: stanford.png, logo_dark: stanford-white.png}
+weill-cornell: {name: Weill Cornell Medicine, short: WCM, url: 'https://weill.cornell.edu', country: United States, lat: 40.7648, lon: -73.9547, kind: hospital, logo: weill-cornell.png, logo_dark: weill-cornell-white.png}
+unimelb: {name: University of Melbourne / Peter MacCallum Cancer Centre, short: Melbourne, url: 'https://www.petermac.org', country: Australia, lat: -37.7989, lon: 144.9561, kind: hospital, logo: unimelb.png, logo_dark: unimelb-white.png}
+lau: {name: Lebanese American University, short: LAU, url: 'https://www.lau.edu.lb', country: Lebanon, lat: 33.8932, lon: 35.4782, kind: university, logo: lau.png, logo_dark: lau-white.png}
+bau: {name: Beirut Arab University, short: BAU, url: 'https://www.bau.edu.lb', country: Lebanon, lat: 33.8738, lon: 35.4949, kind: university, logo: bau.png, logo_dark: bau-white.png}
+utm: {name: University of Tunis El Manar, short: UTM, url: 'https://utm.rnu.tn', country: Tunisia, lat: 36.838, lon: 10.146, kind: university, logo: utm.png, logo_dark: utm-white.png}
+dpu: {name: Duhok Polytechnic University, short: DPU, url: 'https://www.dpu.edu.krd', country: Iraq, lat: 36.8669, lon: 42.9503, kind: university, logo: dpu.png, logo_dark: dpu-white.png}
+iugaza: {name: Islamic University of Gaza, short: IUG, url: 'https://www.iugaza.edu.ps', country: Palestine, lat: 31.5136, lon: 34.44, kind: university, logo: iugaza.png, logo_dark: iugaza-white.png}
+guc: {name: German University in Cairo, short: GUC, url: 'https://www.guc.edu.eg', country: Egypt, lat: 30.0187, lon: 31.5, kind: university, logo: guc.png, logo_dark: guc-white.png}
+radboud: {name: Radboud University Medical Center, short: Radboudumc, url: 'https://www.radboudumc.nl', country: Netherlands, lat: 51.8247, lon: 5.8614, kind: hospital, logo: radboud.png, logo_dark: radboud-white.png}
+agya: {name: Arab-German Young Academy of Sciences and Humanities, short: AGYA, url: 'https://agya.info', country: Germany, lat: 52.5141, lon: 13.3923, kind: network, logo: agya.png, logo_dark: agya-white.png}
+dfg: {name: German Research Foundation, short: DFG, url: 'https://www.dfg.de/en', country: Germany, lat: 50.699, lon: 7.1446, kind: funder, logo: dfg.png, logo_dark: dfg-white.png}
+daad: {name: German Academic Exchange Service, short: DAAD, url: 'https://www.daad.de/en/', country: Germany, lat: 50.7036, lon: 7.1503, kind: funder, logo: daad.png, logo_dark: daad-white.png}
+bmbf: {name: 'Federal Ministry of Research, Technology and Space (BMFTR)', Technology and Space: null, short: BMFTR, url: 'https://www.bmftr.bund.de', country: Germany, lat: 50.718, lon: 7.121, kind: funder, logo: bmbf.png, logo_dark: bmbf-white.png}
+helmholtz: {name: Helmholtz Association, short: Helmholtz, url: 'https://www.helmholtz.de/en/', country: Germany, lat: 52.517, lon: 13.3889, kind: funder, logo: helmholtz.png, logo_dark: helmholtz-white.png}
+giz: {name: Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, short: GIZ, url: 'https://www.giz.de/en', country: Germany, lat: 50.7206, lon: 7.1246, kind: funder, logo: giz.png, logo_dark: giz-white.png}
+imi: {name: Innovative Medicines Initiative (EU / EFPIA), short: IMI, url: 'https://www.imi.europa.eu', country: Belgium, lat: 50.8503, lon: 4.3517, kind: funder, logo: imi.png, logo_dark: imi-white.png}
 eu: {name: European Union — Horizon Europe, short: EU, url: 'https://research-and-innovation.ec.europa.eu', country: Belgium, lat: 50.8436, lon: 4.3826, kind: funder, logo: eu.png}
-bacatec: {name: Bavaria California Technology Center, short: BaCaTeC, url: 'https://www.bacatec.de/en/', country: Germany, lat: 49.5978, lon: 11.004, kind: funder, logo: bacatec.png}
+bacatec: {name: Bavaria California Technology Center, short: BaCaTeC, url: 'https://www.bacatec.de/en/', country: Germany, lat: 49.5978, lon: 11.004, kind: funder, logo: bacatec.png, logo_dark: bacatec-white.png}
 unibonn-funds: {name: University of Bonn Funding Programmes, short: UniBonn, url: 'https://www.uni-bonn.de/en/research-and-teaching/support-for-researchers-and-teachers/research-funding', country: Germany, lat: 50.7339, lon: 7.1022, kind: funder, logo: uni-bonn.png, logo_dark: uni-bonn-white.png}
-charite: {name: Charité – Universitätsmedizin Berlin, short: Charité, url: '', country: Germany, lat: 52.52, lon: 13.38, kind: hospital, logo: charite.png, network: true}
-umg: {name: UMG Göttingen, short: UMG, url: '', country: Germany, lat: 51.54, lon: 9.93, kind: hospital, logo: umg.png, network: true}
-ukt: {name: University Hospital Tübingen, short: University, url: '', country: Germany, lat: 48.53, lon: 9.05, kind: hospital, logo: ukt.png, network: true}
-uker: {name: University Hospital Erlangen, short: University, url: '', country: Germany, lat: 49.59, lon: 11.0, kind: hospital, logo: uker.png, network: true}
-ukhd: {name: University Hospital Heidelberg, short: University, url: '', country: Germany, lat: 49.42, lon: 8.67, kind: hospital, logo: ukhd.png, network: true}
-usz-zurich: {name: USZ Zurich, short: USZ Zurich, url: '', country: Switzerland, lat: 47.38, lon: 8.55, kind: hospital, logo: usz-zurich.png, network: true}
-hug-geneva: {name: HUG Geneva, short: HUG Geneva, url: '', country: Switzerland, lat: 46.19, lon: 6.15, kind: hospital, logo: hug-geneva.png, network: true}
-gemelli-rome: {name: Gemelli Rome, short: Gemelli Rome, url: '', country: Italy, lat: 41.93, lon: 12.43, kind: hospital, logo: gemelli-rome.png, network: true}
-osaka: {name: Osaka University Hospital, short: Osaka, url: '', country: Japan, lat: 34.82, lon: 135.52, kind: hospital, logo: osaka.png, network: true}
-kit: {name: KIT, short: KIT, url: '', country: Germany, lat: 49.01, lon: 8.41, kind: university, logo: kit.png, network: true}
-dkfz: {name: DKFZ, short: DKFZ, url: '', country: Germany, lat: 49.4, lon: 8.67, kind: university, logo: dkfz.png, network: true}
-dfki: {name: DFKI, short: DFKI, url: '', country: Germany, lat: 49.43, lon: 7.75, kind: university, logo: dfki.png, network: true}
-hpi-potsdam: {name: HPI Potsdam, short: HPI Potsdam, url: '', country: Germany, lat: 52.39, lon: 13.13, kind: university, logo: hpi-potsdam.png, network: true}
-ucl: {name: UCL, short: UCL, url: '', country: United Kingdom, lat: 51.52, lon: -0.13, kind: university, logo: ucl.png, network: true}
-sorbonne-university: {name: Sorbonne University, short: Sorbonne, url: '', country: France, lat: 48.85, lon: 2.35, kind: university, logo: sorbonne-university.png, network: true}
-tu-wien: {name: TU Wien, short: TU Wien, url: '', country: Austria, lat: 48.2, lon: 16.37, kind: university, logo: tu-wien.png, network: true}
-uc3m-madrid: {name: UC3M Madrid, short: UC3M Madrid, url: '', country: Spain, lat: 40.33, lon: -3.77, kind: university, logo: uc3m-madrid.png, network: true}
-kyung-hee-university: {name: Kyung Hee University, short: Kyung, url: '', country: South Korea, lat: 37.59, lon: 127.05, kind: university, logo: kyung-hee-university.png, network: true}
-naist: {name: NAIST, short: NAIST, url: '', country: Japan, lat: 34.73, lon: 135.73, kind: university, logo: naist.png, network: true}
-uni-melbourne: {name: University of Melbourne, short: University, url: '', country: Australia, lat: -37.8, lon: 144.96, kind: university, logo: uni-melbourne.png, network: true}
-dnipro-state-medical-university: {name: Dnipro State Medical University, short: Dnipro, url: '', country: Ukraine, lat: 48.46, lon: 35.05, kind: university, logo: dnipro-state-medical-university.png, network: true}
-qatar-university: {name: Qatar University, short: Qatar, url: '', country: Qatar, lat: 25.38, lon: 51.49, kind: university, logo: qatar-university.png, network: true}
-german-international-university: {name: German International University, short: German, url: '', country: Egypt, lat: 30.03, lon: 31.68, kind: university, logo: german-international-university.png, network: true}
-helmholtz-zentrum-hereon: {name: Helmholtz-Zentrum Hereon, short: Hereon, url: 'https://www.hereon.de/index.php.en', country: Germany, lat: 53.41, lon: 10.43, kind: university, logo: helmholtz-zentrum-hereon.png, network: true}
-world-health-organization: {name: World Health Organization, short: World, url: '', country: Switzerland, lat: 46.23, lon: 6.13, kind: university, logo: world-health-organization.png, network: true}
-inria: {name: Inria, short: Inria, url: '', country: France, lat: 43.62, lon: 7.05, kind: university, logo: inria.png, network: true}
-ip-paris: {name: École Polytechnique · IP Paris, short: École, url: '', country: France, lat: 48.71, lon: 2.21, kind: university, logo: ip-paris.png, network: true}
-epfl: {name: EPFL, short: EPFL, url: '', country: Switzerland, lat: 46.52, lon: 6.57, kind: university, logo: epfl.png, network: true}
-uc-berkeley: {name: UC Berkeley, short: UC Berkeley, url: '', country: United States, lat: 37.87, lon: -122.26, kind: university, logo: uc-berkeley.png, network: true}
-usc: {name: USC, short: USC, url: '', country: United States, lat: 34.02, lon: -118.29, kind: university, logo: usc.png, network: true}
+charite: {name: Charité – Universitätsmedizin Berlin, short: Charité, url: '', country: Germany, lat: 52.52, lon: 13.38, kind: hospital, logo: charite.png, logo_dark: charite-white.png, network: true}
+umg: {name: UMG Göttingen, short: UMG, url: '', country: Germany, lat: 51.54, lon: 9.93, kind: hospital, logo: umg.png, logo_dark: umg-white.png, network: true}
+ukt: {name: University Hospital Tübingen, short: University, url: '', country: Germany, lat: 48.53, lon: 9.05, kind: hospital, logo: ukt.png, logo_dark: ukt-white.png, network: true}
+uker: {name: University Hospital Erlangen, short: University, url: '', country: Germany, lat: 49.59, lon: 11.0, kind: hospital, logo: uker.png, logo_dark: uker-white.png, network: true}
+ukhd: {name: University Hospital Heidelberg, short: University, url: '', country: Germany, lat: 49.42, lon: 8.67, kind: hospital, logo: ukhd.png, logo_dark: ukhd-white.png, network: true}
+usz-zurich: {name: USZ Zurich, short: USZ Zurich, url: '', country: Switzerland, lat: 47.38, lon: 8.55, kind: hospital, logo: usz-zurich.png, logo_dark: usz-zurich-white.png, network: true}
+hug-geneva: {name: HUG Geneva, short: HUG Geneva, url: '', country: Switzerland, lat: 46.19, lon: 6.15, kind: hospital, logo: hug-geneva.png, logo_dark: hug-geneva-white.png, network: true}
+gemelli-rome: {name: Gemelli Rome, short: Gemelli Rome, url: '', country: Italy, lat: 41.93, lon: 12.43, kind: hospital, logo: gemelli-rome.png, logo_dark: gemelli-rome-white.png, network: true}
+osaka: {name: Osaka University Hospital, short: Osaka, url: '', country: Japan, lat: 34.82, lon: 135.52, kind: hospital, logo: osaka.png, logo_dark: osaka-white.png, network: true}
+kit: {name: KIT, short: KIT, url: '', country: Germany, lat: 49.01, lon: 8.41, kind: university, logo: kit.png, logo_dark: kit-white.png, network: true}
+dkfz: {name: DKFZ, short: DKFZ, url: '', country: Germany, lat: 49.4, lon: 8.67, kind: university, logo: dkfz.png, logo_dark: dkfz-white.png, network: true}
+dfki: {name: DFKI, short: DFKI, url: '', country: Germany, lat: 49.43, lon: 7.75, kind: university, logo: dfki.png, logo_dark: dfki-white.png, network: true}
+hpi-potsdam: {name: HPI Potsdam, short: HPI Potsdam, url: '', country: Germany, lat: 52.39, lon: 13.13, kind: university, logo: hpi-potsdam.png, logo_dark: hpi-potsdam-white.png, network: true}
+ucl: {name: UCL, short: UCL, url: '', country: United Kingdom, lat: 51.52, lon: -0.13, kind: university, logo: ucl.png, logo_dark: ucl-white.png, network: true}
+sorbonne-university: {name: Sorbonne University, short: Sorbonne, url: '', country: France, lat: 48.85, lon: 2.35, kind: university, logo: sorbonne-university.png, logo_dark: sorbonne-university-white.png, network: true}
+tu-wien: {name: TU Wien, short: TU Wien, url: '', country: Austria, lat: 48.2, lon: 16.37, kind: university, logo: tu-wien.png, logo_dark: tu-wien-white.png, network: true}
+uc3m-madrid: {name: UC3M Madrid, short: UC3M Madrid, url: '', country: Spain, lat: 40.33, lon: -3.77, kind: university, logo: uc3m-madrid.png, logo_dark: uc3m-madrid-white.png, network: true}
+kyung-hee-university: {name: Kyung Hee University, short: Kyung, url: '', country: South Korea, lat: 37.59, lon: 127.05, kind: university, logo: kyung-hee-university.png, logo_dark: kyung-hee-university-white.png, network: true}
+naist: {name: NAIST, short: NAIST, url: '', country: Japan, lat: 34.73, lon: 135.73, kind: university, logo: naist.png, logo_dark: naist-white.png, network: true}
+uni-melbourne: {name: University of Melbourne, short: University, url: '', country: Australia, lat: -37.8, lon: 144.96, kind: university, logo: uni-melbourne.png, logo_dark: uni-melbourne-white.png, network: true}
+dnipro-state-medical-university: {name: Dnipro State Medical University, short: Dnipro, url: '', country: Ukraine, lat: 48.46, lon: 35.05, kind: university, logo: dnipro-state-medical-university.png, logo_dark: dnipro-state-medical-university-white.png, network: true}
+qatar-university: {name: Qatar University, short: Qatar, url: '', country: Qatar, lat: 25.38, lon: 51.49, kind: university, logo: qatar-university.png, logo_dark: qatar-university-white.png, network: true}
+german-international-university: {name: German International University, short: German, url: '', country: Egypt, lat: 30.03, lon: 31.68, kind: university, logo: german-international-university.png, logo_dark: german-international-university-white.png, network: true}
+helmholtz-zentrum-hereon: {name: Helmholtz-Zentrum Hereon, short: Hereon, url: 'https://www.hereon.de/index.php.en', country: Germany, lat: 53.41, lon: 10.43, kind: university, logo: helmholtz-zentrum-hereon.png, logo_dark: helmholtz-zentrum-hereon-white.png, network: true}
+world-health-organization: {name: World Health Organization, short: World, url: '', country: Switzerland, lat: 46.23, lon: 6.13, kind: university, logo: world-health-organization.png, logo_dark: world-health-organization-white.png, network: true}
+inria: {name: Inria, short: Inria, url: '', country: France, lat: 43.62, lon: 7.05, kind: university, logo: inria.png, logo_dark: inria-white.png, network: true}
+ip-paris: {name: École Polytechnique · IP Paris, short: École, url: '', country: France, lat: 48.71, lon: 2.21, kind: university, logo: ip-paris.png, logo_dark: ip-paris-white.png, network: true}
+epfl: {name: EPFL, short: EPFL, url: '', country: Switzerland, lat: 46.52, lon: 6.57, kind: university, logo: epfl.png, logo_dark: epfl-white.png, network: true}
+uc-berkeley: {name: UC Berkeley, short: UC Berkeley, url: '', country: United States, lat: 37.87, lon: -122.26, kind: university, logo: uc-berkeley.png, logo_dark: uc-berkeley-white.png, network: true}
+usc: {name: USC, short: USC, url: '', country: United States, lat: 34.02, lon: -118.29, kind: university, logo: usc.png, logo_dark: usc-white.png, network: true}
 mkw-nrw: {name: Ministry of Culture and Science of North Rhine-Westphalia, short: MKW NRW, url: 'https://www.mkw.nrw', country: Germany, lat: 51.2254, lon: 6.7763, kind: funder, logo: mkw-nrw-wide.png, logo_dark: mkw-nrw-wide-white.png, wide: true}
-mii: {name: Medical Informatics Initiative, short: MII, url: 'https://www.medizininformatik-initiative.de', country: Germany, lat: 52.52, lon: 13.405, kind: network, logo: mii.png}
+mii: {name: Medical Informatics Initiative, short: MII, url: 'https://www.medizininformatik-initiative.de', country: Germany, lat: 52.52, lon: 13.405, kind: network, logo: mii.png, logo_dark: mii-white.png}
 omi-consortium: {name: Open Medical Inference (OMI) consortium, short: OMI, url: 'https://omi.ikim.nrw/', country: Germany, lat: 51.4344, lon: 7.0103, kind: network, logo: omi.png}
-uni-tuebingen: {name: University of Tübingen, short: Tübingen, url: 'https://uni-tuebingen.de', country: Germany, lat: 48.5216, lon: 9.0576, kind: university, logo: tuebingen.png, network: true}
+uni-tuebingen: {name: University of Tübingen, short: Tübingen, url: 'https://uni-tuebingen.de', country: Germany, lat: 48.5216, lon: 9.0576, kind: university, logo: tuebingen.png, logo_dark: tuebingen-white.png, network: true}
