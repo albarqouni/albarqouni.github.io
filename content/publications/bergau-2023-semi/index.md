@@ -9,7 +9,8 @@ links:
   name: ELLIS Doctoral Symposium 2023
 hugoblox: {}
 datasets: []
-projects: []
+projects:
+- prostate-mrf
 title: Semi-Supervised Learning for Prostate Lesion Detection and Segmentation
 date: '2023-11-01'
 authors:

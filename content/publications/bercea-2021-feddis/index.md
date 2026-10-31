@@ -18,7 +18,8 @@ abstract: In recent years, data-driven machine learning (ML) methods have revolu
 themes:
 - computational-imaging
 - federated-learning
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

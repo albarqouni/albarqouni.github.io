@@ -15,7 +15,8 @@ abstract: Deep Learning (DL) stands at the forefront of artificial intelligence,
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

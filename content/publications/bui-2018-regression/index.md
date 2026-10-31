@@ -19,7 +19,8 @@ abstract: In this work, we propose a method for object recognition and pose esti
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- siemens-cad-tracking
 datasets: []
 tags:
 - Computer Vision

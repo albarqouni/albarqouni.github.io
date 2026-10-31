@@ -22,7 +22,8 @@ abstract: Accurate grading of Conjunctival Melanocytic Intraepithelial Lesions (
   a reproducible computational benchmark for CMIL diagnosis and a step toward standardized digital ocular pathology.
 themes:
 - computational-imaging
-projects: []
+projects:
+- interact-cmil
 datasets: []
 tags: []
 featured: false

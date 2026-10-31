@@ -20,7 +20,9 @@ abstract: We present a multimodal camera relocalization framework that captures 
   localization research in ambiguous environments and exhaustively evaluate our method on synthetic as well as real data on both ambiguous scenes and on non-ambiguous benchmark datasets.
 themes:
 - computational-imaging
-projects: []
+projects:
+- bacatec
+- siemens-cad-tracking
 datasets: []
 tags:
 - Computer Vision

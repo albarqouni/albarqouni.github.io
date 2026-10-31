@@ -20,7 +20,8 @@ abstract: Retinal diseases are a significant global health concern, often leadin
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- affordable-retina
 datasets: []
 tags: []
 featured: false

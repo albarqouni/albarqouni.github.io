@@ -17,7 +17,8 @@ abstract: Representation learning is an important part of any machine learning m
 themes:
 - responsible-ai
 - federated-learning
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

@@ -20,7 +20,8 @@ doi: 10.1007/s11548-019-01968-4
 abstract: 2D digital subtraction angiography (DSA) has become an important technique for interventional neuroradiology tasks, such as detection and subsequent treatment of aneurysms. In order to provide high-quality DSA images, usually undiluted contrast agent and a high X-ray dose are used. The iodinated contrast agent puts a burden on the patients’ kidneys while the use of high-dose X-rays expose both patients and medical staff to a considerable amount of radiation. Unfortunately, reducing either the X-ray dose or the contrast agent concentration usually results in a sacrifice of image quality.To denoise a frame, the proposed spatiotemporal denoising method utilizes the low-rank nature of a spatially aligned temporal sequence where variation is introduced by the flow of contrast agent through a vessel tree of interest. That is, a constrained weighted rank-1 approximation of the stack …
 themes:
 - computational-imaging
-projects: []
+projects:
+- siemens-xray-dose
 datasets: []
 tags:
 - Radiology

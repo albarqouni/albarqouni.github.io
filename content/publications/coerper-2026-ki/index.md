@@ -25,7 +25,9 @@ doi: 10.1055/s-0046-1826952
 abstract: 'Ziele: Ziel dieser Arbeit war die Entwicklung eines robusten, datenschutzkonformen und multizentrisch einsetzbaren KI-Modells zur prätherapeutischen Vorhersage lymphogener Metastasierung beim PDAC.Methodik: In einer retrospektiven multizentrischen Studie wurden kontrastmittelverstärkte CT-Datensätze von> 500 PDAC-Patient: innen aus mehreren Hochvolumen-Zentren analysiert. Ein auf 148.000 volumetrischen CT-Datensätzen vortrainiertes 3D-Foundation-Model wurde zur Metastasenvorhersage feinjustiert. Ergänzend wurde ein heterogenitätsadaptiver Federated-Learning-Ansatz entwickelt, der Label-Disparitäten und repräsentationsbasierte Unterschiede zwischen Zentren berücksichtigt.Ergebnis: Das zentral trainierte Modell erreichte eine Balanced Accuracy von 0,601 und eine diagnostische Odds Ratio von 3, 45 und übertraf klassische Machine-Learning-Modelle deutlich. Unter föderierten …'
 themes:
 - computational-imaging
-projects: []
+projects:
+- pdac-fl
+- federated-learning
 datasets: []
 tags: []
 featured: false

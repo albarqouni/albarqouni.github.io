@@ -40,6 +40,7 @@ themes:
 - computational-imaging
 projects:
 - federated-learning
+- flamby
 datasets: []
 tags:
 - Medical Imaging

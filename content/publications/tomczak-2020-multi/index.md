@@ -20,7 +20,9 @@ abstract: oking stained images preserving the inter-cellular structures, crucial
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- digital-staining
+- computational-hematology
 datasets: []
 tags:
 - Histology

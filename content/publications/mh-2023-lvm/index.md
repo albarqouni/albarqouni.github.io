@@ -26,7 +26,8 @@ abstract: 'Obtaining large pre-trained models that can be fine-tuned to new task
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- lvm-med
 datasets: []
 tags: []
 featured: true

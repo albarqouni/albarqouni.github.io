@@ -15,7 +15,8 @@ abstract: Federated learning enables collaborative model training across institu
 themes:
 - federated-learning
 - computational-imaging
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

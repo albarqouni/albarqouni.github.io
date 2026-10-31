@@ -18,7 +18,8 @@ abstract: ''
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- gca-us-ai
 datasets: []
 tags: []
 featured: false

@@ -1,0 +1,109 @@
+# Rules that link publications to projects (applied by scripts/map_projects.py, also during the weekly sync).
+#
+# Per project (key = folder name under content/projects/):
+#   all_authors:  every one of these must be a co-author        (author slug or full name)
+#   any_authors:  at least one of these is a co-author
+#   keywords:     regular expressions, matched case-insensitively against title + abstract
+#   fields:       "title" to match keywords against the title only
+#   match:        "authors" (default if authors are given) · "keywords" · "authors+keywords" (both must hold) · "either"
+#   from / to:    publication-date window (YYYY or YYYY-MM). Default: one year before the project's start
+#                 until three years after its end (papers lag the funding).
+#   include:      publication slugs that always belong to the project
+#   exclude:      publication slugs that never do
+#
+# Links are only ever added, never removed. To keep a paper's project list exactly as curated,
+# add `projects` to that paper's `sync.locked` list.
+
+gca-us-ai:
+  all_authors: [claus-jurgen-bauer, valentin-schaefer]
+
+pdac-fl:
+  any_authors: [alexander-semaan]
+
+eyesight-to-ai:
+  any_authors: [Christian Feiler]
+
+radiotherapy:
+  any_authors: [guillaume-landry, christopher-kurz, Claus Belka]
+
+bonn-melbourne:
+  any_authors: [hyun-ko, Louise Cheng]
+
+chestage:
+  any_authors: [jakob-weiss]
+  keywords: ['\bage\b|aging|ageing']
+  fields: title
+  match: authors+keywords
+
+mriqt:
+  any_authors: [sebiha-demir, hemmen-sabir]
+
+msk-fl:
+  any_authors: [mazen-soufi]
+
+bacatec:
+  any_authors: [Tolga Birdal, Leonidas Guibas]
+
+flamby:
+  keywords: ['flamby']
+
+lysto:
+  keywords: ['lysto', 'lymphocyte assessment']
+
+future-ai:
+  keywords: ['future-ai']
+
+lvm-med:
+  keywords: ['lvm-med', 'large(-| )scale self-supervised vision models']
+
+feddis:
+  keywords: ['federated disentangled']
+
+digital-staining:
+  keywords: ['digital staining']
+
+computational-hematology:
+  keywords: ['leukocyte', 'white blood cell', 'hematolog', 'blood smear', 'sickle', 'red blood cell', 'myeloid']
+
+fetal-cdh:
+  keywords: ['diaphragmatic hernia']
+
+interact-cmil:
+  keywords: ['conjunctival']
+
+surgical-tools:
+  keywords: ['surgical tool', 'instrument segmentation']
+
+prostate-mrf:
+  keywords: ['prostat']
+  exclude: [jiao-2023-lysto, elgebaly-2026-prosona]   # LYSTO mentions prostate tissue; ProSona is radiotherapy
+
+fair-mammo:
+  keywords: ['mammogra', 'breast density']
+
+uncertainty:
+  keywords: ['uncertaint', 'bayesian']
+  fields: title
+  from: 2019
+
+federated-learning:
+  keywords: ['federated']
+  exclude: [ko-2024-enhancing]
+
+siemens-xray-dose:
+  any_authors: [Sai Gokul Hariharan]
+
+affordable-retina:
+  keywords: ['retina', 'fundus', '\boct\b', 'optical coherence']
+
+eeda:
+  any_authors: [nada-eldarra, Nada El Darra, charbel-mourad]
+
+siemens-cad-tracking:
+  any_authors: [mai-bui]
+
+fetal-cdh:
+  any_authors: [Florian Becker]
+
+telemedicine:
+  include: [albarqouni-2009-steps]

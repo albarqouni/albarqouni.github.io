@@ -31,7 +31,8 @@ abstract: 'Progress depends as much on our collective differences as it does on 
   or the institution of the authors have a conflict of interest. There is no relationship, financial or otherwise, with individuals or organizations that could influence the authors'' work inappropriately listed on this manuscript considered for publication.'
 themes:
 - computational-imaging
-projects: []
+projects:
+- bonn-melbourne
 datasets: []
 tags: []
 featured: false

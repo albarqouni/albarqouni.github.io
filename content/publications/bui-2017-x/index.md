@@ -19,7 +19,8 @@ abstract: Precise reconstruction of 3D volumes from X-ray projections requires p
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- siemens-cad-tracking
 datasets: []
 tags:
 - Computer Vision

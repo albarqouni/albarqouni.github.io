@@ -27,7 +27,8 @@ abstract: Despite major advances in artificial intelligence (AI) research for he
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- future-ai
 datasets: []
 tags: []
 featured: true

@@ -21,7 +21,8 @@ abstract: Portable ultra-low-field MRI (uLF-MRI, 0.064 T) offers accessible neur
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- mriqt
 datasets: []
 tags: []
 featured: false

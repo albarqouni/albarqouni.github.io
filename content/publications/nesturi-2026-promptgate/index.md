@@ -17,7 +17,8 @@ abstract: 'Deploying medical AI across resource-constrained institutions demands
 themes:
 - computational-imaging
 - federated-learning
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

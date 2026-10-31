@@ -21,7 +21,8 @@ abstract: Hereditary hemolytic anemias are genetic disorders that affect the sha
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- computational-hematology
 datasets: []
 tags: []
 featured: false

@@ -29,7 +29,9 @@ timeline: []
 funding: []
 themes:
 - computational-imaging
-projects: []
+projects:
+- air-guc
+- bonn-guc
 summary: A special joint seminar between the University of Bonn and the German University in Cairo (GUC), delivered under the Joint Teaching Initiative. This interdisciplinary course explores AI in Radiology from both technical and clinical perspectives, combining computational medical imaging and deep learning to foster cross-cultural collaboration, innovation, and sustainable academic exchange.
 image:
   caption: AI in Radiology – Joint Teaching Initiative (University of Bonn × GUC)

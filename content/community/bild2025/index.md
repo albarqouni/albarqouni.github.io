@@ -10,7 +10,9 @@ place: tunis
 summary: We have just wrapped up an inspiring week of the BILD  Summer  School 2025 in  Tunis, and I could not be more grateful for the people and partnerships that made this possible. A heartfelt thank you to the University of Tunis El Manar, represented by the Rector Prof. Moez CHAFRA and his vice rectors, for their warm welcome and strong support of this initiative. Your presence was an honor and an encouragement to all of us
 authors:
 - shadi-albarqouni
-projects: []
+projects:
+- bild
+- sanad
 themes:
 - computational-imaging
 - federated-learning

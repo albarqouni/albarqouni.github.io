@@ -25,7 +25,8 @@ abstract: 'Background and Purpose: Magnetic resonance imaging-guided radiotherap
   for Group 2 manual contouring according to standard clinical workflows was performed. Contouring times were recorded for both. Time savings between the groups as well as correlations of the extent of corrections to correction times for Group 1 patients were analyzed. Results: The model performed consistently well across all Group 1 cases. Median contouring times were reduced for six out of nine OARs leading to a reduction of 50.3 % or 12.6 min in median total contouring time. Conclusion: Feasibility of auto-segmentation for baseline treatment planning at the 0.35 T MR-linac was shown with significant time savings demonstrated. Time saving potential could not be estimated from model geometric performance metrics.'
 themes:
 - computational-imaging
-projects: []
+projects:
+- radiotherapy
 datasets: []
 tags: []
 featured: false

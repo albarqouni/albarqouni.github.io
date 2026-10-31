@@ -10,7 +10,9 @@ place: bonn
 summary: Over the past two days, we had the pleasure of hosting our **SANAD symposium on AI in Medicine and Food Sciences** within the framework of the **DAAD Ta’ziz project**, welcoming a delegation from **Tunisia**, **Lebanon**, and **Iraq**.
 authors:
 - shadi-albarqouni
-projects: []
+projects:
+- sanad
+- symposium
 themes:
 - computational-imaging
 - federated-learning

@@ -17,7 +17,8 @@ abstract: Scene coordinate regression has become an essential part of current ca
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- siemens-cad-tracking
 datasets: []
 tags:
 - Deep Learning

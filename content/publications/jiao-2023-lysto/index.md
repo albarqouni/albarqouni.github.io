@@ -34,7 +34,8 @@ abstract: We introduce LYSTO, the Lymphocyte Assessment Hackathon, which was hel
   performance at lymphocyte assessment. After the hackathon, LYSTO was left as a lightweight plug-and-play benchmark dataset on grand-challenge website, together with an automatic evaluation platform.
 themes:
 - computational-imaging
-projects: []
+projects:
+- lysto
 datasets: []
 tags: []
 featured: false

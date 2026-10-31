@@ -19,7 +19,8 @@ doi: 10.1007/978-3-030-32226-7_61
 abstract: X-ray guidance is an integral part of interventional procedures, but the exposure to ionizing radiation poses a non-negligible threat to patients and clinical staff. Unfortunately, a reduction in the X-ray dose results in a lower signal-to-noise ratio, which may impair the quality of X-ray images. To ensure an acceptable image quality while keeping the X-ray dose as low as possible, it is common practice to use denoising techniques. However, at very low dose levels, the application of conventional denoising techniques may lead to undesirable artifacts or oversmoothing. On the other hand, supervised learning techniques have outperformed conventional techniques in producing suitable results, provided aligned pairs of associated high- and low-dose X-ray images are available. Unfortunately, it is neither acceptable nor possible to acquire such image pairs during a clinical intervention. To enable the use of learning …
 themes:
 - computational-imaging
-projects: []
+projects:
+- siemens-xray-dose
 datasets: []
 tags:
 - Radiology

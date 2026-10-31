@@ -20,7 +20,8 @@ abstract: 'The harvesting time of pomegranates is crucial for maximizing their h
   it provides a novel, data-driven approach to linking these indicators with optimal harvest timing. By accurately forecasting maturity-related metrics using simple physical, geographical, and environmental features, this study offers significant implications for refining agricultural practices in Lebanon and other similar agro-ecological regions, enhancing product quality and market value.'
 themes:
 - computational-imaging
-projects: []
+projects:
+- eeda
 datasets: []
 tags: []
 featured: false

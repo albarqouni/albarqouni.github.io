@@ -16,7 +16,8 @@ doi: ''
 abstract: 'Various embodiments include a method for determining a pose of an object in its surroundings comprising: using an optical capture device to capture the object and its surroundings as current recording; determining the pose of the object using optical image analysis; and using a neural network to ascertain the pose of the object. The neural network is taught with multi-task learning using pose regression and descriptor learning using a triplet-wise loss function and a pair-wise loss function. The pose regression uses quaternions. Determining the triplet-wise loss function includes using a dynamic margin term. Determining the pair-wise loss function includes an anchoring function.'
 themes:
 - computational-imaging
-projects: []
+projects:
+- siemens-cad-tracking
 datasets: []
 tags: []
 featured: false

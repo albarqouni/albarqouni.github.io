@@ -20,7 +20,8 @@ abstract: Radiation therapy tries to maximize the effect of radiation on the tum
   point. Moreover, the effect of clinical factors is investigated in the framework of our volumetric Spatio-temporal memory network. Experimental results on our longitudinal CT scans show that our model could effectively utilize temporal information and clinical factors for tumor segmentation. The code is made publicly available 1
 themes:
 - computational-imaging
-projects: []
+projects:
+- radiotherapy
 datasets: []
 tags: []
 featured: false

@@ -23,7 +23,8 @@ doi: ''
 abstract: ''
 themes:
 - federated-learning
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

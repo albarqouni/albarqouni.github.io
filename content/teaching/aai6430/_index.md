@@ -11,7 +11,8 @@ ects: null
 language: English
 themes:
 - computational-imaging
-projects: []
+projects:
+- sanad
 module_url: ''
 ecampus_url: ''
 summary: This 8-week intensive course provides non-computer science students with the essential skills to apply AI in medical diagnosis and prediction. The course covers topics such as medical image classification, detection, segmentation, and reconstruction, as well as time-series classification, regression, forecasting, and learning techniques like weakly-, semi-, and self-supervised learning. Ethical considerations, fairness, and robustness in AI are also highlighted.

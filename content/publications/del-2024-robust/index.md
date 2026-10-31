@@ -18,7 +18,8 @@ themes:
 - computational-imaging
 - responsible-ai
 - federated-learning
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

@@ -19,7 +19,9 @@ abstract: Purpose Federated learning enables breast-imaging sites to jointly tra
 themes:
 - federated-learning
 - computational-imaging
-projects: []
+projects:
+- fair-mammo
+- federated-learning
 datasets: []
 tags: []
 featured: true

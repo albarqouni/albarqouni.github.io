@@ -8,6 +8,7 @@ hugoblox: {}
 datasets: []
 projects:
 - pdac-fl
+- bonn-melbourne
 title: Multi-center Collaboration for Improved Lymph Node Metastasis Detection in Pancreatic Ductal Adenocarcinoma
 date: '2025-06-03'
 authors:

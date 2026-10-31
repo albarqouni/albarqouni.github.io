@@ -19,7 +19,9 @@ doi: 10.1007/978-981-96-3863-5_7
 abstract: Pancreatic Ductal Adenocarcinoma (PDAC) is one of the most lethal cancers, with an increasing incidence. Lymph node metastasis (LNM) is a critical factor that influences both patient prognosis and treatment approaches. Current methods for LNM detection using contrast-enhanced CT scans often suffer from low sensitivity and inaccuracies, highlighting the need for improved predictive models. This paper presents a Deep Learning (DL) approach that integrates imaging features with non-imaging clinical attributes to enhance the accuracy of LNM detection in PDAC. Our method involves a retrospective study of 366 PDAC in multi-institute datasets, leveraging clinical data alongside CT scans to train a model capable of detecting LNM without relying on the segmentation of lymph nodes (LNs). Our results demonstrate a significant improvement in balanced accuracy, increasing from 0.447 to 0.6532 with the …
 themes:
 - computational-imaging
-projects: []
+projects:
+- pdac-fl
+- bonn-melbourne
 datasets: []
 tags: []
 featured: false

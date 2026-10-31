@@ -20,6 +20,7 @@ themes:
 - federated-learning
 projects:
 - federated-learning
+- feddis
 datasets: []
 tags:
 - Medical Imaging

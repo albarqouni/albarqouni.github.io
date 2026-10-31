@@ -21,7 +21,8 @@ doi: 10.1007/978-3-031-73083-2_1
 abstract: In radiation therapy (RT), an accurate delineation of the regions of interest (ROI) and organs at risk (OAR) allows for a more targeted irradiation with reduced side effects. The current clinical workflow for combined MR-linear accelerator devices (MR-linacs) requires the acquisition of a planning MR volume (MR-P), in which the ROI and OAR are accurately segmented by the clinical team. These segmentation maps (S-P) are transferred to the MR acquired on the day of the RT fraction (MR-Fx) using registration, followed by time-consuming manual corrections. The goal of this paper is to enable accurate automatic segmentation of MR-Fx using S-P without clinical workflow disruption. We propose a novel UNet-based architecture, CloverNet, that takes as inputs MR-Fx and S-P in two separate encoder branches, whose latent spaces are concatenated in the bottleneck to generate an improved segmentation of MP-Fx …
 themes:
 - computational-imaging
-projects: []
+projects:
+- radiotherapy
 datasets: []
 tags: []
 featured: false

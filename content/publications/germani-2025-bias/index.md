@@ -19,7 +19,9 @@ abstract: Over the past decades, computer-aided diagnosis tools for breast cance
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- fair-mammo
+- eeda
 datasets: []
 tags: []
 featured: true

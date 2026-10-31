@@ -22,7 +22,8 @@ abstract: 'Background and purpose: Conventionally, the contours annotated during
   segmentations using the planning segmentation as prior information. The first one is a 3D UNet with dual-channel input (i.e. fraction MR and planning segmentation map) and the second one is a modified 3D UNet with double encoder for the same two inputs. Results: . In particular, the dual-channel input 3D UNet outperformed the one with double encoder, especially when the alignment between the two input channels is satisfactory. Conclusion: The proposed workflow was able to generate accurate patient-specific segmentations while avoiding training one model per patient and allowing for a seamless integration into clinical practice.'
 themes:
 - computational-imaging
-projects: []
+projects:
+- radiotherapy
 datasets: []
 tags: []
 featured: true

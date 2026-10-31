@@ -25,7 +25,8 @@ abstract: 'This manuscript describes the first challenge on Federated Learning, 
 themes:
 - computational-imaging
 - federated-learning
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

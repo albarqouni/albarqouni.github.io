@@ -21,7 +21,8 @@ abstract: Sickle cell disease (SCD) is a severe genetic hemoglobin disorder that
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- computational-hematology
 datasets: []
 tags: []
 featured: false

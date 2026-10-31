@@ -22,7 +22,8 @@ abstract: Given the high incidence and effective treatment options for liver dis
 themes:
 - computational-imaging
 - federated-learning
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

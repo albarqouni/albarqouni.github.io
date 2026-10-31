@@ -17,7 +17,8 @@ abstract: Giant Cell Arteritis (GCA) is a serious autoimmune disease that affect
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- gca-us-ai
 datasets: []
 tags: []
 featured: false

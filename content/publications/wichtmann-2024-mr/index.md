@@ -9,7 +9,8 @@ links:
   name: ISMRM 2024
 hugoblox: {}
 datasets: []
-projects: []
+projects:
+- prostate-mrf
 title: MR Fingerprinting and Apparent Diffusion Coefficient Mapping for Quantitative Characterization of Clinically Significant Prostate Cancer
 date: '2024-05-04'
 authors:

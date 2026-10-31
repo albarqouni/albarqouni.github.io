@@ -19,7 +19,8 @@ doi: 10.1007/978-3-030-59722-1_24
 abstract: Red blood cells are highly deformable and present in various shapes. In blood cell disorders, only a subset of all cells is morphologically altered and relevant for the diagnosis. However, manually labeling of all cells is laborious, complicated and introduces inter-expert variability. We propose an attention based multiple instance learning method to classify blood samples of patients suffering from blood cell disorders. Cells are detected using an R-CNN architecture. With the features extracted for each cell, a multiple instance learning method classifies patient samples into one out of four blood cell disorders. The attention mechanism provides a measure of the contribution of each cell to the overall classification and significantly improves the networks classification accuracy as well as its interpretability for the medical expert.
 themes:
 - computational-imaging
-projects: []
+projects:
+- computational-hematology
 datasets: []
 tags: []
 featured: false

@@ -17,7 +17,9 @@ abstract: Foundation Models are increasingly used in medical imaging, yet their 
   subspaces, limiting the task information that remains after suppressing dataset-related directions. An exploratory metadata-guided analysis identifies age-associated, label-dependent shifts in predicted probabilities, suggesting cohort-level candidate mediators of dataset-dependent behavior. Dataset-adversarial training, worst-group optimization, and balanced fine-tuning reduce some dataset-level disparities, but robustness gains often come at the expense of aggregate performance. Together, our results show that classifiers trained on Foundation Model features from aggregated datasets can exhibit shortcut-like behavior, highlighting the need for evaluation protocols and representation-learning objectives that explicitly assess and reduce entanglement between spurious and clinical signals.
 themes:
 - computational-imaging
-projects: []
+projects:
+- fair-mammo
+- eeda
 datasets: []
 tags: []
 featured: true

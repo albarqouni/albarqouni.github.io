@@ -27,7 +27,8 @@ abstract: Automated medical image segmentation suffers from high interobserver v
   results demonstrate that natural-language prompts can provide flexible, accurate, and interpretable control over personalized medical image segmentation. Our implementation is available online1https://github.com/albarqounilab/ProSona.
 themes:
 - computational-imaging
-projects: []
+projects:
+- radiotherapy
 datasets: []
 tags: []
 featured: false

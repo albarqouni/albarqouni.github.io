@@ -20,7 +20,9 @@ abstract: Chemical staining of the blood smears is one of the crucial components
 themes:
 - computational-imaging
 - responsible-ai
-projects: []
+projects:
+- digital-staining
+- computational-hematology
 datasets: []
 tags: []
 featured: true

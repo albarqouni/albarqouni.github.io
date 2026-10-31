@@ -44,6 +44,8 @@ jobs:
           [ -f /tmp/sjr.csv ] && ARGS="--sjr /tmp/sjr.csv"
           python scripts/sync_publications.py $ARGS | tee /tmp/sync.log
           echo 'SYNC_LOG<<EOF' >> $GITHUB_ENV; tail -n 80 /tmp/sync.log >> $GITHUB_ENV; echo 'EOF' >> $GITHUB_ENV
+      - name: Link publications to projects
+        run: python scripts/map_projects.py --apply
       - name: Impact & reach statistics
         env:
           OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}

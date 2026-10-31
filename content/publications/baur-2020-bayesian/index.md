@@ -17,7 +17,8 @@ abstract: Autoencoder-based approaches for Unsupervised Anomaly Detection (UAD) 
   Skip-Autoencoder, which is briefly portrayed.
 themes:
 - computational-imaging
-projects: []
+projects:
+- uncertainty
 datasets: []
 tags: []
 featured: false

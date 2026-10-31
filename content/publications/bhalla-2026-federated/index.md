@@ -24,7 +24,9 @@ abstract: Pancreatic ductal adenocarcinoma (PDAC) remains one of the most lethal
 themes:
 - computational-imaging
 - federated-learning
-projects: []
+projects:
+- pdac-fl
+- federated-learning
 datasets: []
 tags: []
 featured: true

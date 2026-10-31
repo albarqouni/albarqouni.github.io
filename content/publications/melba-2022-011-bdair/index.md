@@ -17,7 +17,8 @@ abstract: Globally, Skin carcinoma is among the most lethal diseases. Millions o
 themes:
 - computational-imaging
 - federated-learning
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

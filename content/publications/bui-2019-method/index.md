@@ -16,7 +16,8 @@ doi: ''
 abstract: ''
 themes:
 - computational-imaging
-projects: []
+projects:
+- siemens-cad-tracking
 datasets: []
 tags: []
 featured: false

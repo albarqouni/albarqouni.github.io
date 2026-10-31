@@ -26,7 +26,8 @@ abstract: Distributed, collaborative, and federated learning, and affordable AI 
 themes:
 - responsible-ai
 - federated-learning
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false

@@ -18,7 +18,8 @@ abstract: Chest X-ray imaging is the most common radiological test for diagnosin
 themes:
 - federated-learning
 - responsible-ai
-projects: []
+projects:
+- federated-learning
 datasets: []
 tags: []
 featured: false
