@@ -22,7 +22,8 @@ themes:
 projects: []
 datasets: []
 tags: []
-featured: false
+featured: true
+featured_pin: true
 links:
 - type: source
   url: https://www.sciencedirect.com/science/article/pii/S1546144026004898

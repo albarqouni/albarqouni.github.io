@@ -55,7 +55,9 @@
   </section>
 
   {{/* ---------- Featured ---------- */}}
-  {{ with where $pubs "Params.featured" true }}
+  {{- $feat := where $pubs "Params.featured" true -}}
+  {{- $pinned := where $feat "Params.featured_pin" true -}}
+  {{ with $pinned | append ($feat | complement $pinned) }}
   <section class="lab-section">
     <h2 class="lab-h2">Featured publications</h2>
     <div class="lab-featured-grid">{{ range first 9 . }}{{ partial "lab/pub-featured.html" . }}{{ end }}</div>

@@ -24,6 +24,7 @@ projects:
 datasets: []
 tags: []
 featured: true
+featured_pin: true
 links:
 - type: pdf
   url: https://ieeexplore.ieee.org/document/10169005

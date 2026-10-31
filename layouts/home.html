@@ -26,7 +26,7 @@
 
   <section class="lab-section">
     <div class="lab-section-head"><h2 class="lab-h2">Featured publications</h2></div>
-    <div class="lab-featured-grid mb-10">{{ range first 6 (where $pubs.ByDate.Reverse "Params.featured" true) }}{{ partial "lab/pub-featured.html" . }}{{ end }}</div>
+    <div class="lab-featured-grid mb-10">{{ $feat := where $pubs.ByDate.Reverse "Params.featured" true }}{{ $pinned := where $feat "Params.featured_pin" true }}{{ range first 6 ($pinned | append ($feat | complement $pinned)) }}{{ partial "lab/pub-featured.html" . }}{{ end }}</div>
     <div class="lab-section-head"><h2 class="lab-h2">Recent publications</h2><a class="lab-see-all" href="{{ "/publications/" | relLangURL }}">All publications →</a></div>
     <div>{{ range first 6 $pubs.ByDate.Reverse }}{{ partial "lab/pub-item.html" . }}{{ end }}</div>
   </section>

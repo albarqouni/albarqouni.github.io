@@ -26,6 +26,7 @@ tags:
 - Deep Learning
 - Federated Learning
 featured: true
+featured_pin: true
 links:
 - type: pdf
   url: https://doi.org/10.1038/s42256-022-00515-2
