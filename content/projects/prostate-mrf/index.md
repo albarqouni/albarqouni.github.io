@@ -14,6 +14,7 @@ authors:
 - barbara-wichtmann
 - julian-luetkens
 - niklas-kerkfeld
+- hyun-ko
 partners:
 - ukb
 - unimelb

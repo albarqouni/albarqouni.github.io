@@ -186,6 +186,9 @@ a.lab-chip:hover { border-color: var(--lab-blue-2); }
 .lab-org { display: inline-flex; align-items: center; gap: .6rem; }
 .lab-org img { height: 1.75rem; width: auto; max-width: 6rem; object-fit: contain; }
 .lab-org-lg img { height: 3rem; max-width: 9rem; }
+/* Wordmark logos (organisation name written beside the emblem) need more width to stay legible. */
+.lab-org-wide img { max-width: 11rem; }
+.lab-org-lg.lab-org-wide img { max-width: 16rem; }
 .dark .lab-org img { background: #fff; border-radius: .35rem; padding: .15rem .3rem; }
 .lab-org-initials { display: inline-flex; align-items: center; justify-content: center; min-width: 2.2rem; height: 1.75rem; padding: 0 .45rem; border-radius: .35rem; background: var(--lab-blue); color: #fff; font-size: .72rem; font-weight: 800; letter-spacing: .03em; }
 .lab-org-lg .lab-org-initials { height: 3rem; min-width: 3rem; font-size: .85rem; }

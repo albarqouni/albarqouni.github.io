@@ -42,8 +42,8 @@
       {{ .Content }}
     </div>
     <aside class="lab-side">
-      <h3>Principal investigators</h3>
-      <div class="lab-row">{{ range .Params.pis }}{{ partial "lab/person.html" . }}{{ end }}</div>
+      {{ with .Params.pis }}<h3>Principal investigators</h3>
+      <div class="lab-row">{{ range . }}{{ partial "lab/person.html" . }}{{ end }}</div>{{ end }}
       {{- /* A co-PI written as "Prof. Jane Doe" resolves to the profile jane-doe, so they link there and are not repeated under People involved. */ -}}
       {{- $coSlugs := slice -}}
       {{ with .Params.co_pis }}<h3>Co-PIs &amp; collaborators</h3>

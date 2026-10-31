@@ -66,7 +66,7 @@ ip-paris: {name: École Polytechnique · IP Paris, short: École, url: '', count
 epfl: {name: EPFL, short: EPFL, url: '', country: Switzerland, lat: 46.52, lon: 6.57, kind: university, logo: epfl.png, network: true}
 uc-berkeley: {name: UC Berkeley, short: UC Berkeley, url: '', country: United States, lat: 37.87, lon: -122.26, kind: university, logo: uc-berkeley.png, network: true}
 usc: {name: USC, short: USC, url: '', country: United States, lat: 34.02, lon: -118.29, kind: university, logo: usc.png, network: true}
-mkw-nrw: {name: Ministry of Culture and Science of North Rhine-Westphalia, short: MKW NRW, url: 'https://www.mkw.nrw', country: Germany, lat: 51.2254, lon: 6.7763, kind: funder, logo: mkw-nrw.png}
+mkw-nrw: {name: Ministry of Culture and Science of North Rhine-Westphalia, short: MKW NRW, url: 'https://www.mkw.nrw', country: Germany, lat: 51.2254, lon: 6.7763, kind: funder, logo: mkw-nrw-wide.png, logo_dark: mkw-nrw-wide-white.png, wide: true}
 mii: {name: Medical Informatics Initiative, short: MII, url: 'https://www.medizininformatik-initiative.de', country: Germany, lat: 52.52, lon: 13.405, kind: network, logo: mii.png}
 omi-consortium: {name: Open Medical Inference (OMI) consortium, short: OMI, url: 'https://omi.ikim.nrw/', country: Germany, lat: 51.4344, lon: 7.0103, kind: network, logo: omi.png}
 uni-tuebingen: {name: University of Tübingen, short: Tübingen, url: 'https://uni-tuebingen.de', country: Germany, lat: 48.5216, lon: 9.0576, kind: university, logo: tuebingen.png, network: true}

@@ -33,6 +33,9 @@ tags:
 - virtual staining
 - generative models
 featured: false
+image:
+  caption: 'Ki67-CD8 whole-slide image, the virtual FAP-CK slide generated from it, and the real FAP-CK stain of a consecutive section ([Lahiani et al., 2019](/publications/lahiani-2019-virtualization/)).'
+  focal_point: Center
 ---
 Histopathological evaluation is central to diagnosis and drug development, especially in oncology. Beyond the standard H&E stain, target-specific stains such as immunohistochemistry (IHC) are often needed — but tissue is scarce, staining is slow and costly, and every additional stain consumes another tissue section. Cancer-immunotherapy biomarker research adds the burden of manually annotating multistain slides.
 

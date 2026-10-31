@@ -11,9 +11,10 @@ funders:
 grant_number: DFG 525002713
 funding_url: ''
 role: co-PI
-pis:
-- shadi-albarqouni
+pis: []
 co_pis:
+- name: shadi-albarqouni
+  org: ukb
 - name: PD Dr. Jakob Weiss
   org: uk-freiburg
 authors:

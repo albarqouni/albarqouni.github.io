@@ -32,6 +32,9 @@ tags:
 - generative models
 - uncertainty
 featured: false
+image:
+  caption: 'Illustration of digital staining: an unstained blood smear (Mikael Häggström, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:White_blood_cell_on_blood_smear,_unstained.jpg), CC0) and a stained neutrophil ([Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Neutrophil_in_a_blood_smear.jpg), CC BY-SA 3.0); different cells, not model output. Teaser CC BY-SA 3.0.'
+  focal_point: Center
 ---
 Chemical staining of blood smears is a routine but expensive, slow and sensitive step of blood analysis, and the lack of unified protocols makes colours and visible structures vary between laboratories. Deep generative models can replace the chemical process with a digital one — but in a medical setting a convincing synthetic image is not enough: it has to keep the cell's diagnostic structures, and the system has to know when its output cannot be trusted.
 

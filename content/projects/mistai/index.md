@@ -62,6 +62,9 @@ tags:
 - Capacity Building
 featured: false
 project_type: funded
+image:
+  caption: 'Illustration: urothelial carcinoma, H&E (CoRus13, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Papillary_urothelial_carcinoma_with_early_invasion,_high_mag.jpg), CC0), and the project''s building blocks.'
+  focal_point: Center
 ---
 The war in Ukraine has severely disrupted medical research and teaching. Digital pathology and AI offer a way to keep both going without depending on physical infrastructure. **MISTAI** is a bilateral cooperation between the **University Hospital Bonn** and **Dnipro State Medical University (DSMU)**, funded by the **Ministry of Culture and Science of North Rhine-Westphalia (MKW NRW)**.
 

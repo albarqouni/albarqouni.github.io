@@ -29,5 +29,8 @@ datasets: []
 tags: []
 featured: true
 show_partners: true
+image:
+  caption: 'Corrosion imprints of the Mg alloy AZ31 from the multi-well screening, an as-exposed imprint and its measured volume-loss depth map — the target that our U-Net learns to predict from the imprint ([Dammann et al., 2026](/publications/dammann-2026-unet/)). Panels adapted from [Song et al., Corrosion Science 2025](/publications/song-2025-efficient/), CC BY 4.0.'
+  focal_point: Center
 ---
 The fundamental concept of the project is to develop a pattern recognition routine that enables high-throughput quantification of the effect of small organic additives on the degradation of a magnesium alloy by automated classification of corrosion imprints. Subsequently, the quantified optical signal will be used as a target parameter for different supervised and semi-supervised learning approaches to predict the performance of untested additives. Accuracy and robustness of the developed models will be validated by experimental blind tests.

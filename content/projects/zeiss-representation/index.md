@@ -35,6 +35,9 @@ tags:
 - disentanglement
 - fairness
 featured: false
+image:
+  caption: 'Multi-scale microaneurysm segmentation on a fundus image — green: true positives, red: missed, cyan: false positives ([Sarhan et al., MICCAI 2019](/publications/sarhan-2019-multi/)).'
+  focal_point: Center
 ---
 Data-driven models only reach clinical practice if what they learn is discriminative enough for subtle findings, compact and interpretable enough to be inspected, and free of information it should not rely on. Together with Carl Zeiss Meditec, the project addressed all three through representation learning, starting from retinal imaging for diabetic-retinopathy screening.
 
